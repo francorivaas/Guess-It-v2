@@ -833,6 +833,8 @@ MonoBehaviour:
   livesText: {fileID: 1550142954}
   lifeUI: {fileID: 1297389434}
   gainedPointsText: {fileID: 852481984}
+  gainedPointsIntroDuration: 0.15
+  gainedPointsInitialHoldDuration: 1
   scoreTransferDuration: 0.65
   gainedPointsHoldDuration: 0.08
   gainedPointsFadeDuration: 0.2
@@ -9974,7 +9976,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Aceptar
+  m_text: Responder
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06f212fa16d26144eb2e1069c8d9732d, type: 2}
   m_sharedMaterial: {fileID: -2574739469799082455, guid: 06f212fa16d26144eb2e1069c8d9732d, type: 2}
@@ -10002,7 +10004,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 72
-  m_fontSizeBase: 24
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18

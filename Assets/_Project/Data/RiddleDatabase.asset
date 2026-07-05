@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f466bf6194adddc499a1070e0ad4834f, type: 3}
+  m_Name: RiddleDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleDatabaseSO
+  riddles:
+  - {fileID: 11400000, guid: 66132640c44f3c14ab2d6a709db46fe4, type: 2}
+  - {fileID: 11400000, guid: 0ceaf11279a25644e93def5ed8512560, type: 2}
+  - {fileID: 11400000, guid: f324e8ed708e92e43b5de13c68921222, type: 2}

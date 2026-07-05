@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: place_0014
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: place_0014
+  category: lugares
+  difficulty: 0
+  answer: Roma
+  acceptedAnswers:
+  - Roma
+  - rome
+  hints:
+  - "Sus capas hist\xF3ricas combinan ruinas antiguas, plazas barrocas y vida urbana
+    moderna."
+  - "Fue centro de un imperio que dej\xF3 caminos, leyes y monumentos por Europa."
+  - "El Foro y el Pante\xF3n forman parte de su paisaje arqueol\xF3gico."
+  - "El Coliseo es uno de sus s\xEDmbolos m\xE1s reconocibles."
+  - Capital italiana conocida como la ciudad eterna.

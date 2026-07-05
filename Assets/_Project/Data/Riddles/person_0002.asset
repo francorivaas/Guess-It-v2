@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: person_0002
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: person_0002
+  category: personas
+  difficulty: 0
+  answer: Albert Einstein
+  acceptedAnswers:
+  - Albert Einstein
+  - einstein
+  hints:
+  - "Su apellido se volvi\xF3 sin\xF3nimo popular de inteligencia."
+  - "Trabaj\xF3 ideas que cambiaron la comprensi\xF3n del espacio y el tiempo."
+  - "Una f\xF3rmula suya relaciona energ\xEDa, masa y velocidad de la luz."
+  - Se lo suele retratar con cabello blanco despeinado.
+  - "F\xEDsico creador de la teor\xEDa de la relatividad."

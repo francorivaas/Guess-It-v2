@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: movie_0023
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: movie_0023
+  category: peliculas
+  difficulty: 2
+  answer: Ciudad de Dios
+  acceptedAnswers:
+  - Ciudad de Dios
+  - city of god
+  - cidade de deus
+  hints:
+  - "Muestra el crecimiento de la violencia en una favela a trav\xE9s de varias generaciones."
+  - "La c\xE1mara sigue a j\xF3venes que entran en redes criminales desde edades
+    tempranas."
+  - "Un aspirante a fot\xF3grafo observa el ascenso de bandas rivales."
+  - "Z\xE9 Peque\xF1o es una presencia central en la historia."
+  - "Pel\xEDcula brasile\xF1a ambientada en una comunidad de R\xEDo de Janeiro."

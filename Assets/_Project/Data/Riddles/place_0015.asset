@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: place_0015
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: place_0015
+  category: lugares
+  difficulty: 0
+  answer: "R\xEDo de Janeiro"
+  acceptedAnswers:
+  - "R\xEDo de Janeiro"
+  - rio de janeiro
+  - rio
+  - "r\xEDo"
+  - rio de janeiro brasil
+  hints:
+  - "Su paisaje urbano combina monta\xF1as, mar y playas muy famosas."
+  - "Una celebraci\xF3n anual llena sus calles de samba, disfraces y escuelas desfilando."
+  - "El Pan de Az\xFAcar y Copacabana son referencias visuales centrales."
+  - Una estatua con brazos abiertos mira la ciudad desde una cima.
+  - "Ciudad brasile\xF1a del Cristo Redentor."

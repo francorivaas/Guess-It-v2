@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: music_band_0016
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: music_band_0016
+  category: bandas musicales
+  difficulty: 0
+  answer: ABBA
+  acceptedAnswers:
+  - ABBA
+  hints:
+  - "Sus armon\xEDas vocales y melod\xEDas pop salieron de Suecia hacia todo el mundo."
+  - "Gan\xF3 Eurovisi\xF3n antes de convertirse en fen\xF3meno internacional."
+  - Varias de sus canciones inspiraron un musical ambientado en una isla griega.
+  - "Dancing Queen y Mamma Mia son dos de sus temas m\xE1s recordados."
+  - "Cuarteto sueco formado por Agnetha, Bj\xF6rn, Benny y Anni-Frid."

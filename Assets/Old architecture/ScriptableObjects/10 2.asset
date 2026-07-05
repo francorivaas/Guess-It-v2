@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031384b2ec308414e90a82c8797b08ea, type: 3}
+  m_Name: 10 2
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  answer: 21
+  hint1: "Es un n\xFAmero natural."
+  hint2: "En muchos pa\xEDses marca una edad importante."
+  hint3: "Se asocia con alcanzar la mayor\xEDa de edad plena."
+  hint4: "En Estados Unidos es la edad m\xEDnima para consumir alcohol legalmente."
+  hint5: Es mayor a 20 pero menor a 25.

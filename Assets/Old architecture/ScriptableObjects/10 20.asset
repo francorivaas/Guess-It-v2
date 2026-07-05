@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031384b2ec308414e90a82c8797b08ea, type: 3}
+  m_Name: 10 20
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  answer: Stephen Hawking
+  hint1: "Fue cient\xEDfico."
+  hint2: "Se especializ\xF3 en el estudio del universo."
+  hint3: "Public\xF3 libros de divulgaci\xF3n cient\xEDfica."
+  hint4: "Investig\xF3 los agujeros negros."
+  hint5: Es autor de "Una breve historia del tiempo."

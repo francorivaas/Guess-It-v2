@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031384b2ec308414e90a82c8797b08ea, type: 3}
+  m_Name: 9
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  answer: Elon Musk
+  hint1: Es empresario.
+  hint2: "Est\xE1 vinculado a la tecnolog\xEDa y la innovaci\xF3n."
+  hint3: "Participa en proyectos relacionados con veh\xEDculos el\xE9ctricos y espacio."
+  hint4: Es el CEO de Tesla.
+  hint5: "Tambi\xE9n est\xE1 asociado a SpaceX."

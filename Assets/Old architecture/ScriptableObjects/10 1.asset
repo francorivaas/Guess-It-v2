@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031384b2ec308414e90a82c8797b08ea, type: 3}
+  m_Name: 10 1
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  answer: 13
+  hint1: "Es un n\xFAmero natural."
+  hint2: Algunos edificios omiten este piso.
+  hint3: "Existe una superstici\xF3n relacionada con el viernes asociado a este n\xFAmero."
+  hint4: "Viene despu\xE9s del 12, pero antes del 15"
+  hint5: Tiene fama de traer mala suerte.

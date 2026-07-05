@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031384b2ec308414e90a82c8797b08ea, type: 3}
+  m_Name: 10 6
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  answer: 0
+  hint1: "Es un n\xFAmero especial."
+  hint2: "Es fundamental en la inform\xE1tica moderna."
+  hint3: No es positivo ni negativo.
+  hint4: Representa ausencia de cantidad.
+  hint5: "Es el n\xFAmero que aparece cuando no hay nada."

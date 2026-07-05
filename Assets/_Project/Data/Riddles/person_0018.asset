@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: person_0018
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: person_0018
+  category: personas
+  difficulty: 1
+  answer: Charles Darwin
+  acceptedAnswers:
+  - Charles Darwin
+  - darwin
+  hints:
+  - Sus ideas cambiaron la forma de entender la diversidad de los seres vivos.
+  - "Un viaje en barco le permiti\xF3 observar especies y ambientes muy distintos."
+  - "Las islas del Pac\xEDfico fueron importantes para sus observaciones sobre adaptaci\xF3n."
+  - "Public\xF3 una teor\xEDa basada en selecci\xF3n natural."
+  - "Naturalista brit\xE1nico autor de El origen de las especies."

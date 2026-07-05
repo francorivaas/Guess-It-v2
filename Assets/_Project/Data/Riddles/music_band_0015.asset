@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: music_band_0015
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: music_band_0015
+  category: bandas musicales
+  difficulty: 0
+  answer: The Rolling Stones
+  acceptedAnswers:
+  - The Rolling Stones
+  - Rolling Stones
+  - los rolling stones
+  hints:
+  - "Su carrera atraves\xF3 muchas d\xE9cadas sin abandonar el pulso del rock cl\xE1sico."
+  - "Su logotipo de lengua roja es uno de los emblemas m\xE1s reconocibles del rock."
+  - Un cantante de movimientos exagerados comparte escena con un guitarrista de riffs
+    secos.
+  - "Satisfaction y Paint It Black est\xE1n entre sus canciones centrales."
+  - "Banda brit\xE1nica de Mick Jagger y Keith Richards."

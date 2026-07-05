@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: person_0010
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: person_0010
+  category: personas
+  difficulty: 2
+  answer: Nikola Tesla
+  acceptedAnswers:
+  - Nikola Tesla
+  - tesla
+  hints:
+  - "Imagin\xF3 sistemas el\xE9ctricos y de transmisi\xF3n con enorme influencia
+    t\xE9cnica."
+  - Su figura suele asociarse con laboratorios, bobinas y demostraciones de alto
+    voltaje.
+  - "Defendi\xF3 la corriente alterna frente a otros modelos el\xE9ctricos."
+  - "Su apellido nombra una unidad de campo magn\xE9tico y una empresa moderna."
+  - Inventor serbio-estadounidense relacionado con electricidad y magnetismo.

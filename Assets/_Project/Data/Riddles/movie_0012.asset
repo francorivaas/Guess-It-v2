@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: movie_0012
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: movie_0012
+  category: peliculas
+  difficulty: 2
+  answer: El viaje de Chihiro
+  acceptedAnswers:
+  - El viaje de Chihiro
+  - viaje de chihiro
+  - spirited away
+  - sen to chihiro no kamikakushi
+  hints:
+  - "Una ni\xF1a debe trabajar en un lugar regido por reglas extra\xF1as."
+  - Sus padres quedan transformados al cruzar a otro mundo.
+  - "Hay una casa de ba\xF1os para esp\xEDritus y una bruja de gran cabeza."
+  - Aparecen Haku, Sin Cara y una protagonista que pierde parte de su nombre.
+  - "Pel\xEDcula animada de Studio Ghibli dirigida por Hayao Miyazaki."

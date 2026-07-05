@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: music_band_0010
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: music_band_0010
+  category: bandas musicales
+  difficulty: 2
+  answer: The Police
+  acceptedAnswers:
+  - The Police
+  - police
+  hints:
+  - "Su sonido mezcl\xF3 rock, pop y ritmos cercanos al reggae."
+  - "Un tr\xEDo brit\xE1nico tuvo un cantante que luego hizo carrera solista muy
+    exitosa."
+  - "Una canci\xF3n suya observa a alguien con una vigilancia inquietante."
+  - "Entre sus temas est\xE1n Roxanne y Every Breath You Take."
+  - Banda de Sting, Andy Summers y Stewart Copeland.

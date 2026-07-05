@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: place_0001
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: place_0001
+  category: lugares
+  difficulty: 0
+  answer: "Par\xEDs"
+  acceptedAnswers:
+  - "Par\xEDs"
+  - paris
+  - ciudad de la luz
+  hints:
+  - "Su imagen tur\xEDstica combina caf\xE9s, puentes y grandes museos."
+  - "Un r\xEDo atraviesa la ciudad y divide zonas hist\xF3ricas."
+  - "El Louvre y Notre Dame est\xE1n entre sus puntos m\xE1s visitados."
+  - "La Torre Eiffel es su s\xEDmbolo m\xE1s reconocible."
+  - Capital francesa conocida como ciudad de la luz.

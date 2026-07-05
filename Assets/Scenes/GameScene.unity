@@ -832,6 +832,12 @@ MonoBehaviour:
   scoreText: {fileID: 913285046}
   livesText: {fileID: 1550142954}
   lifeUI: {fileID: 1297389434}
+  gainedPointsText: {fileID: 852481984}
+  scoreTransferDuration: 0.65
+  gainedPointsHoldDuration: 0.08
+  gainedPointsFadeDuration: 0.2
+  finalScorePulseScale: 1.15
+  finalScorePulseDuration: 0.18
   answerInput: {fileID: 1373268234}
   messageText: {fileID: 1795172331}
   uiToShake: {fileID: 709729901}
@@ -8165,7 +8171,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 1, g: 0.88825727, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

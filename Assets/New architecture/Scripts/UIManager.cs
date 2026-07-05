@@ -17,17 +17,39 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button requestHintButton;
     [SerializeField] private Graphic requestHintButtonGraphic;
     [SerializeField] private TextMeshProUGUI requestHintButtonText;
-
     [SerializeField] private Color availableHintColor = Color.white;
-    [SerializeField]
-    private Color unavailableHintColor =
-        new Color32(120, 120, 120, 255);
-
+    [SerializeField] private Color unavailableHintColor = new Color32(120, 120, 120, 255);
     [SerializeField] private AudioClip noMoreHintsSFX;
+
     [Header("Status")]
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI livesText;
     [SerializeField] private LifeUI lifeUI;
+
+    [Header("Score Transfer")]
+    [Tooltip("Texto que aparece debajo del puntaje total, por ejemplo: +350.")]
+    [SerializeField] private TextMeshProUGUI gainedPointsText;
+
+    [Tooltip("Duración de la pequeña animación de entrada del texto +XXX.")]
+    [SerializeField, Min(0.01f)] private float gainedPointsIntroDuration = 0.15f;
+
+    [Tooltip("Tiempo que el +XXX permanece completo en pantalla antes de empezar a transferirse.")]
+    [SerializeField, Min(0f)] private float gainedPointsInitialHoldDuration = 1f;
+
+    [Tooltip("Tiempo durante el cual los puntos pasan del bonus al puntaje total.")]
+    [SerializeField, Min(0.05f)] private float scoreTransferDuration = 0.65f;
+
+    [Tooltip("Tiempo que permanece visible el +0 antes de desaparecer.")]
+    [SerializeField, Min(0f)] private float gainedPointsHoldDuration = 0.08f;
+
+    [Tooltip("Duración del desvanecimiento final del texto de puntos ganados.")]
+    [SerializeField, Min(0.01f)] private float gainedPointsFadeDuration = 0.2f;
+
+    [Tooltip("Escala máxima del pequeño pulso final del puntaje total.")]
+    [SerializeField, Range(1f, 1.5f)] private float finalScorePulseScale = 1.15f;
+
+    [Tooltip("Duración del pulso final del puntaje total.")]
+    [SerializeField, Min(0.05f)] private float finalScorePulseDuration = 0.18f;
 
     [Header("Answer")]
     [SerializeField] private TMP_InputField answerInput;
@@ -63,8 +85,14 @@ public class UIManager : MonoBehaviour
     private readonly List<GameObject> spawnedCards = new List<GameObject>();
 
     private Coroutine streakAnimation;
+    private Coroutine scoreTransferAnimation;
+
     private Vector3 originalStreakPosition;
+    private Vector3 originalScoreScale = Vector3.one;
+    private Vector3 originalGainedPointsScale = Vector3.one;
+
     private bool originalStreakPositionSaved;
+    private bool scoreVisualsInitialized;
     private bool inputLocked;
     private bool paused;
     private int displayedScore;
@@ -89,6 +117,17 @@ public class UIManager : MonoBehaviour
     {
         ShowMessage(string.Empty);
         RegisterButtonAnimations();
+        InitializeScoreVisuals();
+
+        if (GameManager.Instance != null)
+        {
+            displayedScore = GameManager.Instance.Score;
+        }
+
+        if (scoreText != null)
+        {
+            scoreText.text = displayedScore.ToString();
+        }
     }
 
     private void OnDestroy()
@@ -148,17 +187,26 @@ public class UIManager : MonoBehaviour
         lifeUI?.UpdateLives(GameManager.Instance.Lives);
     }
 
+    /// <summary>
+    /// Muestra el feedback de acierto y anima la transferencia de los puntos ganados
+    /// hacia el puntaje total. Por ejemplo: +350 baja hasta +0 mientras el puntaje
+    /// total aumenta hasta alcanzar totalScore.
+    /// </summary>
     public void ShowCorrectFeedback(int totalScore, int gainedPoints)
     {
-        displayedScore = totalScore;
-
-        if (scoreText != null)
-        {
-            scoreText.text = displayedScore.ToString();
-        }
-
         ShowMessage($"¡Correcto! +{gainedPoints}");
         PlayEffect(correctSFX);
+        InitializeScoreVisuals();
+
+        if (scoreTransferAnimation != null)
+        {
+            StopCoroutine(scoreTransferAnimation);
+            RestoreScoreVisuals();
+        }
+
+        scoreTransferAnimation = StartCoroutine(
+            AnimateScoreTransfer(totalScore, Mathf.Max(0, gainedPoints))
+        );
     }
 
     public void TriggerFailureFeedback()
@@ -319,6 +367,241 @@ public class UIManager : MonoBehaviour
         }
 
         LockInput(false);
+    }
+
+    private IEnumerator AnimateScoreTransfer(int totalScore, int gainedPoints)
+    {
+        int startScore = Mathf.Max(0, totalScore - gainedPoints);
+        displayedScore = startScore;
+
+        if (scoreText != null)
+        {
+            scoreText.text = displayedScore.ToString();
+            scoreText.transform.localScale = originalScoreScale;
+        }
+
+        if (gainedPointsText != null)
+        {
+            gainedPointsText.gameObject.SetActive(true);
+            gainedPointsText.alpha = 1f;
+            gainedPointsText.text = $"+{gainedPoints}";
+            gainedPointsText.transform.localScale = originalGainedPointsScale * 0.75f;
+        }
+
+        if (gainedPoints <= 0)
+        {
+            displayedScore = totalScore;
+
+            if (scoreText != null)
+            {
+                scoreText.text = displayedScore.ToString();
+            }
+
+            HideGainedPointsImmediately();
+            scoreTransferAnimation = null;
+            yield break;
+        }
+
+        // Entrada visual del +XXX.
+        yield return AnimateGainedPointsEntrance();
+
+        // El bonus permanece completo para que el jugador pueda leer cuánto ganó.
+        if (gainedPointsInitialHoldDuration > 0f)
+        {
+            yield return new WaitForSeconds(gainedPointsInitialHoldDuration);
+        }
+
+        float elapsed = 0f;
+
+        while (elapsed < scoreTransferDuration)
+        {
+            elapsed += Time.deltaTime;
+            float linearProgress = Mathf.Clamp01(elapsed / scoreTransferDuration);
+            float easedProgress = Mathf.SmoothStep(0f, 1f, linearProgress);
+
+            int transferredPoints = Mathf.RoundToInt(gainedPoints * easedProgress);
+            int remainingPoints = Mathf.Max(0, gainedPoints - transferredPoints);
+
+            displayedScore = startScore + transferredPoints;
+
+            if (scoreText != null)
+            {
+                scoreText.text = displayedScore.ToString();
+            }
+
+            if (gainedPointsText != null)
+            {
+                gainedPointsText.text = $"+{remainingPoints}";
+                gainedPointsText.transform.localScale = originalGainedPointsScale;
+            }
+
+            yield return null;
+        }
+
+        displayedScore = totalScore;
+
+        if (scoreText != null)
+        {
+            scoreText.text = displayedScore.ToString();
+        }
+
+        if (gainedPointsText != null)
+        {
+            gainedPointsText.text = "+0";
+        }
+
+        yield return PulseFinalScore();
+
+        if (gainedPointsHoldDuration > 0f)
+        {
+            yield return new WaitForSeconds(gainedPointsHoldDuration);
+        }
+
+        yield return FadeOutGainedPoints();
+
+        RestoreScoreVisuals();
+        scoreTransferAnimation = null;
+    }
+
+    private IEnumerator AnimateGainedPointsEntrance()
+    {
+        if (gainedPointsText == null)
+        {
+            yield break;
+        }
+
+        float elapsed = 0f;
+        Vector3 startScale = originalGainedPointsScale * 0.75f;
+        Vector3 overshootScale = originalGainedPointsScale * 1.12f;
+
+        while (elapsed < gainedPointsIntroDuration)
+        {
+            elapsed += Time.deltaTime;
+            float progress = Mathf.Clamp01(elapsed / gainedPointsIntroDuration);
+
+            if (progress < 0.7f)
+            {
+                float firstPhase = progress / 0.7f;
+                gainedPointsText.transform.localScale = Vector3.Lerp(
+                    startScale,
+                    overshootScale,
+                    firstPhase
+                );
+            }
+            else
+            {
+                float secondPhase = (progress - 0.7f) / 0.3f;
+                gainedPointsText.transform.localScale = Vector3.Lerp(
+                    overshootScale,
+                    originalGainedPointsScale,
+                    secondPhase
+                );
+            }
+
+            yield return null;
+        }
+
+        gainedPointsText.transform.localScale = originalGainedPointsScale;
+    }
+
+    private IEnumerator PulseFinalScore()
+    {
+        if (scoreText == null)
+        {
+            yield break;
+        }
+
+        float elapsed = 0f;
+        Vector3 pulseScale = originalScoreScale * finalScorePulseScale;
+
+        while (elapsed < finalScorePulseDuration)
+        {
+            elapsed += Time.deltaTime;
+            float progress = Mathf.Clamp01(elapsed / finalScorePulseDuration);
+            float curve = Mathf.Sin(progress * Mathf.PI);
+
+            scoreText.transform.localScale = Vector3.Lerp(
+                originalScoreScale,
+                pulseScale,
+                curve
+            );
+
+            yield return null;
+        }
+
+        scoreText.transform.localScale = originalScoreScale;
+    }
+
+    private IEnumerator FadeOutGainedPoints()
+    {
+        if (gainedPointsText == null)
+        {
+            yield break;
+        }
+
+        float elapsed = 0f;
+
+        while (elapsed < gainedPointsFadeDuration)
+        {
+            elapsed += Time.deltaTime;
+            float progress = Mathf.Clamp01(elapsed / gainedPointsFadeDuration);
+
+            gainedPointsText.alpha = 1f - progress;
+            gainedPointsText.transform.localScale = Vector3.Lerp(
+                originalGainedPointsScale,
+                originalGainedPointsScale * 0.9f,
+                progress
+            );
+
+            yield return null;
+        }
+
+        HideGainedPointsImmediately();
+    }
+
+    private void InitializeScoreVisuals()
+    {
+        if (scoreVisualsInitialized)
+        {
+            return;
+        }
+
+        if (scoreText != null)
+        {
+            originalScoreScale = scoreText.transform.localScale;
+        }
+
+        if (gainedPointsText != null)
+        {
+            originalGainedPointsScale = gainedPointsText.transform.localScale;
+            HideGainedPointsImmediately();
+        }
+
+        scoreVisualsInitialized = true;
+    }
+
+    private void RestoreScoreVisuals()
+    {
+        if (scoreText != null)
+        {
+            scoreText.transform.localScale = originalScoreScale;
+            scoreText.text = displayedScore.ToString();
+        }
+
+        HideGainedPointsImmediately();
+    }
+
+    private void HideGainedPointsImmediately()
+    {
+        if (gainedPointsText == null)
+        {
+            return;
+        }
+
+        gainedPointsText.alpha = 0f;
+        gainedPointsText.text = string.Empty;
+        gainedPointsText.transform.localScale = originalGainedPointsScale;
+        gainedPointsText.gameObject.SetActive(false);
     }
 
     private IEnumerator SpawnInitialCardsSequentially(
@@ -656,7 +939,7 @@ public class UIManager : MonoBehaviour
                     : "Sin pistas";
         }
 
-        // Debe continuar activo para poder emitir el sonido.
+        // Debe continuar activo para poder emitir el sonido de acción bloqueada.
         if (requestHintButton != null)
         {
             requestHintButton.interactable = true;

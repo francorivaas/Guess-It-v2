@@ -827,15 +827,15 @@ MonoBehaviour:
   requestHintButtonGraphic: {fileID: 244635110}
   requestHintButtonText: {fileID: 2120090080}
   availableHintColor: {r: 1, g: 1, b: 1, a: 1}
-  unavailableHintColor: {r: 0.47058824, g: 0.47058824, b: 0.47058824, a: 1}
-  noMoreHintsSFX: {fileID: 0}
+  unavailableHintColor: {r: 0.2905661, g: 0.2905661, b: 0.2905661, a: 1}
+  noMoreHintsSFX: {fileID: 8300000, guid: bee1fcd82cbd3984182cf62624120c33, type: 3}
   scoreText: {fileID: 913285046}
   livesText: {fileID: 1550142954}
   lifeUI: {fileID: 1297389434}
   answerInput: {fileID: 1373268234}
   messageText: {fileID: 1795172331}
   uiToShake: {fileID: 709729901}
-  effectsAudioSource: {fileID: 0}
+  effectsAudioSource: {fileID: 1897069653}
   correctSFX: {fileID: 8300000, guid: 68ed2de7a8e0f744a84e9b7ca50a40fe, type: 3}
   incorrectSFX: {fileID: 8300000, guid: bee1fcd82cbd3984182cf62624120c33, type: 3}
   hintCardSFX: {fileID: 8300000, guid: b8966d9ef5cdf0142909289a1e07a5f8, type: 3}
@@ -6010,7 +6010,7 @@ GameObject:
   - component: {fileID: 244635110}
   - component: {fileID: 244635109}
   m_Layer: 5
-  m_Name: RequestHintButton
+  m_Name: Request Hint Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7865,7 +7865,7 @@ RectTransform:
   m_GameObject: {fileID: 682369350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 984530263}
@@ -7888,14 +7888,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.17850478, g: 0.32658818, b: 0.5169811, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4364034832326165938, guid: c0e1fea581b861047ae498eab3874c81, type: 3}
+  m_Sprite: {fileID: -1295862792581904978, guid: ea2d6ec8385857441944a4813e8f2835, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11396,7 +11396,7 @@ GameObject:
   - component: {fileID: 2084974782}
   - component: {fileID: 2084974781}
   m_Layer: 5
-  m_Name: PauseButton
+  m_Name: Pause Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

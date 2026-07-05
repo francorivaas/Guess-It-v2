@@ -14,6 +14,16 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject hintCardPrefab;
     [SerializeField] private ScrollRect scrollRect;
 
+    [SerializeField] private Button requestHintButton;
+    [SerializeField] private Graphic requestHintButtonGraphic;
+    [SerializeField] private TextMeshProUGUI requestHintButtonText;
+
+    [SerializeField] private Color availableHintColor = Color.white;
+    [SerializeField]
+    private Color unavailableHintColor =
+        new Color32(120, 120, 120, 255);
+
+    [SerializeField] private AudioClip noMoreHintsSFX;
     [Header("Status")]
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI livesText;
@@ -92,6 +102,7 @@ public class UIManager : MonoBehaviour
     public void RefreshUI()
     {
         RefreshStatusUI();
+        RefreshHintButtonState();
 
         RiddleSO currentRiddle = GameManager.Instance?.GetCurrentRiddle();
 
@@ -170,10 +181,18 @@ public class UIManager : MonoBehaviour
 
     public void RequestHint()
     {
-        if (!inputLocked)
+        if (inputLocked || GameManager.Instance == null)
         {
-            GameManager.Instance?.RequestHint();
+            return;
         }
+
+        if (!GameManager.Instance.HasMoreHints())
+        {
+            PlayEffect(noMoreHintsSFX);
+            return;
+        }
+
+        GameManager.Instance.RequestHint();
     }
 
     public void ShowMessage(string message)
@@ -612,6 +631,35 @@ public class UIManager : MonoBehaviour
         if (answerInput != null)
         {
             answerInput.interactable = !shouldLock;
+        }
+    }
+
+    private void RefreshHintButtonState()
+    {
+        bool hasMoreHints =
+            GameManager.Instance != null &&
+            GameManager.Instance.HasMoreHints();
+
+        if (requestHintButtonGraphic != null)
+        {
+            requestHintButtonGraphic.color =
+                hasMoreHints
+                    ? availableHintColor
+                    : unavailableHintColor;
+        }
+
+        if (requestHintButtonText != null)
+        {
+            requestHintButtonText.text =
+                hasMoreHints
+                    ? "Pedir pista"
+                    : "Sin pistas";
+        }
+
+        // Debe continuar activo para poder emitir el sonido.
+        if (requestHintButton != null)
+        {
+            requestHintButton.interactable = true;
         }
     }
 }

@@ -160,9 +160,9 @@ public class GameManager : MonoBehaviour
 
         if (UIManager.Instance != null)
         {
-            UIManager.Instance.ShowMessage(
-                "Incorrecto. Pierdes 1 vida.\n¡Aquí tienes una pista extra!"
-            );
+            //UIManager.Instance.ShowMessage(
+            //    "Incorrecto. Pierdes 1 vida.\n¡Aquí tienes una pista extra!"
+            //);
             UIManager.Instance.RefreshUI();
             UIManager.Instance.TriggerErrorShake();
         }
@@ -303,5 +303,11 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
+    }
+
+    public bool HasMoreHints()
+    {
+        return currentRiddle != null &&
+               currentHintCount < GetTotalHintCount();
     }
 }

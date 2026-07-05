@@ -822,33 +822,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
   hintContainer: {fileID: 1515631777}
   hintCardPrefab: {fileID: 8290500358267781101, guid: bd3e9caa874e17b42a6d0fd6e7b935dc, type: 3}
-  uiToShake: {fileID: 709729901}
+  scrollRect: {fileID: 709729902}
   scoreText: {fileID: 913285046}
   livesText: {fileID: 1550142954}
-  messageText: {fileID: 1795172331}
+  lifeUI: {fileID: 1297389434}
   answerInput: {fileID: 1373268234}
+  messageText: {fileID: 1795172331}
+  uiToShake: {fileID: 709729901}
+  effectsAudioSource: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: 68ed2de7a8e0f744a84e9b7ca50a40fe, type: 3}
+  incorrectSFX: {fileID: 8300000, guid: bee1fcd82cbd3984182cf62624120c33, type: 3}
+  hintCardSFX: {fileID: 8300000, guid: b8966d9ef5cdf0142909289a1e07a5f8, type: 3}
   streakText: {fileID: 146499104}
   streakParticles: {fileID: 206283745}
   streakSFX: {fileID: 8300000, guid: 49b7968276b059d42a64e5fdd6e744d0, type: 3}
-  streakDisplayDuration: 1.5
-  streakFadeDuration: 0.5
-  shakeIntensity: 4
   streakColorVariants:
   - {r: 1, g: 0.82906055, b: 0, a: 0}
   - {r: 0, g: 0.79567075, b: 1, a: 0}
   - {r: 1, g: 0, b: 0, a: 0}
   - {r: 1, g: 0, b: 0.9316982, a: 0}
   - {r: 0.027214885, g: 0, b: 1, a: 0}
-  gainedPointsText: {fileID: 852481984}
-  lifeUI: {fileID: 1297389434}
-  correctSFX: {fileID: 8300000, guid: 68ed2de7a8e0f744a84e9b7ca50a40fe, type: 3}
-  incorrectSFX: {fileID: 8300000, guid: bee1fcd82cbd3984182cf62624120c33, type: 3}
-  hintCardSFX: {fileID: 8300000, guid: b8966d9ef5cdf0142909289a1e07a5f8, type: 3}
-  scrollRect: {fileID: 709729902}
-  gameOverPanel: {fileID: 562866073}
-  finalScoreText: {fileID: 498770783}
-  highScoreText: {fileID: 104443057}
-  newHighScoreBadge: {fileID: 0}
+  streakDisplayDuration: 1.5
+  streakFadeDuration: 0.5
+  streakShakeIntensity: 4
   pausePanel: {fileID: 1052606926}
   backgroundMusic: {fileID: 328134170}
   musicButtonImage: {fileID: 0}
@@ -6158,9 +6154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   database: {fileID: 11400000, guid: 2f86dc578c848ec4aae0e42ca60c7a72, type: 2}
-  score: 0
-  lives: 3
-  currentStreak: 0
+  startingLives: 3
+  initialHintCount: 3
 --- !u!4 &288829175
 Transform:
   m_ObjectHideFlags: 0

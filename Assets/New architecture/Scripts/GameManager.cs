@@ -162,7 +162,7 @@ public class GameManager : MonoBehaviour
         if (Lives <= 0 || noMoreHints)
         {
             UIManager.Instance?.RefreshStatusUI();
-            UIManager.Instance?.ShowRevealPanel(currentRiddle.answer);
+            UIManager.Instance?.ShowRevealPanel("La respuesta era: " + currentRiddle.answer);
             return;
         }
 

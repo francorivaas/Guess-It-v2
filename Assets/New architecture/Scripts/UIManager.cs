@@ -87,7 +87,26 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject revealPanel;
     [SerializeField] private TextMeshProUGUI correctAnswerText;
 
+    [Header("Category Chip")]
+    [SerializeField] private GameObject categoryChip;
+    [SerializeField] private TextMeshProUGUI categoryText;
+    [SerializeField] private CanvasGroup categoryCanvasGroup;
+    [SerializeField] private RectTransform categoryChipRoot;
+
+    [SerializeField, Min(0.05f)]
+    private float categoryChipAnimationDuration = 0.25f;
+
+    [SerializeField, Range(0.5f, 1f)]
+    private float categoryChipStartScale = 0.75f;
+
+    [SerializeField, Min(0f)]
+    private float categoryChipStartOffsetY = 18f;
     private readonly List<GameObject> spawnedCards = new List<GameObject>();
+
+    private Coroutine categoryChipAnimation;
+    private Vector2 categoryChipBasePosition;
+    private bool categoryChipPositionSaved;
+    private bool categoryChipNeedsAnimation = true;
 
     private Coroutine streakAnimation;
     private Coroutine scoreTransferAnimation;
@@ -116,6 +135,8 @@ public class UIManager : MonoBehaviour
         {
             effectsAudioSource = GetComponentInChildren<AudioSource>();
         }
+
+        InitializeCategoryChip();
     }
 
     private void Start()
@@ -132,6 +153,161 @@ public class UIManager : MonoBehaviour
         if (scoreText != null)
         {
             scoreText.text = displayedScore.ToString();
+        }
+    }
+    private void InitializeCategoryChip()
+    {
+        if (categoryChipRoot != null)
+        {
+            categoryChipBasePosition =
+                categoryChipRoot.anchoredPosition;
+
+            categoryChipPositionSaved = true;
+        }
+
+        if (categoryCanvasGroup != null)
+        {
+            categoryCanvasGroup.alpha = 0f;
+        }
+
+        if (categoryChip != null)
+        {
+            categoryChip.SetActive(false);
+        }
+    }
+
+    private void RefreshCategoryChip(RiddleSO currentRiddle)
+    {
+        if (
+            categoryChip == null ||
+            categoryText == null ||
+            currentRiddle == null
+        )
+        {
+            return;
+        }
+
+        string category = currentRiddle.category?.Trim();
+
+        if (string.IsNullOrWhiteSpace(category))
+        {
+            categoryChip.SetActive(false);
+            return;
+        }
+
+        categoryText.text =
+            $"CATEGORÍA: {category.ToUpperInvariant()}";
+
+        categoryChip.SetActive(true);
+
+        if (!categoryChipPositionSaved && categoryChipRoot != null)
+        {
+            categoryChipBasePosition =
+                categoryChipRoot.anchoredPosition;
+
+            categoryChipPositionSaved = true;
+        }
+
+        // RequestHint también llama a RefreshUI.
+        // Solo animamos el chip cuando comenzó una ronda nueva.
+        if (!categoryChipNeedsAnimation)
+        {
+            SetCategoryChipFinalState();
+            return;
+        }
+
+        categoryChipNeedsAnimation = false;
+
+        if (categoryChipAnimation != null)
+        {
+            StopCoroutine(categoryChipAnimation);
+        }
+
+        categoryChipAnimation =
+            StartCoroutine(AnimateCategoryChip());
+    }
+
+    private IEnumerator AnimateCategoryChip()
+    {
+        if (
+            categoryChipRoot == null ||
+            categoryCanvasGroup == null
+        )
+        {
+            SetCategoryChipFinalState();
+            yield break;
+        }
+
+        Vector2 startPosition =
+            categoryChipBasePosition +
+            Vector2.up * categoryChipStartOffsetY;
+
+        Vector3 startScale =
+            Vector3.one * categoryChipStartScale;
+
+        float elapsed = 0f;
+
+        categoryCanvasGroup.alpha = 0f;
+        categoryChipRoot.anchoredPosition = startPosition;
+        categoryChipRoot.localScale = startScale;
+
+        while (elapsed < categoryChipAnimationDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+
+            float progress = Mathf.Clamp01(
+                elapsed / categoryChipAnimationDuration
+            );
+
+            float easedProgress = Mathf.SmoothStep(
+                0f,
+                1f,
+                progress
+            );
+
+            categoryCanvasGroup.alpha = easedProgress;
+
+            categoryChipRoot.anchoredPosition =
+                Vector2.Lerp(
+                    startPosition,
+                    categoryChipBasePosition,
+                    easedProgress
+                );
+
+            // Pequeño overshoot para lograr el efecto candy/pop.
+            float pop =
+                Mathf.Sin(progress * Mathf.PI) * 0.12f;
+
+            float scale =
+                Mathf.Lerp(
+                    categoryChipStartScale,
+                    1f,
+                    easedProgress
+                ) + pop;
+
+            categoryChipRoot.localScale =
+                Vector3.one * scale;
+
+            yield return null;
+        }
+
+        SetCategoryChipFinalState();
+        categoryChipAnimation = null;
+    }
+    private void SetCategoryChipFinalState()
+    {
+        if (categoryCanvasGroup != null)
+        {
+            categoryCanvasGroup.alpha = 1f;
+        }
+
+        if (categoryChipRoot != null)
+        {
+            categoryChipRoot.anchoredPosition =
+                categoryChipBasePosition;
+
+            categoryChipRoot.localScale =
+                Vector3.one;
         }
     }
 
@@ -155,6 +331,8 @@ public class UIManager : MonoBehaviour
             Debug.LogError("No hay un acertijo válido para mostrar.");
             return;
         }
+        
+        RefreshCategoryChip(currentRiddle);
 
         int targetHintCount = GameManager.Instance.GetCurrentHintCount();
 
@@ -284,6 +462,7 @@ public class UIManager : MonoBehaviour
         }
 
         spawnedCards.Clear();
+        categoryChipNeedsAnimation = true;
     }
 
     public void TriggerErrorShake()

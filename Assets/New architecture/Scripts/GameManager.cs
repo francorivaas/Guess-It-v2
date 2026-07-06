@@ -127,10 +127,20 @@ public class GameManager : MonoBehaviour
 
         if (UIManager.Instance != null)
         {
-            UIManager.Instance.ShowCorrectFeedback(Score, gainedPoints);
             UIManager.Instance.UpdateStreakUI(CurrentStreak);
+
+            // La siguiente ronda se genera cuando termina por completo
+            // la animación de transferencia de puntaje.
+            UIManager.Instance.ShowCorrectFeedback(
+                Score,
+                gainedPoints,
+                NextRound
+            );
+
+            return;
         }
 
+        // Respaldo para escenas o pruebas sin UIManager.
         NextRound();
     }
 

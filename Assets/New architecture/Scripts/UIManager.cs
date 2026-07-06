@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class UIManager : MonoBehaviour
 {
@@ -50,6 +52,9 @@ public class UIManager : MonoBehaviour
 
     [Tooltip("Duración del pulso final del puntaje total.")]
     [SerializeField, Min(0.05f)] private float finalScorePulseDuration = 0.18f;
+
+    [Tooltip("Pausa adicional después de terminar la transferencia y antes de iniciar la siguiente ronda.")]
+    [SerializeField, Min(0f)] private float delayBeforeNextRound = 0.15f;
 
     [Header("Answer")]
     [SerializeField] private TMP_InputField answerInput;
@@ -192,11 +197,18 @@ public class UIManager : MonoBehaviour
     /// hacia el puntaje total. Por ejemplo: +350 baja hasta +0 mientras el puntaje
     /// total aumenta hasta alcanzar totalScore.
     /// </summary>
-    public void ShowCorrectFeedback(int totalScore, int gainedPoints)
+    public void ShowCorrectFeedback(
+        int totalScore,
+        int gainedPoints,
+        Action onComplete
+    )
     {
         ShowMessage($"¡Correcto! +{gainedPoints}");
         PlayEffect(correctSFX);
         InitializeScoreVisuals();
+
+        // Bloquea respuestas y solicitudes de pista durante toda la celebración.
+        LockInput(true);
 
         if (scoreTransferAnimation != null)
         {
@@ -205,8 +217,18 @@ public class UIManager : MonoBehaviour
         }
 
         scoreTransferAnimation = StartCoroutine(
-            AnimateScoreTransfer(totalScore, Mathf.Max(0, gainedPoints))
+            AnimateScoreTransfer(
+                totalScore,
+                Mathf.Max(0, gainedPoints),
+                onComplete
+            )
         );
+    }
+
+    // Sobrecarga para conservar compatibilidad con cualquier llamada anterior.
+    public void ShowCorrectFeedback(int totalScore, int gainedPoints)
+    {
+        ShowCorrectFeedback(totalScore, gainedPoints, null);
     }
 
     public void TriggerFailureFeedback()
@@ -369,7 +391,11 @@ public class UIManager : MonoBehaviour
         LockInput(false);
     }
 
-    private IEnumerator AnimateScoreTransfer(int totalScore, int gainedPoints)
+    private IEnumerator AnimateScoreTransfer(
+        int totalScore,
+        int gainedPoints,
+        Action onComplete
+    )
     {
         int startScore = Mathf.Max(0, totalScore - gainedPoints);
         displayedScore = startScore;
@@ -398,7 +424,8 @@ public class UIManager : MonoBehaviour
             }
 
             HideGainedPointsImmediately();
-            scoreTransferAnimation = null;
+
+            yield return CompleteCorrectSequence(onComplete);
             yield break;
         }
 
@@ -460,7 +487,30 @@ public class UIManager : MonoBehaviour
         yield return FadeOutGainedPoints();
 
         RestoreScoreVisuals();
+
+        yield return CompleteCorrectSequence(onComplete);
+    }
+
+    private IEnumerator CompleteCorrectSequence(Action onComplete)
+    {
+        if (delayBeforeNextRound > 0f)
+        {
+            yield return new WaitForSeconds(delayBeforeNextRound);
+        }
+
         scoreTransferAnimation = null;
+
+        if (onComplete != null)
+        {
+            // En el flujo normal, este callback es GameManager.NextRound().
+            // Esa llamada limpia las cartas actuales e inicia las nuevas pistas.
+            onComplete.Invoke();
+        }
+        else
+        {
+            // Una llamada sin callback no debe dejar el input bloqueado.
+            LockInput(false);
+        }
     }
 
     private IEnumerator AnimateGainedPointsEntrance()

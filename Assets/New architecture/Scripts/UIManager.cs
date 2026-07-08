@@ -85,12 +85,39 @@ public class UIManager : MonoBehaviour
 
     [Header("Reveal")]
     [SerializeField] private GameObject revealPanel;
+    [SerializeField] private RectTransform revealPanelRoot;
+    [SerializeField] private CanvasGroup revealPanelCanvasGroup;
     [SerializeField] private TextMeshProUGUI correctAnswerText;
+    [SerializeField] private Button revealContinueButton;
 
     [Header("Victory")]
     [SerializeField] private GameObject victoryPanel;
+    [SerializeField] private RectTransform victoryPanelRoot;
+    [SerializeField] private CanvasGroup victoryPanelCanvasGroup;
     [SerializeField] private TextMeshProUGUI victoryAnswerText;
     [SerializeField] private Button victoryContinueButton;
+
+    [Header("Result Panels Animation")]
+    [Tooltip("Escala inicial y final de salida de las tarjetas de resultado.")]
+    [SerializeField, Range(0.01f, 0.95f)] private float resultPanelStartScale = 0.15f;
+
+    [Tooltip("Escala máxima alcanzada durante el pop de entrada.")]
+    [SerializeField, Range(1f, 1.3f)] private float resultPanelOvershootScale = 1.08f;
+
+    [Tooltip("Duración de la animación de entrada.")]
+    [SerializeField, Min(0.05f)] private float resultPanelEnterDuration = 0.32f;
+
+    [Tooltip("Duración de la animación de salida.")]
+    [SerializeField, Min(0.05f)] private float resultPanelExitDuration = 0.22f;
+
+    [Tooltip("Espera antes de comenzar el efecto de escritura.")]
+    [SerializeField, Min(0f)] private float typewriterStartDelay = 0.12f;
+
+    [Tooltip("Tiempo entre cada carácter del efecto de escritura.")]
+    [SerializeField, Min(0.001f)] private float typewriterCharacterDelay = 0.025f;
+
+    [Tooltip("Pausa adicional después de signos y saltos de línea.")]
+    [SerializeField, Min(0f)] private float typewriterPunctuationDelay = 0.08f;
 
     [Header("Category Chip")]
     [SerializeField] private GameObject categoryChip;
@@ -115,8 +142,12 @@ public class UIManager : MonoBehaviour
 
     private Coroutine streakAnimation;
     private Coroutine scoreTransferAnimation;
+    private Coroutine resultPanelAnimation;
+    private Coroutine resultTypewriterAnimation;
 
     private Vector3 originalStreakPosition;
+    private Vector3 victoryPanelBaseScale = Vector3.one;
+    private Vector3 revealPanelBaseScale = Vector3.one;
     private Vector3 originalScoreScale = Vector3.one;
     private Vector3 originalGainedPointsScale = Vector3.one;
 
@@ -124,6 +155,7 @@ public class UIManager : MonoBehaviour
     private bool scoreVisualsInitialized;
     private bool inputLocked;
     private bool paused;
+    private bool resultPanelTransitioning;
     private int displayedScore;
 
     private void Awake()
@@ -142,6 +174,7 @@ public class UIManager : MonoBehaviour
         }
 
         InitializeCategoryChip();
+        InitializeResultPanels();
     }
 
     private void Start()
@@ -160,10 +193,6 @@ public class UIManager : MonoBehaviour
             scoreText.text = displayedScore.ToString();
         }
 
-        if (victoryPanel != null)
-        {
-            victoryPanel.SetActive(false);
-        }
     }
 
     private void InitializeCategoryChip()
@@ -559,47 +588,48 @@ public class UIManager : MonoBehaviour
 
     /// <summary>
     /// Muestra el panel de victoria sin aplicar todavía el puntaje ni la racha.
-    /// Devuelve false si el panel no está configurado, permitiendo que
-    /// GameManager continúe mediante su flujo de respaldo.
+    /// El título "¡Correcto!" debe ser un TMP independiente dentro de la tarjeta.
+    /// Este método solo escribe con typewriter "La respuesta era..." y la respuesta.
     /// </summary>
     public bool ShowVictoryPanel(string correctAnswer)
     {
-        if (victoryPanel == null)
+        if (!ValidateResultPanel(
+                victoryPanel,
+                victoryPanelRoot,
+                victoryPanelCanvasGroup,
+                victoryAnswerText,
+                victoryContinueButton,
+                "Victory"
+            ))
         {
-            Debug.LogError(
-                "Victory Panel no está asignado en el UIManager."
-            );
-
             return false;
         }
 
-        if (victoryAnswerText != null)
-        {
-            victoryAnswerText.text =
-                $"¡Correcto!\nLa respuesta era:\n{correctAnswer}";
-        }
-
-        if (victoryContinueButton != null)
-        {
-            victoryContinueButton.interactable = true;
-        }
-
-        victoryPanel.SetActive(true);
         LockInput(true);
         PlayEffect(correctSFX);
+
+        StartResultPanelEntrance(
+            victoryPanel,
+            victoryPanelRoot,
+            victoryPanelCanvasGroup,
+            victoryAnswerText,
+            victoryContinueButton,
+            BuildAnswerMessage(correctAnswer),
+            victoryPanelBaseScale
+        );
 
         return true;
     }
 
     /// <summary>
     /// Se conecta al botón Continuar del panel de victoria.
-    /// La recompensa pendiente se aplica desde GameManager.
+    /// Primero reproduce la salida y después aplica la recompensa pendiente.
     /// </summary>
     public void ContinueFromVictory()
     {
-        if (victoryContinueButton != null)
+        if (resultPanelTransitioning)
         {
-            victoryContinueButton.interactable = false;
+            return;
         }
 
         if (GameManager.Instance == null)
@@ -607,52 +637,516 @@ public class UIManager : MonoBehaviour
             Debug.LogError(
                 "No existe un GameManager para continuar la victoria."
             );
-
-            if (victoryContinueButton != null)
-            {
-                victoryContinueButton.interactable = true;
-            }
-
             return;
         }
 
-        GameManager.Instance.ContinueFromVictory();
+        StartResultPanelExit(
+            victoryPanel,
+            victoryPanelRoot,
+            victoryPanelCanvasGroup,
+            victoryContinueButton,
+            victoryPanelBaseScale,
+            GameManager.Instance.ContinueFromVictory
+        );
     }
 
+    /// <summary>
+    /// Oculta el panel de victoria inmediatamente.
+    /// Se conserva como utilidad; el flujo normal usa ContinueFromVictory().
+    /// </summary>
     public void HideVictoryPanel()
     {
-        if (victoryPanel != null)
-        {
-            victoryPanel.SetActive(false);
-        }
-
-        // No se desbloquea el input aquí: después de cerrar el panel
-        // comienza la animación de puntos y luego la nueva ronda.
+        HideResultPanelImmediately(
+            victoryPanel,
+            victoryPanelRoot,
+            victoryPanelCanvasGroup,
+            victoryPanelBaseScale
+        );
     }
 
+    /// <summary>
+    /// Muestra el panel de respuesta incorrecta.
+    /// El título "¡Incorrecto!" debe ser un TMP independiente dentro de la tarjeta.
+    /// </summary>
     public void ShowRevealPanel(string correctAnswer)
     {
-        if (revealPanel != null)
+        if (!ValidateResultPanel(
+                revealPanel,
+                revealPanelRoot,
+                revealPanelCanvasGroup,
+                correctAnswerText,
+                revealContinueButton,
+                "Reveal"
+            ))
         {
-            revealPanel.SetActive(true);
-        }
-
-        if (correctAnswerText != null)
-        {
-            correctAnswerText.text = correctAnswer;
+            return;
         }
 
         LockInput(true);
+
+        StartResultPanelEntrance(
+            revealPanel,
+            revealPanelRoot,
+            revealPanelCanvasGroup,
+            correctAnswerText,
+            revealContinueButton,
+            BuildAnswerMessage(correctAnswer),
+            revealPanelBaseScale
+        );
     }
 
-    public void HideRevealPanel()
+    /// <summary>
+    /// Conectar este método al botón Continuar del panel de derrota.
+    /// Primero reproduce la salida y después continúa el flujo del GameManager.
+    /// </summary>
+    public void ContinueFromReveal()
     {
-        if (revealPanel != null)
+        if (resultPanelTransitioning)
         {
-            revealPanel.SetActive(false);
+            return;
         }
 
-        LockInput(false);
+        if (GameManager.Instance == null)
+        {
+            Debug.LogError(
+                "No existe un GameManager para continuar desde el panel de derrota."
+            );
+            return;
+        }
+
+        StartResultPanelExit(
+            revealPanel,
+            revealPanelRoot,
+            revealPanelCanvasGroup,
+            revealContinueButton,
+            revealPanelBaseScale,
+            GameManager.Instance.ContinueFromReveal
+        );
+    }
+
+    /// <summary>
+    /// Oculta el panel de derrota inmediatamente.
+    /// Se conserva como utilidad; el flujo normal usa ContinueFromReveal().
+    /// </summary>
+    public void HideRevealPanel()
+    {
+        HideResultPanelImmediately(
+            revealPanel,
+            revealPanelRoot,
+            revealPanelCanvasGroup,
+            revealPanelBaseScale
+        );
+    }
+
+    private void InitializeResultPanels()
+    {
+        if (victoryPanelRoot != null)
+        {
+            victoryPanelBaseScale = victoryPanelRoot.localScale;
+        }
+
+        if (revealPanelRoot != null)
+        {
+            revealPanelBaseScale = revealPanelRoot.localScale;
+        }
+
+        HideResultPanelImmediately(
+            victoryPanel,
+            victoryPanelRoot,
+            victoryPanelCanvasGroup,
+            victoryPanelBaseScale
+        );
+
+        HideResultPanelImmediately(
+            revealPanel,
+            revealPanelRoot,
+            revealPanelCanvasGroup,
+            revealPanelBaseScale
+        );
+    }
+
+    private bool ValidateResultPanel(
+        GameObject panel,
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        TextMeshProUGUI answerText,
+        Button continueButton,
+        string panelName
+    )
+    {
+        if (panel == null)
+        {
+            Debug.LogError($"{panelName} Panel no está asignado en UIManager.");
+            return false;
+        }
+
+        if (panelRoot == null)
+        {
+            Debug.LogError($"{panelName} Panel Root no está asignado en UIManager.");
+            return false;
+        }
+
+        if (panelCanvasGroup == null)
+        {
+            Debug.LogError($"{panelName} Canvas Group no está asignado en UIManager.");
+            return false;
+        }
+
+        if (answerText == null)
+        {
+            Debug.LogError($"{panelName} Answer Text no está asignado en UIManager.");
+            return false;
+        }
+
+        if (continueButton == null)
+        {
+            Debug.LogError($"{panelName} Continue Button no está asignado en UIManager.");
+            return false;
+        }
+
+        return true;
+    }
+
+    private string BuildAnswerMessage(string correctAnswer)
+    {
+        return $"La respuesta era:\n{correctAnswer}";
+    }
+
+    private void StartResultPanelEntrance(
+        GameObject panel,
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        TextMeshProUGUI answerText,
+        Button continueButton,
+        string message,
+        Vector3 baseScale
+    )
+    {
+        StopResultPanelCoroutines();
+
+        panel.SetActive(true);
+        panel.transform.SetAsLastSibling();
+
+        panelCanvasGroup.alpha = 0f;
+        panelCanvasGroup.interactable = false;
+        panelCanvasGroup.blocksRaycasts = true;
+
+        panelRoot.localScale = baseScale * resultPanelStartScale;
+
+        answerText.text = message;
+        answerText.maxVisibleCharacters = 0;
+
+        continueButton.interactable = false;
+        resultPanelTransitioning = true;
+
+        resultPanelAnimation = StartCoroutine(
+            AnimateResultPanelEntrance(
+                panelRoot,
+                panelCanvasGroup,
+                answerText,
+                continueButton,
+                message,
+                baseScale
+            )
+        );
+    }
+
+    private IEnumerator AnimateResultPanelEntrance(
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        TextMeshProUGUI answerText,
+        Button continueButton,
+        string message,
+        Vector3 baseScale
+    )
+    {
+        float elapsed = 0f;
+        float firstPhaseDuration = resultPanelEnterDuration * 0.72f;
+        float secondPhaseDuration = Mathf.Max(
+            0.01f,
+            resultPanelEnterDuration - firstPhaseDuration
+        );
+
+        Vector3 startScale = baseScale * resultPanelStartScale;
+        Vector3 overshootScale = baseScale * resultPanelOvershootScale;
+
+        while (elapsed < firstPhaseDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float progress = Mathf.Clamp01(elapsed / firstPhaseDuration);
+            float easedProgress = EaseOutBack(progress);
+
+            panelCanvasGroup.alpha = Mathf.Clamp01(progress);
+            panelRoot.localScale = Vector3.LerpUnclamped(
+                startScale,
+                overshootScale,
+                easedProgress
+            );
+
+            yield return null;
+        }
+
+        elapsed = 0f;
+
+        while (elapsed < secondPhaseDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float progress = Mathf.Clamp01(elapsed / secondPhaseDuration);
+            float easedProgress = Mathf.SmoothStep(0f, 1f, progress);
+
+            panelCanvasGroup.alpha = 1f;
+            panelRoot.localScale = Vector3.Lerp(
+                overshootScale,
+                baseScale,
+                easedProgress
+            );
+
+            yield return null;
+        }
+
+        panelCanvasGroup.alpha = 1f;
+        panelCanvasGroup.interactable = true;
+        panelRoot.localScale = baseScale;
+
+        resultPanelAnimation = null;
+        resultPanelTransitioning = false;
+
+        resultTypewriterAnimation = StartCoroutine(
+            TypewriterRoutine(
+                answerText,
+                continueButton,
+                message
+            )
+        );
+    }
+
+    private IEnumerator TypewriterRoutine(
+        TextMeshProUGUI targetText,
+        Button continueButton,
+        string message
+    )
+    {
+        targetText.text = message;
+        targetText.maxVisibleCharacters = 0;
+        targetText.ForceMeshUpdate();
+
+        if (typewriterStartDelay > 0f)
+        {
+            yield return new WaitForSecondsRealtime(typewriterStartDelay);
+        }
+
+        int totalCharacters = targetText.textInfo.characterCount;
+
+        for (int visibleCharacters = 1;
+             visibleCharacters <= totalCharacters;
+             visibleCharacters++)
+        {
+            targetText.maxVisibleCharacters = visibleCharacters;
+
+            char currentCharacter = GetVisibleCharacter(
+                targetText,
+                visibleCharacters - 1
+            );
+
+            float delay = typewriterCharacterDelay;
+
+            if (
+                currentCharacter == ':' ||
+                currentCharacter == '.' ||
+                currentCharacter == '!' ||
+                currentCharacter == '?' ||
+                currentCharacter == '\n'
+            )
+            {
+                delay += typewriterPunctuationDelay;
+            }
+
+            if (delay > 0f)
+            {
+                yield return new WaitForSecondsRealtime(delay);
+            }
+            else
+            {
+                yield return null;
+            }
+        }
+
+        targetText.maxVisibleCharacters = int.MaxValue;
+        continueButton.interactable = true;
+        resultTypewriterAnimation = null;
+    }
+
+    private static char GetVisibleCharacter(
+        TextMeshProUGUI targetText,
+        int characterInfoIndex
+    )
+    {
+        if (
+            targetText == null ||
+            targetText.textInfo == null ||
+            characterInfoIndex < 0 ||
+            characterInfoIndex >= targetText.textInfo.characterCount
+        )
+        {
+            return '\0';
+        }
+
+        int stringIndex =
+            targetText.textInfo.characterInfo[characterInfoIndex].index;
+
+        if (
+            stringIndex < 0 ||
+            stringIndex >= targetText.text.Length
+        )
+        {
+            return '\0';
+        }
+
+        return targetText.text[stringIndex];
+    }
+
+    private void StartResultPanelExit(
+        GameObject panel,
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        Button continueButton,
+        Vector3 baseScale,
+        Action onComplete
+    )
+    {
+        if (
+            panel == null ||
+            panelRoot == null ||
+            panelCanvasGroup == null
+        )
+        {
+            onComplete?.Invoke();
+            return;
+        }
+
+        StopResultPanelCoroutines();
+
+        continueButton.interactable = false;
+        panelCanvasGroup.interactable = false;
+        panelCanvasGroup.blocksRaycasts = true;
+        resultPanelTransitioning = true;
+
+        resultPanelAnimation = StartCoroutine(
+            AnimateResultPanelExit(
+                panel,
+                panelRoot,
+                panelCanvasGroup,
+                baseScale,
+                onComplete
+            )
+        );
+    }
+
+    private IEnumerator AnimateResultPanelExit(
+        GameObject panel,
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        Vector3 baseScale,
+        Action onComplete
+    )
+    {
+        float elapsed = 0f;
+        Vector3 startScale = panelRoot.localScale;
+        Vector3 endScale = baseScale * resultPanelStartScale;
+        float startAlpha = panelCanvasGroup.alpha;
+
+        while (elapsed < resultPanelExitDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float progress = Mathf.Clamp01(
+                elapsed / resultPanelExitDuration
+            );
+            float easedProgress = EaseInBack(progress);
+
+            panelRoot.localScale = Vector3.LerpUnclamped(
+                startScale,
+                endScale,
+                easedProgress
+            );
+
+            panelCanvasGroup.alpha = Mathf.Lerp(
+                startAlpha,
+                0f,
+                progress
+            );
+
+            yield return null;
+        }
+
+        HideResultPanelImmediately(
+            panel,
+            panelRoot,
+            panelCanvasGroup,
+            baseScale
+        );
+
+        resultPanelAnimation = null;
+        resultPanelTransitioning = false;
+
+        onComplete?.Invoke();
+    }
+
+    private void HideResultPanelImmediately(
+        GameObject panel,
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        Vector3 baseScale
+    )
+    {
+        if (panelRoot != null)
+        {
+            panelRoot.localScale = baseScale;
+        }
+
+        if (panelCanvasGroup != null)
+        {
+            panelCanvasGroup.alpha = 0f;
+            panelCanvasGroup.interactable = false;
+            panelCanvasGroup.blocksRaycasts = false;
+        }
+
+        if (panel != null)
+        {
+            panel.SetActive(false);
+        }
+    }
+
+    private void StopResultPanelCoroutines()
+    {
+        if (resultPanelAnimation != null)
+        {
+            StopCoroutine(resultPanelAnimation);
+            resultPanelAnimation = null;
+        }
+
+        if (resultTypewriterAnimation != null)
+        {
+            StopCoroutine(resultTypewriterAnimation);
+            resultTypewriterAnimation = null;
+        }
+    }
+
+    private static float EaseOutBack(float value)
+    {
+        const float c1 = 1.70158f;
+        const float c3 = c1 + 1f;
+        float x = value - 1f;
+
+        return 1f + c3 * x * x * x + c1 * x * x;
+    }
+
+    private static float EaseInBack(float value)
+    {
+        const float c1 = 1.70158f;
+        const float c3 = c1 + 1f;
+
+        return c3 * value * value * value -
+               c1 * value * value;
     }
 
     private IEnumerator AnimateScoreTransfer(

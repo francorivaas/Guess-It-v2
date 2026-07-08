@@ -165,7 +165,7 @@ public class GameManager : MonoBehaviour
         if (Lives <= 0 || noMoreHints)
         {
             UIManager.Instance?.RefreshStatusUI();
-            UIManager.Instance?.ShowRevealPanel("La respuesta era: " + currentRiddle.answer);
+            UIManager.Instance?.ShowRevealPanel(currentRiddle.answer);
             return;
         }
 
@@ -309,8 +309,7 @@ public class GameManager : MonoBehaviour
         hasPendingCorrectReward = false;
         pendingCorrectPoints = 0;
 
-        UIManager.Instance?.HideVictoryPanel();
-
+        // El UIManager ya terminó la animación de salida del panel.
         // Recién en este momento se aplica la recompensa real.
         Score += gainedPoints;
         CurrentStreak++;
@@ -335,8 +334,7 @@ public class GameManager : MonoBehaviour
 
     public void ContinueFromReveal()
     {
-        UIManager.Instance?.HideRevealPanel();
-
+        // El UIManager ya terminó la animación de salida del panel.
         if (Lives <= 0)
         {
             GoToMainMenu();

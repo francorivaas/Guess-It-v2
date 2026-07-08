@@ -356,6 +356,19 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public int GetRemainingHintCount()
+    {
+        if (currentRiddle == null)
+        {
+            return 0;
+        }
+
+        return Mathf.Max(
+            0,
+            GetTotalHintCount() - currentHintCount
+        );
+    }
+
     public bool HasMoreHints()
     {
         return currentRiddle != null &&

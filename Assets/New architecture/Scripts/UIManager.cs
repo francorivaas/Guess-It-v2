@@ -23,6 +23,30 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Color unavailableHintColor = new Color32(120, 120, 120, 255);
     [SerializeField] private AudioClip noMoreHintsSFX;
 
+    [Header("Hint Counter")]
+    [Tooltip("Raíz visual del contador. Este objeto recibe la animación de pulso.")]
+    [SerializeField] private RectTransform hintCounterRoot;
+
+    [Tooltip("Imagen o Graphic que muestra el fondo del contador.")]
+    [SerializeField] private Graphic hintCounterGraphic;
+
+    [Tooltip("Texto TMP que muestra cuántas pistas extra quedan.")]
+    [SerializeField] private TextMeshProUGUI hintCounterText;
+
+    [Tooltip("Color del número mientras todavía quedan pistas.")]
+    [SerializeField] private Color hintCounterAvailableTextColor = Color.white;
+
+    [Tooltip("Color del número cuando el contador llega a cero.")]
+    [SerializeField]
+    private Color hintCounterUnavailableTextColor =
+        new Color32(210, 210, 210, 255);
+
+    [Tooltip("Escala máxima del pequeño pulso cuando se consume una pista.")]
+    [SerializeField, Range(1f, 1.5f)] private float hintCounterPulseScale = 1.2f;
+
+    [Tooltip("Duración total del pulso del contador.")]
+    [SerializeField, Min(0.05f)] private float hintCounterPulseDuration = 0.22f;
+
     [Header("Status")]
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI livesText;
@@ -144,8 +168,10 @@ public class UIManager : MonoBehaviour
     private Coroutine scoreTransferAnimation;
     private Coroutine resultPanelAnimation;
     private Coroutine resultTypewriterAnimation;
+    private Coroutine hintCounterPulseAnimation;
 
     private Vector3 originalStreakPosition;
+    private Vector3 hintCounterBaseScale = Vector3.one;
     private Vector3 victoryPanelBaseScale = Vector3.one;
     private Vector3 revealPanelBaseScale = Vector3.one;
     private Vector3 originalScoreScale = Vector3.one;
@@ -157,6 +183,7 @@ public class UIManager : MonoBehaviour
     private bool paused;
     private bool resultPanelTransitioning;
     private int displayedScore;
+    private int lastDisplayedRemainingHints = -1;
 
     private void Awake()
     {
@@ -175,6 +202,7 @@ public class UIManager : MonoBehaviour
 
         InitializeCategoryChip();
         InitializeResultPanels();
+        InitializeHintCounter();
     }
 
     private void Start()
@@ -363,6 +391,7 @@ public class UIManager : MonoBehaviour
     {
         RefreshStatusUI();
         RefreshHintButtonState();
+        RefreshHintCounterState();
 
         RiddleSO currentRiddle = GameManager.Instance?.GetCurrentRiddle();
 
@@ -504,6 +533,16 @@ public class UIManager : MonoBehaviour
 
         spawnedCards.Clear();
         categoryChipNeedsAnimation = true;
+
+        // La próxima actualización pertenece a una ronda nueva.
+        // Reiniciamos el valor previo para que el contador no haga un pulso
+        // simplemente por volver a su cantidad inicial.
+        lastDisplayedRemainingHints = -1;
+
+        if (hintCounterRoot != null)
+        {
+            hintCounterRoot.localScale = hintCounterBaseScale;
+        }
     }
 
     public void TriggerErrorShake()
@@ -1723,6 +1762,108 @@ public class UIManager : MonoBehaviour
         {
             answerInput.interactable = !shouldLock;
         }
+    }
+
+    private void InitializeHintCounter()
+    {
+        if (hintCounterRoot != null)
+        {
+            hintCounterBaseScale = hintCounterRoot.localScale;
+        }
+
+        if (hintCounterText != null)
+        {
+            hintCounterText.text = "0";
+        }
+
+        lastDisplayedRemainingHints = -1;
+    }
+
+    private void RefreshHintCounterState()
+    {
+        if (GameManager.Instance == null)
+        {
+            return;
+        }
+
+        int remainingHints = GameManager.Instance.GetRemainingHintCount();
+
+        bool shouldPulse =
+            lastDisplayedRemainingHints >= 0 &&
+            remainingHints < lastDisplayedRemainingHints;
+
+        if (hintCounterText != null)
+        {
+            hintCounterText.text = remainingHints.ToString();
+            hintCounterText.color =
+                remainingHints > 0
+                    ? hintCounterAvailableTextColor
+                    : hintCounterUnavailableTextColor;
+        }
+
+        if (hintCounterGraphic != null)
+        {
+            // Usa exactamente los mismos tintes que el botón Pedir pista,
+            // para que ambos se apaguen de forma coherente al llegar a cero.
+            hintCounterGraphic.color =
+                remainingHints > 0
+                    ? availableHintColor
+                    : unavailableHintColor;
+        }
+
+        if (hintCounterRoot != null)
+        {
+            if (hintCounterPulseAnimation != null)
+            {
+                StopCoroutine(hintCounterPulseAnimation);
+                hintCounterPulseAnimation = null;
+            }
+
+            hintCounterRoot.localScale = hintCounterBaseScale;
+
+            if (shouldPulse)
+            {
+                hintCounterPulseAnimation =
+                    StartCoroutine(AnimateHintCounterPulse());
+            }
+        }
+
+        lastDisplayedRemainingHints = remainingHints;
+    }
+
+    private IEnumerator AnimateHintCounterPulse()
+    {
+        if (hintCounterRoot == null)
+        {
+            yield break;
+        }
+
+        float elapsed = 0f;
+
+        while (elapsed < hintCounterPulseDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+
+            float progress = Mathf.Clamp01(
+                elapsed / hintCounterPulseDuration
+            );
+
+            // Sube y vuelve a bajar en una sola curva suave.
+            float pulse = Mathf.Sin(progress * Mathf.PI);
+            float scaleMultiplier = Mathf.Lerp(
+                1f,
+                hintCounterPulseScale,
+                pulse
+            );
+
+            hintCounterRoot.localScale =
+                hintCounterBaseScale * scaleMultiplier;
+
+            yield return null;
+        }
+
+        hintCounterRoot.localScale = hintCounterBaseScale;
+        hintCounterPulseAnimation = null;
     }
 
     private void RefreshHintButtonState()

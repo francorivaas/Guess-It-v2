@@ -87,6 +87,11 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject revealPanel;
     [SerializeField] private TextMeshProUGUI correctAnswerText;
 
+    [Header("Victory")]
+    [SerializeField] private GameObject victoryPanel;
+    [SerializeField] private TextMeshProUGUI victoryAnswerText;
+    [SerializeField] private Button victoryContinueButton;
+
     [Header("Category Chip")]
     [SerializeField] private GameObject categoryChip;
     [SerializeField] private TextMeshProUGUI categoryText;
@@ -154,7 +159,13 @@ public class UIManager : MonoBehaviour
         {
             scoreText.text = displayedScore.ToString();
         }
+
+        if (victoryPanel != null)
+        {
+            victoryPanel.SetActive(false);
+        }
     }
+
     private void InitializeCategoryChip()
     {
         if (categoryChipRoot != null)
@@ -331,7 +342,7 @@ public class UIManager : MonoBehaviour
             Debug.LogError("No hay un acertijo válido para mostrar.");
             return;
         }
-        
+
         RefreshCategoryChip(currentRiddle);
 
         int targetHintCount = GameManager.Instance.GetCurrentHintCount();
@@ -381,8 +392,9 @@ public class UIManager : MonoBehaviour
         Action onComplete
     )
     {
-        ShowMessage($"¡Correcto! +{gainedPoints}");
-        PlayEffect(correctSFX);
+        // El panel de victoria ya comunicó el acierto y reprodujo el sonido.
+        // En esta fase se muestran solamente la recompensa y la racha.
+        ShowMessage(string.Empty);
         InitializeScoreVisuals();
 
         // Bloquea respuestas y solicitudes de pista durante toda la celebración.
@@ -543,6 +555,79 @@ public class UIManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
+    }
+
+    /// <summary>
+    /// Muestra el panel de victoria sin aplicar todavía el puntaje ni la racha.
+    /// Devuelve false si el panel no está configurado, permitiendo que
+    /// GameManager continúe mediante su flujo de respaldo.
+    /// </summary>
+    public bool ShowVictoryPanel(string correctAnswer)
+    {
+        if (victoryPanel == null)
+        {
+            Debug.LogError(
+                "Victory Panel no está asignado en el UIManager."
+            );
+
+            return false;
+        }
+
+        if (victoryAnswerText != null)
+        {
+            victoryAnswerText.text =
+                $"¡Correcto!\nLa respuesta era:\n{correctAnswer}";
+        }
+
+        if (victoryContinueButton != null)
+        {
+            victoryContinueButton.interactable = true;
+        }
+
+        victoryPanel.SetActive(true);
+        LockInput(true);
+        PlayEffect(correctSFX);
+
+        return true;
+    }
+
+    /// <summary>
+    /// Se conecta al botón Continuar del panel de victoria.
+    /// La recompensa pendiente se aplica desde GameManager.
+    /// </summary>
+    public void ContinueFromVictory()
+    {
+        if (victoryContinueButton != null)
+        {
+            victoryContinueButton.interactable = false;
+        }
+
+        if (GameManager.Instance == null)
+        {
+            Debug.LogError(
+                "No existe un GameManager para continuar la victoria."
+            );
+
+            if (victoryContinueButton != null)
+            {
+                victoryContinueButton.interactable = true;
+            }
+
+            return;
+        }
+
+        GameManager.Instance.ContinueFromVictory();
+    }
+
+    public void HideVictoryPanel()
+    {
+        if (victoryPanel != null)
+        {
+            victoryPanel.SetActive(false);
+        }
+
+        // No se desbloquea el input aquí: después de cerrar el panel
+        // comienza la animación de puntos y luego la nueva ronda.
     }
 
     public void ShowRevealPanel(string correctAnswer)

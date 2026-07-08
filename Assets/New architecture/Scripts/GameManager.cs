@@ -21,6 +21,10 @@ public class GameManager : MonoBehaviour
     private readonly List<RiddleSO> availableRiddles = new List<RiddleSO>();
     private int currentHintCount;
 
+    // Recompensa que permanece pendiente mientras el panel de victoria está abierto.
+    private bool hasPendingCorrectReward;
+    private int pendingCorrectPoints;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -120,28 +124,27 @@ public class GameManager : MonoBehaviour
 
     private void HandleCorrectAnswer()
     {
-        int gainedPoints = CalculateScore();
-
-        Score += gainedPoints;
-        CurrentStreak++;
-
-        if (UIManager.Instance != null)
+        if (hasPendingCorrectReward)
         {
-            UIManager.Instance.UpdateStreakUI(CurrentStreak);
-
-            // La siguiente ronda se genera cuando termina por completo
-            // la animación de transferencia de puntaje.
-            UIManager.Instance.ShowCorrectFeedback(
-                Score,
-                gainedPoints,
-                NextRound
-            );
-
             return;
         }
 
-        // Respaldo para escenas o pruebas sin UIManager.
-        NextRound();
+        // Opción B:
+        // todavía no se modifica Score ni CurrentStreak.
+        // La recompensa queda pendiente hasta pulsar Continuar.
+        pendingCorrectPoints = CalculateScore();
+        hasPendingCorrectReward = true;
+
+        if (
+            UIManager.Instance != null &&
+            UIManager.Instance.ShowVictoryPanel(currentRiddle.answer)
+        )
+        {
+            return;
+        }
+
+        // Respaldo para escenas o pruebas sin panel de victoria.
+        ContinueFromVictory();
     }
 
     private void HandleIncorrectAnswer()
@@ -288,6 +291,46 @@ public class GameManager : MonoBehaviour
         }
 
         return result.ToString().Normalize(NormalizationForm.FormC);
+    }
+
+    /// <summary>
+    /// Confirma el panel de victoria, aplica la recompensa pendiente
+    /// y comienza la secuencia visual de puntos y racha.
+    /// </summary>
+    public void ContinueFromVictory()
+    {
+        if (!hasPendingCorrectReward)
+        {
+            return;
+        }
+
+        int gainedPoints = pendingCorrectPoints;
+
+        hasPendingCorrectReward = false;
+        pendingCorrectPoints = 0;
+
+        UIManager.Instance?.HideVictoryPanel();
+
+        // Recién en este momento se aplica la recompensa real.
+        Score += gainedPoints;
+        CurrentStreak++;
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.UpdateStreakUI(CurrentStreak);
+
+            // Al terminar la transferencia de puntos comienza la próxima ronda.
+            UIManager.Instance.ShowCorrectFeedback(
+                Score,
+                gainedPoints,
+                NextRound
+            );
+
+            return;
+        }
+
+        // Respaldo para escenas sin UIManager.
+        NextRound();
     }
 
     public void ContinueFromReveal()

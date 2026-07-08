@@ -82,7 +82,11 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        UIManager.Instance?.ClearCards();
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.ClearCards();
+            UIManager.Instance.ClearAnswerInput();
+        }
 
         int randomIndex = Random.Range(0, availableRiddles.Count);
         currentRiddle = availableRiddles[randomIndex];

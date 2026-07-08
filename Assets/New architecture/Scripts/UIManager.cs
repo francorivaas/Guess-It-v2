@@ -492,9 +492,28 @@ public class UIManager : MonoBehaviour
         }
 
         string submittedAnswer = answerInput.text;
-        answerInput.text = string.Empty;
 
+        // No limpiamos el campo al enviar.
+        // Si la respuesta es incorrecta, el jugador puede ver y corregir
+        // exactamente lo que había escrito.
         GameManager.Instance?.SubmitAnswer(submittedAnswer);
+    }
+
+    /// <summary>
+    /// Limpia el campo de respuesta al comenzar una ronda nueva.
+    /// No debe llamarse después de un intento incorrecto.
+    /// </summary>
+    public void ClearAnswerInput()
+    {
+        if (answerInput == null)
+        {
+            return;
+        }
+
+        answerInput.SetTextWithoutNotify(string.Empty);
+        answerInput.caretPosition = 0;
+        answerInput.selectionAnchorPosition = 0;
+        answerInput.selectionFocusPosition = 0;
     }
 
     public void RequestHint()

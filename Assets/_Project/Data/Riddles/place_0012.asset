@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: place_0012
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: place_0012
+  category: lugares
+  difficulty: 2
+  answer: Angkor Wat
+  acceptedAnswers:
+  - Angkor Wat
+  - angkor
+  hints:
+  - Su silueta de torres aparece incluso en una bandera nacional.
+  - "Es parte de un complejo arqueol\xF3gico muy amplio en el sudeste asi\xE1tico."
+  - Combina arquitectura religiosa, relieves extensos y fosos de agua.
+  - "Est\xE1 cerca de Siem Reap y atrae visitas al amanecer."
+  - Templo camboyano asociado al antiguo Imperio jemer.

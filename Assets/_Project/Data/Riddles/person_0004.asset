@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: person_0004
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: person_0004
+  category: personas
+  difficulty: 0
+  answer: Michael Jackson
+  acceptedAnswers:
+  - Michael Jackson
+  - jackson
+  - mj
+  - rey del pop
+  hints:
+  - "Su baile convirti\xF3 pasos espec\xEDficos en marcas reconocibles."
+  - "Un guante brillante forma parte de su est\xE9tica esc\xE9nica."
+  - "Thriller fue un fen\xF3meno musical y audiovisual de alcance enorme."
+  - "Hac\xEDa el moonwalk y fue llamado el rey del pop."
+  - Cantante de Billie Jean y Beat It.

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: movie_0016
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: movie_0016
+  category: peliculas
+  difficulty: 0
+  answer: Harry Potter y la piedra filosofal
+  acceptedAnswers:
+  - Harry Potter y la piedra filosofal
+  - harry potter and the philosopher's stone
+  - harry potter and the sorcerer's stone
+  - la piedra filosofal
+  - piedra filosofal
+  hints:
+  - "Un ni\xF1o descubre que pertenece a un mundo oculto de magia y reglas propias."
+  - La historia comienza con cartas que llegan de una escuela muy particular.
+  - "Un sombrero decide casas y un tren parte desde un and\xE9n imposible."
+  - Hogwarts, varitas y una cicatriz con forma de rayo son elementos centrales.
+  - "Primera pel\xEDcula de la saga del joven mago creado por J. K. Rowling."

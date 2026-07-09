@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: place_0019
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: place_0019
+  category: lugares
+  difficulty: 1
+  answer: "Cataratas del Iguaz\xFA"
+  acceptedAnswers:
+  - "Cataratas del Iguaz\xFA"
+  - cataratas del iguazu
+  - iguazu falls
+  - "iguaz\xFA"
+  - iguazu
+  hints:
+  - Su fuerza se percibe en pasarelas, bruma constante y ruido de agua cayendo.
+  - "Est\xE1 dentro de parques nacionales compartidos por dos pa\xEDses sudamericanos."
+  - "La Garganta del Diablo es uno de sus sectores m\xE1s impactantes."
+  - Se ubican entre Argentina y Brasil, rodeadas de selva subtropical.
+  - Gran sistema de saltos de agua en la frontera misionera.

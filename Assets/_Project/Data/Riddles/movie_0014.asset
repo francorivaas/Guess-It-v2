@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: movie_0014
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: movie_0014
+  category: peliculas
+  difficulty: 0
+  answer: Toy Story
+  acceptedAnswers:
+  - Toy Story
+  hints:
+  - "Imagina una vida secreta detr\xE1s de objetos cotidianos de una habitaci\xF3n
+    infantil."
+  - "La rivalidad inicial entre dos personajes termina convirti\xE9ndose en amistad."
+  - "Fue un hito de animaci\xF3n digital de largometraje."
+  - "Un vaquero y un guardi\xE1n espacial comparten protagonismo."
+  - "Pel\xEDcula de Pixar con Woody y Buzz Lightyear."

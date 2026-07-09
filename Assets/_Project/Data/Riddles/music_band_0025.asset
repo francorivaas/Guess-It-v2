@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: music_band_0025
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: music_band_0025
+  category: bandas musicales
+  difficulty: 2
+  answer: Black Sabbath
+  acceptedAnswers:
+  - Black Sabbath
+  hints:
+  - Sus riffs lentos y pesados ayudaron a definir una rama entera del rock duro.
+  - La ciudad industrial de Birmingham fue clave en su origen sonoro.
+  - "Un accidente de dedos de su guitarrista influy\xF3 en su forma de tocar."
+  - "Paranoid y Iron Man est\xE1n entre sus canciones m\xE1s citadas."
+  - Banda pionera del heavy metal con Ozzy Osbourne como primer cantante.

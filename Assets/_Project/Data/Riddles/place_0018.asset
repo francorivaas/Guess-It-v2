@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: place_0018
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: place_0018
+  category: lugares
+  difficulty: 1
+  answer: Taj Mahal
+  acceptedAnswers:
+  - Taj Mahal
+  hints:
+  - "Su simetr\xEDa y m\xE1rmol claro lo vuelven una de las im\xE1genes m\xE1s reconocibles
+    de Asia."
+  - Fue construido como mausoleo ligado a una historia imperial de amor y duelo.
+  - Sus jardines y reflejos en el agua forman parte de la experiencia visual.
+  - "Est\xE1 en Agra, a orillas del r\xEDo Yamuna."
+  - "Monumento indio de m\xE1rmol blanco construido por Shah Jahan."

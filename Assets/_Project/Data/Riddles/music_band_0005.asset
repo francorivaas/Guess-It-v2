@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: music_band_0005
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: music_band_0005
+  category: bandas musicales
+  difficulty: 0
+  answer: Coldplay
+  acceptedAnswers:
+  - Coldplay
+  hints:
+  - Sus shows suelen usar luces de colores y pulseras luminosas.
+  - "En sus discos conviven piano melanc\xF3lico, pop y rock suave."
+  - "Una canci\xF3n suya habla de un color primario en el t\xEDtulo."
+  - "Tiene \xE9xitos como Viva la Vida, Clocks y Fix You."
+  - "Banda brit\xE1nica liderada por Chris Martin."

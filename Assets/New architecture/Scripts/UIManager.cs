@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,10 +16,69 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject hintCardPrefab;
     [SerializeField] private ScrollRect scrollRect;
 
+    [SerializeField] private Button requestHintButton;
+    [SerializeField] private Graphic requestHintButtonGraphic;
+    [SerializeField] private TextMeshProUGUI requestHintButtonText;
+    [SerializeField] private Color availableHintColor = Color.white;
+    [SerializeField] private Color unavailableHintColor = new Color32(120, 120, 120, 255);
+    [SerializeField] private AudioClip noMoreHintsSFX;
+
+    [Header("Hint Counter")]
+    [Tooltip("Raíz visual del contador. Este objeto recibe la animación de pulso.")]
+    [SerializeField] private RectTransform hintCounterRoot;
+
+    [Tooltip("Imagen o Graphic que muestra el fondo del contador.")]
+    [SerializeField] private Graphic hintCounterGraphic;
+
+    [Tooltip("Texto TMP que muestra cuántas pistas extra quedan.")]
+    [SerializeField] private TextMeshProUGUI hintCounterText;
+
+    [Tooltip("Color del número mientras todavía quedan pistas.")]
+    [SerializeField] private Color hintCounterAvailableTextColor = Color.white;
+
+    [Tooltip("Color del número cuando el contador llega a cero.")]
+    [SerializeField]
+    private Color hintCounterUnavailableTextColor =
+        new Color32(210, 210, 210, 255);
+
+    [Tooltip("Escala máxima del pequeño pulso cuando se consume una pista.")]
+    [SerializeField, Range(1f, 1.5f)] private float hintCounterPulseScale = 1.2f;
+
+    [Tooltip("Duración total del pulso del contador.")]
+    [SerializeField, Min(0.05f)] private float hintCounterPulseDuration = 0.22f;
+
     [Header("Status")]
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI livesText;
     [SerializeField] private LifeUI lifeUI;
+
+    [Header("Score Transfer")]
+    [Tooltip("Texto que aparece debajo del puntaje total, por ejemplo: +350.")]
+    [SerializeField] private TextMeshProUGUI gainedPointsText;
+
+    [Tooltip("Duración de la pequeña animación de entrada del texto +XXX.")]
+    [SerializeField, Min(0.01f)] private float gainedPointsIntroDuration = 0.15f;
+
+    [Tooltip("Tiempo que el +XXX permanece completo en pantalla antes de empezar a transferirse.")]
+    [SerializeField, Min(0f)] private float gainedPointsInitialHoldDuration = 1f;
+
+    [Tooltip("Tiempo durante el cual los puntos pasan del bonus al puntaje total.")]
+    [SerializeField, Min(0.05f)] private float scoreTransferDuration = 0.65f;
+
+    [Tooltip("Tiempo que permanece visible el +0 antes de desaparecer.")]
+    [SerializeField, Min(0f)] private float gainedPointsHoldDuration = 0.08f;
+
+    [Tooltip("Duración del desvanecimiento final del texto de puntos ganados.")]
+    [SerializeField, Min(0.01f)] private float gainedPointsFadeDuration = 0.2f;
+
+    [Tooltip("Escala máxima del pequeño pulso final del puntaje total.")]
+    [SerializeField, Range(1f, 1.5f)] private float finalScorePulseScale = 1.15f;
+
+    [Tooltip("Duración del pulso final del puntaje total.")]
+    [SerializeField, Min(0.05f)] private float finalScorePulseDuration = 0.18f;
+
+    [Tooltip("Pausa adicional después de terminar la transferencia y antes de iniciar la siguiente ronda.")]
+    [SerializeField, Min(0f)] private float delayBeforeNextRound = 0.15f;
 
     [Header("Answer")]
     [SerializeField] private TMP_InputField answerInput;
@@ -48,16 +109,81 @@ public class UIManager : MonoBehaviour
 
     [Header("Reveal")]
     [SerializeField] private GameObject revealPanel;
+    [SerializeField] private RectTransform revealPanelRoot;
+    [SerializeField] private CanvasGroup revealPanelCanvasGroup;
     [SerializeField] private TextMeshProUGUI correctAnswerText;
+    [SerializeField] private Button revealContinueButton;
 
+    [Header("Victory")]
+    [SerializeField] private GameObject victoryPanel;
+    [SerializeField] private RectTransform victoryPanelRoot;
+    [SerializeField] private CanvasGroup victoryPanelCanvasGroup;
+    [SerializeField] private TextMeshProUGUI victoryAnswerText;
+    [SerializeField] private Button victoryContinueButton;
+
+    [Header("Result Panels Animation")]
+    [Tooltip("Escala inicial y final de salida de las tarjetas de resultado.")]
+    [SerializeField, Range(0.01f, 0.95f)] private float resultPanelStartScale = 0.15f;
+
+    [Tooltip("Escala máxima alcanzada durante el pop de entrada.")]
+    [SerializeField, Range(1f, 1.3f)] private float resultPanelOvershootScale = 1.08f;
+
+    [Tooltip("Duración de la animación de entrada.")]
+    [SerializeField, Min(0.05f)] private float resultPanelEnterDuration = 0.32f;
+
+    [Tooltip("Duración de la animación de salida.")]
+    [SerializeField, Min(0.05f)] private float resultPanelExitDuration = 0.22f;
+
+    [Tooltip("Espera antes de comenzar el efecto de escritura.")]
+    [SerializeField, Min(0f)] private float typewriterStartDelay = 0.12f;
+
+    [Tooltip("Tiempo entre cada carácter del efecto de escritura.")]
+    [SerializeField, Min(0.001f)] private float typewriterCharacterDelay = 0.025f;
+
+    [Tooltip("Pausa adicional después de signos y saltos de línea.")]
+    [SerializeField, Min(0f)] private float typewriterPunctuationDelay = 0.08f;
+
+    [Header("Category Chip")]
+    [SerializeField] private GameObject categoryChip;
+    [SerializeField] private TextMeshProUGUI categoryText;
+    [SerializeField] private CanvasGroup categoryCanvasGroup;
+    [SerializeField] private RectTransform categoryChipRoot;
+
+    [SerializeField, Min(0.05f)]
+    private float categoryChipAnimationDuration = 0.25f;
+
+    [SerializeField, Range(0.5f, 1f)]
+    private float categoryChipStartScale = 0.75f;
+
+    [SerializeField, Min(0f)]
+    private float categoryChipStartOffsetY = 18f;
     private readonly List<GameObject> spawnedCards = new List<GameObject>();
 
+    private Coroutine categoryChipAnimation;
+    private Vector2 categoryChipBasePosition;
+    private bool categoryChipPositionSaved;
+    private bool categoryChipNeedsAnimation = true;
+
     private Coroutine streakAnimation;
+    private Coroutine scoreTransferAnimation;
+    private Coroutine resultPanelAnimation;
+    private Coroutine resultTypewriterAnimation;
+    private Coroutine hintCounterPulseAnimation;
+
     private Vector3 originalStreakPosition;
+    private Vector3 hintCounterBaseScale = Vector3.one;
+    private Vector3 victoryPanelBaseScale = Vector3.one;
+    private Vector3 revealPanelBaseScale = Vector3.one;
+    private Vector3 originalScoreScale = Vector3.one;
+    private Vector3 originalGainedPointsScale = Vector3.one;
+
     private bool originalStreakPositionSaved;
+    private bool scoreVisualsInitialized;
     private bool inputLocked;
     private bool paused;
+    private bool resultPanelTransitioning;
     private int displayedScore;
+    private int lastDisplayedRemainingHints = -1;
 
     private void Awake()
     {
@@ -73,12 +199,184 @@ public class UIManager : MonoBehaviour
         {
             effectsAudioSource = GetComponentInChildren<AudioSource>();
         }
+
+        InitializeCategoryChip();
+        InitializeResultPanels();
+        InitializeHintCounter();
     }
 
     private void Start()
     {
         ShowMessage(string.Empty);
         RegisterButtonAnimations();
+        InitializeScoreVisuals();
+
+        if (GameManager.Instance != null)
+        {
+            displayedScore = GameManager.Instance.Score;
+        }
+
+        if (scoreText != null)
+        {
+            scoreText.text = displayedScore.ToString();
+        }
+
+    }
+
+    private void InitializeCategoryChip()
+    {
+        if (categoryChipRoot != null)
+        {
+            categoryChipBasePosition =
+                categoryChipRoot.anchoredPosition;
+
+            categoryChipPositionSaved = true;
+        }
+
+        if (categoryCanvasGroup != null)
+        {
+            categoryCanvasGroup.alpha = 0f;
+        }
+
+        if (categoryChip != null)
+        {
+            categoryChip.SetActive(false);
+        }
+    }
+
+    private void RefreshCategoryChip(RiddleSO currentRiddle)
+    {
+        if (
+            categoryChip == null ||
+            categoryText == null ||
+            currentRiddle == null
+        )
+        {
+            return;
+        }
+
+        string category = currentRiddle.category?.Trim();
+
+        if (string.IsNullOrWhiteSpace(category))
+        {
+            categoryChip.SetActive(false);
+            return;
+        }
+
+        categoryText.text =
+            $"CATEGORÍA: {category.ToUpperInvariant()}";
+
+        categoryChip.SetActive(true);
+
+        if (!categoryChipPositionSaved && categoryChipRoot != null)
+        {
+            categoryChipBasePosition =
+                categoryChipRoot.anchoredPosition;
+
+            categoryChipPositionSaved = true;
+        }
+
+        // RequestHint también llama a RefreshUI.
+        // Solo animamos el chip cuando comenzó una ronda nueva.
+        if (!categoryChipNeedsAnimation)
+        {
+            SetCategoryChipFinalState();
+            return;
+        }
+
+        categoryChipNeedsAnimation = false;
+
+        if (categoryChipAnimation != null)
+        {
+            StopCoroutine(categoryChipAnimation);
+        }
+
+        categoryChipAnimation =
+            StartCoroutine(AnimateCategoryChip());
+    }
+
+    private IEnumerator AnimateCategoryChip()
+    {
+        if (
+            categoryChipRoot == null ||
+            categoryCanvasGroup == null
+        )
+        {
+            SetCategoryChipFinalState();
+            yield break;
+        }
+
+        Vector2 startPosition =
+            categoryChipBasePosition +
+            Vector2.up * categoryChipStartOffsetY;
+
+        Vector3 startScale =
+            Vector3.one * categoryChipStartScale;
+
+        float elapsed = 0f;
+
+        categoryCanvasGroup.alpha = 0f;
+        categoryChipRoot.anchoredPosition = startPosition;
+        categoryChipRoot.localScale = startScale;
+
+        while (elapsed < categoryChipAnimationDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+
+            float progress = Mathf.Clamp01(
+                elapsed / categoryChipAnimationDuration
+            );
+
+            float easedProgress = Mathf.SmoothStep(
+                0f,
+                1f,
+                progress
+            );
+
+            categoryCanvasGroup.alpha = easedProgress;
+
+            categoryChipRoot.anchoredPosition =
+                Vector2.Lerp(
+                    startPosition,
+                    categoryChipBasePosition,
+                    easedProgress
+                );
+
+            // Pequeño overshoot para lograr el efecto candy/pop.
+            float pop =
+                Mathf.Sin(progress * Mathf.PI) * 0.12f;
+
+            float scale =
+                Mathf.Lerp(
+                    categoryChipStartScale,
+                    1f,
+                    easedProgress
+                ) + pop;
+
+            categoryChipRoot.localScale =
+                Vector3.one * scale;
+
+            yield return null;
+        }
+
+        SetCategoryChipFinalState();
+        categoryChipAnimation = null;
+    }
+    private void SetCategoryChipFinalState()
+    {
+        if (categoryCanvasGroup != null)
+        {
+            categoryCanvasGroup.alpha = 1f;
+        }
+
+        if (categoryChipRoot != null)
+        {
+            categoryChipRoot.anchoredPosition =
+                categoryChipBasePosition;
+
+            categoryChipRoot.localScale =
+                Vector3.one;
+        }
     }
 
     private void OnDestroy()
@@ -92,6 +390,8 @@ public class UIManager : MonoBehaviour
     public void RefreshUI()
     {
         RefreshStatusUI();
+        RefreshHintButtonState();
+        RefreshHintCounterState();
 
         RiddleSO currentRiddle = GameManager.Instance?.GetCurrentRiddle();
 
@@ -100,6 +400,8 @@ public class UIManager : MonoBehaviour
             Debug.LogError("No hay un acertijo válido para mostrar.");
             return;
         }
+
+        RefreshCategoryChip(currentRiddle);
 
         int targetHintCount = GameManager.Instance.GetCurrentHintCount();
 
@@ -137,17 +439,44 @@ public class UIManager : MonoBehaviour
         lifeUI?.UpdateLives(GameManager.Instance.Lives);
     }
 
-    public void ShowCorrectFeedback(int totalScore, int gainedPoints)
+    /// <summary>
+    /// Muestra el feedback de acierto y anima la transferencia de los puntos ganados
+    /// hacia el puntaje total. Por ejemplo: +350 baja hasta +0 mientras el puntaje
+    /// total aumenta hasta alcanzar totalScore.
+    /// </summary>
+    public void ShowCorrectFeedback(
+        int totalScore,
+        int gainedPoints,
+        Action onComplete
+    )
     {
-        displayedScore = totalScore;
+        // El panel de victoria ya comunicó el acierto y reprodujo el sonido.
+        // En esta fase se muestran solamente la recompensa y la racha.
+        ShowMessage(string.Empty);
+        InitializeScoreVisuals();
 
-        if (scoreText != null)
+        // Bloquea respuestas y solicitudes de pista durante toda la celebración.
+        LockInput(true);
+
+        if (scoreTransferAnimation != null)
         {
-            scoreText.text = displayedScore.ToString();
+            StopCoroutine(scoreTransferAnimation);
+            RestoreScoreVisuals();
         }
 
-        ShowMessage($"¡Correcto! +{gainedPoints}");
-        PlayEffect(correctSFX);
+        scoreTransferAnimation = StartCoroutine(
+            AnimateScoreTransfer(
+                totalScore,
+                Mathf.Max(0, gainedPoints),
+                onComplete
+            )
+        );
+    }
+
+    // Sobrecarga para conservar compatibilidad con cualquier llamada anterior.
+    public void ShowCorrectFeedback(int totalScore, int gainedPoints)
+    {
+        ShowCorrectFeedback(totalScore, gainedPoints, null);
     }
 
     public void TriggerFailureFeedback()
@@ -163,17 +492,44 @@ public class UIManager : MonoBehaviour
         }
 
         string submittedAnswer = answerInput.text;
-        answerInput.text = string.Empty;
 
+        // No limpiamos el campo al enviar.
+        // Si la respuesta es incorrecta, el jugador puede ver y corregir
+        // exactamente lo que había escrito.
         GameManager.Instance?.SubmitAnswer(submittedAnswer);
+    }
+
+    /// <summary>
+    /// Limpia el campo de respuesta al comenzar una ronda nueva.
+    /// No debe llamarse después de un intento incorrecto.
+    /// </summary>
+    public void ClearAnswerInput()
+    {
+        if (answerInput == null)
+        {
+            return;
+        }
+
+        answerInput.SetTextWithoutNotify(string.Empty);
+        answerInput.caretPosition = 0;
+        answerInput.selectionAnchorPosition = 0;
+        answerInput.selectionFocusPosition = 0;
     }
 
     public void RequestHint()
     {
-        if (!inputLocked)
+        if (inputLocked || GameManager.Instance == null)
         {
-            GameManager.Instance?.RequestHint();
+            return;
         }
+
+        if (!GameManager.Instance.HasMoreHints())
+        {
+            PlayEffect(noMoreHintsSFX);
+            return;
+        }
+
+        GameManager.Instance.RequestHint();
     }
 
     public void ShowMessage(string message)
@@ -195,6 +551,17 @@ public class UIManager : MonoBehaviour
         }
 
         spawnedCards.Clear();
+        categoryChipNeedsAnimation = true;
+
+        // La próxima actualización pertenece a una ronda nueva.
+        // Reiniciamos el valor previo para que el contador no haga un pulso
+        // simplemente por volver a su cantidad inicial.
+        lastDisplayedRemainingHints = -1;
+
+        if (hintCounterRoot != null)
+        {
+            hintCounterRoot.localScale = hintCounterBaseScale;
+        }
     }
 
     public void TriggerErrorShake()
@@ -277,29 +644,830 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void ShowRevealPanel(string correctAnswer)
+    /// <summary>
+    /// Muestra el panel de victoria sin aplicar todavía el puntaje ni la racha.
+    /// El título "¡Correcto!" debe ser un TMP independiente dentro de la tarjeta.
+    /// Este método solo escribe con typewriter "La respuesta era..." y la respuesta.
+    /// </summary>
+    public bool ShowVictoryPanel(string correctAnswer)
     {
-        if (revealPanel != null)
+        if (!ValidateResultPanel(
+                victoryPanel,
+                victoryPanelRoot,
+                victoryPanelCanvasGroup,
+                victoryAnswerText,
+                victoryContinueButton,
+                "Victory"
+            ))
         {
-            revealPanel.SetActive(true);
-        }
-
-        if (correctAnswerText != null)
-        {
-            correctAnswerText.text = correctAnswer;
+            return false;
         }
 
         LockInput(true);
+        PlayEffect(correctSFX);
+
+        StartResultPanelEntrance(
+            victoryPanel,
+            victoryPanelRoot,
+            victoryPanelCanvasGroup,
+            victoryAnswerText,
+            victoryContinueButton,
+            BuildAnswerMessage(correctAnswer),
+            victoryPanelBaseScale
+        );
+
+        return true;
     }
 
-    public void HideRevealPanel()
+    /// <summary>
+    /// Se conecta al botón Continuar del panel de victoria.
+    /// Primero reproduce la salida y después aplica la recompensa pendiente.
+    /// </summary>
+    public void ContinueFromVictory()
     {
-        if (revealPanel != null)
+        if (resultPanelTransitioning)
         {
-            revealPanel.SetActive(false);
+            return;
         }
 
-        LockInput(false);
+        if (GameManager.Instance == null)
+        {
+            Debug.LogError(
+                "No existe un GameManager para continuar la victoria."
+            );
+            return;
+        }
+
+        StartResultPanelExit(
+            victoryPanel,
+            victoryPanelRoot,
+            victoryPanelCanvasGroup,
+            victoryContinueButton,
+            victoryPanelBaseScale,
+            GameManager.Instance.ContinueFromVictory
+        );
+    }
+
+    /// <summary>
+    /// Oculta el panel de victoria inmediatamente.
+    /// Se conserva como utilidad; el flujo normal usa ContinueFromVictory().
+    /// </summary>
+    public void HideVictoryPanel()
+    {
+        HideResultPanelImmediately(
+            victoryPanel,
+            victoryPanelRoot,
+            victoryPanelCanvasGroup,
+            victoryPanelBaseScale
+        );
+    }
+
+    /// <summary>
+    /// Muestra el panel de respuesta incorrecta.
+    /// El título "¡Incorrecto!" debe ser un TMP independiente dentro de la tarjeta.
+    /// </summary>
+    public void ShowRevealPanel(string correctAnswer)
+    {
+        if (!ValidateResultPanel(
+                revealPanel,
+                revealPanelRoot,
+                revealPanelCanvasGroup,
+                correctAnswerText,
+                revealContinueButton,
+                "Reveal"
+            ))
+        {
+            return;
+        }
+
+        LockInput(true);
+
+        StartResultPanelEntrance(
+            revealPanel,
+            revealPanelRoot,
+            revealPanelCanvasGroup,
+            correctAnswerText,
+            revealContinueButton,
+            BuildAnswerMessage(correctAnswer),
+            revealPanelBaseScale
+        );
+    }
+
+    /// <summary>
+    /// Conectar este método al botón Continuar del panel de derrota.
+    /// Primero reproduce la salida y después continúa el flujo del GameManager.
+    /// </summary>
+    public void ContinueFromReveal()
+    {
+        if (resultPanelTransitioning)
+        {
+            return;
+        }
+
+        if (GameManager.Instance == null)
+        {
+            Debug.LogError(
+                "No existe un GameManager para continuar desde el panel de derrota."
+            );
+            return;
+        }
+
+        StartResultPanelExit(
+            revealPanel,
+            revealPanelRoot,
+            revealPanelCanvasGroup,
+            revealContinueButton,
+            revealPanelBaseScale,
+            GameManager.Instance.ContinueFromReveal
+        );
+    }
+
+    /// <summary>
+    /// Oculta el panel de derrota inmediatamente.
+    /// Se conserva como utilidad; el flujo normal usa ContinueFromReveal().
+    /// </summary>
+    public void HideRevealPanel()
+    {
+        HideResultPanelImmediately(
+            revealPanel,
+            revealPanelRoot,
+            revealPanelCanvasGroup,
+            revealPanelBaseScale
+        );
+    }
+
+    private void InitializeResultPanels()
+    {
+        if (victoryPanelRoot != null)
+        {
+            victoryPanelBaseScale = victoryPanelRoot.localScale;
+        }
+
+        if (revealPanelRoot != null)
+        {
+            revealPanelBaseScale = revealPanelRoot.localScale;
+        }
+
+        HideResultPanelImmediately(
+            victoryPanel,
+            victoryPanelRoot,
+            victoryPanelCanvasGroup,
+            victoryPanelBaseScale
+        );
+
+        HideResultPanelImmediately(
+            revealPanel,
+            revealPanelRoot,
+            revealPanelCanvasGroup,
+            revealPanelBaseScale
+        );
+    }
+
+    private bool ValidateResultPanel(
+        GameObject panel,
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        TextMeshProUGUI answerText,
+        Button continueButton,
+        string panelName
+    )
+    {
+        if (panel == null)
+        {
+            Debug.LogError($"{panelName} Panel no está asignado en UIManager.");
+            return false;
+        }
+
+        if (panelRoot == null)
+        {
+            Debug.LogError($"{panelName} Panel Root no está asignado en UIManager.");
+            return false;
+        }
+
+        if (panelCanvasGroup == null)
+        {
+            Debug.LogError($"{panelName} Canvas Group no está asignado en UIManager.");
+            return false;
+        }
+
+        if (answerText == null)
+        {
+            Debug.LogError($"{panelName} Answer Text no está asignado en UIManager.");
+            return false;
+        }
+
+        if (continueButton == null)
+        {
+            Debug.LogError($"{panelName} Continue Button no está asignado en UIManager.");
+            return false;
+        }
+
+        return true;
+    }
+
+    private string BuildAnswerMessage(string correctAnswer)
+    {
+        return $"La respuesta era:\n{correctAnswer}";
+    }
+
+    private void StartResultPanelEntrance(
+        GameObject panel,
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        TextMeshProUGUI answerText,
+        Button continueButton,
+        string message,
+        Vector3 baseScale
+    )
+    {
+        StopResultPanelCoroutines();
+
+        panel.SetActive(true);
+        panel.transform.SetAsLastSibling();
+
+        panelCanvasGroup.alpha = 0f;
+        panelCanvasGroup.interactable = false;
+        panelCanvasGroup.blocksRaycasts = true;
+
+        panelRoot.localScale = baseScale * resultPanelStartScale;
+
+        answerText.text = message;
+        answerText.maxVisibleCharacters = 0;
+
+        continueButton.interactable = false;
+        resultPanelTransitioning = true;
+
+        resultPanelAnimation = StartCoroutine(
+            AnimateResultPanelEntrance(
+                panelRoot,
+                panelCanvasGroup,
+                answerText,
+                continueButton,
+                message,
+                baseScale
+            )
+        );
+    }
+
+    private IEnumerator AnimateResultPanelEntrance(
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        TextMeshProUGUI answerText,
+        Button continueButton,
+        string message,
+        Vector3 baseScale
+    )
+    {
+        float elapsed = 0f;
+        float firstPhaseDuration = resultPanelEnterDuration * 0.72f;
+        float secondPhaseDuration = Mathf.Max(
+            0.01f,
+            resultPanelEnterDuration - firstPhaseDuration
+        );
+
+        Vector3 startScale = baseScale * resultPanelStartScale;
+        Vector3 overshootScale = baseScale * resultPanelOvershootScale;
+
+        while (elapsed < firstPhaseDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float progress = Mathf.Clamp01(elapsed / firstPhaseDuration);
+            float easedProgress = EaseOutBack(progress);
+
+            panelCanvasGroup.alpha = Mathf.Clamp01(progress);
+            panelRoot.localScale = Vector3.LerpUnclamped(
+                startScale,
+                overshootScale,
+                easedProgress
+            );
+
+            yield return null;
+        }
+
+        elapsed = 0f;
+
+        while (elapsed < secondPhaseDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float progress = Mathf.Clamp01(elapsed / secondPhaseDuration);
+            float easedProgress = Mathf.SmoothStep(0f, 1f, progress);
+
+            panelCanvasGroup.alpha = 1f;
+            panelRoot.localScale = Vector3.Lerp(
+                overshootScale,
+                baseScale,
+                easedProgress
+            );
+
+            yield return null;
+        }
+
+        panelCanvasGroup.alpha = 1f;
+        panelCanvasGroup.interactable = true;
+        panelRoot.localScale = baseScale;
+
+        resultPanelAnimation = null;
+        resultPanelTransitioning = false;
+
+        resultTypewriterAnimation = StartCoroutine(
+            TypewriterRoutine(
+                answerText,
+                continueButton,
+                message
+            )
+        );
+    }
+
+    private IEnumerator TypewriterRoutine(
+        TextMeshProUGUI targetText,
+        Button continueButton,
+        string message
+    )
+    {
+        targetText.text = message;
+        targetText.maxVisibleCharacters = 0;
+        targetText.ForceMeshUpdate();
+
+        if (typewriterStartDelay > 0f)
+        {
+            yield return new WaitForSecondsRealtime(typewriterStartDelay);
+        }
+
+        int totalCharacters = targetText.textInfo.characterCount;
+
+        for (int visibleCharacters = 1;
+             visibleCharacters <= totalCharacters;
+             visibleCharacters++)
+        {
+            targetText.maxVisibleCharacters = visibleCharacters;
+
+            char currentCharacter = GetVisibleCharacter(
+                targetText,
+                visibleCharacters - 1
+            );
+
+            float delay = typewriterCharacterDelay;
+
+            if (
+                currentCharacter == ':' ||
+                currentCharacter == '.' ||
+                currentCharacter == '!' ||
+                currentCharacter == '?' ||
+                currentCharacter == '\n'
+            )
+            {
+                delay += typewriterPunctuationDelay;
+            }
+
+            if (delay > 0f)
+            {
+                yield return new WaitForSecondsRealtime(delay);
+            }
+            else
+            {
+                yield return null;
+            }
+        }
+
+        targetText.maxVisibleCharacters = int.MaxValue;
+        continueButton.interactable = true;
+        resultTypewriterAnimation = null;
+    }
+
+    private static char GetVisibleCharacter(
+        TextMeshProUGUI targetText,
+        int characterInfoIndex
+    )
+    {
+        if (
+            targetText == null ||
+            targetText.textInfo == null ||
+            characterInfoIndex < 0 ||
+            characterInfoIndex >= targetText.textInfo.characterCount
+        )
+        {
+            return '\0';
+        }
+
+        int stringIndex =
+            targetText.textInfo.characterInfo[characterInfoIndex].index;
+
+        if (
+            stringIndex < 0 ||
+            stringIndex >= targetText.text.Length
+        )
+        {
+            return '\0';
+        }
+
+        return targetText.text[stringIndex];
+    }
+
+    private void StartResultPanelExit(
+        GameObject panel,
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        Button continueButton,
+        Vector3 baseScale,
+        Action onComplete
+    )
+    {
+        if (
+            panel == null ||
+            panelRoot == null ||
+            panelCanvasGroup == null
+        )
+        {
+            onComplete?.Invoke();
+            return;
+        }
+
+        StopResultPanelCoroutines();
+
+        continueButton.interactable = false;
+        panelCanvasGroup.interactable = false;
+        panelCanvasGroup.blocksRaycasts = true;
+        resultPanelTransitioning = true;
+
+        resultPanelAnimation = StartCoroutine(
+            AnimateResultPanelExit(
+                panel,
+                panelRoot,
+                panelCanvasGroup,
+                baseScale,
+                onComplete
+            )
+        );
+    }
+
+    private IEnumerator AnimateResultPanelExit(
+        GameObject panel,
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        Vector3 baseScale,
+        Action onComplete
+    )
+    {
+        float elapsed = 0f;
+        Vector3 startScale = panelRoot.localScale;
+        Vector3 endScale = baseScale * resultPanelStartScale;
+        float startAlpha = panelCanvasGroup.alpha;
+
+        while (elapsed < resultPanelExitDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float progress = Mathf.Clamp01(
+                elapsed / resultPanelExitDuration
+            );
+            float easedProgress = EaseInBack(progress);
+
+            panelRoot.localScale = Vector3.LerpUnclamped(
+                startScale,
+                endScale,
+                easedProgress
+            );
+
+            panelCanvasGroup.alpha = Mathf.Lerp(
+                startAlpha,
+                0f,
+                progress
+            );
+
+            yield return null;
+        }
+
+        HideResultPanelImmediately(
+            panel,
+            panelRoot,
+            panelCanvasGroup,
+            baseScale
+        );
+
+        resultPanelAnimation = null;
+        resultPanelTransitioning = false;
+
+        onComplete?.Invoke();
+    }
+
+    private void HideResultPanelImmediately(
+        GameObject panel,
+        RectTransform panelRoot,
+        CanvasGroup panelCanvasGroup,
+        Vector3 baseScale
+    )
+    {
+        if (panelRoot != null)
+        {
+            panelRoot.localScale = baseScale;
+        }
+
+        if (panelCanvasGroup != null)
+        {
+            panelCanvasGroup.alpha = 0f;
+            panelCanvasGroup.interactable = false;
+            panelCanvasGroup.blocksRaycasts = false;
+        }
+
+        if (panel != null)
+        {
+            panel.SetActive(false);
+        }
+    }
+
+    private void StopResultPanelCoroutines()
+    {
+        if (resultPanelAnimation != null)
+        {
+            StopCoroutine(resultPanelAnimation);
+            resultPanelAnimation = null;
+        }
+
+        if (resultTypewriterAnimation != null)
+        {
+            StopCoroutine(resultTypewriterAnimation);
+            resultTypewriterAnimation = null;
+        }
+    }
+
+    private static float EaseOutBack(float value)
+    {
+        const float c1 = 1.70158f;
+        const float c3 = c1 + 1f;
+        float x = value - 1f;
+
+        return 1f + c3 * x * x * x + c1 * x * x;
+    }
+
+    private static float EaseInBack(float value)
+    {
+        const float c1 = 1.70158f;
+        const float c3 = c1 + 1f;
+
+        return c3 * value * value * value -
+               c1 * value * value;
+    }
+
+    private IEnumerator AnimateScoreTransfer(
+        int totalScore,
+        int gainedPoints,
+        Action onComplete
+    )
+    {
+        int startScore = Mathf.Max(0, totalScore - gainedPoints);
+        displayedScore = startScore;
+
+        if (scoreText != null)
+        {
+            scoreText.text = displayedScore.ToString();
+            scoreText.transform.localScale = originalScoreScale;
+        }
+
+        if (gainedPointsText != null)
+        {
+            gainedPointsText.gameObject.SetActive(true);
+            gainedPointsText.alpha = 1f;
+            gainedPointsText.text = $"+{gainedPoints}";
+            gainedPointsText.transform.localScale = originalGainedPointsScale * 0.75f;
+        }
+
+        if (gainedPoints <= 0)
+        {
+            displayedScore = totalScore;
+
+            if (scoreText != null)
+            {
+                scoreText.text = displayedScore.ToString();
+            }
+
+            HideGainedPointsImmediately();
+
+            yield return CompleteCorrectSequence(onComplete);
+            yield break;
+        }
+
+        // Entrada visual del +XXX.
+        yield return AnimateGainedPointsEntrance();
+
+        // El bonus permanece completo para que el jugador pueda leer cuánto ganó.
+        if (gainedPointsInitialHoldDuration > 0f)
+        {
+            yield return new WaitForSeconds(gainedPointsInitialHoldDuration);
+        }
+
+        float elapsed = 0f;
+
+        while (elapsed < scoreTransferDuration)
+        {
+            elapsed += Time.deltaTime;
+            float linearProgress = Mathf.Clamp01(elapsed / scoreTransferDuration);
+            float easedProgress = Mathf.SmoothStep(0f, 1f, linearProgress);
+
+            int transferredPoints = Mathf.RoundToInt(gainedPoints * easedProgress);
+            int remainingPoints = Mathf.Max(0, gainedPoints - transferredPoints);
+
+            displayedScore = startScore + transferredPoints;
+
+            if (scoreText != null)
+            {
+                scoreText.text = displayedScore.ToString();
+            }
+
+            if (gainedPointsText != null)
+            {
+                gainedPointsText.text = $"+{remainingPoints}";
+                gainedPointsText.transform.localScale = originalGainedPointsScale;
+            }
+
+            yield return null;
+        }
+
+        displayedScore = totalScore;
+
+        if (scoreText != null)
+        {
+            scoreText.text = displayedScore.ToString();
+        }
+
+        if (gainedPointsText != null)
+        {
+            gainedPointsText.text = "+0";
+        }
+
+        yield return PulseFinalScore();
+
+        if (gainedPointsHoldDuration > 0f)
+        {
+            yield return new WaitForSeconds(gainedPointsHoldDuration);
+        }
+
+        yield return FadeOutGainedPoints();
+
+        RestoreScoreVisuals();
+
+        yield return CompleteCorrectSequence(onComplete);
+    }
+
+    private IEnumerator CompleteCorrectSequence(Action onComplete)
+    {
+        if (delayBeforeNextRound > 0f)
+        {
+            yield return new WaitForSeconds(delayBeforeNextRound);
+        }
+
+        scoreTransferAnimation = null;
+
+        if (onComplete != null)
+        {
+            // En el flujo normal, este callback es GameManager.NextRound().
+            // Esa llamada limpia las cartas actuales e inicia las nuevas pistas.
+            onComplete.Invoke();
+        }
+        else
+        {
+            // Una llamada sin callback no debe dejar el input bloqueado.
+            LockInput(false);
+        }
+    }
+
+    private IEnumerator AnimateGainedPointsEntrance()
+    {
+        if (gainedPointsText == null)
+        {
+            yield break;
+        }
+
+        float elapsed = 0f;
+        Vector3 startScale = originalGainedPointsScale * 0.75f;
+        Vector3 overshootScale = originalGainedPointsScale * 1.12f;
+
+        while (elapsed < gainedPointsIntroDuration)
+        {
+            elapsed += Time.deltaTime;
+            float progress = Mathf.Clamp01(elapsed / gainedPointsIntroDuration);
+
+            if (progress < 0.7f)
+            {
+                float firstPhase = progress / 0.7f;
+                gainedPointsText.transform.localScale = Vector3.Lerp(
+                    startScale,
+                    overshootScale,
+                    firstPhase
+                );
+            }
+            else
+            {
+                float secondPhase = (progress - 0.7f) / 0.3f;
+                gainedPointsText.transform.localScale = Vector3.Lerp(
+                    overshootScale,
+                    originalGainedPointsScale,
+                    secondPhase
+                );
+            }
+
+            yield return null;
+        }
+
+        gainedPointsText.transform.localScale = originalGainedPointsScale;
+    }
+
+    private IEnumerator PulseFinalScore()
+    {
+        if (scoreText == null)
+        {
+            yield break;
+        }
+
+        float elapsed = 0f;
+        Vector3 pulseScale = originalScoreScale * finalScorePulseScale;
+
+        while (elapsed < finalScorePulseDuration)
+        {
+            elapsed += Time.deltaTime;
+            float progress = Mathf.Clamp01(elapsed / finalScorePulseDuration);
+            float curve = Mathf.Sin(progress * Mathf.PI);
+
+            scoreText.transform.localScale = Vector3.Lerp(
+                originalScoreScale,
+                pulseScale,
+                curve
+            );
+
+            yield return null;
+        }
+
+        scoreText.transform.localScale = originalScoreScale;
+    }
+
+    private IEnumerator FadeOutGainedPoints()
+    {
+        if (gainedPointsText == null)
+        {
+            yield break;
+        }
+
+        float elapsed = 0f;
+
+        while (elapsed < gainedPointsFadeDuration)
+        {
+            elapsed += Time.deltaTime;
+            float progress = Mathf.Clamp01(elapsed / gainedPointsFadeDuration);
+
+            gainedPointsText.alpha = 1f - progress;
+            gainedPointsText.transform.localScale = Vector3.Lerp(
+                originalGainedPointsScale,
+                originalGainedPointsScale * 0.9f,
+                progress
+            );
+
+            yield return null;
+        }
+
+        HideGainedPointsImmediately();
+    }
+
+    private void InitializeScoreVisuals()
+    {
+        if (scoreVisualsInitialized)
+        {
+            return;
+        }
+
+        if (scoreText != null)
+        {
+            originalScoreScale = scoreText.transform.localScale;
+        }
+
+        if (gainedPointsText != null)
+        {
+            originalGainedPointsScale = gainedPointsText.transform.localScale;
+            HideGainedPointsImmediately();
+        }
+
+        scoreVisualsInitialized = true;
+    }
+
+    private void RestoreScoreVisuals()
+    {
+        if (scoreText != null)
+        {
+            scoreText.transform.localScale = originalScoreScale;
+            scoreText.text = displayedScore.ToString();
+        }
+
+        HideGainedPointsImmediately();
+    }
+
+    private void HideGainedPointsImmediately()
+    {
+        if (gainedPointsText == null)
+        {
+            return;
+        }
+
+        gainedPointsText.alpha = 0f;
+        gainedPointsText.text = string.Empty;
+        gainedPointsText.transform.localScale = originalGainedPointsScale;
+        gainedPointsText.gameObject.SetActive(false);
     }
 
     private IEnumerator SpawnInitialCardsSequentially(
@@ -612,6 +1780,137 @@ public class UIManager : MonoBehaviour
         if (answerInput != null)
         {
             answerInput.interactable = !shouldLock;
+        }
+    }
+
+    private void InitializeHintCounter()
+    {
+        if (hintCounterRoot != null)
+        {
+            hintCounterBaseScale = hintCounterRoot.localScale;
+        }
+
+        if (hintCounterText != null)
+        {
+            hintCounterText.text = "0";
+        }
+
+        lastDisplayedRemainingHints = -1;
+    }
+
+    private void RefreshHintCounterState()
+    {
+        if (GameManager.Instance == null)
+        {
+            return;
+        }
+
+        int remainingHints = GameManager.Instance.GetRemainingHintCount();
+
+        bool shouldPulse =
+            lastDisplayedRemainingHints >= 0 &&
+            remainingHints < lastDisplayedRemainingHints;
+
+        if (hintCounterText != null)
+        {
+            hintCounterText.text = remainingHints.ToString();
+            hintCounterText.color =
+                remainingHints > 0
+                    ? hintCounterAvailableTextColor
+                    : hintCounterUnavailableTextColor;
+        }
+
+        if (hintCounterGraphic != null)
+        {
+            // Usa exactamente los mismos tintes que el botón Pedir pista,
+            // para que ambos se apaguen de forma coherente al llegar a cero.
+            hintCounterGraphic.color =
+                remainingHints > 0
+                    ? availableHintColor
+                    : unavailableHintColor;
+        }
+
+        if (hintCounterRoot != null)
+        {
+            if (hintCounterPulseAnimation != null)
+            {
+                StopCoroutine(hintCounterPulseAnimation);
+                hintCounterPulseAnimation = null;
+            }
+
+            hintCounterRoot.localScale = hintCounterBaseScale;
+
+            if (shouldPulse)
+            {
+                hintCounterPulseAnimation =
+                    StartCoroutine(AnimateHintCounterPulse());
+            }
+        }
+
+        lastDisplayedRemainingHints = remainingHints;
+    }
+
+    private IEnumerator AnimateHintCounterPulse()
+    {
+        if (hintCounterRoot == null)
+        {
+            yield break;
+        }
+
+        float elapsed = 0f;
+
+        while (elapsed < hintCounterPulseDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+
+            float progress = Mathf.Clamp01(
+                elapsed / hintCounterPulseDuration
+            );
+
+            // Sube y vuelve a bajar en una sola curva suave.
+            float pulse = Mathf.Sin(progress * Mathf.PI);
+            float scaleMultiplier = Mathf.Lerp(
+                1f,
+                hintCounterPulseScale,
+                pulse
+            );
+
+            hintCounterRoot.localScale =
+                hintCounterBaseScale * scaleMultiplier;
+
+            yield return null;
+        }
+
+        hintCounterRoot.localScale = hintCounterBaseScale;
+        hintCounterPulseAnimation = null;
+    }
+
+    private void RefreshHintButtonState()
+    {
+        bool hasMoreHints =
+            GameManager.Instance != null &&
+            GameManager.Instance.HasMoreHints();
+
+        if (requestHintButtonGraphic != null)
+        {
+            requestHintButtonGraphic.color =
+                hasMoreHints
+                    ? availableHintColor
+                    : unavailableHintColor;
+        }
+
+        if (requestHintButtonText != null)
+        {
+            requestHintButtonText.text =
+                hasMoreHints
+                    ? "Pedir pista"
+                    : "Sin pistas";
+        }
+
+        // Debe continuar activo para poder emitir el sonido de acción bloqueada.
+        if (requestHintButton != null)
+        {
+            requestHintButton.interactable = true;
         }
     }
 }

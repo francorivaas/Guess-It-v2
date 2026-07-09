@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: person_0015
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: person_0015
+  category: personas
+  difficulty: 0
+  answer: Shakira
+  acceptedAnswers:
+  - Shakira
+  hints:
+  - "Su carrera cruz\xF3 pop latino, rock, baile y colaboraciones internacionales."
+  - "Una cadera que no miente se volvi\xF3 parte de su marca musical."
+  - "Cant\xF3 en mundiales y altern\xF3 letras en espa\xF1ol e ingl\xE9s."
+  - Barranquilla aparece frecuentemente asociada a su origen.
+  - Cantante colombiana de Waka Waka y Hips Don't Lie.

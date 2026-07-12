@@ -9,6 +9,7 @@ public class MainMenuManager : MonoBehaviour
     [Header("UI Elements")]
     public TextMeshProUGUI menuHighScoreText;
 
+    [System.Obsolete]
     void Start()
     {
         int currentHighScore = PlayerPrefs.GetInt("HighScore", 0);

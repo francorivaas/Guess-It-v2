@@ -4,13 +4,23 @@ using UnityEngine;
 [RequireComponent(typeof(RectTransform))]
 public sealed class SafeAreaFitter : MonoBehaviour
 {
-    private RectTransform targetRect;
+    private RectTransform cachedRectTransform;
     private Rect lastSafeArea;
     private Vector2Int lastScreenSize;
 
+    private void Awake()
+    {
+        cachedRectTransform = GetComponent<RectTransform>();
+        ApplySafeArea();
+    }
+
     private void OnEnable()
     {
-        targetRect = GetComponent<RectTransform>();
+        if (cachedRectTransform == null)
+        {
+            cachedRectTransform = GetComponent<RectTransform>();
+        }
+
         ApplySafeArea();
     }
 
@@ -29,7 +39,7 @@ public sealed class SafeAreaFitter : MonoBehaviour
 
     private void ApplySafeArea()
     {
-        if (targetRect == null ||
+        if (cachedRectTransform == null ||
             Screen.width <= 0 ||
             Screen.height <= 0)
         {
@@ -46,13 +56,15 @@ public sealed class SafeAreaFitter : MonoBehaviour
         anchorMax.x /= Screen.width;
         anchorMax.y /= Screen.height;
 
-        targetRect.anchorMin = anchorMin;
-        targetRect.anchorMax = anchorMax;
-        targetRect.offsetMin = Vector2.zero;
-        targetRect.offsetMax = Vector2.zero;
+        cachedRectTransform.anchorMin = anchorMin;
+        cachedRectTransform.anchorMax = anchorMax;
+        cachedRectTransform.offsetMin = Vector2.zero;
+        cachedRectTransform.offsetMax = Vector2.zero;
 
         lastSafeArea = safeArea;
-        lastScreenSize =
-            new Vector2Int(Screen.width, Screen.height);
+        lastScreenSize = new Vector2Int(
+            Screen.width,
+            Screen.height
+        );
     }
 }

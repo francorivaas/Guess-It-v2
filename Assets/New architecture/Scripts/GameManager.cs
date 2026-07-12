@@ -48,6 +48,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        UIManager.Instance?.RequestCategoryAttention();
         NextRound();
     }
 
@@ -326,13 +327,19 @@ public class GameManager : MonoBehaviour
             UIManager.Instance.ShowCorrectFeedback(
                 Score,
                 gainedPoints,
-                NextRound
+                BeginNextRoundAfterCorrectAnswer
             );
 
             return;
         }
 
         // Respaldo para escenas sin UIManager.
+        NextRound();
+    }
+
+    private void BeginNextRoundAfterCorrectAnswer()
+    {
+        UIManager.Instance?.RequestCategoryAttention();
         NextRound();
     }
 

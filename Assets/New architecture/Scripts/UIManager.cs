@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,6 +11,16 @@ using Random = UnityEngine.Random;
 
 public class UIManager : MonoBehaviour
 {
+    [Serializable]
+    private sealed class CategoryVisualData
+    {
+        [SerializeField] private string categoryName;
+        [SerializeField] private Sprite icon;
+
+        public string CategoryName => categoryName;
+        public Sprite Icon => icon;
+    }
+
     public static UIManager Instance { get; private set; }
 
     [Header("Hints")]
@@ -146,6 +158,12 @@ public class UIManager : MonoBehaviour
     [Header("Category Chip")]
     [SerializeField] private GameObject categoryChip;
     [SerializeField] private TextMeshProUGUI categoryText;
+    [SerializeField] private Image categoryIconImage;
+    [SerializeField] private Sprite defaultCategoryIcon;
+    [SerializeField]
+    private List<CategoryVisualData> categoryVisuals =
+        new List<CategoryVisualData>();
+
     [SerializeField] private CanvasGroup categoryCanvasGroup;
     [SerializeField] private RectTransform categoryChipRoot;
 
@@ -157,12 +175,38 @@ public class UIManager : MonoBehaviour
 
     [SerializeField, Min(0f)]
     private float categoryChipStartOffsetY = 18f;
+
+    [Header("Category Attention")]
+    [Tooltip("Franja brillante que recorre horizontalmente el chip.")]
+    [SerializeField] private RectTransform categoryShineRoot;
+
+    [Tooltip("CanvasGroup de la franja brillante.")]
+    [SerializeField] private CanvasGroup categoryShineCanvasGroup;
+
+    [Tooltip("Partículas que se disparan cuando se presenta una categoría importante.")]
+    [SerializeField] private ParticleSystem categoryAttentionParticles;
+
+    [Tooltip("Duración del recorrido del brillo y del pulso.")]
+    [SerializeField, Min(0.05f)] private float categoryAttentionDuration = 0.65f;
+
+    [Tooltip("Escala máxima del chip durante el pulso de atención.")]
+    [SerializeField, Range(1f, 1.25f)] private float categoryAttentionPulseScale = 1.06f;
+
+    [Tooltip("Opacidad máxima de la franja brillante.")]
+    [SerializeField, Range(0f, 1f)] private float categoryShineMaxAlpha = 0.9f;
+
+    [Tooltip("Margen extra para que el brillo empiece y termine fuera del chip.")]
+    [SerializeField, Min(0f)] private float categoryShineHorizontalPadding = 24f;
+
     private readonly List<GameObject> spawnedCards = new List<GameObject>();
 
     private Coroutine categoryChipAnimation;
     private Vector2 categoryChipBasePosition;
+    private Vector2 categoryShineBasePosition;
+    private Vector3 categoryChipBaseScale = Vector3.one;
     private bool categoryChipPositionSaved;
     private bool categoryChipNeedsAnimation = true;
+    private bool categoryAttentionRequested;
 
     private Coroutine streakAnimation;
     private Coroutine scoreTransferAnimation;
@@ -184,6 +228,7 @@ public class UIManager : MonoBehaviour
     private bool resultPanelTransitioning;
     private int displayedScore;
     private int lastDisplayedRemainingHints = -1;
+
 
     private void Awake()
     {
@@ -230,7 +275,33 @@ public class UIManager : MonoBehaviour
             categoryChipBasePosition =
                 categoryChipRoot.anchoredPosition;
 
+            categoryChipBaseScale =
+                categoryChipRoot.localScale;
+
             categoryChipPositionSaved = true;
+        }
+
+        if (categoryShineRoot != null)
+        {
+            categoryShineBasePosition =
+                categoryShineRoot.anchoredPosition;
+
+            categoryShineRoot.gameObject.SetActive(false);
+        }
+
+        if (categoryShineCanvasGroup != null)
+        {
+            categoryShineCanvasGroup.alpha = 0f;
+            categoryShineCanvasGroup.interactable = false;
+            categoryShineCanvasGroup.blocksRaycasts = false;
+        }
+
+        if (categoryAttentionParticles != null)
+        {
+            categoryAttentionParticles.Stop(
+                true,
+                ParticleSystemStopBehavior.StopEmittingAndClear
+            );
         }
 
         if (categoryCanvasGroup != null)
@@ -242,6 +313,18 @@ public class UIManager : MonoBehaviour
         {
             categoryChip.SetActive(false);
         }
+
+        categoryAttentionRequested = false;
+    }
+
+    /// <summary>
+    /// Solicita que la próxima categoría mostrada reciba el recorrido de brillo,
+    /// el pulso y las partículas. GameManager lo llama al iniciar la partida y
+    /// justo antes de crear la ronda posterior a una respuesta correcta.
+    /// </summary>
+    public void RequestCategoryAttention()
+    {
+        categoryAttentionRequested = true;
     }
 
     private void RefreshCategoryChip(RiddleSO currentRiddle)
@@ -260,12 +343,14 @@ public class UIManager : MonoBehaviour
         if (string.IsNullOrWhiteSpace(category))
         {
             categoryChip.SetActive(false);
+            categoryAttentionRequested = false;
             return;
         }
 
         categoryText.text =
             $"CATEGORÍA: {category.ToUpperInvariant()}";
 
+        RefreshCategoryIcon(category);
         categoryChip.SetActive(true);
 
         if (!categoryChipPositionSaved && categoryChipRoot != null)
@@ -273,29 +358,106 @@ public class UIManager : MonoBehaviour
             categoryChipBasePosition =
                 categoryChipRoot.anchoredPosition;
 
+            categoryChipBaseScale =
+                categoryChipRoot.localScale;
+
             categoryChipPositionSaved = true;
         }
 
-        // RequestHint también llama a RefreshUI.
-        // Solo animamos el chip cuando comenzó una ronda nueva.
-        if (!categoryChipNeedsAnimation)
+        bool shouldAnimateEntrance = categoryChipNeedsAnimation;
+        bool shouldPlayAttention = categoryAttentionRequested;
+
+        categoryChipNeedsAnimation = false;
+        categoryAttentionRequested = false;
+
+        if (!shouldAnimateEntrance && !shouldPlayAttention)
         {
             SetCategoryChipFinalState();
             return;
         }
 
-        categoryChipNeedsAnimation = false;
+        StopCategoryChipAnimation();
 
-        if (categoryChipAnimation != null)
-        {
-            StopCoroutine(categoryChipAnimation);
-        }
-
-        categoryChipAnimation =
-            StartCoroutine(AnimateCategoryChip());
+        categoryChipAnimation = StartCoroutine(
+            AnimateCategoryChip(
+                shouldAnimateEntrance,
+                shouldPlayAttention
+            )
+        );
     }
 
-    private IEnumerator AnimateCategoryChip()
+    private void RefreshCategoryIcon(string category)
+    {
+        if (categoryIconImage == null)
+        {
+            return;
+        }
+
+        Sprite selectedIcon = defaultCategoryIcon;
+        string requestedKey = NormalizeCategoryKey(category);
+
+        if (categoryVisuals != null)
+        {
+            foreach (CategoryVisualData visualData in categoryVisuals)
+            {
+                if (
+                    visualData == null ||
+                    string.IsNullOrWhiteSpace(visualData.CategoryName)
+                )
+                {
+                    continue;
+                }
+
+                if (
+                    NormalizeCategoryKey(visualData.CategoryName) ==
+                    requestedKey
+                )
+                {
+                    selectedIcon = visualData.Icon;
+                    break;
+                }
+            }
+        }
+
+        categoryIconImage.sprite = selectedIcon;
+        categoryIconImage.enabled = selectedIcon != null;
+        categoryIconImage.preserveAspect = true;
+    }
+
+    private static string NormalizeCategoryKey(string value)
+    {
+        if (string.IsNullOrWhiteSpace(value))
+        {
+            return string.Empty;
+        }
+
+        string decomposed = value
+            .Trim()
+            .ToLowerInvariant()
+            .Normalize(NormalizationForm.FormD);
+
+        StringBuilder builder = new StringBuilder(decomposed.Length);
+
+        foreach (char character in decomposed)
+        {
+            UnicodeCategory unicodeCategory =
+                CharUnicodeInfo.GetUnicodeCategory(character);
+
+            if (unicodeCategory != UnicodeCategory.NonSpacingMark)
+            {
+                builder.Append(character);
+            }
+        }
+
+        return builder
+            .ToString()
+            .Normalize(NormalizationForm.FormC);
+    }
+
+    private IEnumerator AnimateCategoryChip(
+        bool animateEntrance,
+        bool playAttention
+    )
     {
         if (
             categoryChipRoot == null ||
@@ -303,28 +465,131 @@ public class UIManager : MonoBehaviour
         )
         {
             SetCategoryChipFinalState();
+
+            if (playAttention)
+            {
+                PlayCategoryParticles();
+            }
+
+            categoryChipAnimation = null;
             yield break;
         }
 
-        Vector2 startPosition =
-            categoryChipBasePosition +
-            Vector2.up * categoryChipStartOffsetY;
+        if (animateEntrance)
+        {
+            Vector2 startPosition =
+                categoryChipBasePosition +
+                Vector2.up * categoryChipStartOffsetY;
 
-        Vector3 startScale =
-            Vector3.one * categoryChipStartScale;
+            Vector3 startScale =
+                categoryChipBaseScale * categoryChipStartScale;
+
+            float elapsed = 0f;
+
+            categoryCanvasGroup.alpha = 0f;
+            categoryChipRoot.anchoredPosition = startPosition;
+            categoryChipRoot.localScale = startScale;
+
+            while (elapsed < categoryChipAnimationDuration)
+            {
+                elapsed += Time.unscaledDeltaTime;
+
+                float progress = Mathf.Clamp01(
+                    elapsed / categoryChipAnimationDuration
+                );
+
+                float easedProgress = Mathf.SmoothStep(
+                    0f,
+                    1f,
+                    progress
+                );
+
+                categoryCanvasGroup.alpha = easedProgress;
+
+                categoryChipRoot.anchoredPosition =
+                    Vector2.Lerp(
+                        startPosition,
+                        categoryChipBasePosition,
+                        easedProgress
+                    );
+
+                // Pequeño overshoot para lograr el efecto candy/pop.
+                float pop =
+                    Mathf.Sin(progress * Mathf.PI) * 0.12f;
+
+                float scaleMultiplier =
+                    Mathf.Lerp(
+                        categoryChipStartScale,
+                        1f,
+                        easedProgress
+                    ) + pop;
+
+                categoryChipRoot.localScale =
+                    categoryChipBaseScale * scaleMultiplier;
+
+                yield return null;
+            }
+        }
+
+        SetCategoryChipFinalState();
+
+        if (playAttention)
+        {
+            yield return AnimateCategoryAttention();
+        }
+
+        SetCategoryChipFinalState();
+        categoryChipAnimation = null;
+    }
+
+    private IEnumerator AnimateCategoryAttention()
+    {
+        PlayCategoryParticles();
+
+        bool canAnimateShine =
+            categoryShineRoot != null &&
+            categoryShineCanvasGroup != null;
+
+        if (canAnimateShine)
+        {
+            Canvas.ForceUpdateCanvases();
+            LayoutRebuilder.ForceRebuildLayoutImmediate(
+                categoryChipRoot
+            );
+
+            categoryShineRoot.gameObject.SetActive(true);
+            categoryShineCanvasGroup.alpha = 0f;
+
+            float chipWidth = Mathf.Max(
+                1f,
+                categoryChipRoot.rect.width
+            );
+
+            float shineWidth = Mathf.Max(
+                1f,
+                categoryShineRoot.rect.width
+            );
+
+            float halfTravel =
+                chipWidth * 0.5f +
+                shineWidth * 0.5f +
+                categoryShineHorizontalPadding;
+
+            categoryShineRoot.anchoredPosition =
+                new Vector2(
+                    -halfTravel,
+                    categoryShineBasePosition.y
+                );
+        }
 
         float elapsed = 0f;
 
-        categoryCanvasGroup.alpha = 0f;
-        categoryChipRoot.anchoredPosition = startPosition;
-        categoryChipRoot.localScale = startScale;
-
-        while (elapsed < categoryChipAnimationDuration)
+        while (elapsed < categoryAttentionDuration)
         {
             elapsed += Time.unscaledDeltaTime;
 
             float progress = Mathf.Clamp01(
-                elapsed / categoryChipAnimationDuration
+                elapsed / categoryAttentionDuration
             );
 
             float easedProgress = Mathf.SmoothStep(
@@ -333,35 +598,110 @@ public class UIManager : MonoBehaviour
                 progress
             );
 
-            categoryCanvasGroup.alpha = easedProgress;
+            float pulse = Mathf.Sin(progress * Mathf.PI);
+            float scaleMultiplier = Mathf.Lerp(
+                1f,
+                categoryAttentionPulseScale,
+                pulse
+            );
 
-            categoryChipRoot.anchoredPosition =
-                Vector2.Lerp(
-                    startPosition,
-                    categoryChipBasePosition,
-                    easedProgress
+            if (categoryChipRoot != null)
+            {
+                categoryChipRoot.localScale =
+                    categoryChipBaseScale * scaleMultiplier;
+            }
+
+            if (canAnimateShine)
+            {
+                float chipWidth = Mathf.Max(
+                    1f,
+                    categoryChipRoot.rect.width
                 );
 
-            // Pequeño overshoot para lograr el efecto candy/pop.
-            float pop =
-                Mathf.Sin(progress * Mathf.PI) * 0.12f;
-
-            float scale =
-                Mathf.Lerp(
-                    categoryChipStartScale,
+                float shineWidth = Mathf.Max(
                     1f,
-                    easedProgress
-                ) + pop;
+                    categoryShineRoot.rect.width
+                );
 
-            categoryChipRoot.localScale =
-                Vector3.one * scale;
+                float halfTravel =
+                    chipWidth * 0.5f +
+                    shineWidth * 0.5f +
+                    categoryShineHorizontalPadding;
+
+                categoryShineRoot.anchoredPosition =
+                    new Vector2(
+                        Mathf.Lerp(
+                            -halfTravel,
+                            halfTravel,
+                            easedProgress
+                        ),
+                        categoryShineBasePosition.y
+                    );
+
+                categoryShineCanvasGroup.alpha =
+                    pulse * categoryShineMaxAlpha;
+            }
 
             yield return null;
         }
 
-        SetCategoryChipFinalState();
-        categoryChipAnimation = null;
+        if (categoryChipRoot != null)
+        {
+            categoryChipRoot.localScale =
+                categoryChipBaseScale;
+        }
+
+        ResetCategoryShine();
     }
+
+    private void PlayCategoryParticles()
+    {
+        if (categoryAttentionParticles == null)
+        {
+            return;
+        }
+
+        if (!categoryAttentionParticles.gameObject.activeSelf)
+        {
+            categoryAttentionParticles.gameObject.SetActive(true);
+        }
+
+        categoryAttentionParticles.Stop(
+            true,
+            ParticleSystemStopBehavior.StopEmittingAndClear
+        );
+
+        categoryAttentionParticles.Play(true);
+    }
+
+    private void StopCategoryChipAnimation()
+    {
+        if (categoryChipAnimation != null)
+        {
+            StopCoroutine(categoryChipAnimation);
+            categoryChipAnimation = null;
+        }
+
+        SetCategoryChipFinalState();
+        ResetCategoryShine();
+    }
+
+    private void ResetCategoryShine()
+    {
+        if (categoryShineCanvasGroup != null)
+        {
+            categoryShineCanvasGroup.alpha = 0f;
+        }
+
+        if (categoryShineRoot != null)
+        {
+            categoryShineRoot.anchoredPosition =
+                categoryShineBasePosition;
+
+            categoryShineRoot.gameObject.SetActive(false);
+        }
+    }
+
     private void SetCategoryChipFinalState()
     {
         if (categoryCanvasGroup != null)
@@ -375,7 +715,7 @@ public class UIManager : MonoBehaviour
                 categoryChipBasePosition;
 
             categoryChipRoot.localScale =
-                Vector3.one;
+                categoryChipBaseScale;
         }
     }
 

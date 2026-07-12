@@ -112,6 +112,10 @@ public class UIManager : MonoBehaviour
     [SerializeField, Min(0f)] private float streakFadeDuration = 0.5f;
     [SerializeField, Min(0f)] private float streakShakeIntensity = 4f;
 
+    [Header("Fever Background")]
+    [Tooltip("Controla las partículas y el tinte del fondo según la racha actual.")]
+    [SerializeField] private FeverBackgroundController feverBackground;
+
     [Header("Pause")]
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private AudioSource backgroundMusic;
@@ -248,6 +252,13 @@ public class UIManager : MonoBehaviour
         InitializeCategoryChip();
         InitializeResultPanels();
         InitializeHintCounter();
+
+        if (feverBackground == null)
+        {
+            feverBackground = FindFirstObjectByType<FeverBackgroundController>();
+        }
+
+        feverBackground?.SetStreak(0, true);
     }
 
     private void Start()
@@ -348,7 +359,7 @@ public class UIManager : MonoBehaviour
         }
 
         categoryText.text =
-            $"CATEGORÍA: {category.ToUpperInvariant()}";
+            category.ToUpperInvariant().ToString();
 
         RefreshCategoryIcon(category);
         categoryChip.SetActive(true);
@@ -914,6 +925,10 @@ public class UIManager : MonoBehaviour
 
     public void UpdateStreakUI(int streak)
     {
+        // El fondo reacciona siempre a la racha, incluso si el texto visual
+        // de racha no estuviera asignado en alguna escena de prueba.
+        feverBackground?.SetStreak(streak);
+
         if (streakText == null)
         {
             return;

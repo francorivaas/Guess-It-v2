@@ -1013,15 +1013,15 @@ MonoBehaviour:
   defaultCategoryIcon: {fileID: -6290615606059707758, guid: 0e332f1bd4ec6bc488420137535b1cec, type: 3}
   categoryVisuals:
   - categoryName: "Pel\xEDculas"
-    icon: {fileID: 8446452040757514487, guid: 839a4acde26b1af4b9fd96fc022e5754, type: 3}
+    icon: {fileID: -3839571670250445058, guid: 689e8314efe92744b9e51c5f1bb1a863, type: 3}
   - categoryName: Personas
-    icon: {fileID: -6579904566978998254, guid: ab77c6eec132b284386036400c64208e, type: 3}
+    icon: {fileID: -1825517128367985383, guid: d99296cc33d567442961138907b72744, type: 3}
   - categoryName: Lugares
-    icon: {fileID: -6576568624116319693, guid: 73109fd04472ea14ebdff30619f84cd2, type: 3}
+    icon: {fileID: -8842501679789640812, guid: 2adfc3410926a76449517a14b4cbc4d0, type: 3}
   - categoryName: "N\xFAmeros"
-    icon: {fileID: 2473408163908181204, guid: 45b13bfad4321744d865bd9e70dfde26, type: 3}
+    icon: {fileID: -7542371115539988336, guid: cdf570f1b2104484396b6887bbeae53c, type: 3}
   - categoryName: Bandas musicales
-    icon: {fileID: -6709715370494063930, guid: 23251f2c8ea549b44b2e01fbcc4b7de0, type: 3}
+    icon: {fileID: 2984180245666200233, guid: 771e2d7ade2a6484f88251cda168b7f8, type: 3}
   categoryCanvasGroup: {fileID: 598060431}
   categoryChipRoot: {fileID: 598060428}
   categoryChipAnimationDuration: 0.25
@@ -8577,7 +8577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.0822963, y: 0.29829168}
   m_AnchorMax: {x: 0.90740746, y: 0.8772917}
-  m_AnchoredPosition: {x: 5.7210693, y: -321.99997}
+  m_AnchoredPosition: {x: 5.7210693, y: -321.99994}
   m_SizeDelta: {x: -6.17, y: -202.0096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &709729902
@@ -10199,7 +10199,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 180.00003, y: 5.337158}
+  m_AnchoredPosition: {x: 180.00005, y: 5.337158}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1320191019

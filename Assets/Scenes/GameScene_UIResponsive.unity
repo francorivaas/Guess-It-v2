@@ -14311,10 +14311,10 @@ RectTransform:
   - {fileID: 408442431}
   - {fileID: 244635108}
   - {fileID: 208961320}
-  - {fileID: 1052606927}
   - {fileID: 562866074}
   - {fileID: 146499103}
   - {fileID: 598060428}
+  - {fileID: 1052606927}
   - {fileID: 1691421627}
   - {fileID: 702886451}
   - {fileID: 1402895712}
@@ -14511,7 +14511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.9843137}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.9882353}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

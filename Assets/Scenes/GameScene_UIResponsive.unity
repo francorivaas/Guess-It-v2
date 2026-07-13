@@ -6815,8 +6815,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 06f212fa16d26144eb2e1069c8d9732d, type: 2}
-  m_sharedMaterial: {fileID: -2574739469799082455, guid: 06f212fa16d26144eb2e1069c8d9732d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e518d3acc4d0c0445b0decdbb97f3525, type: 2}
+  m_sharedMaterial: {fileID: 57271027272008100, guid: e518d3acc4d0c0445b0decdbb97f3525, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

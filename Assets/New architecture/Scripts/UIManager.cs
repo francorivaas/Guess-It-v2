@@ -97,6 +97,15 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI messageText;
     [SerializeField] private RectTransform uiToShake;
 
+    // Se obtiene automáticamente desde TMP_InputField.placeholder.
+    // Guardamos el texto original para ocultarlo al seleccionar el campo
+    // y restaurarlo al comenzar una ronda nueva.
+    private Graphic answerPlaceholderGraphic;
+    private TMP_Text answerPlaceholderText;
+    private string answerPlaceholderOriginalText = string.Empty;
+    private bool answerPlaceholderInitialized;
+    private bool answerPlaceholderDismissed;
+
     [Header("Audio")]
     [SerializeField] private AudioSource effectsAudioSource;
     [SerializeField] private AudioClip correctSFX;
@@ -252,6 +261,7 @@ public class UIManager : MonoBehaviour
         InitializeCategoryChip();
         InitializeResultPanels();
         InitializeHintCounter();
+        InitializeAnswerInputPlaceholder();
 
         if (feverBackground == null)
         {
@@ -730,8 +740,101 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Registra el evento de selección del TMP_InputField y conserva el
+    /// placeholder original. No requiere asignar una referencia extra
+    /// en el Inspector: utiliza answerInput.placeholder.
+    /// </summary>
+    private void InitializeAnswerInputPlaceholder()
+    {
+        if (answerInput == null)
+        {
+            return;
+        }
+
+        // Evita listeners duplicados si el método se ejecuta nuevamente.
+        answerInput.onSelect.RemoveListener(HandleAnswerInputSelected);
+        answerInput.onSelect.AddListener(HandleAnswerInputSelected);
+
+        answerPlaceholderGraphic = answerInput.placeholder;
+        answerPlaceholderText = answerPlaceholderGraphic as TMP_Text;
+
+        if (answerPlaceholderText != null)
+        {
+            answerPlaceholderOriginalText = answerPlaceholderText.text;
+        }
+
+        answerPlaceholderInitialized = answerPlaceholderGraphic != null;
+        answerPlaceholderDismissed = false;
+
+        RestoreAnswerPlaceholder();
+    }
+
+    /// <summary>
+    /// Se ejecuta inmediatamente al pulsar o seleccionar el InputField.
+    /// El placeholder desaparece antes de que el jugador escriba.
+    /// </summary>
+    private void HandleAnswerInputSelected(string _)
+    {
+        if (
+            !answerPlaceholderInitialized ||
+            answerPlaceholderDismissed
+        )
+        {
+            return;
+        }
+
+        answerPlaceholderDismissed = true;
+
+        if (answerPlaceholderText != null)
+        {
+            // Vaciar el texto es más estable que desactivar el GameObject:
+            // TMP_InputField puede seguir actualizando su etiqueta normalmente.
+            answerPlaceholderText.text = string.Empty;
+        }
+        else if (answerPlaceholderGraphic != null)
+        {
+            answerPlaceholderGraphic.enabled = false;
+        }
+
+        answerInput?.ForceLabelUpdate();
+    }
+
+    /// <summary>
+    /// Restaura el placeholder para la siguiente ronda. Durante una misma
+    /// ronda permanece oculto después de la primera selección, aunque el
+    /// jugador quite el foco sin haber escrito.
+    /// </summary>
+    private void RestoreAnswerPlaceholder()
+    {
+        if (!answerPlaceholderInitialized)
+        {
+            return;
+        }
+
+        answerPlaceholderDismissed = false;
+
+        if (answerPlaceholderGraphic != null)
+        {
+            answerPlaceholderGraphic.gameObject.SetActive(true);
+            answerPlaceholderGraphic.enabled = true;
+        }
+
+        if (answerPlaceholderText != null)
+        {
+            answerPlaceholderText.text = answerPlaceholderOriginalText;
+        }
+
+        answerInput?.ForceLabelUpdate();
+    }
+
     private void OnDestroy()
     {
+        if (answerInput != null)
+        {
+            answerInput.onSelect.RemoveListener(HandleAnswerInputSelected);
+        }
+
         if (Instance == this)
         {
             Instance = null;
@@ -865,6 +968,10 @@ public class UIManager : MonoBehaviour
         answerInput.caretPosition = 0;
         answerInput.selectionAnchorPosition = 0;
         answerInput.selectionFocusPosition = 0;
+
+        // Cada ronda comienza mostrando nuevamente la indicación.
+        // Al primer toque, HandleAnswerInputSelected la oculta de inmediato.
+        RestoreAnswerPlaceholder();
     }
 
     public void RequestHint()

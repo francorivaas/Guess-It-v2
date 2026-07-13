@@ -31,7 +31,7 @@ public class MainMenuManager : MonoBehaviour
     public void PlayGame()
     {
         // En lugar de cargar abruptamente, llamamos a la animación
-        SceneFader.Instance.FadeToScene("GameScene");
+        SceneFader.Instance.FadeToScene("GameScene_UIResponsive");
     }
 
     public void QuitGame()

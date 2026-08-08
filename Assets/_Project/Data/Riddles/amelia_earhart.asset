@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: amelia_earhart
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: amelia_earhart
+  category: personas
+  difficulty: 1
+  answer: Amelia Earhart
+  acceptedAnswers:
+  - Amelia Earhart
+  hints:
+  - "El n\xFAcleo de su trayectoria se sit\xFAa en la primera mitad del siglo XX."
+  - "Naci\xF3 en Estados Unidos y orient\xF3 su trabajo hacia aviaci\xF3n."
+  - "Un aspecto decisivo de su legado fue cruzar sola el Atl\xE1ntico en avi\xF3n
+    y desaparecer durante otro intento."
+  - "Su identidad p\xFAblica resulta inseparable de un Lockheed Electra y una b\xFAsqueda
+    inconclusa en el Pac\xEDfico."
+  - "Es la figura de Estados Unidos vinculada a un Lockheed Electra y una b\xFAsqueda
+    inconclusa en el Pac\xEDfico."

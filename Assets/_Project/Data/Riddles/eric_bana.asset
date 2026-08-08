@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: eric_bana
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: eric_bana
+  category: personas
+  difficulty: 0
+  answer: Eric Bana
+  acceptedAnswers:
+  - Eric Bana
+  hints:
+  - "En Lucky You interpret\xF3 a Huck Cheever, en una pel\xEDcula estrenada en 2007."
+  - "Su carrera en cine abarca de 2001 a 2016 y recorre ciencia ficci\xF3n y acci\xF3n.
+    Entre sus pel\xEDculas figura Lucky You."
+  - "Comparti\xF3 reparto con Daniel Craig en Munich."
+  - "En Troy interpret\xF3 a Hector."
+  - Aparece en Star Trek y Black Hawk Down.

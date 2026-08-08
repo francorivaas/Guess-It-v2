@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: atif_aslam
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: atif_aslam
+  category: bandas musicales
+  difficulty: 0
+  answer: Atif Aslam
+  acceptedAnswers:
+  - Atif Aslam
+  hints:
+  - "Su perfil sonoro combina pop cinematogr\xE1fico y pop con un equilibrio entre
+    energ\xEDa, ritmo y melod\xEDa. El repertorio analizado re\xFAne 38 canciones
+    distintas."
+  - "Entre sus lanzamientos aparece \xABAjab Prem Ki Ghazab Kahani (Original Motion
+    Picture Soundtrack)\xBB."
+  - En algunas pistas aparece junto a Pritam y Shreya Ghoshal.
+  - "Las referencias directas son \xABTera Hone Laga Hoon\xBB y \xABTu Jaane Na\xBB."
+  - "Proyecto musical responsable de \xABTera Hone Laga Hoon\xBB, \xABTu Jaane Na\xBB
+    y \xABO'Meri Laila\xBB."

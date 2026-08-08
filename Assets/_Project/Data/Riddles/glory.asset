@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: glory
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: glory
+  category: peliculas
+  difficulty: 2
+  answer: Glory
+  acceptedAnswers:
+  - Glory
+  hints:
+  - "Se estren\xF3 en 1989, dura cerca de 122 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - "Combina b\xE9lica; una de sus productoras fue TriStar Pictures."
+  - "La dirigi\xF3 Edward Zwick, con Morgan Freeman en un papel del reparto."
+  - En el elenco aparecen Denzel Washington y Cary Elwes.
+  - "Matthew Broderick encabeza esta pel\xEDcula de b\xE9lica, dirigida por Edward
+    Zwick y estrenada en 1989."

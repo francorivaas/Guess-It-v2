@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dan_hedaya
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dan_hedaya
+  category: personas
+  difficulty: 1
+  answer: Dan Hedaya
+  acceptedAnswers:
+  - Dan Hedaya
+  hints:
+  - "En The Crew interpret\xF3 a Mike 'The Brick' Donatelli, en una pel\xEDcula estrenada
+    en 2000."
+  - Su carrera en cine abarca de 1985 a 2010 y recorre drama y crimen.
+  - "Comparti\xF3 reparto con Will Ferrell en A Night at the Roxbury. Otro cr\xE9dito
+    es Alien: Resurrection."
+  - "En Mulholland Drive interpret\xF3 a Vincenzo Castigliane."
+  - 'Aparece en The Usual Suspects y Alien: Resurrection.'

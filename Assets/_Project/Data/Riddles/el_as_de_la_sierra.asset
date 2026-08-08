@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: el_as_de_la_sierra
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: el_as_de_la_sierra
+  category: bandas musicales
+  difficulty: 1
+  answer: El As De La Sierra
+  acceptedAnswers:
+  - El As De La Sierra
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABMi linda Guerita\xBB, de 1996, y llega
+    hasta 2005."
+  - "\xABLa Loba Del Mal\xBB presenta una energ\xEDa media y un pulso cercano a 148
+    BPM."
+  - "Entre sus grabaciones figuran \xABCatarino Y Los Rurales\xBB y \xABRegalo Caro\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABEntre Perico Y Perico\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABEL Muchacho Alegre\xBB y \xABPatron
+    De Patrones\xBB."

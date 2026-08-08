@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: hana
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: hana
+  category: peliculas
+  difficulty: 2
+  answer: Hana
+  acceptedAnswers:
+  - Hana
+  hints:
+  - "Combina un estreno de 2006 con di\xE1logos originalmente en japon\xE9s."
+  - "Entre sus compa\xF1\xEDas figura Shochiku Co., Ltd.; sus g\xE9neros principales
+    son acci\xF3n, drama y historia."
+  - El realizador principal fue Hirokazu Koreeda.
+  - "En el reparto, Junichi Okada da vida a Aoki S\u014Dzaemon y Rie Miyazawa a Osae."
+  - "Hirokazu Koreeda dirige a Junichi Okada como Aoki S\u014Dzaemon, Rie Miyazawa
+    como Osae y Arata Furuta como Sadashiro en esta pel\xEDcula de 2006."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: hanns_zischler
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: hanns_zischler
+  category: personas
+  difficulty: 0
+  answer: Hanns Zischler
+  acceptedAnswers:
+  - Hanns Zischler
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1976 y 2015, con presencia frecuente
+    en drama, historia y comedia."
+  - "Uno de sus trabajos fue \xABMunich\xBB (2005), bajo la direcci\xF3n de Steven
+    Spielberg."
+  - "Dio vida a Henryk Wald en \xABClouds of Sils Maria\xBB."
+  - "Dio vida a Vermieter en \xABThe Edukators\xBB."
+  - "Interpret\xF3 a Vermieter en \xABThe Edukators\xBB y a Art Dealer en \xABRipley's
+    Game\xBB."

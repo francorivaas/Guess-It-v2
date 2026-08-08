@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: and_god_created_woman
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: and_god_created_woman
+  category: peliculas
+  difficulty: 1
+  answer: ...And God Created Woman
+  acceptedAnswers:
+  - ...And God Created Woman
+  - "Et Dieu\u2026 cr\xE9a la femme"
+  - et dieu... crea la femme
+  hints:
+  - "Su metraje se acerca a 95 minutos y corresponde al a\xF1o 1956."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama y romance; la producci\xF3n se
+    vincula con Francia."
+  - "La direcci\xF3n estuvo a cargo de Roger Vadim."
+  - En el reparto, Brigitte Bardot da vida a Juliette Hardy y Jean-Louis Trintignant
+    a Michel Tardieu.
+  - "El reparto incluye a Brigitte Bardot como Juliette Hardy, Jean-Louis Trintignant
+    como Michel Tardieu y Curd J\xFCrgens como Eric Carradine bajo la direcci\xF3n
+    de Roger Vadim."

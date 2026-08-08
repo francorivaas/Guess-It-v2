@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nick_offerman
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nick_offerman
+  category: personas
+  difficulty: 0
+  answer: Nick Offerman
+  acceptedAnswers:
+  - Nick Offerman
+  hints:
+  - "En November interpret\xF3 a Officer Roberts, en una pel\xEDcula estrenada en
+    2004."
+  - "Su carrera en cine abarca de 2004 a 2015 y recorre acci\xF3n y comedia."
+  - "Comparti\xF3 reparto con Sandra Bullock en Miss Congeniality 2: Armed and Fabulous."
+  - "En 22 Jump Street interpret\xF3 a Deputy Chief Hardy."
+  - "Aparece en 21 Jump Street y The Lego Movie. Tambi\xE9n form\xF3 parte de November."

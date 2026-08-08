@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: andrew_scott
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: andrew_scott
+  category: personas
+  difficulty: 1
+  answer: Andrew Scott
+  acceptedAnswers:
+  - Andrew Scott
+  hints:
+  - "En Victor Frankenstein interpret\xF3 a Roderick Turpin, en una pel\xEDcula estrenada
+    en 2015."
+  - "Su carrera en cine abarca de 2015 a 2016 y recorre acci\xF3n y aventura. Entre
+    sus pel\xEDculas figura Victor Frankenstein."
+  - "Comparti\xF3 reparto con Johnny Depp en Alice Through the Looking Glass. Otro
+    cr\xE9dito es Victor Frankenstein."
+  - "En Alice Through the Looking Glass interpret\xF3 a Addison Bennett."
+  - Aparece en Spectre y Victor Frankenstein.

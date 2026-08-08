@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: master_of_the_flying_guillotine
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: master_of_the_flying_guillotine
+  category: peliculas
+  difficulty: 1
+  answer: Master of the Flying Guillotine
+  acceptedAnswers:
+  - Master of the Flying Guillotine
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1970 dura cerca de 93 minutos."
+  - "Entre sus compa\xF1\xEDas figura First Films; sus g\xE9neros principales son
+    acci\xF3n, cine extranjero y fantas\xEDa."
+  - "Jimmy Wang Yu firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Jimmy Wang Yu da vida a Liu Ti Lung, The One-Armed Boxer y Kam
+    Kong a Fung Sheng Wu Chi.
+  - En esta cinta de 1976 coinciden Jimmy Wang Yu como Liu Ti Lung, The One-Armed
+    Boxer, Kam Kong como Fung Sheng Wu Chi y Doris Lung Chun-Erh como Wu's daughter.

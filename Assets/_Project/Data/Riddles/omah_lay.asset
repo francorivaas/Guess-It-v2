@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: omah_lay
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: omah_lay
+  category: bandas musicales
+  difficulty: 0
+  answer: Omah Lay
+  acceptedAnswers:
+  - Omah Lay
+  hints:
+  - "Antes de mirar los t\xEDtulos, conviene pensar en dancehall y en un pulso claramente
+    bailable. El repertorio analizado re\xFAne 20 canciones distintas."
+  - "Entre sus lanzamientos aparece \xABBoy Alone\xBB."
+  - Entre sus colaboraciones registradas figuran Justin Bieber y 6LACK.
+  - "Las referencias directas son \xABi'm a mess\xBB y \xABattention\xBB."
+  - "Artista o grupo detr\xE1s de \xABi'm a mess\xBB, \xABattention\xBB y \xABunderstand\xBB."

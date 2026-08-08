@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: adele_haenel
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: adele_haenel
+  category: personas
+  difficulty: 1
+  answer: "Ad\xE8le Haenel"
+  acceptedAnswers:
+  - "Ad\xE8le Haenel"
+  - adele haenel
+  hints:
+  - "Trabaj\xF3 en producciones de drama, suspenso y crimen a lo largo del per\xEDodo
+    entre 2007 y 2016."
+  - "Uno de sus trabajos fue \xABThe Unknown Girl\xBB (2016), bajo la direcci\xF3n
+    de Luc Dardenne."
+  - "Su papel en \xABHouse of Tolerance\xBB fue el de L\xE9a."
+  - "Dio vida a Floriane en \xABWater Lilies\xBB."
+  - "Es la persona que encarn\xF3 a Floriane en \xABWater Lilies\xBB y a Maria Merevsky
+    en \xABSuzanne\xBB."

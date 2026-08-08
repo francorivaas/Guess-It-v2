@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: park_sung_woong
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: park_sung_woong
+  category: personas
+  difficulty: 2
+  answer: Park Sung-woong
+  acceptedAnswers:
+  - Park Sung-woong
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2014 y 2016 y recorren g\xE9neros
+    como drama, historia y acci\xF3n."
+  - "Particip\xF3 en \xABOperation Chromite\xBB, dirigida por John H. Lee y estrenada
+    en 2016."
+  - "En \xABMan on High Heels\xBB interpret\xF3 a Public prosecutor Hong."
+  - "Su papel en \xABThe Fatal Encounter\xBB fue el de Hong Guk-yeong."
+  - "Sus papeles incluyen a Hong Guk-yeong en \xABThe Fatal Encounter\xBB y a Cha
+    Seong-joo en \xABTabloid Truth\xBB."

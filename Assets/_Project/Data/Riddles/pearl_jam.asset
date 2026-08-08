@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pearl_jam
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pearl_jam
+  category: bandas musicales
+  difficulty: 0
+  answer: Pearl Jam
+  acceptedAnswers:
+  - Pearl Jam
+  hints:
+  - "La formaci\xF3n naci\xF3 en Estados Unidos y su per\xEDodo de mayor impacto
+    fue desde comienzos de la d\xE9cada de 1990."
+  - "Su identidad estil\xEDstica re\xFAne grunge y rock alternativo."
+  - "La historia del grupo est\xE1 ligada a Eddie Vedder, Stone Gossard, Jeff Ament
+    y Mike McCready."
+  - Una pieza clave para ubicarla es Ten.
+  - "Se la identifica de inmediato por Alive, Jeremy y una postura cr\xEDtica frente
+    a ciertas pr\xE1cticas de venta de entradas."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: david_zucker
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: david_zucker
+  category: personas
+  difficulty: 0
+  answer: David Zucker
+  acceptedAnswers:
+  - David Zucker
+  hints:
+  - Es una figura del cine cuya actividad registrada se extiende entre 1988 y 2013
+    y toca principalmente comedia y deportes.
+  - "La pel\xEDcula \xABThe Naked Gun: From the Files of Police Squad!\xBB forma
+    parte de una carrera conectada con Estados Unidos."
+  - "Tambi\xE9n est\xE1 vinculada a \xABScary Movie 4\xBB y \xABScary Movie 3\xBB."
+  - "Los t\xEDtulos \xABThe Naked Gun: from the Files of Police Squad!\xBB y \xABScary
+    Movie 3\xBB ofrecen las pistas m\xE1s directas."
+  - "Figura cinematogr\xE1fica asociada mediante direcci\xF3n y guion a \xABThe Naked
+    Gun: from the Files of Police Squad!\xBB, \xABScary Movie 3\xBB y \xABScary Movie
+    4\xBB."

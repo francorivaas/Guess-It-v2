@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: brotherhood_of_the_wolf
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: brotherhood_of_the_wolf
+  category: peliculas
+  difficulty: 0
+  answer: Brotherhood of the Wolf
+  acceptedAnswers:
+  - Brotherhood of the Wolf
+  - Le Pacte des loups
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2000 y su duraci\xF3n ronda los 137 minutos."
+  - "Davis-Films particip\xF3 en una pel\xEDcula de aventura, terror y acci\xF3n
+    producida en Francia."
+  - "Detr\xE1s de la c\xE1mara estuvo Christophe Gans."
+  - "En el reparto, Samuel Le Bihan da vida a Gr\xE9goire de Fronsac y Vincent Cassel
+    a Jean-Fran\xE7ois de Morangias."
+  - "El reparto incluye a Samuel Le Bihan como Gr\xE9goire de Fronsac, Vincent Cassel
+    como Jean-Fran\xE7ois de Morangias y \xC9milie Dequenne como Marianne de Morangias
+    bajo la direcci\xF3n de Christophe Gans."

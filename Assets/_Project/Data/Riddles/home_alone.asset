@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: home_alone
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: home_alone
+  category: peliculas
+  difficulty: 0
+  answer: Mi pobre angelito
+  acceptedAnswers:
+  - Mi pobre angelito
+  - solo en casa
+  - home alone
+  hints:
+  - "Esta producci\xF3n de Estados Unidos, lanzada en 1990, pertenece al g\xE9nero
+    comedia familiar."
+  - "Chris Columbus asumi\xF3 la direcci\xF3n."
+  - El reparto o los personajes clave incluyen a Kevin McCallister, Harry y Marv.
+  - "El conflicto principal nace cuando un ni\xF1o queda olvidado durante las vacaciones
+    y protege su casa de dos ladrones."
+  - Resulta inconfundible por trampas caseras frenan a los bandidos mojados.

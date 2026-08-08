@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: miracle_at_st_anna
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: miracle_at_st_anna
+  category: peliculas
+  difficulty: 0
+  answer: Miracle at St. Anna
+  acceptedAnswers:
+  - Miracle at St. Anna
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2000 dura cerca de 160 minutos."
+  - "Entre sus compa\xF1\xEDas figura Rai Cinema; sus g\xE9neros principales son
+    drama y b\xE9lico."
+  - El realizador principal fue Spike Lee.
+  - En el reparto, Derek Luke da vida a 2nd Staff Sergeant Aubrey Stamps y Michael
+    Ealy a Sergeant Bishop Cummings.
+  - En esta cinta de 2008 coinciden Derek Luke como 2nd Staff Sergeant Aubrey Stamps,
+    Michael Ealy como Sergeant Bishop Cummings y Laz Alonso como Corporal Hector
+    Negron.

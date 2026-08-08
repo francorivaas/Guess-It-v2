@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pink
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pink
+  category: peliculas
+  difficulty: 0
+  answer: Pink
+  acceptedAnswers:
+  - Pink
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de India, estrenada en los a\xF1os
+    2010 y clasificada como drama y cine internacional."
+  - "Tiene una duraci\xF3n aproximada de 130 minutos y recibi\xF3 la clasificaci\xF3n
+    NR."
+  - "La producci\xF3n lleg\xF3 en 2016 bajo la participaci\xF3n de NH Studioz."
+  - "La c\xE1mara de Aniruddha Roy Chowdhury trabaja con actuaciones de Tapsee Pannu
+    y Kirti Kulhari."
+  - Cinta de India lanzada en 2016, dirigida por Aniruddha Roy Chowdhury y encabezada
+    por Tapsee Pannu, Kirti Kulhari y Andrea Tariang, con guion de Shoojit Sircar.

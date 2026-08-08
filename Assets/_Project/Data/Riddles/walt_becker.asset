@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: walt_becker
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: walt_becker
+  category: personas
+  difficulty: 0
+  answer: Walt Becker
+  acceptedAnswers:
+  - Walt Becker
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 2002 y 2015 y se concentra sobre
+    todo en comedia y acci\xF3n."
+  - "Una pista lateral de su filmograf\xEDa es \xABAlvin and the Chipmunks: The Road
+    Chip\xBB, dentro de Estados Unidos y Alemania."
+  - "Tambi\xE9n est\xE1 vinculada a \xABOld Dogs\xBB y \xABVan Wilder\xBB."
+  - "Dos referencias fuertes de su carrera son \xABWild Hogs\xBB y \xABVan Wilder\xBB."
+  - "Profesional del cine relacionado con \xABWild Hogs\xBB, \xABVan Wilder\xBB y
+    \xABOld Dogs\xBB en tareas de direcci\xF3n."

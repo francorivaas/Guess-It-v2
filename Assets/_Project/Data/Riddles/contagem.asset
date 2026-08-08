@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: contagem
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: contagem
+  category: lugares
+  difficulty: 0
+  answer: Contagem
+  acceptedAnswers:
+  - Contagem
+  hints:
+  - "Ocupa el hemisferio sur y una longitud aproximada de 44,05\xB0 oeste."
+  - Su escala urbana ronda los 622 mil de habitantes y se integra en Minas Gerais.
+  - "No es la capital nacional de Brasil. Su longitud geogr\xE1fica ronda los 44,05\xB0
+    oeste."
+  - "Esta ciudad de Brasil est\xE1 en Minas Gerais y se sit\xFAa a 19,9\xB0 sur."
+  - "En Brasil, dentro de Minas Gerais, esta ciudad de unos 622 mil est\xE1 cerca
+    de 19,9\xB0 sur y 44,1\xB0 oeste."

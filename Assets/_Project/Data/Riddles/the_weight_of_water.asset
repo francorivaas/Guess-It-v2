@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_weight_of_water
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_weight_of_water
+  category: peliculas
+  difficulty: 1
+  answer: The Weight of Water
+  acceptedAnswers:
+  - The Weight of Water
+  hints:
+  - "Es una producci\xF3n de 2000 con una duraci\xF3n aproximada de 113 minutos."
+  - Mezcla crimen, drama y misterio y fue producida en Francia y Estados Unidos.
+  - "Detr\xE1s de la c\xE1mara estuvo Kathryn Bigelow."
+  - En el reparto, Sean Penn da vida a Thomas Janes y Catherine McCormack a Jean
+    Janes.
+  - "Kathryn Bigelow dirige a Sean Penn como Thomas Janes, Catherine McCormack como
+    Jean Janes y Elizabeth Hurley como Adaline Gunne en esta pel\xEDcula de 2000."

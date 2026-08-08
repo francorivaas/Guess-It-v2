@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: keith_allen
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: keith_allen
+  category: personas
+  difficulty: 2
+  answer: Keith Allen
+  acceptedAnswers:
+  - Keith Allen
+  hints:
+  - "En De-Lovely interpret\xF3 a Irving Berlin, en una pel\xEDcula estrenada en
+    2004."
+  - Su carrera en cine abarca de 1996 a 2016 y recorre drama y crimen.
+  - "Comparti\xF3 reparto con Taron Egerton en Eddie the Eagle."
+  - "En The Others interpret\xF3 a Mr. Marlish."
+  - Aparece en Trainspotting y Eddie the Eagle.

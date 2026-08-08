@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sandrine_kiberlain
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sandrine_kiberlain
+  category: personas
+  difficulty: 0
+  answer: Sandrine Kiberlain
+  acceptedAnswers:
+  - Sandrine Kiberlain
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1990 y 2016, especialmente dentro
+    de comedia, drama y historia."
+  - "Particip\xF3 en \xAB9 Month Stretch\xBB, dirigida por Albert Dupontel y estrenada
+    en 2013."
+  - "Su papel en \xABCyrano de Bergerac\xBB fue el de Sister Colette."
+  - "En \xABBeing 17\xBB interpret\xF3 a Marianne."
+  - "Interpret\xF3 a Marianne en \xABBeing 17\xBB y a Suzanne Joubert en \xABThe
+    Women on the 6th Floor\xBB."

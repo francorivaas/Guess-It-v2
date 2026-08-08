@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: anthony_nicholls
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: anthony_nicholls
+  category: personas
+  difficulty: 2
+  answer: Anthony Nicholls
+  acceptedAnswers:
+  - Anthony Nicholls
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1961 y 1968, especialmente dentro
+    de drama y terror."
+  - "Uno de sus trabajos fue \xABIf....\xBB (1968), bajo la direcci\xF3n de Lindsay
+    Anderson."
+  - "Dio vida a Lord Charles Fullbrook en \xABVictim\xBB."
+  - "En \xABNight of the Eagle\xBB interpret\xF3 a Harvey Sawtelle."
+  - "Interpret\xF3 a Harvey Sawtelle en \xABNight of the Eagle\xBB y a Mr. Halbert
+    en \xABOur Mother's House\xBB."

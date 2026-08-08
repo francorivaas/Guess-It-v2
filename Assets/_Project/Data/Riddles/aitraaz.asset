@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: aitraaz
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: aitraaz
+  category: peliculas
+  difficulty: 2
+  answer: Aitraaz
+  acceptedAnswers:
+  - Aitraaz
+  hints:
+  - "Fue filmada originalmente en hindi y lleg\xF3 a los cines en 2004."
+  - "Se encuadra en suspenso y drama y tiene origen de producci\xF3n en India."
+  - "Detr\xE1s de la c\xE1mara estuvo Abbas Alibhai Burmawalla."
+  - Dos personajes centrales son Raj Malhotra, interpretado por Akshay Kumar, y Priya
+    Malhotra, a cargo de Kareena Kapoor.
+  - "Abbas Alibhai Burmawalla dirige a Akshay Kumar como Raj Malhotra, Kareena Kapoor
+    como Priya Malhotra y Priyanka Chopra como Sonia Roy en esta pel\xEDcula de 2004."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: stay_alive
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: stay_alive
+  category: peliculas
+  difficulty: 1
+  answer: Stay Alive
+  acceptedAnswers:
+  - Stay Alive
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 2000, vinculada al
+    g\xE9nero de fantas\xEDa. La direcci\xF3n est\xE1 acreditada a William Brent
+    Bell."
+  - "Tiene una duraci\xF3n aproximada de 85 minutos y recibi\xF3 la clasificaci\xF3n
+    PG-13. Entre sus int\xE9rpretes figura Jon Foster."
+  - "Se estren\xF3 en 2006 y estuvo asociada a la compa\xF1\xEDa Hollywood Pictures."
+  - "La dirigi\xF3 William Brent Bell y su figura principal es Jon Foster."
+  - Cinta de Estados Unidos lanzada en 2006, dirigida por William Brent Bell y encabezada
+    por Jon Foster, con guion de William Brent Bell.

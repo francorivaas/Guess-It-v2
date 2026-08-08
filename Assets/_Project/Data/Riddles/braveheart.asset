@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: braveheart
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: braveheart
+  category: peliculas
+  difficulty: 0
+  answer: "Coraz\xF3n valiente"
+  acceptedAnswers:
+  - "Coraz\xF3n valiente"
+  - Corazon valiente
+  - braveheart
+  hints:
+  - "Su contexto de estreno fue 1995; es una pel\xEDcula de drama hist\xF3rico y
+    acci\xF3n realizada en Estados Unidos."
+  - "La realizaci\xF3n fue encabezada por Mel Gibson."
+  - "La narraci\xF3n se apoya especialmente en William Wallace, Murron y el rey Eduardo
+    I."
+  - "El relato se construye a partir de un guerrero escoc\xE9s lidera una rebeli\xF3n
+    contra el dominio ingl\xE9s."
+  - Se la reconoce de inmediato por el rostro pintado de azul y un grito por la libertad
+    preceden la batalla.

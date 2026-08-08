@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: whisper
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: whisper
+  category: peliculas
+  difficulty: 0
+  answer: Whisper
+  acceptedAnswers:
+  - Whisper
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2000 y su duraci\xF3n ronda los 94 minutos."
+  - "Mezcla crimen, drama y terror y fue producida en Canad\xE1 y Estados Unidos."
+  - "La direcci\xF3n estuvo a cargo de Stewart Hendler."
+  - En el reparto, Blake Woodruff da vida a David Sandborn y Josh Holloway a Max
+    Truemont.
+  - En esta cinta de 2007 coinciden Blake Woodruff como David Sandborn, Josh Holloway
+    como Max Truemont y Sarah Wayne Callies como Roxanne.

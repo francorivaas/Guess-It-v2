@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rostov
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rostov
+  category: lugares
+  difficulty: 0
+  answer: Rostov
+  acceptedAnswers:
+  - Rostov
+  hints:
+  - "Para encontrarla hay que mirar el hemisferio norte y el lado este del meridiano
+    de Greenwich. Queda aproximadamente a 5.257 kil\xF3metros del ecuador."
+  - "Forma parte de Europa y su poblaci\xF3n ronda los 1,1 millones de habitantes."
+  - "El punto urbano aparece cerca de 47.2\xB0 norte, 39.7\xB0 este."
+  - "La divisi\xF3n administrativa es Rostovskaya Oblast\u2019 y el pa\xEDs es Rusia."
+  - "Ciudad de Rusia que funciona como capital administrativa en Rostovskaya Oblast\u2019
+    y re\xFAne cerca de 1,1 millones de habitantes."

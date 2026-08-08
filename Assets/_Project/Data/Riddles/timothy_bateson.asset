@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: timothy_bateson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: timothy_bateson
+  category: personas
+  difficulty: 1
+  answer: Timothy Bateson
+  acceptedAnswers:
+  - Timothy Bateson
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1959 y 2005 y recorren g\xE9neros
+    como drama, comedia y suspenso."
+  - "Uno de sus trabajos fue \xABThe Messenger: The Story of Joan of Arc\xBB (1999),
+    bajo la direcci\xF3n de Luc Besson."
+  - "Su papel en \xABThe Mouse That Roared\xBB fue el de Roger."
+  - "Dio vida a Hotel Bartender en \xABNightmare\xBB."
+  - "Interpret\xF3 a Hotel Bartender en \xABNightmare\xBB y a Mr. Groom en \xABTwisted
+    Nerve\xBB."

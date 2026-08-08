@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: a_thousand_times_good_night
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: a_thousand_times_good_night
+  category: peliculas
+  difficulty: 1
+  answer: A Thousand Times Good Night
+  acceptedAnswers:
+  - A Thousand Times Good Night
+  - Tusen ganger god natt
+  hints:
+  - "Fue filmada originalmente en noruego y lleg\xF3 a los cines en 2013."
+  - "Paradox Spillefilm A/S particip\xF3 en una pel\xEDcula de drama producida en
+    Noruega y Irlanda."
+  - "Erik Poppe la dirigi\xF3 con Paradox Spillefilm A/S entre las compa\xF1\xEDas
+    productoras."
+  - Juliette Binoche interpreta a Rebecca, mientras Nikolaj Coster-Waldau encarna
+    a Marcus.
+  - En esta cinta de 2013 coinciden Juliette Binoche como Rebecca, Nikolaj Coster-Waldau
+    como Marcus y Maria Doyle Kennedy.

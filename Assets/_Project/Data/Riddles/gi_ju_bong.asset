@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gi_ju_bong
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gi_ju_bong
+  category: personas
+  difficulty: 0
+  answer: Gi Ju-bong
+  acceptedAnswers:
+  - Gi Ju-bong
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2000 y 2015 y recorren g\xE9neros
+    como drama, suspenso y cine extranjero."
+  - "Particip\xF3 en \xABJoint Security Area\xBB, dirigida por Park Chan-wook y estrenada
+    en 2000."
+  - "Su papel en \xABThe Suspect\xBB fue el de Coroner."
+  - "En \xABThe Day He Arrives\xBB interpret\xF3 a Producer."
+  - "Es la persona que encarn\xF3 a Producer en \xABThe Day He Arrives\xBB y a Jeong
+    Il-seong en \xABInto the Mirror\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: leslie_phillips
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: leslie_phillips
+  category: personas
+  difficulty: 0
+  answer: Leslie Phillips
+  acceptedAnswers:
+  - Leslie Phillips
+  hints:
+  - "Trabaj\xF3 en producciones de comedia, drama y romance a lo largo del per\xEDodo
+    entre 1951 y 2011."
+  - "Form\xF3 parte del elenco de \xABSaving Grace\xBB, una pel\xEDcula de 2000 dirigida
+    por Nigel Cole."
+  - "Dio vida a Ian en \xABVenus\xBB."
+  - "En \xABScandal\xBB interpret\xF3 a Lord Astor."
+  - "Sus papeles incluyen a Lord Astor en \xABScandal\xBB y a Reg en \xABIs Anybody
+    There?\xBB."

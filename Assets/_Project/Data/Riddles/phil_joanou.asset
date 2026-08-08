@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: phil_joanou
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: phil_joanou
+  category: personas
+  difficulty: 0
+  answer: Phil Joanou
+  acceptedAnswers:
+  - Phil Joanou
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1987 y 2015 y se concentra sobre
+    todo en drama y mon\xF3logo c\xF3mico."
+  - "La pel\xEDcula \xABChris Tucker Live\xBB forma parte de una carrera conectada
+    con Estados Unidos y Reino Unido."
+  - "La asociaci\xF3n con \xABFinal Analysis\xBB se completa con otro cr\xE9dito
+    en \xABState of Grace\xBB."
+  - "Dos referencias fuertes de su carrera son \xABGridiron Gang\xBB y \xABState
+    of Grace\xBB."
+  - "Persona con cr\xE9ditos de direcci\xF3n en \xABGridiron Gang\xBB, \xABState
+    of Grace\xBB y \xABFinal Analysis\xBB."

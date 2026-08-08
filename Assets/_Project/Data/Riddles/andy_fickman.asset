@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: andy_fickman
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: andy_fickman
+  category: personas
+  difficulty: 0
+  answer: Andy Fickman
+  acceptedAnswers:
+  - Andy Fickman
+  hints:
+  - "Es una figura del cine cuya actividad registrada se extiende entre 2006 y 2018
+    y toca principalmente comedia y acci\xF3n."
+  - "La pel\xEDcula \xABKevin James: Never Don't Give Up\xBB forma parte de una carrera
+    conectada con Estados Unidos."
+  - "La asociaci\xF3n con \xABRace to Witch Mountain\xBB se completa con otro cr\xE9dito
+    en \xABThe Game Plan\xBB."
+  - "Los t\xEDtulos \xABShe's the Man\xBB y \xABThe Game Plan\xBB ofrecen las pistas
+    m\xE1s directas."
+  - "Profesional del cine relacionado con \xABShe's the Man\xBB, \xABThe Game Plan\xBB
+    y \xABRace to Witch Mountain\xBB en tareas de direcci\xF3n."

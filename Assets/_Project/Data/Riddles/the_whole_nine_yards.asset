@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_whole_nine_yards
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_whole_nine_yards
+  category: peliculas
+  difficulty: 1
+  answer: The Whole Nine Yards
+  acceptedAnswers:
+  - The Whole Nine Yards
+  hints:
+  - "Se estren\xF3 en 2000, dura cerca de 98 minutos y tuvo producci\xF3n de Canad\xE1."
+  - Combina comedia y crimen; una de sus productoras fue Franchise Pictures.
+  - "La dirigi\xF3 Jonathan Lynn, con Michael Clarke Duncan en un papel del reparto."
+  - En el elenco aparecen Matthew Perry y Rosanna Arquette.
+  - "Bruce Willis encabeza esta pel\xEDcula de comedia, dirigida por Jonathan Lynn
+    y estrenada en 2000."

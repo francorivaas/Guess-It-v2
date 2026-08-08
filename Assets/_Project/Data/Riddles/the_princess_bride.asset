@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_princess_bride
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_princess_bride
+  category: peliculas
+  difficulty: 1
+  answer: La princesa prometida
+  acceptedAnswers:
+  - La princesa prometida
+  - the princess bride
+  hints:
+  - "Se estren\xF3 en 1987 y combina aventura y comedia fant\xE1stica dentro del
+    cine de Estados Unidos."
+  - "La realizaci\xF3n fue encabezada por Rob Reiner."
+  - "Entre sus figuras centrales est\xE1n Buttercup, Westley e \xCD\xF1igo Montoya."
+  - La trama gira alrededor de un abuelo lee a su nieto una historia de amor, duelos
+    y rescates.
+  - "La pista casi definitiva es un espadach\xEDn busca al hombre de seis dedos que
+    mat\xF3 a su padre."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: abaji
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: abaji
+  category: lugares
+  difficulty: 0
+  answer: Abaji
+  acceptedAnswers:
+  - Abaji
+  hints:
+  - "El mapa la sit\xFAa en el hemisferio norte, al este de Greenwich. Queda aproximadamente
+    a 944 kil\xF3metros del ecuador."
+  - "Est\xE1 en \xC1frica; el registro demogr\xE1fico se aproxima a 128.000 habitantes."
+  - "El punto urbano aparece cerca de 8.5\xB0 norte, 6.9\xB0 este."
+  - Pertenece a Federal Capital Territory, dentro de Nigeria.
+  - "Ciudad de Nigeria que funciona como capital local en Federal Capital Territory
+    y re\xFAne cerca de 128.000 habitantes."

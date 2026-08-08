@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lesotho
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lesotho
+  category: lugares
+  difficulty: 2
+  answer: Lesoto
+  acceptedAnswers:
+  - Lesoto
+  - Lesotho
+  hints:
+  - "Su escala demogr\xE1fica ronda 2,1 millones de habitantes; el territorio ocupa
+    30 mil km\xB2."
+  - "Su ubicaci\xF3n geogr\xE1fica queda dentro de \xC1frica austral."
+  - "El panorama ling\xFC\xEDstico incluye ingl\xE9s, sotho meridional."
+  - La moneda nacional es loti lesotense, rand sudafricano.
+  - La sede de gobierno se encuentra en Maseru.

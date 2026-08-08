@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gary_winick
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gary_winick
+  category: personas
+  difficulty: 0
+  answer: Gary Winick
+  acceptedAnswers:
+  - Gary Winick
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 2004 y 2010, con presencia
+    frecuente en comedia y aventura."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABCharlotte's Web\xBB, vinculada
+    a Estados Unidos."
+  - "La asociaci\xF3n con \xABLetters to Juliet\xBB se completa con otro cr\xE9dito
+    en \xABBride Wars\xBB."
+  - "Los t\xEDtulos \xAB13 Going on 30\xBB y \xABBride Wars\xBB ofrecen las pistas
+    m\xE1s directas."
+  - "Persona con cr\xE9ditos de direcci\xF3n en \xAB13 Going on 30\xBB, \xABBride
+    Wars\xBB y \xABLetters to Juliet\xBB."

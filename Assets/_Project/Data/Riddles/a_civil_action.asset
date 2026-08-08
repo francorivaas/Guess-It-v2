@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: a_civil_action
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: a_civil_action
+  category: peliculas
+  difficulty: 1
+  answer: A Civil Action
+  acceptedAnswers:
+  - A Civil Action
+  - Civil Action
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 1990 y clasificada como drama. La direcci\xF3n est\xE1 acreditada a Steven
+    Zaillian."
+  - "Tiene una duraci\xF3n aproximada de 115 minutos y recibi\xF3 la clasificaci\xF3n
+    PG-13. Entre sus int\xE9rpretes figura John Travolta."
+  - "La producci\xF3n lleg\xF3 en 1998 bajo la participaci\xF3n de Touchstone Pictures."
+  - "La dirigi\xF3 Steven Zaillian y su figura principal es John Travolta."
+  - Cinta de Estados Unidos lanzada en 1998, dirigida por Steven Zaillian y encabezada
+    por John Travolta, con guion de Jonathan Harr.

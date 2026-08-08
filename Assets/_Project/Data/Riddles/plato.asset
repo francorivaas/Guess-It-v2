@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: plato
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: plato
+  category: personas
+  difficulty: 1
+  answer: "Plat\xF3n"
+  acceptedAnswers:
+  - "Plat\xF3n"
+  - Platon
+  hints:
+  - "Su etapa de mayor influencia se desarroll\xF3 en la Antigua Grecia."
+  - "Procedente de Atenas, destac\xF3 en filosof\xEDa."
+  - "Se lo recuerda especialmente por fundar la Academia y escribir di\xE1logos."
+  - "Su historia suele asociarse directamente con la alegor\xEDa de una caverna y
+    su maestro S\xF3crates."
+  - "Quien encaja en estas pistas destac\xF3 por la alegor\xEDa de una caverna y
+    su maestro S\xF3crates."

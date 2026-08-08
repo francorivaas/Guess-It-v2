@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: denis_o_dea
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: denis_o_dea
+  category: personas
+  difficulty: 2
+  answer: Denis O'Dea
+  acceptedAnswers:
+  - Denis O'Dea
+  hints:
+  - "Trabaj\xF3 en producciones de drama, aventura y crimen a lo largo del per\xEDodo
+    entre 1947 y 1953."
+  - "Form\xF3 parte del elenco de \xABOdd Man Out\xBB, una pel\xEDcula de 1947 dirigida
+    por Carol Reed."
+  - "En \xABTreasure Island\xBB interpret\xF3 a Dr. Livesy."
+  - "Dio vida a Inspector Crowe en \xABThe Fallen Idol\xBB."
+  - "Sus papeles incluyen a Inspector Crowe en \xABThe Fallen Idol\xBB y a Mr. Corrigan
+    en \xABUnder Capricorn\xBB."

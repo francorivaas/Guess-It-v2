@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: matthias_habich
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: matthias_habich
+  category: personas
+  difficulty: 0
+  answer: Matthias Habich
+  acceptedAnswers:
+  - Matthias Habich
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1976 y 2017 y recorren g\xE9neros
+    como drama, b\xE9lico y comedia."
+  - "Uno de sus trabajos fue \xABEnemy at the Gates\xBB (2001), bajo la direcci\xF3n
+    de Jean-Jacques Annaud."
+  - "Dio vida a Erich Werner en \xABBerlin Syndrome\xBB."
+  - "En \xABNowhere in Africa\xBB interpret\xF3 a S\xFC\xDFkind."
+  - "Interpret\xF3 a S\xFC\xDFkind en \xABNowhere in Africa\xBB y a Klaus en \xABChaotic
+    Ana\xBB."

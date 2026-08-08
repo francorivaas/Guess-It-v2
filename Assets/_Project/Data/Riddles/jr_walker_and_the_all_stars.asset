@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jr_walker_and_the_all_stars
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jr_walker_and_the_all_stars
+  category: bandas musicales
+  difficulty: 0
+  answer: Jr. Walker & The All Stars
+  acceptedAnswers:
+  - Jr. Walker & The All Stars
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABShake And Fingerpop\xBB, de 1965, y llega
+    hasta 2008."
+  - "\xABWhat Does It Take (To Win Your Love)\xBB presenta una energ\xEDa media y
+    un pulso cercano a 121 BPM."
+  - "Entre sus grabaciones figuran \xABShotgun - Extended Stereo Mix 2005\xBB y \xABAin't
+    That The Truth\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABShotgun\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABHow Sweet It Is (To Be Loved By You)\xBB
+    y \xAB(I'm A) Road Runner\xBB."

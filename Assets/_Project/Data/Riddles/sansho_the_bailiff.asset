@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sansho_the_bailiff
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sansho_the_bailiff
+  category: peliculas
+  difficulty: 0
+  answer: Sansho the Bailiff
+  acceptedAnswers:
+  - Sansho the Bailiff
+  hints:
+  - "Combina un estreno de 1954 con di\xE1logos originalmente en japon\xE9s."
+  - "Entre sus compa\xF1\xEDas figura Daiei Studios; sus g\xE9neros principales son
+    drama."
+  - "Kenji Mizoguchi firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - "Kinuyo Tanaka interpreta a Tamaki, mientras Yoshiaki Hanayagi encarna a Zushi\xF4."
+  - "Kenji Mizoguchi dirige a Kinuyo Tanaka como Tamaki, Yoshiaki Hanayagi como Zushi\xF4
+    y Ky\xF4ko Kagawa como Anju en esta pel\xEDcula de 1954."

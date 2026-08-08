@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fences
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fences
+  category: peliculas
+  difficulty: 0
+  answer: Fences
+  acceptedAnswers:
+  - Fences
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 2010, vinculada al
+    g\xE9nero de drama. La direcci\xF3n est\xE1 acreditada a Denzel Washington."
+  - "Tiene una duraci\xF3n aproximada de 139 minutos y recibi\xF3 la clasificaci\xF3n
+    PG-13."
+  - "Se estren\xF3 en 2016 y estuvo asociada a la compa\xF1\xEDa BRON Studios."
+  - "Denzel Washington estuvo a cargo de la direcci\xF3n, con Denzel Washington al
+    frente del elenco."
+  - "Producci\xF3n de drama estrenada en 2016: direcci\xF3n de Denzel Washington
+    y actuaciones de Denzel Washington, con guion de August Wilson."

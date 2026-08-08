@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_music_lovers
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_music_lovers
+  category: peliculas
+  difficulty: 2
+  answer: The Music Lovers
+  acceptedAnswers:
+  - The Music Lovers
+  hints:
+  - "Es una producci\xF3n de 1970 con una duraci\xF3n aproximada de 123 minutos."
+  - "Se encuadra en drama y m\xFAsica y tiene origen de producci\xF3n en Reino Unido."
+  - "Ken Russell la dirigi\xF3 con Russ-Arts entre las compa\xF1\xEDas productoras."
+  - En el reparto, Richard Chamberlain da vida a Tchaikovsky y Glenda Jackson a Nina.
+  - "Ken Russell dirige a Richard Chamberlain como Tchaikovsky, Glenda Jackson como
+    Nina y Max Adrian como Nicholas Rubinstein en esta pel\xEDcula de 1970."

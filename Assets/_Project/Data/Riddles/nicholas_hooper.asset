@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nicholas_hooper
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nicholas_hooper
+  category: bandas musicales
+  difficulty: 1
+  answer: Nicholas Hooper
+  acceptedAnswers:
+  - Nicholas Hooper
+  hints:
+  - "Su perfil sonoro combina m\xFAsica brit\xE1nica con una presencia instrumental
+    muy marcada."
+  - "El cat\xE1logo incluye el \xE1lbum \xABHarry Potter and the Half-Blood Prince
+    (Original Motion Picture Soundtrack)\xBB."
+  - "Las pistas intermedias pasan por \xABWhen Ginny Kissed Harry\xBB y \xABDumbledore's
+    Army\xBB."
+  - "Dos canciones muy \xFAtiles para reconocerlo son \xABDumbledore's Farewell\xBB
+    y \xABHarry & Hermione\xBB."
+  - "Artista o grupo detr\xE1s de \xABDumbledore's Farewell\xBB, \xABHarry & Hermione\xBB
+    y \xABWhen Ginny Kissed Harry\xBB."

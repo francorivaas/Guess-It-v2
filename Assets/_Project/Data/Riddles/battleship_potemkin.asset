@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: battleship_potemkin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: battleship_potemkin
+  category: peliculas
+  difficulty: 2
+  answer: El acorazado Potemkin
+  acceptedAnswers:
+  - El acorazado Potemkin
+  - battleship potemkin
+  hints:
+  - "Lleg\xF3 a las salas en 1925 como una obra de drama hist\xF3rico vinculada a
+    Uni\xF3n Sovi\xE9tica."
+  - "La realizaci\xF3n fue encabezada por Sergu\xE9i Eisenstein."
+  - "los marineros amotinados y la poblaci\xF3n de Odesa ocupan el centro de la historia."
+  - "Su historia sigue una rebeli\xF3n naval se convierte en s\xEDmbolo revolucionario."
+  - "Una imagen o situaci\xF3n decisiva es un coche de beb\xE9 desciende por una
+    escalinata durante una masacre."

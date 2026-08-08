@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_world_according_to_garp
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_world_according_to_garp
+  category: peliculas
+  difficulty: 1
+  answer: The World According to Garp
+  acceptedAnswers:
+  - The World According to Garp
+  - World According to Garp
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Estados Unidos; combina comedia y una
+    fecha de estreno dentro de los a\xF1os 1980. La direcci\xF3n est\xE1 acreditada
+    a George Roy Hill."
+  - "Su duraci\xF3n ronda los 136 minutos; la clasificaci\xF3n registrada es R."
+  - "La producci\xF3n lleg\xF3 en 1982 bajo la participaci\xF3n de Pan Arts."
+  - "La dirigi\xF3 George Roy Hill y su figura principal es Robin Williams."
+  - "Producci\xF3n de comedia estrenada en 1982: direcci\xF3n de George Roy Hill
+    y actuaciones de Robin Williams, con guion de John Irving."

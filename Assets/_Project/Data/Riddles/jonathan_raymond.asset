@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jonathan_raymond
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jonathan_raymond
+  category: personas
+  difficulty: 1
+  answer: Jonathan Raymond
+  acceptedAnswers:
+  - Jonathan Raymond
+  hints:
+  - Es una figura del cine cuya actividad registrada se extiende entre 2006 y 2010
+    y toca principalmente drama y aventura.
+  - "Una pista lateral de su filmograf\xEDa es \xABOld Joy\xBB, dentro de Estados
+    Unidos."
+  - "La asociaci\xF3n con \xABOld Joy\xBB se completa con otro cr\xE9dito en \xABMeek's
+    Cutoff\xBB. Su filmograf\xEDa registrada re\xFAne 3 t\xEDtulos distintos."
+  - "Los t\xEDtulos \xABWendy and Lucy\xBB y \xABMeek's Cutoff\xBB ofrecen las pistas
+    m\xE1s directas. La mayor parte de sus cr\xE9ditos corresponde a guion."
+  - "Persona con cr\xE9ditos de guion en \xABWendy and Lucy\xBB, \xABMeek's Cutoff\xBB
+    y \xABOld Joy\xBB."

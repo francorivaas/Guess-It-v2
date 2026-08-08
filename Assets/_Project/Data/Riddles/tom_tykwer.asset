@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tom_tykwer
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tom_tykwer
+  category: personas
+  difficulty: 2
+  answer: Tom Tykwer
+  acceptedAnswers:
+  - Tom Tykwer
+  hints:
+  - "Particip\xF3 en Three, una pel\xEDcula estrenada en 2010."
+  - "Su carrera en cine abarca de 1998 a 2012 y recorre drama y ciencia ficci\xF3n."
+  - "Comparti\xF3 reparto con Clive Owen en The International. Otro cr\xE9dito es
+    Run Lola Run."
+  - "Tambi\xE9n integr\xF3 el elenco de Perfume: The Story of a Murderer."
+  - Aparece en Cloud Atlas y Run Lola Run.

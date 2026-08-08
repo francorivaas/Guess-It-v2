@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tell_no_one
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tell_no_one
+  category: peliculas
+  difficulty: 0
+  answer: Tell No One
+  acceptedAnswers:
+  - Tell No One
+  - "Ne le dis \xE0 personne"
+  - ne le dis a personne
+  hints:
+  - "Fue filmada originalmente en franc\xE9s y lleg\xF3 a los cines en 2006."
+  - "Se encuadra en drama, suspenso y crimen y tiene origen de producci\xF3n en Francia."
+  - "Guillaume Canet la dirigi\xF3 con Les Productions du Tr\xE9sor entre las compa\xF1\xEDas
+    productoras."
+  - "En el reparto, Fran\xE7ois Cluzet da vida a Docteur Alexandre Arnaud Beck y
+    Marie-Jos\xE9e Croze a Margot Beck."
+  - "El reparto incluye a Fran\xE7ois Cluzet como Docteur Alexandre Arnaud Beck,
+    Marie-Jos\xE9e Croze como Margot Beck y Kristin Scott Thomas como H\xE9l\xE8ne
+    Perkins bajo la direcci\xF3n de Guillaume Canet."

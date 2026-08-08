@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_tale_of_the_princess_kaguya
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_tale_of_the_princess_kaguya
+  category: peliculas
+  difficulty: 0
+  answer: The Tale of The Princess Kaguya
+  acceptedAnswers:
+  - The Tale of The Princess Kaguya
+  - Tale of The Princess Kaguya
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Jap\xF3n; combina animaci\xF3n y una
+    fecha de estreno dentro de los a\xF1os 2010. La direcci\xF3n est\xE1 acreditada
+    a Isao Takahata."
+  - "La ficha t\xE9cnica marca 137 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    PG."
+  - "El a\xF1o 2013 y el sello Studio Ghibli forman parte de sus datos de producci\xF3n.
+    Entre sus int\xE9rpretes figura Chlo\xEB Grace Moretz."
+  - "Isao Takahata estuvo a cargo de la direcci\xF3n, con Chlo\xEB Grace Moretz al
+    frente del elenco."
+  - "Pel\xEDcula de 2013 dirigida por Isao Takahata, con Chlo\xEB Grace Moretz en
+    el reparto, con guion de Isao Takahata."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: syn_cole
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: syn_cole
+  category: bandas musicales
+  difficulty: 0
+  answer: Syn Cole
+  acceptedAnswers:
+  - Syn Cole
+  hints:
+  - "Su perfil sonoro combina deep house y house progresivo con una energ\xEDa sonora
+    alta."
+  - "Entre sus lanzamientos aparece \xABFeel Good\xBB."
+  - "Ha compartido cr\xE9ditos de interpretaci\xF3n con Kygo y Kaspara."
+  - "Las referencias directas son \xABFeels Like Love (feat. MIYA MIYA)\xBB y \xABBreathe
+    (feat. kaspara)\xBB."
+  - "Nombre musical asociado directamente a \xABFeels Like Love (feat. MIYA MIYA)\xBB,
+    \xABBreathe (feat. kaspara)\xBB y \xABShadow\xBB."

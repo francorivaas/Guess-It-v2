@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: shallow_grave
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: shallow_grave
+  category: peliculas
+  difficulty: 0
+  answer: Shallow Grave
+  acceptedAnswers:
+  - Shallow Grave
+  hints:
+  - "Su metraje se acerca a 92 minutos y corresponde al a\xF1o 1994."
+  - "Su combinaci\xF3n de g\xE9neros incluye crimen y suspenso; la producci\xF3n
+    se vincula con Reino Unido."
+  - "La direcci\xF3n estuvo a cargo de Danny Boyle."
+  - Kerry Fox interpreta a Juliet Miller, mientras Christopher Eccleston encarna
+    a David Stephens.
+  - "Danny Boyle dirige a Kerry Fox como Juliet Miller, Christopher Eccleston como
+    David Stephens y Ewan McGregor como Alex Law en esta pel\xEDcula de 1994."

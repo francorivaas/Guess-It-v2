@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: life_as_a_house
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: life_as_a_house
+  category: peliculas
+  difficulty: 0
+  answer: Life as a House
+  acceptedAnswers:
+  - Life as a House
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 2000 y clasificada como drama. La direcci\xF3n est\xE1 acreditada a Irwin
+    Winkler."
+  - "El montaje final se extiende unos 125 minutos y aparece catalogado con la se\xF1al
+    R. Entre sus int\xE9rpretes figura Hayden Christensen."
+  - "La producci\xF3n lleg\xF3 en 2001 bajo la participaci\xF3n de Winkler Films."
+  - "Irwin Winkler estuvo a cargo de la direcci\xF3n, con Hayden Christensen al frente
+    del elenco."
+  - "Pel\xEDcula de 2001 dirigida por Irwin Winkler, con Hayden Christensen en el
+    reparto, con guion de Mark Andrus."

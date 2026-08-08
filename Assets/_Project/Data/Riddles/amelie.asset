@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: amelie
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: amelie
+  category: peliculas
+  difficulty: 1
+  answer: "Am\xE9lie"
+  acceptedAnswers:
+  - "Am\xE9lie"
+  - Amelie
+  - le fabuleux destin damelie poulain
+  hints:
+  - "Dentro del cine de Francia, apareci\xF3 en 2001 con una propuesta de comedia
+    rom\xE1ntica."
+  - "La realizaci\xF3n fue encabezada por Jean-Pierre Jeunet."
+  - "Sus nombres m\xE1s ligados al relato son la camarera protagonista, Nino y el
+    hombre de cristal."
+  - "La acci\xF3n avanza mientras una camarera t\xEDmida decide mejorar en secreto
+    la vida de quienes la rodean."
+  - "Su elemento m\xE1s revelador es un gnomo viajero y un \xE1lbum de fotograf\xEDas
+    gu\xEDan un romance en Montmartre."

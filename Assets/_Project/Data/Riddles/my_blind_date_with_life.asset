@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: my_blind_date_with_life
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: my_blind_date_with_life
+  category: peliculas
+  difficulty: 1
+  answer: My Blind Date with Life
+  acceptedAnswers:
+  - My Blind Date with Life
+  - Mein Blind Date mit dem Leben
+  hints:
+  - "Su metraje se acerca a 111 minutos y corresponde al a\xF1o 2017."
+  - "El relato pertenece a comedia, con participaci\xF3n productiva de Alemania."
+  - "Marc Rothemund la dirigi\xF3 con Studio Canal entre las compa\xF1\xEDas productoras."
+  - "En el reparto, Kostja Ullmann da vida a Saliya Kahawatte y Anna Maria M\xFChe
+    a Laura."
+  - "En esta cinta de 2017 coinciden Kostja Ullmann como Saliya Kahawatte, Anna Maria
+    M\xFChe como Laura y Jacob Matschenz como Max."

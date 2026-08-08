@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: florida_georgia_line
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: florida_georgia_line
+  category: bandas musicales
+  difficulty: 0
+  answer: Florida Georgia Line
+  acceptedAnswers:
+  - Florida Georgia Line
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABRound Here\xBB, de 2012, y llega hasta
+    2020."
+  - "Se mueve dentro de country contempor\xE1neo; \xABBlessings\xBB refleja una energ\xEDa
+    alta y un pulso cercano a 129 BPM."
+  - "Entre sus grabaciones figuran \xABH.O.L.Y.\xBB y \xABSecond Guessing - From
+    Songland\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABTalk You Out Of It\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABSimple\xBB y \xABCruise\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: grateful_dead
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: grateful_dead
+  category: bandas musicales
+  difficulty: 2
+  answer: Grateful Dead
+  acceptedAnswers:
+  - Grateful Dead
+  hints:
+  - "El punto de partida estuvo en Estados Unidos; la etapa decisiva lleg\xF3 desde
+    la d\xE9cada de 1960."
+  - "La propuesta sonora combina rock psicod\xE9lico, folk y jam band."
+  - En el centro de la banda aparecen Jerry Garcia, Bob Weir, Phil Lesh, Bill Kreutzmann
+    y Mickey Hart.
+  - "Su recorrido discogr\xE1fico se asocia con American Beauty."
+  - "La respuesta queda casi clara gracias a conciertos largos e improvisados, seguidores
+    llamados Deadheads y un cr\xE1neo con rayo."

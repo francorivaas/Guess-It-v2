@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: peter_rabbit
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: peter_rabbit
+  category: peliculas
+  difficulty: 0
+  answer: Peter Rabbit
+  acceptedAnswers:
+  - Peter Rabbit
+  hints:
+  - "Es una producci\xF3n de Estados Unidos y Australia de la d\xE9cada de 2010,
+    vinculada al g\xE9nero de cine infantil y familiar y comedia."
+  - "Tiene una duraci\xF3n aproximada de 95 minutos y recibi\xF3 la clasificaci\xF3n
+    PG. La direcci\xF3n est\xE1 acreditada a Will Gluck."
+  - "Se estren\xF3 en 2018 y estuvo asociada a la compa\xF1\xEDa Columbia Pictures."
+  - "La c\xE1mara de Will Gluck trabaja con actuaciones de James Corden y Domhnall
+    Gleeson."
+  - "Pel\xEDcula de 2018 dirigida por Will Gluck, con James Corden, Domhnall Gleeson
+    y Rose Byrne en el reparto, con guion de Rob Lieber."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: boarding_gate
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: boarding_gate
+  category: peliculas
+  difficulty: 2
+  answer: Boarding Gate
+  acceptedAnswers:
+  - Boarding Gate
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2000 dura cerca de 106 minutos."
+  - "Entre sus compa\xF1\xEDas figura Margo Films; sus g\xE9neros principales son
+    drama y suspenso."
+  - "Olivier Assayas la dirigi\xF3 con Margo Films entre las compa\xF1\xEDas productoras."
+  - Asia Argento interpreta a Sandra, mientras Michael Madsen encarna a Miles Rennberg.
+  - "Olivier Assayas dirige a Asia Argento como Sandra, Michael Madsen como Miles
+    Rennberg y Kelly Lin como Sue Wang en esta pel\xEDcula de 2007."

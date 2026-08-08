@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: munro_turuttu
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: munro_turuttu
+  category: lugares
+  difficulty: 1
+  answer: Munro Turuttu
+  acceptedAnswers:
+  - Munro Turuttu
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 76,62\xB0 este."
+  - Su escala urbana ronda los 397 mil de habitantes y se integra en Kerala.
+  - Administrativamente pertenece a Kerala. No es la capital nacional de India.
+  - "Esta ciudad de India est\xE1 en Kerala y se sit\xFAa a 9,0\xB0 norte."
+  - "En India, dentro de Kerala, esta ciudad de unos 397 mil est\xE1 cerca de 9,0\xB0
+    norte y 76,6\xB0 este."

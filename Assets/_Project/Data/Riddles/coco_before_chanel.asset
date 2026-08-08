@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: coco_before_chanel
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: coco_before_chanel
+  category: peliculas
+  difficulty: 2
+  answer: Coco Before Chanel
+  acceptedAnswers:
+  - Coco Before Chanel
+  - Coco avant Chanel
+  hints:
+  - "Se estren\xF3 en 2009, dura cerca de 110 minutos y tuvo producci\xF3n de B\xE9lgica."
+  - "Combina drama y hist\xF3rica; una de sus productoras fue France 2 Cin\xE9ma."
+  - "La dirigi\xF3 Anne Fontaine, con Marie Gillain en un papel del reparto."
+  - "En el elenco aparecen Beno\xEEt Poelvoorde y Alessandro Nivola."
+  - "Audrey Tautou encabeza esta pel\xEDcula de drama, dirigida por Anne Fontaine
+    y estrenada en 2009."

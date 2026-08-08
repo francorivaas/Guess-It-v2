@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: steamboy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: steamboy
+  category: peliculas
+  difficulty: 0
+  answer: Steamboy
+  acceptedAnswers:
+  - Steamboy
+  hints:
+  - "Fue filmada originalmente en japon\xE9s y lleg\xF3 a los cines en 2004."
+  - "Se encuadra en animaci\xF3n, fantas\xEDa y ciencia ficci\xF3n y tiene origen
+    de producci\xF3n en Jap\xF3n."
+  - "Katsuhiro \u014Ctomo la dirigi\xF3 con Bandai Visual Company entre las compa\xF1\xEDas
+    productoras."
+  - En el reparto, Anne Suzuki da vida a James Ray Steam (voice) y Masane Tsukayama
+    a Dr. Eddie Steam#.
+  - "Katsuhiro \u014Ctomo dirige a Anne Suzuki como James Ray Steam (voice), Masane
+    Tsukayama como Dr. Eddie Steam# y Katsuo Nakamura como Dr. Lloyd Steam en esta
+    pel\xEDcula de 2004."

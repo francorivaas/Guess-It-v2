@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: wolfgang_petersen
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: wolfgang_petersen
+  category: personas
+  difficulty: 2
+  answer: Wolfgang Petersen
+  acceptedAnswers:
+  - Wolfgang Petersen
+  hints:
+  - "Particip\xF3 en Outbreak, una pel\xEDcula estrenada en 1995."
+  - Su carrera en cine abarca de 1981 a 2006 y recorre aventura y drama.
+  - "Comparti\xF3 reparto con J\xFCrgen Prochnow en Das Boot."
+  - "Tambi\xE9n integr\xF3 el elenco de The NeverEnding Story."
+  - Aparece en Troy y Air Force One.

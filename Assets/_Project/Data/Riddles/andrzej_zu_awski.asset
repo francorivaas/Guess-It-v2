@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: andrzej_zu_awski
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: andrzej_zu_awski
+  category: personas
+  difficulty: 0
+  answer: "Andrzej \u017Bu\u0142awski"
+  acceptedAnswers:
+  - "Andrzej \u017Bu\u0142awski"
+  - "andrzej zu\u0142awski"
+  hints:
+  - "Dirigi\xF3 obras de drama, terror y romance a lo largo de una trayectoria que
+    va entre 1971 y 2015."
+  - "Estuvo al frente de \xABPossession\xBB (1981)."
+  - "Su cat\xE1logo incluye \xABThat Most Important Thing: Love\xBB adem\xE1s de
+    la obra anterior."
+  - "Dos pel\xEDculas que llevan su firma son \xABThat Most Important Thing: Love\xBB
+    y \xABThe Public Woman\xBB."
+  - "Su filmograf\xEDa re\xFAne \xABPossession\xBB, \xABThe Public Woman\xBB y \xABThe
+    Third Part of the Night\xBB."

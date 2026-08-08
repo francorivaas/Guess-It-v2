@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: who_killed_bambi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: who_killed_bambi
+  category: peliculas
+  difficulty: 2
+  answer: Who Killed Bambi?
+  acceptedAnswers:
+  - Who Killed Bambi?
+  - "Qui a tu\xE9 Bambi ?"
+  - qui a tue bambi ?
+  hints:
+  - "Es una producci\xF3n de 2003 con una duraci\xF3n aproximada de 126 minutos."
+  - Mezcla suspenso y fue producida en Francia.
+  - "Detr\xE1s de la c\xE1mara estuvo Gilles Marchand."
+  - En el reparto, Sophie Quinton da vida a Isabelle y Laurent Lucas a Dr. Philipp.
+  - "Gilles Marchand dirige a Sophie Quinton como Isabelle, Laurent Lucas como Dr.
+    Philipp y Catherine Jacob como V\xE9ronique en esta pel\xEDcula de 2003."

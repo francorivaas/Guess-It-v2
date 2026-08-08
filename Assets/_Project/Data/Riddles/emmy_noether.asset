@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: emmy_noether
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: emmy_noether
+  category: personas
+  difficulty: 2
+  answer: Emmy Noether
+  acceptedAnswers:
+  - Emmy Noether
+  hints:
+  - "El tramo central de su legado se desarroll\xF3 en la primera mitad del siglo
+    XX."
+  - "Naci\xF3 en Alemania y orient\xF3 su trabajo hacia matem\xE1tica y f\xEDsica."
+  - "Su carrera cambi\xF3 de escala gracias a relacionar simetr\xEDas con leyes de
+    conservaci\xF3n."
+  - "Otra referencia clave para reconocerlo es un teorema fundamental y una carrera
+    obstaculizada por sexismo y persecuci\xF3n nazi."
+  - "Su legado combina relacionar simetr\xEDas con leyes de conservaci\xF3n con un
+    teorema fundamental y una carrera obstaculizada por sexismo y persecuci\xF3n
+    nazi."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: state_of_grace
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: state_of_grace
+  category: peliculas
+  difficulty: 1
+  answer: State of Grace
+  acceptedAnswers:
+  - State of Grace
+  hints:
+  - "Pertenece al cine de Reino Unido y se ubica temporalmente en la d\xE9cada de
+    1990, dentro de acci\xF3n."
+  - "La ficha t\xE9cnica marca 134 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R. La direcci\xF3n est\xE1 acreditada a Phil Joanou."
+  - "La producci\xF3n lleg\xF3 en 1990 bajo la participaci\xF3n de Cinehaus."
+  - "Phil Joanou estuvo a cargo de la direcci\xF3n, con Sean Penn al frente del elenco."
+  - "Pel\xEDcula de 1990 dirigida por Phil Joanou, con Sean Penn en el reparto, con
+    guion de Dennis McIntyre."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: denial
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: denial
+  category: peliculas
+  difficulty: 0
+  answer: Denial
+  acceptedAnswers:
+  - Denial
+  hints:
+  - "Es una producci\xF3n de 2016 con una duraci\xF3n aproximada de 109 minutos."
+  - "BBC Films particip\xF3 en una pel\xEDcula de drama y historia producida en Reino
+    Unido y Estados Unidos."
+  - "Mick Jackson la dirigi\xF3 con BBC Films entre las compa\xF1\xEDas productoras."
+  - Dos personajes centrales son Deborah Lipstadt, interpretado por Rachel Weisz,
+    y Richard Rampton, a cargo de Tom Wilkinson.
+  - "El reparto incluye a Rachel Weisz como Deborah Lipstadt, Tom Wilkinson como
+    Richard Rampton y Timothy Spall como David Irving bajo la direcci\xF3n de Mick
+    Jackson."

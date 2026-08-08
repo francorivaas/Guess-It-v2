@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: commander_cody_and_his_lost_planet_airmen
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: commander_cody_and_his_lost_planet_airmen
+  category: bandas musicales
+  difficulty: 0
+  answer: Commander Cody and His Lost Planet Airmen
+  acceptedAnswers:
+  - Commander Cody and His Lost Planet Airmen
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABBack To Tennessee\xBB, de 1971, y llega
+    hasta 1975."
+  - "\xABBeat Me Daddy, Eight To The Bar\xBB presenta una energ\xEDa media y un pulso
+    cercano a 120 BPM."
+  - "Entre sus grabaciones figuran \xABLost In The Ozone\xBB y \xABDown To Seeds
+    And Stems Again Blues - Live (1973/Austin, TX)\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABWillin'\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABHot Rod Lincoln\xBB y \xABSeeds And
+    Stems (Again)\xBB."

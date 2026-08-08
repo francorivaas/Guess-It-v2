@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: departures
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: departures
+  category: peliculas
+  difficulty: 0
+  answer: Departures
+  acceptedAnswers:
+  - Departures
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2000 dura cerca de 130 minutos."
+  - "El relato pertenece a drama, con participaci\xF3n productiva de Jap\xF3n."
+  - "La direcci\xF3n estuvo a cargo de Yojiro Takita."
+  - Dos personajes centrales son Daigo Kobayashi, interpretado por Masahiro Motoki,
+    y Ikuei Sasaki, a cargo de Tsutomu Yamazaki.
+  - "El reparto incluye a Masahiro Motoki como Daigo Kobayashi, Tsutomu Yamazaki
+    como Ikuei Sasaki y Ryoko Hirosue como Mika Kobayashi bajo la direcci\xF3n de
+    Yojiro Takita."

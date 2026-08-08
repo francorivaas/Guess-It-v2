@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ozzy_osbourne
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ozzy_osbourne
+  category: bandas musicales
+  difficulty: 0
+  answer: Ozzy Osbourne
+  acceptedAnswers:
+  - Ozzy Osbourne
+  hints:
+  - "Su perfil sonoro combina hard rock y metal con una energ\xEDa sonora alta."
+  - "Entre sus lanzamientos aparece \xABRelease Your ANGER\xBB."
+  - En algunas pistas aparece junto a Rob Zombie y Eric Clapton.
+  - "Dos canciones muy \xFAtiles para reconocerlo son \xABCrazy Train\xBB y \xABMama,
+    I'm Coming Home\xBB."
+  - "La respuesta es el nombre que firma \xABCrazy Train\xBB, \xABMama, I'm Coming
+    Home\xBB y \xABNo More Tears\xBB."

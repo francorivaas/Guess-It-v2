@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: arc
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: arc
+  category: bandas musicales
+  difficulty: 0
+  answer: ARC
+  acceptedAnswers:
+  - ARC
+  hints:
+  - "Su propuesta musical combina nwobhm; comenz\xF3 su recorrido en Reino Unido
+    en la d\xE9cada de 1970."
+  - "Comenz\xF3 en 1978 desde Stourport-on-Severn, North Worcestershire, England,
+    con una trayectoria clasificada como activa."
+  - La banda se vincula con Stourport-on-Severn, North Worcestershire, England, Reino
+    Unido, y con el sonido nwobhm.
+  - El sello registrado es Slipped Disc, mientras que mantiene actividad registrada
+    desde 1978 hasta el presente.
+  - Grupo activa de nwobhm, originado en Stourport-on-Severn, North Worcestershire,
+    England, Reino Unido, en 1978 y vinculada a Slipped Disc.

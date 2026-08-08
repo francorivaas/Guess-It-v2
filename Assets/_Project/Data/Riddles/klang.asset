@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: klang
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: klang
+  category: lugares
+  difficulty: 0
+  answer: Klang
+  acceptedAnswers:
+  - Klang
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 3,03 grados del ecuador."
+  - "Su poblaci\xF3n registrada se aproxima a 878.000 habitantes y pertenece a Selangor."
+  - "No es la capital nacional de Malasia. Se halla aproximadamente a 3,0\xB0 norte."
+  - Pertenece a Malasia y forma parte de Selangor; supera aproximadamente los 878.000
+    habitantes.
+  - "En Malasia, dentro de Selangor, esta ciudad de unos 878 mil est\xE1 cerca de
+    3,0\xB0 norte y 101,5\xB0 este."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: barry_morse
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: barry_morse
+  category: personas
+  difficulty: 1
+  answer: Barry Morse
+  acceptedAnswers:
+  - Barry Morse
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1948 y 1996 y recorren g\xE9neros
+    como suspenso, terror y ciencia ficci\xF3n."
+  - "Particip\xF3 en \xABThe Changeling\xBB, dirigida por Peter Medak y estrenada
+    en 1980."
+  - "Su papel en \xABAsylum\xBB fue el de Bruno."
+  - "Dio vida a Roger V. Deem en \xABHustler White\xBB."
+  - "Es la persona que encarn\xF3 a Roger V. Deem en \xABHustler White\xBB y a Mr.
+    Davis en \xABCries in the Night\xBB."

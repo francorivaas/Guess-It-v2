@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: luis_bunuel
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: luis_bunuel
+  category: personas
+  difficulty: 0
+  answer: "Luis Bu\xF1uel"
+  acceptedAnswers:
+  - "Luis Bu\xF1uel"
+  - luis bunuel
+  hints:
+  - "Dirigi\xF3 obras de drama, comedia y romance a lo largo de una trayectoria que
+    va entre 1929 y 1977."
+  - "Entre sus trabajos de direcci\xF3n figura \xABUn chien andalou\xBB."
+  - "Su cat\xE1logo incluye \xABBelle de Jour\xBB adem\xE1s de la obra anterior."
+  - "Su nombre aparece en la direcci\xF3n de \xABUn chien andalou\xBB y \xABBelle
+    de Jour\xBB."
+  - "Dirigi\xF3 \xABUn chien andalou\xBB, \xABBelle de Jour\xBB y \xABThe Discreet
+    Charm of the Bourgeoisie\xBB."

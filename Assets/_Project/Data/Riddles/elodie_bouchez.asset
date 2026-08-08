@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: elodie_bouchez
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: elodie_bouchez
+  category: personas
+  difficulty: 1
+  answer: "\xC9lodie Bouchez"
+  acceptedAnswers:
+  - "\xC9lodie Bouchez"
+  - elodie bouchez
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1994 y 2010 y recorren g\xE9neros
+    como drama, comedia y romance."
+  - "Particip\xF3 en \xAB2 Alone in Paris\xBB, dirigida por Eric Judor y estrenada
+    en 2008."
+  - "Dio vida a Sophie en \xABGood Old Daze\xBB."
+  - "Dio vida a Marl\xE8ne en \xABCQ\xBB."
+  - "Sus papeles incluyen a Marl\xE8ne en \xABCQ\xBB y a Ma\xEFt\xE9 Alvarez en \xABWild
+    Reeds\xBB."

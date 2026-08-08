@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: michel_robin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: michel_robin
+  category: personas
+  difficulty: 1
+  answer: Michel Robin
+  acceptedAnswers:
+  - Michel Robin
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1975 y 2012, con presencia frecuente
+    en drama, comedia y romance."
+  - "Form\xF3 parte del elenco de \xABFarewell, My Queen\xBB, una pel\xEDcula de
+    2012 dirigida por Beno\xEEt Jacquot."
+  - "Dio vida a Alexandre Bens en \xABKnock on Wood\xBB."
+  - "Su papel en \xABYou Ain't Seen Nothin' Yet\xBB fue el de Le gar\xE7on de caf\xE9."
+  - "Es la persona que encarn\xF3 a Le gar\xE7on de caf\xE9 en \xABYou Ain't Seen
+    Nothin' Yet\xBB y a Raymond Lapade en \xABThat Most Important Thing: Love\xBB."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: godzilla
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: godzilla
+  category: peliculas
+  difficulty: 0
+  answer: Godzilla
+  acceptedAnswers:
+  - Godzilla
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2010, dentro de acci\xF3n. La direcci\xF3n est\xE1 acreditada a Gareth Edwards."
+  - "Su duraci\xF3n ronda los 123 minutos; la clasificaci\xF3n registrada es PG-13.
+    Entre sus int\xE9rpretes figura Aaron Taylor-Johnson."
+  - "El a\xF1o 2014 y el sello Warner Bros. forman parte de sus datos de producci\xF3n."
+  - "Gareth Edwards estuvo a cargo de la direcci\xF3n, con Aaron Taylor-Johnson al
+    frente del elenco."
+  - "Cinta de Estados Unidos lanzada en 2014, dirigida por Gareth Edwards y encabezada
+    por Aaron Taylor-Johnson, con guion de Ishir\xF4 Honda."

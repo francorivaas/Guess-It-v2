@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: in_the_mood_for_love
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: in_the_mood_for_love
+  category: peliculas
+  difficulty: 0
+  answer: In the Mood for Love
+  acceptedAnswers:
+  - In the Mood for Love
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Hong Kong; combina drama y una fecha
+    de estreno dentro de los a\xF1os 2000."
+  - "El montaje final se extiende unos 98 minutos y aparece catalogado con la se\xF1al
+    PG. La direcci\xF3n est\xE1 acreditada a Kar-Wai Wong."
+  - "El a\xF1o 2000 y el sello Block 2 Pictures forman parte de sus datos de producci\xF3n."
+  - "Kar-Wai Wong estuvo a cargo de la direcci\xF3n, con Tony Chiu-Wai Leung al frente
+    del elenco."
+  - "Producci\xF3n de drama estrenada en 2000: direcci\xF3n de Kar-Wai Wong y actuaciones
+    de Tony Chiu-Wai Leung, con guion de Kar-Wai Wong."

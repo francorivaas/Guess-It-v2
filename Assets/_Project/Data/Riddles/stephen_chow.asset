@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: stephen_chow
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: stephen_chow
+  category: personas
+  difficulty: 0
+  answer: Stephen Chow
+  acceptedAnswers:
+  - Stephen Chow
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1992 y 2008, con presencia frecuente
+    en comedia, acci\xF3n y drama."
+  - "Particip\xF3 en \xABKung Fu Hustle\xBB, estrenada en 2004."
+  - "Dio vida a Sing en \xABShaolin Soccer\xBB."
+  - "En \xABKing of Comedy\xBB interpret\xF3 a Wan Tin-Sau."
+  - "Es la persona que encarn\xF3 a Wan Tin-Sau en \xABKing of Comedy\xBB y a Ling
+    Ling Chai / Chat en \xABFrom Beijing with Love\xBB."

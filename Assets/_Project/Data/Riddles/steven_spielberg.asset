@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: steven_spielberg
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: steven_spielberg
+  category: personas
+  difficulty: 0
+  answer: Steven Spielberg
+  acceptedAnswers:
+  - Steven Spielberg
+  hints:
+  - "Su etapa de mayor influencia transcurri\xF3 desde la d\xE9cada de 1970."
+  - "Naci\xF3 en Estados Unidos y orient\xF3 su trabajo hacia direcci\xF3n cinematogr\xE1fica."
+  - "Un aspecto decisivo de su legado fue realizar \xE9xitos populares y dramas hist\xF3ricos."
+  - "Su identidad p\xFAblica resulta inseparable de Tibur\xF3n, E.T., Indiana Jones
+    y Jurassic Park."
+  - "Es la figura de Estados Unidos vinculada a Tibur\xF3n, E.T., Indiana Jones y
+    Jurassic Park."

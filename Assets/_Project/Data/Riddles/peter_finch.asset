@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: peter_finch
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: peter_finch
+  category: personas
+  difficulty: 1
+  answer: Peter Finch
+  acceptedAnswers:
+  - Peter Finch
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1950 y 1971, con presencia frecuente
+    en drama, romance y acci\xF3n."
+  - "Form\xF3 parte del elenco de \xABSunday Bloody Sunday\xBB, una pel\xEDcula de
+    1971 dirigida por John Schlesinger."
+  - "Su papel en \xABFar from the Madding Crowd\xBB fue el de William Boldwood."
+  - "En \xABA Town Like Alice\xBB interpret\xF3 a Joe Harman."
+  - "Es la persona que encarn\xF3 a Joe Harman en \xABA Town Like Alice\xBB y a Captain
+    Langsdorff, Admiral Graf Spee en \xABThe Battle of the River Plate\xBB."

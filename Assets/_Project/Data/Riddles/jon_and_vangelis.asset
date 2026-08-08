@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jon_and_vangelis
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jon_and_vangelis
+  category: bandas musicales
+  difficulty: 0
+  answer: Jon & Vangelis
+  acceptedAnswers:
+  - Jon & Vangelis
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABItalian Song - Remastered\xBB, de 1983,
+    y llega hasta 1984."
+  - "\xABState Of Independence - Remastered\xBB presenta una energ\xEDa media y un
+    pulso cercano a 150 BPM."
+  - "Entre sus grabaciones figuran \xABThe Friends Of Mr. Cairo\xBB y \xABDeborah
+    - Remastered\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABI'll Find My Way Home - Remastered\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABI Hear You Now\xBB y \xABState Of Independence
+    - Single Version\xBB."

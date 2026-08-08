@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: santo_and_johnny
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: santo_and_johnny
+  category: bandas musicales
+  difficulty: 0
+  answer: Santo & Johnny
+  acceptedAnswers:
+  - Santo & Johnny
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABDo You Want To Know A Secret\xBB, de 1966,
+    y llega hasta 2012."
+  - "\xABSeptember Song\xBB presenta una energ\xEDa suave y un pulso cercano a 133
+    BPM."
+  - "Entre sus grabaciones figuran \xABSugar Song\xBB y \xABAnd I Love Her\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABSleepwalk\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABSleep Walk\xBB y \xABLazy Day\xBB."

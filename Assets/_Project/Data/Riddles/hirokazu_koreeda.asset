@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: hirokazu_koreeda
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: hirokazu_koreeda
+  category: personas
+  difficulty: 0
+  answer: Hirokazu Koreeda
+  acceptedAnswers:
+  - Hirokazu Koreeda
+  hints:
+  - "Su carrera detr\xE1s de c\xE1mara se desarrolla entre 1995 y 2016, con especial
+    presencia de drama, comedia y familiar."
+  - "Una de sus pel\xEDculas es \xABLike Father, Like Son\xBB, estrenada en 2013."
+  - "Tambi\xE9n dirigi\xF3 \xABOur Little Sister\xBB, del a\xF1o 2015."
+  - "Fue responsable de \xABLike Father, Like Son\xBB y \xABNobody Knows\xBB."
+  - "Su filmograf\xEDa re\xFAne \xABLike Father, Like Son\xBB, \xABNobody Knows\xBB
+    y \xABStill Walking\xBB."

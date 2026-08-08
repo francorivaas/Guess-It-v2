@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mysterious_skin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mysterious_skin
+  category: peliculas
+  difficulty: 0
+  answer: Mysterious Skin
+  acceptedAnswers:
+  - Mysterious Skin
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 2000 y clasificada como drama. La direcci\xF3n est\xE1 acreditada a Gregg
+    Araki."
+  - "El montaje final se extiende unos 105 minutos y aparece catalogado con la se\xF1al
+    Unrated."
+  - "El a\xF1o 2004 y el sello Antidote Films (I) forman parte de sus datos de producci\xF3n."
+  - "Gregg Araki estuvo a cargo de la direcci\xF3n, con Brady Corbet al frente del
+    elenco."
+  - "Producci\xF3n de drama estrenada en 2004: direcci\xF3n de Gregg Araki y actuaciones
+    de Brady Corbet, con guion de Gregg Araki."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ambattur
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ambattur
+  category: lugares
+  difficulty: 0
+  answer: "Ambatt\u016Br"
+  acceptedAnswers:
+  - "Ambatt\u016Br"
+  - ambattur
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 80,15\xB0 este."
+  - "Su escala urbana ronda los 466 mil de habitantes y se integra en Tamil N\u0101du."
+  - "No es la capital nacional de India. Se halla aproximadamente a 13,1\xB0 norte."
+  - "Pertenece a India y forma parte de Tamil N\u0101du; supera aproximadamente los
+    466.200 habitantes."
+  - "En India, dentro de Tamil N\u0101du, esta ciudad de unos 466 mil est\xE1 cerca
+    de 13,1\xB0 norte y 80,2\xB0 este."

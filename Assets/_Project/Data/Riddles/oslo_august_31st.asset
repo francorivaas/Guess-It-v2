@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: oslo_august_31st
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: oslo_august_31st
+  category: peliculas
+  difficulty: 0
+  answer: Oslo, August 31st
+  acceptedAnswers:
+  - Oslo, August 31st
+  - Oslo, 31. august
+  hints:
+  - "Su metraje se acerca a 95 minutos y corresponde al a\xF1o 2011."
+  - "El relato pertenece a drama, con participaci\xF3n productiva de Noruega."
+  - "Detr\xE1s de la c\xE1mara estuvo Joachim Trier."
+  - Anders Danielsen Lie interpreta a Anders, mientras Hans Olav Brenner encarna
+    a Thomas.
+  - "El reparto incluye a Anders Danielsen Lie como Anders, Hans Olav Brenner como
+    Thomas y Ingrid Olava como Rebecca bajo la direcci\xF3n de Joachim Trier."

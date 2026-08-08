@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sabrina_carpenter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sabrina_carpenter
+  category: bandas musicales
+  difficulty: 0
+  answer: Sabrina Carpenter
+  acceptedAnswers:
+  - Sabrina Carpenter
+  hints:
+  - "Antes de mirar los t\xEDtulos, conviene pensar en electro y house y en una energ\xEDa
+    sonora alta."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABOn My Way\xBB."
+  - Entre sus colaboraciones registradas figuran Alan Walker y Farruko.
+  - "Las referencias directas son \xABOn My Way\xBB y \xABLooking at Me\xBB."
+  - "Artista o grupo detr\xE1s de \xABOn My Way\xBB, \xABLooking at Me\xBB y \xABOn
+    My Way - Da Tweekaz Remix\xBB."

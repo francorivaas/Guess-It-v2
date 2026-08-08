@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: guimaraes
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: guimaraes
+  category: lugares
+  difficulty: 0
+  answer: "Guimar\xE3es"
+  acceptedAnswers:
+  - "Guimar\xE3es"
+  - Guimaraes
+  hints:
+  - "Su posici\xF3n global combina el hemisferio norte con una longitud occidental.
+    Queda aproximadamente a 4.614 kil\xF3metros del ecuador."
+  - "Est\xE1 en Europa; el registro demogr\xE1fico se aproxima a 157.000 habitantes."
+  - "Sus coordenadas aproximadas son 41.4\xB0 norte y 8.3\xB0 oeste."
+  - "La divisi\xF3n administrativa es Braga y el pa\xEDs es Portugal."
+  - Es una capital local de Braga, en Portugal, con alrededor de 157.000 habitantes.

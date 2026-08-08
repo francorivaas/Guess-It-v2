@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: omar_sharif
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: omar_sharif
+  category: personas
+  difficulty: 0
+  answer: Omar Sharif
+  acceptedAnswers:
+  - Omar Sharif
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1962 y 2009, con presencia frecuente
+    en drama, aventura y acci\xF3n."
+  - "Particip\xF3 en \xAB10.000 BC\xBB, dirigida por Roland Emmerich y estrenada
+    en 2008."
+  - "En \xABLawrence of Arabia\xBB interpret\xF3 a Sherif Ali."
+  - "Dio vida a Sheikh Riyadh en \xABHidalgo\xBB."
+  - "Interpret\xF3 a Sheikh Riyadh en \xABHidalgo\xBB y a Dr. Yuri Zhivago en \xABDoctor
+    Zhivago\xBB."

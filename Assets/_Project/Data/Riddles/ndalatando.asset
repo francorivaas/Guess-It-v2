@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ndalatando
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ndalatando
+  category: lugares
+  difficulty: 0
+  answer: Ndalatando
+  acceptedAnswers:
+  - Ndalatando
+  hints:
+  - "Ocupa el hemisferio sur y una longitud aproximada de 14,92\xB0 este."
+  - "Re\xFAne cerca de 161.600 habitantes en la divisi\xF3n administrativa de Cuanza-Norte."
+  - Administrativamente pertenece a Cuanza-Norte. Funciona como capital administrativa
+    de Cuanza-Norte.
+  - "Se encuentra en Angola, dentro de Cuanza-Norte, con una poblaci\xF3n cercana
+    a 162 mil."
+  - "En Angola, dentro de Cuanza-Norte, esta ciudad de unos 162 mil est\xE1 cerca
+    de 9,3\xB0 sur y 14,9\xB0 este."

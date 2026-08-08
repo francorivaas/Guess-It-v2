@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: flora_robson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: flora_robson
+  category: personas
+  difficulty: 1
+  answer: Flora Robson
+  acceptedAnswers:
+  - Flora Robson
+  hints:
+  - "Trabaj\xF3 en producciones de drama, aventura y historia a lo largo del per\xEDodo
+    entre 1934 y 1978."
+  - "Form\xF3 parte del elenco de \xABBlack Narcissus\xBB, una pel\xEDcula de 1947
+    dirigida por Emeric Pressburger."
+  - "En \xABThose Magnificent Men in Their Flying Machines or How I Flew from London
+    to Paris in 25 hours 11 minutes\xBB interpret\xF3 a Mother Superior."
+  - "En \xABMurder at the Gallop\xBB interpret\xF3 a Miss Milchrest."
+  - "Es la persona que encarn\xF3 a Miss Milchrest en \xABMurder at the Gallop\xBB
+    y a Aunt Agatha en \xABThe Shuttered Room\xBB."

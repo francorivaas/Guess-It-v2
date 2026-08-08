@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: suzaku
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: suzaku
+  category: peliculas
+  difficulty: 1
+  answer: Suzaku
+  acceptedAnswers:
+  - Suzaku
+  hints:
+  - "Es una producci\xF3n de 1997 con una duraci\xF3n aproximada de 95 minutos."
+  - "Bandai Visual Company particip\xF3 en una pel\xEDcula de drama producida en
+    Jap\xF3n."
+  - "Naomi Kawase firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Jun Kunimura da vida a Kozo Tahara y Machiko Ono a Michiru Tahara.
+  - "Naomi Kawase dirige a Jun Kunimura como Kozo Tahara, Machiko Ono como Michiru
+    Tahara y Kotaro Shibata como Eisuke en esta pel\xEDcula de 1997."

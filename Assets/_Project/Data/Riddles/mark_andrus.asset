@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mark_andrus
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mark_andrus
+  category: personas
+  difficulty: 0
+  answer: Mark Andrus
+  acceptedAnswers:
+  - Mark Andrus
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1991 y 2014 y se concentra sobre
+    todo en comedia y drama."
+  - "Una pista lateral de su filmograf\xEDa es \xABLate for Dinner\xBB, dentro de
+    Estados Unidos."
+  - "La asociaci\xF3n con \xABGeorgia Rule\xBB se completa con otro cr\xE9dito en
+    \xABLife as a House\xBB."
+  - "Entre sus trabajos m\xE1s reconocibles se encuentran \xABAs Good as It Gets\xBB
+    y \xABLife as a House\xBB."
+  - "Persona con cr\xE9ditos de guion en \xABAs Good as It Gets\xBB, \xABLife as
+    a House\xBB y \xABGeorgia Rule\xBB."

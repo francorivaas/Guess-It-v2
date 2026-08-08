@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: maribel_verdu
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: maribel_verdu
+  category: personas
+  difficulty: 0
+  answer: "Maribel Verd\xFA"
+  acceptedAnswers:
+  - "Maribel Verd\xFA"
+  - maribel verdu
+  hints:
+  - "Trabaj\xF3 en producciones de drama, fantas\xEDa y b\xE9lico a lo largo del
+    per\xEDodo entre 1987 y 2012."
+  - "Form\xF3 parte del elenco de \xABPan's Labyrinth\xBB, una pel\xEDcula de 2006
+    dirigida por Guillermo del Toro."
+  - "En \xABY Tu Mam\xE1 Tambi\xE9n\xBB interpret\xF3 a Luisa Cort\xE9s."
+  - "Su papel en \xABBlancanieves\xBB fue el de Encarna."
+  - "Sus papeles incluyen a Encarna en \xABBlancanieves\xBB y a Miranda en \xABTetro\xBB."

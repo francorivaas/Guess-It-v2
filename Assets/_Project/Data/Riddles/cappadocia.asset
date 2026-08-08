@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cappadocia
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cappadocia
+  category: lugares
+  difficulty: 2
+  answer: Capadocia
+  acceptedAnswers:
+  - Capadocia
+  - cappadocia
+  hints:
+  - "La erosi\xF3n model\xF3 toba volc\xE1nica en pilares y conos."
+  - "Comunidades antiguas excavaron viviendas, iglesias y ciudades subterr\xE1neas."
+  - El paisaje se observa con frecuencia desde globos al amanecer.
+  - "Est\xE1 en la regi\xF3n central de Turqu\xEDa."
+  - Es la zona de chimeneas de hadas y cuevas habitadas.

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: julian_glover
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: julian_glover
+  category: personas
+  difficulty: 2
+  answer: Julian Glover
+  acceptedAnswers:
+  - Julian Glover
+  hints:
+  - "En U.F.O. interpret\xF3 a John Jones, en una pel\xEDcula estrenada en 2012."
+  - "Su carrera en cine abarca de 1981 a 2012 y recorre aventura y acci\xF3n."
+  - "Comparti\xF3 reparto con Scarlett Johansson en Scoop."
+  - "En For Your Eyes Only interpret\xF3 a Aristotle Kristatos."
+  - Aparece en Indiana Jones and the Last Crusade y Mirrors.

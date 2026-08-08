@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: children_of_paradise
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: children_of_paradise
+  category: peliculas
+  difficulty: 2
+  answer: "Los ni\xF1os del para\xEDso"
+  acceptedAnswers:
+  - "Los ni\xF1os del para\xEDso"
+  - Los ninos del paraiso
+  - "los ni\xF1os del paraiso"
+  - children of paradise
+  - les enfants du paradis
+  hints:
+  - "Su contexto de estreno fue 1945; es una pel\xEDcula de drama rom\xE1ntico realizada
+    en Francia."
+  - "La realizaci\xF3n fue encabezada por Marcel Carn\xE9."
+  - "La narraci\xF3n se apoya especialmente en Garance, Baptiste, Fr\xE9d\xE9rick
+    y Lacenaire."
+  - "El relato se construye a partir de varios hombres aman a una mujer en el ambiente
+    teatral del Par\xEDs del siglo XIX."
+  - Se la reconoce de inmediato por un mimo expresa sentimientos imposibles ante
+    un boulevard lleno de espectadores.

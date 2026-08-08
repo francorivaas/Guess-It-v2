@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: brigitte_rouan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: brigitte_rouan
+  category: personas
+  difficulty: 1
+  answer: "Brigitte Ro\xFCan"
+  acceptedAnswers:
+  - "Brigitte Ro\xFCan"
+  - brigitte rouan
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1998 y 2016 y recorren g\xE9neros
+    como romance, drama y comedia."
+  - "Form\xF3 parte del elenco de \xABLa Chance de ma vie\xBB, una pel\xEDcula de
+    2011 dirigida por Nicolas Cuche."
+  - "Su papel en \xABFrom the Land of the Moon\xBB fue el de Ad\xE9le."
+  - "Su papel en \xABLove Songs\xBB fue el de La m\xE8re de Julie."
+  - "Sus papeles incluyen a La m\xE8re de Julie en \xABLove Songs\xBB y a Martine
+    en \xABThe Ultimate Accessory\xBB."

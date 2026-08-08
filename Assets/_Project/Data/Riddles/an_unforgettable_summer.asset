@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: an_unforgettable_summer
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: an_unforgettable_summer
+  category: peliculas
+  difficulty: 2
+  answer: An Unforgettable Summer
+  acceptedAnswers:
+  - An Unforgettable Summer
+  - "Un \xE9t\xE9 inoubliable"
+  - un ete inoubliable
+  hints:
+  - "Fue filmada originalmente en rumano y lleg\xF3 a los cines en 1994."
+  - "Mezcla drama, romance y b\xE9lico y fue producida en Francia y Rumania."
+  - "Lucian Pintilie la dirigi\xF3 con Canal Plus entre las compa\xF1\xEDas productoras."
+  - "Dos personajes centrales son Marie-Th\xE9r\xE8se Von Debretsy, interpretado
+    por Kristin Scott Thomas, y Capt. Petre Dumitriu, a cargo de Claudiu Bleont."
+  - "El reparto incluye a Kristin Scott Thomas como Marie-Th\xE9r\xE8se Von Debretsy,
+    Claudiu Bleont como Capt. Petre Dumitriu y Olga Tudorache como Mme. Vorvoreanu
+    bajo la direcci\xF3n de Lucian Pintilie."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: grigori_aleksandrov
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: grigori_aleksandrov
+  category: personas
+  difficulty: 2
+  answer: Grigori Aleksandrov
+  acceptedAnswers:
+  - Grigori Aleksandrov
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1923 y 1979, especialmente dentro
+    de drama, historia y documental."
+  - "Particip\xF3 en \xABBattleship Potemkin\xBB, dirigida por Sergei M. Eisenstein
+    y estrenada en 1925."
+  - "Su papel en \xABStrike\xBB fue el de Factory Foreman."
+  - "Dio vida a Glumov 2, Golutvin en \xABGlumov's Diary\xBB."
+  - "Su filmograf\xEDa re\xFAne \xABGlumov's Diary\xBB y \xAB\xA1Que Viva M\xE9xico!\xBB,
+    adem\xE1s de \xABBattleship Potemkin\xBB."

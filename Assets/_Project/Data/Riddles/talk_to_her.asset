@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: talk_to_her
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: talk_to_her
+  category: peliculas
+  difficulty: 1
+  answer: Hable con ella
+  acceptedAnswers:
+  - Hable con ella
+  - talk to her
+  hints:
+  - "Dentro del cine de Espa\xF1a, apareci\xF3 en 2002 con una propuesta de drama."
+  - "La realizaci\xF3n fue encabezada por Pedro Almod\xF3var."
+  - "Sus nombres m\xE1s ligados al relato son Benigno, Marco, Alicia y Lydia."
+  - "La acci\xF3n avanza mientras dos hombres entablan amistad mientras cuidan a
+    mujeres en coma."
+  - "Su elemento m\xE1s revelador es una enfermera mantiene conversaciones unilaterales
+    con una bailarina inconsciente."

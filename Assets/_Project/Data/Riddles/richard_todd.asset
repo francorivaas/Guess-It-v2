@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: richard_todd
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: richard_todd
+  category: personas
+  difficulty: 0
+  answer: Richard Todd
+  acceptedAnswers:
+  - Richard Todd
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1950 y 1983, con presencia frecuente
+    en drama, suspenso y misterio."
+  - "Uno de sus trabajos fue \xABStage Fright\xBB (1950), bajo la direcci\xF3n de
+    Alfred Hitchcock."
+  - "En \xABThe Dam Busters\xBB interpret\xF3 a Wing Commander Guy Gibson, V.C.,
+    D.S.O., D.F.C.."
+  - "Su papel en \xABAsylum\xBB fue el de Walter."
+  - "Es la persona que encarn\xF3 a Walter en \xABAsylum\xBB y a Sam Allyson en \xABHouse
+    of the Long Shadows\xBB."

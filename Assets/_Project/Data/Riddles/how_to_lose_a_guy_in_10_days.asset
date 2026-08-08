@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: how_to_lose_a_guy_in_10_days
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: how_to_lose_a_guy_in_10_days
+  category: peliculas
+  difficulty: 1
+  answer: How to Lose a Guy in 10 Days
+  acceptedAnswers:
+  - How to Lose a Guy in 10 Days
+  hints:
+  - "Se estren\xF3 en 2003, dura cerca de 116 minutos y tuvo producci\xF3n de Alemania."
+  - Combina comedia y romance; una de sus productoras fue Paramount Pictures. El
+    guion acredita a Burr Steers.
+  - "La dirigi\xF3 Donald Petrie, con Annie Parisse en un papel del reparto."
+  - En el elenco aparecen Matthew McConaughey y Kathryn Hahn.
+  - "Kate Hudson encabeza esta pel\xEDcula de comedia, dirigida por Donald Petrie
+    y estrenada en 2003."

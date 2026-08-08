@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: eva_dahlbeck
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: eva_dahlbeck
+  category: personas
+  difficulty: 1
+  answer: Eva Dahlbeck
+  acceptedAnswers:
+  - Eva Dahlbeck
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1952 y 1967 y recorren g\xE9neros
+    como drama, comedia y romance."
+  - "Particip\xF3 en \xABSmiles of a Summer Night\xBB, dirigida por Ingmar Bergman
+    y estrenada en 1955."
+  - "En \xABBrink of Life\xBB interpret\xF3 a Stina Andersson."
+  - "En \xABDreams\xBB interpret\xF3 a Susanne."
+  - "Es la persona que encarn\xF3 a Susanne en \xABDreams\xBB y a Adelaide en \xABAll
+    These Women\xBB."

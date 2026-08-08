@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: janie_fricke
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: janie_fricke
+  category: bandas musicales
+  difficulty: 1
+  answer: Janie Fricke
+  acceptedAnswers:
+  - Janie Fricke
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABHe's A Heartache (Lookin' For A Place
+    To Happen)\xBB, de 1980, y llega hasta 1980."
+  - "Se mueve dentro de country; \xABDo Me with Love\xBB refleja una energ\xEDa suave
+    y un pulso cercano a 128 BPM."
+  - "Entre sus grabaciones figuran \xABIt Ain't Easy Bein' Easy\xBB y \xABHe's A
+    Heartache (Looking For A Place To Happen)\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABI Loved You All the Way\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABYou Changed My Life In a Moment\xBB
+    y \xABShe's Single Again\xBB."

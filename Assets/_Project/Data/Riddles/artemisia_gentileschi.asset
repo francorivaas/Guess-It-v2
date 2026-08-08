@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: artemisia_gentileschi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: artemisia_gentileschi
+  category: personas
+  difficulty: 2
+  answer: Artemisia Gentileschi
+  acceptedAnswers:
+  - Artemisia Gentileschi
+  hints:
+  - "Su etapa de mayor influencia qued\xF3 concentrado en el siglo XVII."
+  - "Naci\xF3 en Italia y orient\xF3 su trabajo hacia pintura barroca."
+  - "Entre sus logros sobresale representar hero\xEDnas b\xEDblicas con fuerza dram\xE1tica."
+  - "Tambi\xE9n qued\xF3 estrechamente relacionado con Judith decapitando a Holofernes
+    y un juicio p\xFAblico por violencia sexual."
+  - "Su perfil re\xFAne pintura barroca, representar hero\xEDnas b\xEDblicas con
+    fuerza dram\xE1tica y Judith decapitando a Holofernes y un juicio p\xFAblico
+    por violencia sexual."

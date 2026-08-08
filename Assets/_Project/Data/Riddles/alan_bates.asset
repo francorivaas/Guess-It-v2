@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: alan_bates
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: alan_bates
+  category: personas
+  difficulty: 0
+  answer: Alan Bates
+  acceptedAnswers:
+  - Alan Bates
+  hints:
+  - "Trabaj\xF3 en producciones de drama, romance y historia a lo largo del per\xEDodo
+    entre 1960 y 2003."
+  - "Form\xF3 parte del elenco de \xABGosford Park\xBB, una pel\xEDcula de 2001 dirigida
+    por Robert Altman."
+  - "Dio vida a Claudius en \xABHamlet\xBB."
+  - "En \xABZorba the Greek\xBB interpret\xF3 a Basil."
+  - "Interpret\xF3 a Basil en \xABZorba the Greek\xBB y a Rupert Birkin en \xABWomen
+    in Love\xBB."

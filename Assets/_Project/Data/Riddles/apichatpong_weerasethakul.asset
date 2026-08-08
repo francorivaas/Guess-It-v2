@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: apichatpong_weerasethakul
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: apichatpong_weerasethakul
+  category: personas
+  difficulty: 1
+  answer: Apichatpong Weerasethakul
+  acceptedAnswers:
+  - Apichatpong Weerasethakul
+  hints:
+  - "Dirigi\xF3 obras de drama, fantas\xEDa y romance a lo largo de una trayectoria
+    que va entre 2000 y 2015."
+  - "Una de sus pel\xEDculas es \xABUncle Boonmee Who Can Recall His Past Lives\xBB,
+    estrenada en 2010."
+  - "Su cat\xE1logo incluye \xABCemetery of Splendour\xBB adem\xE1s de la obra anterior."
+  - "Dos pel\xEDculas que llevan su firma son \xABCemetery of Splendour\xBB y \xABTropical
+    Malady\xBB."
+  - "Su filmograf\xEDa re\xFAne \xABUncle Boonmee Who Can Recall His Past Lives\xBB,
+    \xABTropical Malady\xBB y \xABSyndromes and a Century\xBB."

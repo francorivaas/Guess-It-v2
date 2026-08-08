@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: water
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: water
+  category: peliculas
+  difficulty: 1
+  answer: Water
+  acceptedAnswers:
+  - Water
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1980 dura cerca de 94 minutos."
+  - "El relato pertenece a aventura y comedia, con participaci\xF3n productiva de
+    Reino Unido."
+  - "Dick Clement firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Michael Caine da vida a Governor Baxter Thwaites y Brenda Vaccaro
+    a Dolores Thwaites.
+  - "El reparto incluye a Michael Caine como Governor Baxter Thwaites, Brenda Vaccaro
+    como Dolores Thwaites y Billy Connolly como Delgado Fitzhugh bajo la direcci\xF3n
+    de Dick Clement."

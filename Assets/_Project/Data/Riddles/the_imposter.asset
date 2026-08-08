@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_imposter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_imposter
+  category: peliculas
+  difficulty: 0
+  answer: The Imposter
+  acceptedAnswers:
+  - The Imposter
+  hints:
+  - "Fue filmada originalmente en ingl\xE9s y lleg\xF3 a los cines en 2012."
+  - Mezcla documental y drama y fue producida en Reino Unido.
+  - "Detr\xE1s de la c\xE1mara estuvo Bart Layton."
+  - "El elenco re\xFAne a Fr\xE9d\xE9ric Bourdin con Adam O'Brian."
+  - "El reparto incluye a Fr\xE9d\xE9ric Bourdin, Adam O'Brian como Fr\xE9d\xE9ric
+    Bourdin y Anna Ruben como Carey Gibson bajo la direcci\xF3n de Bart Layton."

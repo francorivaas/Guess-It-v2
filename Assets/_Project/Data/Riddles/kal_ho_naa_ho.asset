@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kal_ho_naa_ho
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kal_ho_naa_ho
+  category: peliculas
+  difficulty: 0
+  answer: Kal Ho Naa Ho
+  acceptedAnswers:
+  - Kal Ho Naa Ho
+  hints:
+  - "Es una producci\xF3n de India de la d\xE9cada de 2000, vinculada al g\xE9nero
+    de comedia."
+  - "Su duraci\xF3n ronda los 186 minutos; la clasificaci\xF3n registrada es Not
+    Rated."
+  - "La producci\xF3n lleg\xF3 en 2003 bajo la participaci\xF3n de Dharma Productions."
+  - "Nikkhil Advani estuvo a cargo de la direcci\xF3n, con Preity Zinta al frente
+    del elenco."
+  - Cinta de India lanzada en 2003, dirigida por Nikkhil Advani y encabezada por
+    Preity Zinta, con guion de Niranjan Iyengar.

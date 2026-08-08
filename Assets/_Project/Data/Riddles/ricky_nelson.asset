@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ricky_nelson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ricky_nelson
+  category: bandas musicales
+  difficulty: 0
+  answer: Ricky Nelson
+  acceptedAnswers:
+  - Ricky Nelson
+  hints:
+  - "Su perfil sonoro combina rockabilly y rock and roll con un equilibrio entre
+    energ\xEDa, ritmo y melod\xEDa."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABRicky Sings Again (Expanded Edition
+    / Remastered)\xBB."
+  - En algunas pistas aparece junto a The Stone Canyon Band.
+  - "El repertorio se vuelve claro con \xABLonesome Town\xBB junto a \xABTravelin'
+    Man - Remastered\xBB."
+  - "Proyecto musical responsable de \xABLonesome Town\xBB, \xABTravelin' Man - Remastered\xBB
+    y \xABI Will Follow You\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: touching_the_void
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: touching_the_void
+  category: peliculas
+  difficulty: 0
+  answer: Touching the Void
+  acceptedAnswers:
+  - Touching the Void
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2000 y su duraci\xF3n ronda los 106 minutos."
+  - "Mezcla documental, acci\xF3n y aventura y fue producida en Reino Unido."
+  - "Kevin Macdonald firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Brendan Mackey interpreta a Joe Simpson, mientras Nicholas Aaron encarna a Simon
+    Yates.
+  - "Kevin Macdonald dirige a Brendan Mackey como Joe Simpson, Nicholas Aaron como
+    Simon Yates y Richard Hawking en esta pel\xEDcula de 2003."

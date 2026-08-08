@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: matthias_schoenaerts
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: matthias_schoenaerts
+  category: personas
+  difficulty: 0
+  answer: Matthias Schoenaerts
+  acceptedAnswers:
+  - Matthias Schoenaerts
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2006 y 2015 y recorren g\xE9neros
+    como drama, romance y suspenso."
+  - "Uno de sus trabajos fue \xABThe Danish Girl\xBB (2015), bajo la direcci\xF3n
+    de Tom Hooper."
+  - "En \xABRust and Bone\xBB interpret\xF3 a Ali van Versch."
+  - "Su papel en \xABBlack Book\xBB fue el de Joop."
+  - "Sus papeles incluyen a Joop en \xABBlack Book\xBB y a Bruno von Falk en \xABSuite
+    Fran\xE7aise\xBB."

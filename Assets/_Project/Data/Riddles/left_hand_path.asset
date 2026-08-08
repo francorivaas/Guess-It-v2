@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: left_hand_path
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: left_hand_path
+  category: bandas musicales
+  difficulty: 1
+  answer: Left Hand Path
+  acceptedAnswers:
+  - Left Hand Path
+  hints:
+  - "Forma parte de la escena de deathcore de B\xE9lgica desde la d\xE9cada de 2000."
+  - "Comenz\xF3 en 2003 desde Arlon, Province of Luxembourg, con una trayectoria
+    clasificada como activa."
+  - "Combina un origen en Arlon, Province of Luxembourg, B\xE9lgica, con una propuesta
+    de deathcore."
+  - Ha estado asociada al sello Southside; mantiene actividad registrada desde 2003
+    hasta el presente.
+  - "Grupo activa de deathcore, originado en Arlon, Province of Luxembourg, B\xE9lgica,
+    en 2003 y vinculada a Southside."

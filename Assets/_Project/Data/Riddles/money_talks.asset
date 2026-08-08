@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: money_talks
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: money_talks
+  category: peliculas
+  difficulty: 0
+  answer: Money Talks
+  acceptedAnswers:
+  - Money Talks
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 1990, vinculada al
+    g\xE9nero de acci\xF3n y aventura y comedia."
+  - "El montaje final se extiende unos 96 minutos y aparece catalogado con la se\xF1al
+    R. La direcci\xF3n est\xE1 acreditada a Brett Ratner."
+  - "El a\xF1o 1997 y el sello New Line Cinema forman parte de sus datos de producci\xF3n."
+  - "La dirigi\xF3 Brett Ratner; en el reparto aparecen Charlie Sheen y Chris Tucker."
+  - "Producci\xF3n de acci\xF3n y aventura y comedia estrenada en 1997: direcci\xF3n
+    de Brett Ratner y actuaciones de Charlie Sheen, Chris Tucker y Heather Locklear,
+    con guion de Joel Cohen."

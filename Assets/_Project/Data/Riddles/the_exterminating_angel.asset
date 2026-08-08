@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_exterminating_angel
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_exterminating_angel
+  category: peliculas
+  difficulty: 2
+  answer: "El \xE1ngel exterminador"
+  acceptedAnswers:
+  - "El \xE1ngel exterminador"
+  - El angel exterminador
+  - the exterminating angel
+  hints:
+  - "Dentro del cine de M\xE9xico, apareci\xF3 en 1962 con una propuesta de surrealismo
+    y drama."
+  - "La realizaci\xF3n fue encabezada por Luis Bu\xF1uel."
+  - "Sus nombres m\xE1s ligados al relato son un grupo de invitados burgueses."
+  - "La acci\xF3n avanza mientras despu\xE9s de una cena, nadie logra abandonar una
+    habitaci\xF3n pese a no existir una barrera visible."
+  - "Su elemento m\xE1s revelador es la convivencia elegante degenera mientras un
+    oso y ovejas recorren la mansi\xF3n."

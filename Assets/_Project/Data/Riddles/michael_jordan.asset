@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: michael_jordan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: michael_jordan
+  category: personas
+  difficulty: 0
+  answer: Michael Jordan
+  acceptedAnswers:
+  - Michael Jordan
+  hints:
+  - "Su etapa de mayor influencia transcurri\xF3 en las d\xE9cadas de 1980 y 1990."
+  - "Naci\xF3 en Estados Unidos y orient\xF3 su trabajo hacia baloncesto."
+  - Se lo recuerda especialmente por ganar seis campeonatos con el mismo equipo de
+    Chicago.
+  - "Su historia suele asociarse directamente con el n\xFAmero 23, un salto desde
+    la l\xEDnea de libres y una marca de zapatillas."
+  - "Quien encaja en estas pistas destac\xF3 por el n\xFAmero 23, un salto desde
+    la l\xEDnea de libres y una marca de zapatillas."

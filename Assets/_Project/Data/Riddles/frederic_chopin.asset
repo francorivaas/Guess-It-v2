@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: frederic_chopin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: frederic_chopin
+  category: personas
+  difficulty: 1
+  answer: "Fr\xE9d\xE9ric Chopin"
+  acceptedAnswers:
+  - "Fr\xE9d\xE9ric Chopin"
+  - Frederic Chopin
+  - chopin
+  hints:
+  - "Su etapa de mayor influencia se sit\xFAa en la primera mitad del siglo XIX."
+  - "Naci\xF3 en Polonia y orient\xF3 su trabajo hacia m\xFAsica cl\xE1sica."
+  - Un aspecto decisivo de su legado fue escribir casi exclusivamente para piano
+    con gran lirismo.
+  - "Su identidad p\xFAblica resulta inseparable de nocturnos, polonesas y una vida
+    vinculada a George Sand."
+  - Es la figura de Polonia vinculada a nocturnos, polonesas y una vida vinculada
+    a George Sand.

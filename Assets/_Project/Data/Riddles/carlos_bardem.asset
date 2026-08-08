@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: carlos_bardem
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: carlos_bardem
+  category: personas
+  difficulty: 1
+  answer: Carlos Bardem
+  acceptedAnswers:
+  - Carlos Bardem
+  hints:
+  - "Trabaj\xF3 en producciones de suspenso, drama y romance a lo largo del per\xEDodo
+    entre 2007 y 2014."
+  - "Form\xF3 parte del elenco de \xABCell 211\xBB, una pel\xEDcula de 2009 dirigida
+    por Daniel Monz\xF3n."
+  - "En \xABEscobar: Paradise Lost\xBB interpret\xF3 a Drago."
+  - "Dio vida a Gerardo en \xABThe Zone\xBB."
+  - "Es la persona que encarn\xF3 a Gerardo en \xABThe Zone\xBB y a Luis en \xABAmericano\xBB."

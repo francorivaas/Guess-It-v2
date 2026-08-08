@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: equatorial_guinea
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: equatorial_guinea
+  category: lugares
+  difficulty: 2
+  answer: Guinea Ecuatorial
+  acceptedAnswers:
+  - Guinea Ecuatorial
+  - Equatorial Guinea
+  hints:
+  - "La poblaci\xF3n se sit\xFAa en torno a 1,4 millones de habitantes y su \xE1rea
+    alcanza 28 mil km\xB2."
+  - "Su ubicaci\xF3n geogr\xE1fica se inscribe en \xC1frica central."
+  - "El panorama ling\xFC\xEDstico incluye espa\xF1ol, franc\xE9s."
+  - "La moneda nacional corresponde a franco CFA de \xC1frica Central."
+  - "El principal centro pol\xEDtico nacional es Malabo."

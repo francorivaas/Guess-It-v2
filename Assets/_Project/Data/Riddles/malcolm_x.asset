@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: malcolm_x
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: malcolm_x
+  category: peliculas
+  difficulty: 2
+  answer: Malcolm X
+  acceptedAnswers:
+  - Malcolm X
+  hints:
+  - "Se estren\xF3 en 1992, dura cerca de 202 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - "Combina drama y hist\xF3rica; una de sus productoras fue JVC Entertainment."
+  - "La dirigi\xF3 Spike Lee, con Al Freeman, Jr. en un papel del reparto."
+  - En el elenco aparecen Angela Bassett y Albert Hall.
+  - "Denzel Washington encabeza esta pel\xEDcula de drama, dirigida por Spike Lee
+    y estrenada en 1992."

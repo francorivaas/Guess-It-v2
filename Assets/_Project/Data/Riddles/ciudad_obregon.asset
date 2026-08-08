@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ciudad_obregon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ciudad_obregon
+  category: lugares
+  difficulty: 0
+  answer: "Ciudad Obreg\xF3n"
+  acceptedAnswers:
+  - "Ciudad Obreg\xF3n"
+  - Ciudad Obregon
+  hints:
+  - "Su posici\xF3n global combina el hemisferio norte con una longitud occidental.
+    Queda aproximadamente a 3.061 kil\xF3metros del ecuador."
+  - "Est\xE1 en Am\xE9rica del Norte; el registro demogr\xE1fico se aproxima a 329.000
+    habitantes."
+  - "El punto urbano aparece cerca de 27.5\xB0 norte, 109.9\xB0 oeste."
+  - "Se integra en Sonora, una regi\xF3n de M\xE9xico."
+  - "Es una capital local de Sonora, en M\xE9xico, con alrededor de 329.000 habitantes."

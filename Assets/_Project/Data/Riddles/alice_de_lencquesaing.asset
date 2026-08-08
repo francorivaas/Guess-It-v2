@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: alice_de_lencquesaing
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: alice_de_lencquesaing
+  category: personas
+  difficulty: 0
+  answer: Alice de Lencquesaing
+  acceptedAnswers:
+  - Alice de Lencquesaing
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2007 y 2016 y recorren g\xE9neros
+    como drama, comedia y romance."
+  - "Particip\xF3 en \xABChocolat\xBB, dirigida por Roschdy Zem y estrenada en 2016."
+  - "Su papel en \xABFrantz\xBB fue el de Fanny."
+  - "Su papel en \xABNext Time I'll Aim for the Heart\xBB fue el de Melissa."
+  - "Es la persona que encarn\xF3 a Melissa en \xABNext Time I'll Aim for the Heart\xBB
+    y a Fille vestiaire en \xABWater Lilies\xBB."

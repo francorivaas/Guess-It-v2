@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_adventures_of_rocky_and_bullwinkle
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_adventures_of_rocky_and_bullwinkle
+  category: peliculas
+  difficulty: 0
+  answer: The Adventures of Rocky & Bullwinkle
+  acceptedAnswers:
+  - The Adventures of Rocky & Bullwinkle
+  hints:
+  - "Fue filmada originalmente en ingl\xE9s y lleg\xF3 a los cines en 2000."
+  - "Universal Pictures particip\xF3 en una pel\xEDcula de acci\xF3n, aventura y
+    animaci\xF3n producida en Alemania y Estados Unidos."
+  - "La direcci\xF3n estuvo a cargo de Des McAnuff."
+  - Dos personajes centrales son Natasha, interpretado por Rene Russo, y Boris, a
+    cargo de Jason Alexander.
+  - "El reparto incluye a Rene Russo como Natasha, Jason Alexander como Boris y Piper
+    Perabo como Karen Sympathy bajo la direcci\xF3n de Des McAnuff."

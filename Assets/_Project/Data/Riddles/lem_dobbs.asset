@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lem_dobbs
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lem_dobbs
+  category: personas
+  difficulty: 0
+  answer: Lem Dobbs
+  acceptedAnswers:
+  - Lem Dobbs
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 1991 y 2012, con presencia
+    frecuente en acci\xF3n y drama."
+  - "Una pista lateral de su filmograf\xEDa es \xABKafka\xBB, dentro de Estados Unidos
+    y Francia."
+  - "La asociaci\xF3n con \xABThe Limey\xBB se completa con otro cr\xE9dito en \xABThe
+    Company You Keep\xBB."
+  - "La filmograf\xEDa apunta con claridad a \xABHaywire\xBB y \xABThe Company You
+    Keep\xBB."
+  - "Figura cinematogr\xE1fica asociada mediante guion a \xABHaywire\xBB, \xABThe
+    Company You Keep\xBB y \xABThe Limey\xBB."

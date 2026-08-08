@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_commuter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_commuter
+  category: peliculas
+  difficulty: 0
+  answer: The Commuter
+  acceptedAnswers:
+  - The Commuter
+  - Commuter
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2010, dentro de acci\xF3n. La direcci\xF3n est\xE1 acreditada a Jaume Collet-Serra."
+  - "El montaje final se extiende unos 104 minutos y aparece catalogado con la se\xF1al
+    PG-13."
+  - "La producci\xF3n lleg\xF3 en 2018 bajo la participaci\xF3n de StudioCanal."
+  - "La dirigi\xF3 Jaume Collet-Serra y su figura principal es Liam Neeson."
+  - "La respuesta es la cinta de 2018 que Jaume Collet-Serra dirigi\xF3 con Liam
+    Neeson como int\xE9rpretes destacados, con guion de Byron Willinger."

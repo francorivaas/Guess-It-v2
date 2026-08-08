@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nine_queens
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nine_queens
+  category: peliculas
+  difficulty: 1
+  answer: Nueve reinas
+  acceptedAnswers:
+  - Nueve reinas
+  - nine queens
+  hints:
+  - "Lleg\xF3 a las salas en 2000 como una obra de crimen y comedia vinculada a Argentina."
+  - "La realizaci\xF3n fue encabezada por Fabi\xE1n Bielinsky."
+  - Marcos, Juan y Valeria ocupan el centro de la historia.
+  - "Su historia sigue dos estafadores se asocian para vender una falsificaci\xF3n
+    a contrarreloj."
+  - "Una imagen o situaci\xF3n decisiva es una rara plancha de estampillas da nombre
+    al enga\xF1o central."

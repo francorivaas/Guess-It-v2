@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: flight_of_fury
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: flight_of_fury
+  category: peliculas
+  difficulty: 1
+  answer: Flight of Fury
+  acceptedAnswers:
+  - Flight of Fury
+  hints:
+  - "Su metraje se acerca a 98 minutos y corresponde al a\xF1o 2007."
+  - "El relato pertenece a acci\xF3n, aventura y suspenso, con participaci\xF3n productiva
+    de Rumania y Reino Unido."
+  - "Detr\xE1s de la c\xE1mara estuvo Michael Keusch."
+  - En el reparto, Steven Seagal da vida a John Sands y Steve Toussaint a Ratcher.
+  - "Michael Keusch dirige a Steven Seagal como John Sands, Steve Toussaint como
+    Ratcher y Angus MacInnes como Generale Barnes en esta pel\xEDcula de 2007."

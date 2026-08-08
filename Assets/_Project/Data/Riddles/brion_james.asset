@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: brion_james
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: brion_james
+  category: personas
+  difficulty: 1
+  answer: Brion James
+  acceptedAnswers:
+  - Brion James
+  hints:
+  - "En Tango & Cash interpret\xF3 a Requin, en una pel\xEDcula estrenada en 1989."
+  - "Su carrera en cine abarca de 1982 a 1997 y recorre aventura y fantas\xEDa."
+  - "Comparti\xF3 reparto con Harrison Ford en Blade Runner."
+  - "En Blade Runner interpret\xF3 a Leon Kowalski."
+  - Aparece en The Fifth Element y Tango & Cash.

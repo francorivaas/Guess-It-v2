@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sidney_lumet
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sidney_lumet
+  category: personas
+  difficulty: 0
+  answer: Sidney Lumet
+  acceptedAnswers:
+  - Sidney Lumet
+  hints:
+  - "Dirigi\xF3 obras de drama, crimen y suspenso a lo largo de una trayectoria que
+    va entre 1965 y 2006."
+  - "Una de sus pel\xEDculas es \xABSerpico\xBB, estrenada en 1973."
+  - "Tambi\xE9n dirigi\xF3 \xABMurder on the Orient Express\xBB, del a\xF1o 1974."
+  - "Su nombre aparece en la direcci\xF3n de \xABSerpico\xBB y \xABMurder on the
+    Orient Express\xBB."
+  - "Es el realizador detr\xE1s de \xABMurder on the Orient Express\xBB, \xABFind
+    Me Guilty\xBB y \xABThe Hill\xBB."

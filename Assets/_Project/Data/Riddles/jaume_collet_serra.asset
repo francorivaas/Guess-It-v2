@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jaume_collet_serra
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jaume_collet_serra
+  category: personas
+  difficulty: 1
+  answer: Jaume Collet-Serra
+  acceptedAnswers:
+  - Jaume Collet-Serra
+  hints:
+  - "Particip\xF3 en House of Wax, una pel\xEDcula estrenada en 2005."
+  - "Su carrera en cine abarca de 2005 a 2016 y recorre acci\xF3n y suspenso. Entre
+    sus pel\xEDculas figura House of Wax."
+  - "Comparti\xF3 reparto con Vera Farmiga en Orphan. Otro cr\xE9dito es Unknown."
+  - "Tambi\xE9n integr\xF3 el elenco de The Shallows."
+  - Aparece en Non-Stop y Unknown.

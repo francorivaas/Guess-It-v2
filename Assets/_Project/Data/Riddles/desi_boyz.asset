@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: desi_boyz
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: desi_boyz
+  category: peliculas
+  difficulty: 1
+  answer: Desi Boyz
+  acceptedAnswers:
+  - Desi Boyz
+  hints:
+  - "Es una producci\xF3n de 2011 con una duraci\xF3n aproximada de 122 minutos."
+  - "Eros International particip\xF3 en una pel\xEDcula de comedia y drama producida
+    en India y Tailandia."
+  - "La direcci\xF3n estuvo a cargo de Rohit Dhawan."
+  - En el reparto, Akshay Kumar da vida a Jignesh Patel / Jerry / Rocco y John Abraham
+    a Nikhil Mathur / Nick / Hunter.
+  - "Rohit Dhawan dirige a Akshay Kumar como Jignesh Patel / Jerry / Rocco, John
+    Abraham como Nikhil Mathur / Nick / Hunter y Deepika Padukone como Radhika S.
+    Awasthi / Rads en esta pel\xEDcula de 2011."

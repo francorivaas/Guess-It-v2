@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: miri
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: miri
+  category: lugares
+  difficulty: 1
+  answer: Miri
+  acceptedAnswers:
+  - Miri
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 4,39 grados del ecuador."
+  - "Es un n\xFAcleo urbano de alrededor de 235 mil de habitantes dentro de Sarawak."
+  - "No es la capital nacional de Malasia. Se halla aproximadamente a 4,4\xB0 norte."
+  - "Se encuentra en Malasia, dentro de Sarawak, con una poblaci\xF3n cercana a 235
+    mil."
+  - "Es una ciudad de Malasia, en Sarawak, situada aproximadamente en 4,4\xB0 norte
+    y 114,0\xB0 este."

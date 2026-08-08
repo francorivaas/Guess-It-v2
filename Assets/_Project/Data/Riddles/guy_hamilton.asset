@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: guy_hamilton
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: guy_hamilton
+  category: personas
+  difficulty: 1
+  answer: Guy Hamilton
+  acceptedAnswers:
+  - Guy Hamilton
+  hints:
+  - "Firm\xF3 pel\xEDculas entre 1954 y 1982 y trabaj\xF3 con frecuencia en crimen,
+    misterio y drama."
+  - "Entre sus trabajos de direcci\xF3n figura \xABBattle of Britain\xBB."
+  - "Su cat\xE1logo incluye \xABEvil Under the Sun\xBB adem\xE1s de la obra anterior."
+  - "Su nombre aparece en la direcci\xF3n de \xABBattle of Britain\xBB y \xABEvil
+    Under the Sun\xBB."
+  - "Es el realizador detr\xE1s de \xABEvil Under the Sun\xBB, \xABThe Mirror Crack'd\xBB
+    y \xABAn Inspector Calls\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_truman_show
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_truman_show
+  category: peliculas
+  difficulty: 1
+  answer: El show de Truman
+  acceptedAnswers:
+  - El show de Truman
+  - show de truman
+  - the truman show
+  hints:
+  - "La vida cotidiana del protagonista est\xE1 controlada desde una sala oculta."
+  - Su ciudad costera es en realidad un enorme escenario cerrado.
+  - "Todos quienes lo rodean interpretan un papel, excepto \xE9l."
+  - Jim Carrey encarna a un hombre observado desde su nacimiento.
+  - "El personaje descubre que toda su vida es un programa de televisi\xF3n."

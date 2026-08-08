@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kaneto_shindo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kaneto_shindo
+  category: personas
+  difficulty: 1
+  answer: "Kaneto Shind\xF4"
+  acceptedAnswers:
+  - "Kaneto Shind\xF4"
+  - kaneto shindo
+  hints:
+  - "Su carrera detr\xE1s de c\xE1mara se desarrolla entre 1952 y 2010, con especial
+    presencia de drama, terror y b\xE9lico."
+  - "Una de sus pel\xEDculas es \xABOnibaba\xBB, estrenada en 1964."
+  - "Otro t\xEDtulo bajo su direcci\xF3n es \xABKuroneko\xBB (1968)."
+  - "Fue responsable de \xABOnibaba\xBB y \xABThe Naked Island\xBB."
+  - "Dirigi\xF3 \xABOnibaba\xBB, \xABKuroneko\xBB y \xABThe Naked Island\xBB."

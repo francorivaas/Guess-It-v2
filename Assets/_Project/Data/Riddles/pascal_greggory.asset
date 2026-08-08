@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pascal_greggory
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pascal_greggory
+  category: personas
+  difficulty: 0
+  answer: Pascal Greggory
+  acceptedAnswers:
+  - Pascal Greggory
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1979 y 2014 y recorren g\xE9neros
+    como drama, romance y comedia."
+  - "Form\xF3 parte del elenco de \xABLa Vie en Rose\xBB, una pel\xEDcula de 2007
+    dirigida por Olivier Dahan."
+  - "Su papel en \xABAdventures of Arsene Lupin\xBB fue el de Beaumagnan."
+  - "Su papel en \xABQueen Margot\xBB fue el de Anjou."
+  - "Interpret\xF3 a Anjou en \xABQueen Margot\xBB y a Pierre en \xABPauline at the
+    Beach\xBB."

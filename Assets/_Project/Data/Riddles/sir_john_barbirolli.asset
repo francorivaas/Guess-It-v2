@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sir_john_barbirolli
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sir_john_barbirolli
+  category: bandas musicales
+  difficulty: 1
+  answer: Sir John Barbirolli
+  acceptedAnswers:
+  - Sir John Barbirolli
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABViolin Concerto in D major Op. 35 (2006
+    - Remaster): I. Allegro moderato\xBB, de 1935, y llega hasta 2004."
+  - "\xABMadama Butterfly, Act I: Questa \xE8 la cameriera (Goro, Pinkerton, Suzuki,
+    Sharpless)\xBB presenta una energ\xEDa suave y un pulso cercano a 94 BPM."
+  - "Entre sus grabaciones figuran \xABElgar: Variations on an Original Theme, Op.
+    36 \"Enigma\": Variation IX. Adagio \"Nimrod\"\xBB y \xABMadama Butterfly, Act
+    I: E soffitto, e pareti (Pinkerton, Goro)\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABElgar: Cello Concerto in E Minor, Op. 85: I. Adagio
+    - Moderato\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABCello Concerto in E Minor, Op.85 (1988
+    Digital Remaster): I. Adagio - Moderato\xBB y \xABMadama Butterfly, Act II: Un
+    bel d\xEC vedremo (Butterfly)\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ireland
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ireland
+  category: lugares
+  difficulty: 0
+  answer: Irlanda
+  acceptedAnswers:
+  - Irlanda
+  - Ireland
+  hints:
+  - "Tiene cerca de 6,4 millones de habitantes y una superficie aproximada de 70
+    mil km\xB2."
+  - "Su ubicaci\xF3n geogr\xE1fica se sit\xFAa en Europa septentrional."
+  - "El panorama ling\xFC\xEDstico incluye irland\xE9s, ingl\xE9s."
+  - La moneda nacional adopta euro.
+  - "Su capital es Dubl\xEDn."

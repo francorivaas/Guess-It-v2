@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gladiator
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gladiator
+  category: peliculas
+  difficulty: 0
+  answer: Gladiador
+  acceptedAnswers:
+  - Gladiador
+  - gladiator
+  hints:
+  - "Su contexto de estreno fue 2000; es una pel\xEDcula de acci\xF3n y drama hist\xF3rico
+    realizada en Estados Unidos."
+  - "Ridley Scott asumi\xF3 la direcci\xF3n."
+  - "La narraci\xF3n se apoya especialmente en M\xE1ximo, C\xF3modo y Lucila."
+  - El relato se construye a partir de un general traicionado se convierte en esclavo
+    y combate en arenas romanas.
+  - Se la reconoce de inmediato por un guerrero busca vengar a su familia frente
+    al emperador.

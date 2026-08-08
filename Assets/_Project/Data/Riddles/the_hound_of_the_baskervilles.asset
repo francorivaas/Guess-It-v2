@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_hound_of_the_baskervilles
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_hound_of_the_baskervilles
+  category: peliculas
+  difficulty: 0
+  answer: The Hound of the Baskervilles
+  acceptedAnswers:
+  - The Hound of the Baskervilles
+  hints:
+  - "Combina un estreno de 1959 con di\xE1logos originalmente en ingl\xE9s."
+  - "Entre sus compa\xF1\xEDas figura Hammer Film Productions; sus g\xE9neros principales
+    son terror, suspenso y misterio."
+  - El realizador principal fue Terence Fisher.
+  - "Peter Cushing interpreta a Sherlock Holmes, mientras Andr\xE9 Morell encarna
+    a Doctor Watson."
+  - "Terence Fisher dirige a Peter Cushing como Sherlock Holmes, Andr\xE9 Morell
+    como Doctor Watson y Christopher Lee como Sir Henry en esta pel\xEDcula de 1959."

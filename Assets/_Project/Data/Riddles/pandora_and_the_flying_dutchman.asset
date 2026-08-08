@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pandora_and_the_flying_dutchman
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pandora_and_the_flying_dutchman
+  category: peliculas
+  difficulty: 2
+  answer: Pandora and the Flying Dutchman
+  acceptedAnswers:
+  - Pandora and the Flying Dutchman
+  hints:
+  - "Combina un estreno de 1951 con di\xE1logos originalmente en ingl\xE9s."
+  - "Su combinaci\xF3n de g\xE9neros incluye fantas\xEDa, drama y misterio; la producci\xF3n
+    se vincula con Reino Unido."
+  - "Albert Lewin la dirigi\xF3 con Romulus Films entre las compa\xF1\xEDas productoras."
+  - Dos personajes centrales son Hendrik van der Zee, interpretado por James Mason,
+    y Pandora Reynolds, a cargo de Ava Gardner.
+  - "Albert Lewin dirige a James Mason como Hendrik van der Zee, Ava Gardner como
+    Pandora Reynolds y Nigel Patrick como Stephen Cameron en esta pel\xEDcula de
+    1951."

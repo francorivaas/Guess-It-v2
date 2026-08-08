@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ibri
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ibri
+  category: lugares
+  difficulty: 1
+  answer: "\u2018Ibr\u012B"
+  acceptedAnswers:
+  - "\u2018Ibr\u012B"
+  - "\u2018Ibri"
+  hints:
+  - "Est\xE1 a unos 23,2 grados al norte del ecuador y 56,5 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 102 mil habitantes. Dentro de su pa\xEDs
+    ocupa el puesto 5 por poblaci\xF3n."
+  - "Se ubica a unos 220 kil\xF3metros al oeste de Muscat."
+  - "Est\xE1 en Om\xE1n, donde ocupa el puesto 5 por poblaci\xF3n, y es un centro
+    administrativo regional."
+  - "Es la capital administrativa de Ad D\u0101khil\u012Byah, dentro de Om\xE1n."

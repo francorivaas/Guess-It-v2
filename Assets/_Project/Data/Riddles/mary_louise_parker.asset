@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mary_louise_parker
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mary_louise_parker
+  category: personas
+  difficulty: 1
+  answer: Mary-Louise Parker
+  acceptedAnswers:
+  - Mary-Louise Parker
+  hints:
+  - "En Romance & Cigarettes interpret\xF3 a Constance, en una pel\xEDcula estrenada
+    en 2005."
+  - "Su carrera en cine abarca de 1994 a 2013 y recorre acci\xF3n y aventura. Entre
+    sus pel\xEDculas figura Romance & Cigarettes."
+  - "Comparti\xF3 reparto con Freddie Highmore en The Spiderwick Chronicles. Otro
+    cr\xE9dito es R.I.P.D."
+  - "En RED 2 interpret\xF3 a Sarah Ross."
+  - Aparece en RED y R.I.P.D..

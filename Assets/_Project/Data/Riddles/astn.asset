@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: astn
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: astn
+  category: bandas musicales
+  difficulty: 0
+  answer: ASTN
+  acceptedAnswers:
+  - ASTN
+  hints:
+  - Su perfil sonoro combina chill y soul con un pulso claramente bailable.
+  - "Entre sus lanzamientos aparece \xABHappier Than Ever\xBB."
+  - "En su cat\xE1logo aparecen \xABGradually\xBB y \xABLA DON\u2019T LOOK GOOD ON
+    U\xBB."
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABHappier Than Ever\xBB y \xABButterflies\xBB."
+  - "Artista o grupo detr\xE1s de \xABHappier Than Ever\xBB, \xABButterflies\xBB
+    y \xABGradually\xBB."

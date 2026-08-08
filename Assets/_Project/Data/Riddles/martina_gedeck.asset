@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: martina_gedeck
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: martina_gedeck
+  category: personas
+  difficulty: 0
+  answer: Martina Gedeck
+  acceptedAnswers:
+  - Martina Gedeck
+  hints:
+  - "Trabaj\xF3 en producciones de drama, romance y comedia a lo largo del per\xEDodo
+    entre 1995 y 2015."
+  - "Uno de sus trabajos fue \xABThe Lives of Others\xBB (2006), bajo la direcci\xF3n
+    de Florian Henckel von Donnersmarck."
+  - "Dio vida a Mariana en \xABNight Train to Lisbon\xBB."
+  - "En \xABThe Wall\xBB interpret\xF3 a Frau."
+  - "Es la persona que encarn\xF3 a Frau en \xABThe Wall\xBB y a Maria Eleonora en
+    \xABThe Girl King\xBB."

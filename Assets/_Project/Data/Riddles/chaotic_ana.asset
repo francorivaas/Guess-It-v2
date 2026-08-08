@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chaotic_ana
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chaotic_ana
+  category: peliculas
+  difficulty: 1
+  answer: Chaotic Ana
+  acceptedAnswers:
+  - Chaotic Ana
+  - "Ca\xF3tica Ana"
+  - caotica ana
+  hints:
+  - "Es una producci\xF3n de 2007 con una duraci\xF3n aproximada de 119 minutos."
+  - "Sogecine particip\xF3 en una pel\xEDcula de comedia y drama producida en Espa\xF1a."
+  - "El realizador principal fue Julio M\xE9dem."
+  - "En el reparto, Manuela Vell\xE9s da vida a Ana y Charlotte Rampling a Justine."
+  - "En esta cinta de 2007 coinciden Manuela Vell\xE9s como Ana, Charlotte Rampling
+    como Justine y Bebe como Linda."

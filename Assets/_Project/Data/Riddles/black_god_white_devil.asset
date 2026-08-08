@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: black_god_white_devil
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: black_god_white_devil
+  category: peliculas
+  difficulty: 2
+  answer: Dios y el diablo en la tierra del sol
+  acceptedAnswers:
+  - Dios y el diablo en la tierra del sol
+  - black god white devil
+  - deus e o diabo na terra do sol
+  hints:
+  - "Su contexto de estreno fue 1964; es una pel\xEDcula de drama y western realizada
+    en Brasil."
+  - "La realizaci\xF3n fue encabezada por Glauber Rocha."
+  - "La narraci\xF3n se apoya especialmente en Manuel, Rosa y Corisco."
+  - "El relato se construye a partir de una pareja campesina huye y atraviesa fanatismo
+    religioso y bandolerismo en el sert\xF3n."
+  - "Se la reconoce de inmediato por cantos populares y paisajes \xE1ridos impulsan
+    una rebeli\xF3n desesperada."

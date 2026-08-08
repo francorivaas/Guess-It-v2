@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: like_father_like_son
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: like_father_like_son
+  category: peliculas
+  difficulty: 0
+  answer: Like Father, Like Son
+  acceptedAnswers:
+  - Like Father, Like Son
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2010 y su duraci\xF3n ronda los 121 minutos."
+  - "Se encuadra en drama y tiene origen de producci\xF3n en Jap\xF3n."
+  - "La direcci\xF3n estuvo a cargo de Hirokazu Koreeda."
+  - Masaharu Fukuyama interpreta a Ryota Nonomiya, mientras Yoko Maki encarna a Yukari
+    Saiki.
+  - En esta cinta de 2013 coinciden Masaharu Fukuyama como Ryota Nonomiya, Yoko Maki
+    como Yukari Saiki y Lily Franky como Yudai Saiki.

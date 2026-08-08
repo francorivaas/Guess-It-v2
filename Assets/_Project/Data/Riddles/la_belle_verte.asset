@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: la_belle_verte
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: la_belle_verte
+  category: peliculas
+  difficulty: 1
+  answer: La Belle verte
+  acceptedAnswers:
+  - La Belle verte
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1990 dura cerca de 99 minutos."
+  - "El relato pertenece a comedia, con participaci\xF3n productiva de Australia
+    y Francia."
+  - "Coline Serreau firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Coline Serreau da vida a Mila y Vincent Lindon a Max.
+  - "Coline Serreau dirige a Coline Serreau como Mila, Vincent Lindon como Max y
+    James Thi\xE9rr\xE9e como Mesaje en esta pel\xEDcula de 1996."

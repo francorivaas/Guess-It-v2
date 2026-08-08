@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_dark_tower
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_dark_tower
+  category: peliculas
+  difficulty: 0
+  answer: The Dark Tower
+  acceptedAnswers:
+  - The Dark Tower
+  hints:
+  - "Fue filmada originalmente en ingl\xE9s y lleg\xF3 a los cines en 2017."
+  - "Se encuadra en acci\xF3n, w\xE9stern y ciencia ficci\xF3n y tiene origen de
+    producci\xF3n en Sud\xE1frica y Estados Unidos."
+  - "Nikolaj Arcel firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - "En el reparto, Idris Elba da vida a Roland Deschain y Matthew McConaughey a
+    Walter O\u2019Dim."
+  - "Nikolaj Arcel dirige a Idris Elba como Roland Deschain, Matthew McConaughey
+    como Walter O\u2019Dim y Tom Taylor como Jake Chambers en esta pel\xEDcula de
+    2017."

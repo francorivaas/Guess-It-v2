@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pen_ek_ratanaruang
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pen_ek_ratanaruang
+  category: personas
+  difficulty: 1
+  answer: Pen-Ek Ratanaruang
+  acceptedAnswers:
+  - Pen-Ek Ratanaruang
+  hints:
+  - "Su carrera detr\xE1s de c\xE1mara se desarrolla entre 1999 y 2011, con especial
+    presencia de drama, suspenso y crimen."
+  - "Una de sus pel\xEDculas es \xABLast Life in the Universe\xBB, estrenada en 2003."
+  - "Tambi\xE9n dirigi\xF3 \xABHeadshot\xBB, del a\xF1o 2011."
+  - "Fue responsable de \xABLast Life in the Universe\xBB y \xAB6ixtynin9\xBB."
+  - "Dirigi\xF3 \xABLast Life in the Universe\xBB, \xABHeadshot\xBB y \xAB6ixtynin9\xBB."

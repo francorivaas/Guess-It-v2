@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cabinet_dr_caligari
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cabinet_dr_caligari
+  category: peliculas
+  difficulty: 2
+  answer: El gabinete del doctor Caligari
+  acceptedAnswers:
+  - El gabinete del doctor Caligari
+  - the cabinet of dr caligari
+  hints:
+  - "Esta producci\xF3n de Alemania, lanzada en 1920, pertenece al g\xE9nero terror
+    expresionista."
+  - "La realizaci\xF3n fue encabezada por Robert Wiene."
+  - El reparto o los personajes clave incluyen a Caligari, Cesare y Francis.
+  - "El conflicto principal nace cuando un hipnotizador exhibe a un son\xE1mbulo
+    relacionado con asesinatos."
+  - "Resulta inconfundible por decorados angulosos y una revelaci\xF3n en un manicomio
+    deforman la realidad."

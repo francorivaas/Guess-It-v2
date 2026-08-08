@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: steve_barron
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: steve_barron
+  category: personas
+  difficulty: 1
+  answer: Steve Barron
+  acceptedAnswers:
+  - Steve Barron
+  hints:
+  - "Dirigi\xF3 obras de fantas\xEDa, drama y comedia a lo largo de una trayectoria
+    que va entre 1984 y 2012."
+  - "Una de sus pel\xEDculas es \xABThe Adventures of Pinocchio\xBB, estrenada en
+    1996."
+  - "Otro t\xEDtulo bajo su direcci\xF3n es \xABMerlin\xBB (1998)."
+  - "Dos pel\xEDculas que llevan su firma son \xABMerlin\xBB y \xABTreasure Island\xBB."
+  - "Dirigi\xF3 \xABThe Adventures of Pinocchio\xBB, \xABMerlin\xBB y \xABTreasure
+    Island\xBB."

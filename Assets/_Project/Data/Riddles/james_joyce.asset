@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: james_joyce
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: james_joyce
+  category: personas
+  difficulty: 2
+  answer: James Joyce
+  acceptedAnswers:
+  - James Joyce
+  hints:
+  - "Su etapa de mayor influencia se desarroll\xF3 a comienzos del siglo XX."
+  - "Naci\xF3 en Irlanda y orient\xF3 su trabajo hacia literatura."
+  - "Entre sus logros sobresale expandir el mon\xF3logo interior y la experimentaci\xF3n
+    ling\xFC\xEDstica."
+  - "Tambi\xE9n qued\xF3 estrechamente relacionado con Ulises, Dubl\xEDn en un solo
+    d\xEDa y un cap\xEDtulo final sin puntuaci\xF3n convencional."
+  - "Su perfil re\xFAne literatura, expandir el mon\xF3logo interior y la experimentaci\xF3n
+    ling\xFC\xEDstica y Ulises, Dubl\xEDn en un solo d\xEDa y un cap\xEDtulo final
+    sin puntuaci\xF3n convencional."

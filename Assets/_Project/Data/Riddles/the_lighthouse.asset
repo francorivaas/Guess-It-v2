@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_lighthouse
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_lighthouse
+  category: peliculas
+  difficulty: 0
+  answer: The Lighthouse
+  acceptedAnswers:
+  - The Lighthouse
+  - Lighthouse
+  hints:
+  - "Es una producci\xF3n de Canad\xE1 de la d\xE9cada de 2010, vinculada al g\xE9nero
+    de drama."
+  - "Su duraci\xF3n ronda los 109 minutos; la clasificaci\xF3n registrada es R. La
+    direcci\xF3n est\xE1 acreditada a Robert Eggers."
+  - "Se estren\xF3 en 2019 y estuvo asociada a la compa\xF1\xEDa A24. Entre sus int\xE9rpretes
+    figura Robert Pattinson."
+  - "Robert Eggers estuvo a cargo de la direcci\xF3n, con Robert Pattinson al frente
+    del elenco."
+  - "Pel\xEDcula de 2019 dirigida por Robert Eggers, con Robert Pattinson en el reparto,
+    con guion de Robert Eggers."

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: veronica_cartwright
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: veronica_cartwright
+  category: personas
+  difficulty: 2
+  answer: Veronica Cartwright
+  acceptedAnswers:
+  - Veronica Cartwright
+  hints:
+  - "En Kinsey interpret\xF3 a Sara Kinsey, en una pel\xEDcula estrenada en 2004."
+  - "Su carrera en cine abarca de 1979 a 2007 y recorre terror y acci\xF3n."
+  - "Comparti\xF3 reparto con Nicole Kidman en The Invasion."
+  - "Tambi\xE9n integr\xF3 el elenco de Scary Movie 2."
+  - Aparece en Alien y The Invasion.

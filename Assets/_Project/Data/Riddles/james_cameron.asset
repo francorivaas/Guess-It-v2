@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: james_cameron
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: james_cameron
+  category: personas
+  difficulty: 1
+  answer: James Cameron
+  acceptedAnswers:
+  - James Cameron
+  hints:
+  - "El n\xFAcleo de su trayectoria qued\xF3 concentrado desde la d\xE9cada de 1980."
+  - "Naci\xF3 en Canad\xE1 y orient\xF3 su trabajo hacia direcci\xF3n y exploraci\xF3n."
+  - "Se lo recuerda especialmente por realizar algunas de las producciones m\xE1s
+    taquilleras y explorar grandes profundidades."
+  - Su historia suele asociarse directamente con Titanic, Avatar y un descenso al
+    fondo de la fosa de las Marianas.
+  - "Quien encaja en estas pistas destac\xF3 por Titanic, Avatar y un descenso al
+    fondo de la fosa de las Marianas."

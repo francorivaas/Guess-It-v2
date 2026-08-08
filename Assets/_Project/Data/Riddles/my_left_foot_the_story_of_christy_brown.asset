@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: my_left_foot_the_story_of_christy_brown
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: my_left_foot_the_story_of_christy_brown
+  category: peliculas
+  difficulty: 0
+  answer: 'My Left Foot: The Story of Christy Brown'
+  acceptedAnswers:
+  - 'My Left Foot: The Story of Christy Brown'
+  hints:
+  - "Combina un estreno de 1989 con di\xE1logos originalmente en ingl\xE9s."
+  - "El relato pertenece a drama, con participaci\xF3n productiva de Irlanda y Reino
+    Unido."
+  - El realizador principal fue Jim Sheridan.
+  - Dos personajes centrales son Christy Brown, interpretado por Daniel Day-Lewis,
+    y Mrs. Brown, a cargo de Brenda Fricker.
+  - "El reparto incluye a Daniel Day-Lewis como Christy Brown, Brenda Fricker como
+    Mrs. Brown y Alison Whelan como Sheila bajo la direcci\xF3n de Jim Sheridan."

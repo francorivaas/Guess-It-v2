@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: patrick_godfrey
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: patrick_godfrey
+  category: personas
+  difficulty: 0
+  answer: Patrick Godfrey
+  acceptedAnswers:
+  - Patrick Godfrey
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1983 y 2008 y recorren g\xE9neros
+    como drama, romance y historia."
+  - "Uno de sus trabajos fue \xABThe Duchess\xBB (2008), bajo la direcci\xF3n de
+    Saul Dibb."
+  - "En \xABThe Remains of the Day\xBB interpret\xF3 a Spencer."
+  - "En \xABA Room with a View\xBB interpret\xF3 a The Reverend Mr. Eager, Chaplain
+    of the Anglican Church in Florence."
+  - "Interpret\xF3 a The Reverend Mr. Eager, Chaplain of the Anglican Church in Florence
+    en \xABA Room with a View\xBB y a Merriman en \xABThe Importance of Being Earnest\xBB."

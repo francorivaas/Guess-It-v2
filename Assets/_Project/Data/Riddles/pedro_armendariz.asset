@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pedro_armendariz
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pedro_armendariz
+  category: personas
+  difficulty: 2
+  answer: "Pedro Armend\xE1riz"
+  acceptedAnswers:
+  - "Pedro Armend\xE1riz"
+  - pedro armendariz
+  hints:
+  - "Trabaj\xF3 en producciones de drama, romance y familiar a lo largo del per\xEDodo
+    entre 1943 y 1963."
+  - "Particip\xF3 en \xABMar\xEDa Candelaria\xBB, dirigida por Emilio Fern\xE1ndez
+    y estrenada en 1944."
+  - "Dio vida a El Kerim en \xABCaptain Sindbad\xBB."
+  - "En \xABThe Pearl\xBB interpret\xF3 a Quino."
+  - "Interpret\xF3 a Quino en \xABThe Pearl\xBB y a Gen. Jos\xE9 Juan Reyes en \xABEnamorada\xBB."

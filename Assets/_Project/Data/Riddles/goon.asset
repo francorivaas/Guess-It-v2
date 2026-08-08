@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: goon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: goon
+  category: peliculas
+  difficulty: 0
+  answer: Goon
+  acceptedAnswers:
+  - Goon
+  hints:
+  - "Es una producci\xF3n de Estados Unidos y Canad\xE1 de la d\xE9cada de 2010,
+    vinculada al g\xE9nero de comedia y deportes."
+  - "Su duraci\xF3n ronda los 92 minutos; la clasificaci\xF3n registrada es R. La
+    direcci\xF3n est\xE1 acreditada a Michael Dowse."
+  - "Se estren\xF3 en 2011 y estuvo asociada a la compa\xF1\xEDa No Trace Camping."
+  - "Michael Dowse estuvo a cargo de la direcci\xF3n y reuni\xF3 a Seann William
+    Scott con Jay Baruchel."
+  - "Cinta de Estados Unidos y Canad\xE1 lanzada en 2011, dirigida por Michael Dowse
+    y encabezada por Seann William Scott, Jay Baruchel y Liev Schreiber, con guion
+    de Jay Baruchel."

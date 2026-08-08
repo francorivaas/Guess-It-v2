@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cocomelon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cocomelon
+  category: bandas musicales
+  difficulty: 0
+  answer: CoComelon
+  acceptedAnswers:
+  - CoComelon
+  hints:
+  - "Su perfil sonoro combina m\xFAsica infantil con un pulso claramente bailable."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABHalloween Party\xBB."
+  - "Las pistas intermedias pasan por \xABTwinkle Twinkle Little Star\xBB y \xABItsy
+    Bitsy Spider\xBB."
+  - "El repertorio se vuelve claro con \xABWheels on the Bus\xBB junto a \xABBaa
+    Baa Black Sheep\xBB."
+  - "Artista o grupo detr\xE1s de \xABWheels on the Bus\xBB, \xABBaa Baa Black Sheep\xBB
+    y \xABTwinkle Twinkle Little Star\xBB."

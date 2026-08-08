@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jafar_panahi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jafar_panahi
+  category: personas
+  difficulty: 1
+  answer: Jafar Panahi
+  acceptedAnswers:
+  - Jafar Panahi
+  hints:
+  - "Firm\xF3 pel\xEDculas entre 1995 y 2015 y trabaj\xF3 con frecuencia en drama,
+    documental y comedia."
+  - "Una de sus pel\xEDculas es \xABTaxi\xBB, estrenada en 2015."
+  - "Su cat\xE1logo incluye \xABOffside\xBB adem\xE1s de la obra anterior."
+  - "Su nombre aparece en la direcci\xF3n de \xABTaxi\xBB y \xABOffside\xBB."
+  - "Es el realizador detr\xE1s de \xABOffside\xBB, \xABThis Is Not a Film\xBB y
+    \xABThe White Balloon\xBB."

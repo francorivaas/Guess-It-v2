@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dom_deluise
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dom_deluise
+  category: personas
+  difficulty: 2
+  answer: Dom DeLuise
+  acceptedAnswers:
+  - Dom DeLuise
+  hints:
+  - "Trabaj\xF3 en producciones de comedia, crimen y misterio a lo largo del per\xEDodo
+    entre 1975 y 1994."
+  - "Uno de sus trabajos fue \xABRobin Hood: Men in Tights\xBB (1993), bajo la direcci\xF3n
+    de Mel Brooks."
+  - "Su papel en \xABThe Adventure of Sherlock Holmes' Smarter Brother\xBB fue el
+    de Eduardo Gambetti."
+  - "Su papel en \xABHaunted Honeymoon\xBB fue el de Aunt Kate Abbot."
+  - "Interpret\xF3 a Aunt Kate Abbot en \xABHaunted Honeymoon\xBB y a Dr. Animal
+    Cannibal Pizza en \xABThe Silence of the Hams\xBB."

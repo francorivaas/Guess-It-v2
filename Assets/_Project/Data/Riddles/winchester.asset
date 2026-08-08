@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: winchester
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: winchester
+  category: peliculas
+  difficulty: 1
+  answer: Winchester
+  acceptedAnswers:
+  - Winchester
+  hints:
+  - "Es una producci\xF3n de Australia de la d\xE9cada de 2010, vinculada al g\xE9nero
+    de biograf\xEDa. La direcci\xF3n est\xE1 acreditada a Michael Spierig."
+  - "Su duraci\xF3n ronda los 99 minutos; la clasificaci\xF3n registrada es PG-13.
+    Entre sus int\xE9rpretes figura Helen Mirren."
+  - "Se estren\xF3 en 2018 y estuvo asociada a la compa\xF1\xEDa CBS Films. El guion
+    incluye un cr\xE9dito para Tom Vaughan."
+  - "La dirigi\xF3 Michael Spierig y su figura principal es Helen Mirren."
+  - Cinta de Australia lanzada en 2018, dirigida por Michael Spierig y encabezada
+    por Helen Mirren, con guion de Tom Vaughan.

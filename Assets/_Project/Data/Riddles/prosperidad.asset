@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: prosperidad
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: prosperidad
+  category: lugares
+  difficulty: 1
+  answer: Prosperidad
+  acceptedAnswers:
+  - Prosperidad
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 8,61 grados del ecuador."
+  - Su escala urbana ronda los 88 mil de habitantes y se integra en Agusan del Sur.
+  - Administrativamente pertenece a Agusan del Sur. Funciona como capital administrativa
+    de Agusan del Sur.
+  - "Esta ciudad de Filipinas est\xE1 en Agusan del Sur y se sit\xFAa a 8,6\xB0 norte."
+  - "En Filipinas, dentro de Agusan del Sur, esta ciudad de unos 88 mil est\xE1 cerca
+    de 8,6\xB0 norte y 125,9\xB0 este."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: david_prowse
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: david_prowse
+  category: personas
+  difficulty: 0
+  answer: David Prowse
+  acceptedAnswers:
+  - David Prowse
+  hints:
+  - "En Return of the Jedi interpret\xF3 a Darth Vader, en una pel\xEDcula estrenada
+    en 1983."
+  - "Su carrera en cine abarca de 1977 a 1983 y recorre aventura y acci\xF3n. Entre
+    sus pel\xEDculas figura Return of the Jedi."
+  - "Comparti\xF3 reparto con Mark Hamill en The Empire Strikes Back."
+  - "En The Empire Strikes Back interpret\xF3 a Darth Vader."
+  - Aparece en Star Wars y Return of the Jedi. Su trayectoria llega hasta 1983.

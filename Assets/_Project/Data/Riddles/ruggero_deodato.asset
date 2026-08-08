@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ruggero_deodato
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ruggero_deodato
+  category: personas
+  difficulty: 1
+  answer: Ruggero Deodato
+  acceptedAnswers:
+  - Ruggero Deodato
+  hints:
+  - "Dirigi\xF3 obras de terror, aventura y suspenso a lo largo de una trayectoria
+    que va entre 1977 y 1987."
+  - "Una de sus pel\xEDculas es \xABCannibal Holocaust\xBB, estrenada en 1980."
+  - "Su cat\xE1logo incluye \xABHouse on the Edge of the Park\xBB adem\xE1s de la
+    obra anterior."
+  - "Su nombre aparece en la direcci\xF3n de \xABCannibal Holocaust\xBB y \xABHouse
+    on the Edge of the Park\xBB."
+  - "Es el realizador detr\xE1s de \xABHouse on the Edge of the Park\xBB, \xABLast
+    Cannibal World\xBB y \xABCut and Run\xBB."

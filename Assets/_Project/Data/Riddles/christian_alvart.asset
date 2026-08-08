@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: christian_alvart
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: christian_alvart
+  category: personas
+  difficulty: 1
+  answer: Christian Alvart
+  acceptedAnswers:
+  - Christian Alvart
+  hints:
+  - "Dirigi\xF3 obras de acci\xF3n, terror y misterio a lo largo de una trayectoria
+    que va entre 2005 y 2013."
+  - "Entre sus trabajos de direcci\xF3n figura \xABPandorum\xBB."
+  - "Otro t\xEDtulo bajo su direcci\xF3n es \xABCase 39\xBB (2009)."
+  - "Dos pel\xEDculas que llevan su firma son \xABCase 39\xBB y \xABAntibodies\xBB."
+  - "Su filmograf\xEDa re\xFAne \xABPandorum\xBB, \xABAntibodies\xBB y \xABBanklady\xBB."

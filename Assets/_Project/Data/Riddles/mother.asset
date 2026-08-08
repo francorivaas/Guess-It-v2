@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mother
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mother
+  category: peliculas
+  difficulty: 0
+  answer: Mother
+  acceptedAnswers:
+  - Mother
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2000 dura cerca de 128 minutos."
+  - "El relato pertenece a crimen, drama y misterio, con participaci\xF3n productiva
+    de Corea del Sur."
+  - "Bong Joon-ho la dirigi\xF3 con Barunson Film Division entre las compa\xF1\xEDas
+    productoras."
+  - Entre sus protagonistas aparecen Kim Hye-ja y Won Bin.
+  - En esta cinta de 2009 coinciden Kim Hye-ja, Won Bin como Yoon Do-joon y Jin Goo
+    como Jin-tae.

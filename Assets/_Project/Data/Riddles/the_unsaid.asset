@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_unsaid
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_unsaid
+  category: peliculas
+  difficulty: 1
+  answer: The Unsaid
+  acceptedAnswers:
+  - The Unsaid
+  hints:
+  - "Su metraje se acerca a 111 minutos y corresponde al a\xF1o 2001."
+  - "Entre sus compa\xF1\xEDas figura New Legend Media; sus g\xE9neros principales
+    son suspenso."
+  - El realizador principal fue Tom McLoughlin.
+  - "Andy Garc\xEDa interpreta a Michael Hunter, mientras Chelsea Field encarna a
+    Penny Hunter."
+  - "En esta cinta de 2001 coinciden Andy Garc\xEDa como Michael Hunter, Chelsea
+    Field como Penny Hunter y Vincent Kartheiser como Thomas Caffey."

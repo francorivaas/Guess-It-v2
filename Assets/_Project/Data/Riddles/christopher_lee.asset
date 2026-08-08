@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: christopher_lee
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: christopher_lee
+  category: personas
+  difficulty: 0
+  answer: Christopher Lee
+  acceptedAnswers:
+  - Christopher Lee
+  hints:
+  - "En The Torture Chamber of Dr. Sadism interpret\xF3 a Count Frederic Regula,
+    en una pel\xEDcula estrenada en 1967."
+  - "Su carrera en cine abarca de 1967 a 2012 y recorre aventura y fantas\xEDa."
+  - "Comparti\xF3 reparto con Ben Kingsley en Hugo."
+  - "En The Hobbit: An Unexpected Journey interpret\xF3 a Saruman."
+  - "Aparece en The Lord of the Rings: The Fellowship of the Ring y The Lord of the
+    Rings: The Two Towers. Tambi\xE9n form\xF3 parte de The Torture Chamber of Dr.
+    Sadism."

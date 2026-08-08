@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: my_sweet_little_village
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: my_sweet_little_village
+  category: peliculas
+  difficulty: 1
+  answer: My Sweet Little Village
+  acceptedAnswers:
+  - My Sweet Little Village
+  - "Vesni\u010Dko m\xE1 st\u0159ediskov\xE1"
+  - vesnicko ma strediskova
+  hints:
+  - "Fue filmada originalmente en checo y lleg\xF3 a los cines en 1985."
+  - "Se encuadra en comedia y tiene origen de producci\xF3n en Rep\xFAblica Checa."
+  - "Detr\xE1s de la c\xE1mara estuvo Ji\u0159\xED Menzel."
+  - "Dos personajes centrales son Ot\xEDk, interpretado por J\xE1nos B\xE1n, y P\xE1vek,
+    a cargo de Mari\xE1n Labuda."
+  - "En esta cinta de 1985 coinciden J\xE1nos B\xE1n como Ot\xEDk, Mari\xE1n Labuda
+    como P\xE1vek y Zden\u011Bk Sv\u011Br\xE1k como Mal\xED\u0159."

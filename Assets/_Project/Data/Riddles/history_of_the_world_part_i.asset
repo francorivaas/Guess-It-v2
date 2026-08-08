@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: history_of_the_world_part_i
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: history_of_the_world_part_i
+  category: peliculas
+  difficulty: 0
+  answer: 'History of the World: Part I'
+  acceptedAnswers:
+  - 'History of the World: Part I'
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 1980, vinculada al
+    g\xE9nero de comedia. La direcci\xF3n est\xE1 acreditada a Mel Brooks."
+  - "Tiene una duraci\xF3n aproximada de 92 minutos y recibi\xF3 la clasificaci\xF3n
+    R. Entre sus int\xE9rpretes figura Mel Brooks."
+  - "La producci\xF3n lleg\xF3 en 1981 bajo la participaci\xF3n de Brooksfilms."
+  - "La dirigi\xF3 Mel Brooks y su figura principal es Mel Brooks."
+  - "Pel\xEDcula de 1981 dirigida por Mel Brooks, con Mel Brooks en el reparto, con
+    guion de Mel Brooks."

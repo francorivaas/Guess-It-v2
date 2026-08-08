@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tony_gilroy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tony_gilroy
+  category: personas
+  difficulty: 0
+  answer: Tony Gilroy
+  acceptedAnswers:
+  - Tony Gilroy
+  hints:
+  - "Su trabajo se reparte entre acci\xF3n y comedia a lo largo de un per\xEDodo
+    que va entre 1992 y 2012."
+  - "La pel\xEDcula \xABThe Cutting Edge\xBB forma parte de una carrera conectada
+    con Estados Unidos."
+  - "Tambi\xE9n est\xE1 vinculada a \xABThe Bourne Legacy\xBB y \xABThe Bourne Identity\xBB."
+  - "Dos referencias fuertes de su carrera son \xABThe Bourne Ultimatum\xBB y \xABThe
+    Bourne Identity\xBB."
+  - "La identidad buscada re\xFAne cr\xE9ditos de guion y direcci\xF3n en \xABThe
+    Bourne Ultimatum\xBB, \xABThe Bourne Identity\xBB y \xABThe Bourne Legacy\xBB."

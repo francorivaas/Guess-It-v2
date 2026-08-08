@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_boy_and_the_beast
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_boy_and_the_beast
+  category: peliculas
+  difficulty: 0
+  answer: The Boy and the Beast
+  acceptedAnswers:
+  - The Boy and the Beast
+  hints:
+  - "Fue filmada originalmente en japon\xE9s y lleg\xF3 a los cines en 2015."
+  - "Mezcla fantas\xEDa, acci\xF3n y aventura y fue producida en Jap\xF3n."
+  - "Detr\xE1s de la c\xE1mara estuvo Mamoru Hosoda."
+  - Dos personajes centrales son Kumatetsu (voice), interpretado por Koji Yakusho,
+    y Kyuta (Young) (voice), a cargo de Aoi Miyazaki.
+  - "El reparto incluye a Koji Yakusho como Kumatetsu (voice), Aoi Miyazaki como
+    Kyuta (Young) (voice) y Shota Sometani como Kyuta (Teen) (voice) bajo la direcci\xF3n
+    de Mamoru Hosoda."

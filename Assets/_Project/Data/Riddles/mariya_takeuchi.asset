@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mariya_takeuchi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mariya_takeuchi
+  category: bandas musicales
+  difficulty: 0
+  answer: Mariya Takeuchi
+  acceptedAnswers:
+  - Mariya Takeuchi
+  hints:
+  - "La huella musical se mueve por J-idol y J-pop y presenta una energ\xEDa sonora
+    alta."
+  - "El cat\xE1logo incluye el \xE1lbum \xABExpressions\xBB."
+  - "Las pistas intermedias pasan por \xABOH NO,OH YES!\xBB y \xAB\u30D7\u30E9\u30B9\u30C6\u30A3\u30C3\u30AF\u30FB\u30E9\u30D6
+    - 12\" Original Length ReMix\xBB."
+  - "El repertorio se vuelve claro con \xABPlastic Love\xBB junto a \xABShiawasenomonosashi\xBB."
+  - "La respuesta es el nombre que firma \xABPlastic Love\xBB, \xABShiawasenomonosashi\xBB
+    y \xABOH NO,OH YES!\xBB."

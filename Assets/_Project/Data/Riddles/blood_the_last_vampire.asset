@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: blood_the_last_vampire
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: blood_the_last_vampire
+  category: peliculas
+  difficulty: 0
+  answer: 'Blood: The Last Vampire'
+  acceptedAnswers:
+  - 'Blood: The Last Vampire'
+  hints:
+  - "Su metraje se acerca a 91 minutos y corresponde al a\xF1o 2009."
+  - "Entre sus compa\xF1\xEDas figura East Wing Holdings; sus g\xE9neros principales
+    son acci\xF3n, aventura y terror."
+  - "La direcci\xF3n estuvo a cargo de Chris Nahon."
+  - En el reparto, Allison Miller da vida a Alice Mckee y Jun Ji-hyun a Saya.
+  - "El reparto incluye a Allison Miller como Alice Mckee, Jun Ji-hyun como Saya
+    y Koyuki como Onigen bajo la direcci\xF3n de Chris Nahon."

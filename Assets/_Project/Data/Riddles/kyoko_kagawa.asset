@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kyoko_kagawa
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kyoko_kagawa
+  category: personas
+  difficulty: 0
+  answer: "Ky\xF4ko Kagawa"
+  acceptedAnswers:
+  - "Ky\xF4ko Kagawa"
+  - kyoko kagawa
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1954 y 1998 y recorren g\xE9neros
+    como drama, suspenso y misterio."
+  - "Particip\xF3 en \xABHigh and Low\xBB, dirigida por Akira Kurosawa y estrenada
+    en 1963."
+  - "En \xABSansho the Bailiff\xBB interpret\xF3 a Anju."
+  - "Su papel en \xABRed Beard\xBB fue el de Madwoman (\"The Mantis\")."
+  - "Sus papeles incluyen a Madwoman (\"The Mantis\") en \xABRed Beard\xBB y a Yoshiko
+    Nishi en \xABThe Bad Sleep Well\xBB."

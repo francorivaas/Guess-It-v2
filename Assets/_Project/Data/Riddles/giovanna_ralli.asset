@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: giovanna_ralli
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: giovanna_ralli
+  category: personas
+  difficulty: 2
+  answer: Giovanna Ralli
+  acceptedAnswers:
+  - Giovanna Ralli
+  hints:
+  - "Trabaj\xF3 en producciones de drama, suspenso y b\xE9lico a lo largo del per\xEDodo
+    entre 1959 y 1974."
+  - "Particip\xF3 en \xABWe All Loved Each Other So Much\xBB, dirigida por Ettore
+    Scola y estrenada en 1974."
+  - "En \xABGeneral Della Rovere\xBB interpret\xF3 a Olga."
+  - "Dio vida a Assistant District Attorney Vittoria Stori en \xABWhat Have They
+    Done to Your Daughters?\xBB."
+  - "Sus papeles incluyen a Assistant District Attorney Vittoria Stori en \xABWhat
+    Have They Done to Your Daughters?\xBB y a Anna en \xABCold Eyes of Fear\xBB."

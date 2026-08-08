@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: thesis
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: thesis
+  category: peliculas
+  difficulty: 0
+  answer: Thesis
+  acceptedAnswers:
+  - Thesis
+  - Tesis
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1990 y su duraci\xF3n ronda los 125 minutos."
+  - "Sogepaq particip\xF3 en una pel\xEDcula de terror y suspenso producida en Espa\xF1a."
+  - "Alejandro Amen\xE1bar la dirigi\xF3 con Sogepaq entre las compa\xF1\xEDas productoras."
+  - "Dos personajes centrales son \xC1ngela, interpretado por Ana Torrent, y Chema,
+    a cargo de Fele Mart\xEDnez."
+  - "El reparto incluye a Ana Torrent como \xC1ngela, Fele Mart\xEDnez como Chema
+    y Eduardo Noriega como Bosco bajo la direcci\xF3n de Alejandro Amen\xE1bar."

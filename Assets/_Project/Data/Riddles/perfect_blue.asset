@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: perfect_blue
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: perfect_blue
+  category: peliculas
+  difficulty: 0
+  answer: Perfect Blue
+  acceptedAnswers:
+  - Perfect Blue
+  hints:
+  - "Pertenece al cine de Jap\xF3n y se ubica temporalmente en la d\xE9cada de 1990,
+    dentro de animaci\xF3n. La direcci\xF3n est\xE1 acreditada a Satoshi Kon."
+  - "Su duraci\xF3n ronda los 81 minutos; la clasificaci\xF3n registrada es clasificaci\xF3n
+    no indicada."
+  - "La producci\xF3n lleg\xF3 en 1997 bajo la participaci\xF3n de Rex Entertainment."
+  - "Satoshi Kon estuvo a cargo de la direcci\xF3n, con Junko Iwao al frente del
+    elenco."
+  - "Producci\xF3n de animaci\xF3n estrenada en 1997: direcci\xF3n de Satoshi Kon
+    y actuaciones de Junko Iwao, con guion de Sadayuki Murai."

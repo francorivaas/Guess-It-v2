@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mandy_patinkin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mandy_patinkin
+  category: personas
+  difficulty: 2
+  answer: Mandy Patinkin
+  acceptedAnswers:
+  - Mandy Patinkin
+  hints:
+  - "Trabaj\xF3 en producciones de drama, animaci\xF3n y acci\xF3n a lo largo del
+    per\xEDodo entre 1983 y 2013."
+  - "Form\xF3 parte del elenco de \xABThe Wind Rises\xBB, una pel\xEDcula de 2013
+    dirigida por Hayao Miyazaki."
+  - "En \xAB4,3,2,1\xBB interpret\xF3 a Sir Jago Larofsky."
+  - "En \xABImpromptu\xBB interpret\xF3 a Alfred De Musset."
+  - "Interpret\xF3 a Alfred De Musset en \xABImpromptu\xBB y a Paul Isaacson en \xABDaniel\xBB."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: game_night
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: game_night
+  category: peliculas
+  difficulty: 0
+  answer: Game Night
+  acceptedAnswers:
+  - Game Night
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 2010, vinculada al
+    g\xE9nero de acci\xF3n. La direcci\xF3n est\xE1 acreditada a John Francis Daley."
+  - "Tiene una duraci\xF3n aproximada de 100 minutos y recibi\xF3 la clasificaci\xF3n
+    R."
+  - "Se estren\xF3 en 2018 y estuvo asociada a la compa\xF1\xEDa Access Entertainment."
+  - "John Francis Daley estuvo a cargo de la direcci\xF3n, con Jason Bateman al frente
+    del elenco."
+  - Cinta de Estados Unidos lanzada en 2018, dirigida por John Francis Daley y encabezada
+    por Jason Bateman, con guion de Mark Perez.

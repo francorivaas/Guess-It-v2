@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: karate_kid_1984
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: karate_kid_1984
+  category: peliculas
+  difficulty: 0
+  answer: Karate Kid
+  acceptedAnswers:
+  - Karate Kid
+  - the karate kid
+  hints:
+  - "Se estren\xF3 en 1984 y combina drama deportivo dentro del cine de Estados Unidos."
+  - "John G. Avildsen asumi\xF3 la direcci\xF3n."
+  - "Entre sus figuras centrales est\xE1n Daniel LaRusso, el se\xF1or Miyagi y Johnny."
+  - La trama gira alrededor de un adolescente acosado aprende artes marciales con
+    un maestro poco convencional.
+  - La pista casi definitiva es encerar autos y una patada de grulla preparan un
+    torneo.

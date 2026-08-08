@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gold_coast
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gold_coast
+  category: lugares
+  difficulty: 0
+  answer: Gold Coast
+  acceptedAnswers:
+  - Gold Coast
+  hints:
+  - "Se ubica al sur del ecuador y al este de Greenwich, cerca de 28,02\xB0 de latitud."
+  - "Es un n\xFAcleo urbano de alrededor de 608 mil de habitantes dentro de Queensland."
+  - "No es la capital nacional de Australia. Se halla aproximadamente a 28,0\xB0
+    sur."
+  - "Se encuentra en Australia, dentro de Queensland, con una poblaci\xF3n cercana
+    a 608 mil."
+  - "Es una ciudad de Australia, en Queensland, situada aproximadamente en 28,0\xB0
+    sur y 153,4\xB0 este."

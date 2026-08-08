@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: anne_fletcher
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: anne_fletcher
+  category: personas
+  difficulty: 2
+  answer: Anne Fletcher
+  acceptedAnswers:
+  - Anne Fletcher
+  hints:
+  - "Particip\xF3 en The Guilt Trip, una pel\xEDcula estrenada en 2012."
+  - Su carrera en cine abarca de 2006 a 2015 y recorre comedia y romance.
+  - "Comparti\xF3 reparto con Katherine Heigl en 27 Dresses."
+  - "Tambi\xE9n integr\xF3 el elenco de Step Up."
+  - Aparece en The Proposal y 27 Dresses.

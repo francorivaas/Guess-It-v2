@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: omid_djalili
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: omid_djalili
+  category: personas
+  difficulty: 0
+  answer: Omid Djalili
+  acceptedAnswers:
+  - Omid Djalili
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2004 y 2015 y recorren g\xE9neros
+    como comedia, drama y familiar."
+  - "Form\xF3 parte del elenco de \xABShaun the Sheep Movie\xBB, una pel\xEDcula
+    de 2015 dirigida por Mark Burton."
+  - "Su papel en \xABSky Captain and the World of Tomorrow\xBB fue el de Kaji."
+  - "Dio vida a Guru Satchabigknoba en \xABThe Love Guru\xBB."
+  - "Es la persona que encarn\xF3 a Guru Satchabigknoba en \xABThe Love Guru\xBB
+    y a Saleem Malik en \xABMr. Nice\xBB."

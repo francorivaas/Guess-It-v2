@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: john_cafferty_and_the_beaver_brown_band
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: john_cafferty_and_the_beaver_brown_band
+  category: bandas musicales
+  difficulty: 0
+  answer: John Cafferty & the Beaver Brown Band
+  acceptedAnswers:
+  - John Cafferty & the Beaver Brown Band
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABRunaround Sue\xBB, de 1983, y llega hasta
+    1993."
+  - "\xABNYC Song\xBB presenta una energ\xEDa media y un pulso cercano a 120 BPM."
+  - "Entre sus grabaciones figuran \xABRunnin' Thru The Fire\xBB y \xABGarden Of
+    Eden\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABSleep Walk\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABOn The Dark Side\xBB y \xABTender Years\xBB."

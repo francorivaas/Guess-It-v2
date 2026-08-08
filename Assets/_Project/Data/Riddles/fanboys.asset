@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fanboys
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fanboys
+  category: peliculas
+  difficulty: 0
+  answer: Fanboys
+  acceptedAnswers:
+  - Fanboys
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Estados Unidos; combina aventura y una
+    fecha de estreno dentro de los a\xF1os 2000. La direcci\xF3n est\xE1 acreditada
+    a Kyle Newman."
+  - "Tiene una duraci\xF3n aproximada de 90 minutos y recibi\xF3 la clasificaci\xF3n
+    PG-13. Entre sus int\xE9rpretes figura Dan Fogler."
+  - "El a\xF1o 2009 y el sello The Weinstein Company forman parte de sus datos de
+    producci\xF3n. El guion incluye un cr\xE9dito para Ernest Cline."
+  - "Kyle Newman estuvo a cargo de la direcci\xF3n, con Dan Fogler al frente del
+    elenco."
+  - "Producci\xF3n de aventura estrenada en 2009: direcci\xF3n de Kyle Newman y actuaciones
+    de Dan Fogler, con guion de Ernest Cline."

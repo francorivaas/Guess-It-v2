@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: benjamin_ingrosso
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: benjamin_ingrosso
+  category: bandas musicales
+  difficulty: 0
+  answer: Benjamin Ingrosso
+  acceptedAnswers:
+  - Benjamin Ingrosso
+  hints:
+  - "Su perfil sonoro combina m\xFAsica sueca y deep house con un equilibrio entre
+    energ\xEDa, ritmo y melod\xEDa."
+  - "Entre sus lanzamientos aparece \xABWorld Of Walker\xBB."
+  - "Ha compartido cr\xE9ditos de interpretaci\xF3n con Norlie & KKV y Alan Walker."
+  - "Las referencias directas son \xABMan On The Moon\xBB y \xABSmile\xBB."
+  - "Artista o grupo detr\xE1s de \xABMan On The Moon\xBB, \xABSmile\xBB y \xABBlack
+    & Blue\xBB."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: howard_deutch
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: howard_deutch
+  category: personas
+  difficulty: 0
+  answer: Howard Deutch
+  acceptedAnswers:
+  - Howard Deutch
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1986 y 2008 y se concentra sobre
+    todo en comedia y drama."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABArticle 99\xBB, vinculada a Estados
+    Unidos."
+  - "La asociaci\xF3n con \xABThe Whole Ten Yards\xBB se completa con otro cr\xE9dito
+    en \xABThe Replacements\xBB."
+  - "La filmograf\xEDa apunta con claridad a \xABPretty in Pink\xBB y \xABThe Replacements\xBB."
+  - "Persona con cr\xE9ditos de direcci\xF3n en \xABPretty in Pink\xBB, \xABThe Replacements\xBB
+    y \xABThe Whole Ten Yards\xBB."

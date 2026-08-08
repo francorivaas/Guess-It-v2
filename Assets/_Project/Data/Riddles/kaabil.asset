@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kaabil
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kaabil
+  category: peliculas
+  difficulty: 0
+  answer: Kaabil
+  acceptedAnswers:
+  - Kaabil
+  hints:
+  - "Combina un estreno de 2017 con di\xE1logos originalmente en hindi."
+  - "Su combinaci\xF3n de g\xE9neros incluye acci\xF3n, crimen y romance; la producci\xF3n
+    se vincula con India."
+  - "Detr\xE1s de la c\xE1mara estuvo Sanjay Gupta."
+  - En el reparto, Hrithik Roshan da vida a Rohan Bhatnagar y Yami Gautam a Sue Bhatnagar.
+  - En esta cinta de 2017 coinciden Hrithik Roshan como Rohan Bhatnagar, Yami Gautam
+    como Sue Bhatnagar y Ronit Roy.

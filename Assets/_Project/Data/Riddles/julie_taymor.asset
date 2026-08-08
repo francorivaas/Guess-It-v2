@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: julie_taymor
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: julie_taymor
+  category: personas
+  difficulty: 0
+  answer: Julie Taymor
+  acceptedAnswers:
+  - Julie Taymor
+  hints:
+  - "Su trabajo se reparte entre drama y comedia a lo largo de un per\xEDodo que
+    va entre 1999 y 2010."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABThe Tempest\xBB, vinculada a
+    Estados Unidos y Reino Unido."
+  - "Tambi\xE9n est\xE1 vinculada a \xABTitus\xBB y \xABFrida\xBB."
+  - "La filmograf\xEDa apunta con claridad a \xABAcross the Universe\xBB y \xABFrida\xBB."
+  - "Persona con cr\xE9ditos de direcci\xF3n y guion en \xABAcross the Universe\xBB,
+    \xABFrida\xBB y \xABTitus\xBB."

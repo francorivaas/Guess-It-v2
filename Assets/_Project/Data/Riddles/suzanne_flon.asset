@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: suzanne_flon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: suzanne_flon
+  category: personas
+  difficulty: 0
+  answer: Suzanne Flon
+  acceptedAnswers:
+  - Suzanne Flon
+  hints:
+  - "Trabaj\xF3 en producciones de drama, crimen y misterio a lo largo del per\xEDodo
+    entre 1952 y 2001."
+  - "Particip\xF3 en \xABThe Trial\xBB, dirigida por Orson Welles y estrenada en
+    1962."
+  - "En \xABThe Train\xBB interpret\xF3 a Mademoiselle Villard."
+  - "Su papel en \xABMr. Arkadin\xBB fue el de Baroness Nagel."
+  - "Interpret\xF3 a Baroness Nagel en \xABMr. Arkadin\xBB y a Cognata en \xABOne
+    Deadly Summer\xBB."

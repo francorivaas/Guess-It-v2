@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_charlie_daniels_band
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_charlie_daniels_band
+  category: bandas musicales
+  difficulty: 0
+  answer: The Charlie Daniels Band
+  acceptedAnswers:
+  - The Charlie Daniels Band
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABThe Legend Of Wooley Swamp\xBB, de 1973,
+    y llega hasta 2004."
+  - "\xABThe South's Gonna Do It Again\xBB presenta una energ\xEDa media y un pulso
+    cercano a 133 BPM."
+  - "Entre sus grabaciones figuran \xAB(What This World Needs Is) A Few More Rednecks\xBB
+    y \xABDrinkin' My Baby Goodbye\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABLong Haired Country Boy\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABThe Devil Went Down to Georgia\xBB y
+    \xABSimple Man\xBB."

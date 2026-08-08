@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: in_good_company
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: in_good_company
+  category: peliculas
+  difficulty: 0
+  answer: In Good Company
+  acceptedAnswers:
+  - In Good Company
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Estados Unidos; combina comedia y una
+    fecha de estreno dentro de los a\xF1os 2000. La direcci\xF3n est\xE1 acreditada
+    a Paul Weitz."
+  - "El montaje final se extiende unos 109 minutos y aparece catalogado con la se\xF1al
+    PG-13. Entre sus int\xE9rpretes figura Dennis Quaid."
+  - "El a\xF1o 2004 y el sello Universal Pictures forman parte de sus datos de producci\xF3n.
+    El guion incluye un cr\xE9dito para Paul Weitz."
+  - "Paul Weitz estuvo a cargo de la direcci\xF3n, con Dennis Quaid al frente del
+    elenco."
+  - "La respuesta es la cinta de 2004 que Paul Weitz dirigi\xF3 con Dennis Quaid
+    como int\xE9rpretes destacados, con guion de Paul Weitz."

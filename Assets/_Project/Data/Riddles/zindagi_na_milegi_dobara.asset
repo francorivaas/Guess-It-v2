@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: zindagi_na_milegi_dobara
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: zindagi_na_milegi_dobara
+  category: peliculas
+  difficulty: 0
+  answer: Zindagi Na Milegi Dobara
+  acceptedAnswers:
+  - Zindagi Na Milegi Dobara
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de India, estrenada en los a\xF1os
+    2010 y clasificada como comedia y drama. La direcci\xF3n est\xE1 acreditada a
+    Zoya Akhtar."
+  - "Su duraci\xF3n ronda los 154 minutos; la clasificaci\xF3n registrada es TV-PG."
+  - "El a\xF1o 2011 y el sello Eros Worldwide forman parte de sus datos de producci\xF3n."
+  - "La dirigi\xF3 Zoya Akhtar; en el reparto aparecen Hrithik Roshan y Abhay Deol."
+  - "Pel\xEDcula de 2011 dirigida por Zoya Akhtar, con Hrithik Roshan, Abhay Deol
+    y Farhan Akhtar en el reparto, con guion de Farhan Akhtar."

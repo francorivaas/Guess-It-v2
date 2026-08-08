@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: princess_diana
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: princess_diana
+  category: personas
+  difficulty: 1
+  answer: Princesa Diana
+  acceptedAnswers:
+  - Princesa Diana
+  - lady di
+  - diana spencer
+  hints:
+  - "Su etapa de mayor influencia se desarroll\xF3 en las d\xE9cadas de 1980 y 1990."
+  - "Naci\xF3 en Reino Unido y orient\xF3 su trabajo hacia realeza y trabajo humanitario."
+  - "Entre sus logros sobresale modernizar la imagen p\xFAblica de la monarqu\xEDa
+    brit\xE1nica."
+  - "Tambi\xE9n qued\xF3 estrechamente relacionado con su matrimonio con el pr\xEDncipe
+    Carlos y su muerte en Par\xEDs."
+  - "Su perfil re\xFAne realeza y trabajo humanitario, modernizar la imagen p\xFAblica
+    de la monarqu\xEDa brit\xE1nica y su matrimonio con el pr\xEDncipe Carlos y su
+    muerte en Par\xEDs."

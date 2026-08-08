@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: k_z_ltepe
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: k_z_ltepe
+  category: lugares
+  difficulty: 1
+  answer: "K\u0131z\u0131ltepe"
+  acceptedAnswers:
+  - "K\u0131z\u0131ltepe"
+  - Kiziltepe
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 37,19 grados del ecuador."
+  - "Su poblaci\xF3n registrada se aproxima a 252.700 habitantes y pertenece a Mardin."
+  - "Cumple una funci\xF3n de capital local dentro de Mardin. Se halla aproximadamente
+    a 37,2\xB0 norte."
+  - "Se encuentra en Turqu\xEDa, dentro de Mardin, con una poblaci\xF3n cercana a
+    253 mil."
+  - "En Turqu\xEDa, dentro de Mardin, esta ciudad de unos 253 mil est\xE1 cerca de
+    37,2\xB0 norte y 40,6\xB0 este."

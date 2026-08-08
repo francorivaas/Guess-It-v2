@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: stuck_on_you
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: stuck_on_you
+  category: peliculas
+  difficulty: 0
+  answer: Stuck on You
+  acceptedAnswers:
+  - Stuck on You
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Estados Unidos; combina comedia y una
+    fecha de estreno dentro de los a\xF1os 2000. Entre sus int\xE9rpretes figura
+    Matt Damon."
+  - "Tiene una duraci\xF3n aproximada de 118 minutos y recibi\xF3 la clasificaci\xF3n
+    PG-13. La direcci\xF3n est\xE1 acreditada a Bobby Farrelly."
+  - "El a\xF1o 2003 y el sello Twentieth Century Fox forman parte de sus datos de
+    producci\xF3n."
+  - "La dirigi\xF3 Bobby Farrelly y su figura principal es Matt Damon."
+  - Cinta de Estados Unidos lanzada en 2003, dirigida por Bobby Farrelly y encabezada
+    por Matt Damon, con guion de Charles B. Wessler.

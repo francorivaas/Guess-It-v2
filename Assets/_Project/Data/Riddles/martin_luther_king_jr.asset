@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: martin_luther_king_jr
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: martin_luther_king_jr
+  category: personas
+  difficulty: 0
+  answer: Martin Luther King Jr.
+  acceptedAnswers:
+  - Martin Luther King Jr.
+  - martin luther king
+  - martin luther king jr
+  hints:
+  - "Su etapa de mayor influencia transcurri\xF3 en las d\xE9cadas de 1950 y 1960."
+  - "Naci\xF3 en Estados Unidos y orient\xF3 su trabajo hacia derechos civiles."
+  - "Su carrera cambi\xF3 de escala gracias a liderar protestas no violentas contra
+    la segregaci\xF3n."
+  - "Otra referencia clave para reconocerlo es un discurso sobre un sue\xF1o pronunciado
+    en Washington."
+  - "Su legado combina liderar protestas no violentas contra la segregaci\xF3n con
+    un discurso sobre un sue\xF1o pronunciado en Washington."

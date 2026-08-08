@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: space_cowboys
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: space_cowboys
+  category: peliculas
+  difficulty: 2
+  answer: Space Cowboys
+  acceptedAnswers:
+  - Space Cowboys
+  hints:
+  - "Se estren\xF3 en 2000, dura cerca de 130 minutos y tuvo producci\xF3n de Estados
+    Unidos. Entre sus g\xE9neros tambi\xE9n figura suspenso."
+  - "Combina acci\xF3n y aventura; una de sus productoras fue Village Roadshow Pictures.
+    El guion acredita a Ken Kaufman."
+  - "La dirigi\xF3 Clint Eastwood, con James Garner en un papel del reparto."
+  - En el elenco aparecen Tommy Lee Jones y Donald Sutherland.
+  - "Clint Eastwood encabeza esta pel\xEDcula de acci\xF3n, dirigida por Clint Eastwood
+    y estrenada en 2000."

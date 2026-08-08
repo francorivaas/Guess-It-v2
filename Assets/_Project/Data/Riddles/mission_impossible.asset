@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mission_impossible
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mission_impossible
+  category: peliculas
+  difficulty: 0
+  answer: "Misi\xF3n: Imposible"
+  acceptedAnswers:
+  - "Misi\xF3n: Imposible"
+  - 'Mision: Imposible'
+  - mision imposible
+  - mission impossible
+  hints:
+  - "Su contexto de estreno fue 1996; es una pel\xEDcula de espionaje y acci\xF3n
+    realizada en Estados Unidos."
+  - "La realizaci\xF3n fue encabezada por Brian De Palma."
+  - "La narraci\xF3n se apoya especialmente en Ethan Hunt, Jim Phelps y Claire."
+  - "El relato se construye a partir de un agente acusado de traici\xF3n intenta
+    descubrir al verdadero responsable."
+  - "Se la reconoce de inmediato por una infiltraci\xF3n silenciosa obliga al protagonista
+    a quedar suspendido sobre una sala."

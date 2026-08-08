@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jim_wynorski
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jim_wynorski
+  category: personas
+  difficulty: 1
+  answer: Jim Wynorski
+  acceptedAnswers:
+  - Jim Wynorski
+  hints:
+  - "Es una figura del cine cuya actividad registrada se extiende entre 1988 y 1990
+    y toca principalmente comedia y acci\xF3n."
+  - "La pel\xEDcula \xABThe Haunting of Morella\xBB forma parte de una carrera conectada
+    con Estados Unidos."
+  - "Tambi\xE9n est\xE1 vinculada a \xABThe Haunting of Morella\xBB y \xABNot of
+    This Earth\xBB."
+  - "Los t\xEDtulos \xABThe Return of Swamp Thing\xBB y \xABNot of This Earth\xBB
+    ofrecen las pistas m\xE1s directas."
+  - "Persona con cr\xE9ditos de direcci\xF3n en \xABThe Return of Swamp Thing\xBB,
+    \xABNot of This Earth\xBB y \xABThe Haunting of Morella\xBB."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sympathy_for_mr_vengeance
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sympathy_for_mr_vengeance
+  category: peliculas
+  difficulty: 0
+  answer: Sympathy for Mr. Vengeance
+  acceptedAnswers:
+  - Sympathy for Mr. Vengeance
+  hints:
+  - "Es una producci\xF3n de Corea del Sur de la d\xE9cada de 2000, vinculada al
+    g\xE9nero de crimen."
+  - "El montaje final se extiende unos 129 minutos y aparece catalogado con la se\xF1al
+    R. La direcci\xF3n est\xE1 acreditada a Park Chan-Wook."
+  - "Se estren\xF3 en 2002 y estuvo asociada a la compa\xF1\xEDa CJ Entertainment."
+  - "Park Chan-Wook estuvo a cargo de la direcci\xF3n, con Kang-ho Song al frente
+    del elenco."
+  - "Producci\xF3n de crimen estrenada en 2002: direcci\xF3n de Park Chan-Wook y
+    actuaciones de Kang-ho Song, con guion de Myeong-chan Park."

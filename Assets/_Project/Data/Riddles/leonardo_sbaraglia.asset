@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: leonardo_sbaraglia
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: leonardo_sbaraglia
+  category: personas
+  difficulty: 1
+  answer: Leonardo Sbaraglia
+  acceptedAnswers:
+  - Leonardo Sbaraglia
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1995 y 2017 y recorren g\xE9neros
+    como drama, crimen y acci\xF3n."
+  - "Form\xF3 parte del elenco de \xABDiary of a Nymphomaniac\xBB, una pel\xEDcula
+    de 2008 dirigida por Christian Molina."
+  - "Su papel en \xABIntacto\xBB fue el de Tom\xE1s."
+  - "Dio vida a Marcos en \xABBlack Snow\xBB."
+  - "Es la persona que encarn\xF3 a Marcos en \xABBlack Snow\xBB y a El Nene en \xABBurnt
+    Money\xBB."

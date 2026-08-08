@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: e_m_forster
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: e_m_forster
+  category: personas
+  difficulty: 0
+  answer: E.M. Forster
+  acceptedAnswers:
+  - E.M. Forster
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1984 y 1992 y se concentra sobre
+    todo en drama y cine cl\xE1sico."
+  - "La pel\xEDcula \xABWhere Angels Fear to Tread\xBB forma parte de una carrera
+    conectada con Reino Unido y Jap\xF3n."
+  - "Tambi\xE9n est\xE1 vinculada a \xABA Passage to India\xBB y \xABHowards End\xBB."
+  - "Los t\xEDtulos \xABA Room with a View\xBB y \xABHowards End\xBB ofrecen las
+    pistas m\xE1s directas."
+  - "La identidad buscada re\xFAne cr\xE9ditos de guion en \xABA Room with a View\xBB,
+    \xABHowards End\xBB y \xABA Passage to India\xBB."

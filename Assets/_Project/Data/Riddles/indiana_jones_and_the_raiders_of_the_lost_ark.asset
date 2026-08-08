@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: indiana_jones_and_the_raiders_of_the_lost_ark
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: indiana_jones_and_the_raiders_of_the_lost_ark
+  category: peliculas
+  difficulty: 0
+  answer: Indiana Jones and the Raiders of the Lost Ark
+  acceptedAnswers:
+  - Indiana Jones and the Raiders of the Lost Ark
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 1980 y clasificada como acci\xF3n y aventura y cine infantil y familiar."
+  - "Tiene una duraci\xF3n aproximada de 116 minutos y recibi\xF3 la clasificaci\xF3n
+    PG."
+  - "El a\xF1o 1981 y el sello Paramount Pictures forman parte de sus datos de producci\xF3n."
+  - "La c\xE1mara de Steven Spielberg trabaja con actuaciones de Harrison Ford y
+    Karen Allen."
+  - "Producci\xF3n de acci\xF3n y aventura y cine infantil y familiar estrenada en
+    1981: direcci\xF3n de Steven Spielberg y actuaciones de Harrison Ford, Karen
+    Allen y Paul Freeman, con guion de Lawrence Kasdan."

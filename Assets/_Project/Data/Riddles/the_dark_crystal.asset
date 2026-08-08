@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_dark_crystal
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_dark_crystal
+  category: peliculas
+  difficulty: 0
+  answer: The Dark Crystal
+  acceptedAnswers:
+  - The Dark Crystal
+  hints:
+  - "Es una producci\xF3n de 1982 con una duraci\xF3n aproximada de 93 minutos."
+  - "Mezcla fantas\xEDa y fue producida en Reino Unido y Estados Unidos."
+  - "Jim Henson firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Jen, interpretado por Jim Henson, y Kira, a cargo
+    de Kathryn Mullen.
+  - En esta cinta de 1982 coinciden Jim Henson como Jen, Kathryn Mullen como Kira
+    y Frank Oz como Aughra, A Keeper Of Secrets / Chamberlain.

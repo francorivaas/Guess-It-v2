@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: a_summer_story
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: a_summer_story
+  category: peliculas
+  difficulty: 2
+  answer: A Summer Story
+  acceptedAnswers:
+  - A Summer Story
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1980 dura cerca de 95 minutos."
+  - "El relato pertenece a romance y drama, con participaci\xF3n productiva de Reino
+    Unido."
+  - "Piers Haggard firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, James Wilby da vida a Mr. Ashton y Imogen Stubbs a Megan David.
+  - "Piers Haggard dirige a James Wilby como Mr. Ashton, Imogen Stubbs como Megan
+    David y Susannah York como Mrs. Narracombe en esta pel\xEDcula de 1988."

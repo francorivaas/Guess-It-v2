@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: street_kings
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: street_kings
+  category: peliculas
+  difficulty: 2
+  answer: Street Kings
+  acceptedAnswers:
+  - Street Kings
+  hints:
+  - "Se estren\xF3 en 2008, dura cerca de 109 minutos y tuvo producci\xF3n de Estados
+    Unidos. Entre sus g\xE9neros tambi\xE9n figura drama."
+  - "Combina acci\xF3n y crimen; una de sus productoras fue Fox Searchlight Pictures."
+  - "La dirigi\xF3 David Ayer, con Hugh Laurie en un papel del reparto."
+  - En el elenco aparecen Forest Whitaker y Chris Evans.
+  - "Keanu Reeves encabeza esta pel\xEDcula de acci\xF3n, dirigida por David Ayer
+    y estrenada en 2008."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: wolfgang_amadeus_mozart
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: wolfgang_amadeus_mozart
+  category: personas
+  difficulty: 1
+  answer: Wolfgang Amadeus Mozart
+  acceptedAnswers:
+  - Wolfgang Amadeus Mozart
+  - mozart
+  hints:
+  - "Su etapa de mayor influencia se sit\xFAa en el siglo XVIII."
+  - "Naci\xF3 en Austria y orient\xF3 su trabajo hacia m\xFAsica cl\xE1sica."
+  - "Se lo recuerda especialmente por componer desde ni\xF1o \xF3peras, sinfon\xEDas
+    y conciertos de enorme influencia."
+  - "Su historia suele asociarse directamente con La flauta m\xE1gica, Don Giovanni
+    y un R\xE9quiem inconcluso."
+  - "Quien encaja en estas pistas destac\xF3 por La flauta m\xE1gica, Don Giovanni
+    y un R\xE9quiem inconcluso."

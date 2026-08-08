@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: problem_child
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: problem_child
+  category: peliculas
+  difficulty: 1
+  answer: Problem Child
+  acceptedAnswers:
+  - Problem Child
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 1990, dentro de comedia. La direcci\xF3n est\xE1 acreditada a Dennis Dugan."
+  - "Tiene una duraci\xF3n aproximada de 81 minutos y recibi\xF3 la clasificaci\xF3n
+    PG."
+  - "Se estren\xF3 en 1990 y estuvo asociada a la compa\xF1\xEDa Universal Pictures.
+    Entre sus int\xE9rpretes figura Michael Oliver."
+  - "Dennis Dugan estuvo a cargo de la direcci\xF3n, con Michael Oliver al frente
+    del elenco."
+  - Cinta de Estados Unidos lanzada en 1990, dirigida por Dennis Dugan y encabezada
+    por Michael Oliver, con guion de Scott Alexander.

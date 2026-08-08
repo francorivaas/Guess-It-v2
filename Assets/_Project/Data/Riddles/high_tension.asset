@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: high_tension
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: high_tension
+  category: peliculas
+  difficulty: 2
+  answer: High Tension
+  acceptedAnswers:
+  - High Tension
+  - Haute tension
+  hints:
+  - "Se estren\xF3 en 2003, dura cerca de 91 minutos y tuvo producci\xF3n de Francia."
+  - Combina terror y suspenso; una de sus productoras fue Alexandre Films.
+  - "La dirigi\xF3 Alexandre Aja, con Franck Khalfoun en un papel del reparto."
+  - "En el elenco aparecen Ma\xEFwenn y Philippe Nahon."
+  - "C\xE9cile de France encabeza esta pel\xEDcula de terror, dirigida por Alexandre
+    Aja y estrenada en 2003."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jackson_pollock
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jackson_pollock
+  category: personas
+  difficulty: 1
+  answer: Jackson Pollock
+  acceptedAnswers:
+  - Jackson Pollock
+  hints:
+  - "El per\xEDodo decisivo de su vida p\xFAblica se sit\xFAa en la primera mitad
+    del siglo XX."
+  - "Naci\xF3 en Estados Unidos y orient\xF3 su trabajo hacia pintura."
+  - "Una contribuci\xF3n central fue desarrollar una t\xE9cnica gestual vertiendo
+    pintura sobre lienzos en el suelo."
+  - El dato que reduce mucho las opciones es salpicaduras, movimientos corporales
+    y el expresionismo abstracto.
+  - La persona buscada es la gran referencia de pintura asociada a salpicaduras,
+    movimientos corporales y el expresionismo abstracto.

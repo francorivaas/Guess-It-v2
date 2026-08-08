@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: karan_soni
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: karan_soni
+  category: personas
+  difficulty: 0
+  answer: Karan Soni
+  acceptedAnswers:
+  - Karan Soni
+  hints:
+  - "En Safety Not Guaranteed interpret\xF3 a Arnau, en una pel\xEDcula estrenada
+    en 2012."
+  - "Su carrera en cine abarca de 2012 a 2016 y recorre acci\xF3n y aventura. Entre
+    sus pel\xEDculas figura Safety Not Guaranteed."
+  - "Comparti\xF3 reparto con Jack Black en Goosebumps."
+  - "En Ghostbusters interpret\xF3 a Benny."
+  - Aparece en Deadpool y Goosebumps.

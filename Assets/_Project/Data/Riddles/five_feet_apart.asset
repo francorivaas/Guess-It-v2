@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: five_feet_apart
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: five_feet_apart
+  category: peliculas
+  difficulty: 0
+  answer: Five Feet Apart
+  acceptedAnswers:
+  - Five Feet Apart
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 2010 y clasificada como drama. La direcci\xF3n est\xE1 acreditada a Justin
+    Baldoni."
+  - "Tiene una duraci\xF3n aproximada de 116 minutos y recibi\xF3 la clasificaci\xF3n
+    PG-13."
+  - "La producci\xF3n lleg\xF3 en 2019 bajo la participaci\xF3n de CBS Films."
+  - "Justin Baldoni estuvo a cargo de la direcci\xF3n, con Haley Lu Richardson al
+    frente del elenco."
+  - "Pel\xEDcula de 2019 dirigida por Justin Baldoni, con Haley Lu Richardson en
+    el reparto, con guion de Mikki Daughtry."

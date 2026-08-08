@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: trinix
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: trinix
+  category: bandas musicales
+  difficulty: 0
+  answer: Trinix
+  acceptedAnswers:
+  - Trinix
+  hints:
+  - "Antes de mirar los t\xEDtulos, conviene pensar en m\xFAsica francesa y house
+    y en un pulso claramente bailable."
+  - "Entre sus lanzamientos aparece \xABShe Said (Big Jet Plane)\xBB."
+  - "Ha compartido cr\xE9ditos de interpretaci\xF3n con Queen D y Holly Henry."
+  - "Las referencias directas son \xABShe Said (Big Jet Plane)\xBB y \xABNow or Never\xBB."
+  - "Artista o grupo detr\xE1s de \xABShe Said (Big Jet Plane)\xBB, \xABNow or Never\xBB
+    y \xABSweet Dreams\xBB."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: coal_miner_s_daughter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: coal_miner_s_daughter
+  category: peliculas
+  difficulty: 1
+  answer: Coal Miner's Daughter
+  acceptedAnswers:
+  - Coal Miner's Daughter
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 1980, dentro de biograf\xEDa. La direcci\xF3n est\xE1 acreditada a Michael
+    Apted."
+  - "Su duraci\xF3n ronda los 124 minutos; la clasificaci\xF3n registrada es PG."
+  - "La producci\xF3n lleg\xF3 en 1980 bajo la participaci\xF3n de Universal Pictures.
+    Entre sus int\xE9rpretes figura Sissy Spacek."
+  - "Michael Apted estuvo a cargo de la direcci\xF3n, con Sissy Spacek al frente
+    del elenco."
+  - "Pel\xEDcula de 1980 dirigida por Michael Apted, con Sissy Spacek en el reparto,
+    con guion de Thomas Rickman."

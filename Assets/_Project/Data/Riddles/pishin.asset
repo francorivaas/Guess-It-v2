@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pishin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pishin
+  category: lugares
+  difficulty: 0
+  answer: Pishin
+  acceptedAnswers:
+  - Pishin
+  hints:
+  - "Se ubica en el hemisferio norte y queda al este de Greenwich. Queda aproximadamente
+    a 3.405 kil\xF3metros del ecuador."
+  - "Forma parte de Asia y su poblaci\xF3n ronda los 108.000 habitantes."
+  - "El punto urbano aparece cerca de 30.6\xB0 norte, 67.0\xB0 este."
+  - "La divisi\xF3n administrativa es Balochistan y el pa\xEDs es Pakist\xE1n."
+  - "Ciudad de Pakist\xE1n que funciona como capital local en Balochistan y re\xFAne
+    cerca de 108.000 habitantes."

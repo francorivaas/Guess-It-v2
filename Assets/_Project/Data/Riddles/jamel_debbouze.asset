@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jamel_debbouze
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jamel_debbouze
+  category: personas
+  difficulty: 0
+  answer: Jamel Debbouze
+  acceptedAnswers:
+  - Jamel Debbouze
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 2001 y 2012, especialmente dentro
+    de comedia, drama y romance."
+  - "Uno de sus trabajos fue \xABAm\xE9lie\xBB (2001), bajo la direcci\xF3n de Jean-Pierre
+    Jeunet."
+  - "En \xABHOUBA! On the Trail of the Marsupilami\xBB interpret\xF3 a Pablito Camaron."
+  - "Su papel en \xABHollywoo\xBB fue el de Farres."
+  - "Interpret\xF3 a Farres en \xABHollywoo\xBB y a Andr\xE9 en \xABAngel-A\xBB."

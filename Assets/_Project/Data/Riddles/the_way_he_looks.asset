@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_way_he_looks
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_way_he_looks
+  category: peliculas
+  difficulty: 0
+  answer: The Way He Looks
+  acceptedAnswers:
+  - The Way He Looks
+  - Hoje Eu Quero Voltar Sozinho
+  hints:
+  - "Su metraje se acerca a 100 minutos y corresponde al a\xF1o 2014."
+  - "Entre sus compa\xF1\xEDas figura Lacuna Filmes; sus g\xE9neros principales son
+    drama y romance."
+  - "Detr\xE1s de la c\xE1mara estuvo Daniel Ribeiro."
+  - "Dos personajes centrales son Leonardo, interpretado por Ghilherme Lobo, y Gabriel,
+    a cargo de F\xE1bio Audi."
+  - "Daniel Ribeiro dirige a Ghilherme Lobo como Leonardo, F\xE1bio Audi como Gabriel
+    y Selma Egrei como Maria en esta pel\xEDcula de 2014."

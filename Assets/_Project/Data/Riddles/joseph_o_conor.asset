@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: joseph_o_conor
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: joseph_o_conor
+  category: personas
+  difficulty: 1
+  answer: Joseph O'Conor
+  acceptedAnswers:
+  - Joseph O'Conor
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1961 y 1994, con presencia frecuente
+    en drama, acci\xF3n y terror."
+  - "Particip\xF3 en \xABOliver!\xBB, dirigida por Carol Reed y estrenada en 1968."
+  - "Dio vida a Coroner en \xABThe Gorgon\xBB."
+  - "Su papel en \xABAnne of the Thousand Days\xBB fue el de Bishop Fisher."
+  - "Sus papeles incluyen a Bishop Fisher en \xABAnne of the Thousand Days\xBB y
+    a Prof. Hendricks en \xABGorgo\xBB."

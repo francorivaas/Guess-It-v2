@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: leonardo_dicaprio
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: leonardo_dicaprio
+  category: personas
+  difficulty: 0
+  answer: Leonardo DiCaprio
+  acceptedAnswers:
+  - Leonardo DiCaprio
+  hints:
+  - "Su etapa de mayor influencia se sit\xFAa desde la d\xE9cada de 1990."
+  - "Procedente de Estados Unidos, destac\xF3 en actuaci\xF3n."
+  - "Un aspecto decisivo de su legado fue protagonizar grandes producciones y ganar
+    un \xD3scar por supervivencia."
+  - "Su identidad p\xFAblica resulta inseparable de Titanic, El origen y El renacido."
+  - Es la figura de Estados Unidos vinculada a Titanic, El origen y El renacido.

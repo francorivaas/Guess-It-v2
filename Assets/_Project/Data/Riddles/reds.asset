@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: reds
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: reds
+  category: peliculas
+  difficulty: 1
+  answer: Reds
+  acceptedAnswers:
+  - Reds
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Estados Unidos; combina biograf\xEDa
+    y una fecha de estreno dentro de los a\xF1os 1980. La direcci\xF3n est\xE1 acreditada
+    a Warren Beatty."
+  - "Su duraci\xF3n ronda los 195 minutos; la clasificaci\xF3n registrada es PG."
+  - "Se estren\xF3 en 1981 y estuvo asociada a la compa\xF1\xEDa Barclays Mercantile
+    Industrial Finance."
+  - "La dirigi\xF3 Warren Beatty y su figura principal es Warren Beatty. Entre sus
+    int\xE9rpretes figura Warren Beatty."
+  - "Pel\xEDcula de 1981 dirigida por Warren Beatty, con Warren Beatty en el reparto,
+    con guion de Warren Beatty."

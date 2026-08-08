@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: zahrah_s_khan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: zahrah_s_khan
+  category: bandas musicales
+  difficulty: 0
+  answer: Zahrah S Khan
+  acceptedAnswers:
+  - Zahrah S Khan
+  hints:
+  - "En sus grabaciones destaca una energ\xEDa sonora alta, dentro de un repertorio
+    relacionado con pop y hip hop."
+  - "Entre sus lanzamientos aparece \xABSakhiyan2.0 - BellBottom\xBB."
+  - En algunas pistas aparece junto a Tanishk Bagchi y Maninder Buttar.
+  - "El repertorio se vuelve claro con \xABKusu Kusu (From \"Satyameva Jayate 2\")\xBB
+    junto a \xABThe Punjaabban Song (From \"Jugjugg Jeeyo\")\xBB."
+  - "La respuesta es el nombre que firma \xABKusu Kusu (From \"Satyameva Jayate 2\")\xBB,
+    \xABThe Punjaabban Song (From \"Jugjugg Jeeyo\")\xBB y \xABSakhiyan2.0\xBB."

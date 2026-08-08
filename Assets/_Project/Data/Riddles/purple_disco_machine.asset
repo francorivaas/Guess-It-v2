@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: purple_disco_machine
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: purple_disco_machine
+  category: bandas musicales
+  difficulty: 0
+  answer: Purple Disco Machine
+  acceptedAnswers:
+  - Purple Disco Machine
+  hints:
+  - "En sus grabaciones destaca una energ\xEDa sonora alta, dentro de un repertorio
+    relacionado con deep house y house."
+  - "Uno de los \xE1lbumes asociados a este proyecto es \xABExotica\xBB."
+  - En algunas pistas aparece junto a Sophie and the Giants y Eyelar.
+  - "Las referencias directas son \xABWake Up! (feat. Kaleta)\xBB y \xABIn the Dark\xBB."
+  - "Artista o grupo detr\xE1s de \xABWake Up! (feat. Kaleta)\xBB, \xABIn the Dark\xBB
+    y \xABDopamine\xBB."

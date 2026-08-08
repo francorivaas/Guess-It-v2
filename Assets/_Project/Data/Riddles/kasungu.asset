@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kasungu
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kasungu
+  category: lugares
+  difficulty: 0
+  answer: Kasungu
+  acceptedAnswers:
+  - Kasungu
+  hints:
+  - "El mapa la sit\xFAa en el hemisferio sur, al este de Greenwich. Queda aproximadamente
+    a 1.451 kil\xF3metros del ecuador."
+  - "Est\xE1 en \xC1frica; el registro demogr\xE1fico se aproxima a 59.000 habitantes."
+  - "El punto urbano aparece cerca de 13.0\xB0 sur, 33.5\xB0 este."
+  - "Est\xE1 dentro de Malaui, aproximadamente en 13.0\xB0 sur."
+  - "Localidad urbana de Malaui situada alrededor de 13.0\xB0 sur, 33.5\xB0 este,
+    con 59.000 habitantes."

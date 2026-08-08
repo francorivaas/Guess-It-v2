@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: synecdoche_new_york
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: synecdoche_new_york
+  category: peliculas
+  difficulty: 2
+  answer: Synecdoche, New York
+  acceptedAnswers:
+  - Synecdoche, New York
+  hints:
+  - "Se estren\xF3 en 2008, dura cerca de 124 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - Combina drama; una de sus productoras fue Likely Story.
+  - "La dirigi\xF3 Charlie Kaufman, con Michelle Williams en un papel del reparto."
+  - En el elenco aparecen Samantha Morton y Jennifer Jason Leigh.
+  - "Philip Seymour Hoffman encabeza esta pel\xEDcula de drama, dirigida por Charlie
+    Kaufman y estrenada en 2008."

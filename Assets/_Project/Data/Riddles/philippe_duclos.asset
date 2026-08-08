@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: philippe_duclos
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: philippe_duclos
+  category: personas
+  difficulty: 1
+  answer: Philippe Duclos
+  acceptedAnswers:
+  - Philippe Duclos
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1995 y 2014, especialmente dentro
+    de drama, fantas\xEDa y romance."
+  - "Particip\xF3 en \xABBird People\xBB, dirigida por Pascale Ferran y estrenada
+    en 2014."
+  - "Dio vida a The Father en \xABMa M\xE8re\xBB."
+  - "Dio vida a Inspector Taurand en \xABThe Girl from Monaco\xBB."
+  - "Sus papeles incluyen a Inspector Taurand en \xABThe Girl from Monaco\xBB y a
+    Caron en \xABA Self-Made Hero\xBB."

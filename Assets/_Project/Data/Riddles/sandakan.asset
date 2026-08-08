@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sandakan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sandakan
+  category: lugares
+  difficulty: 1
+  answer: Sandakan
+  acceptedAnswers:
+  - Sandakan
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 5,83 grados del ecuador."
+  - Su escala urbana ronda los 396 mil de habitantes y se integra en Sabah.
+  - Administrativamente pertenece a Sabah. No es la capital nacional de Malasia.
+  - "Se encuentra en Malasia, dentro de Sabah, con una poblaci\xF3n cercana a 396
+    mil."
+  - "Es una ciudad de Malasia, en Sabah, situada aproximadamente en 5,8\xB0 norte
+    y 118,1\xB0 este."

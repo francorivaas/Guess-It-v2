@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jamiroquai
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jamiroquai
+  category: bandas musicales
+  difficulty: 1
+  answer: Jamiroquai
+  acceptedAnswers:
+  - Jamiroquai
+  hints:
+  - "El punto de partida estuvo en Reino Unido; la etapa decisiva lleg\xF3 desde
+    la d\xE9cada de 1990."
+  - La propuesta sonora combina acid jazz, funk y disco.
+  - "La formaci\xF3n m\xE1s recordada incluye a Jay Kay y una formaci\xF3n cambiante."
+  - "Su discograf\xEDa tiene como referencia Travelling Without Moving."
+  - "Resulta dif\xEDcil confundirla al recordar Virtual Insanity, sombreros llamativos
+    y pisos m\xF3viles en un videoclip."

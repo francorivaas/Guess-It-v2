@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mick_jagger
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mick_jagger
+  category: personas
+  difficulty: 1
+  answer: Mick Jagger
+  acceptedAnswers:
+  - Mick Jagger
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1968 y 2012, con presencia frecuente
+    en documental, m\xFAsica y drama."
+  - "Uno de sus trabajos fue \xABPerformance\xBB (1970), bajo la direcci\xF3n de
+    Nicolas Roeg."
+  - "Dio vida a Himself en \xABShine a Light\xBB."
+  - "En \xABMy Best Fiend\xBB interpret\xF3 a Himself - Wilbur (archive footage)."
+  - "Sus papeles incluyen a Himself - Wilbur (archive footage) en \xABMy Best Fiend\xBB
+    y a Himself en \xABCrossfire Hurricane\xBB."

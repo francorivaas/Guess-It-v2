@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: yoasobi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: yoasobi
+  category: bandas musicales
+  difficulty: 0
+  answer: YOASOBI
+  acceptedAnswers:
+  - YOASOBI
+  hints:
+  - "En sus grabaciones destaca una energ\xEDa sonora alta, dentro de un repertorio
+    relacionado con J-pop."
+  - "Entre sus lanzamientos aparece \xABTHE BOOK\xBB."
+  - "Entre sus colaboraciones registradas figuran \u30DF\u30C9\u30EA\u30FC\u30BA."
+  - "El repertorio se vuelve claro con \xAB\u795D\u798F\xBB junto a \xAB\u591C\u306B\u99C6\u3051\u308B\xBB."
+  - "Proyecto musical responsable de \xAB\u795D\u798F\xBB, \xAB\u591C\u306B\u99C6\u3051\u308B\xBB
+    y \xAB\u7FA4\u9752\xBB."

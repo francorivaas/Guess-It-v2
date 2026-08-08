@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sangli
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sangli
+  category: lugares
+  difficulty: 0
+  answer: "S\u0101ngli"
+  acceptedAnswers:
+  - "S\u0101ngli"
+  - sangli
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 74,58\xB0 este."
+  - "Su escala urbana ronda los 437 mil de habitantes y se integra en Mah\u0101r\u0101shtra."
+  - "No es la capital nacional de India. Su longitud geogr\xE1fica ronda los 74,58\xB0
+    este."
+  - "Pertenece a India y forma parte de Mah\u0101r\u0101shtra; supera aproximadamente
+    los 436.600 habitantes."
+  - "Es una ciudad de India, en Mah\u0101r\u0101shtra, situada aproximadamente en
+    16,9\xB0 norte y 74,6\xB0 este."

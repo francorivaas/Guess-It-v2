@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: christina_perri
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: christina_perri
+  category: bandas musicales
+  difficulty: 0
+  answer: Christina Perri
+  acceptedAnswers:
+  - Christina Perri
+  hints:
+  - "Antes de mirar los t\xEDtulos, conviene pensar en rock y dance y en un tono
+    emocional m\xE1s bien sombr\xEDo."
+  - "Entre sus lanzamientos aparece \xABA Thousand Years\xBB."
+  - Entre sus colaboraciones registradas figuran Steve Kazee y Passion Pit.
+  - "Las referencias directas son \xABA Thousand Years\xBB y \xABA Thousand Years
+    (feat. Steve Kazee) - Pt. 2; The Twilight Saga: Breaking Dawn Soundtrack\xBB."
+  - "Artista o grupo detr\xE1s de \xABA Thousand Years\xBB, \xABA Thousand Years
+    (feat. Steve Kazee) - Pt. 2; The Twilight Saga: Breaking Dawn Soundtrack\xBB
+    y \xABi'll be home for christmas\xBB."

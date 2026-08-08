@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: love_exposure
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: love_exposure
+  category: peliculas
+  difficulty: 0
+  answer: Love Exposure
+  acceptedAnswers:
+  - Love Exposure
+  hints:
+  - "Es una producci\xF3n de 2008 con una duraci\xF3n aproximada de 237 minutos."
+  - "Mezcla acci\xF3n, comedia y drama y fue producida en Jap\xF3n."
+  - "La direcci\xF3n estuvo a cargo de Sion Sono."
+  - Takahiro Nishijima interpreta a Yu Tsunoda, mientras Hikari Mitsushima encarna
+    a Yoko.
+  - "El reparto incluye a Takahiro Nishijima como Yu Tsunoda, Hikari Mitsushima como
+    Yoko y Makiko Watanabe como Kaori Fujiwara bajo la direcci\xF3n de Sion Sono."

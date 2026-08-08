@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jo_shishido
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jo_shishido
+  category: personas
+  difficulty: 2
+  answer: "J\xF4 Shishido"
+  acceptedAnswers:
+  - "J\xF4 Shishido"
+  - jo shishido
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1958 y 1977, especialmente dentro
+    de acci\xF3n, drama y crimen."
+  - "Form\xF3 parte del elenco de \xABBranded to Kill\xBB, una pel\xEDcula de 1967
+    dirigida por Seijun Suzuki."
+  - "Dio vida a Joji 'Jo' Mizuno en \xABYouth of the Beast\xBB."
+  - "En \xABGate of Flesh\xBB interpret\xF3 a Shintaro Ibuki."
+  - "Sus papeles incluyen a Shintaro Ibuki en \xABGate of Flesh\xBB y a Hideo Tajima
+    en \xABDetective Bureau 2-3: Go to Hell, Bastards!\xBB."

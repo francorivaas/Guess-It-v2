@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jung_yu_mi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jung_yu_mi
+  category: personas
+  difficulty: 1
+  answer: Jung Yu-mi
+  acceptedAnswers:
+  - Jung Yu-mi
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 2009 y 2013, especialmente dentro
+    de drama, comedia y romance."
+  - "Particip\xF3 en \xABSilenced\xBB, dirigida por Hwang Dong-hyuk y estrenada en
+    2011."
+  - "En \xABIn Another Country\xBB interpret\xF3 a Won-joo."
+  - "Su papel en \xABOki's Movie\xBB fue el de Oki."
+  - "Es la persona que encarn\xF3 a Oki en \xABOki's Movie\xBB y a Sunhi en \xABOur
+    Sunhi\xBB."

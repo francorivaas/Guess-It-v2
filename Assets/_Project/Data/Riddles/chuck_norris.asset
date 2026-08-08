@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chuck_norris
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chuck_norris
+  category: personas
+  difficulty: 2
+  answer: Chuck Norris
+  acceptedAnswers:
+  - Chuck Norris
+  hints:
+  - "Trabaj\xF3 en producciones de acci\xF3n, crimen y suspenso a lo largo del per\xEDodo
+    entre 1972 y 1991."
+  - "Particip\xF3 en \xABThe Way of the Dragon\xBB, dirigida por Bruce Lee y estrenada
+    en 1972."
+  - "Dio vida a Colt en \xABGame of Death\xBB."
+  - "Dio vida a Garret / Grogan en \xABThe Hitman\xBB."
+  - "Es la persona que encarn\xF3 a Garret / Grogan en \xABThe Hitman\xBB y a Himself
+    (archive footage) en \xABBruce Lee: The Legend\xBB."

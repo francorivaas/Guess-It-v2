@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: david_clennon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: david_clennon
+  category: personas
+  difficulty: 1
+  answer: David Clennon
+  acceptedAnswers:
+  - David Clennon
+  hints:
+  - "En Light Sleeper interpret\xF3 a Robert, en una pel\xEDcula estrenada en 1992."
+  - Su carrera en cine abarca de 1982 a 2014 y recorre misterio y suspenso.
+  - "Comparti\xF3 reparto con Harrison Ford en Extraordinary Measures."
+  - "En The Thing interpret\xF3 a Palmer."
+  - Aparece en Gone Girl y Extraordinary Measures.

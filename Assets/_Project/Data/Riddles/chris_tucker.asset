@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chris_tucker
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chris_tucker
+  category: personas
+  difficulty: 0
+  answer: Chris Tucker
+  acceptedAnswers:
+  - Chris Tucker
+  hints:
+  - "En Money Talks interpret\xF3 a Franklin Hatchett, en una pel\xEDcula estrenada
+    en 1997."
+  - Su carrera en cine abarca de 1995 a 2012 y recorre drama y comedia.
+  - "Comparti\xF3 reparto con Jackie Chan en Rush Hour 2."
+  - "En The Fifth Element interpret\xF3 a Ruby Rhod."
+  - Aparece en Silver Linings Playbook y Jackie Brown.

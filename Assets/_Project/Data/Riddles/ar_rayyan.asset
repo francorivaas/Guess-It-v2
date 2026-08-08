@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ar_rayyan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ar_rayyan
+  category: lugares
+  difficulty: 0
+  answer: "Ar Rayy\u0101n"
+  acceptedAnswers:
+  - "Ar Rayy\u0101n"
+  - Ar Rayyan
+  hints:
+  - "Se ubica en el hemisferio norte y queda al este de Greenwich. Queda aproximadamente
+    a 2.811 kil\xF3metros del ecuador."
+  - "Con cerca de 606.000 habitantes, pertenece geogr\xE1ficamente a Asia."
+  - "En un mapa se encuentra alrededor de 25.2\xB0 norte por 51.4\xB0 este."
+  - "El pa\xEDs al que pertenece es Catar y su tama\xF1o urbano ronda los 606.000
+    habitantes."
+  - "Ciudad de Catar con unos 606.000 habitantes, ubicada cerca de 25.2\xB0 norte
+    y 51.4\xB0 este."

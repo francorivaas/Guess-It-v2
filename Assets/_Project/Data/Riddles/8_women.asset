@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: 8_women
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: 8_women
+  category: peliculas
+  difficulty: 0
+  answer: 8 Women
+  acceptedAnswers:
+  - 8 Women
+  - 8 femmes
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2000 y su duraci\xF3n ronda los 111 minutos."
+  - "France 2 Cin\xE9ma particip\xF3 en una pel\xEDcula de comedia, suspenso y m\xFAsica
+    producida en Francia y Italia."
+  - "Fran\xE7ois Ozon firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Catherine Deneuve da vida a Gaby y Isabelle Huppert a Augustine.
+  - "Fran\xE7ois Ozon dirige a Catherine Deneuve como Gaby, Isabelle Huppert como
+    Augustine y Emmanuelle B\xE9art como Louise en esta pel\xEDcula de 2002."

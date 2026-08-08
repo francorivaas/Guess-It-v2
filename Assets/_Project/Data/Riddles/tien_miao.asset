@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tien_miao
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tien_miao
+  category: personas
+  difficulty: 2
+  answer: Tien Miao
+  acceptedAnswers:
+  - Tien Miao
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1993 y 2003 y recorren g\xE9neros
+    como drama, romance y cine extranjero."
+  - "Uno de sus trabajos fue \xABWhat Time Is It There?\xBB (2001), bajo la direcci\xF3n
+    de Tsai Ming-liang."
+  - "Su papel en \xABRebels of the Neon God\xBB fue el de Father."
+  - "En \xABThe Hole\xBB interpret\xF3 a The Customer at Market."
+  - "Sus papeles incluyen a The Customer at Market en \xABThe Hole\xBB y a Father
+    en \xABThe River\xBB."

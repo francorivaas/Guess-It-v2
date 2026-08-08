@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sergio_g_sanchez
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sergio_g_sanchez
+  category: personas
+  difficulty: 0
+  answer: "Sergio G. S\xE1nchez"
+  acceptedAnswers:
+  - "Sergio G. S\xE1nchez"
+  - Sergio G. Sanchez
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 2007 y 2017 y se concentra sobre
+    todo en drama."
+  - "La pel\xEDcula \xABMarrowbone\xBB forma parte de una carrera conectada con Espa\xF1a."
+  - "La asociaci\xF3n con \xABMarrowbone\xBB se completa con otro cr\xE9dito en \xABThe
+    Orphanage\xBB."
+  - "Los t\xEDtulos \xABThe Impossible\xBB y \xABThe Orphanage\xBB ofrecen las pistas
+    m\xE1s directas."
+  - "Figura cinematogr\xE1fica asociada mediante guion y direcci\xF3n a \xABThe Impossible\xBB,
+    \xABThe Orphanage\xBB y \xABMarrowbone\xBB."

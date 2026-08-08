@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: adam_driver
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: adam_driver
+  category: personas
+  difficulty: 2
+  answer: Adam Driver
+  acceptedAnswers:
+  - Adam Driver
+  hints:
+  - "En Frances Ha interpret\xF3 a Miles, en una pel\xEDcula estrenada en 2013."
+  - "Su carrera en cine abarca de 2011 a 2016 y recorre hist\xF3rica y drama."
+  - "Comparti\xF3 reparto con Michael Shannon en Midnight Special. Otro cr\xE9dito
+    es J. Edgar."
+  - "En Inside Llewyn Davis interpret\xF3 a Al Cody."
+  - Aparece en Lincoln y J. Edgar.

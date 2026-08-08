@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: marie_christine_barrault
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: marie_christine_barrault
+  category: personas
+  difficulty: 1
+  answer: Marie-Christine Barrault
+  acceptedAnswers:
+  - Marie-Christine Barrault
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1969 y 2009, especialmente dentro
+    de drama, romance y comedia."
+  - "Form\xF3 parte del elenco de \xABMy Night at Maud's\xBB, una pel\xEDcula de
+    1969 dirigida por \xC9ric Rohmer."
+  - "Su papel en \xABDistracted\xBB fue el de Lisa Gastier."
+  - "En \xABMaking Plans for Lena\xBB interpret\xF3 a Annie."
+  - "Sus papeles incluyen a Annie en \xABMaking Plans for Lena\xBB y a Madame Verdurin
+    en \xABSwann in Love\xBB."

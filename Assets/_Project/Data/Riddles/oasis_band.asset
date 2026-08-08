@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: oasis_band
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: oasis_band
+  category: bandas musicales
+  difficulty: 0
+  answer: Oasis
+  acceptedAnswers:
+  - Oasis
+  hints:
+  - "La formaci\xF3n naci\xF3 en Reino Unido y su per\xEDodo de mayor impacto fue
+    en las d\xE9cadas de 1990 y 2000."
+  - La propuesta sonora combina britpop y rock.
+  - "La historia del grupo est\xE1 ligada a Liam Gallagher, Noel Gallagher, Paul
+    Arthurs y Paul McGuigan."
+  - Una pieza clave para ubicarla es (What's the Story) Morning Glory?.
+  - Se la identifica de inmediato por Wonderwall, Champagne Supernova y disputas
+    entre dos hermanos.

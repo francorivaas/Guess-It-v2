@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: labyrinth_of_lies
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: labyrinth_of_lies
+  category: peliculas
+  difficulty: 0
+  answer: Labyrinth of Lies
+  acceptedAnswers:
+  - Labyrinth of Lies
+  - Im Labyrinth des Schweigens
+  hints:
+  - "Es una producci\xF3n de 2014 con una duraci\xF3n aproximada de 122 minutos."
+  - "Claussen W\xF6bke Putz Filmproduktion particip\xF3 en una pel\xEDcula de drama
+    y historia producida en Alemania."
+  - "La direcci\xF3n estuvo a cargo de Giulio Ricciarelli."
+  - "Dos personajes centrales son Johann Radmann, interpretado por Alexander Fehling,
+    y Thomas Gnielka, a cargo de Andr\xE9 Szymanski."
+  - "Giulio Ricciarelli dirige a Alexander Fehling como Johann Radmann, Andr\xE9
+    Szymanski como Thomas Gnielka y Friederike Becht como Marlene Wondrak en esta
+    pel\xEDcula de 2014."

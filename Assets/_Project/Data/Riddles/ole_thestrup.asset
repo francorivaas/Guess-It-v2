@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ole_thestrup
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ole_thestrup
+  category: personas
+  difficulty: 1
+  answer: Ole Thestrup
+  acceptedAnswers:
+  - Ole Thestrup
+  hints:
+  - "Trabaj\xF3 en producciones de comedia, drama y crimen a lo largo del per\xEDodo
+    entre 2000 y 2017."
+  - "Uno de sus trabajos fue \xABAdam's Apples\xBB (2005), bajo la direcci\xF3n de
+    Anders Thomas Jensen."
+  - "Su papel en \xABThe Green Butchers\xBB fue el de Holger."
+  - "Dio vida a Alfred J\xE6ger en \xABFlickering Lights\xBB."
+  - "Sus papeles incluyen a Alfred J\xE6ger en \xABFlickering Lights\xBB y a Advokat
+    en \xABSmall Town Killers\xBB."

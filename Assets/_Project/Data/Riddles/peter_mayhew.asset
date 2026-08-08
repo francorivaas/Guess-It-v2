@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: peter_mayhew
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: peter_mayhew
+  category: personas
+  difficulty: 0
+  answer: Peter Mayhew
+  acceptedAnswers:
+  - Peter Mayhew
+  hints:
+  - "En Star Wars: Episode III - Revenge of the Sith interpret\xF3 a Chewbacca, en
+    una pel\xEDcula estrenada en 2005."
+  - "Su carrera en cine abarca de 1977 a 2005 y recorre aventura y acci\xF3n. Entre
+    sus pel\xEDculas figura Star Wars: Episode III - Revenge of the Sith."
+  - "Comparti\xF3 reparto con Mark Hamill en Return of the Jedi."
+  - "En The Empire Strikes Back interpret\xF3 a Chewbacca."
+  - "Aparece en Star Wars y Return of the Jedi. Tambi\xE9n form\xF3 parte de Star
+    Wars: Episode III - Revenge of the Sith."

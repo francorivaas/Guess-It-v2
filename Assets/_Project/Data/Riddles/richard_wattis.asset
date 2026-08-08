@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: richard_wattis
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: richard_wattis
+  category: personas
+  difficulty: 0
+  answer: Richard Wattis
+  acceptedAnswers:
+  - Richard Wattis
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1950 y 1963, especialmente dentro
+    de comedia, drama y romance."
+  - "Particip\xF3 en \xABThe Prince and the Showgirl\xBB, dirigida por Laurence Olivier
+    y estrenada en 1957."
+  - "En \xABHobson's Choice\xBB interpret\xF3 a Albert Prosser."
+  - "En \xABThe Abominable Snowman\xBB interpret\xF3 a Dr. Peter Fox."
+  - "Interpret\xF3 a Dr. Peter Fox en \xABThe Abominable Snowman\xBB y a Seton en
+    \xABThe Importance of Being Earnest\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: yoshio_harada
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: yoshio_harada
+  category: personas
+  difficulty: 1
+  answer: Yoshio Harada
+  acceptedAnswers:
+  - Yoshio Harada
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1977 y 2011, con presencia frecuente
+    en drama, suspenso y acci\xF3n."
+  - "Particip\xF3 en \xABStill Walking\xBB, dirigida por Hirokazu Koreeda y estrenada
+    en 2008."
+  - "Su papel en \xABI Wish\xBB fue el de Wataru (Grandfather's Friend)."
+  - "En \xABNightmare Detective\xBB interpret\xF3 a Keizo Oishi."
+  - "Sus papeles incluyen a Keizo Oishi en \xABNightmare Detective\xBB y a Junai
+    Onodera en \xABHana\xBB."

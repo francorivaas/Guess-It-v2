@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: brian_de_palma
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: brian_de_palma
+  category: personas
+  difficulty: 1
+  answer: Brian De Palma
+  acceptedAnswers:
+  - Brian De Palma
+  hints:
+  - "Particip\xF3 en Redacted, una pel\xEDcula estrenada en 2007."
+  - "Su carrera en cine abarca de 1980 a 2007 y recorre acci\xF3n y crimen."
+  - "Comparti\xF3 reparto con John Travolta en Blow Out."
+  - "Tambi\xE9n integr\xF3 el elenco de Mission: Impossible."
+  - Aparece en Scarface y The Untouchables.

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: hector_babenco
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: hector_babenco
+  category: personas
+  difficulty: 2
+  answer: Hector Babenco
+  acceptedAnswers:
+  - Hector Babenco
+  hints:
+  - "Dirigi\xF3 obras de drama, crimen y romance a lo largo de una trayectoria que
+    va entre 1981 y 2003."
+  - "Estuvo al frente de \xABCarandiru\xBB (2003)."
+  - "Otro t\xEDtulo bajo su direcci\xF3n es \xABKiss of the Spider Woman\xBB (1985)."
+  - "Fue responsable de \xABCarandiru\xBB y \xABPixote\xBB."
+  - "Dirigi\xF3 \xABCarandiru\xBB, \xABKiss of the Spider Woman\xBB y \xABPixote\xBB."

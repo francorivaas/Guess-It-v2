@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_burning_plain
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_burning_plain
+  category: peliculas
+  difficulty: 1
+  answer: The Burning Plain
+  acceptedAnswers:
+  - The Burning Plain
+  - Burning Plain
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2000, dentro de crimen. La direcci\xF3n est\xE1 acreditada a Guillermo Arriaga."
+  - "El montaje final se extiende unos 107 minutos y aparece catalogado con la se\xF1al
+    R. Entre sus int\xE9rpretes figura Charlize Theron."
+  - "Se estren\xF3 en 2008 y estuvo asociada a la compa\xF1\xEDa 2929 Productions."
+  - "La dirigi\xF3 Guillermo Arriaga y su figura principal es Charlize Theron."
+  - Cinta de Estados Unidos lanzada en 2008, dirigida por Guillermo Arriaga y encabezada
+    por Charlize Theron, con guion de Guillermo Arriaga.

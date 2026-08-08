@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: oliver_heldens
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: oliver_heldens
+  category: bandas musicales
+  difficulty: 0
+  answer: Oliver Heldens
+  acceptedAnswers:
+  - Oliver Heldens
+  hints:
+  - "Su perfil sonoro combina house progresivo y techno con una energ\xEDa sonora
+    alta."
+  - "Uno de los \xE1lbumes asociados a este proyecto es \xABI Was Made For Lovin'
+    You (feat. Nile Rodgers & House Gospel Choir)\xBB."
+  - "Ha compartido cr\xE9ditos de interpretaci\xF3n con Nile Rodgers y House Gospel
+    Choir."
+  - "Las referencias directas son \xABI Was Made For Lovin' You (feat. Nile Rodgers
+    & House Gospel Choir)\xBB y \xABGecko (Overdrive) - Radio Edit\xBB."
+  - "Artista o grupo detr\xE1s de \xABI Was Made For Lovin' You (feat. Nile Rodgers
+    & House Gospel Choir)\xBB, \xABGecko (Overdrive) - Radio Edit\xBB y \xABWe Don\u2019t
+    Need\xBB."

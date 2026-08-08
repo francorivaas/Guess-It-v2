@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: living_is_easy_with_eyes_closed
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: living_is_easy_with_eyes_closed
+  category: peliculas
+  difficulty: 0
+  answer: Living Is Easy With Eyes Closed
+  acceptedAnswers:
+  - Living Is Easy With Eyes Closed
+  - "Vivir es F\xE1cil con los Ojos Cerrados"
+  - vivir es facil con los ojos cerrados
+  hints:
+  - "Su metraje se acerca a 108 minutos y corresponde al a\xF1o 2013."
+  - "Entre sus compa\xF1\xEDas figura Canal+; sus g\xE9neros principales son drama
+    y comedia."
+  - El realizador principal fue David Trueba.
+  - "En el reparto, Javier C\xE1mara da vida a Antonio y Natalia de Molina a Bel\xE9n."
+  - "David Trueba dirige a Javier C\xE1mara como Antonio, Natalia de Molina como
+    Bel\xE9n y Francesc Colomer como Juanjo en esta pel\xEDcula de 2013."

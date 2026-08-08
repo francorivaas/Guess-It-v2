@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lee_j_cobb
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lee_j_cobb
+  category: personas
+  difficulty: 2
+  answer: Lee J. Cobb
+  acceptedAnswers:
+  - Lee J. Cobb
+  hints:
+  - "En On the Waterfront interpret\xF3 a Johnny Friendly, en una pel\xEDcula estrenada
+    en 1954."
+  - Su carrera en cine abarca de 1954 a 1973 y recorre drama y terror.
+  - "Comparti\xF3 reparto con Linda Blair en The Exorcist."
+  - "En The Exorcist interpret\xF3 a Lt. Kinderman."
+  - Aparece en 12 Angry Men y On the Waterfront.

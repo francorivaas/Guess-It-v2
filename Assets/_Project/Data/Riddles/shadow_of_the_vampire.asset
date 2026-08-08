@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: shadow_of_the_vampire
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: shadow_of_the_vampire
+  category: peliculas
+  difficulty: 0
+  answer: Shadow of the Vampire
+  acceptedAnswers:
+  - Shadow of the Vampire
+  hints:
+  - "Es una producci\xF3n de Reino Unido de la d\xE9cada de 2000, vinculada al g\xE9nero
+    de drama. La direcci\xF3n est\xE1 acreditada a E. Elias Merhige."
+  - "El montaje final se extiende unos 92 minutos y aparece catalogado con la se\xF1al
+    R. Entre sus int\xE9rpretes figura John Malkovich."
+  - "El a\xF1o 2000 y el sello Saturn Films forman parte de sus datos de producci\xF3n."
+  - "La dirigi\xF3 E. Elias Merhige y su figura principal es John Malkovich."
+  - Cinta de Reino Unido lanzada en 2000, dirigida por E. Elias Merhige y encabezada
+    por John Malkovich, con guion de Steven Katz.

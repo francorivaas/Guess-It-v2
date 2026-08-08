@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: abyss_of_insanity
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: abyss_of_insanity
+  category: bandas musicales
+  difficulty: 2
+  answer: Abyss of Insanity
+  acceptedAnswers:
+  - Abyss of Insanity
+  hints:
+  - "Su propuesta musical combina deathcore; comenz\xF3 su recorrido en Alemania
+    en la d\xE9cada de 2010."
+  - "El grupo naci\xF3 en Emsdetten, North Rhine-Westphalia/Osnabr\xFCck, Lower Saxony
+    durante 2012 y su estado registrado es activa."
+  - "Combina un origen en Emsdetten, North Rhine-Westphalia/Osnabr\xFCck, Lower Saxony,
+    Alemania, con una propuesta de deathcore."
+  - El sello registrado es Morbid Generation Records, mientras que mantiene actividad
+    registrada desde 2012 hasta el presente.
+  - "Grupo activa de deathcore, originado en Emsdetten, North Rhine-Westphalia/Osnabr\xFCck,
+    Lower Saxony, Alemania, en 2012 y vinculada a Morbid Generation Records."

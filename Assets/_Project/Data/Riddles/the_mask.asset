@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_mask
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_mask
+  category: peliculas
+  difficulty: 0
+  answer: "La m\xE1scara"
+  acceptedAnswers:
+  - "La m\xE1scara"
+  - La mascara
+  - the mask
+  hints:
+  - "Lleg\xF3 a las salas en 1994 como una obra de comedia fant\xE1stica vinculada
+    a Estados Unidos."
+  - "La realizaci\xF3n fue encabezada por Chuck Russell."
+  - Stanley Ipkiss, Tina y Milo ocupan el centro de la historia.
+  - "Su historia sigue un empleado t\xEDmido encuentra un objeto que libera una personalidad
+    descontrolada."
+  - "Una imagen o situaci\xF3n decisiva es un rostro verde con traje amarillo obtiene
+    poderes de caricatura."

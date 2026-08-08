@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jin_e
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jin_e
+  category: lugares
+  difficulty: 0
+  answer: "Jin\u2019e"
+  acceptedAnswers:
+  - "Jin\u2019e"
+  hints:
+  - "Est\xE1 al este de Greenwich; su latitud ronda los 29,34\xB0 norte."
+  - "Es un n\xFAcleo urbano de alrededor de 633 mil de habitantes dentro de Sichuan."
+  - "Cumple una funci\xF3n de capital local dentro de Sichuan. Se halla aproximadamente
+    a 29,3\xB0 norte."
+  - "Esta ciudad de China est\xE1 en Sichuan y se sit\xFAa a 29,3\xB0 norte."
+  - "En China, dentro de Sichuan, esta ciudad de unos 633 mil est\xE1 cerca de 29,3\xB0
+    norte y 105,3\xB0 este."

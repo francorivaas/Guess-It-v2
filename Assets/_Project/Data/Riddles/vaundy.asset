@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: vaundy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: vaundy
+  category: bandas musicales
+  difficulty: 0
+  answer: Vaundy
+  acceptedAnswers:
+  - Vaundy
+  hints:
+  - "La huella musical se mueve por J-pop y soul y presenta una energ\xEDa sonora
+    alta."
+  - "Uno de los \xE1lbumes asociados a este proyecto es \xABstrobo\xBB."
+  - "En su cat\xE1logo aparecen \xABmabataki\xBB y \xAB\u88F8\u306E\u52C7\u8005\xBB."
+  - "Las referencias directas son \xABCHAINSAW BLOOD\xBB y \xAB\u602A\u7363\u306E\u82B1\u5504\xBB."
+  - "Artista o grupo detr\xE1s de \xABCHAINSAW BLOOD\xBB, \xAB\u602A\u7363\u306E\u82B1\u5504\xBB
+    y \xABmabataki\xBB."

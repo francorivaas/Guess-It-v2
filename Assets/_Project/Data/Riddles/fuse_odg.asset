@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fuse_odg
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fuse_odg
+  category: bandas musicales
+  difficulty: 0
+  answer: Fuse ODG
+  acceptedAnswers:
+  - Fuse ODG
+  hints:
+  - "Su perfil sonoro combina dancehall y EDM con una energ\xEDa sonora alta."
+  - "Entre sus lanzamientos aparece \xABT.I.N.A.\xBB."
+  - En algunas pistas aparece junto a Major Lazer y Nyla.
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABLight It Up - Remix\xBB y
+    \xABDangerous Love\xBB."
+  - "Nombre musical asociado directamente a \xABLight It Up - Remix\xBB, \xABDangerous
+    Love\xBB y \xABMillion Pound Girl (Badder Than Bad)\xBB."

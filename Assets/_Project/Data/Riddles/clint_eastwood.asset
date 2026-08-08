@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: clint_eastwood
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: clint_eastwood
+  category: personas
+  difficulty: 1
+  answer: Clint Eastwood
+  acceptedAnswers:
+  - Clint Eastwood
+  hints:
+  - "En Paint Your Wagon interpret\xF3 a Pardner, en una pel\xEDcula estrenada en
+    1969."
+  - "Su carrera en cine abarca de 1964 a 2012 y recorre drama y w\xE9stern."
+  - "Comparti\xF3 reparto con Amy Adams en Trouble with the Curve."
+  - "En Million Dollar Baby interpret\xF3 a Frankie Dunn."
+  - Aparece en Gran Torino y The Good, the Bad and the Ugly.

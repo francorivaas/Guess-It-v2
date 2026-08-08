@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: santa_s_slay
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: santa_s_slay
+  category: peliculas
+  difficulty: 1
+  answer: Santa's Slay
+  acceptedAnswers:
+  - Santa's Slay
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2000 y su duraci\xF3n ronda los 78 minutos."
+  - "Mezcla comedia, fantas\xEDa y terror y fue producida en Canad\xE1 y Estados
+    Unidos."
+  - "David Steiman firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Bill Goldberg interpreta a Santa, mientras Douglas Smith encarna a Nicolas Yuleson.
+  - "El reparto incluye a Bill Goldberg como Santa, Douglas Smith como Nicolas Yuleson
+    y Emilie de Ravin como Mary 'Mac' Mackenzie bajo la direcci\xF3n de David Steiman."

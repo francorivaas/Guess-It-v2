@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: love_rosie
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: love_rosie
+  category: peliculas
+  difficulty: 0
+  answer: Love, Rosie
+  acceptedAnswers:
+  - Love, Rosie
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Alemania y Reino Unido; combina comedia
+    y cine internacional y una fecha de estreno dentro de los a\xF1os 2010."
+  - "La ficha t\xE9cnica marca 103 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R."
+  - "La producci\xF3n lleg\xF3 en 2014 bajo la participaci\xF3n de Canyon Creek Films."
+  - "Bajo la direcci\xF3n de Christian Ditter, coinciden Lily Collins y Sam Claflin."
+  - "Producci\xF3n de comedia y cine internacional estrenada en 2014: direcci\xF3n
+    de Christian Ditter y actuaciones de Lily Collins, Sam Claflin y Christian Cooke,
+    con guion de Juliette Towhidi."

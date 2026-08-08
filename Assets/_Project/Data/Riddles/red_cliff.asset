@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: red_cliff
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: red_cliff
+  category: peliculas
+  difficulty: 0
+  answer: Red Cliff
+  acceptedAnswers:
+  - Red Cliff
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en China; combina acci\xF3n y una fecha
+    de estreno dentro de los a\xF1os 2000."
+  - "La ficha t\xE9cnica marca 148 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R."
+  - "El a\xF1o 2008 y el sello Beijing Film Studio forman parte de sus datos de producci\xF3n."
+  - "John Woo estuvo a cargo de la direcci\xF3n, con Tony Chiu-Wai Leung al frente
+    del elenco."
+  - Cinta de China lanzada en 2008, dirigida por John Woo y encabezada por Tony Chiu-Wai
+    Leung, con guion de John Woo.

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: daisies
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: daisies
+  category: peliculas
+  difficulty: 1
+  answer: Daisies
+  acceptedAnswers:
+  - Daisies
+  - "Sedmikr\xE1sky"
+  - sedmikrasky
+  hints:
+  - "Combina un estreno de 1966 con di\xE1logos originalmente en checo."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama y comedia; la producci\xF3n se
+    vincula con Rep\xFAblica Checa."
+  - "La direcci\xF3n estuvo a cargo de V\u011Bra Chytilov\xE1."
+  - "En el reparto, Ivana Karbanov\xE1 da vida a Marie II y Jitka Cerhov\xE1 a Marie
+    i."
+  - "El reparto incluye a Ivana Karbanov\xE1 como Marie II, Jitka Cerhov\xE1 como
+    Marie i y Marie Ceskov\xE1 como Woman in toilet bajo la direcci\xF3n de V\u011Bra
+    Chytilov\xE1."

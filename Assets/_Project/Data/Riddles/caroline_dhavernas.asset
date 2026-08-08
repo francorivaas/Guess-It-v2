@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: caroline_dhavernas
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: caroline_dhavernas
+  category: personas
+  difficulty: 1
+  answer: Caroline Dhavernas
+  acceptedAnswers:
+  - Caroline Dhavernas
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 2001 y 2015, especialmente dentro
+    de drama, misterio y romance."
+  - "Uno de sus trabajos fue \xABLost and Delirious\xBB (2001), bajo la direcci\xF3n
+    de L\xE9a Pool."
+  - "Su papel en \xABWrecked\xBB fue el de Woman."
+  - "En \xABThe Forbidden Room\xBB interpret\xF3 a Gong."
+  - "Interpret\xF3 a Gong en \xABThe Forbidden Room\xBB y a Sarah Mann en \xABPasschendaele\xBB."

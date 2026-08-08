@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: walter_gotell
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: walter_gotell
+  category: personas
+  difficulty: 2
+  answer: Walter Gotell
+  acceptedAnswers:
+  - Walter Gotell
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1951 y 1997 y recorren g\xE9neros
+    como romance, aventura y b\xE9lico."
+  - "Particip\xF3 en \xABThe African Queen\xBB, dirigida por John Huston y estrenada
+    en 1951."
+  - "Su papel en \xABThe Damned\xBB fue el de Major Holland."
+  - "Dio vida a Gen. Max Helm en \xABThe Scarlet and the Black\xBB."
+  - "Interpret\xF3 a Gen. Max Helm en \xABThe Scarlet and the Black\xBB y a Erik
+    the Old en \xABPrince Valiant\xBB."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: clouds_of_sils_maria
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: clouds_of_sils_maria
+  category: peliculas
+  difficulty: 0
+  answer: Clouds of Sils Maria
+  acceptedAnswers:
+  - Clouds of Sils Maria
+  hints:
+  - "Es una producci\xF3n de Francia y Alemania de la d\xE9cada de 2010, vinculada
+    al g\xE9nero de drama y cine internacional."
+  - "Tiene una duraci\xF3n aproximada de 124 minutos y recibi\xF3 la clasificaci\xF3n
+    R. La direcci\xF3n est\xE1 acreditada a Olivier Assayas."
+  - "La producci\xF3n lleg\xF3 en 2014 bajo la participaci\xF3n de CG Cin\xE9ma."
+  - "Olivier Assayas estuvo a cargo de la direcci\xF3n y reuni\xF3 a Juliette Binoche
+    con Kristen Stewart."
+  - "Pel\xEDcula de 2014 dirigida por Olivier Assayas, con Juliette Binoche, Kristen
+    Stewart y Chlo\xEB Grace Moretz en el reparto, con guion de Olivier Assayas."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: grizzly_bear
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: grizzly_bear
+  category: bandas musicales
+  difficulty: 2
+  answer: Grizzly Bear
+  acceptedAnswers:
+  - Grizzly Bear
+  hints:
+  - "Su nacimiento musical tuvo lugar en Estados Unidos y la mayor difusi\xF3n lleg\xF3
+    desde mediados de la d\xE9cada de 2000."
+  - "Su identidad estil\xEDstica re\xFAne indie rock y chamber pop."
+  - Entre sus integrantes o figuras centrales estuvieron Ed Droste, Daniel Rossen,
+    Chris Taylor y Christopher Bear.
+  - "Una obra decisiva de su cat\xE1logo es Veckatimest."
+  - "La pista casi definitiva es Two Weeks, armon\xEDas complejas y arreglos de c\xE1mara."

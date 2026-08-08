@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bhutan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bhutan
+  category: lugares
+  difficulty: 2
+  answer: "But\xE1n"
+  acceptedAnswers:
+  - "But\xE1n"
+  - Butan
+  - Bhutan
+  hints:
+  - "Combina una poblaci\xF3n de 755 mil habitantes con un territorio de 38 mil km\xB2."
+  - "Su ubicaci\xF3n geogr\xE1fica queda dentro de Asia meridional."
+  - "El panorama ling\xFC\xEDstico incluye dzongkha."
+  - "La moneda nacional es gultrum butan\xE9s, rupia india."
+  - El gobierno tiene su capital en Timbu.

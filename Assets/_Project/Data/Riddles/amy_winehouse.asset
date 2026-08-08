@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: amy_winehouse
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: amy_winehouse
+  category: personas
+  difficulty: 1
+  answer: Amy Winehouse
+  acceptedAnswers:
+  - Amy Winehouse
+  hints:
+  - "Su etapa de mayor influencia transcurri\xF3 a comienzos del siglo XXI."
+  - "Naci\xF3 en Reino Unido y orient\xF3 su trabajo hacia m\xFAsica."
+  - "Se lo recuerda especialmente por combin\xF3 soul contempor\xE1neo con letras
+    confesionales y una voz grave."
+  - Su historia suele asociarse directamente con Back to Black, un peinado colmena
+    y delineado muy marcado.
+  - "Quien encaja en estas pistas destac\xF3 por Back to Black, un peinado colmena
+    y delineado muy marcado."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: brendan_fraser
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: brendan_fraser
+  category: personas
+  difficulty: 1
+  answer: Brendan Fraser
+  acceptedAnswers:
+  - Brendan Fraser
+  hints:
+  - "En Mrs. Winterbourne interpret\xF3 a Bill/Hugh Winterbourne, en una pel\xEDcula
+    estrenada en 1996."
+  - "Su carrera en cine abarca de 1996 a 2014 y recorre aventura y acci\xF3n. Entre
+    sus pel\xEDculas figura Mrs. Winterbourne."
+  - "Comparti\xF3 reparto con Jenna Elfman en Looney Tunes: Back in Action."
+  - "En The Mummy: Tomb of the Dragon Emperor interpret\xF3 a Richard O'Connell."
+  - Aparece en The Mummy Returns y Journey to the Center of the Earth.

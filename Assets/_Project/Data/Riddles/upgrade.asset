@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: upgrade
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: upgrade
+  category: peliculas
+  difficulty: 0
+  answer: Upgrade
+  acceptedAnswers:
+  - Upgrade
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 2010 y clasificada como acci\xF3n. La direcci\xF3n est\xE1 acreditada
+    a Leigh Whannell."
+  - "Tiene una duraci\xF3n aproximada de 100 minutos y recibi\xF3 la clasificaci\xF3n
+    R. Entre sus int\xE9rpretes figura Logan Marshall-Green."
+  - "La producci\xF3n lleg\xF3 en 2018 bajo la participaci\xF3n de Goalpost Pictures."
+  - "Leigh Whannell estuvo a cargo de la direcci\xF3n, con Logan Marshall-Green al
+    frente del elenco."
+  - "Producci\xF3n de acci\xF3n estrenada en 2018: direcci\xF3n de Leigh Whannell
+    y actuaciones de Logan Marshall-Green, con guion de Leigh Whannell."

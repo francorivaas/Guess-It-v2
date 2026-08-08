@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tristana
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tristana
+  category: peliculas
+  difficulty: 0
+  answer: Tristana
+  acceptedAnswers:
+  - Tristana
+  hints:
+  - "Combina un estreno de 1970 con di\xE1logos originalmente en espa\xF1ol."
+  - "El relato pertenece a drama, con participaci\xF3n productiva de Espa\xF1a y
+    Francia."
+  - "Luis Bu\xF1uel la dirigi\xF3 con Tal\xEDa Films entre las compa\xF1\xEDas productoras."
+  - "El elenco re\xFAne a Catherine Deneuve con Fernando Rey."
+  - "Luis Bu\xF1uel dirige a Catherine Deneuve, Fernando Rey como Don Lope y Franco
+    Nero como Horacio en esta pel\xEDcula de 1970."

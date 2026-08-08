@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: all_the_way_boys
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: all_the_way_boys
+  category: peliculas
+  difficulty: 0
+  answer: All the Way Boys
+  acceptedAnswers:
+  - All the Way Boys
+  - "...Pi\xF9 forte ragazzi!"
+  - ...piu forte ragazzi!
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1970 y su duraci\xF3n ronda los 106 minutos."
+  - "Tiger Film particip\xF3 en una pel\xEDcula de aventura, acci\xF3n y comedia
+    producida en Italia."
+  - "Detr\xE1s de la c\xE1mara estuvo Giuseppe Colizzi."
+  - Dos personajes centrales son Saluds Brother, interpretado por Alexander Allerson,
+    y Salud, a cargo de Bud Spencer.
+  - "El reparto incluye a Alexander Allerson como Saluds Brother, Bud Spencer como
+    Salud y Terence Hill como Plata bajo la direcci\xF3n de Giuseppe Colizzi."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: haarlem
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: haarlem
+  category: lugares
+  difficulty: 0
+  answer: Haarlem
+  acceptedAnswers:
+  - Haarlem
+  hints:
+  - "Est\xE1 a unos 52,4 grados al norte del ecuador y 4,6 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 350 mil habitantes. Dentro de su pa\xEDs
+    ocupa el puesto 6 por poblaci\xF3n."
+  - "Se ubica a unos 20 kil\xF3metros en los alrededores de Amsterdam."
+  - "Est\xE1 en Pa\xEDses Bajos, donde ocupa el puesto 6 por poblaci\xF3n, y es un
+    centro administrativo regional."
+  - "Es la capital administrativa de Noord-Holland, dentro de Pa\xEDses Bajos."

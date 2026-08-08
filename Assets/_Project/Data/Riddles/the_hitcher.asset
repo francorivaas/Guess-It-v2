@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_hitcher
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_hitcher
+  category: peliculas
+  difficulty: 0
+  answer: The Hitcher
+  acceptedAnswers:
+  - The Hitcher
+  - Hitcher
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 1980, dentro de acci\xF3n. La direcci\xF3n est\xE1 acreditada a Robert Harmon."
+  - "El montaje final se extiende unos 97 minutos y aparece catalogado con la se\xF1al
+    R. Entre sus int\xE9rpretes figura Rutger Hauer."
+  - "Se estren\xF3 en 1986 y estuvo asociada a la compa\xF1\xEDa HBO Pictures."
+  - "La dirigi\xF3 Robert Harmon y su figura principal es Rutger Hauer."
+  - Cinta de Estados Unidos lanzada en 1986, dirigida por Robert Harmon y encabezada
+    por Rutger Hauer, con guion de Eric Red.

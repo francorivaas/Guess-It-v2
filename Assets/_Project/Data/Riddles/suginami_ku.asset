@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: suginami_ku
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: suginami_ku
+  category: lugares
+  difficulty: 0
+  answer: Suginami-ku
+  acceptedAnswers:
+  - Suginami-ku
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 139,64\xB0 este."
+  - "Re\xFAne cerca de 583.600 habitantes en la divisi\xF3n administrativa de T\u014Dky\u014D."
+  - "No es la capital nacional de Jap\xF3n. Su longitud geogr\xE1fica ronda los 139,64\xB0
+    este."
+  - "Se encuentra en Jap\xF3n, dentro de T\u014Dky\u014D, con una poblaci\xF3n cercana
+    a 584 mil."
+  - "Es una ciudad de Jap\xF3n, en T\u014Dky\u014D, situada aproximadamente en 35,7\xB0
+    norte y 139,6\xB0 este."

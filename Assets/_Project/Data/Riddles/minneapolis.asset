@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: minneapolis
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: minneapolis
+  category: lugares
+  difficulty: 0
+  answer: Minneapolis
+  acceptedAnswers:
+  - Minneapolis
+  hints:
+  - "Est\xE1 al oeste de Greenwich; su latitud ronda los 44,96\xB0 norte."
+  - Su escala urbana ronda los 2,9 millones de habitantes y se integra en Minnesota.
+  - "No es la capital nacional de Estados Unidos. Se halla aproximadamente a 45,0\xB0
+    norte."
+  - "Esta ciudad de Estados Unidos est\xE1 en Minnesota y se sit\xFAa a 45,0\xB0
+    norte."
+  - "En Estados Unidos, dentro de Minnesota, esta ciudad de unos 2,9 millones est\xE1
+    cerca de 45,0\xB0 norte y 93,3\xB0 oeste."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: passport_to_pimlico
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: passport_to_pimlico
+  category: peliculas
+  difficulty: 1
+  answer: Passport to Pimlico
+  acceptedAnswers:
+  - Passport to Pimlico
+  hints:
+  - "Fue filmada originalmente en ingl\xE9s y lleg\xF3 a los cines en 1949."
+  - "Ealing Studios particip\xF3 en una pel\xEDcula de comedia producida en Reino
+    Unido."
+  - "Henry Cornelius firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Stanley Holloway da vida a Arthur Pemberton y Hermione Baddeley
+    a Edie Randall.
+  - En esta cinta de 1949 coinciden Stanley Holloway como Arthur Pemberton, Hermione
+    Baddeley como Edie Randall y Margaret Rutherford como Professor Hatton-Jones.

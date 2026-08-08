@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_cat_s_meow
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_cat_s_meow
+  category: peliculas
+  difficulty: 0
+  answer: The Cat's Meow
+  acceptedAnswers:
+  - The Cat's Meow
+  hints:
+  - "Es una producci\xF3n de 2001 con una duraci\xF3n aproximada de 114 minutos."
+  - "Se encuadra en drama, misterio y suspenso y tiene origen de producci\xF3n en
+    Alemania y Reino Unido."
+  - "La direcci\xF3n estuvo a cargo de Peter Bogdanovich."
+  - Kirsten Dunst interpreta a Marion Davies, mientras Edward Herrmann encarna a
+    W. R. Hearst.
+  - "Peter Bogdanovich dirige a Kirsten Dunst como Marion Davies, Edward Herrmann
+    como W. R. Hearst y Eddie Izzard como Charlie Chaplin en esta pel\xEDcula de
+    2001."

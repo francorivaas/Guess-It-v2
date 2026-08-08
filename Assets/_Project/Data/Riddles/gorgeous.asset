@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gorgeous
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gorgeous
+  category: peliculas
+  difficulty: 0
+  answer: Gorgeous
+  acceptedAnswers:
+  - Gorgeous
+  hints:
+  - "Su metraje se acerca a 121 minutos y corresponde al a\xF1o 1999."
+  - "Entre sus compa\xF1\xEDas figura Golden Harvest Pictures; sus g\xE9neros principales
+    son aventura, acci\xF3n y comedia."
+  - "La direcci\xF3n estuvo a cargo de Vincent Kok."
+  - En el reparto, Jackie Chan da vida a C.N. Chan y Shu Qi a Bu.
+  - "Vincent Kok dirige a Jackie Chan como C.N. Chan, Shu Qi como Bu y Tony Leung
+    Chiu-Wai como Albert en esta pel\xEDcula de 1999."

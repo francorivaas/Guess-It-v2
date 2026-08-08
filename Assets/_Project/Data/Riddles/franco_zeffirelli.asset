@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: franco_zeffirelli
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: franco_zeffirelli
+  category: personas
+  difficulty: 1
+  answer: Franco Zeffirelli
+  acceptedAnswers:
+  - Franco Zeffirelli
+  hints:
+  - "Firm\xF3 pel\xEDculas entre 1967 y 2002 y trabaj\xF3 con frecuencia en drama,
+    romance y historia."
+  - "Estuvo al frente de \xABRomeo and Juliet\xBB (1968)."
+  - "Tambi\xE9n dirigi\xF3 \xABHamlet\xBB, del a\xF1o 1990."
+  - "Dos pel\xEDculas que llevan su firma son \xABHamlet\xBB y \xABThe Taming of
+    the Shrew\xBB."
+  - "Es el realizador detr\xE1s de \xABHamlet\xBB, \xABThe Taming of the Shrew\xBB
+    y \xABTea with Mussolini\xBB."

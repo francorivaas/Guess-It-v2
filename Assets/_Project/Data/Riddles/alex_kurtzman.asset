@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: alex_kurtzman
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: alex_kurtzman
+  category: personas
+  difficulty: 0
+  answer: Alex Kurtzman
+  acceptedAnswers:
+  - Alex Kurtzman
+  hints:
+  - "Su trabajo se reparte entre acci\xF3n y comedia a lo largo de un per\xEDodo
+    que va entre 2006 y 2017."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABPeople Like Us\xBB, vinculada
+    a Estados Unidos."
+  - "La asociaci\xF3n con \xABThe Mummy\xBB se completa con otro cr\xE9dito en \xABMission:
+    Impossible III\xBB."
+  - "Dos referencias fuertes de su carrera son \xABThe Amazing Spider-Man 2\xBB y
+    \xABMission: Impossible III\xBB."
+  - "La identidad buscada re\xFAne cr\xE9ditos de guion y direcci\xF3n en \xABThe
+    Amazing Spider-Man 2\xBB, \xABMission: Impossible III\xBB y \xABThe Mummy\xBB."

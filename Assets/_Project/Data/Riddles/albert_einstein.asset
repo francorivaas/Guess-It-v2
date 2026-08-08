@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: albert_einstein
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: albert_einstein
+  category: personas
+  difficulty: 0
+  answer: Albert Einstein
+  acceptedAnswers:
+  - Albert Einstein
+  hints:
+  - "Su etapa de mayor influencia se sit\xFAa en la primera mitad del siglo XX."
+  - "Naci\xF3 en Alemania y Suiza y orient\xF3 su trabajo hacia f\xEDsica te\xF3rica."
+  - "Entre sus logros sobresale formular la relatividad y explicar el efecto fotoel\xE9ctrico."
+  - "Tambi\xE9n qued\xF3 estrechamente relacionado con la ecuaci\xF3n que relaciona
+    masa y energ\xEDa."
+  - "Su perfil re\xFAne f\xEDsica te\xF3rica, formular la relatividad y explicar
+    el efecto fotoel\xE9ctrico y la ecuaci\xF3n que relaciona masa y energ\xEDa."

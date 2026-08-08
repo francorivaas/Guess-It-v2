@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: hart_s_war
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: hart_s_war
+  category: peliculas
+  difficulty: 2
+  answer: Hart's War
+  acceptedAnswers:
+  - Hart's War
+  hints:
+  - "Se estren\xF3 en 2002, dura cerca de 125 minutos y tuvo producci\xF3n de Estados
+    Unidos. Una productora vinculada fue David Foster Productions."
+  - "Combina drama y b\xE9lica; una de sus productoras fue David Foster Productions."
+  - "La dirigi\xF3 Gregory Hoblit, con Marcel Iure\u0219 en un papel del reparto."
+  - En el elenco aparecen Colin Farrell y Terrence Howard.
+  - "Bruce Willis encabeza esta pel\xEDcula de drama, dirigida por Gregory Hoblit
+    y estrenada en 2002."

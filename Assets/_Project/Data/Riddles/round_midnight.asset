@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: round_midnight
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: round_midnight
+  category: peliculas
+  difficulty: 1
+  answer: "\u2019Round Midnight"
+  acceptedAnswers:
+  - "\u2019Round Midnight"
+  hints:
+  - "Es una producci\xF3n de 1986 con una duraci\xF3n aproximada de 133 minutos."
+  - "PECF particip\xF3 en una pel\xEDcula de drama producida en Estados Unidos y
+    Francia."
+  - "Bertrand Tavernier la dirigi\xF3 con PECF entre las compa\xF1\xEDas productoras."
+  - "En el reparto, Dexter Gordon da vida a Dale Turner y Fran\xE7ois Cluzet a Francis
+    Borler."
+  - "En esta cinta de 1986 coinciden Dexter Gordon como Dale Turner, Fran\xE7ois
+    Cluzet como Francis Borler y Gabrielle Haker como B\xE9rang\xE8re."

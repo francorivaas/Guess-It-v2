@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: valhalla_rising
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: valhalla_rising
+  category: peliculas
+  difficulty: 0
+  answer: Valhalla Rising
+  acceptedAnswers:
+  - Valhalla Rising
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Dinamarca, estrenada en los a\xF1os
+    2000 y clasificada como acci\xF3n."
+  - "Su duraci\xF3n ronda los 93 minutos; la clasificaci\xF3n registrada es Not Rated."
+  - "Se estren\xF3 en 2009 y estuvo asociada a la compa\xF1\xEDa BBC Films."
+  - "La dirigi\xF3 Nicolas Winding Refn y su figura principal es Mads Mikkelsen."
+  - Cinta de Dinamarca lanzada en 2009, dirigida por Nicolas Winding Refn y encabezada
+    por Mads Mikkelsen, con guion de Nicolas Winding Refn.

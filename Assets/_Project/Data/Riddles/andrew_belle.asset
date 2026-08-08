@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: andrew_belle
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: andrew_belle
+  category: bandas musicales
+  difficulty: 0
+  answer: Andrew Belle
+  acceptedAnswers:
+  - Andrew Belle
+  hints:
+  - "Su perfil sonoro combina ac\xFAstico y folk con un tono emocional m\xE1s bien
+    sombr\xEDo."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABBlack Bear\xBB."
+  - "Dos t\xEDtulos menos inmediatos de su repertorio son \xABSky's Still Blue\xBB
+    y \xABPieces\xBB."
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABIn My Veins - Feat. Erin
+    Mccarley\xBB y \xABThe Enemy\xBB."
+  - "Nombre musical asociado directamente a \xABIn My Veins - Feat. Erin Mccarley\xBB,
+    \xABThe Enemy\xBB y \xABSky's Still Blue\xBB."

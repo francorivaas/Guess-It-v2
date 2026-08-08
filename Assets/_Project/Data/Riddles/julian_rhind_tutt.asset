@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: julian_rhind_tutt
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: julian_rhind_tutt
+  category: personas
+  difficulty: 0
+  answer: Julian Rhind-Tutt
+  acceptedAnswers:
+  - Julian Rhind-Tutt
+  hints:
+  - "En Notting Hill interpret\xF3 a 'Time Out' Journalist, en una pel\xEDcula estrenada
+    en 1999."
+  - "Su carrera en cine abarca de 1999 a 2014 y recorre acci\xF3n y ciencia ficci\xF3n.
+    Entre sus pel\xEDculas figura Notting Hill."
+  - "Comparti\xF3 reparto con Angelina Jolie en Lara Croft: Tomb Raider."
+  - "En Rush interpret\xF3 a Anthony 'Bubbles' Horsley."
+  - 'Aparece en Lucy y Lara Croft: Tomb Raider.'

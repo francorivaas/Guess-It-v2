@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_phantom_of_liberty
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_phantom_of_liberty
+  category: peliculas
+  difficulty: 1
+  answer: The Phantom of Liberty
+  acceptedAnswers:
+  - The Phantom of Liberty
+  - "Le Fant\xF4me de la libert\xE9"
+  - le fantome de la liberte
+  hints:
+  - "Combina un estreno de 1974 con di\xE1logos originalmente en franc\xE9s."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama y comedia; la producci\xF3n se
+    vincula con Francia y Italia."
+  - "El realizador principal fue Luis Bu\xF1uel."
+  - "Adriana Asti interpreta a la dame en noir, la soeur du premier pr\xE9fet, mientras
+    Milena Vukotic encarna a l'infirmi\xE8re."
+  - "En esta cinta de 1974 coinciden Adriana Asti como la dame en noir, la soeur
+    du premier pr\xE9fet, Milena Vukotic como l'infirmi\xE8re y Jean-Claude Brialy
+    como M. Foucault."

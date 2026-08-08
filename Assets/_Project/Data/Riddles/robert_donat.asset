@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: robert_donat
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: robert_donat
+  category: personas
+  difficulty: 1
+  answer: Robert Donat
+  acceptedAnswers:
+  - Robert Donat
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1933 y 1951, con presencia frecuente
+    en drama, romance y suspenso."
+  - "Uno de sus trabajos fue \xABThe 39 Steps\xBB (1935), bajo la direcci\xF3n de
+    Alfred Hitchcock."
+  - "En \xABGoodbye, Mr. Chips\xBB interpret\xF3 a Mr. Chips."
+  - "En \xABThe Private Life of Henry VIII\xBB interpret\xF3 a Thomas Culpeper."
+  - "Es la persona que encarn\xF3 a Thomas Culpeper en \xABThe Private Life of Henry
+    VIII\xBB y a Murdoch Glourie / Donald Glourie en \xABThe Ghost Goes West\xBB."

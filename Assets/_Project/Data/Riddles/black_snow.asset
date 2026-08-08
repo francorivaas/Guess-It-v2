@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: black_snow
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: black_snow
+  category: peliculas
+  difficulty: 0
+  answer: Black Snow
+  acceptedAnswers:
+  - Black Snow
+  - Nieve negra
+  hints:
+  - "Fue filmada originalmente en espa\xF1ol y lleg\xF3 a los cines en 2017."
+  - "Telefe particip\xF3 en una pel\xEDcula de misterio, drama y crimen producida
+    en Espa\xF1a y Argentina."
+  - "El realizador principal fue Mart\xEDn Hodara."
+  - "Ricardo Dar\xEDn interpreta a Salvador, mientras Leonardo Sbaraglia encarna
+    a Marcos."
+  - "En esta cinta de 2017 coinciden Ricardo Dar\xEDn como Salvador, Leonardo Sbaraglia
+    como Marcos y Laia Costa como Laura."

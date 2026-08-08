@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: orchestre_symphonique_de_montreal
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: orchestre_symphonique_de_montreal
+  category: bandas musicales
+  difficulty: 1
+  answer: "Orchestre Symphonique de Montr\xE9al"
+  acceptedAnswers:
+  - "Orchestre Symphonique de Montr\xE9al"
+  - Orchestre Symphonique de Montreal
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABBol\xE9ro, M. 81\xBB, de 1982, y llega
+    hasta 2011."
+  - "\xABL'Arl\xE9sienne Suite No.2: Menuet\xBB presenta una energ\xEDa suave y un
+    pulso cercano a 110 BPM."
+  - "Entre sus grabaciones figuran \xABAn American in Paris\xBB y \xABPell\xE9as
+    et M\xE9lisande, Op.80: 4. Sicilienne\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABPr\xE9lude \xE0 l'apr\xE8s-midi d'un faune, L.86\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABViolin Concerto in E Minor, Op. 64,
+    MWV O 14: 1. Allegro molto appassionato\xBB y \xABSymphony No. 3 in C Minor,
+    Op. 78 \"Organ Symphony\": 2b. Maestoso - Pi\xF9 allegro - Molto allegro\xBB."

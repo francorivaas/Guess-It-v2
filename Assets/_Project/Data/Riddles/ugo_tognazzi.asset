@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ugo_tognazzi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ugo_tognazzi
+  category: personas
+  difficulty: 0
+  answer: Ugo Tognazzi
+  acceptedAnswers:
+  - Ugo Tognazzi
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1961 y 1979, especialmente dentro
+    de comedia, drama y historia."
+  - "Form\xF3 parte del elenco de \xABLa Grande Bouffe\xBB, una pel\xEDcula de 1973
+    dirigida por Marco Ferreri."
+  - "En \xABPigsty\xBB interpret\xF3 a Herdhitze (2\xE8 \xE9pisode)."
+  - "Dio vida a Professor en \xABTraffic Jam\xBB."
+  - "Sus papeles incluyen a Professor en \xABTraffic Jam\xBB y a Alfredo Cerquetti
+    en \xABBeach House\xBB."

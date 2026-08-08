@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: yuvan_shankar_raja
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: yuvan_shankar_raja
+  category: bandas musicales
+  difficulty: 0
+  answer: Yuvan Shankar Raja
+  acceptedAnswers:
+  - Yuvan Shankar Raja
+  hints:
+  - "La huella musical se mueve por K-pop y pop cinematogr\xE1fico y presenta un
+    equilibrio entre energ\xEDa, ritmo y melod\xEDa."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABNaane Varuvean\xBB."
+  - "Ha compartido cr\xE9ditos de interpretaci\xF3n con Sid Sriram y Dhanush."
+  - "Las referencias directas son \xABKanja Poovu Kannala (From \"Viruman\")\xBB
+    y \xABVeera Soora\xBB."
+  - "Proyecto musical responsable de \xABKanja Poovu Kannala (From \"Viruman\")\xBB,
+    \xABVeera Soora\xBB y \xABEnkeyoo Partha\xBB."

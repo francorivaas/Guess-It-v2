@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cache
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cache
+  category: peliculas
+  difficulty: 0
+  answer: "Cach\xE9"
+  acceptedAnswers:
+  - "Cach\xE9"
+  - cache
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2000 y su duraci\xF3n ronda los 117 minutos."
+  - "Se encuadra en misterio, drama y suspenso y tiene origen de producci\xF3n en
+    Austria y Francia."
+  - "La direcci\xF3n estuvo a cargo de Michael Haneke."
+  - Daniel Auteuil interpreta a Georges Laurent, mientras Juliette Binoche encarna
+    a Anne Laurent.
+  - "Michael Haneke dirige a Daniel Auteuil como Georges Laurent, Juliette Binoche
+    como Anne Laurent y Annie Girardot como La m\xE8re de Georges en esta pel\xEDcula
+    de 2005."

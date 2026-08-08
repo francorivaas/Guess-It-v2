@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: assassin_s_creed
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: assassin_s_creed
+  category: peliculas
+  difficulty: 0
+  answer: Assassin's Creed
+  acceptedAnswers:
+  - Assassin's Creed
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2010 y su duraci\xF3n ronda los 115 minutos."
+  - "Regency Enterprises particip\xF3 en una pel\xEDcula de acci\xF3n, aventura y
+    ciencia ficci\xF3n producida en Francia y Hong Kong."
+  - "La direcci\xF3n estuvo a cargo de Justin Kurzel."
+  - En el reparto, Michael Fassbender da vida a Callum Lynch / Aguilar de Nerha y
+    Marion Cotillard a Dr. Sophia Rikkin.
+  - "Justin Kurzel dirige a Michael Fassbender como Callum Lynch / Aguilar de Nerha,
+    Marion Cotillard como Dr. Sophia Rikkin y Jeremy Irons como Alan Rikkin en esta
+    pel\xEDcula de 2016."

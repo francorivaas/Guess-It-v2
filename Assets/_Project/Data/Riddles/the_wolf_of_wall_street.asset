@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_wolf_of_wall_street
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_wolf_of_wall_street
+  category: peliculas
+  difficulty: 1
+  answer: El lobo de Wall Street
+  acceptedAnswers:
+  - El lobo de Wall Street
+  - the wolf of wall street
+  hints:
+  - "Su contexto de estreno fue 2013; es una pel\xEDcula de comedia negra y biograf\xEDa
+    realizada en Estados Unidos."
+  - "El trabajo de direcci\xF3n corresponde a Martin Scorsese."
+  - "La narraci\xF3n se apoya especialmente en Jordan Belfort, Donnie Azoff y Naomi."
+  - El relato se construye a partir de un corredor construye una empresa basada en
+    fraudes y excesos.
+  - "Se la reconoce de inmediato por una fiesta descontrolada y problemas para llegar
+    hasta un autom\xF3vil muestran su ca\xEDda."

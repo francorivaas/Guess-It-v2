@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: marta_etura
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: marta_etura
+  category: personas
+  difficulty: 1
+  answer: Marta Etura
+  acceptedAnswers:
+  - Marta Etura
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2009 y 2013 y recorren g\xE9neros
+    como suspenso, drama y acci\xF3n."
+  - "Particip\xF3 en \xABThe Impossible\xBB, dirigida por Juan Antonio Bayona y estrenada
+    en 2012."
+  - "Su papel en \xABCell 211\xBB fue el de Elena."
+  - "Su papel en \xABSleep Tight\xBB fue el de Clara."
+  - "Sus papeles incluyen a Clara en \xABSleep Tight\xBB y a Julia en \xABThe Last
+    Days\xBB."

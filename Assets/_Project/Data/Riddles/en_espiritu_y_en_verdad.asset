@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: en_espiritu_y_en_verdad
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: en_espiritu_y_en_verdad
+  category: bandas musicales
+  difficulty: 1
+  answer: "En Esp\xEDritu Y En Verdad"
+  acceptedAnswers:
+  - "En Esp\xEDritu Y En Verdad"
+  - En Espiritu Y En Verdad
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABEn Tu Presencia\xBB, de 2009, y llega
+    hasta 2013."
+  - "\xABTe Doy Gloria\xBB presenta una energ\xEDa alta y un pulso cercano a 125
+    BPM."
+  - "Entre sus grabaciones figuran \xABEl Gran Yo Soy\xBB y \xABVamos a Cantar\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABGracia Sublime Es\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABPerfume a Tus Pies\xBB y \xABCuan Grande
+    Es Dios\xBB."

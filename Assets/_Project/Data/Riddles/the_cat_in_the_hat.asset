@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_cat_in_the_hat
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_cat_in_the_hat
+  category: peliculas
+  difficulty: 2
+  answer: The Cat in the Hat
+  acceptedAnswers:
+  - The Cat in the Hat
+  hints:
+  - "Se estren\xF3 en 2003, dura cerca de 82 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - "Combina comedia y fantas\xEDa; una de sus productoras fue Imagine Entertainment."
+  - "La dirigi\xF3 Bo Welch, con Kelly Preston en un papel del reparto."
+  - En el elenco aparecen Dakota Fanning y Spencer Breslin.
+  - "Mike Myers encabeza esta pel\xEDcula de comedia, dirigida por Bo Welch y estrenada
+    en 2003."

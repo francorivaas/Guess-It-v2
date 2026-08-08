@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dave_franco
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dave_franco
+  category: personas
+  difficulty: 0
+  answer: Dave Franco
+  acceptedAnswers:
+  - Dave Franco
+  hints:
+  - "En Unfinished Business interpret\xF3 a Mike Pancake, en una pel\xEDcula estrenada
+    en 2015."
+  - Su carrera en cine abarca de 2007 a 2016 y recorre suspenso y crimen.
+  - "Comparti\xF3 reparto con Emma Roberts en Nerve."
+  - "En 21 Jump Street interpret\xF3 a Eric Molson."
+  - Aparece en Now You See Me y 22 Jump Street.

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cadaado
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cadaado
+  category: lugares
+  difficulty: 0
+  answer: Cadaado
+  acceptedAnswers:
+  - Cadaado
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 6,14 grados del ecuador."
+  - Su escala urbana ronda los 511 mil de habitantes y se integra en Galguduud.
+  - Administrativamente pertenece a Galguduud. No es la capital nacional de Somalia.
+  - "Esta ciudad de Somalia est\xE1 en Galguduud y se sit\xFAa a 6,1\xB0 norte."
+  - "Es una ciudad de Somalia, en Galguduud, situada aproximadamente en 6,1\xB0 norte
+    y 46,6\xB0 este."

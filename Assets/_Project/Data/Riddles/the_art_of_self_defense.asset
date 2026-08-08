@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_art_of_self_defense
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_art_of_self_defense
+  category: peliculas
+  difficulty: 1
+  answer: The Art of Self-Defense
+  acceptedAnswers:
+  - The Art of Self-Defense
+  - Art of Self-Defense
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 2010, vinculada al
+    g\xE9nero de acci\xF3n. La direcci\xF3n est\xE1 acreditada a Riley Stearns."
+  - "La ficha t\xE9cnica marca 104 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R. Entre sus int\xE9rpretes figura Jesse Eisenberg."
+  - "Se estren\xF3 en 2019 y estuvo asociada a la compa\xF1\xEDa End Cue."
+  - "La dirigi\xF3 Riley Stearns y su figura principal es Jesse Eisenberg."
+  - Cinta de Estados Unidos lanzada en 2019, dirigida por Riley Stearns y encabezada
+    por Jesse Eisenberg, con guion de Riley Stearns.

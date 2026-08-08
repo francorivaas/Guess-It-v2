@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: santa_teresa_del_tuy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: santa_teresa_del_tuy
+  category: lugares
+  difficulty: 0
+  answer: Santa Teresa del Tuy
+  acceptedAnswers:
+  - Santa Teresa del Tuy
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 66,66\xB0 oeste."
+  - "Re\xFAne cerca de 525.300 habitantes en la divisi\xF3n administrativa de Miranda."
+  - "Cumple una funci\xF3n de capital local dentro de Miranda. Se halla aproximadamente
+    a 10,2\xB0 norte."
+  - "Esta ciudad de Venezuela est\xE1 en Miranda y se sit\xFAa a 10,2\xB0 norte."
+  - "En Venezuela, dentro de Miranda, esta ciudad de unos 525 mil est\xE1 cerca de
+    10,2\xB0 norte y 66,7\xB0 oeste."

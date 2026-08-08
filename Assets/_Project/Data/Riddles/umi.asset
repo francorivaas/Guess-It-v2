@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: umi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: umi
+  category: bandas musicales
+  difficulty: 0
+  answer: UMI
+  acceptedAnswers:
+  - UMI
+  hints:
+  - "Antes de mirar los t\xEDtulos, conviene pensar en chill y soul y en un pulso
+    claramente bailable."
+  - "Uno de los \xE1lbumes asociados a este proyecto es \xABRemember Me\xBB."
+  - "Dos t\xEDtulos menos inmediatos de su repertorio son \xABButterfly\xBB y \xABwish
+    that i could\xBB."
+  - "El repertorio se vuelve claro con \xABLove Affair\xBB junto a \xABRemember Me\xBB."
+  - "Proyecto musical responsable de \xABLove Affair\xBB, \xABRemember Me\xBB y \xABButterfly\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: james_purefoy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: james_purefoy
+  category: personas
+  difficulty: 0
+  answer: James Purefoy
+  acceptedAnswers:
+  - James Purefoy
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1997 y 2015 y recorren g\xE9neros
+    como drama, romance y aventura."
+  - "Uno de sus trabajos fue \xABSolomon Kane\xBB (2009), bajo la direcci\xF3n de
+    Michael J. Bassett."
+  - "Su papel en \xABHigh-Rise\xBB fue el de Pangbourne."
+  - "Su papel en \xABMansfield Park\xBB fue el de Tom Bertram."
+  - "Interpret\xF3 a Tom Bertram en \xABMansfield Park\xBB y a Rawdon Crawley en
+    \xABVanity Fair\xBB."

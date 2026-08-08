@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gilbert_melki
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gilbert_melki
+  category: personas
+  difficulty: 1
+  answer: Gilbert Melki
+  acceptedAnswers:
+  - Gilbert Melki
+  hints:
+  - "Trabaj\xF3 en producciones de drama, comedia y romance a lo largo del per\xEDodo
+    entre 2001 y 2010."
+  - "Particip\xF3 en \xABAngel-A\xBB, dirigida por Luc Besson y estrenada en 2005."
+  - "Su papel en \xABLe Mac\xBB fue el de Tiago Mend\xE8s."
+  - "En \xABRoyal Palace\xBB interpret\xF3 a Bruno."
+  - "Sus papeles incluyen a Bruno en \xABRoyal Palace\xBB y a Marc en \xABIntimate
+    Strangers\xBB."

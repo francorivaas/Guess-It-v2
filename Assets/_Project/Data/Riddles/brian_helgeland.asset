@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: brian_helgeland
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: brian_helgeland
+  category: personas
+  difficulty: 0
+  answer: Brian Helgeland
+  acceptedAnswers:
+  - Brian Helgeland
+  hints:
+  - "Su trabajo se reparte entre acci\xF3n y biograf\xEDa a lo largo de un per\xEDodo
+    que va entre 1997 y 2015."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABThe Order\xBB, vinculada a Estados
+    Unidos y Reino Unido."
+  - "Su nombre figura en los cr\xE9ditos de \xABThe Taking of Pelham 123\xBB junto
+    con \xABRobin Hood\xBB."
+  - "La filmograf\xEDa apunta con claridad a \xABMystic River\xBB y \xABRobin Hood\xBB."
+  - "Figura cinematogr\xE1fica asociada mediante guion y direcci\xF3n a \xABMystic
+    River\xBB, \xABRobin Hood\xBB y \xABThe Taking of Pelham 123\xBB."

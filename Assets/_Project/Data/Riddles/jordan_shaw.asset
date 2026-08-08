@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jordan_shaw
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jordan_shaw
+  category: bandas musicales
+  difficulty: 0
+  answer: Jordan Shaw
+  acceptedAnswers:
+  - Jordan Shaw
+  hints:
+  - "Antes de mirar los t\xEDtulos, conviene pensar en house progresivo y deep house
+    y en una energ\xEDa sonora alta."
+  - "Uno de los \xE1lbumes asociados a este proyecto es \xABSaid Goodbye\xBB."
+  - Entre sus colaboraciones registradas figuran Mike Williams y Felix Jaehn.
+  - "Dos canciones muy \xFAtiles para reconocerlo son \xABDo It All Again\xBB y \xABWithout
+    You\xBB."
+  - "Artista o grupo detr\xE1s de \xABDo It All Again\xBB, \xABWithout You\xBB y
+    \xABSomebody Else Instead\xBB."

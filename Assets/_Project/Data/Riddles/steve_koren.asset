@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: steve_koren
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: steve_koren
+  category: personas
+  difficulty: 0
+  answer: Steve Koren
+  acceptedAnswers:
+  - Steve Koren
+  hints:
+  - "Su trabajo se reparte entre comedia y ciencia ficci\xF3n y fantas\xEDa a lo
+    largo de un per\xEDodo que va entre 1998 y 2012."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABA Thousand Words\xBB, vinculada
+    a Estados Unidos."
+  - "Tambi\xE9n est\xE1 vinculada a \xABA Night at the Roxbury\xBB y \xABClick\xBB."
+  - "Dos referencias fuertes de su carrera son \xABBruce Almighty\xBB y \xABClick\xBB."
+  - "Figura cinematogr\xE1fica asociada mediante guion a \xABBruce Almighty\xBB,
+    \xABClick\xBB y \xABA Night at the Roxbury\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mission_viejo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mission_viejo
+  category: lugares
+  difficulty: 0
+  answer: Mission Viejo
+  acceptedAnswers:
+  - Mission Viejo
+  hints:
+  - "Est\xE1 al oeste de Greenwich; su latitud ronda los 33,61\xB0 norte."
+  - "Re\xFAne cerca de 642.200 habitantes en la divisi\xF3n administrativa de California."
+  - "No es la capital nacional de Estados Unidos. Su longitud geogr\xE1fica ronda
+    los 117,66\xB0 oeste."
+  - "Esta ciudad de Estados Unidos est\xE1 en California y se sit\xFAa a 33,6\xB0
+    norte."
+  - "En Estados Unidos, dentro de California, esta ciudad de unos 642 mil est\xE1
+    cerca de 33,6\xB0 norte y 117,7\xB0 oeste."

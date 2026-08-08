@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kumul
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kumul
+  category: lugares
+  difficulty: 0
+  answer: Kumul
+  acceptedAnswers:
+  - Kumul
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 93,52\xB0 este."
+  - Su escala urbana ronda los 673 mil de habitantes y se integra en Xinjiang.
+  - "Cumple una funci\xF3n de capital local dentro de Xinjiang. Su longitud geogr\xE1fica
+    ronda los 93,52\xB0 este."
+  - "Se encuentra en China, dentro de Xinjiang, con una poblaci\xF3n cercana a 673
+    mil."
+  - "En China, dentro de Xinjiang, esta ciudad de unos 673 mil est\xE1 cerca de 42,8\xB0
+    norte y 93,5\xB0 este."

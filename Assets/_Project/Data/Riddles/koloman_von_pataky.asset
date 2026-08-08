@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: koloman_von_pataky
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: koloman_von_pataky
+  category: bandas musicales
+  difficulty: 1
+  answer: Koloman von Pataky
+  acceptedAnswers:
+  - Koloman von Pataky
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABCos\xEC fan tutte, K.588: Un'aura amorosa\xBB,
+    de 1927, y llega hasta 1930."
+  - "\xABLa traviata: Lunge da lei\xBB presenta una energ\xEDa suave y un pulso cercano
+    a 97 BPM."
+  - "Entre sus grabaciones figuran \xABManon Lescaut: Donna non vidi mai\xBB y \xABDie
+    Entf\xFChrung aus dem Serail, K.384: Wenn der Freude Tr\xE4nen flie\xDFen\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABDie Zauberfl\xF6te, K. 620: Dies Bildnis ist bezaubernd
+    sch\xF6n\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABLes p\xEAcheurs de perles, WD 13: Nadir's
+    Aria\xBB y \xABLe Postillon de Lonjumeau: Freunde, vernehmet die Geschichte -
+    Sung in German\xBB."

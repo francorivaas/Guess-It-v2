@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: land_of_mine
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: land_of_mine
+  category: peliculas
+  difficulty: 0
+  answer: Land of Mine
+  acceptedAnswers:
+  - Land of Mine
+  hints:
+  - "Pertenece al cine de Dinamarca y se ubica temporalmente en la d\xE9cada de 2010,
+    dentro de drama."
+  - "Tiene una duraci\xF3n aproximada de 100 minutos y recibi\xF3 la clasificaci\xF3n
+    R. La direcci\xF3n est\xE1 acreditada a Martin Zandvliet."
+  - "El a\xF1o 2015 y el sello Nordisk Film forman parte de sus datos de producci\xF3n."
+  - "La dirigi\xF3 Martin Zandvliet y su figura principal es Roland M\xF8ller."
+  - "Pel\xEDcula de 2015 dirigida por Martin Zandvliet, con Roland M\xF8ller en el
+    reparto, con guion de Martin Zandvliet."

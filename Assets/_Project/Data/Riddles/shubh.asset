@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: shubh
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: shubh
+  category: bandas musicales
+  difficulty: 0
+  answer: Shubh
+  acceptedAnswers:
+  - Shubh
+  hints:
+  - La huella musical se mueve por hip hop y presenta un pulso claramente bailable.
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABNo Love\xBB."
+  - Entre sus colaboraciones registradas figuran Ikky.
+  - "Las referencias directas son \xABNo Love\xBB y \xABBaller\xBB."
+  - "La respuesta es el nombre que firma \xABNo Love\xBB, \xABBaller\xBB y \xABWe
+    Rollin\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: joe_ranft
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: joe_ranft
+  category: personas
+  difficulty: 1
+  answer: Joe Ranft
+  acceptedAnswers:
+  - Joe Ranft
+  hints:
+  - "En The Brave Little Toaster interpret\xF3 a Elmo St. Peters (voice), en una
+    pel\xEDcula estrenada en 1987."
+  - "Su carrera en cine abarca de 1987 a 2003 y recorre animaci\xF3n y cine familiar."
+  - "Comparti\xF3 reparto con Kevin Spacey en A Bug's Life. Otro cr\xE9dito es The
+    Brave Little Toaster."
+  - "En A Bug's Life interpret\xF3 a Heimlich (voice)."
+  - Aparece en Finding Nemo y The Brave Little Toaster.

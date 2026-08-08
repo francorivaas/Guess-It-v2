@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mune_guardian_of_the_moon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mune_guardian_of_the_moon
+  category: peliculas
+  difficulty: 0
+  answer: 'Mune: Guardian of the Moon'
+  acceptedAnswers:
+  - 'Mune: Guardian of the Moon'
+  - Mune, le gardien de la lune
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2010 dura cerca de 86 minutos."
+  - "Su combinaci\xF3n de g\xE9neros incluye animaci\xF3n; la producci\xF3n se vincula
+    con Francia."
+  - "La direcci\xF3n estuvo a cargo de Alexandre de La Patelli\xE8re."
+  - Michael Gregorio interpreta a Mune, mientras Omar Sy encarna a Sohone.
+  - "El reparto incluye a Michael Gregorio como Mune, Omar Sy como Sohone y Iz\xEFa
+    Higelin como Cire bajo la direcci\xF3n de Alexandre de La Patelli\xE8re."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_blind_sunflowers
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_blind_sunflowers
+  category: peliculas
+  difficulty: 2
+  answer: The Blind Sunflowers
+  acceptedAnswers:
+  - The Blind Sunflowers
+  - Los girasoles ciegos
+  hints:
+  - "Fue filmada originalmente en espa\xF1ol y lleg\xF3 a los cines en 2008."
+  - "Sociedad General de Cine (SOGECINE) S.A. particip\xF3 en una pel\xEDcula de
+    drama y suspenso producida en Espa\xF1a."
+  - "Jos\xE9 Luis Cuerda la dirigi\xF3 con Sociedad General de Cine (SOGECINE) S.A.
+    entre las compa\xF1\xEDas productoras."
+  - "Maribel Verd\xFA interpreta a Elena, mientras Javier C\xE1mara encarna a Ricardo."
+  - "El reparto incluye a Maribel Verd\xFA como Elena, Javier C\xE1mara como Ricardo
+    y Ra\xFAl Ar\xE9valo como Salvador bajo la direcci\xF3n de Jos\xE9 Luis Cuerda."

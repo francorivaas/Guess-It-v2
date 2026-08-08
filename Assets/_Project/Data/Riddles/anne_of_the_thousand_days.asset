@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: anne_of_the_thousand_days
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: anne_of_the_thousand_days
+  category: peliculas
+  difficulty: 1
+  answer: Anne of the Thousand Days
+  acceptedAnswers:
+  - Anne of the Thousand Days
+  hints:
+  - "Es una producci\xF3n de 1969 con una duraci\xF3n aproximada de 145 minutos."
+  - Mezcla drama, romance y historia y fue producida en Reino Unido.
+  - "Charles Jarrott firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - "Richard Burton interpreta a Rei Henrique VIII, mientras Genevi\xE8ve Bujold
+    encarna a Anna Bolena."
+  - "Charles Jarrott dirige a Richard Burton como Rei Henrique VIII, Genevi\xE8ve
+    Bujold como Anna Bolena y Irene Papas como Rainha Catarina de Arag\xE3o en esta
+    pel\xEDcula de 1969."

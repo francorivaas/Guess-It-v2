@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jiamusi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jiamusi
+  category: lugares
+  difficulty: 0
+  answer: Jiamusi
+  acceptedAnswers:
+  - Jiamusi
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 130,32\xB0 este."
+  - "Su poblaci\xF3n registrada se aproxima a 2.552.100 habitantes y pertenece a
+    Heilongjiang."
+  - "Cumple una funci\xF3n de capital local dentro de Heilongjiang. Su longitud geogr\xE1fica
+    ronda los 130,32\xB0 este."
+  - Pertenece a China y forma parte de Heilongjiang; supera aproximadamente los 2.552.100
+    habitantes.
+  - "En China, dentro de Heilongjiang, esta ciudad de unos 2,6 millones est\xE1 cerca
+    de 46,8\xB0 norte y 130,3\xB0 este."

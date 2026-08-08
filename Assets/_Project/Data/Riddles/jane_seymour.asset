@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jane_seymour
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jane_seymour
+  category: personas
+  difficulty: 2
+  answer: Jane Seymour
+  acceptedAnswers:
+  - Jane Seymour
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1972 y 2013 y recorren g\xE9neros
+    como drama, romance y acci\xF3n."
+  - "Particip\xF3 en \xABAustenland\xBB, dirigida por Jerusha Hess y estrenada en
+    2013."
+  - "En \xABYoung Winston\xBB interpret\xF3 a Pamela Plowden."
+  - "Su papel en \xABThe Scarlet Pimpernel\xBB fue el de Marguerite St. Just."
+  - "Interpret\xF3 a Marguerite St. Just en \xABThe Scarlet Pimpernel\xBB y a Marie-Antoinette
+    en \xABThe French Revolution\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kiss_me_again
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kiss_me_again
+  category: peliculas
+  difficulty: 1
+  answer: Kiss Me Again
+  acceptedAnswers:
+  - Kiss Me Again
+  - Baciami Ancora
+  hints:
+  - "Combina un estreno de 2010 con di\xE1logos originalmente en italiano."
+  - "Entre sus compa\xF1\xEDas figura Fandango; sus g\xE9neros principales son comedia."
+  - "Gabriele Muccino firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Stefano Accorsi interpreta a Carlo, mientras Vittoria Puccini encarna a Giulia.
+  - "El reparto incluye a Stefano Accorsi como Carlo, Vittoria Puccini como Giulia
+    y Pierfrancesco Favino como Marco bajo la direcci\xF3n de Gabriele Muccino."

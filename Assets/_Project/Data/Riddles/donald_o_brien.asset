@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: donald_o_brien
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: donald_o_brien
+  category: personas
+  difficulty: 1
+  answer: Donald O'Brien
+  acceptedAnswers:
+  - Donald O'Brien
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1962 y 1986, con presencia frecuente
+    en acci\xF3n, w\xE9stern y ciencia ficci\xF3n."
+  - "Form\xF3 parte del elenco de \xABZombie Holocaust\xBB, una pel\xEDcula de 1980
+    dirigida por Marino Girolami."
+  - "Su papel en \xABKeoma\xBB fue el de Caldwell."
+  - "En \xABThe Trial of Joan of Arc\xBB interpret\xF3 a English Priest (uncredited)."
+  - "Interpret\xF3 a English Priest (uncredited) en \xABThe Trial of Joan of Arc\xBB
+    y a Professor Olster en \xABHands of Steel\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: vladek_sheybal
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: vladek_sheybal
+  category: personas
+  difficulty: 2
+  answer: Vladek Sheybal
+  acceptedAnswers:
+  - Vladek Sheybal
+  hints:
+  - "Trabaj\xF3 en producciones de drama, ciencia ficci\xF3n y romance a lo largo
+    del per\xEDodo entre 1957 y 1984."
+  - "Particip\xF3 en \xABJourney to the Far Side of the Sun\xBB, dirigida por Robert
+    Parrish y estrenada en 1969."
+  - "Dio vida a Loerke en \xABWomen in Love\xBB."
+  - "Su papel en \xABKana\u0142\xBB fue el de Kompozytor Micha\u0142."
+  - "Sus papeles incluyen a Kompozytor Micha\u0142 en \xABKana\u0142\xBB y a Gen.
+    Zorin en \xABThe Jigsaw Man\xBB."

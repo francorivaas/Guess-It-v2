@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: juliet_stevenson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: juliet_stevenson
+  category: personas
+  difficulty: 0
+  answer: Juliet Stevenson
+  acceptedAnswers:
+  - Juliet Stevenson
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1988 y 2013 y recorren g\xE9neros
+    como drama, comedia y romance."
+  - "Form\xF3 parte del elenco de \xABBend It Like Beckham\xBB, una pel\xEDcula de
+    2002 dirigida por Gurinder Chadha."
+  - "Su papel en \xABDiana\xBB fue el de Sonia."
+  - "En \xABThe Secret of Moonacre\xBB interpret\xF3 a Miss Heliotrope."
+  - "Es la persona que encarn\xF3 a Miss Heliotrope en \xABThe Secret of Moonacre\xBB
+    y a Lucinda en \xABDesert Flower\xBB."

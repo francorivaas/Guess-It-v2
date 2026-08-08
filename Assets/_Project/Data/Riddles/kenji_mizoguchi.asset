@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kenji_mizoguchi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kenji_mizoguchi
+  category: personas
+  difficulty: 0
+  answer: Kenji Mizoguchi
+  acceptedAnswers:
+  - Kenji Mizoguchi
+  hints:
+  - "Su carrera detr\xE1s de c\xE1mara se desarrolla entre 1936 y 1956, con especial
+    presencia de drama, romance y historia."
+  - "Estuvo al frente de \xABUgetsu\xBB (1953)."
+  - "Tambi\xE9n dirigi\xF3 \xABSansho the Bailiff\xBB, del a\xF1o 1954."
+  - "Fue responsable de \xABUgetsu\xBB y \xABThe Life of Oharu\xBB."
+  - "Es el realizador detr\xE1s de \xABSansho the Bailiff\xBB, \xABThe Life of Oharu\xBB
+    y \xABStreet of Shame\xBB."

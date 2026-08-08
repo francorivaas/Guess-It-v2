@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_dogs_of_war
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_dogs_of_war
+  category: peliculas
+  difficulty: 1
+  answer: The Dogs of War
+  acceptedAnswers:
+  - The Dogs of War
+  hints:
+  - "Su metraje se acerca a 118 minutos y corresponde al a\xF1o 1980."
+  - "Entre sus compa\xF1\xEDas figura Juniper Films; sus g\xE9neros principales son
+    suspenso, acci\xF3n y aventura."
+  - "John Irvin la dirigi\xF3 con Juniper Films entre las compa\xF1\xEDas productoras."
+  - Christopher Walken interpreta a Jamie Shannon, mientras Tom Berenger encarna
+    a Drew.
+  - "El reparto incluye a Christopher Walken como Jamie Shannon, Tom Berenger como
+    Drew y Winston Ntshona como Dr Okoye bajo la direcci\xF3n de John Irvin."

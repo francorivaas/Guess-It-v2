@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: don_t_look_now
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: don_t_look_now
+  category: peliculas
+  difficulty: 0
+  answer: Don't Look Now
+  acceptedAnswers:
+  - Don't Look Now
+  hints:
+  - "Su metraje se acerca a 110 minutos y corresponde al a\xF1o 1973."
+  - "Entre sus compa\xF1\xEDas figura Casey Productions; sus g\xE9neros principales
+    son suspenso, drama y terror."
+  - "Nicolas Roeg la dirigi\xF3 con Casey Productions entre las compa\xF1\xEDas productoras."
+  - Julie Christie interpreta a Laura Baxter, mientras Donald Sutherland encarna
+    a John Baxter.
+  - "El reparto incluye a Julie Christie como Laura Baxter, Donald Sutherland como
+    John Baxter y Hilary Mason como Heather bajo la direcci\xF3n de Nicolas Roeg."

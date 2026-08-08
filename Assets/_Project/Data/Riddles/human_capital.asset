@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: human_capital
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: human_capital
+  category: peliculas
+  difficulty: 0
+  answer: Human Capital
+  acceptedAnswers:
+  - Human Capital
+  - Il capitale umano
+  hints:
+  - "Su metraje se acerca a 111 minutos y corresponde al a\xF1o 2014."
+  - "Entre sus compa\xF1\xEDas figura Indiana Production Company; sus g\xE9neros
+    principales son drama."
+  - "Detr\xE1s de la c\xE1mara estuvo Paolo Virz\xEC."
+  - En el reparto, Fabrizio Bentivoglio da vida a Dino Ossola y Valeria Bruni Tedeschi
+    a Carla Bernaschi.
+  - En esta cinta de 2014 coinciden Fabrizio Bentivoglio como Dino Ossola, Valeria
+    Bruni Tedeschi como Carla Bernaschi y Fabrizio Gifuni como Giovanni Bernaschi.

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_last_king_of_scotland
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_last_king_of_scotland
+  category: peliculas
+  difficulty: 1
+  answer: The Last King of Scotland
+  acceptedAnswers:
+  - The Last King of Scotland
+  hints:
+  - "Se estren\xF3 en 2006, dura cerca de 121 minutos y tuvo producci\xF3n de Reino
+    Unido."
+  - Combina drama; una de sus productoras fue Fox Searchlight Pictures. El guion
+    acredita a Peter Morgan.
+  - "La dirigi\xF3 Kevin Macdonald, con Gillian Anderson en un papel del reparto."
+  - En el elenco aparecen James McAvoy y Simon McBurney.
+  - "Forest Whitaker encabeza esta pel\xEDcula de drama, dirigida por Kevin Macdonald
+    y estrenada en 2006."

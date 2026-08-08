@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: knockin_on_heaven_s_door
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: knockin_on_heaven_s_door
+  category: peliculas
+  difficulty: 0
+  answer: Knockin' on Heaven's Door
+  acceptedAnswers:
+  - Knockin' on Heaven's Door
+  hints:
+  - "Combina un estreno de 1997 con di\xE1logos originalmente en alem\xE1n."
+  - "Entre sus compa\xF1\xEDas figura Touchstone; sus g\xE9neros principales son
+    comedia y crimen."
+  - El realizador principal fue Thomas Jahn.
+  - En el reparto, Til Schweiger da vida a Martin Brest y Jan Josef Liefers a Rudi
+    Wurlitzer.
+  - "El reparto incluye a Til Schweiger como Martin Brest, Jan Josef Liefers como
+    Rudi Wurlitzer y Thierry van Werveke como Henk bajo la direcci\xF3n de Thomas
+    Jahn."

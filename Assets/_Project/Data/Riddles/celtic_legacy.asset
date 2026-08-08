@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: celtic_legacy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: celtic_legacy
+  category: bandas musicales
+  difficulty: 0
+  answer: Celtic Legacy
+  acceptedAnswers:
+  - Celtic Legacy
+  hints:
+  - "Es un proyecto de heavy/folk metal nacido en Irlanda en la d\xE9cada de 1990."
+  - "Se form\xF3 en 1997 en Dublin y figura como banda activa."
+  - "Su escena de origen es Dublin, en Irlanda, dentro del \xE1mbito de heavy/folk
+    metal."
+  - No consta un sello actual; mantiene actividad registrada desde 1997 hasta el
+    presente.
+  - Es la banda de heavy/folk metal formada en 1997 en Dublin, Irlanda, de trayectoria
+    independiente.

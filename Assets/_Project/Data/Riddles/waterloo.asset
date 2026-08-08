@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: waterloo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: waterloo
+  category: peliculas
+  difficulty: 1
+  answer: Waterloo
+  acceptedAnswers:
+  - Waterloo
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1970 dura cerca de 128 minutos."
+  - "Entre sus compa\xF1\xEDas figura Paramount Pictures; sus g\xE9neros principales
+    son historia, acci\xF3n y drama."
+  - "La direcci\xF3n estuvo a cargo de Sergey Bondarchuk."
+  - En el reparto, Rod Steiger da vida a Napoleon Bonaparte y Christopher Plummer
+    a Arthur Wellesley, Duke of Wellington.
+  - En esta cinta de 1970 coinciden Rod Steiger como Napoleon Bonaparte, Christopher
+    Plummer como Arthur Wellesley, Duke of Wellington y Orson Welles como Louis XVIII.

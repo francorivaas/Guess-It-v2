@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pascal_chaumeil
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pascal_chaumeil
+  category: personas
+  difficulty: 1
+  answer: Pascal Chaumeil
+  acceptedAnswers:
+  - Pascal Chaumeil
+  hints:
+  - "Su carrera detr\xE1s de c\xE1mara se desarrolla entre 2010 y 2016, con especial
+    presencia de comedia, romance y drama."
+  - "Estuvo al frente de \xABHeartbreaker\xBB (2010)."
+  - "Su cat\xE1logo incluye \xABA Long Way Down\xBB adem\xE1s de la obra anterior."
+  - "Dos pel\xEDculas que llevan su firma son \xABA Long Way Down\xBB y \xABFly Me
+    to the Moon\xBB."
+  - "Es el realizador detr\xE1s de \xABA Long Way Down\xBB, \xABFly Me to the Moon\xBB
+    y \xABOdd Job\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chris_wedge
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chris_wedge
+  category: personas
+  difficulty: 0
+  answer: Chris Wedge
+  acceptedAnswers:
+  - Chris Wedge
+  hints:
+  - "En Ice Age: Dawn of the Dinosaurs interpret\xF3 a Scrat (voice), en una pel\xEDcula
+    estrenada en 2009."
+  - "Su carrera en cine abarca de 2002 a 2012 y recorre animaci\xF3n y comedia. Entre
+    sus pel\xEDculas figura Ice Age: Dawn of the Dinosaurs."
+  - "Comparti\xF3 reparto con John Leguizamo en Ice Age: Continental Drift."
+  - "En Ice Age: The Meltdown interpret\xF3 a Scrat (voice)."
+  - "Aparece en Ice Age y Ice Age: Continental Drift. Tambi\xE9n form\xF3 parte de
+    Ice Age: Dawn of the Dinosaurs."

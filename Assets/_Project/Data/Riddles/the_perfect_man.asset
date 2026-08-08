@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_perfect_man
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_perfect_man
+  category: peliculas
+  difficulty: 1
+  answer: The Perfect Man
+  acceptedAnswers:
+  - The Perfect Man
+  - Perfect Man
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 2000 y clasificada como comedia. La direcci\xF3n est\xE1 acreditada a
+    Mark Rosman."
+  - "El montaje final se extiende unos 100 minutos y aparece catalogado con la se\xF1al
+    PG."
+  - "La producci\xF3n lleg\xF3 en 2005 bajo la participaci\xF3n de Universal Pictures."
+  - "Mark Rosman estuvo a cargo de la direcci\xF3n, con Hilary Duff al frente del
+    elenco."
+  - "Pel\xEDcula de 2005 dirigida por Mark Rosman, con Hilary Duff en el reparto,
+    con guion de Michael McQuown."

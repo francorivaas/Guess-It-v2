@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: marino_mase
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: marino_mase
+  category: personas
+  difficulty: 1
+  answer: "Marino Mas\xE9"
+  acceptedAnswers:
+  - "Marino Mas\xE9"
+  - marino mase
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1963 y 1987, con presencia frecuente
+    en drama, terror y cine extranjero."
+  - "Form\xF3 parte del elenco de \xABThe Night Porter\xBB, una pel\xEDcula de 1974
+    dirigida por Liliana Cavani."
+  - "Su papel en \xABFists in the Pocket\xBB fue el de Augusto."
+  - "Dio vida a Trettorio en \xABThe Belly of an Architect\xBB."
+  - "Interpret\xF3 a Trettorio en \xABThe Belly of an Architect\xBB y a Lieutenant
+    Tony Aris, NYPD en \xABContamination\xBB."

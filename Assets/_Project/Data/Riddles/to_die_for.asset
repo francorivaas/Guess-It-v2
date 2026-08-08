@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: to_die_for
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: to_die_for
+  category: peliculas
+  difficulty: 0
+  answer: To Die For
+  acceptedAnswers:
+  - To Die For
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 1990 y clasificada como comedia. La direcci\xF3n est\xE1 acreditada a
+    Gus Van Sant."
+  - "La ficha t\xE9cnica marca 106 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R. Entre sus int\xE9rpretes figura Nicole Kidman."
+  - "El a\xF1o 1995 y el sello Columbia Pictures forman parte de sus datos de producci\xF3n."
+  - "Gus Van Sant estuvo a cargo de la direcci\xF3n, con Nicole Kidman al frente
+    del elenco."
+  - "Producci\xF3n de comedia estrenada en 1995: direcci\xF3n de Gus Van Sant y actuaciones
+    de Nicole Kidman, con guion de Joyce Maynard."

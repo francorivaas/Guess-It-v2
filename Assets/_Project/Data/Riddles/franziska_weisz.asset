@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: franziska_weisz
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: franziska_weisz
+  category: personas
+  difficulty: 2
+  answer: Franziska Weisz
+  acceptedAnswers:
+  - Franziska Weisz
+  hints:
+  - "Trabaj\xF3 en producciones de drama, suspenso y crimen a lo largo del per\xEDodo
+    entre 2001 y 2014."
+  - "Uno de sus trabajos fue \xABStations of the Cross\xBB (2014), bajo la direcci\xF3n
+    de Dietrich Br\xFCggemann."
+  - "Su papel en \xABThe Robber\xBB fue el de Erika."
+  - "Dio vida a Die Freundin des Opel-Freaks en \xABDog Days\xBB."
+  - "Interpret\xF3 a Die Freundin des Opel-Freaks en \xABDog Days\xBB y a Irene en
+    \xABHotel\xBB."

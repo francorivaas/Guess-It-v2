@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: al_bajur
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: al_bajur
+  category: lugares
+  difficulty: 0
+  answer: "Al B\u0101j\u016Br"
+  acceptedAnswers:
+  - "Al B\u0101j\u016Br"
+  - al bajur
+  hints:
+  - "Est\xE1 al este de Greenwich; su latitud ronda los 30,43\xB0 norte."
+  - "Re\xFAne cerca de 427.000 habitantes en la divisi\xF3n administrativa de Al
+    Min\u016Bf\u012Byah."
+  - "No es la capital nacional de Egipto. Su longitud geogr\xE1fica ronda los 31,06\xB0
+    este."
+  - "Esta ciudad de Egipto est\xE1 en Al Min\u016Bf\u012Byah y se sit\xFAa a 30,4\xB0
+    norte."
+  - "En Egipto, dentro de Al Min\u016Bf\u012Byah, esta ciudad de unos 427 mil est\xE1
+    cerca de 30,4\xB0 norte y 31,1\xB0 este."

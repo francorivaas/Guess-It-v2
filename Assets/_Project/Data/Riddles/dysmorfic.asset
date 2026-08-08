@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dysmorfic
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dysmorfic
+  category: bandas musicales
+  difficulty: 0
+  answer: Dysmorfic
+  acceptedAnswers:
+  - Dysmorfic
+  hints:
+  - "Su estilo se mueve dentro de crust/grindcore y surgi\xF3 en Italia durante la
+    d\xE9cada de 1990."
+  - "El grupo naci\xF3 en Mantua, Lombardy durante 1999 y su estado registrado es
+    activa."
+  - Procede de Mantua, Lombardy, Italia, y practica principalmente crust/grindcore.
+  - El sello registrado es Hecatombe Records, mientras que mantiene actividad registrada
+    desde 1999 hasta el presente.
+  - Grupo activa de crust/grindcore, originado en Mantua, Lombardy, Italia, en 1999
+    y vinculada a Hecatombe Records.

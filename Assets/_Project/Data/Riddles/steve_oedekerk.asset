@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: steve_oedekerk
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: steve_oedekerk
+  category: personas
+  difficulty: 0
+  answer: Steve Oedekerk
+  acceptedAnswers:
+  - Steve Oedekerk
+  hints:
+  - "Es una figura del cine cuya actividad registrada se extiende entre 1995 y 2007
+    y toca principalmente acci\xF3n y comedia."
+  - "Una pista lateral de su filmograf\xEDa es \xABBarnyard\xBB, dentro de Estados
+    Unidos."
+  - "La asociaci\xF3n con \xABNothing to Lose\xBB se completa con otro cr\xE9dito
+    en \xABEvan Almighty\xBB."
+  - "Los t\xEDtulos \xABAce Ventura: When Nature Calls\xBB y \xABEvan Almighty\xBB
+    ofrecen las pistas m\xE1s directas."
+  - "Persona con cr\xE9ditos de guion y direcci\xF3n en \xABAce Ventura: When Nature
+    Calls\xBB, \xABEvan Almighty\xBB y \xABNothing to Lose\xBB."

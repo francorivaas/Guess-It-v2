@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_invisible
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_invisible
+  category: peliculas
+  difficulty: 1
+  answer: The Invisible
+  acceptedAnswers:
+  - The Invisible
+  - Invisible
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 2000, vinculada al
+    g\xE9nero de crimen. La direcci\xF3n est\xE1 acreditada a David S. Goyer."
+  - "Su duraci\xF3n ronda los 102 minutos; la clasificaci\xF3n registrada es PG-13."
+  - "Se estren\xF3 en 2007 y estuvo asociada a la compa\xF1\xEDa Hollywood Pictures."
+  - "La dirigi\xF3 David S. Goyer y su figura principal es Justin Chatwin."
+  - "Producci\xF3n de crimen estrenada en 2007: direcci\xF3n de David S. Goyer y
+    actuaciones de Justin Chatwin, con guion de Mick Davis."

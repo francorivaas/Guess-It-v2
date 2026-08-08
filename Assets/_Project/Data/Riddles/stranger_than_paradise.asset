@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: stranger_than_paradise
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: stranger_than_paradise
+  category: peliculas
+  difficulty: 0
+  answer: Stranger Than Paradise
+  acceptedAnswers:
+  - Stranger Than Paradise
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 1980, vinculada al
+    g\xE9nero de comedia. La direcci\xF3n est\xE1 acreditada a Jim Jarmusch."
+  - "La ficha t\xE9cnica marca 89 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R. Entre sus int\xE9rpretes figura John Lurie."
+  - "Se estren\xF3 en 1984 y estuvo asociada a la compa\xF1\xEDa Cinesthesia Productions."
+  - "La dirigi\xF3 Jim Jarmusch y su figura principal es John Lurie."
+  - "Producci\xF3n de comedia estrenada en 1984: direcci\xF3n de Jim Jarmusch y actuaciones
+    de John Lurie, con guion de Jim Jarmusch."

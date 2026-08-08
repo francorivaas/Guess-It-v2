@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: skylar_grey
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: skylar_grey
+  category: bandas musicales
+  difficulty: 0
+  answer: Skylar Grey
+  acceptedAnswers:
+  - Skylar Grey
+  hints:
+  - "En sus grabaciones destaca un tono emocional m\xE1s bien sombr\xEDo, dentro
+    de un repertorio relacionado con piano y dub."
+  - "Uno de los \xE1lbumes asociados a este proyecto es \xABFrom The Ashes - New
+    Beats\xBB."
+  - Entre sus colaboraciones registradas figuran Eminem y ILLENIUM.
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABLast One Standing (feat.
+    Polo G, Mozzy & Eminem) - From Venom: Let There Be Carnage\xBB y \xABI Need A
+    Doctor\xBB."
+  - "Nombre musical asociado directamente a \xABLast One Standing (feat. Polo G,
+    Mozzy & Eminem) - From Venom: Let There Be Carnage\xBB, \xABI Need A Doctor\xBB
+    y \xABEverything I Need\xBB."

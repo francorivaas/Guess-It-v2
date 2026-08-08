@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jack_clayton
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jack_clayton
+  category: personas
+  difficulty: 2
+  answer: Jack Clayton
+  acceptedAnswers:
+  - Jack Clayton
+  hints:
+  - "Dirigi\xF3 obras de drama, romance y terror a lo largo de una trayectoria que
+    va entre 1955 y 1987."
+  - "Estuvo al frente de \xABThe Innocents\xBB (1961)."
+  - "Su cat\xE1logo incluye \xABRoom at the Top\xBB adem\xE1s de la obra anterior."
+  - "Fue responsable de \xABThe Innocents\xBB y \xABOur Mother's House\xBB."
+  - "Es el realizador detr\xE1s de \xABRoom at the Top\xBB, \xABOur Mother's House\xBB
+    y \xABThe Lonely Passion of Judith Hearne\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: baardheere
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: baardheere
+  category: lugares
+  difficulty: 0
+  answer: Baardheere
+  acceptedAnswers:
+  - Baardheere
+  hints:
+  - "Est\xE1 al este de Greenwich; su latitud ronda los 2,33\xB0 norte."
+  - Su escala urbana ronda los 756 mil de habitantes y se integra en Gedo.
+  - Administrativamente pertenece a Gedo. No es la capital nacional de Somalia.
+  - Pertenece a Somalia y forma parte de Gedo; supera aproximadamente los 755.500
+    habitantes.
+  - "Es una ciudad de Somalia, en Gedo, situada aproximadamente en 2,3\xB0 norte
+    y 42,3\xB0 este."

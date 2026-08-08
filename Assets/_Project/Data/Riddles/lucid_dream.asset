@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lucid_dream
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lucid_dream
+  category: peliculas
+  difficulty: 1
+  answer: Lucid Dream
+  acceptedAnswers:
+  - Lucid Dream
+  hints:
+  - "Combina un estreno de 2017 con di\xE1logos originalmente en coreano."
+  - "El relato pertenece a ciencia ficci\xF3n y suspenso, con participaci\xF3n productiva
+    de Corea del Sur."
+  - "La direcci\xF3n estuvo a cargo de Kim Joon-Sung."
+  - Dos personajes centrales son Choi Dae-Ho, interpretado por Go Soo, y Detective
+    Song Bang-Sub, a cargo de Sol Kyung-gu.
+  - "El reparto incluye a Go Soo como Choi Dae-Ho, Sol Kyung-gu como Detective Song
+    Bang-Sub y Park Yoo-chun como Kwon Yong-hyun bajo la direcci\xF3n de Kim Joon-Sung."

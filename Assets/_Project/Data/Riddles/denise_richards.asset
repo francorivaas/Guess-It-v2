@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: denise_richards
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: denise_richards
+  category: personas
+  difficulty: 2
+  answer: Denise Richards
+  acceptedAnswers:
+  - Denise Richards
+  hints:
+  - "En Edmond interpret\xF3 a B-Girl, en una pel\xEDcula estrenada en 2005."
+  - "Su carrera en cine abarca de 1997 a 2012 y recorre aventura y acci\xF3n."
+  - "Comparti\xF3 reparto con David Boreanaz en Valentine."
+  - "En Scary Movie 3 interpret\xF3 a Annie."
+  - Aparece en Starship Troopers y The World Is Not Enough.

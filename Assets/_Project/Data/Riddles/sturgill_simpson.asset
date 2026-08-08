@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sturgill_simpson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sturgill_simpson
+  category: bandas musicales
+  difficulty: 1
+  answer: Sturgill Simpson
+  acceptedAnswers:
+  - Sturgill Simpson
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABLife Ain't Fair and the World Is Mean\xBB,
+    de 2013, y llega hasta 2016."
+  - "Se mueve dentro de country; \xABLife of Sin\xBB refleja una energ\xEDa media
+    y un pulso cercano a 117 BPM."
+  - "Entre sus grabaciones figuran \xABIn Bloom\xBB y \xABBrace for Impact (Live
+    a Little)\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABLong White Line\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABTurtles All the Way Down\xBB y \xABYou
+    Can Have the Crown\xBB."

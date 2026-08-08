@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tom_hollander
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tom_hollander
+  category: personas
+  difficulty: 0
+  answer: Tom Hollander
+  acceptedAnswers:
+  - Tom Hollander
+  hints:
+  - "En Paparazzi interpret\xF3 a Leonard Clark, en una pel\xEDcula estrenada en
+    2004."
+  - "Su carrera en cine abarca de 2001 a 2015 y recorre aventura y fantas\xEDa. Entre
+    sus pel\xEDculas figura Paparazzi."
+  - "Comparti\xF3 reparto con Tom Cruise en Valkyrie."
+  - "En Pirates of the Caribbean: At World's End interpret\xF3 a Lord Cutler Beckett."
+  - 'Aparece en Pirates of the Caribbean: Dead Man''s Chest y Mission: Impossible
+    - Rogue Nation.'

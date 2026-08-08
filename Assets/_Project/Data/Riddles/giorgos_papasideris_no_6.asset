@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: giorgos_papasideris_no_6
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: giorgos_papasideris_no_6
+  category: bandas musicales
+  difficulty: 1
+  answer: Giorgos Papasideris, No. 6
+  acceptedAnswers:
+  - Giorgos Papasideris, No. 6
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABTre papor oygkren evan (paradosiako)\xBB,
+    de 1940, y llega hasta 1940."
+  - "\xABKalikie\xBB presenta una energ\xEDa media y un pulso cercano a 94 BPM."
+  - "Entre sus grabaciones figuran \xABRetzaioi\xBB y \xABEvraiopoyla\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABTsigkaroyga\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABPethane o vlaxos\xBB y \xABTriantafillaki
+    tha gino\xBB."

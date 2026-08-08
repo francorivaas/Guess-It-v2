@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cascatinha_and_inhana
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cascatinha_and_inhana
+  category: bandas musicales
+  difficulty: 0
+  answer: Cascatinha & Inhana
+  acceptedAnswers:
+  - Cascatinha & Inhana
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABFr\xF4 do Ip\xEA\xBB, de 1955, y llega
+    hasta 1955."
+  - "\xABAve Maria do Sert\xE3o\xBB presenta una energ\xEDa suave y un pulso cercano
+    a 88 BPM."
+  - "Entre sus grabaciones figuran \xABDesilus\xE3o\xBB y \xABQuero Beijar-te as
+    M\xE3os\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABMeu Primeiro Amor\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABIndia\xBB y \xABNoites de Paraguai\xBB."

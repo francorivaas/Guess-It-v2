@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pirates_of_the_caribbean_at_world_s_end
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pirates_of_the_caribbean_at_world_s_end
+  category: peliculas
+  difficulty: 0
+  answer: 'Pirates of the Caribbean: At World''s End'
+  acceptedAnswers:
+  - 'Pirates of the Caribbean: At World''s End'
+  hints:
+  - "Se estren\xF3 en 2007, dura cerca de 169 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - "Combina aventura y fantas\xEDa; una de sus productoras fue Walt Disney Pictures.
+    El guion acredita a Ted Elliott."
+  - "La dirigi\xF3 Gore Verbinski, con Stellan Skarsg\xE5rd en un papel del reparto.
+    Tambi\xE9n participa Chow Yun-fat."
+  - En el elenco aparecen Orlando Bloom y Keira Knightley. Otro integrante del reparto
+    es Bill Nighy.
+  - "Johnny Depp encabeza esta pel\xEDcula de aventura, dirigida por Gore Verbinski
+    y estrenada en 2007."

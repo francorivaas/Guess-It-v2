@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: la_luna
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: la_luna
+  category: peliculas
+  difficulty: 1
+  answer: La Luna
+  acceptedAnswers:
+  - La Luna
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1970 dura cerca de 142 minutos."
+  - "El relato pertenece a drama, con participaci\xF3n productiva de Italia y Estados
+    Unidos."
+  - "Bernardo Bertolucci firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Jill Clayburgh da vida a Caterina Silveri y Matthew Barry a Joe
+    Silveri.
+  - "Bernardo Bertolucci dirige a Jill Clayburgh como Caterina Silveri, Matthew Barry
+    como Joe Silveri y Veronica Lazar como Marina en esta pel\xEDcula de 1979."

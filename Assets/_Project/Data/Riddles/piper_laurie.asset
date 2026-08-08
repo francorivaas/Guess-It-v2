@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: piper_laurie
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: piper_laurie
+  category: personas
+  difficulty: 1
+  answer: Piper Laurie
+  acceptedAnswers:
+  - Piper Laurie
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1979 y 2004 y recorren g\xE9neros
+    como drama, misterio y suspenso."
+  - "Particip\xF3 en \xABReturn to Oz\xBB, dirigida por Walter Murch y estrenada
+    en 1985."
+  - "Su papel en \xABEulogy\xBB fue el de Charlotte Collins."
+  - "Su papel en \xABTrauma\xBB fue el de Adriana Petrescu."
+  - "Sus papeles incluyen a Adriana Petrescu en \xABTrauma\xBB y a Mary Horton en
+    \xABTim\xBB."

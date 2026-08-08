@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_stanford_prison_experiment
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_stanford_prison_experiment
+  category: peliculas
+  difficulty: 0
+  answer: The Stanford Prison Experiment
+  acceptedAnswers:
+  - The Stanford Prison Experiment
+  - Stanford Prison Experiment
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2010, dentro de drama y cine independiente. La direcci\xF3n est\xE1 acreditada
+    a Kyle Patrick Alvarez."
+  - "Su duraci\xF3n ronda los 122 minutos; la clasificaci\xF3n registrada es R. El
+    reparto principal tambi\xE9n incluye a Ezra Miller."
+  - "Se estren\xF3 en 2015 y estuvo asociada a la compa\xF1\xEDa Coup d'Etat Films."
+  - "Bajo la direcci\xF3n de Kyle Patrick Alvarez, coinciden Billy Crudup y Michael
+    Angarano."
+  - Cinta de Estados Unidos lanzada en 2015, dirigida por Kyle Patrick Alvarez y
+    encabezada por Billy Crudup, Michael Angarano y Ezra Miller, con guion de Tim
+    Talbott.

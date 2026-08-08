@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sylvester_stallone
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sylvester_stallone
+  category: personas
+  difficulty: 0
+  answer: Sylvester Stallone
+  acceptedAnswers:
+  - Sylvester Stallone
+  hints:
+  - "Su etapa de mayor influencia qued\xF3 concentrado desde la d\xE9cada de 1970."
+  - "Naci\xF3 en Estados Unidos y orient\xF3 su trabajo hacia actuaci\xF3n y guion."
+  - "Una contribuci\xF3n central fue escribir y protagonizar una historia de boxeo
+    que lanz\xF3 su carrera."
+  - El dato que reduce mucho las opciones es Rocky Balboa y el soldado John Rambo.
+  - "La persona buscada es la gran referencia de actuaci\xF3n y guion asociada a
+    Rocky Balboa y el soldado John Rambo."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jon_lucas
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jon_lucas
+  category: personas
+  difficulty: 0
+  answer: Jon Lucas
+  acceptedAnswers:
+  - Jon Lucas
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 2009 y 2017 y se concentra sobre
+    todo en comedia."
+  - "La pel\xEDcula \xABA Bad Moms Christmas\xBB forma parte de una carrera conectada
+    con Estados Unidos."
+  - "Tambi\xE9n est\xE1 vinculada a \xABBad Moms\xBB y \xABThe Change-Up\xBB."
+  - "Dos referencias fuertes de su carrera son \xABThe Hangover\xBB y \xABThe Change-Up\xBB."
+  - "Profesional del cine relacionado con \xABThe Hangover\xBB, \xABThe Change-Up\xBB
+    y \xABBad Moms\xBB en tareas de guion y direcci\xF3n."

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chariots_of_fire
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chariots_of_fire
+  category: peliculas
+  difficulty: 0
+  answer: Chariots of Fire
+  acceptedAnswers:
+  - Chariots of Fire
+  hints:
+  - "Fue filmada originalmente en ingl\xE9s y lleg\xF3 a los cines en 1981."
+  - Mezcla drama y historia y fue producida en Reino Unido.
+  - El realizador principal fue Hugh Hudson.
+  - En el reparto, Ben Cross da vida a Harold Abrahams y Ian Charleson a Eric Liddell.
+  - "Hugh Hudson dirige a Ben Cross como Harold Abrahams, Ian Charleson como Eric
+    Liddell y Cheryl Campbell como Jennie Liddell en esta pel\xEDcula de 1981."

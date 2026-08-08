@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pierre_brasseur
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pierre_brasseur
+  category: personas
+  difficulty: 1
+  answer: Pierre Brasseur
+  acceptedAnswers:
+  - Pierre Brasseur
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1938 y 1971 y recorren g\xE9neros
+    como drama, romance y comedia."
+  - "Particip\xF3 en \xABEyes Without a Face\xBB, dirigida por Georges Franju y estrenada
+    en 1960."
+  - "En \xABChildren of Paradise\xBB interpret\xF3 a Fr\xE9d\xE9rick Lema\xEEtre."
+  - "Su papel en \xABPort of Shadows\xBB fue el de Lucien."
+  - "Es la persona que encarn\xF3 a Lucien en \xABPort of Shadows\xBB y a Le G\xE9n\xE9ral
+    G\xE9ranium en \xABKing of Hearts\xBB."

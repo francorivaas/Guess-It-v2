@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: robert_iscove
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: robert_iscove
+  category: personas
+  difficulty: 1
+  answer: Robert Iscove
+  acceptedAnswers:
+  - Robert Iscove
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 1999 y 2003, con presencia
+    frecuente en comedia."
+  - "La pel\xEDcula \xABBoys and Girls\xBB forma parte de una carrera conectada con
+    Estados Unidos."
+  - "La asociaci\xF3n con \xABBoys and Girls\xBB se completa con otro cr\xE9dito
+    en \xABFrom Justin to Kelly\xBB."
+  - "Entre sus trabajos m\xE1s reconocibles se encuentran \xABShe's All That\xBB
+    y \xABFrom Justin to Kelly\xBB."
+  - "Profesional del cine relacionado con \xABShe's All That\xBB, \xABFrom Justin
+    to Kelly\xBB y \xABBoys and Girls\xBB en tareas de direcci\xF3n."

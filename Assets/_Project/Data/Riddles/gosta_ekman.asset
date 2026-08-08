@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gosta_ekman
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gosta_ekman
+  category: personas
+  difficulty: 2
+  answer: "G\xF6sta Ekman"
+  acceptedAnswers:
+  - "G\xF6sta Ekman"
+  - gosta ekman
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1926 y 2003, especialmente dentro
+    de drama, fantas\xEDa y comedia."
+  - "Form\xF3 parte del elenco de \xABFaust\xBB, una pel\xEDcula de 1926 dirigida
+    por F.W. Murnau."
+  - "Su papel en \xABFace to Face\xBB fue el de Mikael Str\xF6mberg."
+  - "Su papel en \xABThe Simple-Minded Murderer\xBB fue el de The New Driver."
+  - "Interpret\xF3 a The New Driver en \xABThe Simple-Minded Murderer\xBB y a Pompe
+    en \xABIllusive Tracks\xBB."

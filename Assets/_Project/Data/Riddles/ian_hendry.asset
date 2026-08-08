@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ian_hendry
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ian_hendry
+  category: personas
+  difficulty: 0
+  answer: Ian Hendry
+  acceptedAnswers:
+  - Ian Hendry
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1964 y 1975 y recorren g\xE9neros
+    como drama, terror y suspenso."
+  - "Uno de sus trabajos fue \xABRepulsion\xBB (1965), bajo la direcci\xF3n de Roman
+    Polanski."
+  - "En \xABThe Passenger\xBB interpret\xF3 a Martin Knight."
+  - "En \xABThe Hill\xBB interpret\xF3 a Staff Sergeant Williams."
+  - "Es la persona que encarn\xF3 a Staff Sergeant Williams en \xABThe Hill\xBB y
+    a Peregrine Devlin en \xABTheatre of Blood\xBB."

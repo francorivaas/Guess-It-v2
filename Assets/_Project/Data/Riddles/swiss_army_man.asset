@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: swiss_army_man
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: swiss_army_man
+  category: peliculas
+  difficulty: 0
+  answer: Swiss Army Man
+  acceptedAnswers:
+  - Swiss Army Man
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos y Suecia, estrenada
+    en los a\xF1os 2010 y clasificada como comedia y drama."
+  - "Tiene una duraci\xF3n aproximada de 97 minutos y recibi\xF3 la clasificaci\xF3n
+    R."
+  - "Se estren\xF3 en 2016 y estuvo asociada a la compa\xF1\xEDa Astrakan Films."
+  - "Bajo la direcci\xF3n de Dan Kwan, coinciden Paul Dano y Daniel Radcliffe."
+  - "La respuesta es la cinta de 2016 que Dan Kwan dirigi\xF3 con Paul Dano, Daniel
+    Radcliffe y Mary Elizabeth Winstead como int\xE9rpretes destacados, con guion
+    de Daniel Scheinert."

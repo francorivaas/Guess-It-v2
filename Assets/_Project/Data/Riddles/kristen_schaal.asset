@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kristen_schaal
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kristen_schaal
+  category: personas
+  difficulty: 1
+  answer: Kristen Schaal
+  acceptedAnswers:
+  - Kristen Schaal
+  hints:
+  - "En Cirque du Freak: The Vampire's Assistant interpret\xF3 a Gertha Teeth, en
+    una pel\xEDcula estrenada en 2009."
+  - "Su carrera en cine abarca de 2001 a 2016 y recorre animaci\xF3n y comedia."
+  - "Comparti\xF3 reparto con Steve Carell en Dinner for Schmucks. Otro cr\xE9dito
+    es Cloudy with a Chance of Meatballs 2."
+  - "En Shrek Forever After interpret\xF3 a Pumpkin Witch / Palace Witch (voice)."
+  - Aparece en Despicable Me 2 y Cloudy with a Chance of Meatballs 2.

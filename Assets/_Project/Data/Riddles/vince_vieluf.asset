@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: vince_vieluf
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: vince_vieluf
+  category: personas
+  difficulty: 1
+  answer: Vince Vieluf
+  acceptedAnswers:
+  - Vince Vieluf
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1997 y 2003, con presencia frecuente
+    en comedia, aventura y terror."
+  - "Particip\xF3 en \xABRat Race\xBB, dirigida por Jerry Zucker y estrenada en 2001."
+  - "Su papel en \xABAn American Werewolf in Paris\xBB fue el de Brad."
+  - "Su papel en \xABBarely Legal\xBB fue el de Tom Cooperman."
+  - "Sus papeles incluyen a Tom Cooperman en \xABBarely Legal\xBB y a Deputy Barney
+    en \xABClay Pigeons\xBB."

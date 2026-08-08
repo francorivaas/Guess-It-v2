@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_shack
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_shack
+  category: peliculas
+  difficulty: 1
+  answer: The Shack
+  acceptedAnswers:
+  - The Shack
+  - Shack
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2010, dentro de drama. La direcci\xF3n est\xE1 acreditada a Stuart Hazeldine."
+  - "El montaje final se extiende unos 132 minutos y aparece catalogado con la se\xF1al
+    PG-13."
+  - "El a\xF1o 2017 y el sello Summit Entertainment forman parte de sus datos de
+    producci\xF3n. Entre sus int\xE9rpretes figura Sam Worthington."
+  - "Stuart Hazeldine estuvo a cargo de la direcci\xF3n, con Sam Worthington al frente
+    del elenco."
+  - "Producci\xF3n de drama estrenada en 2017: direcci\xF3n de Stuart Hazeldine y
+    actuaciones de Sam Worthington, con guion de John Fusco."

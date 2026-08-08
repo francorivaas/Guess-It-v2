@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: brent_spiner
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: brent_spiner
+  category: personas
+  difficulty: 2
+  answer: Brent Spiner
+  acceptedAnswers:
+  - Brent Spiner
+  hints:
+  - "En Trekkies interpret\xF3 a Himself, en una pel\xEDcula estrenada en 1997. Otro
+    t\xEDtulo de su carrera es Star Trek: First Contact."
+  - "Su carrera en cine abarca de 1994 a 2016 y recorre acci\xF3n y aventura. Entre
+    sus pel\xEDculas figura Trekkies."
+  - "Comparti\xF3 reparto con Patrick Stewart en Star Trek: Generations."
+  - "En The Aviator interpret\xF3 a Robert Gross."
+  - 'Aparece en Independence Day: Resurgence y South Park: Bigger, Longer & Uncut.'

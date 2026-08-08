@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chandigarh
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chandigarh
+  category: lugares
+  difficulty: 0
+  answer: "Chand\u012Bgarh"
+  acceptedAnswers:
+  - "Chand\u012Bgarh"
+  - Chandigarh
+  hints:
+  - "Est\xE1 a unos 30,7 grados al norte del ecuador y 76,8 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 1,0 millones de habitantes. Dentro de su
+    pa\xEDs ocupa el puesto 46 por poblaci\xF3n."
+  - "Se ubica a unos 90 kil\xF3metros al este de Ludhi\u0101na."
+  - "Est\xE1 en India, donde ocupa el puesto 46 por poblaci\xF3n, y es un centro
+    administrativo regional."
+  - "Es una capital administrativa de India y ocupa el puesto 46 por poblaci\xF3n
+    nacional."

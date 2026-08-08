@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fallen
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fallen
+  category: peliculas
+  difficulty: 0
+  answer: Fallen
+  acceptedAnswers:
+  - Fallen
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 1990, vinculada al
+    g\xE9nero de suspenso. La direcci\xF3n est\xE1 acreditada a Gregory Hoblit."
+  - "La ficha t\xE9cnica marca 124 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R."
+  - "La producci\xF3n lleg\xF3 en 1998 bajo la participaci\xF3n de Turner Pictures
+    (I)."
+  - "La c\xE1mara de Gregory Hoblit trabaja con actuaciones de Denzel Washington
+    y John Goodman."
+  - Cinta de Estados Unidos lanzada en 1998, dirigida por Gregory Hoblit y encabezada
+    por Denzel Washington, John Goodman y Donald Sutherland, con guion de Nicholas
+    Kazan.

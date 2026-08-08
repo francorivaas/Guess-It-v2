@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: avicenna
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: avicenna
+  category: personas
+  difficulty: 2
+  answer: Avicena
+  acceptedAnswers:
+  - Avicena
+  - ibn sina
+  hints:
+  - "Su etapa de mayor influencia se sit\xFAa entre los siglos X y XI."
+  - "Naci\xF3 en Persia y orient\xF3 su trabajo hacia medicina y filosof\xEDa."
+  - "Entre sus logros sobresale sistematizar conocimiento m\xE9dico y aristot\xE9lico."
+  - "Tambi\xE9n qued\xF3 estrechamente relacionado con el Canon de medicina y una
+    influencia de siglos en universidades europeas."
+  - "Su perfil re\xFAne medicina y filosof\xEDa, sistematizar conocimiento m\xE9dico
+    y aristot\xE9lico y el Canon de medicina y una influencia de siglos en universidades
+    europeas."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dominique_mcelligott
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dominique_mcelligott
+  category: personas
+  difficulty: 0
+  answer: Dominique McElligott
+  acceptedAnswers:
+  - Dominique McElligott
+  hints:
+  - "Trabaj\xF3 en producciones de comedia, acci\xF3n y ciencia ficci\xF3n a lo largo
+    del per\xEDodo entre 2008 y 2011."
+  - "Uno de sus trabajos fue \xABMoon\xBB (2009), bajo la direcci\xF3n de Duncan
+    Jones."
+  - "En \xABLeap Year\xBB interpret\xF3 a Bride."
+  - "Dio vida a Aoife O'Carroll en \xABThe Guard\xBB."
+  - "Es la persona que encarn\xF3 a Aoife O'Carroll en \xABThe Guard\xBB y a Etta
+    en \xABBlackthorn\xBB."

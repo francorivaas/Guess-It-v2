@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: aregua
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: aregua
+  category: lugares
+  difficulty: 1
+  answer: "Aregu\xE1"
+  acceptedAnswers:
+  - "Aregu\xE1"
+  - aregua
+  hints:
+  - "Su posici\xF3n est\xE1 al sur del ecuador, a unos 25,30 grados del ecuador."
+  - "Es un n\xFAcleo urbano de alrededor de 67 mil de habitantes dentro de Central."
+  - Administrativamente pertenece a Central. Funciona como capital administrativa
+    de Central.
+  - Pertenece a Paraguay y forma parte de Central; supera aproximadamente los 67.500
+    habitantes.
+  - "En Paraguay, dentro de Central, esta ciudad de unos 67 mil est\xE1 cerca de
+    25,3\xB0 sur y 57,4\xB0 oeste."

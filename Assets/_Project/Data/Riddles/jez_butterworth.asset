@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jez_butterworth
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jez_butterworth
+  category: personas
+  difficulty: 0
+  answer: Jez Butterworth
+  acceptedAnswers:
+  - Jez Butterworth
+  hints:
+  - "Su trabajo se reparte entre acci\xF3n y biograf\xEDa a lo largo de un per\xEDodo
+    que va entre 2001 y 2019."
+  - "Una pista lateral de su filmograf\xEDa es \xABGet on Up\xBB, dentro de Reino
+    Unido y Estados Unidos."
+  - "La asociaci\xF3n con \xABThe Last Legion\xBB se completa con otro cr\xE9dito
+    en \xABFair Game\xBB."
+  - "La filmograf\xEDa apunta con claridad a \xABFord v Ferrari\xBB y \xABFair Game\xBB."
+  - "La identidad buscada re\xFAne cr\xE9ditos de guion y direcci\xF3n en \xABFord
+    v Ferrari\xBB, \xABFair Game\xBB y \xABThe Last Legion\xBB."

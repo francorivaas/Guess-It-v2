@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mamoru_hosoda
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mamoru_hosoda
+  category: personas
+  difficulty: 1
+  answer: Mamoru Hosoda
+  acceptedAnswers:
+  - Mamoru Hosoda
+  hints:
+  - "Dirigi\xF3 obras de animaci\xF3n, drama y fantas\xEDa a lo largo de una trayectoria
+    que va entre 2006 y 2015."
+  - "Estuvo al frente de \xABWolf Children\xBB (2012)."
+  - "Tambi\xE9n dirigi\xF3 \xABThe Girl Who Leapt Through Time\xBB, del a\xF1o 2006."
+  - "Fue responsable de \xABWolf Children\xBB y \xABThe Boy and the Beast\xBB."
+  - "Dirigi\xF3 \xABWolf Children\xBB, \xABThe Girl Who Leapt Through Time\xBB y
+    \xABThe Boy and the Beast\xBB."

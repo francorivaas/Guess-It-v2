@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: wuwei
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: wuwei
+  category: lugares
+  difficulty: 0
+  answer: Wuwei
+  acceptedAnswers:
+  - Wuwei
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 37,93 grados del ecuador."
+  - "Su poblaci\xF3n registrada se aproxima a 1.815.100 habitantes y pertenece a
+    Gansu."
+  - "Cumple una funci\xF3n de capital local dentro de Gansu. Su longitud geogr\xE1fica
+    ronda los 102,64\xB0 este."
+  - "Se encuentra en China, dentro de Gansu, con una poblaci\xF3n cercana a 1,8 millones."
+  - "Es una ciudad de China, en Gansu, situada aproximadamente en 37,9\xB0 norte
+    y 102,6\xB0 este."

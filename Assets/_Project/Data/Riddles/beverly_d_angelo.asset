@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: beverly_d_angelo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: beverly_d_angelo
+  category: personas
+  difficulty: 2
+  answer: Beverly D'Angelo
+  acceptedAnswers:
+  - Beverly D'Angelo
+  hints:
+  - "En Eye for an Eye interpret\xF3 a Dolly Green, en una pel\xEDcula estrenada
+    en 1996."
+  - Su carrera en cine abarca de 1977 a 2015 y recorre drama y comedia.
+  - "Comparti\xF3 reparto con Anna Faris en The House Bunny."
+  - "En Vacation interpret\xF3 a Ellen Griswold."
+  - Aparece en American History X y Annie Hall.

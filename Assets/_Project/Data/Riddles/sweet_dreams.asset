@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sweet_dreams
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sweet_dreams
+  category: peliculas
+  difficulty: 1
+  answer: Sweet Dreams
+  acceptedAnswers:
+  - Sweet Dreams
+  - Fai bei sogni
+  hints:
+  - "Combina un estreno de 2016 con di\xE1logos originalmente en italiano."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama; la producci\xF3n se vincula con
+    Francia y Italia."
+  - "La direcci\xF3n estuvo a cargo de Marco Bellocchio."
+  - "Valerio Mastandrea interpreta a Massimo, mientras B\xE9r\xE9nice Bejo encarna
+    a Elisa."
+  - "Marco Bellocchio dirige a Valerio Mastandrea como Massimo, B\xE9r\xE9nice Bejo
+    como Elisa y Guido Caprino como P\xE8re de Massimo en esta pel\xEDcula de 2016."

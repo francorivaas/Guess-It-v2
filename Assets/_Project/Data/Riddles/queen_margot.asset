@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: queen_margot
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: queen_margot
+  category: peliculas
+  difficulty: 1
+  answer: Queen Margot
+  acceptedAnswers:
+  - Queen Margot
+  hints:
+  - "Pertenece al cine de Francia y se ubica temporalmente en la d\xE9cada de 1990,
+    dentro de biograf\xEDa."
+  - "Su duraci\xF3n ronda los 159 minutos; la clasificaci\xF3n registrada es R."
+  - "Se estren\xF3 en 1994 y estuvo asociada a la compa\xF1\xEDa Renn Productions."
+  - "La dirigi\xF3 Patrice Ch\xE9reau y su figura principal es Isabelle Adjani."
+  - "Producci\xF3n de biograf\xEDa estrenada en 1994: direcci\xF3n de Patrice Ch\xE9reau
+    y actuaciones de Isabelle Adjani, con guion de Alexandre Dumas."

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jonathan_liebesman
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jonathan_liebesman
+  category: personas
+  difficulty: 2
+  answer: Jonathan Liebesman
+  acceptedAnswers:
+  - Jonathan Liebesman
+  hints:
+  - "Particip\xF3 en Darkness Falls, una pel\xEDcula estrenada en 2003."
+  - "Su carrera en cine abarca de 2003 a 2014 y recorre ciencia ficci\xF3n y acci\xF3n.
+    Entre sus pel\xEDculas figura Darkness Falls."
+  - "Comparti\xF3 reparto con Sam Worthington en Wrath of the Titans."
+  - "Tambi\xE9n integr\xF3 el elenco de Battle: Los Angeles."
+  - Aparece en Teenage Mutant Ninja Turtles y Wrath of the Titans.

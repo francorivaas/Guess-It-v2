@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: hannah_arendt
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: hannah_arendt
+  category: personas
+  difficulty: 2
+  answer: Hannah Arendt
+  acceptedAnswers:
+  - Hannah Arendt
+  hints:
+  - "El n\xFAcleo de su trayectoria alcanz\xF3 su mayor fuerza en el siglo XX."
+  - "Naci\xF3 en Alemania y Estados Unidos y orient\xF3 su trabajo hacia filosof\xEDa
+    pol\xEDtica."
+  - "Su carrera cambi\xF3 de escala gracias a estudiar totalitarismo, responsabilidad
+    y juicio."
+  - "Otra referencia clave para reconocerlo es la expresi\xF3n banalidad del mal
+    tras el proceso a Adolf Eichmann."
+  - "Su legado combina estudiar totalitarismo, responsabilidad y juicio con la expresi\xF3n
+    banalidad del mal tras el proceso a Adolf Eichmann."

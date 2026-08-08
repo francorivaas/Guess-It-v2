@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fleet_foxes
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fleet_foxes
+  category: bandas musicales
+  difficulty: 2
+  answer: Fleet Foxes
+  acceptedAnswers:
+  - Fleet Foxes
+  hints:
+  - "Surgi\xF3 en Estados Unidos y alcanz\xF3 especial relevancia desde finales de
+    la d\xE9cada de 2000."
+  - La propuesta sonora combina indie folk y folk rock.
+  - "La formaci\xF3n m\xE1s recordada incluye a Robin Pecknold, Skyler Skjelset y
+    Casey Wescott."
+  - "Su discograf\xEDa tiene como referencia Helplessness Blues."
+  - "Resulta dif\xEDcil confundirla al recordar White Winter Hymnal, armon\xEDas
+    corales y una portada basada en una pintura de Brueghel."

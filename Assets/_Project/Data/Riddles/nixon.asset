@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nixon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nixon
+  category: peliculas
+  difficulty: 1
+  answer: Nixon
+  acceptedAnswers:
+  - Nixon
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 1990, dentro de biograf\xEDa. La direcci\xF3n est\xE1 acreditada a Oliver
+    Stone."
+  - "Tiene una duraci\xF3n aproximada de 192 minutos y recibi\xF3 la clasificaci\xF3n
+    R."
+  - "El a\xF1o 1995 y el sello Cinergi Pictures Entertainment forman parte de sus
+    datos de producci\xF3n."
+  - "La dirigi\xF3 Oliver Stone y su figura principal es Anthony Hopkins."
+  - "Pel\xEDcula de 1995 dirigida por Oliver Stone, con Anthony Hopkins en el reparto,
+    con guion de Stephen J. Rivele."

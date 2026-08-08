@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: susanne_bier
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: susanne_bier
+  category: personas
+  difficulty: 0
+  answer: Susanne Bier
+  acceptedAnswers:
+  - Susanne Bier
+  hints:
+  - "Dirigi\xF3 obras de drama, comedia y romance a lo largo de una trayectoria que
+    va entre 1999 y 2014."
+  - "Entre sus trabajos de direcci\xF3n figura \xABSerena\xBB."
+  - "Su cat\xE1logo incluye \xABIn a Better World\xBB adem\xE1s de la obra anterior."
+  - "Su nombre aparece en la direcci\xF3n de \xABSerena\xBB y \xABIn a Better World\xBB."
+  - "Su filmograf\xEDa re\xFAne \xABSerena\xBB, \xABAfter the Wedding\xBB y \xABLove
+    Is All You Need\xBB."

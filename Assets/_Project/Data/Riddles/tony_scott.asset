@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tony_scott
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tony_scott
+  category: personas
+  difficulty: 1
+  answer: Tony Scott
+  acceptedAnswers:
+  - Tony Scott
+  hints:
+  - "Particip\xF3 en The Fan, una pel\xEDcula estrenada en 1996."
+  - "Su carrera en cine abarca de 1986 a 2010 y recorre acci\xF3n y romance."
+  - "Comparti\xF3 reparto con Eddie Murphy en Beverly Hills Cop II."
+  - "Tambi\xE9n integr\xF3 el elenco de Man on Fire."
+  - Aparece en Top Gun y Enemy of the State.

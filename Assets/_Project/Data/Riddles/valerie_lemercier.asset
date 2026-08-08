@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: valerie_lemercier
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: valerie_lemercier
+  category: personas
+  difficulty: 0
+  answer: "Val\xE9rie Lemercier"
+  acceptedAnswers:
+  - "Val\xE9rie Lemercier"
+  - valerie lemercier
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 2004 y 2013, con presencia frecuente
+    en comedia, romance y aventura."
+  - "Uno de sus trabajos fue \xABRRRrrrr!!!\xBB (2004), bajo la direcci\xF3n de Alain
+    Chabat."
+  - "Su papel en \xABRoyal Palace\xBB fue el de Princesse Armelle."
+  - "Dio vida a Aleksandra en \xABThe Ultimate Accessory\xBB."
+  - "Interpret\xF3 a Aleksandra en \xABThe Ultimate Accessory\xBB y a Agathe Cl\xE9ry
+    en \xABAgathe Cl\xE9ry\xBB."

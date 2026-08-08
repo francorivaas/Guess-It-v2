@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: radha_mitchell
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: radha_mitchell
+  category: personas
+  difficulty: 1
+  answer: Radha Mitchell
+  acceptedAnswers:
+  - Radha Mitchell
+  hints:
+  - "En The Children of Huang Shi interpret\xF3 a Lee Pearson, en una pel\xEDcula
+    estrenada en 2008."
+  - "Su carrera en cine abarca de 2000 a 2016 y recorre acci\xF3n y suspenso. Entre
+    sus pel\xEDculas figura The Children of Huang Shi."
+  - "Comparti\xF3 reparto con Sean Bean en Silent Hill."
+  - "En Pitch Black interpret\xF3 a Carolyn Fry."
+  - "Aparece en Olympus Has Fallen y London Has Fallen. Tambi\xE9n form\xF3 parte
+    de The Children of Huang Shi."

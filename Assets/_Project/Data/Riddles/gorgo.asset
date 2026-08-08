@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gorgo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gorgo
+  category: peliculas
+  difficulty: 1
+  answer: Gorgo
+  acceptedAnswers:
+  - Gorgo
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1960 y su duraci\xF3n ronda los 78 minutos."
+  - "Se encuadra en acci\xF3n, ciencia ficci\xF3n y terror y tiene origen de producci\xF3n
+    en Reino Unido."
+  - "Detr\xE1s de la c\xE1mara estuvo Eug\xE8ne Louri\xE9."
+  - En el reparto, Bill Travers da vida a Joe Ryan y William Sylvester a Sam Slade.
+  - "El reparto incluye a Bill Travers como Joe Ryan, William Sylvester como Sam
+    Slade y Vincent Winter como Sean bajo la direcci\xF3n de Eug\xE8ne Louri\xE9."

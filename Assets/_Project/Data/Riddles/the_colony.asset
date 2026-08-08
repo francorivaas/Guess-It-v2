@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_colony
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_colony
+  category: peliculas
+  difficulty: 0
+  answer: The Colony
+  acceptedAnswers:
+  - The Colony
+  hints:
+  - "Es una producci\xF3n de 2013 con una duraci\xF3n aproximada de 95 minutos."
+  - "Alcina Pictures particip\xF3 en una pel\xEDcula de acci\xF3n, ciencia ficci\xF3n
+    y terror producida en Canad\xE1."
+  - "La direcci\xF3n estuvo a cargo de Jeff Renfroe."
+  - Dos personajes centrales son Briggs, interpretado por Laurence Fishburne, y Sam,
+    a cargo de Kevin Zegers.
+  - "Jeff Renfroe dirige a Laurence Fishburne como Briggs, Kevin Zegers como Sam
+    y Bill Paxton como Mason en esta pel\xEDcula de 2013."

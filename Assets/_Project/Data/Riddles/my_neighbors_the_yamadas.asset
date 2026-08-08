@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: my_neighbors_the_yamadas
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: my_neighbors_the_yamadas
+  category: peliculas
+  difficulty: 0
+  answer: My Neighbors the Yamadas
+  acceptedAnswers:
+  - My Neighbors the Yamadas
+  - "H\xF4hokekyo tonari no Yamada-kun"
+  - hohokekyo tonari no yamada-kun
+  hints:
+  - "Combina un estreno de 1999 con di\xE1logos originalmente en japon\xE9s."
+  - "Entre sus compa\xF1\xEDas figura Studio Ghibli; sus g\xE9neros principales son
+    animaci\xF3n y familiar."
+  - "Isao Takahata firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Jim Belushi interpreta a Takashi Yamada (voice) [english version], mientras Hayato
+    Isohata encarna a Yamada Noboru (voice).
+  - "Isao Takahata dirige a Jim Belushi como Takashi Yamada (voice) [english version],
+    Hayato Isohata como Yamada Noboru (voice) y Masako Araki como Yamano Shige (voice)
+    en esta pel\xEDcula de 1999."

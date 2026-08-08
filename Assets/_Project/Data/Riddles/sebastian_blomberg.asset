@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sebastian_blomberg
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sebastian_blomberg
+  category: personas
+  difficulty: 1
+  answer: Sebastian Blomberg
+  acceptedAnswers:
+  - Sebastian Blomberg
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 2001 y 2015, con presencia frecuente
+    en drama, historia y suspenso."
+  - "Particip\xF3 en \xABThe Countess\xBB, dirigida por Julie Delpy y estrenada en
+    2009."
+  - "Dio vida a David Jahn en \xABThe Silence\xBB."
+  - "En \xABThe People vs. Fritz Bauer\xBB interpret\xF3 a Ulrich Kreidler."
+  - "Interpret\xF3 a Ulrich Kreidler en \xABThe People vs. Fritz Bauer\xBB y a Maik
+    en \xABWhat to Do in Case of Fire?\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: timaya
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: timaya
+  category: bandas musicales
+  difficulty: 1
+  answer: Timaya
+  acceptedAnswers:
+  - Timaya
+  hints:
+  - Su perfil sonoro combina dancehall con un pulso claramente bailable.
+  - "Uno de los \xE1lbumes asociados a este proyecto es \xABChulo Vibes\xBB."
+  - Entre sus colaboraciones registradas figuran BNXN fka Buju y Burna Boy.
+  - "Dos canciones muy \xFAtiles para reconocerlo son \xABCold Outside\xBB y \xABThe
+    Mood\xBB."
+  - "Proyecto musical responsable de \xABCold Outside\xBB, \xABThe Mood\xBB y \xABPull
+    Up\xBB."

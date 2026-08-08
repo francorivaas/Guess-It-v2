@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bad_words
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bad_words
+  category: peliculas
+  difficulty: 2
+  answer: Bad Words
+  acceptedAnswers:
+  - Bad Words
+  hints:
+  - "Se estren\xF3 en 2013, dura cerca de 88 minutos y tuvo producci\xF3n de Estados
+    Unidos. Una productora vinculada fue Darko Entertainment."
+  - Combina comedia; una de sus productoras fue Darko Entertainment.
+  - "La dirigi\xF3 Jason Bateman, con Philip Baker Hall en un papel del reparto."
+  - En el elenco aparecen Kathryn Hahn y Rohan Chand.
+  - "Jason Bateman encabeza esta pel\xEDcula de comedia, dirigida por Jason Bateman
+    y estrenada en 2013."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gordon_currie
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gordon_currie
+  category: personas
+  difficulty: 1
+  answer: Gordon Currie
+  acceptedAnswers:
+  - Gordon Currie
+  hints:
+  - "Trabaj\xF3 en producciones de terror, suspenso y comedia a lo largo del per\xEDodo
+    entre 1995 y 2006."
+  - "Form\xF3 parte del elenco de \xABThe Woods\xBB, una pel\xEDcula de 2006 dirigida
+    por Lucky McKee."
+  - "Dio vida a Ray Boone en \xABHighwaymen\xBB."
+  - "Dio vida a David Goodman en \xABThe Dark Hours\xBB."
+  - "Interpret\xF3 a David Goodman en \xABThe Dark Hours\xBB y a Boya en \xABBlood
+    & Donuts\xBB."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rochak_kohli
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rochak_kohli
+  category: bandas musicales
+  difficulty: 0
+  answer: Rochak Kohli
+  acceptedAnswers:
+  - Rochak Kohli
+  hints:
+  - "Su perfil sonoro combina pop y pop cinematogr\xE1fico con un equilibrio entre
+    energ\xEDa, ritmo y melod\xEDa."
+  - "El cat\xE1logo incluye el \xE1lbum \xABMusic Teacher\xBB."
+  - En algunas pistas aparece junto a Arijit Singh y Shreya Ghoshal.
+  - "Dos canciones muy \xFAtiles para reconocerlo son \xABTu Hi Yaar Mera (From \"Pati
+    Patni Aur Woh\")\xBB y \xABMeri Zindagi Hai Tu (From \"Satyameva Jayate 2\")\xBB."
+  - "Nombre musical asociado directamente a \xABTu Hi Yaar Mera (From \"Pati Patni
+    Aur Woh\")\xBB, \xABMeri Zindagi Hai Tu (From \"Satyameva Jayate 2\")\xBB y \xABEk
+    Ladki Ko Dekha Toh Aisa Laga - Title Track\xBB."

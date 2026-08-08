@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: joan_allen
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: joan_allen
+  category: personas
+  difficulty: 0
+  answer: Joan Allen
+  acceptedAnswers:
+  - Joan Allen
+  hints:
+  - "En The Contender interpret\xF3 a Laine Hanson, en una pel\xEDcula estrenada
+    en 2000."
+  - Su carrera en cine abarca de 1986 a 2015 y recorre romance y drama.
+  - "Comparti\xF3 reparto con John Travolta en Face/Off."
+  - "En The Bourne Ultimatum interpret\xF3 a Pamela Landy."
+  - Aparece en The Notebook y The Bourne Supremacy.

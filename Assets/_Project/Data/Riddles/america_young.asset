@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: america_young
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: america_young
+  category: personas
+  difficulty: 1
+  answer: America Young
+  acceptedAnswers:
+  - America Young
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 2011 y 2016, con presencia
+    frecuente en cine infantil y familiar y m\xFAsica y musicales."
+  - "La pel\xEDcula \xABMonster High: Fright On!\xBB forma parte de una carrera conectada
+    con Estados Unidos."
+  - "La asociaci\xF3n con \xABMonster High: Frights, Camera, Action!\xBB se completa
+    con otro cr\xE9dito en \xABMonster High: Boo York, Boo York\xBB."
+  - "Los t\xEDtulos \xABMonster High: Great Scarrier Reef\xBB y \xABMonster High:
+    Boo York, Boo York\xBB ofrecen las pistas m\xE1s directas."
+  - "Profesional del cine relacionado con \xABMonster High: Great Scarrier Reef\xBB,
+    \xABMonster High: Boo York, Boo York\xBB y \xABMonster High: Frights, Camera,
+    Action!\xBB en tareas de interpretaci\xF3n."

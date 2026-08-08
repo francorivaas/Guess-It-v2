@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: raoul_bova
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: raoul_bova
+  category: personas
+  difficulty: 0
+  answer: Raoul Bova
+  acceptedAnswers:
+  - Raoul Bova
+  hints:
+  - "Trabaj\xF3 en producciones de romance, comedia y acci\xF3n a lo largo del per\xEDodo
+    entre 2002 y 2015."
+  - "Uno de sus trabajos fue \xABThe Tourist\xBB (2010), bajo la direcci\xF3n de
+    Florian Henckel von Donnersmarck."
+  - "Dio vida a Marcello en \xABUnder the Tuscan Sun\xBB."
+  - "Su papel en \xABSorry if I Love You\xBB fue el de Alessandro 'Alex' Belli."
+  - "Interpret\xF3 a Alessandro 'Alex' Belli en \xABSorry if I Love You\xBB y a Giulio
+    en \xABEscort in love\xBB."

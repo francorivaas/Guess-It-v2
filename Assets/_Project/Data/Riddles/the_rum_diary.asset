@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_rum_diary
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_rum_diary
+  category: peliculas
+  difficulty: 0
+  answer: THE RUM DIARY
+  acceptedAnswers:
+  - THE RUM DIARY
+  - RUM DIARY
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Estados Unidos y Reino Unido; combina
+    comedia y drama y una fecha de estreno dentro de los a\xF1os 2010."
+  - "Su duraci\xF3n ronda los 120 minutos; la clasificaci\xF3n registrada es R."
+  - "La producci\xF3n lleg\xF3 en 2011 bajo la participaci\xF3n de GK Films."
+  - "Bruce Robinson estuvo a cargo de la direcci\xF3n y reuni\xF3 a Johnny Depp con
+    Aaron Eckhart."
+  - "La respuesta es la cinta de 2011 que Bruce Robinson dirigi\xF3 con Johnny Depp,
+    Aaron Eckhart y Michael Rispoli como int\xE9rpretes destacados, con guion de
+    Bruce Robinson."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: george_hilton
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: george_hilton
+  category: personas
+  difficulty: 1
+  answer: George Hilton
+  acceptedAnswers:
+  - George Hilton
+  hints:
+  - "Trabaj\xF3 en producciones de suspenso, terror y misterio a lo largo del per\xEDodo
+    entre 1966 y 1983."
+  - "Uno de sus trabajos fue \xABAll the Colors of the Dark\xBB (1972), bajo la direcci\xF3n
+    de Sergio Martino."
+  - "Su papel en \xABThe Case of the Scorpion's Tail\xBB fue el de Peter Lynch."
+  - "Su papel en \xABDon't Play with Tigers\xBB fue el de Prince Omar Abdul Yussef
+    El Rahid."
+  - "Es la persona que encarn\xF3 a Prince Omar Abdul Yussef El Rahid en \xABDon't
+    Play with Tigers\xBB y a Giorgio Mainardi en \xABThe Killer Must Kill Again\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jour_de_fete
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jour_de_fete
+  category: peliculas
+  difficulty: 1
+  answer: "Jour de F\xEAte"
+  acceptedAnswers:
+  - "Jour de F\xEAte"
+  - jour de fete
+  hints:
+  - "Fue filmada originalmente en franc\xE9s y lleg\xF3 a los cines en 1949."
+  - "Cady-Film particip\xF3 en una pel\xEDcula de comedia producida en Francia."
+  - "Jacques Tati firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - "En el reparto, Guy Decomble da vida a Roger y Jacques Tati a Fran\xE7ois."
+  - "En esta cinta de 1949 coinciden Guy Decomble como Roger, Jacques Tati como Fran\xE7ois
+    y Paul Frankeur como Marcel."

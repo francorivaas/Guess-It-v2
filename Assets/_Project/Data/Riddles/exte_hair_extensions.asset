@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: exte_hair_extensions
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: exte_hair_extensions
+  category: peliculas
+  difficulty: 1
+  answer: 'Exte: Hair Extensions'
+  acceptedAnswers:
+  - 'Exte: Hair Extensions'
+  - Ekusute
+  hints:
+  - "Fue filmada originalmente en checo y lleg\xF3 a los cines en 2007."
+  - "Se encuadra en terror y tiene origen de producci\xF3n en Jap\xF3n."
+  - "Sion Sono la dirigi\xF3 con Toei entre las compa\xF1\xEDas productoras."
+  - Chiaki Kuriyama interpreta a Yuko Mizushima, mientras Megumi Sato encarna a Yuki
+    Morita.
+  - En esta cinta de 2007 coinciden Chiaki Kuriyama como Yuko Mizushima, Megumi Sato
+    como Yuki Morita y Tsugumi como Kiyomi Mizushima.

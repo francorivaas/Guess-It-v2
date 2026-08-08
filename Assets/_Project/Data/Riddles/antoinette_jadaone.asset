@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: antoinette_jadaone
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: antoinette_jadaone
+  category: personas
+  difficulty: 1
+  answer: Antoinette Jadaone
+  acceptedAnswers:
+  - Antoinette Jadaone
+  hints:
+  - Es una figura del cine cuya actividad registrada se extiende entre 2015 y 2019
+    y toca principalmente cine internacional y romance.
+  - "La pel\xEDcula \xABThat Thing Called Tadhana\xBB forma parte de una carrera
+    conectada con Filipinas."
+  - "La asociaci\xF3n con \xABThat Thing Called Tadhana\xBB se completa con otro
+    cr\xE9dito en \xABYou're My Boss\xBB."
+  - "Los t\xEDtulos \xABAlone/Together\xBB y \xABYou're My Boss\xBB ofrecen las pistas
+    m\xE1s directas."
+  - "Profesional del cine relacionado con \xABAlone/Together\xBB, \xABYou're My Boss\xBB
+    y \xABThat Thing Called Tadhana\xBB en tareas de direcci\xF3n y guion."

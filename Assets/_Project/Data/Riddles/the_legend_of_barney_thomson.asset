@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_legend_of_barney_thomson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_legend_of_barney_thomson
+  category: peliculas
+  difficulty: 1
+  answer: The Legend of Barney Thomson
+  acceptedAnswers:
+  - The Legend of Barney Thomson
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2010 y su duraci\xF3n ronda los 96 minutos."
+  - "Mezcla comedia, drama y suspenso y fue producida en Reino Unido y Canad\xE1."
+  - "Detr\xE1s de la c\xE1mara estuvo Robert Carlyle."
+  - Robert Carlyle interpreta a Barney, mientras Emma Thompson encarna a Cemolina.
+  - "El reparto incluye a Robert Carlyle como Barney, Emma Thompson como Cemolina
+    y Ray Winstone como Holdall bajo la direcci\xF3n de Robert Carlyle."

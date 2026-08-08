@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: horrible_bosses
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: horrible_bosses
+  category: peliculas
+  difficulty: 0
+  answer: Horrible Bosses
+  acceptedAnswers:
+  - Horrible Bosses
+  hints:
+  - "Se estren\xF3 en 2011, dura cerca de 98 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - Combina comedia y crimen; una de sus productoras fue New Line Cinema. El guion
+    acredita a John Francis Daley.
+  - "La dirigi\xF3 Seth Gordon, con Jason Sudeikis en un papel del reparto."
+  - En el elenco aparecen Jason Bateman y Charlie Day.
+  - "Jennifer Aniston encabeza esta pel\xEDcula de comedia, dirigida por Seth Gordon
+    y estrenada en 2011."

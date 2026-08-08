@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: wu_jing
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: wu_jing
+  category: personas
+  difficulty: 1
+  answer: Wu Jing
+  acceptedAnswers:
+  - Wu Jing
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 2002 y 2016, con presencia frecuente
+    en acci\xF3n, aventura y comedia."
+  - "Form\xF3 parte del elenco de \xABInvisible Target\xBB, una pel\xEDcula de 2007
+    dirigida por Benny Chan."
+  - "Su papel en \xABCall of Heroes\xBB fue el de Zhang Yi."
+  - "Su papel en \xABCity Under Siege\xBB fue el de Sun Hao."
+  - "Es la persona que encarn\xF3 a Sun Hao en \xABCity Under Siege\xBB y a Himself
+    en \xABThe Breakup Guru\xBB."

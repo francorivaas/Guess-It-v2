@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: danny_cannon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: danny_cannon
+  category: personas
+  difficulty: 0
+  answer: Danny Cannon
+  acceptedAnswers:
+  - Danny Cannon
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 1995 y 2005, con presencia
+    frecuente en acci\xF3n y terror."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABGoal! The Dream Begins\xBB, vinculada
+    a Estados Unidos."
+  - "La asociaci\xF3n con \xABGoal! The Dream Begins\xBB se completa con otro cr\xE9dito
+    en \xABI Still Know What You Did Last Summer\xBB."
+  - "Los t\xEDtulos \xABJudge Dredd\xBB y \xABI Still Know What You Did Last Summer\xBB
+    ofrecen las pistas m\xE1s directas."
+  - "Persona con cr\xE9ditos de direcci\xF3n en \xABJudge Dredd\xBB, \xABI Still
+    Know What You Did Last Summer\xBB y \xABGoal! The Dream Begins\xBB."

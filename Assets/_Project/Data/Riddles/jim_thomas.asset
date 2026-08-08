@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jim_thomas
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jim_thomas
+  category: personas
+  difficulty: 0
+  answer: Jim Thomas
+  acceptedAnswers:
+  - Jim Thomas
+  hints:
+  - "Es una figura del cine cuya actividad registrada se extiende entre 1987 y 2001
+    y toca principalmente acci\xF3n y acci\xF3n y aventura."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABExecutive Decision\xBB, vinculada
+    a Estados Unidos."
+  - "Otros dos t\xEDtulos de su carrera son \xABPredator 2\xBB y \xABWild Wild West\xBB."
+  - "Los t\xEDtulos \xABPredator\xBB y \xABWild Wild West\xBB ofrecen las pistas
+    m\xE1s directas."
+  - "Profesional del cine relacionado con \xABPredator\xBB, \xABWild Wild West\xBB
+    y \xABPredator 2\xBB en tareas de guion."

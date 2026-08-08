@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: a_night_at_the_roxbury
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: a_night_at_the_roxbury
+  category: peliculas
+  difficulty: 0
+  answer: A Night at the Roxbury
+  acceptedAnswers:
+  - A Night at the Roxbury
+  - Night at the Roxbury
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 1990 y clasificada como comedia y cine de culto."
+  - "Su duraci\xF3n ronda los 82 minutos; la clasificaci\xF3n registrada es PG-13."
+  - "La producci\xF3n lleg\xF3 en 1998 bajo la participaci\xF3n de Broadway Pictures."
+  - "La dirigi\xF3 John Fortenberry; en el reparto aparecen Will Ferrell y Chris
+    Kattan."
+  - "Producci\xF3n de comedia y cine de culto estrenada en 1998: direcci\xF3n de
+    John Fortenberry y actuaciones de Will Ferrell, Chris Kattan y Dan Hedaya, con
+    guion de Steve Koren."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_trench
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_trench
+  category: peliculas
+  difficulty: 1
+  answer: The Trench
+  acceptedAnswers:
+  - The Trench
+  hints:
+  - "Su metraje se acerca a 98 minutos y corresponde al a\xF1o 1999."
+  - "El relato pertenece a b\xE9lico, acci\xF3n y drama, con participaci\xF3n productiva
+    de Francia y Reino Unido."
+  - "William Boyd firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Daniel Craig interpreta a Sgt. Telford Winter, mientras Danny Dyer encarna a
+    Lance Cpl. Victor Dell.
+  - En esta cinta de 1999 coinciden Daniel Craig como Sgt. Telford Winter, Danny
+    Dyer como Lance Cpl. Victor Dell y James D'Arcy como Pte. Colin Daventry.

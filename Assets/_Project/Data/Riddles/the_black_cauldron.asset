@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_black_cauldron
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_black_cauldron
+  category: peliculas
+  difficulty: 1
+  answer: The Black Cauldron
+  acceptedAnswers:
+  - The Black Cauldron
+  - Black Cauldron
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 1980, dentro de animaci\xF3n."
+  - "Tiene una duraci\xF3n aproximada de 80 minutos y recibi\xF3 la clasificaci\xF3n
+    PG."
+  - "Se estren\xF3 en 1985 y estuvo asociada a la compa\xF1\xEDa Walt Disney Pictures."
+  - "La dirigi\xF3 Ted Berman y su figura principal es Grant Bardsley."
+  - "Pel\xEDcula de 1985 dirigida por Ted Berman, con Grant Bardsley en el reparto,
+    con guion de Lloyd Alexander."

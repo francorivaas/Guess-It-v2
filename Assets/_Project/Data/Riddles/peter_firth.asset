@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: peter_firth
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: peter_firth
+  category: personas
+  difficulty: 0
+  answer: Peter Firth
+  acceptedAnswers:
+  - Peter Firth
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1976 y 2015, especialmente dentro
+    de drama, acci\xF3n y romance."
+  - "Particip\xF3 en \xABSpooks: The Greater Good\xBB, dirigida por Bharat Nalluri
+    y estrenada en 2015."
+  - "En \xABLifeforce\xBB interpret\xF3 a Col. Colin Caine."
+  - "En \xABTess\xBB interpret\xF3 a Angel Clare."
+  - "Sus papeles incluyen a Angel Clare en \xABTess\xBB y a Sir Fred Hoyle en \xABHawking\xBB."

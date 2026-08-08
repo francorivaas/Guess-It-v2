@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gareth_edwards
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gareth_edwards
+  category: personas
+  difficulty: 0
+  answer: Gareth Edwards
+  acceptedAnswers:
+  - Gareth Edwards
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 2010 y 2016 y se concentra sobre
+    todo en aventura y acci\xF3n."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABMonsters\xBB, vinculada a Reino
+    Unido y Estados Unidos."
+  - "Su nombre figura en los cr\xE9ditos de \xABMonsters\xBB junto con \xABGodzilla\xBB."
+  - "Los t\xEDtulos \xABRogue One: A Star Wars Story\xBB y \xABGodzilla\xBB ofrecen
+    las pistas m\xE1s directas."
+  - "Profesional del cine relacionado con \xABRogue One: A Star Wars Story\xBB, \xABGodzilla\xBB
+    y \xABMonsters\xBB en tareas de direcci\xF3n y guion."

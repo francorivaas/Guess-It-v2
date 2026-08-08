@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: la_tropa_vallenata
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: la_tropa_vallenata
+  category: bandas musicales
+  difficulty: 1
+  answer: La Tropa Vallenata
+  acceptedAnswers:
+  - La Tropa Vallenata
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABCoraz\xF3n Contento\xBB, de 1997, y llega
+    hasta 2001."
+  - "\xABPopurri Festival Vallenato\xBB presenta una energ\xEDa alta y un pulso cercano
+    a 143 BPM."
+  - "Entre sus grabaciones figuran \xABCumbia Sampuesana\xBB y \xABCumbia De Los
+    Pobres\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABHoja En Blanco\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABLos Caminos De La Vida\xBB y \xABMi
+    Raz\xF3n De Ser\xBB."

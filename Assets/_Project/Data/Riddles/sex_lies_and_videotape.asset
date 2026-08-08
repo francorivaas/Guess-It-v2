@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sex_lies_and_videotape
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sex_lies_and_videotape
+  category: peliculas
+  difficulty: 0
+  answer: Sex, Lies, and Videotape
+  acceptedAnswers:
+  - Sex, Lies, and Videotape
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Estados Unidos; combina drama y una
+    fecha de estreno dentro de los a\xF1os 1980. La direcci\xF3n est\xE1 acreditada
+    a Steven Soderbergh."
+  - "La ficha t\xE9cnica marca 100 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R. Entre sus int\xE9rpretes figura James Spader."
+  - "Se estren\xF3 en 1989 y estuvo asociada a la compa\xF1\xEDa Outlaw Productions
+    (I)."
+  - "La dirigi\xF3 Steven Soderbergh y su figura principal es James Spader."
+  - "Producci\xF3n de drama estrenada en 1989: direcci\xF3n de Steven Soderbergh
+    y actuaciones de James Spader, con guion de Steven Soderbergh."

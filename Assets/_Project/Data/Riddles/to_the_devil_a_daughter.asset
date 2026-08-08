@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: to_the_devil_a_daughter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: to_the_devil_a_daughter
+  category: peliculas
+  difficulty: 1
+  answer: To the Devil a Daughter
+  acceptedAnswers:
+  - To the Devil a Daughter
+  hints:
+  - "Su metraje se acerca a 95 minutos y corresponde al a\xF1o 1976."
+  - "El relato pertenece a terror, con participaci\xF3n productiva de Alemania y
+    Reino Unido."
+  - "Peter Sykes la dirigi\xF3 con Hammer Film Productions entre las compa\xF1\xEDas
+    productoras."
+  - En el reparto, Richard Widmark da vida a John Verney y Christopher Lee a Father
+    Michael.
+  - En esta cinta de 1976 coinciden Richard Widmark como John Verney, Christopher
+    Lee como Father Michael y Honor Blackman como Anna.

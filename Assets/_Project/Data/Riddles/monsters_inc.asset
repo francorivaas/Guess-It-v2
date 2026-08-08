@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: monsters_inc
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: monsters_inc
+  category: peliculas
+  difficulty: 0
+  answer: Monsters, Inc.
+  acceptedAnswers:
+  - Monsters, Inc.
+  - monsters inc
+  - monstruos sa
+  hints:
+  - "Su contexto de estreno fue 2001; es una pel\xEDcula de animaci\xF3n y comedia
+    realizada en Estados Unidos."
+  - "El trabajo de direcci\xF3n corresponde a Pete Docter."
+  - "La narraci\xF3n se apoya especialmente en Sulley, Mike y Boo."
+  - "El relato se construye a partir de dos trabajadores descubren que la risa infantil
+    produce m\xE1s energ\xEDa que los gritos."
+  - "Se la reconoce de inmediato por una ni\xF1a entra accidentalmente en una f\xE1brica
+    de puertas para asustar."

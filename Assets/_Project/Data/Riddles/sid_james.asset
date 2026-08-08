@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sid_james
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sid_james
+  category: personas
+  difficulty: 1
+  answer: Sid James
+  acceptedAnswers:
+  - Sid James
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1951 y 1959, con presencia frecuente
+    en comedia, drama y crimen."
+  - "Form\xF3 parte del elenco de \xABThe Lavender Hill Mob\xBB, una pel\xEDcula
+    de 1951 dirigida por Charles Crichton."
+  - "Dio vida a Johnson - TV Advertiser en \xABA King in New York\xBB."
+  - "Su papel en \xABThe Titfield Thunderbolt\xBB fue el de Harry Hawkins."
+  - "Sus papeles incluyen a Harry Hawkins en \xABThe Titfield Thunderbolt\xBB y a
+    The Drunk en \xABThe Sheriff of Fractured Jaw\xBB."

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: s_s_rajamouli
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: s_s_rajamouli
+  category: personas
+  difficulty: 0
+  answer: S.S. Rajamouli
+  acceptedAnswers:
+  - S.S. Rajamouli
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 2015 y 2017, con presencia
+    frecuente en acci\xF3n y aventura y drama."
+  - "Una pista lateral de su filmograf\xEDa es \xABBaahubali: The Beginning (English
+    Version)\xBB, dentro de India. Su filmograf\xEDa registrada re\xFAne 9 t\xEDtulos
+    distintos."
+  - "Tambi\xE9n est\xE1 vinculada a \xABBaahubali 2: The Conclusion (Tamil Version)\xBB
+    y \xABBaahubali 2: The Conclusion\xBB."
+  - "Los t\xEDtulos \xABBaahubali: The Beginning\xBB y \xABBaahubali 2: The Conclusion\xBB
+    ofrecen las pistas m\xE1s directas."
+  - "Persona con cr\xE9ditos de direcci\xF3n en \xABBaahubali: The Beginning\xBB,
+    \xABBaahubali 2: The Conclusion\xBB y \xABBaahubali 2: The Conclusion (Tamil
+    Version)\xBB."

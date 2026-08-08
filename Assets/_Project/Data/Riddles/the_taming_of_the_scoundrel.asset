@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_taming_of_the_scoundrel
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_taming_of_the_scoundrel
+  category: peliculas
+  difficulty: 0
+  answer: The Taming of the Scoundrel
+  acceptedAnswers:
+  - The Taming of the Scoundrel
+  - Il bisbetico domato
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1980 y su duraci\xF3n ronda los 104 minutos."
+  - Mezcla comedia y fue producida en Italia.
+  - "Detr\xE1s de la c\xE1mara estuvo Franco Castellano."
+  - Dos personajes centrales son Elia Codogno, interpretado por Adriano Celentano,
+    y Lisa Silvestri, a cargo de Ornella Muti.
+  - "El reparto incluye a Adriano Celentano como Elia Codogno, Ornella Muti como
+    Lisa Silvestri y Edith Peters como Mamie bajo la direcci\xF3n de Franco Castellano."

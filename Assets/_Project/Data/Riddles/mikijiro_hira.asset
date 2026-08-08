@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mikijiro_hira
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mikijiro_hira
+  category: personas
+  difficulty: 1
+  answer: Mikijiro Hira
+  acceptedAnswers:
+  - Mikijiro Hira
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1964 y 2009 y recorren g\xE9neros
+    como drama, acci\xF3n y fantas\xEDa."
+  - "Form\xF3 parte del elenco de \xABThe Face of Another\xBB, una pel\xEDcula de
+    1966 dirigida por Hiroshi Teshigahara."
+  - "Dio vida a Rikyu Sen en \xABGoemon\xBB."
+  - "Dio vida a Grunwald the Demon of Ice (voice) en \xABThe Little Norse Prince\xBB."
+  - "Sus papeles incluyen a Grunwald the Demon of Ice (voice) en \xABThe Little Norse
+    Prince\xBB y a Yuuki Gennosuke en \xABSword of the Beast\xBB."

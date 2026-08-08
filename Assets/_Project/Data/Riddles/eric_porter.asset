@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: eric_porter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: eric_porter
+  category: personas
+  difficulty: 2
+  answer: Eric Porter
+  acceptedAnswers:
+  - Eric Porter
+  hints:
+  - "Trabaj\xF3 en producciones de drama, telefilme y familiar a lo largo del per\xEDodo
+    entre 1965 y 1980."
+  - "Particip\xF3 en \xABLittle Lord Fauntleroy\xBB, dirigida por Jack Gold y estrenada
+    en 1980."
+  - "Dio vida a Terboven en \xABThe Heroes of Telemark\xBB."
+  - "En \xABHands of the Ripper\xBB interpret\xF3 a Dr. John Pritchard."
+  - "Sus papeles incluyen a Dr. John Pritchard en \xABHands of the Ripper\xBB y a
+    Chief Superintendent Lomas en \xABThe Thirty Nine Steps\xBB."

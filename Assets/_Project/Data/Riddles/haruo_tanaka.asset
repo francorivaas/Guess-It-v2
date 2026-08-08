@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: haruo_tanaka
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: haruo_tanaka
+  category: personas
+  difficulty: 2
+  answer: Haruo Tanaka
+  acceptedAnswers:
+  - Haruo Tanaka
+  hints:
+  - "Trabaj\xF3 en producciones de drama y romance a lo largo del per\xEDodo entre
+    1946 y 1957."
+  - "Particip\xF3 en \xABIkiru\xBB, dirigida por Akira Kurosawa y estrenada en 1952."
+  - "Su papel en \xABThe Lower Depths\xBB fue el de Tatsu."
+  - "En \xABThe Crucified Lovers\xBB interpret\xF3 a Gifuya D\xF4ki."
+  - "Interpret\xF3 a Gifuya D\xF4ki en \xABThe Crucified Lovers\xBB y a Student en
+    \xABNo Regrets for Our Youth\xBB."

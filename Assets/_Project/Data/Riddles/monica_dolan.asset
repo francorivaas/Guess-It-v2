@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: monica_dolan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: monica_dolan
+  category: personas
+  difficulty: 1
+  answer: Monica Dolan
+  acceptedAnswers:
+  - Monica Dolan
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 2012 y 2015, especialmente dentro
+    de drama, suspenso y comedia."
+  - "Particip\xF3 en \xABEye in the Sky\xBB, dirigida por Gavin Hood y estrenada
+    en 2015."
+  - "En \xABSightseers\xBB interpret\xF3 a Janice."
+  - "Dio vida a Miss Martha Alvaro en \xABThe Falling\xBB."
+  - "Es la persona que encarn\xF3 a Miss Martha Alvaro en \xABThe Falling\xBB y a
+    Judith en \xABComplicit\xBB."

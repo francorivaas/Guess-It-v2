@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: birdman
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: birdman
+  category: peliculas
+  difficulty: 1
+  answer: Birdman o la inesperada virtud de la ignorancia
+  acceptedAnswers:
+  - Birdman o la inesperada virtud de la ignorancia
+  - birdman
+  hints:
+  - "Su contexto de estreno fue 2014; es una pel\xEDcula de comedia negra y drama
+    realizada en Estados Unidos."
+  - "Alejandro Gonz\xE1lez I\xF1\xE1rritu asumi\xF3 la direcci\xF3n."
+  - "La narraci\xF3n se apoya especialmente en Riggan Thomson, Mike Shiner y Sam."
+  - "El relato se construye a partir de un actor asociado a un antiguo superh\xE9roe
+    intenta montar una obra en Broadway."
+  - "Se la reconoce de inmediato por la pel\xEDcula aparenta ser un \xFAnico plano
+    continuo alrededor de un teatro."

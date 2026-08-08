@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: one_eight_seven
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: one_eight_seven
+  category: peliculas
+  difficulty: 1
+  answer: One Eight Seven
+  acceptedAnswers:
+  - One Eight Seven
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Estados Unidos; combina drama y una
+    fecha de estreno dentro de los a\xF1os 1990. La direcci\xF3n est\xE1 acreditada
+    a Kevin Reynolds."
+  - "La ficha t\xE9cnica marca 119 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R. Entre sus int\xE9rpretes figura Samuel L. Jackson."
+  - "El a\xF1o 1997 y el sello Icon Entertainment International forman parte de sus
+    datos de producci\xF3n."
+  - "La dirigi\xF3 Kevin Reynolds y su figura principal es Samuel L. Jackson."
+  - Cinta de Estados Unidos lanzada en 1997, dirigida por Kevin Reynolds y encabezada
+    por Samuel L. Jackson, con guion de Scott Yagemann.

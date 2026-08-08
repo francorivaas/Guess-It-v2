@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: symphony_of_the_air
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: symphony_of_the_air
+  category: bandas musicales
+  difficulty: 1
+  answer: Symphony Of The Air
+  acceptedAnswers:
+  - Symphony Of The Air
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABSerenade After Plato's Symposium: V. Socrates
+    - Alcibiades\xBB, de 1947, y llega hasta 1958."
+  - "\xABSerenade for Solo Violin, Strings, Harp and Percussion after Plato's \"Symposium\"
+    (1954): I. Phaedrus: Pausanias (Lento - Allegro)\xBB presenta una energ\xEDa
+    suave y un pulso cercano a 99 BPM."
+  - "Entre sus grabaciones figuran \xABSerenade for Solo Violin, Strings, Harp and
+    Percussion after Plato's \"Symposium\" (1954): IV. Agathon (Adagio)\xBB y \xABSerenade
+    for Solo Violin, Strings, Harp and Percussion after Plato's \"Symposium\" (1954):
+    III. Eryximachus (Presto)\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABPiano Concerto No. 2 in F Minor, Op. 21: Maestoso\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABPiano Concerto No. 5 in E-Flat Major,
+    Op. 73 \"Emperor\": II. Adagio un poco mosso\xBB y \xABPiano Concerto No. 2 in
+    F Minor, Op. 21: III. Allegro vivace\xBB."

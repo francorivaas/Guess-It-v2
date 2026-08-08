@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pat_proft
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pat_proft
+  category: personas
+  difficulty: 0
+  answer: Pat Proft
+  acceptedAnswers:
+  - Pat Proft
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 1992 y 1998, con presencia
+    frecuente en comedia y acci\xF3n."
+  - "Una pista lateral de su filmograf\xEDa es \xABBrain Donors\xBB, dentro de Estados
+    Unidos y Alemania."
+  - "Tambi\xE9n est\xE1 vinculada a \xABMr. Magoo\xBB y \xABWrongfully Accused\xBB."
+  - "Entre sus trabajos m\xE1s reconocibles se encuentran \xABNaked Gun 33 1/3: the
+    Final Insult\xBB y \xABWrongfully Accused\xBB."
+  - "Persona con cr\xE9ditos de guion y direcci\xF3n en \xABNaked Gun 33 1/3: the
+    Final Insult\xBB, \xABWrongfully Accused\xBB y \xABMr. Magoo\xBB."

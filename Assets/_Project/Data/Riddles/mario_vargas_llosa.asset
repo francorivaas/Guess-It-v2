@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mario_vargas_llosa
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mario_vargas_llosa
+  category: personas
+  difficulty: 2
+  answer: Mario Vargas Llosa
+  acceptedAnswers:
+  - Mario Vargas Llosa
+  hints:
+  - "Su etapa de mayor influencia alcanz\xF3 su mayor fuerza desde la segunda mitad
+    del siglo XX."
+  - "Naci\xF3 en Per\xFA y orient\xF3 su trabajo hacia literatura y pol\xEDtica."
+  - "Una contribuci\xF3n central fue escribir novelas sobre poder y recibir el Nobel."
+  - "El dato que reduce mucho las opciones es La ciudad y los perros, Conversaci\xF3n
+    en La Catedral y una candidatura presidencial."
+  - "La persona buscada es la gran referencia de literatura y pol\xEDtica asociada
+    a La ciudad y los perros, Conversaci\xF3n en La Catedral y una candidatura presidencial."

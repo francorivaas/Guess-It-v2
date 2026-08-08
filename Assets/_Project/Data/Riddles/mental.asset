@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mental
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mental
+  category: peliculas
+  difficulty: 1
+  answer: Mental
+  acceptedAnswers:
+  - Mental
+  hints:
+  - "Su metraje se acerca a 116 minutos y corresponde al a\xF1o 2012."
+  - "Entre sus compa\xF1\xEDas figura Screen Australia; sus g\xE9neros principales
+    son comedia y drama."
+  - "Detr\xE1s de la c\xE1mara estuvo P.J. Hogan."
+  - En el reparto, Liev Schreiber da vida a Trevor Blundell y Toni Collette a Shaz.
+  - "P.J. Hogan dirige a Liev Schreiber como Trevor Blundell, Toni Collette como
+    Shaz y Caroline Goodall como Doris en esta pel\xEDcula de 2012."

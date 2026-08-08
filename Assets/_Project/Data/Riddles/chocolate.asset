@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chocolate
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chocolate
+  category: peliculas
+  difficulty: 0
+  answer: Chocolate
+  acceptedAnswers:
+  - Chocolate
+  hints:
+  - "Fue filmada originalmente en tailand\xE9s y lleg\xF3 a los cines en 2008."
+  - "Bam-Ram-Ewe particip\xF3 en una pel\xEDcula de acci\xF3n, comedia y crimen producida
+    en Tailandia."
+  - "La direcci\xF3n estuvo a cargo de Prachya Pinkaew."
+  - Dos personajes centrales son Zen, interpretado por JeeJa Yanin, y Misashi, a
+    cargo de Hiroshi Abe.
+  - "Prachya Pinkaew dirige a JeeJa Yanin como Zen, Hiroshi Abe como Misashi y Ammara
+    Siripong como Zin en esta pel\xEDcula de 2008."

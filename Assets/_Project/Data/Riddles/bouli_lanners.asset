@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bouli_lanners
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bouli_lanners
+  category: personas
+  difficulty: 0
+  answer: Bouli Lanners
+  acceptedAnswers:
+  - Bouli Lanners
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1999 y 2016 y recorren g\xE9neros
+    como comedia, drama y romance."
+  - "Particip\xF3 en \xABRaw\xBB, dirigida por Julia Ducournau y estrenada en 2016."
+  - "En \xABRust and Bone\xBB interpret\xF3 a Martial."
+  - "En \xABNothing to Declare\xBB interpret\xF3 a Bruno Vanuxem."
+  - "Es la persona que encarn\xF3 a Bruno Vanuxem en \xABNothing to Declare\xBB y
+    a Policier vid\xE9osurveillance en \xAB9 Month Stretch\xBB."

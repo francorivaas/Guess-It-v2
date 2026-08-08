@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_orphanage
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_orphanage
+  category: peliculas
+  difficulty: 1
+  answer: El orfanato
+  acceptedAnswers:
+  - El orfanato
+  - the orphanage
+  hints:
+  - "Su contexto de estreno fue 2007; es una pel\xEDcula de terror y drama realizada
+    en Espa\xF1a."
+  - "La realizaci\xF3n fue encabezada por J. A. Bayona."
+  - "La narraci\xF3n se apoya especialmente en Laura, Sim\xF3n y Tom\xE1s."
+  - "El relato se construye a partir de una mujer vuelve a la instituci\xF3n de su
+    infancia y busca a su hijo desaparecido."
+  - "Se la reconoce de inmediato por un ni\xF1o con m\xE1scara de saco y juegos de
+    pistas ocupan la casa."

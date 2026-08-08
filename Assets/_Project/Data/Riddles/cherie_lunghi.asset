@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cherie_lunghi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cherie_lunghi
+  category: personas
+  difficulty: 1
+  answer: Cherie Lunghi
+  acceptedAnswers:
+  - Cherie Lunghi
+  hints:
+  - "Trabaj\xF3 en producciones de drama, aventura y terror a lo largo del per\xEDodo
+    entre 1981 y 2004."
+  - "Form\xF3 parte del elenco de \xABMary Shelley's Frankenstein\xBB, una pel\xEDcula
+    de 1994 dirigida por Kenneth Branagh."
+  - "Dio vida a Guenevere en \xABExcalibur\xBB."
+  - "En \xABViper In The Fist\xBB interpret\xF3 a Miss Chilton."
+  - "Interpret\xF3 a Miss Chilton en \xABViper In The Fist\xBB y a Nancy en \xABOliver
+    Twist\xBB."

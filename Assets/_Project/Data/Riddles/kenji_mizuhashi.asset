@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kenji_mizuhashi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kenji_mizuhashi
+  category: personas
+  difficulty: 2
+  answer: Kenji Mizuhashi
+  acceptedAnswers:
+  - Kenji Mizuhashi
+  hints:
+  - "Trabaj\xF3 en producciones de drama, animaci\xF3n y romance a lo largo del per\xEDodo
+    entre 2001 y 2012."
+  - "Form\xF3 parte del elenco de \xAB5 Centimeters per Second\xBB, una pel\xEDcula
+    de 2007 dirigida por Makoto Shinkai."
+  - "Dio vida a Taguchi en \xABPulse\xBB."
+  - "En \xABTurtles Are Surprisingly Fast Swimmers\xBB interpret\xF3 a Policeman."
+  - "Su filmograf\xEDa re\xFAne \xABTurtles Are Surprisingly Fast Swimmers\xBB y
+    \xABPenance\xBB, adem\xE1s de \xAB5 Centimeters per Second\xBB."

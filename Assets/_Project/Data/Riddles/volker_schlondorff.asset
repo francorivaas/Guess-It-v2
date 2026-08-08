@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: volker_schlondorff
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: volker_schlondorff
+  category: personas
+  difficulty: 0
+  answer: "Volker Schl\xF6ndorff"
+  acceptedAnswers:
+  - "Volker Schl\xF6ndorff"
+  - volker schlondorff
+  hints:
+  - "Su filmograf\xEDa como realizador recorre drama, historia y b\xE9lico durante
+    el per\xEDodo entre 1963 y 2017."
+  - "Estuvo al frente de \xABThe Tin Drum\xBB (1979)."
+  - "Tambi\xE9n dirigi\xF3 \xABDiplomacy\xBB, del a\xF1o 2014."
+  - "Fue responsable de \xABThe Tin Drum\xBB y \xABThe Handmaid's Tale\xBB."
+  - "Su filmograf\xEDa re\xFAne \xABThe Tin Drum\xBB, \xABThe Handmaid's Tale\xBB
+    y \xABPalmetto\xBB."

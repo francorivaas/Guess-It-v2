@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tomorrow_i_ll_wake_up_and_scald_myself_with_tea
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tomorrow_i_ll_wake_up_and_scald_myself_with_tea
+  category: peliculas
+  difficulty: 2
+  answer: Tomorrow I'll Wake Up and Scald Myself with Tea
+  acceptedAnswers:
+  - Tomorrow I'll Wake Up and Scald Myself with Tea
+  - "Z\xEDtra vstanu a opa\u0159\xEDm se \u010Dajem"
+  - zitra vstanu a oparim se cajem
+  hints:
+  - "Fue filmada originalmente en checo y lleg\xF3 a los cines en 1977."
+  - "Mezcla comedia, ciencia ficci\xF3n y b\xE9lico y fue producida en Rep\xFAblica
+    Checa."
+  - "Detr\xE1s de la c\xE1mara estuvo Jind\u0159ich Pol\xE1k."
+  - "Dos personajes centrales son Karel Bure\u0161, interpretado por Petr Kostka,
+    y Klaus Abbard, a cargo de Ji\u0159\xED Sov\xE1k."
+  - "Jind\u0159ich Pol\xE1k dirige a Petr Kostka como Karel Bure\u0161, Ji\u0159\xED
+    Sov\xE1k como Klaus Abbard y Petr Kostka como Jan Bure\u0161 en esta pel\xEDcula
+    de 1977."

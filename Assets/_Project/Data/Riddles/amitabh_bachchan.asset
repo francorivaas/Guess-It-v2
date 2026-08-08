@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: amitabh_bachchan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: amitabh_bachchan
+  category: personas
+  difficulty: 0
+  answer: Amitabh Bachchan
+  acceptedAnswers:
+  - Amitabh Bachchan
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1973 y 2013 y recorren g\xE9neros
+    como drama, acci\xF3n y romance."
+  - "Form\xF3 parte del elenco de \xABThe Great Gatsby\xBB, una pel\xEDcula de 2013
+    dirigida por Baz Luhrmann."
+  - "En \xABKabhi Khushi Kabhie Gham\xBB interpret\xF3 a Yashvardhan 'Yash' Raichand."
+  - "Dio vida a Narrator en \xABJodhaa Akbar\xBB."
+  - "Interpret\xF3 a Narrator en \xABJodhaa Akbar\xBB y a Chaudhary Sumer Singh en
+    \xABVeer-Zaara\xBB."

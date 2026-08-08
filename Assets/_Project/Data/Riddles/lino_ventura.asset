@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lino_ventura
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lino_ventura
+  category: personas
+  difficulty: 0
+  answer: Lino Ventura
+  acceptedAnswers:
+  - Lino Ventura
+  hints:
+  - "Trabaj\xF3 en producciones de drama, crimen y suspenso a lo largo del per\xEDodo
+    entre 1954 y 1982."
+  - "Uno de sus trabajos fue \xABArmy of Shadows\xBB (1969), bajo la direcci\xF3n
+    de Jean-Pierre Melville."
+  - "Dio vida a Le Commissaire Cherrier en \xABElevator to the Gallows\xBB."
+  - "Su papel en \xABThe Sicilian Clan\xBB fue el de Inspecteur Le Goff."
+  - "Interpret\xF3 a Inspecteur Le Goff en \xABThe Sicilian Clan\xBB y a Angelo en
+    \xABTouchez Pas au Grisbi\xBB."

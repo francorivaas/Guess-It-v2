@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: my_neighbor_totoro
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: my_neighbor_totoro
+  category: peliculas
+  difficulty: 1
+  answer: Mi vecino Totoro
+  acceptedAnswers:
+  - Mi vecino Totoro
+  - my neighbor totoro
+  hints:
+  - "Su contexto de estreno fue 1988; es una pel\xEDcula de animaci\xF3n y fantas\xEDa
+    realizada en Jap\xF3n."
+  - "El trabajo de direcci\xF3n corresponde a Hayao Miyazaki."
+  - "La narraci\xF3n se apoya especialmente en Satsuki, Mei y un esp\xEDritu del
+    bosque."
+  - "El relato se construye a partir de dos hermanas descubren criaturas m\xE1gicas
+    mientras su madre est\xE1 hospitalizada."
+  - "Se la reconoce de inmediato por un gran ser gris espera bajo la lluvia junto
+    a una parada de autob\xFAs."

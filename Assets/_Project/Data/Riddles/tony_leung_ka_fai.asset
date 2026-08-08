@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tony_leung_ka_fai
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tony_leung_ka_fai
+  category: personas
+  difficulty: 0
+  answer: Tony Leung Ka-Fai
+  acceptedAnswers:
+  - Tony Leung Ka-Fai
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1991 y 2014 y recorren g\xE9neros
+    como drama, romance y acci\xF3n."
+  - "Particip\xF3 en \xABThe Lover\xBB, dirigida por Jean-Jacques Annaud y estrenada
+    en 1992."
+  - "En \xABThe Myth\xBB interpret\xF3 a William."
+  - "Su papel en \xABThree\u2026 Extremes\xBB fue el de Mr Li."
+  - "Es la persona que encarn\xF3 a Mr Li en \xABThree\u2026 Extremes\xBB y a Huang
+    Yaoshi / Evil East en \xABAshes of Time\xBB."

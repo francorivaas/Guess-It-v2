@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: meet_joe_black
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: meet_joe_black
+  category: peliculas
+  difficulty: 0
+  answer: Meet Joe Black
+  acceptedAnswers:
+  - Meet Joe Black
+  hints:
+  - "Se estren\xF3 en 1998, dura cerca de 178 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - "Combina fantas\xEDa y drama; una de sus productoras fue Universal Pictures."
+  - "La dirigi\xF3 Martin Brest, con Jeffrey Tambor en un papel del reparto."
+  - En el elenco aparecen Anthony Hopkins y Claire Forlani.
+  - "Brad Pitt encabeza esta pel\xEDcula de fantas\xEDa, dirigida por Martin Brest
+    y estrenada en 1998."

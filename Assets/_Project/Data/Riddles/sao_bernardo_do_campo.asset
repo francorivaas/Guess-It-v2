@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sao_bernardo_do_campo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sao_bernardo_do_campo
+  category: lugares
+  difficulty: 0
+  answer: "S\xE3o Bernardo do Campo"
+  acceptedAnswers:
+  - "S\xE3o Bernardo do Campo"
+  - sao bernardo do campo
+  hints:
+  - "Su posici\xF3n est\xE1 al sur del ecuador, a unos 23,70 grados del ecuador."
+  - "Su escala urbana ronda los 811 mil de habitantes y se integra en S\xE3o Paulo."
+  - "No es la capital nacional de Brasil. Se halla aproximadamente a 23,7\xB0 sur."
+  - "Se encuentra en Brasil, dentro de S\xE3o Paulo, con una poblaci\xF3n cercana
+    a 811 mil."
+  - "En Brasil, dentro de S\xE3o Paulo, esta ciudad de unos 811 mil est\xE1 cerca
+    de 23,7\xB0 sur y 46,5\xB0 oeste."

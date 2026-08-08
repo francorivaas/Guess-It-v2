@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kafka
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kafka
+  category: peliculas
+  difficulty: 0
+  answer: Kafka
+  acceptedAnswers:
+  - Kafka
+  hints:
+  - "Combina un estreno de 1991 con di\xE1logos originalmente en ingl\xE9s."
+  - "El relato pertenece a comedia, drama y misterio, con participaci\xF3n productiva
+    de Francia y Estados Unidos."
+  - El realizador principal fue Steven Soderbergh.
+  - "El elenco re\xFAne a Jeremy Irons con Theresa Russell."
+  - "El reparto incluye a Jeremy Irons, Theresa Russell como Gabriela y Armin Mueller-Stahl
+    como Grubach bajo la direcci\xF3n de Steven Soderbergh."

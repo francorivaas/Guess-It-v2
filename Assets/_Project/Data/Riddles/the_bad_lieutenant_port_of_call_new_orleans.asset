@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_bad_lieutenant_port_of_call_new_orleans
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_bad_lieutenant_port_of_call_new_orleans
+  category: peliculas
+  difficulty: 2
+  answer: 'The Bad Lieutenant: Port of Call - New Orleans'
+  acceptedAnswers:
+  - 'The Bad Lieutenant: Port of Call - New Orleans'
+  hints:
+  - "Se estren\xF3 en 2009, dura cerca de 122 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - Combina drama y crimen; una de sus productoras fue Saturn Films.
+  - "La dirigi\xF3 Werner Herzog, con Fairuza Balk en un papel del reparto."
+  - En el elenco aparecen Eva Mendes y Val Kilmer.
+  - "Nicolas Cage encabeza esta pel\xEDcula de drama, dirigida por Werner Herzog
+    y estrenada en 2009."

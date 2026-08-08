@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ian_mcelhinney
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ian_mcelhinney
+  category: personas
+  difficulty: 1
+  answer: Ian McElhinney
+  acceptedAnswers:
+  - Ian McElhinney
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1990 y 2017, con presencia frecuente
+    en suspenso, drama y misterio."
+  - "Particip\xF3 en \xABLeap Year\xBB, dirigida por Anand Tucker y estrenada en
+    2010."
+  - "Su papel en \xABSacrifice\xBB fue el de D.I. McKie."
+  - "Su papel en \xABTriage\xBB fue el de Ivan."
+  - "Sus papeles incluyen a Ivan en \xABTriage\xBB y a Jack Cunnigham en \xABHidden
+    Agenda\xBB."

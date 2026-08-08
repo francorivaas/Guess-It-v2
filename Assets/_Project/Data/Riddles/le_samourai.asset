@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: le_samourai
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: le_samourai
+  category: peliculas
+  difficulty: 2
+  answer: "El samur\xE1i"
+  acceptedAnswers:
+  - "El samur\xE1i"
+  - El samurai
+  - le samourai
+  hints:
+  - "Se estren\xF3 en 1967 y combina crimen y suspenso dentro del cine de Francia."
+  - "La realizaci\xF3n fue encabezada por Jean-Pierre Melville."
+  - "Entre sus figuras centrales est\xE1n Jef Costello, Val\xE9rie y el comisario."
+  - "La trama gira alrededor de un asesino met\xF3dico intenta mantener su coartada
+    despu\xE9s de ser visto."
+  - "La pista casi definitiva es un hombre de gabardina vive solo con un p\xE1jaro
+    y sigue un c\xF3digo r\xEDgido."

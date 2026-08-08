@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ed_decter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ed_decter
+  category: personas
+  difficulty: 0
+  answer: Ed Decter
+  acceptedAnswers:
+  - Ed Decter
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 1998 y 2006, con presencia
+    frecuente en comedia y animaci\xF3n."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABThe Wild\xBB, vinculada a Estados
+    Unidos y Canad\xE1."
+  - "Su nombre figura en los cr\xE9ditos de \xABThe New Guy\xBB junto con \xABThe
+    Santa Clause 3: The Escape Clause\xBB."
+  - "Los t\xEDtulos \xABThere's Something About Mary\xBB y \xABThe Santa Clause 3:
+    The Escape Clause\xBB ofrecen las pistas m\xE1s directas."
+  - "Profesional del cine relacionado con \xABThere's Something About Mary\xBB, \xABThe
+    Santa Clause 3: The Escape Clause\xBB y \xABThe New Guy\xBB en tareas de guion
+    y direcci\xF3n."

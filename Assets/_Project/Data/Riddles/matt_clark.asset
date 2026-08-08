@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: matt_clark
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: matt_clark
+  category: personas
+  difficulty: 2
+  answer: Matt Clark
+  acceptedAnswers:
+  - Matt Clark
+  hints:
+  - "En The Legend of the Lone Ranger interpret\xF3 a Sheriff Wiatt, en una pel\xEDcula
+    estrenada en 1981."
+  - Su carrera en cine abarca de 1973 a 2014 y recorre aventura y comedia.
+  - "Comparti\xF3 reparto con Fairuza Balk en Return to Oz."
+  - "En A Million Ways to Die in the West interpret\xF3 a Old Prospector."
+  - Aparece en Back to the Future Part III y Return to Oz.

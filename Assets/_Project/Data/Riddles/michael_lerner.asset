@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: michael_lerner
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: michael_lerner
+  category: personas
+  difficulty: 1
+  answer: Michael Lerner
+  acceptedAnswers:
+  - Michael Lerner
+  hints:
+  - "Trabaj\xF3 en producciones de comedia, fantas\xEDa y romance a lo largo del
+    per\xEDodo entre 1981 y 2006."
+  - "Form\xF3 parte del elenco de \xABElf\xBB, una pel\xEDcula de 2003 dirigida por
+    Jon Favreau."
+  - "En \xABThe Postman Always Rings Twice\xBB interpret\xF3 a Mr. Katz."
+  - "Su papel en \xABLove and Other Disasters\xBB fue el de Marvin Berstein."
+  - "Interpret\xF3 a Marvin Berstein en \xABLove and Other Disasters\xBB y a John
+    Pressman en \xABAnguish\xBB."

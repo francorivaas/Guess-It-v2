@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bill_monroe_and_his_blue_grass_boys
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bill_monroe_and_his_blue_grass_boys
+  category: bandas musicales
+  difficulty: 0
+  answer: Bill Monroe & His Blue Grass Boys
+  acceptedAnswers:
+  - Bill Monroe & His Blue Grass Boys
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABKentucky Waltz\xBB, de 1945, y llega hasta
+    1994."
+  - "\xABFootprints In the Snow\xBB presenta una energ\xEDa suave y un pulso cercano
+    a 123 BPM."
+  - "Entre sus grabaciones figuran \xABBlue Yodel No. 4\xBB y \xABHeavy Traffic Ahead\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABWayfaring Stranger\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABBlue Moon of Kentucky\xBB y \xABIn The
+    Pines\xBB."

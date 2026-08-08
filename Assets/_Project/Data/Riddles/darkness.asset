@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: darkness
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: darkness
+  category: peliculas
+  difficulty: 0
+  answer: Darkness
+  acceptedAnswers:
+  - Darkness
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2000 dura cerca de 102 minutos."
+  - "Entre sus compa\xF1\xEDas figura V\xEDa Digital; sus g\xE9neros principales
+    son terror."
+  - "El realizador principal fue Jaume Balaguer\xF3."
+  - Anna Paquin interpreta a Regina, mientras Lena Olin encarna a Maria.
+  - "El reparto incluye a Anna Paquin como Regina, Lena Olin como Maria y Iain Glen
+    como Mark bajo la direcci\xF3n de Jaume Balaguer\xF3."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: knock_on_wood
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: knock_on_wood
+  category: peliculas
+  difficulty: 0
+  answer: Knock on Wood
+  acceptedAnswers:
+  - Knock on Wood
+  - "La ch\xE8vre"
+  - la chevre
+  hints:
+  - "Fue filmada originalmente en franc\xE9s y lleg\xF3 a los cines en 1981."
+  - "Se encuadra en comedia, crimen y aventura y tiene origen de producci\xF3n en
+    Francia y M\xE9xico."
+  - "La direcci\xF3n estuvo a cargo de Francis Veber."
+  - "Pierre Richard interpreta a Fran\xE7ois Perrin, mientras G\xE9rard Depardieu
+    encarna a Campana."
+  - "En esta cinta de 1981 coinciden Pierre Richard como Fran\xE7ois Perrin, G\xE9rard
+    Depardieu como Campana y Pedro Armend\xE1riz Jr. como The Captain."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: michael_bacall
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: michael_bacall
+  category: personas
+  difficulty: 0
+  answer: Michael Bacall
+  acceptedAnswers:
+  - Michael Bacall
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 1993 y 2017, con presencia
+    frecuente en acci\xF3n y comedia."
+  - "La pel\xEDcula \xABFree Willy\xBB forma parte de una carrera conectada con Estados
+    Unidos y Reino Unido."
+  - "Otros dos t\xEDtulos de su carrera son \xAB22 Jump Street\xBB y \xABScott Pilgrim
+    vs. the World\xBB."
+  - "Dos referencias fuertes de su carrera son \xAB21 Jump Street\xBB y \xABScott
+    Pilgrim vs. the World\xBB."
+  - "Profesional del cine relacionado con \xAB21 Jump Street\xBB, \xABScott Pilgrim
+    vs. the World\xBB y \xAB22 Jump Street\xBB en tareas de guion y interpretaci\xF3n."

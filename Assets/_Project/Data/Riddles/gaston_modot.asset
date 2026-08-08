@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gaston_modot
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gaston_modot
+  category: personas
+  difficulty: 1
+  answer: Gaston Modot
+  acceptedAnswers:
+  - Gaston Modot
+  hints:
+  - "Trabaj\xF3 en producciones de drama, romance y comedia a lo largo del per\xEDodo
+    entre 1930 y 1958."
+  - "Form\xF3 parte del elenco de \xABGrand Illusion\xBB, una pel\xEDcula de 1937
+    dirigida por Jean Renoir."
+  - "Su papel en \xABThe Rules of the Game\xBB fue el de Edouard Schumacher, le garde-chasse."
+  - "Dio vida a Fil de Soie en \xABChildren of Paradise\xBB."
+  - "Interpret\xF3 a Fil de Soie en \xABChildren of Paradise\xBB y a The Man en \xABL'\xC2ge
+    d'Or\xBB."

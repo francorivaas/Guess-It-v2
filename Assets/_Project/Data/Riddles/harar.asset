@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: harar
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: harar
+  category: lugares
+  difficulty: 1
+  answer: Harar
+  acceptedAnswers:
+  - Harar
+  hints:
+  - "Est\xE1 a unos 9,3 grados al norte del ecuador y 42,1 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 175 mil habitantes. Dentro de su pa\xEDs
+    ocupa el puesto 10 por poblaci\xF3n."
+  - "Se ubica a unos 380 kil\xF3metros al este de Addis Ababa."
+  - "Est\xE1 en Etiop\xEDa, donde ocupa el puesto 10 por poblaci\xF3n, y es un centro
+    administrativo regional."
+  - "Es la capital administrativa de H\u0101rer\u012B Hizb, dentro de Etiop\xEDa."

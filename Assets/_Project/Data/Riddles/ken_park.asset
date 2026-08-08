@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ken_park
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ken_park
+  category: peliculas
+  difficulty: 0
+  answer: Ken Park
+  acceptedAnswers:
+  - Ken Park
+  hints:
+  - "Fue filmada originalmente en ingl\xE9s y lleg\xF3 a los cines en 2002."
+  - "Lou Yi Inc. particip\xF3 en una pel\xEDcula de drama producida en Francia y
+    Pa\xEDses Bajos."
+  - "Detr\xE1s de la c\xE1mara estuvo Edward Lachman."
+  - Dos personajes centrales son Tate, interpretado por James Ransone, y Peaches,
+    a cargo de Tiffany Limos.
+  - "Edward Lachman dirige a James Ransone como Tate, Tiffany Limos como Peaches
+    y Maeve Quinlan como Rhonda en esta pel\xEDcula de 2002."

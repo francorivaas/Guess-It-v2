@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: royal_deceit
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: royal_deceit
+  category: peliculas
+  difficulty: 2
+  answer: Royal Deceit
+  acceptedAnswers:
+  - Royal Deceit
+  - Prince of Jutland
+  hints:
+  - "Es una producci\xF3n de 1994 con una duraci\xF3n aproximada de 85 minutos."
+  - "Se encuadra en drama y aventura y tiene origen de producci\xF3n en Pa\xEDses
+    Bajos y Reino Unido."
+  - El realizador principal fue Gabriel Axel.
+  - En el reparto, Gabriel Byrne da vida a Fenge y Helen Mirren a Geruth.
+  - "El reparto incluye a Gabriel Byrne como Fenge, Helen Mirren como Geruth y Christian
+    Bale como Amled bajo la direcci\xF3n de Gabriel Axel."

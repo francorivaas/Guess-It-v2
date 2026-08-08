@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_saragossa_manuscript
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_saragossa_manuscript
+  category: peliculas
+  difficulty: 1
+  answer: The Saragossa Manuscript
+  acceptedAnswers:
+  - The Saragossa Manuscript
+  - Rekopis znaleziony w Saragossie
+  hints:
+  - "Es una producci\xF3n de 1965 con una duraci\xF3n aproximada de 182 minutos."
+  - "Se encuadra en comedia, drama y fantas\xEDa y tiene origen de producci\xF3n
+    en Polonia."
+  - "La direcci\xF3n estuvo a cargo de Wojciech Has."
+  - "Zbigniew Cybulski interpreta a Alfonse Van Worden, mientras Iga Cembrzy\u0144ska
+    encarna a Princess Emina."
+  - "El reparto incluye a Zbigniew Cybulski como Alfonse Van Worden, Iga Cembrzy\u0144ska
+    como Princess Emina y El\u017Cbieta Czy\u017Cewska como Donna Frasquetta Salero
+    bajo la direcci\xF3n de Wojciech Has."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: barack_obama
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: barack_obama
+  category: personas
+  difficulty: 1
+  answer: Barack Obama
+  acceptedAnswers:
+  - Barack Obama
+  hints:
+  - "Su etapa de mayor influencia se sit\xFAa a comienzos del siglo XXI."
+  - "Procedente de Estados Unidos, destac\xF3 en pol\xEDtica."
+  - "Una contribuci\xF3n central fue ser el primer presidente afroamericano de su
+    pa\xEDs."
+  - El dato que reduce mucho las opciones es el lema Yes We Can y dos mandatos en
+    la Casa Blanca.
+  - "La persona buscada es la gran referencia de pol\xEDtica asociada a el lema Yes
+    We Can y dos mandatos en la Casa Blanca."

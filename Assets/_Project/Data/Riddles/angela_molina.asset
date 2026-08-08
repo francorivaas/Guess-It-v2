@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: angela_molina
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: angela_molina
+  category: personas
+  difficulty: 0
+  answer: "\xC1ngela Molina"
+  acceptedAnswers:
+  - "\xC1ngela Molina"
+  - angela molina
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1977 y 2012, con presencia frecuente
+    en drama, romance y suspenso."
+  - "Particip\xF3 en \xAB1492: Conquest of Paradise\xBB, dirigida por Ridley Scott
+    y estrenada en 1992."
+  - "En \xABBroken Embraces\xBB interpret\xF3 a Madre de Lena (Lena's Mother)."
+  - "Dio vida a Clara en \xABLive Flesh\xBB."
+  - "Sus papeles incluyen a Clara en \xABLive Flesh\xBB y a Cristina en \xABDiary
+    of a Nymphomaniac\xBB."

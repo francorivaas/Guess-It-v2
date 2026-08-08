@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nigel_stock
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nigel_stock
+  category: personas
+  difficulty: 0
+  answer: Nigel Stock
+  acceptedAnswers:
+  - Nigel Stock
+  hints:
+  - "Trabaj\xF3 en producciones de drama, historia y acci\xF3n a lo largo del per\xEDodo
+    entre 1947 y 1975."
+  - "Form\xF3 parte del elenco de \xABThe Lion in Winter\xBB, una pel\xEDcula de
+    1968 dirigida por Anthony Harvey."
+  - "Dio vida a Flying / Off. F. M. Spafford, D.F.C., D.F.M. en \xABThe Dam Busters\xBB."
+  - "Su papel en \xABThe Night of the Generals\xBB fue el de Otto."
+  - "Interpret\xF3 a Otto en \xABThe Night of the Generals\xBB y a Cubitt en \xABBrighton
+    Rock\xBB."

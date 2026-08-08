@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: young_ones
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: young_ones
+  category: peliculas
+  difficulty: 0
+  answer: Young Ones
+  acceptedAnswers:
+  - Young Ones
+  hints:
+  - "Es una producci\xF3n de 2014 con una duraci\xF3n aproximada de 100 minutos."
+  - "Quickfire Films particip\xF3 en una pel\xEDcula de w\xE9stern, acci\xF3n y drama
+    producida en Sud\xE1frica y Estados Unidos."
+  - El realizador principal fue Jake Paltrow.
+  - Michael Shannon interpreta a Ernest Holm, mientras Nicholas Hoult encarna a Flem
+    Lever.
+  - En esta cinta de 2014 coinciden Michael Shannon como Ernest Holm, Nicholas Hoult
+    como Flem Lever y Elle Fanning como Mary Holm.

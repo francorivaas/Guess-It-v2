@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: william_shakespeare
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: william_shakespeare
+  category: personas
+  difficulty: 0
+  answer: William Shakespeare
+  acceptedAnswers:
+  - William Shakespeare
+  hints:
+  - "Su etapa de mayor influencia transcurri\xF3 entre los siglos XVI y XVII."
+  - "Naci\xF3 en Inglaterra y orient\xF3 su trabajo hacia teatro y poes\xEDa."
+  - "Una contribuci\xF3n central fue escribir tragedias, comedias y sonetos fundamentales."
+  - El dato que reduce mucho las opciones es Romeo y Julieta, Hamlet y Macbeth.
+  - "La persona buscada es la gran referencia de teatro y poes\xEDa asociada a Romeo
+    y Julieta, Hamlet y Macbeth."

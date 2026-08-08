@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: robert_cray
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: robert_cray
+  category: bandas musicales
+  difficulty: 1
+  answer: Robert Cray
+  acceptedAnswers:
+  - Robert Cray
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABI Guess I Showed Her\xBB, de 1986, y llega
+    hasta 2003."
+  - "Se mueve dentro de blues; \xABI Wonder\xBB refleja una energ\xEDa media y un
+    pulso cercano a 123 BPM."
+  - "Entre sus grabaciones figuran \xABPlayin' With My Friends\xBB y \xABNothin'
+    But A Woman\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABSmoking Gun\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABRight Next Door (Because Of Me)\xBB
+    y \xABSix Strings Down\xBB."

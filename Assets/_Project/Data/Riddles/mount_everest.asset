@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mount_everest
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mount_everest
+  category: lugares
+  difficulty: 0
+  answer: Monte Everest
+  acceptedAnswers:
+  - Monte Everest
+  - mount everest
+  hints:
+  - "La presi\xF3n atmosf\xE9rica en su cumbre es aproximadamente un tercio de la
+    del nivel del mar."
+  - "Su altura cambia lentamente por movimientos tect\xF3nicos."
+  - Se encuentra en la cordillera del Himalaya.
+  - Marca la frontera entre Nepal y China.
+  - "Es la monta\xF1a m\xE1s alta del planeta sobre el nivel del mar."

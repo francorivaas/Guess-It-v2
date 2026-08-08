@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: la_dolce_vita
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: la_dolce_vita
+  category: peliculas
+  difficulty: 2
+  answer: La dolce vita
+  acceptedAnswers:
+  - La dolce vita
+  hints:
+  - "Dentro del cine de Italia, apareci\xF3 en 1960 con una propuesta de drama."
+  - "Federico Fellini asumi\xF3 la direcci\xF3n."
+  - "Sus nombres m\xE1s ligados al relato son Marcello Rubini, Sylvia y Maddalena."
+  - "La acci\xF3n avanza mientras un periodista recorre noches romanas entre celebridades
+    y vac\xEDo existencial."
+  - "Su elemento m\xE1s revelador es una actriz se ba\xF1a en la Fontana di Trevi
+    bajo la madrugada."

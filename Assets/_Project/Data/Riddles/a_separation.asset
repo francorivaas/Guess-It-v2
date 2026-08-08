@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: a_separation
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: a_separation
+  category: peliculas
+  difficulty: 2
+  answer: "Una separaci\xF3n"
+  acceptedAnswers:
+  - "Una separaci\xF3n"
+  - Una separacion
+  - a separation
+  - jodaeiye nader az simin
+  hints:
+  - "Lleg\xF3 a las salas en 2011 como una obra de drama vinculada a Ir\xE1n."
+  - "La realizaci\xF3n fue encabezada por Asghar Farhadi."
+  - Nader, Simin y Razieh ocupan el centro de la historia.
+  - Su historia sigue un divorcio pendiente desencadena un conflicto legal entre
+    dos familias.
+  - "Una imagen o situaci\xF3n decisiva es una cuidadora, un padre enfermo y una
+    acusaci\xF3n de empuj\xF3n complican la verdad."

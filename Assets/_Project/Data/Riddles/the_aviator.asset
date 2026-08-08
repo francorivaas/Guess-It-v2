@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_aviator
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_aviator
+  category: peliculas
+  difficulty: 0
+  answer: The Aviator
+  acceptedAnswers:
+  - The Aviator
+  hints:
+  - "Se estren\xF3 en 2004, dura cerca de 170 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - Combina drama; una de sus productoras fue Miramax Films.
+  - "La dirigi\xF3 Martin Scorsese, con John C. Reilly en un papel del reparto."
+  - En el elenco aparecen Cate Blanchett y Kate Beckinsale.
+  - "Leonardo DiCaprio encabeza esta pel\xEDcula de drama, dirigida por Martin Scorsese
+    y estrenada en 2004."

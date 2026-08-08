@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: flypaper
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: flypaper
+  category: peliculas
+  difficulty: 0
+  answer: Flypaper
+  acceptedAnswers:
+  - Flypaper
+  hints:
+  - "Es una producci\xF3n de 2011 con una duraci\xF3n aproximada de 87 minutos."
+  - "Se encuadra en misterio, comedia y crimen y tiene origen de producci\xF3n en
+    Alemania y Estados Unidos."
+  - "Rob Minkoff la dirigi\xF3 con Rising Star entre las compa\xF1\xEDas productoras."
+  - Patrick Dempsey interpreta a Tripp, mientras Ashley Judd encarna a Kaitlin.
+  - "Rob Minkoff dirige a Patrick Dempsey como Tripp, Ashley Judd como Kaitlin y
+    Tim Blake Nelson como Peanut Butter en esta pel\xEDcula de 2011."

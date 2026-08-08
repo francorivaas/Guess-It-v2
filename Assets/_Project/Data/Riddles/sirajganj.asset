@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sirajganj
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sirajganj
+  category: lugares
+  difficulty: 0
+  answer: "Sir\u0101jganj"
+  acceptedAnswers:
+  - "Sir\u0101jganj"
+  - sirajganj
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 24,45 grados del ecuador."
+  - "Su poblaci\xF3n registrada se aproxima a 450.000 habitantes y pertenece a R\u0101jsh\u0101hi."
+  - "No es la capital nacional de Banglad\xE9s. Su longitud geogr\xE1fica ronda los
+    89,75\xB0 este."
+  - "Pertenece a Banglad\xE9s y forma parte de R\u0101jsh\u0101hi; supera aproximadamente
+    los 450.000 habitantes."
+  - "En Banglad\xE9s, dentro de R\u0101jsh\u0101hi, esta ciudad de unos 450 mil est\xE1
+    cerca de 24,4\xB0 norte y 89,8\xB0 este."

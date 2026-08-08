@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: harmony_korine
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: harmony_korine
+  category: personas
+  difficulty: 0
+  answer: Harmony Korine
+  acceptedAnswers:
+  - Harmony Korine
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 1995 y 2019, con presencia
+    frecuente en comedia y drama. Su filmograf\xEDa registrada re\xFAne 6 t\xEDtulos
+    distintos."
+  - "La pel\xEDcula \xABManglehorn\xBB forma parte de una carrera conectada con Estados
+    Unidos y Francia."
+  - "Su nombre figura en los cr\xE9ditos de \xABGummo\xBB junto con \xABKids\xBB."
+  - "Dos referencias fuertes de su carrera son \xABSpring Breakers\xBB y \xABKids\xBB."
+  - "Profesional del cine relacionado con \xABSpring Breakers\xBB, \xABKids\xBB y
+    \xABGummo\xBB en tareas de guion y direcci\xF3n."

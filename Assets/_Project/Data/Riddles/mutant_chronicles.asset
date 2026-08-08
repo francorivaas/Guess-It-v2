@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mutant_chronicles
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mutant_chronicles
+  category: peliculas
+  difficulty: 0
+  answer: Mutant Chronicles
+  acceptedAnswers:
+  - Mutant Chronicles
+  hints:
+  - "Es una producci\xF3n de 2008 con una duraci\xF3n aproximada de 111 minutos."
+  - "Se encuadra en acci\xF3n, aventura y terror y tiene origen de producci\xF3n
+    en Estados Unidos y Reino Unido."
+  - "Detr\xE1s de la c\xE1mara estuvo Simon Hunter."
+  - En el reparto, Ron Perlman da vida a Brother Samuel y Thomas Jane a Maj. 'Mitch'
+    Hunter.
+  - "Simon Hunter dirige a Ron Perlman como Brother Samuel, Thomas Jane como Maj.
+    'Mitch' Hunter y Devon Aoki como Cpl. Valerie Duval en esta pel\xEDcula de 2008."

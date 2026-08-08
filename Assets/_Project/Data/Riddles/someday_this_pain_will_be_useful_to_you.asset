@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: someday_this_pain_will_be_useful_to_you
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: someday_this_pain_will_be_useful_to_you
+  category: peliculas
+  difficulty: 1
+  answer: Someday This Pain Will Be Useful to You
+  acceptedAnswers:
+  - Someday This Pain Will Be Useful to You
+  hints:
+  - "Es una producci\xF3n de 2011 con una duraci\xF3n aproximada de 96 minutos."
+  - Mezcla drama y comedia y fue producida en Italia y Estados Unidos.
+  - "Roberto Faenza la dirigi\xF3 con Rai Cinema entre las compa\xF1\xEDas productoras."
+  - Dos personajes centrales son James Sveck, interpretado por Toby Regbo, y Marjorie
+    Dunfour, a cargo de Marcia Gay Harden.
+  - "Roberto Faenza dirige a Toby Regbo como James Sveck, Marcia Gay Harden como
+    Marjorie Dunfour y Peter Gallagher como Paul Sveck en esta pel\xEDcula de 2011."

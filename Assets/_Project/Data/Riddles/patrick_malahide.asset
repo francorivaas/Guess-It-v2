@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: patrick_malahide
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: patrick_malahide
+  category: personas
+  difficulty: 0
+  answer: Patrick Malahide
+  acceptedAnswers:
+  - Patrick Malahide
+  hints:
+  - "Trabaj\xF3 en producciones de drama, comedia y aventura a lo largo del per\xEDodo
+    entre 1984 y 2008."
+  - "Particip\xF3 en \xABBilly Elliot\xBB, dirigida por Stephen Daldry y estrenada
+    en 2000."
+  - "Dio vida a Ainstee en \xABCutthroat Island\xBB."
+  - "En \xABQuills\xBB interpret\xF3 a Delben\xE9."
+  - "Interpret\xF3 a Delben\xE9 en \xABQuills\xBB y a Mr. Ryder en \xABBrideshead
+    Revisited\xBB."

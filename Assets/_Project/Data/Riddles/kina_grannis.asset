@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kina_grannis
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kina_grannis
+  category: bandas musicales
+  difficulty: 0
+  answer: Kina Grannis
+  acceptedAnswers:
+  - Kina Grannis
+  hints:
+  - "La huella musical se mueve por ac\xFAstico y folk y presenta un perfil especialmente
+    ac\xFAstico."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABCrazy Rich Asians (Original Motion
+    Picture Soundtrack)\xBB."
+  - En algunas pistas aparece junto a Imaginary Future y Tyler Ward.
+  - "Las referencias directas son \xABCan't Help Falling In Love\xBB y \xABIris\xBB."
+  - "Nombre musical asociado directamente a \xABCan't Help Falling In Love\xBB, \xABIris\xBB
+    y \xABFast Car\xBB."

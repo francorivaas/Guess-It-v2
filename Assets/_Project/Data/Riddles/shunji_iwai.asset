@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: shunji_iwai
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: shunji_iwai
+  category: personas
+  difficulty: 1
+  answer: Shunji Iwai
+  acceptedAnswers:
+  - Shunji Iwai
+  hints:
+  - "Dirigi\xF3 obras de drama, cine extranjero y romance a lo largo de una trayectoria
+    que va entre 1994 y 2016."
+  - "Entre sus trabajos de direcci\xF3n figura \xABAll About Lily Chou-Chou\xBB."
+  - "Tambi\xE9n dirigi\xF3 \xABLove Letter\xBB, del a\xF1o 1995."
+  - "Fue responsable de \xABAll About Lily Chou-Chou\xBB y \xABHana and Alice\xBB."
+  - "Su filmograf\xEDa re\xFAne \xABAll About Lily Chou-Chou\xBB, \xABHana and Alice\xBB
+    y \xABApril Story\xBB."

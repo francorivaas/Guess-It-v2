@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jonas_brothers
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jonas_brothers
+  category: bandas musicales
+  difficulty: 0
+  answer: Jonas Brothers
+  acceptedAnswers:
+  - Jonas Brothers
+  hints:
+  - "Desde Estados Unidos, la banda proyect\xF3 su influencia principalmente desde
+    mediados de la d\xE9cada de 2000."
+  - La propuesta sonora combina pop rock y pop.
+  - "La historia del grupo est\xE1 ligada a Kevin, Joe y Nick Jonas."
+  - Una pieza clave para ubicarla es A Little Bit Longer.
+  - Se la identifica de inmediato por Burnin' Up, tres hermanos y una etapa vinculada
+    a Disney.

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: virginia_woolf
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: virginia_woolf
+  category: personas
+  difficulty: 1
+  answer: Virginia Woolf
+  acceptedAnswers:
+  - Virginia Woolf
+  hints:
+  - "El n\xFAcleo de su trayectoria transcurri\xF3 en la primera mitad del siglo
+    XX."
+  - "Procedente de Reino Unido, destac\xF3 en literatura."
+  - "Una contribuci\xF3n central fue innovar con el mon\xF3logo interior y reflexionar
+    sobre g\xE9nero."
+  - "El dato que reduce mucho las opciones es La se\xF1ora Dalloway y Una habitaci\xF3n
+    propia."
+  - "La persona buscada es la gran referencia de literatura asociada a La se\xF1ora
+    Dalloway y Una habitaci\xF3n propia."

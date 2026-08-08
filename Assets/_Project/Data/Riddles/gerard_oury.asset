@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gerard_oury
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gerard_oury
+  category: personas
+  difficulty: 0
+  answer: "G\xE9rard Oury"
+  acceptedAnswers:
+  - "G\xE9rard Oury"
+  - gerard oury
+  hints:
+  - "Su carrera detr\xE1s de c\xE1mara se desarrolla entre 1965 y 1993, con especial
+    presencia de comedia, aventura y crimen."
+  - "Estuvo al frente de \xABDon't Look Now: We're Being Shot At\xBB (1966)."
+  - "Otro t\xEDtulo bajo su direcci\xF3n es \xABThe Mad Adventures of Rabbi Jacob\xBB
+    (1973)."
+  - "Su nombre aparece en la direcci\xF3n de \xABDon't Look Now: We're Being Shot
+    At\xBB y \xABThe Mad Adventures of Rabbi Jacob\xBB."
+  - "Dirigi\xF3 \xABDon't Look Now: We're Being Shot At\xBB, \xABThe Mad Adventures
+    of Rabbi Jacob\xBB y \xABDelusions of Grandeur\xBB."

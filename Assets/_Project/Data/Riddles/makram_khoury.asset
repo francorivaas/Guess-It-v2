@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: makram_khoury
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: makram_khoury
+  category: personas
+  difficulty: 1
+  answer: Makram Khoury
+  acceptedAnswers:
+  - Makram Khoury
+  hints:
+  - "Trabaj\xF3 en producciones de drama, romance y aventura a lo largo del per\xEDodo
+    entre 1988 y 2015."
+  - "Form\xF3 parte del elenco de \xABThe Physician\xBB, una pel\xEDcula de 2013
+    dirigida por Philipp St\xF6lzl."
+  - "En \xABThe Body\xBB interpret\xF3 a Nasir Hamid."
+  - "Su papel en \xABA Tale of Love and Darkness\xBB fue el de Halawani."
+  - "Interpret\xF3 a Halawani en \xABA Tale of Love and Darkness\xBB y a Samir aka
+    \"The American\" en \xABFree Zone\xBB."

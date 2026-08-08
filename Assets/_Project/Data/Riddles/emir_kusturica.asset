@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: emir_kusturica
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: emir_kusturica
+  category: personas
+  difficulty: 0
+  answer: Emir Kusturica
+  acceptedAnswers:
+  - Emir Kusturica
+  hints:
+  - "Su trabajo se reparte entre comedia y documental a lo largo de un per\xEDodo
+    que va entre 1985 y 2018."
+  - "La pel\xEDcula \xABEl Pepe, a Supreme Life\xBB forma parte de una carrera conectada
+    con Yugoslavia y Argentina."
+  - "Otros dos t\xEDtulos de su carrera son \xABArizona Dream\xBB y \xABCrna macka,
+    beli macor\xBB."
+  - "Los t\xEDtulos \xABUnderground\xBB y \xABCrna macka, beli macor\xBB ofrecen
+    las pistas m\xE1s directas."
+  - "Persona con cr\xE9ditos de direcci\xF3n y interpretaci\xF3n en \xABUnderground\xBB,
+    \xABCrna macka, beli macor\xBB y \xABArizona Dream\xBB."

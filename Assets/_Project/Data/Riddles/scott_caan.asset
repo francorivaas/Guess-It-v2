@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: scott_caan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: scott_caan
+  category: personas
+  difficulty: 0
+  answer: Scott Caan
+  acceptedAnswers:
+  - Scott Caan
+  hints:
+  - "En Brooklyn Rules interpret\xF3 a Carmine Mancuso, en una pel\xEDcula estrenada
+    en 2007."
+  - Su carrera en cine abarca de 1998 a 2008 y recorre suspenso y crimen.
+  - "Comparti\xF3 reparto con Giovanni Ribisi en Boiler Room."
+  - "En Ocean's Twelve interpret\xF3 a Turk Malloy."
+  - "Aparece en Ocean's Eleven y Ocean's Thirteen. Tambi\xE9n form\xF3 parte de Brooklyn
+    Rules."

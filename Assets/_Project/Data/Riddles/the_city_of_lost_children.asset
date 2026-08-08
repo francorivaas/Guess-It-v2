@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_city_of_lost_children
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_city_of_lost_children
+  category: peliculas
+  difficulty: 0
+  answer: The City of Lost Children
+  acceptedAnswers:
+  - The City of Lost Children
+  - "La Cit\xE9 des Enfants Perdus"
+  - la cite des enfants perdus
+  hints:
+  - "Combina un estreno de 1995 con di\xE1logos originalmente en franc\xE9s."
+  - "Entre sus compa\xF1\xEDas figura Procirep; sus g\xE9neros principales son fantas\xEDa,
+    ciencia ficci\xF3n y aventura."
+  - El realizador principal fue Jean-Pierre Jeunet.
+  - Dos personajes centrales son One, interpretado por Ron Perlman, y Scaphandrier
+    / Les Clones, a cargo de Dominique Pinon.
+  - "El reparto incluye a Ron Perlman como One, Dominique Pinon como Scaphandrier
+    / Les Clones y Judith Vittet como Miette bajo la direcci\xF3n de Jean-Pierre
+    Jeunet."

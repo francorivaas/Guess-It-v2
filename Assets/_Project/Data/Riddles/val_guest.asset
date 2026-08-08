@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: val_guest
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: val_guest
+  category: personas
+  difficulty: 1
+  answer: Val Guest
+  acceptedAnswers:
+  - Val Guest
+  hints:
+  - "Dirigi\xF3 obras de ciencia ficci\xF3n, drama y aventura a lo largo de una trayectoria
+    que va entre 1957 y 1981."
+  - "Entre sus trabajos de direcci\xF3n figura \xABThe Day the Earth Caught Fire\xBB."
+  - "Tambi\xE9n dirigi\xF3 \xABThe Abominable Snowman\xBB, del a\xF1o 1957."
+  - "Fue responsable de \xABThe Day the Earth Caught Fire\xBB y \xABWhen Dinosaurs
+    Ruled the Earth\xBB."
+  - "Es el realizador detr\xE1s de \xABThe Abominable Snowman\xBB, \xABWhen Dinosaurs
+    Ruled the Earth\xBB y \xABHell Is a City\xBB."

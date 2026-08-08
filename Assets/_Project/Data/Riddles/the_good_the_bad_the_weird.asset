@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_good_the_bad_the_weird
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_good_the_bad_the_weird
+  category: peliculas
+  difficulty: 1
+  answer: The Good the Bad the Weird
+  acceptedAnswers:
+  - The Good the Bad the Weird
+  - Good the Bad the Weird
+  hints:
+  - "Es una producci\xF3n de Corea del Sur de la d\xE9cada de 2000, vinculada al
+    g\xE9nero de acci\xF3n."
+  - "Tiene una duraci\xF3n aproximada de 130 minutos y recibi\xF3 la clasificaci\xF3n
+    R."
+  - "El a\xF1o 2008 y el sello Barunson E&A forman parte de sus datos de producci\xF3n."
+  - "La dirigi\xF3 Jee-woon Kim y su figura principal es Kang-ho Song."
+  - "Producci\xF3n de acci\xF3n estrenada en 2008: direcci\xF3n de Jee-woon Kim y
+    actuaciones de Kang-ho Song, con guion de Jee-woon Kim."

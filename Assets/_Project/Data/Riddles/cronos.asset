@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cronos
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cronos
+  category: peliculas
+  difficulty: 0
+  answer: Cronos
+  acceptedAnswers:
+  - Cronos
+  hints:
+  - "Combina un estreno de 1993 con di\xE1logos originalmente en ingl\xE9s."
+  - "Entre sus compa\xF1\xEDas figura CNCAIMC; sus g\xE9neros principales son drama,
+    terror y suspenso."
+  - "Guillermo del Toro la dirigi\xF3 con CNCAIMC entre las compa\xF1\xEDas productoras."
+  - Federico Luppi interpreta a Jesus Gris, mientras Ron Perlman encarna a Angel
+    de la Guardia.
+  - "El reparto incluye a Federico Luppi como Jesus Gris, Ron Perlman como Angel
+    de la Guardia y Claudio Brook como De la Guardia bajo la direcci\xF3n de Guillermo
+    del Toro."

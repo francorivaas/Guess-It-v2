@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: berlin_syndrome
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: berlin_syndrome
+  category: peliculas
+  difficulty: 0
+  answer: Berlin Syndrome
+  acceptedAnswers:
+  - Berlin Syndrome
+  hints:
+  - "Su metraje se acerca a 116 minutos y corresponde al a\xF1o 2017."
+  - "El relato pertenece a misterio, suspenso y drama, con participaci\xF3n productiva
+    de Australia."
+  - "Detr\xE1s de la c\xE1mara estuvo Cate Shortland."
+  - Teresa Palmer interpreta a Clare Havel, mientras Max Riemelt encarna a Andi Werner.
+  - "El reparto incluye a Teresa Palmer como Clare Havel, Max Riemelt como Andi Werner
+    y Matthias Habich como Erich Werner bajo la direcci\xF3n de Cate Shortland."

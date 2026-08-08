@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: john_abraham
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: john_abraham
+  category: personas
+  difficulty: 1
+  answer: John Abraham
+  acceptedAnswers:
+  - John Abraham
+  hints:
+  - "Trabaj\xF3 en producciones de comedia, suspenso y drama a lo largo del per\xEDodo
+    entre 2003 y 2016."
+  - "Form\xF3 parte del elenco de \xABKabhi Alvida Naa Kehna\xBB, una pel\xEDcula
+    de 2006 dirigida por Karan Johar."
+  - "Dio vida a Nikhil Mathur / Nick / Hunter en \xABDesi Boyz\xBB."
+  - "En \xABDishoom\xBB interpret\xF3 a Kabir Shergill."
+  - "Sus papeles incluyen a Kabir Shergill en \xABDishoom\xBB y a Sam en \xABGaram
+    Masala\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: farida_jalal
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: farida_jalal
+  category: personas
+  difficulty: 1
+  answer: Farida Jalal
+  acceptedAnswers:
+  - Farida Jalal
+  hints:
+  - "Trabaj\xF3 en producciones de drama, romance y acci\xF3n a lo largo del per\xEDodo
+    entre 1977 y 2004."
+  - "Particip\xF3 en \xABKabhi Khushi Kabhie Gham\xBB, dirigida por Karan Johar y
+    estrenada en 2001."
+  - "En \xABKuch Kuch Hota Hai\xBB interpret\xF3 a Mrs. Khanna (Rahul's mother)."
+  - "Dio vida a Ajay's mother en \xABDil To Pagal Hai\xBB."
+  - "Es la persona que encarn\xF3 a Ajay's mother en \xABDil To Pagal Hai\xBB y a
+    Lily Anthony Rodriques en \xABKaho Naa... Pyaar Hai\xBB."

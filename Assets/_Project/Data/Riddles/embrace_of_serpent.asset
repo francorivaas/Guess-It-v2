@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: embrace_of_serpent
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: embrace_of_serpent
+  category: peliculas
+  difficulty: 2
+  answer: El abrazo de la serpiente
+  acceptedAnswers:
+  - El abrazo de la serpiente
+  - embrace of the serpent
+  hints:
+  - "Se estren\xF3 en 2015 y combina aventura y drama dentro del cine de Colombia."
+  - "La realizaci\xF3n fue encabezada por Ciro Guerra."
+  - "Entre sus figuras centrales est\xE1n Karamakate y dos exploradores."
+  - "La trama gira alrededor de dos expediciones separadas por d\xE9cadas buscan
+    una planta sagrada en la Amazonia."
+  - "La pista casi definitiva es un cham\xE1n recorre r\xEDos en im\xE1genes en blanco
+    y negro mientras desaparece su cultura."

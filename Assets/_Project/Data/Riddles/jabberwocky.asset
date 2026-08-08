@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jabberwocky
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jabberwocky
+  category: peliculas
+  difficulty: 1
+  answer: Jabberwocky
+  acceptedAnswers:
+  - Jabberwocky
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1970 dura cerca de 105 minutos."
+  - "Su combinaci\xF3n de g\xE9neros incluye fantas\xEDa y comedia; la producci\xF3n
+    se vincula con Reino Unido."
+  - "Detr\xE1s de la c\xE1mara estuvo Terry Gilliam."
+  - En el reparto, Michael Palin da vida a Dennis Cooper y Harry H. Corbett a Squire.
+  - "El reparto incluye a Michael Palin como Dennis Cooper, Harry H. Corbett como
+    Squire y John Le Mesurier como Passelewe bajo la direcci\xF3n de Terry Gilliam."

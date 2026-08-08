@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bon_jovi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bon_jovi
+  category: bandas musicales
+  difficulty: 0
+  answer: Bon Jovi
+  acceptedAnswers:
+  - Bon Jovi
+  hints:
+  - "Surgi\xF3 en Estados Unidos y alcanz\xF3 especial relevancia desde la d\xE9cada
+    de 1980."
+  - La propuesta sonora combina rock y glam metal.
+  - Entre sus integrantes o figuras centrales estuvieron el cantante Jon, Richie
+    Sambora, David Bryan y Tico Torres.
+  - "Una obra decisiva de su cat\xE1logo es Slippery When Wet."
+  - La pista casi definitiva es Livin' on a Prayer, You Give Love a Bad Name y himnos
+    de estadio.

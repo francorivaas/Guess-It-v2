@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: catch_me_if_you_can
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: catch_me_if_you_can
+  category: peliculas
+  difficulty: 1
+  answer: "Atr\xE1pame si puedes"
+  acceptedAnswers:
+  - "Atr\xE1pame si puedes"
+  - Atrapame si puedes
+  - catch me if you can
+  hints:
+  - "Dentro del cine de Estados Unidos, apareci\xF3 en 2002 con una propuesta de
+    crimen y comedia dram\xE1tica."
+  - "En la silla de direcci\xF3n estuvo Steven Spielberg."
+  - "Sus nombres m\xE1s ligados al relato son Frank Abagnale Jr., Carl Hanratty y
+    Frank Sr.."
+  - "La acci\xF3n avanza mientras un joven falsificador adopta profesiones falsas
+    mientras un agente lo persigue."
+  - "Su elemento m\xE1s revelador es cheques, uniformes de piloto y una persecuci\xF3n
+    del FBI definen el caso."

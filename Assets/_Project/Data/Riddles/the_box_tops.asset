@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_box_tops
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_box_tops
+  category: bandas musicales
+  difficulty: 0
+  answer: The Box Tops
+  acceptedAnswers:
+  - The Box Tops
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABI'm Your Puppet\xBB, de 1967, y llega
+    hasta 1969."
+  - "\xABNeon Rainbow - Remastered\xBB presenta una energ\xEDa media y un pulso cercano
+    a 117 BPM."
+  - "Entre sus grabaciones figuran \xABWhiter Shade of Pale\xBB y \xABChoo Choo Train\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABCry Like a Baby\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABThe Letter\xBB y \xABSoul Deep\xBB."

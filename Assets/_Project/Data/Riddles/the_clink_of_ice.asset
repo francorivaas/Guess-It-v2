@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_clink_of_ice
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_clink_of_ice
+  category: peliculas
+  difficulty: 1
+  answer: The Clink of Ice
+  acceptedAnswers:
+  - The Clink of Ice
+  - "Le Bruit des gla\xE7ons"
+  - le bruit des glacons
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2010 y su duraci\xF3n ronda los 87 minutos."
+  - Mezcla comedia y drama y fue producida en Francia.
+  - "La direcci\xF3n estuvo a cargo de Bertrand Blier."
+  - En el reparto, Jean Dujardin da vida a Charles Faulque y Albert Dupontel a Le
+    cancer de Charles.
+  - "El reparto incluye a Jean Dujardin como Charles Faulque, Albert Dupontel como
+    Le cancer de Charles y Anne Alvaro como Louisa bajo la direcci\xF3n de Bertrand
+    Blier."

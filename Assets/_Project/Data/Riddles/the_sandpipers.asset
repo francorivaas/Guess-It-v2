@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_sandpipers
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_sandpipers
+  category: bandas musicales
+  difficulty: 0
+  answer: The Sandpipers
+  acceptedAnswers:
+  - The Sandpipers
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABCast Your Fate To The Wind\xBB, de 1966,
+    y llega hasta 1970."
+  - "\xABThings We Said Today\xBB presenta una energ\xEDa suave y un pulso cercano
+    a 137 BPM."
+  - "Entre sus grabaciones figuran \xABThe French Song\xBB y \xABSoftly As I Leave
+    You\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABCome Saturday Morning\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABGuantanamera\xBB y \xABLouie, Louie\xBB."

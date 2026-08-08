@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: john_briley
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: john_briley
+  category: personas
+  difficulty: 0
+  answer: John Briley
+  acceptedAnswers:
+  - John Briley
+  hints:
+  - "Es una figura del cine cuya actividad registrada se extiende entre 1982 y 1987
+    y toca principalmente biograf\xEDa y aventura."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABTai-Pan\xBB, vinculada a Reino
+    Unido y Estados Unidos."
+  - "La asociaci\xF3n con \xABTai-Pan\xBB se completa con otro cr\xE9dito en \xABCry
+    Freedom\xBB."
+  - "Dos referencias fuertes de su carrera son \xABGandhi\xBB y \xABCry Freedom\xBB."
+  - "Profesional del cine relacionado con \xABGandhi\xBB, \xABCry Freedom\xBB y \xABTai-Pan\xBB
+    en tareas de guion."

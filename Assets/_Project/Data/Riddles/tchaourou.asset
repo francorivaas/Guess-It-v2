@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tchaourou
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tchaourou
+  category: lugares
+  difficulty: 1
+  answer: Tchaourou
+  acceptedAnswers:
+  - Tchaourou
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 2,60\xB0 este."
+  - "Re\xFAne cerca de 221.100 habitantes en la divisi\xF3n administrativa de Borgou."
+  - "Administrativamente pertenece a Borgou. No es la capital nacional de Ben\xEDn."
+  - "Pertenece a Ben\xEDn y forma parte de Borgou; supera aproximadamente los 221.100
+    habitantes."
+  - "En Ben\xEDn, dentro de Borgou, esta ciudad de unos 221 mil est\xE1 cerca de
+    8,9\xB0 norte y 2,6\xB0 este."

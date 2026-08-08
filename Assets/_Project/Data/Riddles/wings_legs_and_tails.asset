@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: wings_legs_and_tails
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: wings_legs_and_tails
+  category: peliculas
+  difficulty: 1
+  answer: Wings, Legs and Tails
+  acceptedAnswers:
+  - Wings, Legs and Tails
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1980 dura cerca de 4 minutos."
+  - "Entre sus compa\xF1\xEDas figura Ekran; sus g\xE9neros principales son comedia
+    y animaci\xF3n."
+  - "Detr\xE1s de la c\xE1mara estuvo Igor Kovalyov."
+  - Dos personajes centrales son Narrator (voice), interpretado por Aleksandr Filippenko,
+    y Ostrich / Vulture / Lizard (voice), a cargo de Aleksey Ptitsyn.
+  - "Igor Kovalyov dirige a Aleksandr Filippenko y Aleksey Ptitsyn en esta pel\xEDcula
+    estrenada en 1986."

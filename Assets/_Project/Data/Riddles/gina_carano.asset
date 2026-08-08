@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gina_carano
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gina_carano
+  category: personas
+  difficulty: 0
+  answer: Gina Carano
+  acceptedAnswers:
+  - Gina Carano
+  hints:
+  - "En Kickboxer: Vengeance interpret\xF3 a Promoter, en una pel\xEDcula estrenada
+    en 2016."
+  - "Su carrera en cine abarca de 2011 a 2016 y recorre acci\xF3n y aventura. Entre
+    sus pel\xEDculas figura Kickboxer: Vengeance."
+  - "Comparti\xF3 reparto con Jeffrey Dean Morgan en Heist."
+  - "En Haywire interpret\xF3 a Mallory Kane."
+  - Aparece en Deadpool y Heist.

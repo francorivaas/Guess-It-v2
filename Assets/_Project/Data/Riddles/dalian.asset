@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dalian
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dalian
+  category: lugares
+  difficulty: 0
+  answer: Dalian
+  acceptedAnswers:
+  - Dalian
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 38,90 grados del ecuador."
+  - Su escala urbana ronda los 5,9 millones de habitantes y se integra en Liaoning.
+  - "No es la capital nacional de China. Su longitud geogr\xE1fica ronda los 121,60\xB0
+    este."
+  - "Esta ciudad de China est\xE1 en Liaoning y se sit\xFAa a 38,9\xB0 norte."
+  - "En China, dentro de Liaoning, esta ciudad de unos 5,9 millones est\xE1 cerca
+    de 38,9\xB0 norte y 121,6\xB0 este."

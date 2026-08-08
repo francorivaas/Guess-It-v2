@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dana_carvey
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dana_carvey
+  category: personas
+  difficulty: 1
+  answer: Dana Carvey
+  acceptedAnswers:
+  - Dana Carvey
+  hints:
+  - "En The Master of Disguise interpret\xF3 a Pistachio Disguisey, en una pel\xEDcula
+    estrenada en 2002."
+  - "Su carrera en cine abarca de 1992 a 2016 y recorre animaci\xF3n y cine familiar."
+  - "Comparti\xF3 reparto con Adam Sandler en Jack and Jill. Otro cr\xE9dito es Wayne's
+    World."
+  - "En Hotel Transylvania 2 interpret\xF3 a Dana (voice)."
+  - Aparece en The Secret Life of Pets y Wayne's World.

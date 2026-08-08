@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: shruti_pathak
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: shruti_pathak
+  category: bandas musicales
+  difficulty: 0
+  answer: Shruti Pathak
+  acceptedAnswers:
+  - Shruti Pathak
+  hints:
+  - "La huella musical se mueve por pop cinematogr\xE1fico y folk y presenta un equilibrio
+    entre energ\xEDa, ritmo y melod\xEDa."
+  - "El cat\xE1logo incluye el \xE1lbum \xABAnjaana Anjaani\xBB."
+  - Entre sus colaboraciones registradas figuran Divya Kumar y Mohit Chauhan.
+  - "Dos canciones muy \xFAtiles para reconocerlo son \xABTujhe Bhula Diya\xBB y
+    \xABShubhaarambh\xBB."
+  - "Artista o grupo detr\xE1s de \xABTujhe Bhula Diya\xBB, \xABShubhaarambh\xBB
+    y \xABCriminal\xBB."

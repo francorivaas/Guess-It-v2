@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: d_e_r
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: d_e_r
+  category: bandas musicales
+  difficulty: 0
+  answer: D.E.R.
+  acceptedAnswers:
+  - D.E.R.
+  hints:
+  - "Es un proyecto de grindcore nacido en Brasil en la d\xE9cada de 1990."
+  - "Comenz\xF3 en 1997 desde S\xE3o Paulo, S\xE3o Paulo, con una trayectoria clasificada
+    como activa."
+  - "Combina un origen en S\xE3o Paulo, S\xE3o Paulo, Brasil, con una propuesta de
+    grindcore."
+  - "Trabaja con Cospe Fogo Produ\xE7\xF5es y mantiene actividad registrada desde
+    1997 hasta el presente."
+  - "Proyecto de grindcore nacido en 1997 en S\xE3o Paulo, S\xE3o Paulo, Brasil;
+    aparece vinculada a Cospe Fogo Produ\xE7\xF5es."

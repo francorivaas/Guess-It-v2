@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: alfred_hitchcock
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: alfred_hitchcock
+  category: personas
+  difficulty: 0
+  answer: Alfred Hitchcock
+  acceptedAnswers:
+  - Alfred Hitchcock
+  hints:
+  - "Su etapa de mayor influencia se sit\xFAa a mediados del siglo XX."
+  - "Naci\xF3 en Reino Unido y Estados Unidos y orient\xF3 su trabajo hacia direcci\xF3n
+    cinematogr\xE1fica."
+  - "Su carrera cambi\xF3 de escala gracias a convertirse en referente del suspenso
+    psicol\xF3gico."
+  - "Otra referencia clave para reconocerlo es Psicosis, V\xE9rtigo y apariciones
+    breves en sus propias pel\xEDculas."
+  - "Su legado combina convertirse en referente del suspenso psicol\xF3gico con Psicosis,
+    V\xE9rtigo y apariciones breves en sus propias pel\xEDculas."

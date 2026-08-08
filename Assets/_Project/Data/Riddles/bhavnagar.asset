@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bhavnagar
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bhavnagar
+  category: lugares
+  difficulty: 0
+  answer: "Bh\u0101vnagar"
+  acceptedAnswers:
+  - "Bh\u0101vnagar"
+  - bhavnagar
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 72,15\xB0 este."
+  - "Su escala urbana ronda los 643 mil de habitantes y se integra en Gujar\u0101t."
+  - "No es la capital nacional de India. Su longitud geogr\xE1fica ronda los 72,15\xB0
+    este."
+  - "Esta ciudad de India est\xE1 en Gujar\u0101t y se sit\xFAa a 21,8\xB0 norte."
+  - "Es una ciudad de India, en Gujar\u0101t, situada aproximadamente en 21,8\xB0
+    norte y 72,2\xB0 este."

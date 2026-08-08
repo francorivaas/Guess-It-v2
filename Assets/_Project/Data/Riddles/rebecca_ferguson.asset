@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rebecca_ferguson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rebecca_ferguson
+  category: personas
+  difficulty: 2
+  answer: Rebecca Ferguson
+  acceptedAnswers:
+  - Rebecca Ferguson
+  hints:
+  - "En Florence Foster Jenkins interpret\xF3 a Kathleen, en una pel\xEDcula estrenada
+    en 2016."
+  - "Su carrera en cine abarca de 2014 a 2016 y recorre acci\xF3n y aventura. Entre
+    sus pel\xEDculas figura Florence Foster Jenkins."
+  - "Comparti\xF3 reparto con Dwayne Johnson en Hercules. Otro cr\xE9dito es Florence
+    Foster Jenkins."
+  - "En Hercules interpret\xF3 a Ergenia."
+  - 'Aparece en Mission: Impossible - Rogue Nation y Florence Foster Jenkins.'

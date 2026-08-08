@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kiti_manver
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kiti_manver
+  category: personas
+  difficulty: 0
+  answer: "Kiti M\xE1nver"
+  acceptedAnswers:
+  - "Kiti M\xE1nver"
+  - kiti manver
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1980 y 2009 y recorren g\xE9neros
+    como drama, comedia y romance."
+  - "Form\xF3 parte del elenco de \xABBroken Embraces\xBB, una pel\xEDcula de 2009
+    dirigida por Pedro Almod\xF3var."
+  - "Dio vida a Paulina Morales en \xABWomen on the Verge of a Nervous Breakdown\xBB."
+  - "En \xABTake My Eyes\xBB interpret\xF3 a Rosa."
+  - "Sus papeles incluyen a Rosa en \xABTake My Eyes\xBB y a Manuela en \xABThe Flower
+    of My Secret\xBB."

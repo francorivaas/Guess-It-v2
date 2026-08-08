@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: iron_monkey
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: iron_monkey
+  category: peliculas
+  difficulty: 1
+  answer: Iron Monkey
+  acceptedAnswers:
+  - Iron Monkey
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Hong Kong; combina acci\xF3n y una fecha
+    de estreno dentro de los a\xF1os 1990. La direcci\xF3n est\xE1 acreditada a Woo-Ping
+    Yuen."
+  - "Su duraci\xF3n ronda los 85 minutos; la clasificaci\xF3n registrada es PG-13.
+    Entre sus int\xE9rpretes figura Rongguang Yu."
+  - "Se estren\xF3 en 1993 y estuvo asociada a la compa\xF1\xEDa Film Workshop."
+  - "La dirigi\xF3 Woo-Ping Yuen y su figura principal es Rongguang Yu."
+  - "Pel\xEDcula de 1993 dirigida por Woo-Ping Yuen, con Rongguang Yu en el reparto,
+    con guion de Tan Cheung."

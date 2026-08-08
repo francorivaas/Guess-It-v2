@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_devil_s_backbone
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_devil_s_backbone
+  category: peliculas
+  difficulty: 0
+  answer: The Devil's Backbone
+  acceptedAnswers:
+  - The Devil's Backbone
+  - El espinazo del diablo
+  hints:
+  - "Fue filmada originalmente en espa\xF1ol y lleg\xF3 a los cines en 2001."
+  - "Producciones Anhelo particip\xF3 en una pel\xEDcula de fantas\xEDa, drama y
+    terror producida en Espa\xF1a y M\xE9xico."
+  - "Guillermo del Toro firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Eduardo Noriega da vida a Jacinto y Federico Luppi a Casares.
+  - "El reparto incluye a Eduardo Noriega como Jacinto, Federico Luppi como Casares
+    y Marisa Paredes como Carmen bajo la direcci\xF3n de Guillermo del Toro."

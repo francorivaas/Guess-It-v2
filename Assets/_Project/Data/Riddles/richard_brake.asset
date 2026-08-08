@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: richard_brake
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: richard_brake
+  category: personas
+  difficulty: 1
+  answer: Richard Brake
+  acceptedAnswers:
+  - Richard Brake
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1994 y 2017 y recorren g\xE9neros
+    como terror, acci\xF3n y suspenso."
+  - "Uno de sus trabajos fue \xABDoom\xBB (2005), bajo la direcci\xF3n de Andrzej
+    Bartkowiak."
+  - "En \xAB31\xBB interpret\xF3 a Doom-Head."
+  - "En \xABDeath Machine\xBB interpret\xF3 a Scott Ridley."
+  - "Sus papeles incluyen a Scott Ridley en \xABDeath Machine\xBB y a Medved en \xABBitter
+    Harvest\xBB."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bruce_robinson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bruce_robinson
+  category: personas
+  difficulty: 0
+  answer: Bruce Robinson
+  acceptedAnswers:
+  - Bruce Robinson
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 1984 y 2011, con presencia
+    frecuente en comedia y drama."
+  - "La pel\xEDcula \xABTHE RUM DIARY\xBB forma parte de una carrera conectada con
+    Reino Unido y Estados Unidos."
+  - "Su nombre figura en los cr\xE9ditos de \xABWithnail & I\xBB junto con \xABThe
+    Killing Fields\xBB."
+  - "Dos referencias fuertes de su carrera son \xABThe Rum Diary\xBB y \xABThe Killing
+    Fields\xBB."
+  - "Profesional del cine relacionado con \xABThe Rum Diary\xBB, \xABThe Killing
+    Fields\xBB y \xABWithnail & I\xBB en tareas de guion y direcci\xF3n."

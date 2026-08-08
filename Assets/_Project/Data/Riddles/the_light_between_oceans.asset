@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_light_between_oceans
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_light_between_oceans
+  category: peliculas
+  difficulty: 0
+  answer: The Light Between Oceans
+  acceptedAnswers:
+  - The Light Between Oceans
+  - Light Between Oceans
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Reino Unido, estrenada en los
+    a\xF1os 2010 y clasificada como drama. La direcci\xF3n est\xE1 acreditada a Derek
+    Cianfrance."
+  - "El montaje final se extiende unos 133 minutos y aparece catalogado con la se\xF1al
+    PG-13. Entre sus int\xE9rpretes figura Michael Fassbender."
+  - "El a\xF1o 2016 y el sello Heyday Films forman parte de sus datos de producci\xF3n."
+  - "La dirigi\xF3 Derek Cianfrance y su figura principal es Michael Fassbender."
+  - Cinta de Reino Unido lanzada en 2016, dirigida por Derek Cianfrance y encabezada
+    por Michael Fassbender, con guion de Derek Cianfrance.

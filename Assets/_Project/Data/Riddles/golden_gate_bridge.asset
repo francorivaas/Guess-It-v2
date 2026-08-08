@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: golden_gate_bridge
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: golden_gate_bridge
+  category: lugares
+  difficulty: 0
+  answer: Puente Golden Gate
+  acceptedAnswers:
+  - Puente Golden Gate
+  - golden gate bridge
+  hints:
+  - "La niebla y las fuertes corrientes complicaron su construcci\xF3n."
+  - Es un puente colgante pintado en un tono llamado naranja internacional.
+  - Conecta San Francisco con el condado de Marin.
+  - "Cruza la entrada de una gran bah\xEDa californiana."
+  - "Es el puente rojo que aparece como s\xEDmbolo de San Francisco."

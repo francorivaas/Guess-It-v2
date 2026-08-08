@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: crawl
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: crawl
+  category: peliculas
+  difficulty: 0
+  answer: Crawl
+  acceptedAnswers:
+  - Crawl
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 2010 y clasificada como acci\xF3n. La direcci\xF3n est\xE1 acreditada
+    a Alexandre Aja."
+  - "Su duraci\xF3n ronda los 87 minutos; la clasificaci\xF3n registrada es R."
+  - "La producci\xF3n lleg\xF3 en 2019 bajo la participaci\xF3n de Paramount Pictures.
+    Entre sus int\xE9rpretes figura Kaya Scodelario."
+  - "Alexandre Aja estuvo a cargo de la direcci\xF3n, con Kaya Scodelario al frente
+    del elenco."
+  - "Pel\xEDcula de 2019 dirigida por Alexandre Aja, con Kaya Scodelario en el reparto,
+    con guion de Michael Rasmussen."

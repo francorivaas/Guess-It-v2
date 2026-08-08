@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: our_man_in_havana
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: our_man_in_havana
+  category: peliculas
+  difficulty: 1
+  answer: Our Man in Havana
+  acceptedAnswers:
+  - Our Man in Havana
+  hints:
+  - "Fue filmada originalmente en ingl\xE9s y lleg\xF3 a los cines en 1959."
+  - "Mezcla drama, acci\xF3n y comedia y fue producida en Reino Unido y Estados Unidos."
+  - El realizador principal fue Carol Reed.
+  - En el reparto, Alec Guinness da vida a Jim Wormold y Burl Ives a Dr. Hasselbacher.
+  - "Carol Reed dirige a Alec Guinness como Jim Wormold, Burl Ives como Dr. Hasselbacher
+    y Maureen O'Hara como Beatrice Severn en esta pel\xEDcula de 1959."

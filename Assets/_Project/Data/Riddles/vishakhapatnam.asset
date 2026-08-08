@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: vishakhapatnam
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: vishakhapatnam
+  category: lugares
+  difficulty: 0
+  answer: "Vish\u0101khapatnam"
+  acceptedAnswers:
+  - "Vish\u0101khapatnam"
+  - vishakhapatnam
+  hints:
+  - "Se ubica al norte del ecuador y al este de Greenwich, cerca de 17,70\xB0 de
+    latitud."
+  - "Re\xFAne cerca de 2.035.900 habitantes en la divisi\xF3n administrativa de Andhra
+    Pradesh."
+  - "No es la capital nacional de India. Se halla aproximadamente a 17,7\xB0 norte."
+  - "Esta ciudad de India est\xE1 en Andhra Pradesh y se sit\xFAa a 17,7\xB0 norte."
+  - "En India, dentro de Andhra Pradesh, esta ciudad de unos 2 millones est\xE1 cerca
+    de 17,7\xB0 norte y 83,3\xB0 este."

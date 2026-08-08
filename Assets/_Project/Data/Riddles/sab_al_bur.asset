@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sab_al_bur
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sab_al_bur
+  category: lugares
+  difficulty: 1
+  answer: "Sab\u2018 al B\u016Br"
+  acceptedAnswers:
+  - "Sab\u2018 al B\u016Br"
+  - "sab\u2018 al bur"
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 44,15\xB0 este."
+  - "Re\xFAne cerca de 254.000 habitantes en la divisi\xF3n administrativa de Baghd\u0101d."
+  - "Administrativamente pertenece a Baghd\u0101d. No es la capital nacional de Irak."
+  - "Se encuentra en Irak, dentro de Baghd\u0101d, con una poblaci\xF3n cercana a
+    254 mil."
+  - "Es una ciudad de Irak, en Baghd\u0101d, situada aproximadamente en 33,5\xB0
+    norte y 44,2\xB0 este."

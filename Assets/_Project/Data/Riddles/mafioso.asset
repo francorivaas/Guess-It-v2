@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mafioso
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mafioso
+  category: peliculas
+  difficulty: 2
+  answer: Mafioso
+  acceptedAnswers:
+  - Mafioso
+  hints:
+  - "Combina un estreno de 1962 con di\xE1logos originalmente en ingl\xE9s."
+  - "Entre sus compa\xF1\xEDas figura Dino de Laurentiis Cinematografica; sus g\xE9neros
+    principales son drama, acci\xF3n y comedia."
+  - "Detr\xE1s de la c\xE1mara estuvo Alberto Lattuada."
+  - Dos personajes centrales son Antonio Badalamenti, interpretado por Alberto Sordi,
+    y Marta, a cargo de Norma Bengell.
+  - "Alberto Lattuada dirige a Alberto Sordi como Antonio Badalamenti, Norma Bengell
+    como Marta y Carmelo Oliviero como Don Liborio en esta pel\xEDcula de 1962."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: valentin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: valentin
+  category: peliculas
+  difficulty: 1
+  answer: Valentin
+  acceptedAnswers:
+  - Valentin
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2000 dura cerca de 82 minutos."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama, comedia y romance; la producci\xF3n
+    se vincula con Argentina."
+  - "Alejandro Agresti la dirigi\xF3 con First Floor Features (co-production) entre
+    las compa\xF1\xEDas productoras."
+  - Rodrigo Noya y Carmen Maura encabezan el reparto.
+  - "Alejandro Agresti dirige a Rodrigo Noya, Carmen Maura como Abuela y Julieta
+    Cardinali como Leticia en esta pel\xEDcula de 2003."

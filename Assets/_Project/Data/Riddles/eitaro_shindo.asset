@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: eitaro_shindo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: eitaro_shindo
+  category: personas
+  difficulty: 0
+  answer: "Eitar\xF4 Shind\xF4"
+  acceptedAnswers:
+  - "Eitar\xF4 Shind\xF4"
+  - eitaro shindo
+  hints:
+  - "Trabaj\xF3 en producciones de drama, romance y historia a lo largo del per\xEDodo
+    entre 1936 y 1956."
+  - "Particip\xF3 en \xABSansho the Bailiff\xBB, dirigida por Kenji Mizoguchi y estrenada
+    en 1954."
+  - "Dio vida a Takahama en \xABDrunken Angel\xBB."
+  - "Dio vida a Kahe Sasaya en \xABThe Life of Oharu\xBB."
+  - "Es la persona que encarn\xF3 a Kahe Sasaya en \xABThe Life of Oharu\xBB y a
+    Kuraz\xF4 Taya en \xABStreet of Shame\xBB."

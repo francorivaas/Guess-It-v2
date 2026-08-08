@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: thani_oruvan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: thani_oruvan
+  category: peliculas
+  difficulty: 1
+  answer: Thani Oruvan
+  acceptedAnswers:
+  - Thani Oruvan
+  hints:
+  - "Su metraje se acerca a 159 minutos y corresponde al a\xF1o 2015."
+  - "Entre sus compa\xF1\xEDas figura AGS Entertainment; sus g\xE9neros principales
+    son romance, suspenso y acci\xF3n."
+  - "M. Raja firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Jayam Ravi da vida a Mithran IPS y Arvind Swamy a Dr. Siddharth
+    Abhimanyu.
+  - En esta cinta de 2015 coinciden Jayam Ravi como Mithran IPS, Arvind Swamy como
+    Dr. Siddharth Abhimanyu y Nayanthara como Mahima.

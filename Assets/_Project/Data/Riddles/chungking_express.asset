@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chungking_express
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chungking_express
+  category: peliculas
+  difficulty: 0
+  answer: Chungking Express
+  acceptedAnswers:
+  - Chungking Express
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Hong Kong; combina comedia y una fecha
+    de estreno dentro de los a\xF1os 1990."
+  - "Su duraci\xF3n ronda los 102 minutos; la clasificaci\xF3n registrada es PG-13.
+    La direcci\xF3n est\xE1 acreditada a Kar-Wai Wong."
+  - "Se estren\xF3 en 1994 y estuvo asociada a la compa\xF1\xEDa Jet Tone Production.
+    Entre sus int\xE9rpretes figura Brigitte Lin."
+  - "Kar-Wai Wong estuvo a cargo de la direcci\xF3n, con Brigitte Lin al frente del
+    elenco."
+  - Cinta de Hong Kong lanzada en 1994, dirigida por Kar-Wai Wong y encabezada por
+    Brigitte Lin, con guion de Kar-Wai Wong.

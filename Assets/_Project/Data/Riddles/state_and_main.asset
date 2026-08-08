@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: state_and_main
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: state_and_main
+  category: peliculas
+  difficulty: 1
+  answer: State and Main
+  acceptedAnswers:
+  - State and Main
+  hints:
+  - "Es una producci\xF3n de 2000 con una duraci\xF3n aproximada de 102 minutos."
+  - "Fine Line Features particip\xF3 en una pel\xEDcula de comedia y drama producida
+    en Francia y Estados Unidos."
+  - "David Mamet firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Alec Baldwin da vida a Bob Berrenger y Philip Seymour Hoffman
+    a Joseph Turner White.
+  - "David Mamet dirige a Alec Baldwin como Bob Berrenger, Philip Seymour Hoffman
+    como Joseph Turner White y William H. Macy como Walt Price en esta pel\xEDcula
+    de 2000."

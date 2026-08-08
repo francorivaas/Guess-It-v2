@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: murder_at_the_gallop
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: murder_at_the_gallop
+  category: peliculas
+  difficulty: 1
+  answer: Murder at the Gallop
+  acceptedAnswers:
+  - Murder at the Gallop
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1960 y su duraci\xF3n ronda los 81 minutos."
+  - "Se encuadra en drama, suspenso y crimen y tiene origen de producci\xF3n en Reino
+    Unido."
+  - "La direcci\xF3n estuvo a cargo de George Pollock."
+  - En el reparto, Margaret Rutherford da vida a Miss Jane Marple y Stringer Davis
+    a Mr. Stringer.
+  - En esta cinta de 1963 coinciden Margaret Rutherford como Miss Jane Marple, Stringer
+    Davis como Mr. Stringer y Robert Morley como Hector Enderby.

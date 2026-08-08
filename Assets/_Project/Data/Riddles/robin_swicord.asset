@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: robin_swicord
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: robin_swicord
+  category: personas
+  difficulty: 0
+  answer: Robin Swicord
+  acceptedAnswers:
+  - Robin Swicord
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 2005 y 2016, con presencia
+    frecuente en comedia y drama. Su filmograf\xEDa registrada re\xFAne 3 t\xEDtulos
+    distintos."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABWakefield\xBB, vinculada a Estados
+    Unidos y Francia."
+  - "La asociaci\xF3n con \xABWakefield\xBB se completa con otro cr\xE9dito en \xABThe
+    Jane Austen Book Club\xBB."
+  - "La filmograf\xEDa apunta con claridad a \xABMemoirs of a Geisha\xBB y \xABThe
+    Jane Austen Book Club\xBB."
+  - "Profesional del cine relacionado con \xABMemoirs of a Geisha\xBB, \xABThe Jane
+    Austen Book Club\xBB y \xABWakefield\xBB en tareas de direcci\xF3n y guion."

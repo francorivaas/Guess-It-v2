@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dan_shay
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dan_shay
+  category: bandas musicales
+  difficulty: 0
+  answer: Dan + Shay
+  acceptedAnswers:
+  - Dan + Shay
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABNothin' Like You\xBB, de 2014, y llega
+    hasta 2019."
+  - "Se mueve dentro de country; \xABFrom the Ground Up\xBB refleja una energ\xEDa
+    media y un pulso cercano a 123 BPM."
+  - "Entre sus grabaciones figuran \xABAll To Myself\xBB y \xAB10,000 Hours (with
+    Justin Bieber) - Piano\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABSpeechless\xBB."
+  - "Es el proyecto musical detr\xE1s de \xAB10,000 Hours (with Justin Bieber)\xBB
+    y \xABTequila\xBB."

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: john_finn
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: john_finn
+  category: personas
+  difficulty: 2
+  answer: John Finn
+  acceptedAnswers:
+  - John Finn
+  hints:
+  - "En Turbulence interpret\xF3 a FBI Agent Frank Sinclair, en una pel\xEDcula estrenada
+    en 1997."
+  - Su carrera en cine abarca de 1989 a 2003 y recorre drama y crimen.
+  - "Comparti\xF3 reparto con Tommy Lee Jones en The Hunted."
+  - "En Glory interpret\xF3 a Sgt. Maj. Mulcahy."
+  - Aparece en Catch Me If You Can y The Hunted.

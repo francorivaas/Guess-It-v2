@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pigsty
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pigsty
+  category: peliculas
+  difficulty: 1
+  answer: Pigsty
+  acceptedAnswers:
+  - Pigsty
+  - Porcile
+  hints:
+  - "Combina un estreno de 1969 con di\xE1logos originalmente en italiano."
+  - "El relato pertenece a drama, con participaci\xF3n productiva de Francia y Italia."
+  - "Pier Paolo Pasolini firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - "En el reparto, Pierre Cl\xE9menti da vida a jeune cannibale (1er \xE9pisode)
+    y Jean-Pierre L\xE9aud a Julian Klotz (2\xE8 \xE9pisode)."
+  - "Pier Paolo Pasolini dirige a Pierre Cl\xE9menti como jeune cannibale (1er \xE9pisode),
+    Jean-Pierre L\xE9aud como Julian Klotz (2\xE8 \xE9pisode) y Alberto Lionello
+    como Mr. Klotz (2\xE8 \xE9pisode) en esta pel\xEDcula de 1969."

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sharon_conley
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sharon_conley
+  category: personas
+  difficulty: 2
+  answer: Sharon Conley
+  acceptedAnswers:
+  - Sharon Conley
+  hints:
+  - "En The Secret Life of Bees interpret\xF3 a Violet, en una pel\xEDcula estrenada
+    en 2008."
+  - Su carrera en cine abarca de 2008 a 2012 y recorre comedia y drama.
+  - "Comparti\xF3 reparto con Zac Efron en The Lucky One."
+  - "En The Blind Side interpret\xF3 a Investigator Granger."
+  - Aparece en Due Date y The Lucky One.

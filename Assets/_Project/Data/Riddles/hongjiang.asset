@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: hongjiang
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: hongjiang
+  category: lugares
+  difficulty: 0
+  answer: Hongjiang
+  acceptedAnswers:
+  - Hongjiang
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 27,19 grados del ecuador."
+  - "Es un n\xFAcleo urbano de alrededor de 498 mil de habitantes dentro de Hunan."
+  - "No es la capital nacional de China. Su longitud geogr\xE1fica ronda los 109,82\xB0
+    este."
+  - "Esta ciudad de China est\xE1 en Hunan y se sit\xFAa a 27,2\xB0 norte."
+  - "En China, dentro de Hunan, esta ciudad de unos 498 mil est\xE1 cerca de 27,2\xB0
+    norte y 109,8\xB0 este."

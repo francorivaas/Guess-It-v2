@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: carlo_cecchi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: carlo_cecchi
+  category: personas
+  difficulty: 1
+  answer: Carlo Cecchi
+  acceptedAnswers:
+  - Carlo Cecchi
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1993 y 2013, con presencia frecuente
+    en drama, suspenso y misterio."
+  - "Form\xF3 parte del elenco de \xABThe Red Violin\xBB, una pel\xEDcula de 1998
+    dirigida por Fran\xE7ois Girard."
+  - "Dio vida a Giuseppe en \xABThe Horseman on the Roof\xBB."
+  - "Dio vida a Oscar en \xABSteam: The Turkish Bath\xBB."
+  - "Interpret\xF3 a Oscar en \xABSteam: The Turkish Bath\xBB y a Signor Grimaldi
+    en \xABHoney\xBB."

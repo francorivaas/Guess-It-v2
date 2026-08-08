@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: happy_new_year
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: happy_new_year
+  category: peliculas
+  difficulty: 1
+  answer: Happy New Year
+  acceptedAnswers:
+  - Happy New Year
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2010 dura cerca de 180 minutos."
+  - "Entre sus compa\xF1\xEDas figura Yash Raj Films; sus g\xE9neros principales
+    son acci\xF3n, comedia y crimen."
+  - "Detr\xE1s de la c\xE1mara estuvo Farah Khan."
+  - Dos personajes centrales son Charlie, interpretado por Shah Rukh Khan, y Mohini,
+    a cargo de Deepika Padukone.
+  - En esta cinta de 2014 coinciden Shah Rukh Khan como Charlie, Deepika Padukone
+    como Mohini y Abhishek Bachchan como Nandu Bhide.

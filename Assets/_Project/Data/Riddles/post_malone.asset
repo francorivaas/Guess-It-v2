@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: post_malone
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: post_malone
+  category: bandas musicales
+  difficulty: 1
+  answer: Post Malone
+  acceptedAnswers:
+  - Post Malone
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABGo Flex\xBB, de 2016, y llega hasta 2019."
+  - "\xABPsycho (feat. Ty Dolla $ign)\xBB presenta una energ\xEDa media y un pulso
+    cercano a 134 BPM."
+  - "Entre sus grabaciones figuran \xABCongratulations\xBB y \xABI Fall Apart\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABSunflower - Spider-Man: Into the Spider-Verse\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABrockstar (feat. 21 Savage)\xBB y \xABBetter
+    Now\xBB."

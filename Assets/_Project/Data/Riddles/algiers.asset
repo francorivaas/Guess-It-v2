@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: algiers
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: algiers
+  category: lugares
+  difficulty: 0
+  answer: Algiers
+  acceptedAnswers:
+  - Algiers
+  hints:
+  - "Est\xE1 a unos 36,8 grados al norte del ecuador y 3,1 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 3,4 millones de habitantes."
+  - "Se ubica a unos 520 kil\xF3metros al sureste de Barcelona."
+  - "Est\xE1 en Argelia y ocupa el puesto 1 por poblaci\xF3n dentro del pa\xEDs."
+  - Es la capital nacional de Argelia.

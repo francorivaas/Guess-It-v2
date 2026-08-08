@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: takashi_miike
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: takashi_miike
+  category: personas
+  difficulty: 0
+  answer: Takashi Miike
+  acceptedAnswers:
+  - Takashi Miike
+  hints:
+  - "Es una figura del cine cuya actividad registrada se extiende entre 2001 y 2017
+    y toca principalmente acci\xF3n y crimen."
+  - "La pel\xEDcula \xABGozu\xBB forma parte de una carrera conectada con Jap\xF3n."
+  - "La asociaci\xF3n con \xABBlade of the Immortal\xBB se completa con otro cr\xE9dito
+    en \xABIchi the Killer\xBB."
+  - "La filmograf\xEDa apunta con claridad a \xAB13 Assassins\xBB y \xABIchi the
+    Killer\xBB."
+  - "Figura cinematogr\xE1fica asociada mediante direcci\xF3n a \xAB13 Assassins\xBB,
+    \xABIchi the Killer\xBB y \xABBlade of the Immortal\xBB."

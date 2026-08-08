@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: vanessa_redgrave
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: vanessa_redgrave
+  category: personas
+  difficulty: 1
+  answer: Vanessa Redgrave
+  acceptedAnswers:
+  - Vanessa Redgrave
+  hints:
+  - "En Cradle Will Rock interpret\xF3 a Countess Constance La Grave, en una pel\xEDcula
+    estrenada en 1999."
+  - "Su carrera en cine abarca de 1966 a 2013 y recorre aventura y acci\xF3n."
+  - "Comparti\xF3 reparto con Gerard Butler en Coriolanus. Otro cr\xE9dito es Atonement."
+  - "En The Butler interpret\xF3 a Annabeth Westfall."
+  - 'Aparece en Mission: Impossible y Atonement.'

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: vincent_price
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: vincent_price
+  category: personas
+  difficulty: 0
+  answer: Vincent Price
+  acceptedAnswers:
+  - Vincent Price
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1964 y 1983 y recorren g\xE9neros
+    como terror, drama y comedia."
+  - "Form\xF3 parte del elenco de \xABThe Last Man on Earth\xBB, una pel\xEDcula
+    de 1964 dirigida por Ubaldo Ragona."
+  - "Su papel en \xABThe Masque of the Red Death\xBB fue el de Prince Prospero."
+  - "Su papel en \xABWitchfinder General\xBB fue el de Matthew Hopkins."
+  - "Es la persona que encarn\xF3 a Matthew Hopkins en \xABWitchfinder General\xBB
+    y a Edward Lionheart en \xABTheatre of Blood\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: paul_anderson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: paul_anderson
+  category: personas
+  difficulty: 0
+  answer: Paul Anderson
+  acceptedAnswers:
+  - Paul Anderson
+  hints:
+  - "En The Sweeney interpret\xF3 a Francis Allen, en una pel\xEDcula estrenada en
+    2012."
+  - "Su carrera en cine abarca de 2011 a 2015 y recorre w\xE9stern y drama."
+  - "Comparti\xF3 reparto con Tom Hardy en Legend. Otro cr\xE9dito es In the Heart
+    of the Sea."
+  - "En Sherlock Holmes: A Game of Shadows interpret\xF3 a Colonel Sebastian Moran."
+  - Aparece en The Revenant y In the Heart of the Sea.

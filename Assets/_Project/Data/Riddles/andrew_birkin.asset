@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: andrew_birkin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: andrew_birkin
+  category: personas
+  difficulty: 0
+  answer: Andrew Birkin
+  acceptedAnswers:
+  - Andrew Birkin
+  hints:
+  - "Su trabajo se reparte entre aventura y drama a lo largo de un per\xEDodo que
+    va entre 1985 y 2006."
+  - "La pel\xEDcula \xABKing David\xBB forma parte de una carrera conectada con Francia
+    y Reino Unido."
+  - "La asociaci\xF3n con \xABThe Cement Garden\xBB se completa con otro cr\xE9dito
+    en \xABThe Messenger: The Story of Joan of Arc\xBB."
+  - "Dos referencias fuertes de su carrera son \xABPerfume: The Story of a Murderer\xBB
+    y \xABThe Messenger: The Story of Joan of Arc\xBB."
+  - "Profesional del cine relacionado con \xABPerfume: The Story of a Murderer\xBB,
+    \xABThe Messenger: The Story of Joan of Arc\xBB y \xABThe Cement Garden\xBB en
+    tareas de guion y direcci\xF3n."

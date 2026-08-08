@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bamenda
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bamenda
+  category: lugares
+  difficulty: 0
+  answer: Bamenda
+  acceptedAnswers:
+  - Bamenda
+  hints:
+  - "Est\xE1 a unos 5,9 grados al norte del ecuador y 10,2 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 270 mil habitantes. Dentro de su pa\xEDs
+    ocupa el puesto 5 por poblaci\xF3n."
+  - "Se ubica a unos 220 kil\xF3metros al norte de Douala."
+  - "Est\xE1 en Camer\xFAn, donde ocupa el puesto 5 por poblaci\xF3n, y es un centro
+    administrativo regional."
+  - "Es la capital administrativa de North-West, dentro de Camer\xFAn."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: paranoia
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: paranoia
+  category: peliculas
+  difficulty: 1
+  answer: Paranoia
+  acceptedAnswers:
+  - Paranoia
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2010, dentro de drama. La direcci\xF3n est\xE1 acreditada a Robert Luketic."
+  - "Su duraci\xF3n ronda los 106 minutos; la clasificaci\xF3n registrada es PG-13.
+    Entre sus int\xE9rpretes figura Liam Hemsworth."
+  - "El a\xF1o 2013 y el sello Relativity Media forman parte de sus datos de producci\xF3n."
+  - "Robert Luketic estuvo a cargo de la direcci\xF3n, con Liam Hemsworth al frente
+    del elenco."
+  - "Pel\xEDcula de 2013 dirigida por Robert Luketic, con Liam Hemsworth en el reparto,
+    con guion de Jason Hall."

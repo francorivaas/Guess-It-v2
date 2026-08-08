@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: joe_strummer_the_future_is_unwritten
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: joe_strummer_the_future_is_unwritten
+  category: peliculas
+  difficulty: 1
+  answer: 'Joe Strummer: The Future Is Unwritten'
+  acceptedAnswers:
+  - 'Joe Strummer: The Future Is Unwritten'
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2000 dura cerca de 123 minutos."
+  - "Entre sus compa\xF1\xEDas figura Filmfour; sus g\xE9neros principales son m\xFAsica
+    y documental."
+  - El realizador principal fue Julien Temple.
+  - Entre sus protagonistas aparecen Joe Strummer y Mick Jones.
+  - "Julien Temple dirige a Joe Strummer como Himself (archive footage), Mick Jones
+    y Topper Headon en esta pel\xEDcula de 2007."

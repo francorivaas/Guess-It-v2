@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: happiness_never_comes_alone
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: happiness_never_comes_alone
+  category: peliculas
+  difficulty: 0
+  answer: Happiness Never Comes Alone
+  acceptedAnswers:
+  - Happiness Never Comes Alone
+  - Un Bonheur n'arrive jamais seul
+  hints:
+  - "Es una producci\xF3n de 2012 con una duraci\xF3n aproximada de 110 minutos."
+  - "Se encuadra en comedia y romance y tiene origen de producci\xF3n en Francia."
+  - El realizador principal fue James Huth.
+  - Gad Elmaleh interpreta a Sacha Keller, mientras Sophie Marceau encarna a Charlotte
+    Posche.
+  - "El reparto incluye a Gad Elmaleh como Sacha Keller, Sophie Marceau como Charlotte
+    Posche y Maurice Barth\xE9lemy como Laurent Helewa bajo la direcci\xF3n de James
+    Huth."

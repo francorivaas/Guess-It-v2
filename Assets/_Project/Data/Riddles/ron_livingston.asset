@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ron_livingston
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ron_livingston
+  category: personas
+  difficulty: 1
+  answer: Ron Livingston
+  acceptedAnswers:
+  - Ron Livingston
+  hints:
+  - "En The Cooler interpret\xF3 a Larry Sokolov, en una pel\xEDcula estrenada en
+    2003."
+  - Su carrera en cine abarca de 1996 a 2016 y recorre terror y suspenso.
+  - "Comparti\xF3 reparto con Steve Carell en Dinner for Schmucks. Otro cr\xE9dito
+    es Vacation."
+  - "En The 5th Wave interpret\xF3 a Oliver Sullivan."
+  - Aparece en The Conjuring y Vacation.

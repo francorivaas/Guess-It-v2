@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: andy_lau
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: andy_lau
+  category: personas
+  difficulty: 0
+  answer: Andy Lau
+  acceptedAnswers:
+  - Andy Lau
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1982 y 2016 y recorren g\xE9neros
+    como drama, acci\xF3n y aventura."
+  - "Form\xF3 parte del elenco de \xABThe Great Wall\xBB, una pel\xEDcula de 2016
+    dirigida por Zhang Yimou."
+  - "Su papel en \xABHouse of Flying Daggers\xBB fue el de Leo."
+  - "En \xABShaolin\xBB interpret\xF3 a General Hou Jie."
+  - "Sus papeles incluyen a General Hou Jie en \xABShaolin\xBB y a Cao Er-Hu en \xABThe
+    Warlords\xBB."

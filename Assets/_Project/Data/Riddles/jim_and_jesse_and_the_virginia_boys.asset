@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jim_and_jesse_and_the_virginia_boys
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jim_and_jesse_and_the_virginia_boys
+  category: bandas musicales
+  difficulty: 0
+  answer: Jim and Jesse and the Virginia Boys
+  acceptedAnswers:
+  - Jim and Jesse and the Virginia Boys
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABThis World Is Not My Home\xBB, de 1964,
+    y llega hasta 1965."
+  - "\xABWhere the Soul Never Dies\xBB presenta una energ\xEDa suave y un pulso cercano
+    a 112 BPM."
+  - "Entre sus grabaciones figuran \xABThe Old Country Church\xBB y \xABAre You Washed
+    in the Blood\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABThe Old Time Religion\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABOle Slew Foot\xBB y \xABKneel At The
+    Cross\xBB."

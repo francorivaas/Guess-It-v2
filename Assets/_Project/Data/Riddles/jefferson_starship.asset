@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jefferson_starship
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jefferson_starship
+  category: bandas musicales
+  difficulty: 1
+  answer: Jefferson Starship
+  acceptedAnswers:
+  - Jefferson Starship
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABRide the Tiger\xBB, de 1974, y llega hasta
+    1984."
+  - "Se mueve dentro de rock; \xABWith Your Love - Remastered\xBB refleja una energ\xEDa
+    media y un pulso cercano a 127 BPM."
+  - "Entre sus grabaciones figuran \xABFind Your Way Back\xBB y \xABRunaway\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABMiracles\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABJane\xBB y \xABCount on Me\xBB."

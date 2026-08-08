@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jean_pierre_aumont
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jean_pierre_aumont
+  category: personas
+  difficulty: 2
+  answer: Jean-Pierre Aumont
+  acceptedAnswers:
+  - Jean-Pierre Aumont
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1937 y 1974 y recorren g\xE9neros
+    como comedia, acci\xF3n y drama."
+  - "Particip\xF3 en \xABTwo Missionaries\xBB, dirigida por Franco Rossi y estrenada
+    en 1974."
+  - "Dio vida a The Count of Maldorais en \xABCastle Keep\xBB."
+  - "En \xABH\xF4tel du Nord\xBB interpret\xF3 a Pierre."
+  - "Interpret\xF3 a Pierre en \xABH\xF4tel du Nord\xBB y a Billy - le laitier amoureux
+    d'Eva en \xABDrole de Drame\xBB."

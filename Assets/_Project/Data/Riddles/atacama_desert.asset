@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: atacama_desert
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: atacama_desert
+  category: lugares
+  difficulty: 2
+  answer: Desierto de Atacama
+  acceptedAnswers:
+  - Desierto de Atacama
+  - atacama desert
+  hints:
+  - "Algunas estaciones meteorol\xF3gicas han registrado a\xF1os sin lluvias."
+  - "La claridad del cielo favorece grandes observatorios astron\xF3micos."
+  - "Salares, g\xE9iseres y volcanes aparecen en su paisaje."
+  - Se extiende principalmente por el norte de Chile.
+  - "Es uno de los desiertos no polares m\xE1s secos del mundo."

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_fellowship_of_the_ring
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_fellowship_of_the_ring
+  category: peliculas
+  difficulty: 0
+  answer: "El se\xF1or de los anillos: La comunidad del anillo"
+  acceptedAnswers:
+  - "El se\xF1or de los anillos: La comunidad del anillo"
+  - 'El senor de los anillos: La comunidad del anillo'
+  - "el se\xF1or de los anillos la comunidad del anillo"
+  - el senor de los anillos la comunidad del anillo
+  - the lord of the rings the fellowship of the ring
+  hints:
+  - "Dentro del cine de Nueva Zelanda, apareci\xF3 en 2001 con una propuesta de fantas\xEDa
+    y aventura."
+  - "La realizaci\xF3n fue encabezada por Peter Jackson."
+  - "Sus nombres m\xE1s ligados al relato son Frodo, Gandalf y Aragorn."
+  - "La acci\xF3n avanza mientras un grupo parte para destruir un objeto que concentra
+    un poder oscuro."
+  - "Su elemento m\xE1s revelador es nueve compa\xF1eros emprenden viaje desde Rivendel
+    con un anillo peligroso."

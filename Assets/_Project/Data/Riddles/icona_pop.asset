@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: icona_pop
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: icona_pop
+  category: bandas musicales
+  difficulty: 0
+  answer: Icona Pop
+  acceptedAnswers:
+  - Icona Pop
+  hints:
+  - "En sus grabaciones destaca una energ\xEDa sonora alta, dentro de un repertorio
+    relacionado con synth-pop y m\xFAsica sueca."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABRunning Songs\xBB."
+  - Entre sus colaboraciones registradas figuran Charli XCX y Cobra Starship.
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABI Love It (feat. Charli XCX)\xBB
+    y \xABOff Of My Mind\xBB."
+  - "Artista o grupo detr\xE1s de \xABI Love It (feat. Charli XCX)\xBB, \xABOff Of
+    My Mind\xBB y \xABYou're Free\xBB."

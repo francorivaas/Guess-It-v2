@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: breathless
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: breathless
+  category: peliculas
+  difficulty: 2
+  answer: Sin aliento
+  acceptedAnswers:
+  - Sin aliento
+  - al final de la escapada
+  - breathless
+  - a bout de souffle
+  hints:
+  - "Esta producci\xF3n de Francia, lanzada en 1960, pertenece al g\xE9nero crimen
+    y romance."
+  - "La realizaci\xF3n fue encabezada por Jean-Luc Godard."
+  - El reparto o los personajes clave incluyen a Michel Poiccard y Patricia.
+  - "El conflicto principal nace cuando un delincuente fugitivo intenta convencer
+    a una estudiante de huir con \xE9l."
+  - "Resulta inconfundible por cortes abruptos y conversaciones por Par\xEDs definen
+    la Nueva Ola."

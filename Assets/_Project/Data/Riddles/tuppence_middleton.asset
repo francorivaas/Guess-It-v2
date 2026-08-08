@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tuppence_middleton
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tuppence_middleton
+  category: personas
+  difficulty: 0
+  answer: Tuppence Middleton
+  acceptedAnswers:
+  - Tuppence Middleton
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 2009 y 2015, con presencia frecuente
+    en suspenso, drama y comedia."
+  - "Uno de sus trabajos fue \xABTrance\xBB (2013), bajo la direcci\xF3n de Danny
+    Boyle."
+  - "Su papel en \xABA Long Way Down\xBB fue el de Kathy Miller."
+  - "Dio vida a June Keaton en \xABSpooks: The Greater Good\xBB."
+  - "Interpret\xF3 a June Keaton en \xABSpooks: The Greater Good\xBB y a Sophie en
+    \xABThe Love Punch\xBB."

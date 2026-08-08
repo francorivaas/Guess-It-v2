@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: carl_theodor_dreyer
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: carl_theodor_dreyer
+  category: personas
+  difficulty: 0
+  answer: Carl Theodor Dreyer
+  acceptedAnswers:
+  - Carl Theodor Dreyer
+  hints:
+  - "Su filmograf\xEDa como realizador recorre drama, romance y historia durante
+    el per\xEDodo entre 1920 y 1964."
+  - "Estuvo al frente de \xABThe Passion of Joan of Arc\xBB (1928)."
+  - "Otro t\xEDtulo bajo su direcci\xF3n es \xABVampyr\xBB (1932)."
+  - "Dos pel\xEDculas que llevan su firma son \xABVampyr\xBB y \xABOrdet\xBB."
+  - "Es el realizador detr\xE1s de \xABVampyr\xBB, \xABOrdet\xBB y \xABDay of Wrath\xBB."

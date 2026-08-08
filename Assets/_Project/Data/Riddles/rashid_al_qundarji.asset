@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rashid_al_qundarji
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rashid_al_qundarji
+  category: bandas musicales
+  difficulty: 1
+  answer: "Rash\xEEd al-Qundarj\xEE"
+  acceptedAnswers:
+  - "Rash\xEEd al-Qundarj\xEE"
+  - Rashid al-Qundarji
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABMaq\xE2m N\xE2r\xEE\xBB, de 1948, y llega
+    hasta 1948."
+  - "\xABMaq\xE2m Mans\xFBr\xEE\xBB presenta una energ\xEDa suave y un pulso cercano
+    a 106 BPM."
+  - "Entre sus grabaciones figuran \xABMaq\xE2m Gulgul\xEE, suivi d'une pasta\xBB
+    y \xABMaq\xE2m al-Mask\xEEn, suivi d'une pasta\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABMaq\xE2m S\xEEk\xE2h\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABPasta: \u201CHawwel khayy\xE2l esh-shagr\xE2\"\xBB
+    y \xABMaq\xE2m Madm\xEE\xBB."

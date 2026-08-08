@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: oh_dal_su
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: oh_dal_su
+  category: personas
+  difficulty: 0
+  answer: Oh Dal-su
+  acceptedAnswers:
+  - Oh Dal-su
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 2004 y 2016, especialmente dentro
+    de drama, acci\xF3n y comedia."
+  - "Particip\xF3 en \xABThirst\xBB, dirigida por Park Chan-wook y estrenada en 2009."
+  - "En \xABI'm a Cyborg, But That's OK\xBB interpret\xF3 a Shin Duk-Cheon."
+  - "Dio vida a So Yang-ho en \xABMiracle in Cell No. 7\xBB."
+  - "Es la persona que encarn\xF3 a So Yang-ho en \xABMiracle in Cell No. 7\xBB y
+    a Andrew en \xABThe Thieves\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: polly_walker
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: polly_walker
+  category: personas
+  difficulty: 2
+  answer: Polly Walker
+  acceptedAnswers:
+  - Polly Walker
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1991 y 2004 y recorren g\xE9neros
+    como drama, romance y comedia."
+  - "Uno de sus trabajos fue \xABControl\xBB (2004), bajo la direcci\xF3n de Tim
+    Hunter."
+  - "En \xABEnchanted April\xBB interpret\xF3 a Caroline Dester."
+  - "Su papel en \xAB8 \xBD Women\xBB fue el de Palmira."
+  - "Interpret\xF3 a Palmira en \xAB8 \xBD Women\xBB y a Cecilia en \xABRoseanna's
+    Grave\xBB."

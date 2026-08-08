@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: caroline_langrishe
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: caroline_langrishe
+  category: personas
+  difficulty: 2
+  answer: Caroline Langrishe
+  acceptedAnswers:
+  - Caroline Langrishe
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1978 y 2005 y recorren g\xE9neros
+    como drama, romance y familiar."
+  - "Form\xF3 parte del elenco de \xABA Christmas Carol\xBB, una pel\xEDcula de 1984
+    dirigida por Clive Donner."
+  - "En \xABRogue Trader\xBB interpret\xF3 a Ash Lewis."
+  - "En \xABLes Mis\xE9rables\xBB interpret\xF3 a Cosette."
+  - "Interpret\xF3 a Cosette en \xABLes Mis\xE9rables\xBB y a Judith en \xABEagle's
+    Wing\xBB."

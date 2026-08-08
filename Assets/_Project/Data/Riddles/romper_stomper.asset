@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: romper_stomper
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: romper_stomper
+  category: peliculas
+  difficulty: 0
+  answer: Romper Stomper
+  acceptedAnswers:
+  - Romper Stomper
+  hints:
+  - "Su metraje se acerca a 94 minutos y corresponde al a\xF1o 1992."
+  - "Su combinaci\xF3n de g\xE9neros incluye acci\xF3n, drama y suspenso; la producci\xF3n
+    se vincula con Australia."
+  - "Geoffrey Wright firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Russell Crowe da vida a Hando y Daniel Pollock a Davey.
+  - "El reparto incluye a Russell Crowe como Hando, Daniel Pollock como Davey y Jacqueline
+    McKenzie como Gabe bajo la direcci\xF3n de Geoffrey Wright."

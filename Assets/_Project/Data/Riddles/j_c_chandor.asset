@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: j_c_chandor
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: j_c_chandor
+  category: personas
+  difficulty: 0
+  answer: J.C. Chandor
+  acceptedAnswers:
+  - J.C. Chandor
+  hints:
+  - "Es una figura del cine cuya actividad registrada se extiende entre 2011 y 2019
+    y toca principalmente drama y acci\xF3n."
+  - "La pel\xEDcula \xABTriple Frontier\xBB forma parte de una carrera conectada
+    con Estados Unidos y Emiratos \xC1rabes Unidos."
+  - "La asociaci\xF3n con \xABA Most Violent Year\xBB se completa con otro cr\xE9dito
+    en \xABAll Is Lost\xBB."
+  - "Dos referencias fuertes de su carrera son \xABMargin Call\xBB y \xABAll Is Lost\xBB."
+  - "La identidad buscada re\xFAne cr\xE9ditos de direcci\xF3n y guion en \xABMargin
+    Call\xBB, \xABAll Is Lost\xBB y \xABA Most Violent Year\xBB."

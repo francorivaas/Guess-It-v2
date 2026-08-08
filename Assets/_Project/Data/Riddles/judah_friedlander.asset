@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: judah_friedlander
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: judah_friedlander
+  category: personas
+  difficulty: 2
+  answer: Judah Friedlander
+  acceptedAnswers:
+  - Judah Friedlander
+  hints:
+  - "En American Splendor interpret\xF3 a Toby Radloff, en una pel\xEDcula estrenada
+    en 2003."
+  - Su carrera en cine abarca de 2000 a 2013 y recorre comedia y romance.
+  - "Comparti\xF3 reparto con Ben Stiller en Along Came Polly."
+  - "En Zoolander interpret\xF3 a Scrappy Zoolander."
+  - Aparece en Meet the Parents y Epic.

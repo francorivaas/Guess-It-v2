@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dasmarinas
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dasmarinas
+  category: lugares
+  difficulty: 0
+  answer: "Dasmari\xF1as"
+  acceptedAnswers:
+  - "Dasmari\xF1as"
+  - dasmarinas
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 120,94\xB0 este."
+  - "Re\xFAne cerca de 703.100 habitantes en la divisi\xF3n administrativa de Cavite."
+  - "No es la capital nacional de Filipinas. Su longitud geogr\xE1fica ronda los
+    120,94\xB0 este."
+  - "Se encuentra en Filipinas, dentro de Cavite, con una poblaci\xF3n cercana a
+    703 mil."
+  - "Es una ciudad de Filipinas, en Cavite, situada aproximadamente en 14,3\xB0 norte
+    y 120,9\xB0 este."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: los_rebeldes_del_bravo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: los_rebeldes_del_bravo
+  category: bandas musicales
+  difficulty: 1
+  answer: Los Rebeldes Del Bravo
+  acceptedAnswers:
+  - Los Rebeldes Del Bravo
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABFermin Arebalo\xBB, de 1980, y llega hasta
+    1984."
+  - "\xABMi Destino Fue Quererte\xBB presenta una energ\xEDa media y un pulso cercano
+    a 119 BPM."
+  - "Entre sus grabaciones figuran \xABA Medias Parejo\xBB y \xABLa Celda\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABPuerto de Illusion\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABEl Gato Negro\xBB y \xABLa Traidora\xBB."

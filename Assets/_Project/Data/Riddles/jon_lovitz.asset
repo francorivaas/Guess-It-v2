@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jon_lovitz
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jon_lovitz
+  category: personas
+  difficulty: 1
+  answer: Jon Lovitz
+  acceptedAnswers:
+  - Jon Lovitz
+  hints:
+  - "En The Brave Little Toaster interpret\xF3 a The Radio (voice), en una pel\xEDcula
+    estrenada en 1987."
+  - "Su carrera en cine abarca de 1987 a 2013 y recorre animaci\xF3n y comedia. Entre
+    sus pel\xEDculas figura The Brave Little Toaster."
+  - "Comparti\xF3 reparto con Jane Adams en Happiness."
+  - "En Grown Ups 2 interpret\xF3 a Squats Fitness Janitor."
+  - Aparece en Hotel Transylvania y Big.

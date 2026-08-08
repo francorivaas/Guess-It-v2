@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: laurent_lucas
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: laurent_lucas
+  category: personas
+  difficulty: 0
+  answer: Laurent Lucas
+  acceptedAnswers:
+  - Laurent Lucas
+  hints:
+  - "Trabaj\xF3 en producciones de drama, terror y suspenso a lo largo del per\xEDodo
+    entre 2001 y 2016."
+  - "Form\xF3 parte del elenco de \xABRaw\xBB, una pel\xEDcula de 2016 dirigida por
+    Julia Ducournau."
+  - "Dio vida a Philippe Tailliez en \xABThe Odyssey\xBB."
+  - "Dio vida a Marc Stevens en \xABThe Ordeal\xBB."
+  - "Interpret\xF3 a Marc Stevens en \xABThe Ordeal\xBB y a Vincent en \xABIn My
+    Skin\xBB."

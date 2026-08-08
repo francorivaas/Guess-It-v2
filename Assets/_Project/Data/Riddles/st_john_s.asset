@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: st_john_s
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: st_john_s
+  category: lugares
+  difficulty: 0
+  answer: St. John's
+  acceptedAnswers:
+  - St. John's
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 52,80\xB0 oeste."
+  - "Su poblaci\xF3n registrada se aproxima a 185.600 habitantes y pertenece a Newfoundland
+    and Labrador."
+  - Administrativamente pertenece a Newfoundland and Labrador. Funciona como capital
+    administrativa de Newfoundland and Labrador.
+  - "Pertenece a Canad\xE1 y forma parte de Newfoundland and Labrador; supera aproximadamente
+    los 185.600 habitantes."
+  - "Es una capital regional de Canad\xE1, en Newfoundland and Labrador, situada
+    aproximadamente en 47,5\xB0 norte y 52,8\xB0 oeste."

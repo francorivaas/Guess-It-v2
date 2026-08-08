@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: red_sorghum
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: red_sorghum
+  category: peliculas
+  difficulty: 1
+  answer: Red Sorghum
+  acceptedAnswers:
+  - Red Sorghum
+  - Hong gao liang
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1980 y su duraci\xF3n ronda los 91 minutos."
+  - "Xi'an Film Studio particip\xF3 en una pel\xEDcula de drama y b\xE9lico producida
+    en China."
+  - "La direcci\xF3n estuvo a cargo de Zhang Yimou."
+  - Gong Li interpreta a My Grandma, mientras Jiang Wen encarna a My Grandpa.
+  - "El reparto incluye a Gong Li como My Grandma, Jiang Wen como My Grandpa y Rujun
+    Ten como Uncle Luohan bajo la direcci\xF3n de Zhang Yimou."

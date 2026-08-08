@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: john_neville
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: john_neville
+  category: personas
+  difficulty: 2
+  answer: John Neville
+  acceptedAnswers:
+  - John Neville
+  hints:
+  - "En Harvard Man interpret\xF3 a Dr. Reese, en una pel\xEDcula estrenada en 2001."
+  - "Su carrera en cine abarca de 1994 a 2003 y recorre aventura y fantas\xEDa."
+  - "Comparti\xF3 reparto con Winona Ryder en Little Women. Otro cr\xE9dito es Urban
+    Legend."
+  - "En The X Files interpret\xF3 a The Well-Manicured Man."
+  - Aparece en The Fifth Element y Urban Legend.

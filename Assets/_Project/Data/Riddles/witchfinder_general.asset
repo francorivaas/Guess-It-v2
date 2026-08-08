@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: witchfinder_general
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: witchfinder_general
+  category: peliculas
+  difficulty: 0
+  answer: Witchfinder General
+  acceptedAnswers:
+  - Witchfinder General
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1960 dura cerca de 86 minutos."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama, terror y historia; la producci\xF3n
+    se vincula con Reino Unido."
+  - El realizador principal fue Michael Reeves.
+  - Dos personajes centrales son Matthew Hopkins, interpretado por Vincent Price,
+    y Richard Marshall, a cargo de Ian Ogilvy.
+  - "El reparto incluye a Vincent Price como Matthew Hopkins, Ian Ogilvy como Richard
+    Marshall y Rupert Davies como John Lowes bajo la direcci\xF3n de Michael Reeves."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: allied
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: allied
+  category: peliculas
+  difficulty: 0
+  answer: Allied
+  acceptedAnswers:
+  - Allied
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2010 dura cerca de 124 minutos."
+  - "El relato pertenece a acci\xF3n, drama y b\xE9lico, con participaci\xF3n productiva
+    de Reino Unido y Estados Unidos."
+  - El realizador principal fue Robert Zemeckis.
+  - "Dos personajes centrales son Max Vatan, interpretado por Brad Pitt, y Marianne
+    Beaus\xE9jour, a cargo de Marion Cotillard."
+  - "El reparto incluye a Brad Pitt como Max Vatan, Marion Cotillard como Marianne
+    Beaus\xE9jour y Jared Harris como Frank Heslop bajo la direcci\xF3n de Robert
+    Zemeckis."

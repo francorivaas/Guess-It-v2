@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: original_sin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: original_sin
+  category: peliculas
+  difficulty: 0
+  answer: Original Sin
+  acceptedAnswers:
+  - Original Sin
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2000 dura cerca de 118 minutos."
+  - "Entre sus compa\xF1\xEDas figura Intermedia Films; sus g\xE9neros principales
+    son suspenso."
+  - "Michael Cristofer la dirigi\xF3 con Intermedia Films entre las compa\xF1\xEDas
+    productoras."
+  - Dos personajes centrales son Julia Russell/Bonnie Castle, interpretado por Angelina
+    Jolie, y Luis Antonio Vargas, a cargo de Antonio Banderas.
+  - "Michael Cristofer dirige a Angelina Jolie como Julia Russell/Bonnie Castle,
+    Antonio Banderas como Luis Antonio Vargas y Gregory Itzin como Colonel Worth
+    en esta pel\xEDcula de 2001."

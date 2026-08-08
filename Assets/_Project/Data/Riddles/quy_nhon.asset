@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: quy_nhon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: quy_nhon
+  category: lugares
+  difficulty: 0
+  answer: "Quy Nh\u01A1n"
+  acceptedAnswers:
+  - "Quy Nh\u01A1n"
+  - Quy Nhon
+  hints:
+  - "Est\xE1 a unos 13,8 grados al norte del ecuador y 109,2 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 311 mil habitantes."
+  - "Se ubica a unos 270 kil\xF3metros al sureste de Qu\u1EA3ng H\xE0."
+  - "Est\xE1 en Vietnam, donde ocupa el puesto 18 por poblaci\xF3n, y es un centro
+    administrativo regional."
+  - "Es la capital administrativa de B\xECnh \u0110\u1ECBnh, dentro de Vietnam."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: park_ji_ah
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: park_ji_ah
+  category: personas
+  difficulty: 0
+  answer: Park Ji-ah
+  acceptedAnswers:
+  - Park Ji-ah
+  hints:
+  - "Trabaj\xF3 en producciones de drama, crimen y romance a lo largo del per\xEDodo
+    entre 2002 y 2012."
+  - "Particip\xF3 en \xABSpring, Summer, Fall, Winter... and Spring\xBB, dirigida
+    por Kim Ki-duk y estrenada en 2003."
+  - "En \xAB3-Iron\xBB interpret\xF3 a Jee-ah."
+  - "Su papel en \xABMasquerade\xBB fue el de Lady Han."
+  - "Sus papeles incluyen a Lady Han en \xABMasquerade\xBB y a Mi-yeong en \xABThe
+    Coast Guard\xBB."

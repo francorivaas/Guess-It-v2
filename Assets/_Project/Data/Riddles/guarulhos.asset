@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: guarulhos
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: guarulhos
+  category: lugares
+  difficulty: 0
+  answer: Guarulhos
+  acceptedAnswers:
+  - Guarulhos
+  hints:
+  - "Ocupa el hemisferio sur y una longitud aproximada de 46,53\xB0 oeste."
+  - "Re\xFAne cerca de 1.324.800 habitantes en la divisi\xF3n administrativa de S\xE3o
+    Paulo."
+  - "Administrativamente pertenece a S\xE3o Paulo. No es la capital nacional de Brasil."
+  - "Pertenece a Brasil y forma parte de S\xE3o Paulo; supera aproximadamente los
+    1.324.800 habitantes."
+  - "En Brasil, dentro de S\xE3o Paulo, esta ciudad de unos 1,3 millones est\xE1
+    cerca de 23,5\xB0 sur y 46,5\xB0 oeste."

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pyotr_ilyich_tchaikovsky
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pyotr_ilyich_tchaikovsky
+  category: bandas musicales
+  difficulty: 1
+  answer: Pyotr Ilyich Tchaikovsky
+  acceptedAnswers:
+  - Pyotr Ilyich Tchaikovsky
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABThe Seasons, Op. 37a, TH 135: 10. October:
+    Autumn Song (Arr. for Violin and Piano by Charles Cern\xE9)\xBB, de 1929, y llega
+    hasta 2008."
+  - "\xABNutcracker Suite, Op.71a, TH.35 (Arr. For Piano 4-Hands): 2. Danses caract\xE9ristiques.
+    a. Marche: Tempo di marcia viva\xBB presenta una energ\xEDa suave y un pulso
+    cercano a 107 BPM."
+  - "Entre sus grabaciones figuran \xAB1812 Overture\xBB y \xABThe Nutcracker (Suite),
+    Op. 71a, TH. 35: 2b. Dance Of The Sugar-Plum Fairy\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABAlbum for the Young, Op. 39: No. 3. Mamma (Maman)\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABSerenade for Strings in C major, Op.
+    48: II. Walzer: Moderato, tempo di valse\xBB y \xABThe Nutcracker, Op.71, TH.14
+    / Act 2: No. 12b Coffee (Arabian Dance)\xBB."

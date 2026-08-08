@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: diabolique
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: diabolique
+  category: peliculas
+  difficulty: 2
+  answer: "Las diab\xF3licas"
+  acceptedAnswers:
+  - "Las diab\xF3licas"
+  - Las diabolicas
+  - diabolique
+  - les diaboliques
+  hints:
+  - "Esta producci\xF3n de Francia, lanzada en 1955, pertenece al g\xE9nero suspenso
+    y terror."
+  - "Henri-Georges Clouzot asumi\xF3 la direcci\xF3n."
+  - El reparto o los personajes clave incluyen a Christina, Nicole y Michel.
+  - El conflicto principal nace cuando dos mujeres conspiran contra un hombre, pero
+    el cuerpo desaparece.
+  - "Resulta inconfundible por una ba\xF1era y una figura aparentemente muerta sostienen
+    el giro final."

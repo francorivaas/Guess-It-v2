@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: takao_osawa
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: takao_osawa
+  category: personas
+  difficulty: 1
+  answer: Takao Osawa
+  acceptedAnswers:
+  - Takao Osawa
+  hints:
+  - "Trabaj\xF3 en producciones de drama, acci\xF3n y comedia a lo largo del per\xEDodo
+    entre 2001 y 2012."
+  - "Particip\xF3 en \xABWolf Children\xBB, dirigida por Mamoru Hosoda y estrenada
+    en 2012."
+  - "En \xABGoemon\xBB interpret\xF3 a Saizo Kirigakure."
+  - "En \xABHana and Alice\xBB interpret\xF3 a Photographer."
+  - "Interpret\xF3 a Photographer en \xABHana and Alice\xBB y a Samurai en \xABAragami\xBB."

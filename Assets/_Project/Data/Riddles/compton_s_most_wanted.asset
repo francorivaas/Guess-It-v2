@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: compton_s_most_wanted
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: compton_s_most_wanted
+  category: bandas musicales
+  difficulty: 1
+  answer: Compton's Most Wanted
+  acceptedAnswers:
+  - Compton's Most Wanted
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABCan I Kill It?\xBB, de 1991, y llega hasta
+    2001."
+  - "\xABGoin' Out Like Geez (feat. CMW)\xBB presenta una energ\xEDa media y un pulso
+    cercano a 95 BPM."
+  - "Entre sus grabaciones figuran \xABAll for the Money (feat. CMW)\xBB y \xABGrowin'
+    Up In the Hood\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABLate Night Hype\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABHood Took Me Under\xBB y \xABStreiht
+    Up Menace\xBB."

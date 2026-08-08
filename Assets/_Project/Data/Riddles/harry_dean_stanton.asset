@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: harry_dean_stanton
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: harry_dean_stanton
+  category: personas
+  difficulty: 0
+  answer: Harry Dean Stanton
+  acceptedAnswers:
+  - Harry Dean Stanton
+  hints:
+  - "En The Wendell Baker Story interpret\xF3 a Skip Summers, en una pel\xEDcula
+    estrenada en 2005."
+  - "Su carrera en cine abarca de 1979 a 2013 y recorre terror y acci\xF3n."
+  - "Comparti\xF3 reparto con Patrick Swayze en Red Dawn."
+  - "En The Green Mile interpret\xF3 a Toot-Toot."
+  - Aparece en Alien y Rango.

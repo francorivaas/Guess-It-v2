@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: electric_dreams
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: electric_dreams
+  category: peliculas
+  difficulty: 1
+  answer: Electric Dreams
+  acceptedAnswers:
+  - Electric Dreams
+  hints:
+  - "Es una producci\xF3n de 1984 con una duraci\xF3n aproximada de 92 minutos."
+  - "Se encuadra en m\xFAsica, comedia y drama y tiene origen de producci\xF3n en
+    Reino Unido y Estados Unidos."
+  - "Steve Barron firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Miles Harding, interpretado por Lenny Von Dohlen,
+    y Madeline Robistat, a cargo de Virginia Madsen.
+  - "El reparto incluye a Lenny Von Dohlen como Miles Harding, Virginia Madsen como
+    Madeline Robistat y Maxwell Caulfield como Bill bajo la direcci\xF3n de Steve
+    Barron."

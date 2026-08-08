@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mena_massoud
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mena_massoud
+  category: bandas musicales
+  difficulty: 1
+  answer: Mena Massoud
+  acceptedAnswers:
+  - Mena Massoud
+  hints:
+  - "Su perfil sonoro combina canciones de musicales con un tono emocional m\xE1s
+    bien sombr\xEDo."
+  - "El cat\xE1logo incluye el \xE1lbum \xABAladdin (Original Motion Picture Soundtrack)\xBB."
+  - En algunas pistas aparece junto a Naomi Scott.
+  - "Dos canciones muy \xFAtiles para reconocerlo son \xABA Whole New World\xBB y
+    \xABOne Jump Ahead\xBB."
+  - "Proyecto musical responsable de \xABA Whole New World\xBB, \xABOne Jump Ahead\xBB
+    y \xABDesert Moon - From \"Aladdin\"\xBB."

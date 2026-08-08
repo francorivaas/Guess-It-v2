@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sleeping_with_sirens
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sleeping_with_sirens
+  category: bandas musicales
+  difficulty: 1
+  answer: Sleeping With Sirens
+  acceptedAnswers:
+  - Sleeping With Sirens
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABThe Bomb Dot Com V2.0\xBB, de 2010, y
+    llega hasta 2015."
+  - "Se mueve dentro de pop rock; \xABKick Me\xBB refleja una energ\xEDa alta y un
+    pulso cercano a 126 BPM."
+  - "Entre sus grabaciones figuran \xABScene Two - Roger Rabbit\xBB y \xABScene One
+    - James Dean & Audrey Hepburn\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABIf I'm James Dean, You're Audrey Hepburn\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABIf You Can't Hang\xBB y \xABBetter Off
+    Dead\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: park_hae_il
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: park_hae_il
+  category: personas
+  difficulty: 1
+  answer: Park Hae-il
+  acceptedAnswers:
+  - Park Hae-il
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2003 y 2014 y recorren g\xE9neros
+    como drama, terror y ciencia ficci\xF3n."
+  - "Uno de sus trabajos fue \xABWar of the Arrows\xBB (2011), bajo la direcci\xF3n
+    de Kim Han-min."
+  - "Su papel en \xABEungyo\xBB fue el de Lee Jeok-yo."
+  - "Dio vida a Yoon Min-Cheol en \xABThe Whistleblower\xBB."
+  - "Es la persona que encarn\xF3 a Yoon Min-Cheol en \xABThe Whistleblower\xBB y
+    a Lee Yoo-rim en \xABRules of Dating\xBB."

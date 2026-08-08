@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: krull
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: krull
+  category: peliculas
+  difficulty: 0
+  answer: Krull
+  acceptedAnswers:
+  - Krull
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1980 y su duraci\xF3n ronda los 117 minutos."
+  - "Mezcla fantas\xEDa, acci\xF3n y aventura y fue producida en Espa\xF1a y Reino
+    Unido."
+  - "Peter Yates la dirigi\xF3 con Columbia Pictures Corporation entre las compa\xF1\xEDas
+    productoras."
+  - Dos personajes centrales son Prince Colwyn, interpretado por Ken Marshall, y
+    Princess Lyssa, a cargo de Lysette Anthony.
+  - "Peter Yates dirige a Ken Marshall como Prince Colwyn, Lysette Anthony como Princess
+    Lyssa y Francesca Annis como Lyssa, Widow of the Web en esta pel\xEDcula de 1983."

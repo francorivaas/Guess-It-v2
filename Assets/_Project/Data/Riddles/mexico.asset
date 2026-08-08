@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mexico
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mexico
+  category: lugares
+  difficulty: 0
+  answer: "M\xE9xico"
+  acceptedAnswers:
+  - "M\xE9xico"
+  - Mexico
+  hints:
+  - "Su escala demogr\xE1fica ronda 120 millones de habitantes; el territorio ocupa
+    2,0 millones de km\xB2."
+  - "Su ubicaci\xF3n geogr\xE1fica pertenece a Am\xE9rica Central."
+  - "El panorama ling\xFC\xEDstico presenta espa\xF1ol."
+  - La moneda nacional es peso mexicano.
+  - "En su territorio est\xE1n Yucat\xE1n, Oaxaca y la antigua ciudad de Teotihuac\xE1n."

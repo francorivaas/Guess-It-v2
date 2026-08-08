@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sarah_miles
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sarah_miles
+  category: personas
+  difficulty: 0
+  answer: Sarah Miles
+  acceptedAnswers:
+  - Sarah Miles
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1963 y 1987, especialmente dentro
+    de drama, suspenso y acci\xF3n."
+  - "Form\xF3 parte del elenco de \xABBlow-Up\xBB, una pel\xEDcula de 1966 dirigida
+    por Michelangelo Antonioni."
+  - "Su papel en \xABThe Servant\xBB fue el de Vera."
+  - "En \xABHope and Glory\xBB interpret\xF3 a Grace Rowan."
+  - "Es la persona que encarn\xF3 a Grace Rowan en \xABHope and Glory\xBB y a Patricia
+    Rawnsley en \xABThose Magnificent Men in Their Flying Machines or How I Flew
+    from London to Paris in 25 hours 11 minutes\xBB."

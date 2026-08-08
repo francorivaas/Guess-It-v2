@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: richard_benjamin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: richard_benjamin
+  category: personas
+  difficulty: 0
+  answer: Richard Benjamin
+  acceptedAnswers:
+  - Richard Benjamin
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 1982 y 1996, con presencia
+    frecuente en comedia y acci\xF3n."
+  - "La pel\xEDcula \xABDowntown\xBB forma parte de una carrera conectada con Estados
+    Unidos."
+  - "Su nombre figura en los cr\xE9ditos de \xABMy Stepmother Is an Alien\xBB junto
+    con \xABMermaids\xBB."
+  - "Entre sus trabajos m\xE1s reconocibles se encuentran \xABThe Money Pit\xBB y
+    \xABMermaids\xBB."
+  - "Persona con cr\xE9ditos de direcci\xF3n en \xABThe Money Pit\xBB, \xABMermaids\xBB
+    y \xABMy Stepmother Is an Alien\xBB."

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: love_and_pigeons
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: love_and_pigeons
+  category: peliculas
+  difficulty: 1
+  answer: Love and Pigeons
+  acceptedAnswers:
+  - Love and Pigeons
+  hints:
+  - "Fue filmada originalmente en ruso y lleg\xF3 a los cines en 1984."
+  - "Se encuadra en comedia y romance y tiene origen de producci\xF3n en Rusia."
+  - "Vladimir Menshov la dirigi\xF3 con Mosfilm entre las compa\xF1\xEDas productoras."
+  - En el reparto, Aleksandr Mikhaylov da vida a Vasja y Nina Doroshina a Nadja.
+  - "Vladimir Menshov dirige a Aleksandr Mikhaylov como Vasja, Nina Doroshina como
+    Nadja y Sergei Yursky como Dyadya Mitya en esta pel\xEDcula de 1984."

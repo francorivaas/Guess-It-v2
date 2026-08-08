@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: erasure
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: erasure
+  category: bandas musicales
+  difficulty: 0
+  answer: Erasure
+  acceptedAnswers:
+  - Erasure
+  hints:
+  - "El punto de partida estuvo en Reino Unido; la etapa decisiva lleg\xF3 desde
+    mediados de la d\xE9cada de 1980."
+  - "Su identidad estil\xEDstica re\xFAne synth-pop y dance pop."
+  - Entre sus integrantes o figuras centrales estuvieron Andy Bell y Vince Clarke.
+  - "Una obra decisiva de su cat\xE1logo es The Innocents."
+  - "La pista casi definitiva es A Little Respect, Always y un d\xFAo de pop electr\xF3nico
+    colorido."

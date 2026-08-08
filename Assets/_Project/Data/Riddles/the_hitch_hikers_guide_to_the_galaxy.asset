@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_hitch_hikers_guide_to_the_galaxy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_hitch_hikers_guide_to_the_galaxy
+  category: peliculas
+  difficulty: 1
+  answer: The Hitch Hikers Guide to the Galaxy
+  acceptedAnswers:
+  - The Hitch Hikers Guide to the Galaxy
+  hints:
+  - "Es una producci\xF3n de 1981 con una duraci\xF3n aproximada de 150 minutos."
+  - "Se encuadra en aventura, comedia y ciencia ficci\xF3n y tiene origen de producci\xF3n
+    en Reino Unido."
+  - El realizador principal fue Alan J.W. Bell.
+  - En el reparto, Peter Jones da vida a The Book y Simon Jones a Arthur Dent.
+  - "El reparto incluye a Peter Jones como The Book, Simon Jones como Arthur Dent
+    y David Dixon como Ford Prefect bajo la direcci\xF3n de Alan J.W. Bell."

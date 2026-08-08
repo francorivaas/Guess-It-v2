@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: john_ritter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: john_ritter
+  category: personas
+  difficulty: 1
+  answer: John Ritter
+  acceptedAnswers:
+  - John Ritter
+  hints:
+  - "Su trabajo se reparte entre comedia y drama a lo largo de un per\xEDodo que
+    va entre 1980 y 2004."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABSling Blade\xBB, vinculada a
+    Estados Unidos."
+  - "La asociaci\xF3n con \xABSkin Deep\xBB se completa con otro cr\xE9dito en \xABStay
+    Tuned\xBB."
+  - "Los t\xEDtulos \xABProblem Child 2\xBB y \xABStay Tuned\xBB ofrecen las pistas
+    m\xE1s directas."
+  - "Profesional del cine relacionado con \xABProblem Child 2\xBB, \xABStay Tuned\xBB
+    y \xABSkin Deep\xBB en tareas de interpretaci\xF3n."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: enemy_mine
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: enemy_mine
+  category: peliculas
+  difficulty: 0
+  answer: Enemy Mine
+  acceptedAnswers:
+  - Enemy Mine
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Estados Unidos; combina acci\xF3n y
+    una fecha de estreno dentro de los a\xF1os 1980. La direcci\xF3n est\xE1 acreditada
+    a Wolfgang Petersen."
+  - "El montaje final se extiende unos 108 minutos y aparece catalogado con la se\xF1al
+    PG-13. Entre sus int\xE9rpretes figura Dennis Quaid."
+  - "Se estren\xF3 en 1985 y estuvo asociada a la compa\xF1\xEDa Twentieth Century
+    Fox. El guion incluye un cr\xE9dito para Barry Longyear."
+  - "La dirigi\xF3 Wolfgang Petersen y su figura principal es Dennis Quaid."
+  - "Producci\xF3n de acci\xF3n estrenada en 1985: direcci\xF3n de Wolfgang Petersen
+    y actuaciones de Dennis Quaid, con guion de Barry Longyear."

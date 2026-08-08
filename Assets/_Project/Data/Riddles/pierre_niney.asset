@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pierre_niney
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pierre_niney
+  category: personas
+  difficulty: 0
+  answer: Pierre Niney
+  acceptedAnswers:
+  - Pierre Niney
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2010 y 2016 y recorren g\xE9neros
+    como drama, comedia y historia."
+  - "Particip\xF3 en \xABIt Boy\xBB, dirigida por David Moreau y estrenada en 2013."
+  - "Dio vida a Yves Saint Laurent en \xABYves Saint Laurent\xBB."
+  - "Dio vida a Adrien Rivoire en \xABFrantz\xBB."
+  - "Es la persona que encarn\xF3 a Adrien Rivoire en \xABFrantz\xBB y a Ludo en
+    \xABRomantics Anonymous\xBB."

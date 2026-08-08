@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: in_america
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: in_america
+  category: peliculas
+  difficulty: 0
+  answer: In America
+  acceptedAnswers:
+  - In America
+  hints:
+  - "Es una producci\xF3n de Irlanda de la d\xE9cada de 2000, vinculada al g\xE9nero
+    de drama. La direcci\xF3n est\xE1 acreditada a Jim Sheridan."
+  - "El montaje final se extiende unos 105 minutos y aparece catalogado con la se\xF1al
+    PG-13. Entre sus int\xE9rpretes figura Paddy Considine."
+  - "Se estren\xF3 en 2002 y estuvo asociada a la compa\xF1\xEDa Hell's Kitchen Films."
+  - "La dirigi\xF3 Jim Sheridan y su figura principal es Paddy Considine."
+  - "La respuesta es la cinta de 2002 que Jim Sheridan dirigi\xF3 con Paddy Considine
+    como int\xE9rpretes destacados, con guion de Jim Sheridan."

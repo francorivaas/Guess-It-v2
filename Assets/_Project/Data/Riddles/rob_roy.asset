@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rob_roy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rob_roy
+  category: peliculas
+  difficulty: 0
+  answer: Rob Roy
+  acceptedAnswers:
+  - Rob Roy
+  hints:
+  - "Es una producci\xF3n de 1995 con una duraci\xF3n aproximada de 139 minutos."
+  - "Se encuadra en aventura y tiene origen de producci\xF3n en Reino Unido y Estados
+    Unidos."
+  - "Michael Caton-Jones firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Liam Neeson y Jessica Lange encabezan el reparto.
+  - "Michael Caton-Jones dirige a Liam Neeson, Jessica Lange como Mary MacGregor
+    y John Hurt como John Graham (Marquis of Montrose) en esta pel\xEDcula de 1995."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: grease
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: grease
+  category: peliculas
+  difficulty: 0
+  answer: Grease
+  acceptedAnswers:
+  - Grease
+  - vaselina
+  hints:
+  - "Esta producci\xF3n de Estados Unidos, lanzada en 1978, pertenece al g\xE9nero
+    musical y comedia rom\xE1ntica."
+  - "La realizaci\xF3n fue encabezada por Randal Kleiser."
+  - El reparto o los personajes clave incluyen a Danny, Sandy y los T-Birds.
+  - El conflicto principal nace cuando dos adolescentes intentan continuar un romance
+    de verano al regresar a la escuela.
+  - "Resulta inconfundible por chaquetas de cuero, canciones escolares y un autom\xF3vil
+    volador cierran la historia."

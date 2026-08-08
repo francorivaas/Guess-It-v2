@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: stephane_audran
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: stephane_audran
+  category: personas
+  difficulty: 0
+  answer: "St\xE9phane Audran"
+  acceptedAnswers:
+  - "St\xE9phane Audran"
+  - stephane audran
+  hints:
+  - "Trabaj\xF3 en producciones de drama, comedia y crimen a lo largo del per\xEDodo
+    entre 1962 y 2008."
+  - "Form\xF3 parte del elenco de \xABThe Discreet Charm of the Bourgeoisie\xBB,
+    una pel\xEDcula de 1972 dirigida por Luis Bu\xF1uel."
+  - "En \xABBabette's Feast\xBB interpret\xF3 a Babette Hersant."
+  - "Su papel en \xABThe Girl from Monaco\xBB fue el de \xC9dith Lassalle."
+  - "Es la persona que encarn\xF3 a \xC9dith Lassalle en \xABThe Girl from Monaco\xBB
+    y a Huguette Cordier en \xABCoup de Torchon\xBB."

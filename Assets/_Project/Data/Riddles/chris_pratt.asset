@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chris_pratt
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chris_pratt
+  category: personas
+  difficulty: 0
+  answer: Chris Pratt
+  acceptedAnswers:
+  - Chris Pratt
+  hints:
+  - "En Take Me Home Tonight interpret\xF3 a Kyle Masterson, en una pel\xEDcula estrenada
+    en 2011."
+  - "Su carrera en cine abarca de 2008 a 2015 y recorre acci\xF3n y ciencia ficci\xF3n."
+  - "Comparti\xF3 reparto con Anne Hathaway en Bride Wars."
+  - "En Jurassic World interpret\xF3 a Owen Grady."
+  - Aparece en Guardians of the Galaxy y Her.

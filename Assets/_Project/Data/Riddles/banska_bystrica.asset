@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: banska_bystrica
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: banska_bystrica
+  category: lugares
+  difficulty: 1
+  answer: "Bansk\xE1 Bystrica"
+  acceptedAnswers:
+  - "Bansk\xE1 Bystrica"
+  - Banska Bystrica
+  hints:
+  - "Est\xE1 a unos 48,7 grados al norte del ecuador y 19,1 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 78 mil habitantes. Dentro de su pa\xEDs
+    ocupa el puesto 6 por poblaci\xF3n."
+  - "Se ubica a unos 140 kil\xF3metros al norte de Budapest."
+  - "Est\xE1 en Eslovaquia, donde ocupa el puesto 6 por poblaci\xF3n, y es un centro
+    administrativo regional."
+  - "Es la capital administrativa de Banskobystrick\xFD, dentro de Eslovaquia."

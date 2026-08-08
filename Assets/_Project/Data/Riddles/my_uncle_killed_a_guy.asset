@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: my_uncle_killed_a_guy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: my_uncle_killed_a_guy
+  category: peliculas
+  difficulty: 1
+  answer: My Uncle Killed a Guy
+  acceptedAnswers:
+  - My Uncle Killed a Guy
+  - Meu tio matou um cara
+  hints:
+  - "Fue filmada originalmente en portugu\xE9s y lleg\xF3 a los cines en 2004."
+  - "20th Century Fox Home Entertainment particip\xF3 en una pel\xEDcula de aventura
+    y comedia producida en Brasil."
+  - "Jorge Furtado firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Darlan Cunha da vida a Duca y Sophia Reis a Isa.
+  - "En esta cinta de 2004 coinciden Darlan Cunha como Duca, Sophia Reis como Isa
+    y L\xE1zaro Ramos como \xC9der."

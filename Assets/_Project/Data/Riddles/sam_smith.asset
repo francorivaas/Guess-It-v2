@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sam_smith
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sam_smith
+  category: bandas musicales
+  difficulty: 0
+  answer: Sam Smith
+  acceptedAnswers:
+  - Sam Smith
+  hints:
+  - "Su perfil sonoro combina pop y dance con un equilibrio entre energ\xEDa, ritmo
+    y melod\xEDa."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABBest Road Trip Pop Tunes\xBB."
+  - "Ha compartido cr\xE9ditos de interpretaci\xF3n con Brandi Carlile y Disclosure."
+  - "El repertorio se vuelve claro con \xABUnholy (feat. Kim Petras)\xBB junto a
+    \xABI'm Not The Only One\xBB."
+  - "Nombre musical asociado directamente a \xABUnholy (feat. Kim Petras)\xBB, \xABI'm
+    Not The Only One\xBB y \xABToo Good At Goodbyes\xBB."

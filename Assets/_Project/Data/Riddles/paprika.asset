@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: paprika
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: paprika
+  category: peliculas
+  difficulty: 0
+  answer: Paprika
+  acceptedAnswers:
+  - Paprika
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Jap\xF3n; combina animaci\xF3n y una
+    fecha de estreno dentro de los a\xF1os 2000."
+  - "Tiene una duraci\xF3n aproximada de 90 minutos y recibi\xF3 la clasificaci\xF3n
+    R. La direcci\xF3n est\xE1 acreditada a Satoshi Kon."
+  - "Se estren\xF3 en 2006 y estuvo asociada a la compa\xF1\xEDa Madhouse."
+  - "La dirigi\xF3 Satoshi Kon y su figura principal es Megumi Hayashibara."
+  - "Pel\xEDcula de 2006 dirigida por Satoshi Kon, con Megumi Hayashibara en el reparto,
+    con guion de Yasutaka Tsutsui."

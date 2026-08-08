@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: omar_benson_miller
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: omar_benson_miller
+  category: personas
+  difficulty: 2
+  answer: Omar Benson Miller
+  acceptedAnswers:
+  - Omar Benson Miller
+  hints:
+  - "En The Express interpret\xF3 a Jack Buckley, en una pel\xEDcula estrenada en
+    2008."
+  - "Su carrera en cine abarca de 2002 a 2013 y recorre drama y fantas\xEDa."
+  - "Comparti\xF3 reparto con Richard Gere en Shall We Dance?."
+  - "En The Sorcerer's Apprentice interpret\xF3 a Bennet."
+  - Aparece en 8 Mile y Homefront.

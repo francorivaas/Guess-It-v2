@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_masque_of_the_red_death
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_masque_of_the_red_death
+  category: peliculas
+  difficulty: 0
+  answer: The Masque of the Red Death
+  acceptedAnswers:
+  - The Masque of the Red Death
+  hints:
+  - "Fue filmada originalmente en ingl\xE9s y lleg\xF3 a los cines en 1964."
+  - "Alta Vista Productions particip\xF3 en una pel\xEDcula de drama y terror producida
+    en Reino Unido y Estados Unidos."
+  - El realizador principal fue Roger Corman.
+  - Dos personajes centrales son Prince Prospero, interpretado por Vincent Price,
+    y Juliana, a cargo de Hazel Court.
+  - En esta cinta de 1964 coinciden Vincent Price como Prince Prospero, Hazel Court
+    como Juliana y Jane Asher como Francesca.

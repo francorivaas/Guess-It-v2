@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_heart_is_deceitful_above_all_things
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_heart_is_deceitful_above_all_things
+  category: peliculas
+  difficulty: 1
+  answer: The Heart is Deceitful Above All Things
+  acceptedAnswers:
+  - The Heart is Deceitful Above All Things
+  hints:
+  - "Su metraje se acerca a 98 minutos y corresponde al a\xF1o 2004."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama; la producci\xF3n se vincula con
+    Estados Unidos y Reino Unido."
+  - "Asia Argento firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Asia Argento da vida a Sarah y Jimmy Bennett a Young Jeremiah.
+  - "El reparto incluye a Asia Argento como Sarah, Jimmy Bennett como Young Jeremiah
+    y Jeremy Renner como Emerson bajo la direcci\xF3n de Asia Argento."

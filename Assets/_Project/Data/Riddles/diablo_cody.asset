@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: diablo_cody
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: diablo_cody
+  category: personas
+  difficulty: 0
+  answer: Diablo Cody
+  acceptedAnswers:
+  - Diablo Cody
+  hints:
+  - Es una figura del cine cuya actividad registrada se extiende entre 2007 y 2018
+    y toca principalmente comedia y drama.
+  - "Una pista lateral de su filmograf\xEDa es \xABRicki and the Flash\xBB, dentro
+    de Estados Unidos."
+  - "Su nombre figura en los cr\xE9ditos de \xABYoung Adult\xBB junto con \xABJennifer's
+    Body\xBB."
+  - "Los t\xEDtulos \xABJuno\xBB y \xABJennifer's Body\xBB ofrecen las pistas m\xE1s
+    directas."
+  - "Profesional del cine relacionado con \xABJuno\xBB, \xABJennifer's Body\xBB y
+    \xABYoung Adult\xBB en tareas de guion."

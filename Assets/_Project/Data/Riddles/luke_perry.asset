@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: luke_perry
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: luke_perry
+  category: personas
+  difficulty: 1
+  answer: Luke Perry
+  acceptedAnswers:
+  - Luke Perry
+  hints:
+  - "Trabaj\xF3 en producciones de acci\xF3n, drama y suspenso a lo largo del per\xEDodo
+    entre 1997 y 2010."
+  - "Particip\xF3 en \xABThe Fifth Element\xBB, dirigida por Luc Besson y estrenada
+    en 1997."
+  - "En \xABSupernova\xBB interpret\xF3 a Dr. Chris Richardson."
+  - "Su papel en \xABThe Final Storm\xBB fue el de Silas Hendershot."
+  - "Es la persona que encarn\xF3 a Silas Hendershot en \xABThe Final Storm\xBB y
+    a Ben McKinley en \xABAlice Upside Down\xBB."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: barbie_as_the_princess_and_the_pauper
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: barbie_as_the_princess_and_the_pauper
+  category: peliculas
+  difficulty: 0
+  answer: Barbie as The Princess & the Pauper
+  acceptedAnswers:
+  - Barbie as The Princess & the Pauper
+  hints:
+  - "Su metraje se acerca a 85 minutos y corresponde al a\xF1o 2004."
+  - "El relato pertenece a animaci\xF3n, familiar y comedia, con participaci\xF3n
+    productiva de Canad\xE1."
+  - "William Lau firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Princess Anneliese / Erika (voice), interpretado
+    por Kelly Sheridan, y Minister (voice), a cargo de Roger Monk.
+  - "El reparto incluye a Kelly Sheridan como Princess Anneliese / Erika (voice),
+    Roger Monk como Minister (voice) y Garry Chalk como Herve (voice) bajo la direcci\xF3n
+    de William Lau."

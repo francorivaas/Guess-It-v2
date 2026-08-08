@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mama
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mama
+  category: peliculas
+  difficulty: 0
+  answer: Mama
+  acceptedAnswers:
+  - Mama
+  hints:
+  - "Se estren\xF3 en 2013, dura cerca de 100 minutos y tuvo producci\xF3n de Espa\xF1a."
+  - Combina terror; una de sus productoras fue Universal Pictures.
+  - "La dirigi\xF3 Andy Muschietti, con Isabelle N\xE9lisse en un papel del reparto."
+  - En el elenco aparecen Nikolaj Coster-Waldau y Megan Charpentier.
+  - "Jessica Chastain encabeza esta pel\xEDcula de terror, dirigida por Andy Muschietti
+    y estrenada en 2013."

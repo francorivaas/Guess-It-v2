@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: satyajit_ray
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: satyajit_ray
+  category: personas
+  difficulty: 2
+  answer: Satyajit Ray
+  acceptedAnswers:
+  - Satyajit Ray
+  hints:
+  - "La parte esencial de su carrera transcurri\xF3 en la segunda mitad del siglo
+    XX."
+  - "Naci\xF3 en India y orient\xF3 su trabajo hacia direcci\xF3n cinematogr\xE1fica."
+  - "Entre sus logros sobresale retratar vidas bengal\xEDes con humanismo y precisi\xF3n."
+  - "Tambi\xE9n qued\xF3 estrechamente relacionado con la trilog\xEDa de Apu y una
+    carrera tambi\xE9n como compositor e ilustrador."
+  - "Su perfil re\xFAne direcci\xF3n cinematogr\xE1fica, retratar vidas bengal\xEDes
+    con humanismo y precisi\xF3n y la trilog\xEDa de Apu y una carrera tambi\xE9n
+    como compositor e ilustrador."

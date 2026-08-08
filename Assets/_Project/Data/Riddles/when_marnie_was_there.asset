@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: when_marnie_was_there
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: when_marnie_was_there
+  category: peliculas
+  difficulty: 0
+  answer: When Marnie Was There
+  acceptedAnswers:
+  - When Marnie Was There
+  hints:
+  - "Pertenece al cine de Jap\xF3n y se ubica temporalmente en la d\xE9cada de 2010,
+    dentro de animaci\xF3n. La direcci\xF3n est\xE1 acreditada a James Simone."
+  - "La ficha t\xE9cnica marca 103 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    PG."
+  - "Se estren\xF3 en 2014 y estuvo asociada a la compa\xF1\xEDa Dentsu."
+  - "James Simone estuvo a cargo de la direcci\xF3n, con Sara Takatsuki al frente
+    del elenco."
+  - "Producci\xF3n de animaci\xF3n estrenada en 2014: direcci\xF3n de James Simone
+    y actuaciones de Sara Takatsuki, con guion de Joan G. Robinson."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: blinded_by_the_light
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: blinded_by_the_light
+  category: peliculas
+  difficulty: 1
+  answer: Blinded by the Light
+  acceptedAnswers:
+  - Blinded by the Light
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Reino Unido; combina comedia y una fecha
+    de estreno dentro de los a\xF1os 2010. La direcci\xF3n est\xE1 acreditada a Gurinder
+    Chadha."
+  - "Su duraci\xF3n ronda los 118 minutos; la clasificaci\xF3n registrada es PG-13.
+    Entre sus int\xE9rpretes figura Billy Barratt."
+  - "La producci\xF3n lleg\xF3 en 2019 bajo la participaci\xF3n de New Line Cinema."
+  - "Gurinder Chadha estuvo a cargo de la direcci\xF3n, con Billy Barratt al frente
+    del elenco."
+  - Cinta de Reino Unido lanzada en 2019, dirigida por Gurinder Chadha y encabezada
+    por Billy Barratt, con guion de Sarfraz Manzoor.

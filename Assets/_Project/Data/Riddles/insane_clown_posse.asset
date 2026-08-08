@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: insane_clown_posse
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: insane_clown_posse
+  category: bandas musicales
+  difficulty: 1
+  answer: Insane Clown Posse
+  acceptedAnswers:
+  - Insane Clown Posse
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABThe Juggla\xBB, de 1992, y llega hasta
+    2010."
+  - "Se mueve dentro de rock; \xABWhat Is A Juggalo?\xBB refleja una energ\xEDa alta
+    y un pulso cercano a 120 BPM."
+  - "Entre sus grabaciones figuran \xABJuggalo Homies\xBB y \xABChop Chop Slide\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABThe Neden Game\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABHokus Pokus\xBB y \xABBoogie Woogie
+    Wu\xBB."

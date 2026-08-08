@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: village_of_the_damned
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: village_of_the_damned
+  category: peliculas
+  difficulty: 0
+  answer: Village of the Damned
+  acceptedAnswers:
+  - Village of the Damned
+  hints:
+  - "Su metraje se acerca a 77 minutos y corresponde al a\xF1o 1960."
+  - "Entre sus compa\xF1\xEDas figura Metro-Goldwyn-Mayer (MGM); sus g\xE9neros principales
+    son terror y ciencia ficci\xF3n."
+  - "Wolf Rilla la dirigi\xF3 con Metro-Goldwyn-Mayer (MGM) entre las compa\xF1\xEDas
+    productoras."
+  - George Sanders interpreta a Gordon Zellaby, mientras Barbara Shelley encarna
+    a Anthea Zellaby.
+  - "El reparto incluye a George Sanders como Gordon Zellaby, Barbara Shelley como
+    Anthea Zellaby y Martin Stephens como David Zellaby bajo la direcci\xF3n de Wolf
+    Rilla."

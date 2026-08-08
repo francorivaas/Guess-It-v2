@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_miseducation_of_cameron_post
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_miseducation_of_cameron_post
+  category: peliculas
+  difficulty: 1
+  answer: The Miseducation of Cameron Post
+  acceptedAnswers:
+  - The Miseducation of Cameron Post
+  - Miseducation of Cameron Post
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2010, dentro de drama. La direcci\xF3n est\xE1 acreditada a Desiree Akhavan."
+  - "El montaje final se extiende unos 91 minutos y aparece catalogado con la se\xF1al
+    Not Rated."
+  - "La producci\xF3n lleg\xF3 en 2018 bajo la participaci\xF3n de Beachside Films."
+  - "La dirigi\xF3 Desiree Akhavan y su figura principal es Chlo\xEB Grace Moretz."
+  - "Pel\xEDcula de 2018 dirigida por Desiree Akhavan, con Chlo\xEB Grace Moretz
+    en el reparto, con guion de Desiree Akhavan."

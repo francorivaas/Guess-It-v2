@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lee_seung_joon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lee_seung_joon
+  category: personas
+  difficulty: 2
+  answer: Lee Seung-joon
+  acceptedAnswers:
+  - Lee Seung-joon
+  hints:
+  - "Trabaj\xF3 en producciones de drama, acci\xF3n y historia a lo largo del per\xEDodo
+    entre 2011 y 2015."
+  - "Particip\xF3 en \xABWar of the Arrows\xBB, dirigida por Kim Han-min y estrenada
+    en 2011."
+  - "En \xABThe Admiral: Roaring Currents\xBB interpret\xF3 a Captain Ahn Wi."
+  - "En \xABThe Accidental Detective\xBB interpret\xF3 a Kim Yong-gyu."
+  - "Interpret\xF3 a Kim Yong-gyu en \xABThe Accidental Detective\xBB y a Reporter
+    1 en \xABThe Whistleblower\xBB."

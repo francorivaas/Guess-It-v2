@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: a_moment_to_remember
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: a_moment_to_remember
+  category: peliculas
+  difficulty: 0
+  answer: A Moment to Remember
+  acceptedAnswers:
+  - A Moment to Remember
+  hints:
+  - "Su metraje se acerca a 144 minutos y corresponde al a\xF1o 2004."
+  - "El relato pertenece a drama y romance, con participaci\xF3n productiva de Corea
+    del Sur."
+  - "John H. Lee firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Jung Woo-sung da vida a Choi Chul-soo y Son Ye-jin a Kim Su-jin.
+  - En esta cinta de 2004 coinciden Jung Woo-sung como Choi Chul-soo, Son Ye-jin
+    como Kim Su-jin y Baek Jong-hak como Seo Yeong-min.

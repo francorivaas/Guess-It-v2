@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: hugh_o_conor
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: hugh_o_conor
+  category: personas
+  difficulty: 1
+  answer: Hugh O'Conor
+  acceptedAnswers:
+  - Hugh O'Conor
+  hints:
+  - "Trabaj\xF3 en producciones de comedia, drama y terror a lo largo del per\xEDodo
+    entre 1993 y 2011."
+  - "Form\xF3 parte del elenco de \xABThe Three Musketeers\xBB, una pel\xEDcula de
+    1993 dirigida por Stephen Herek."
+  - "Dio vida a Anthony Bradford en \xABDeathwatch\xBB."
+  - "Dio vida a Young Mike Blueberry en \xABBlueberry\xBB."
+  - "Es la persona que encarn\xF3 a Young Mike Blueberry en \xABBlueberry\xBB y a
+    Dmitry en \xABBotched\xBB."

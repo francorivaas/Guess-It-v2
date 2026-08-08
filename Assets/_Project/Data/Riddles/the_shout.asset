@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_shout
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_shout
+  category: peliculas
+  difficulty: 1
+  answer: The Shout
+  acceptedAnswers:
+  - The Shout
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1970 y su duraci\xF3n ronda los 86 minutos."
+  - "Se encuadra en terror y drama y tiene origen de producci\xF3n en Reino Unido."
+  - "Jerzy Skolimowski firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Crossley, interpretado por Alan Bates, y Rachel
+    Fielding, a cargo de Susannah York.
+  - En esta cinta de 1978 coinciden Alan Bates como Crossley, Susannah York como
+    Rachel Fielding y John Hurt como Anthony Fielding.

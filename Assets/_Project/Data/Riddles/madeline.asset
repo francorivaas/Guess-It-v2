@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: madeline
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: madeline
+  category: peliculas
+  difficulty: 1
+  answer: Madeline
+  acceptedAnswers:
+  - Madeline
+  hints:
+  - "Es una producci\xF3n de 1998 con una duraci\xF3n aproximada de 89 minutos."
+  - "Se encuadra en comedia, drama y familiar y tiene origen de producci\xF3n en
+    Estados Unidos y Francia."
+  - "Daisy von Scherler Mayer la dirigi\xF3 con TriStar Pictures entre las compa\xF1\xEDas
+    productoras."
+  - Hatty Jones y Frances McDormand encabezan el reparto.
+  - "Daisy von Scherler Mayer dirige a Hatty Jones, Frances McDormand como Miss Clavel
+    y Nigel Hawthorne como Lord Covington en esta pel\xEDcula de 1998."

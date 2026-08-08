@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: corlu
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: corlu
+  category: lugares
+  difficulty: 0
+  answer: "\xC7orlu"
+  acceptedAnswers:
+  - "\xC7orlu"
+  - corlu
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 41,15 grados del ecuador."
+  - "Su poblaci\xF3n registrada se aproxima a 279.300 habitantes y pertenece a Tekirda\u011F."
+  - "Cumple una funci\xF3n de capital local dentro de Tekirda\u011F. Su longitud
+    geogr\xE1fica ronda los 27,80\xB0 este."
+  - "Esta ciudad de Turqu\xEDa est\xE1 en Tekirda\u011F y se sit\xFAa a 41,1\xB0
+    norte."
+  - "En Turqu\xEDa, dentro de Tekirda\u011F, esta ciudad de unos 279 mil est\xE1
+    cerca de 41,1\xB0 norte y 27,8\xB0 este."

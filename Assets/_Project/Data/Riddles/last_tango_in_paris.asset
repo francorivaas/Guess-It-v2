@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: last_tango_in_paris
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: last_tango_in_paris
+  category: peliculas
+  difficulty: 0
+  answer: Last Tango in Paris
+  acceptedAnswers:
+  - Last Tango in Paris
+  - Ultimo tango a Parigi
+  hints:
+  - "Su metraje se acerca a 129 minutos y corresponde al a\xF1o 1972."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama y romance; la producci\xF3n se
+    vincula con Francia y Italia."
+  - "Detr\xE1s de la c\xE1mara estuvo Bernardo Bertolucci."
+  - En el reparto, Marlon Brando da vida a Paul y Maria Schneider a Jeanne.
+  - "Bernardo Bertolucci dirige a Marlon Brando como Paul, Maria Schneider como Jeanne
+    y Jean-Pierre L\xE9aud como Tom en esta pel\xEDcula de 1972."

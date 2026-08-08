@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gilly_gilchrist
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gilly_gilchrist
+  category: personas
+  difficulty: 2
+  answer: Gilly Gilchrist
+  acceptedAnswers:
+  - Gilly Gilchrist
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1984 y 2013 y recorren g\xE9neros
+    como drama, comedia y m\xFAsica."
+  - "Form\xF3 parte del elenco de \xABStarred Up\xBB, una pel\xEDcula de 2013 dirigida
+    por David Mackenzie."
+  - "Su papel en \xABYou Instead\xBB fue el de Bruce the Roadie."
+  - "Dio vida a Rufus en \xABComfort and Joy\xBB."
+  - "Sus papeles incluyen a Rufus en \xABComfort and Joy\xBB y a Insp. Ransome en
+    \xABDoors Open\xBB."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: colin_friels
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: colin_friels
+  category: personas
+  difficulty: 2
+  answer: Colin Friels
+  acceptedAnswers:
+  - Colin Friels
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1994 y 2001 y recorren g\xE9neros
+    como comedia, drama y misterio."
+  - "Uno de sus trabajos fue \xABDark City\xBB (1998), bajo la direcci\xF3n de Alex
+    Proyas."
+  - "Dio vida a David Myers en \xABThe Man Who Sued God\xBB."
+  - "Dio vida a Morgan Leafy, 1st Secretary of the High Commissioner en \xABA Good
+    Man in Africa\xBB."
+  - "Sus papeles incluyen a Morgan Leafy, 1st Secretary of the High Commissioner
+    en \xABA Good Man in Africa\xBB y a Errol en \xABCosi\xBB."

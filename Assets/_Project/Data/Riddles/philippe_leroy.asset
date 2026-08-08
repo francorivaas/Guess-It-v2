@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: philippe_leroy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: philippe_leroy
+  category: personas
+  difficulty: 1
+  answer: Philippe Leroy
+  acceptedAnswers:
+  - Philippe Leroy
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1960 y 1977 y recorren g\xE9neros
+    como drama, crimen y acci\xF3n."
+  - "Uno de sus trabajos fue \xABLe Trou\xBB (1960), bajo la direcci\xF3n de Jacques
+    Becker."
+  - "En \xABThe Night Porter\xBB interpret\xF3 a Klaus."
+  - "Su papel en \xABThe Married Woman\xBB fue el de Pierre, the Husband."
+  - "Sus papeles incluyen a Pierre, the Husband en \xABThe Married Woman\xBB y a
+    La Motte en \xABIl soldato di ventura\xBB."

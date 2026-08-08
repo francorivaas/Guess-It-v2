@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: good_old_daze
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: good_old_daze
+  category: peliculas
+  difficulty: 1
+  answer: Good Old Daze
+  acceptedAnswers:
+  - Good Old Daze
+  - "Le p\xE9ril jeune"
+  - le peril jeune
+  hints:
+  - "Combina un estreno de 1994 con di\xE1logos originalmente en franc\xE9s."
+  - "Entre sus compa\xF1\xEDas figura La Sept-Arte; sus g\xE9neros principales son
+    comedia."
+  - "C\xE9dric Klapisch firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Romain Duris interpreta a Tomasi, mientras Vincent Elbaz encarna a Alain Chabert.
+  - "El reparto incluye a Romain Duris como Tomasi, Vincent Elbaz como Alain Chabert
+    y Nicolas Koretzky como Maurice 'Momo' Zareba bajo la direcci\xF3n de C\xE9dric
+    Klapisch."

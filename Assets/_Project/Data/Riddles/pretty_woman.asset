@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pretty_woman
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pretty_woman
+  category: peliculas
+  difficulty: 0
+  answer: Mujer bonita
+  acceptedAnswers:
+  - Mujer bonita
+  - pretty woman
+  hints:
+  - "Esta producci\xF3n de Estados Unidos, lanzada en 1990, pertenece al g\xE9nero
+    comedia rom\xE1ntica."
+  - "La realizaci\xF3n fue encabezada por Garry Marshall."
+  - El reparto o los personajes clave incluyen a Vivian, Edward y Kit.
+  - "El conflicto principal nace cuando un empresario contrata a una mujer para acompa\xF1arlo
+    y ambos cambian su acuerdo."
+  - Resulta inconfundible por una compra de ropa en Beverly Hills y una limusina
+    blanca marcan el romance.

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: citizen_kane
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: citizen_kane
+  category: peliculas
+  difficulty: 2
+  answer: El ciudadano Kane
+  acceptedAnswers:
+  - El ciudadano Kane
+  - citizen kane
+  hints:
+  - "Lleg\xF3 a las salas en 1941 como una obra de drama y misterio vinculada a Estados
+    Unidos."
+  - "La realizaci\xF3n fue encabezada por Orson Welles."
+  - Charles Foster Kane, Susan Alexander y Jedediah Leland ocupan el centro de la
+    historia.
+  - "Su historia sigue periodistas reconstruyen la vida de un magnate para comprender
+    su \xFAltima palabra."
+  - "Una imagen o situaci\xF3n decisiva es un trineo de infancia explica el significado
+    de Rosebud."

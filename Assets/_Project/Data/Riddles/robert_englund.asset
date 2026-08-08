@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: robert_englund
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: robert_englund
+  category: personas
+  difficulty: 0
+  answer: Robert Englund
+  acceptedAnswers:
+  - Robert Englund
+  hints:
+  - "Es una figura del cine cuya actividad registrada se extiende entre 1985 y 2003
+    y toca principalmente terror y fantas\xEDa."
+  - "La pel\xEDcula \xABThe Phantom of the Opera\xBB forma parte de una carrera conectada
+    con Estados Unidos y Sud\xE1frica."
+  - "Otros dos t\xEDtulos de su carrera son \xABA Nightmare on Elm Street 4: The
+    Dream Master\xBB y \xABA Nightmare on Elm Street 2: Freddy's Revenge\xBB."
+  - "Dos referencias fuertes de su carrera son \xABFreddy vs. Jason\xBB y \xABA Nightmare
+    on Elm Street 2: Freddy's Revenge\xBB."
+  - "Profesional del cine relacionado con \xABFreddy vs. Jason\xBB, \xABA Nightmare
+    on Elm Street 2: Freddy's Revenge\xBB y \xABA Nightmare on Elm Street 4: The
+    Dream Master\xBB en tareas de interpretaci\xF3n y direcci\xF3n."

@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: lionel_messi
   m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
   id: lionel_messi
-  category: celebridades
+  category: personas
   difficulty: 0
   answer: Lionel Messi
   acceptedAnswers:
   - Lionel Messi
-  - Messi
-  - Leo Messi
-  - "Lionel Andr\xE9s Messi"
   hints:
-  - "Es un jugador de f\xFAtbol"
-  - Su equipo tiene una copa del mundo
-  - Es un jugador de Argentina
-  - "Est\xE1 actualmente activo"
-  - "Actualmente est\xE1 jugando la copa del mundo"
+  - "Su etapa de mayor influencia se desarroll\xF3 desde comienzos del siglo XXI."
+  - "Naci\xF3 en Argentina y orient\xF3 su trabajo hacia f\xFAtbol."
+  - "Una contribuci\xF3n central fue ganar m\xFAltiples Balones de Oro y una Copa
+    del Mundo."
+  - "El dato que reduce mucho las opciones es el n\xFAmero 10, el Barcelona y la
+    selecci\xF3n argentina."
+  - "La persona buscada es la gran referencia de f\xFAtbol asociada a el n\xFAmero
+    10, el Barcelona y la selecci\xF3n argentina."

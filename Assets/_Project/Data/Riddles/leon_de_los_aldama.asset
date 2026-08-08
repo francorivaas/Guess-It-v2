@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: leon_de_los_aldama
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: leon_de_los_aldama
+  category: lugares
+  difficulty: 0
+  answer: "Le\xF3n de los Aldama"
+  acceptedAnswers:
+  - "Le\xF3n de los Aldama"
+  - leon de los aldama
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 21,12 grados del ecuador."
+  - Su escala urbana ronda los 1,6 millones de habitantes y se integra en Guanajuato.
+  - "Cumple una funci\xF3n de capital local dentro de Guanajuato. Se halla aproximadamente
+    a 21,1\xB0 norte."
+  - "Esta ciudad de M\xE9xico est\xE1 en Guanajuato y se sit\xFAa a 21,1\xB0 norte."
+  - "Sus coordenadas rondan 21,1\xB0 norte y 101,7\xB0 oeste; pertenece a Guanajuato,
+    en M\xE9xico."

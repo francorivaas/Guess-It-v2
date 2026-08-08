@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: david_bennent
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: david_bennent
+  category: personas
+  difficulty: 1
+  answer: David Bennent
+  acceptedAnswers:
+  - David Bennent
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1979 y 2016 y recorren g\xE9neros
+    como drama, fantas\xEDa y aventura."
+  - "Particip\xF3 en \xABLegend\xBB, dirigida por Ridley Scott y estrenada en 1985."
+  - "En \xABThe Tin Drum\xBB interpret\xF3 a Oskar Matzerath."
+  - "Su papel en \xABPlanetarium\xBB fue el de Juncker."
+  - "Interpret\xF3 a Juncker en \xABPlanetarium\xBB y a Oja en \xABFog in August\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: barry_dennen
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: barry_dennen
+  category: personas
+  difficulty: 1
+  answer: Barry Dennen
+  acceptedAnswers:
+  - Barry Dennen
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1974 y 1982, con presencia frecuente
+    en terror, crimen y suspenso."
+  - "Particip\xF3 en \xABThe Shining\xBB, dirigida por Stanley Kubrick y estrenada
+    en 1980."
+  - "En \xABThe Dark Crystal\xBB interpret\xF3 a Chamberlain / Podling (voice)."
+  - "Dio vida a Gerry Blount en \xABMadhouse\xBB."
+  - "Sus papeles incluyen a Gerry Blount en \xABMadhouse\xBB y a Julian en \xABBrannigan\xBB."

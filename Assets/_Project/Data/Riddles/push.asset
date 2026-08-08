@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: push
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: push
+  category: peliculas
+  difficulty: 0
+  answer: Push
+  acceptedAnswers:
+  - Push
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 2000, vinculada al
+    g\xE9nero de acci\xF3n. La direcci\xF3n est\xE1 acreditada a Paul McGuigan."
+  - "Su duraci\xF3n ronda los 111 minutos; la clasificaci\xF3n registrada es PG-13.
+    Entre sus int\xE9rpretes figura Camilla Belle."
+  - "El a\xF1o 2009 y el sello Summit Entertainment forman parte de sus datos de
+    producci\xF3n."
+  - "La dirigi\xF3 Paul McGuigan y su figura principal es Camilla Belle."
+  - "Producci\xF3n de acci\xF3n estrenada en 2009: direcci\xF3n de Paul McGuigan
+    y actuaciones de Camilla Belle, con guion de David Bourla."

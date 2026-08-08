@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: timothy_hutton
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: timothy_hutton
+  category: personas
+  difficulty: 0
+  answer: Timothy Hutton
+  acceptedAnswers:
+  - Timothy Hutton
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1983 y 2010, con presencia frecuente
+    en drama, suspenso y crimen."
+  - "Particip\xF3 en \xABThe Ghost Writer\xBB, dirigida por Roman Polanski y estrenada
+    en 2010."
+  - "Su papel en \xABThe General's Daughter\xBB fue el de Col. William Kent."
+  - "Su papel en \xABFrench Kiss\xBB fue el de Charlie."
+  - "Es la persona que encarn\xF3 a Charlie en \xABFrench Kiss\xBB y a Paul Gebhard
+    en \xABKinsey\xBB."

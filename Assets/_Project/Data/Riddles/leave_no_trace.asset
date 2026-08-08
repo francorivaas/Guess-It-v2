@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: leave_no_trace
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: leave_no_trace
+  category: peliculas
+  difficulty: 0
+  answer: Leave No Trace
+  acceptedAnswers:
+  - Leave No Trace
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2010, dentro de aventura. La direcci\xF3n est\xE1 acreditada a Debra Granik."
+  - "Su duraci\xF3n ronda los 109 minutos; la clasificaci\xF3n registrada es PG.
+    Entre sus int\xE9rpretes figura Thomasin McKenzie."
+  - "Se estren\xF3 en 2018 y estuvo asociada a la compa\xF1\xEDa BRON Studios."
+  - "Debra Granik estuvo a cargo de la direcci\xF3n, con Thomasin McKenzie al frente
+    del elenco."
+  - "Producci\xF3n de aventura estrenada en 2018: direcci\xF3n de Debra Granik y
+    actuaciones de Thomasin McKenzie, con guion de Debra Granik."

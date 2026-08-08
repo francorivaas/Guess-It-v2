@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jason_clarke
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jason_clarke
+  category: personas
+  difficulty: 0
+  answer: Jason Clarke
+  acceptedAnswers:
+  - Jason Clarke
+  hints:
+  - "En Rabbit-Proof Fence interpret\xF3 a Constable Riggs, en una pel\xEDcula estrenada
+    en 2002."
+  - "Su carrera en cine abarca de 2002 a 2015 y recorre ciencia ficci\xF3n y acci\xF3n."
+  - "Comparti\xF3 reparto con Christian Bale en Public Enemies."
+  - "En The Great Gatsby interpret\xF3 a George Wilson."
+  - Aparece en Dawn of the Planet of the Apes y Terminator Genisys.

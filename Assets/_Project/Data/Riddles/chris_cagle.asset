@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chris_cagle
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chris_cagle
+  category: bandas musicales
+  difficulty: 1
+  answer: Chris Cagle
+  acceptedAnswers:
+  - Chris Cagle
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABI Breathe In, I Breathe Out\xBB, de 2000,
+    y llega hasta 2012."
+  - "Se mueve dentro de country; \xABLook At What I've Done\xBB refleja una energ\xEDa
+    alta y un pulso cercano a 141 BPM."
+  - "Entre sus grabaciones figuran \xABWhat A Beautiful Day - Final Version\xBB y
+    \xABGot My Country On\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABChicks Dig It - Single Edit\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABWhat Kinda Gone\xBB y \xABLet There
+    Be Cowgirls\xBB."

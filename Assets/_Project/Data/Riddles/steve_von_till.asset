@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: steve_von_till
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: steve_von_till
+  category: bandas musicales
+  difficulty: 0
+  answer: Steve Von Till
+  acceptedAnswers:
+  - Steve Von Till
+  hints:
+  - "Forma parte de la escena de acoustic/folk de Estados Unidos desde la d\xE9cada
+    de 1980."
+  - "Comenz\xF3 en 1989 desde Oakland, California, con una trayectoria clasificada
+    como activa."
+  - Combina un origen en Oakland, California, Estados Unidos, con una propuesta de
+    acoustic/folk.
+  - "Su discograf\xEDa se relaciona con Neurot Recordings y mantiene actividad registrada
+    desde 1989 hasta el presente."
+  - Es la banda de acoustic/folk formada en 1989 en Oakland, California, Estados
+    Unidos, vinculada a Neurot Recordings.

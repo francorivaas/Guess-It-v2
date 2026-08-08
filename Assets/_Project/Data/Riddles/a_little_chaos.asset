@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: a_little_chaos
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: a_little_chaos
+  category: peliculas
+  difficulty: 0
+  answer: A Little Chaos
+  acceptedAnswers:
+  - A Little Chaos
+  hints:
+  - "Su metraje se acerca a 117 minutos y corresponde al a\xF1o 2014."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama y romance; la producci\xF3n se
+    vincula con Reino Unido."
+  - "Detr\xE1s de la c\xE1mara estuvo Alan Rickman."
+  - Dos personajes centrales son Sabine De Barra, interpretado por Kate Winslet,
+    y Le Roi Louis XIV, a cargo de Alan Rickman.
+  - En esta cinta de 2014 coinciden Kate Winslet como Sabine De Barra, Alan Rickman
+    como Le Roi Louis XIV y Stanley Tucci como Duke Philippe d'Orleans.

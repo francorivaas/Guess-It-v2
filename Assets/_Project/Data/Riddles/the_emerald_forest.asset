@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_emerald_forest
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_emerald_forest
+  category: peliculas
+  difficulty: 0
+  answer: The Emerald Forest
+  acceptedAnswers:
+  - The Emerald Forest
+  hints:
+  - "Combina un estreno de 1985 con di\xE1logos originalmente en ingl\xE9s."
+  - "Su combinaci\xF3n de g\xE9neros incluye acci\xF3n, aventura y drama; la producci\xF3n
+    se vincula con Reino Unido."
+  - "John Boorman la dirigi\xF3 con Embassy Pictures Corporation entre las compa\xF1\xEDas
+    productoras."
+  - Dos personajes centrales son Bill Markham, interpretado por Powers Boothe, y
+    Tomme, a cargo de Charley Boorman.
+  - "El reparto incluye a Powers Boothe como Bill Markham, Charley Boorman como Tomme
+    y Meg Foster como Jean Markham bajo la direcci\xF3n de John Boorman."

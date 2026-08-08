@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: abu_hummus
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: abu_hummus
+  category: lugares
+  difficulty: 0
+  answer: "Ab\u016B \u1E28ummu\u015F"
+  acceptedAnswers:
+  - "Ab\u016B \u1E28ummu\u015F"
+  - abu hummus
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 31,10 grados del ecuador."
+  - "Su escala urbana ronda los 569 mil de habitantes y se integra en Al Bu\u1E29ayrah."
+  - "Administrativamente pertenece a Al Bu\u1E29ayrah. No es la capital nacional
+    de Egipto."
+  - "Pertenece a Egipto y forma parte de Al Bu\u1E29ayrah; supera aproximadamente
+    los 569.200 habitantes."
+  - "Es una ciudad de Egipto, en Al Bu\u1E29ayrah, situada aproximadamente en 31,1\xB0
+    norte y 30,3\xB0 este."

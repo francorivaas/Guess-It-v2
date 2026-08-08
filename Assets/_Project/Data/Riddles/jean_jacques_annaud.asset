@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jean_jacques_annaud
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jean_jacques_annaud
+  category: personas
+  difficulty: 0
+  answer: Jean-Jacques Annaud
+  acceptedAnswers:
+  - Jean-Jacques Annaud
+  hints:
+  - "Su filmograf\xEDa como realizador recorre drama, aventura y b\xE9lico durante
+    el per\xEDodo entre 1976 y 2015."
+  - "Una de sus pel\xEDculas es \xABEnemy at the Gates\xBB, estrenada en 2001."
+  - "Tambi\xE9n dirigi\xF3 \xABThe Name of the Rose\xBB, del a\xF1o 1986."
+  - "Dos pel\xEDculas que llevan su firma son \xABThe Name of the Rose\xBB y \xABTwo
+    Brothers\xBB."
+  - "Su filmograf\xEDa re\xFAne \xABEnemy at the Gates\xBB, \xABTwo Brothers\xBB
+    y \xABWolf Totem\xBB."

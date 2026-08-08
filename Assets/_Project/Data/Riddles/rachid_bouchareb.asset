@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rachid_bouchareb
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rachid_bouchareb
+  category: personas
+  difficulty: 1
+  answer: Rachid Bouchareb
+  acceptedAnswers:
+  - Rachid Bouchareb
+  hints:
+  - "Su filmograf\xEDa como realizador recorre drama, historia y b\xE9lico durante
+    el per\xEDodo entre 2006 y 2016."
+  - "Estuvo al frente de \xABDays of Glory\xBB (2006)."
+  - "Su cat\xE1logo incluye \xABTwo Men in Town\xBB adem\xE1s de la obra anterior."
+  - "Su nombre aparece en la direcci\xF3n de \xABDays of Glory\xBB y \xABTwo Men
+    in Town\xBB."
+  - "Dirigi\xF3 \xABDays of Glory\xBB, \xABTwo Men in Town\xBB y \xABLondon River\xBB."

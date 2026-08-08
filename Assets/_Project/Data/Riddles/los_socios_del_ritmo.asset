@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: los_socios_del_ritmo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: los_socios_del_ritmo
+  category: bandas musicales
+  difficulty: 1
+  answer: Los Socios Del Ritmo
+  acceptedAnswers:
+  - Los Socios Del Ritmo
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABEl Bodeguero\xBB, de 1996, y llega hasta
+    2004."
+  - "\xABA Punto de Caramelo\xBB presenta una energ\xEDa media y un pulso cercano
+    a 137 BPM."
+  - "Entre sus grabaciones figuran \xABMama Cumbia\xBB y \xABVamos A Platicar\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABAmor de Internet\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABLlorar\xBB y \xABFelicidad\xBB."

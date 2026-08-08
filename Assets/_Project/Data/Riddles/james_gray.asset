@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: james_gray
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: james_gray
+  category: personas
+  difficulty: 0
+  answer: James Gray
+  acceptedAnswers:
+  - James Gray
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1994 y 2019 y se concentra sobre
+    todo en crimen y drama."
+  - "Una pista lateral de su filmograf\xEDa es \xABLittle Odessa\xBB, dentro de Estados
+    Unidos y China."
+  - "Su nombre figura en los cr\xE9ditos de \xABThe Lost City of Z\xBB junto con
+    \xABWe Own the Night\xBB."
+  - "Los t\xEDtulos \xABAd Astra\xBB y \xABWe Own the Night\xBB ofrecen las pistas
+    m\xE1s directas."
+  - "Persona con cr\xE9ditos de direcci\xF3n y guion en \xABAd Astra\xBB, \xABWe
+    Own the Night\xBB y \xABThe Lost City of Z\xBB."

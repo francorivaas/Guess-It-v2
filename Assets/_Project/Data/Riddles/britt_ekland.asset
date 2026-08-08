@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: britt_ekland
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: britt_ekland
+  category: personas
+  difficulty: 1
+  answer: Britt Ekland
+  acceptedAnswers:
+  - Britt Ekland
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1967 y 1989, con presencia frecuente
+    en terror, misterio y suspenso."
+  - "Form\xF3 parte del elenco de \xABThe Wicker Man\xBB, una pel\xEDcula de 1973
+    dirigida por Robin Hardy."
+  - "En \xABScandal\xBB interpret\xF3 a Mariella Novotny."
+  - "En \xABAsylum\xBB interpret\xF3 a Lucy."
+  - "Interpret\xF3 a Lucy en \xABAsylum\xBB y a Busotsky's Mother en \xABThe Monster
+    Club\xBB."

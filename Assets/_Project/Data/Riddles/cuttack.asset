@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cuttack
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cuttack
+  category: lugares
+  difficulty: 0
+  answer: Cuttack
+  acceptedAnswers:
+  - Cuttack
+  hints:
+  - "Est\xE1 al este de Greenwich; su latitud ronda los 20,52\xB0 norte."
+  - Su escala urbana ronda los 606 mil de habitantes y se integra en Odisha.
+  - "No es la capital nacional de India. Se halla aproximadamente a 20,5\xB0 norte."
+  - "Se encuentra en India, dentro de Odisha, con una poblaci\xF3n cercana a 606
+    mil."
+  - "En India, dentro de Odisha, esta ciudad de unos 606 mil est\xE1 cerca de 20,5\xB0
+    norte y 85,8\xB0 este."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: michel_piccoli
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: michel_piccoli
+  category: personas
+  difficulty: 0
+  answer: Michel Piccoli
+  acceptedAnswers:
+  - Michel Piccoli
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1954 y 2012, especialmente dentro
+    de drama, comedia y romance."
+  - "Particip\xF3 en \xABBelle de Jour\xBB, dirigida por Luis Bu\xF1uel y estrenada
+    en 1967."
+  - "Su papel en \xABThe Discreet Charm of the Bourgeoisie\xBB fue el de Le Ministre."
+  - "Dio vida a Paul Javal en \xABContempt\xBB."
+  - "Interpret\xF3 a Paul Javal en \xABContempt\xBB y a Melville en \xABWe Have a
+    Pope\xBB."

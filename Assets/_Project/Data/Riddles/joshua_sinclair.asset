@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: joshua_sinclair
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: joshua_sinclair
+  category: personas
+  difficulty: 2
+  answer: Joshua Sinclair
+  acceptedAnswers:
+  - Joshua Sinclair
+  hints:
+  - "Trabaj\xF3 en producciones de acci\xF3n, terror y suspenso a lo largo del per\xEDodo
+    entre 1971 y 1981."
+  - "Uno de sus trabajos fue \xABKeoma\xBB (1976), bajo la direcci\xF3n de Enzo G.
+    Castellari."
+  - "En \xABThe Last Shark\xBB interpret\xF3 a Mayor William Wells."
+  - "En \xABHitch Hike\xBB interpret\xF3 a Oaks."
+  - "Interpret\xF3 a Oaks en \xABHitch Hike\xBB y a John en \xABLady Frankenstein\xBB."

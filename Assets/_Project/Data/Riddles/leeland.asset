@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: leeland
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: leeland
+  category: bandas musicales
+  difficulty: 0
+  answer: Leeland
+  acceptedAnswers:
+  - Leeland
+  hints:
+  - "Su perfil sonoro combina m\xFAsicas del mundo y rock alternativo con un tono
+    emocional m\xE1s bien sombr\xEDo."
+  - "Entre sus lanzamientos aparece \xABBetter Word (Live)\xBB."
+  - Entre sus colaboraciones registradas figuran TAYA.
+  - "Las referencias directas son \xABWay Maker - Live\xBB y \xABWay Maker - Single
+    Version\xBB."
+  - "La respuesta es el nombre que firma \xABWay Maker - Live\xBB, \xABWay Maker
+    - Single Version\xBB y \xABHeart & Flesh\xBB."

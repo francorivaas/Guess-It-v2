@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: robert_clouse
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: robert_clouse
+  category: personas
+  difficulty: 2
+  answer: Robert Clouse
+  acceptedAnswers:
+  - Robert Clouse
+  hints:
+  - "Firm\xF3 pel\xEDculas entre 1973 y 1985 y trabaj\xF3 con frecuencia en acci\xF3n,
+    suspenso y drama."
+  - "Estuvo al frente de \xABEnter the Dragon\xBB (1973)."
+  - "Su cat\xE1logo incluye \xABGame of Death\xBB adem\xE1s de la obra anterior."
+  - "Dos pel\xEDculas que llevan su firma son \xABGame of Death\xBB y \xABThe Big
+    Brawl\xBB."
+  - "Es el realizador detr\xE1s de \xABGame of Death\xBB, \xABThe Big Brawl\xBB y
+    \xABGymkata\xBB."

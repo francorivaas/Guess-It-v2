@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: let_it_be
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: let_it_be
+  category: peliculas
+  difficulty: 1
+  answer: Let It Be
+  acceptedAnswers:
+  - Let It Be
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1970 dura cerca de 81 minutos."
+  - "El relato pertenece a documental y m\xFAsica, con participaci\xF3n productiva
+    de Reino Unido."
+  - "Michael Lindsay-Hogg firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, John Lennon da vida a Himself (The Beatles) y Paul McCartney a
+    Himself (The Beatles).
+  - "El reparto incluye a John Lennon como Himself (The Beatles), Paul McCartney
+    como Himself (The Beatles) y George Harrison como Himself (The Beatles) bajo
+    la direcci\xF3n de Michael Lindsay-Hogg."

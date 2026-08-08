@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: haora
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: haora
+  category: lugares
+  difficulty: 0
+  answer: "H\u0101ora"
+  acceptedAnswers:
+  - "H\u0101ora"
+  - haora
+  hints:
+  - "Est\xE1 al este de Greenwich; su latitud ronda los 22,58\xB0 norte."
+  - "Es un n\xFAcleo urbano de alrededor de 1,1 millones de habitantes dentro de
+    West Bengal."
+  - Administrativamente pertenece a West Bengal. No es la capital nacional de India.
+  - "Se encuentra en India, dentro de West Bengal, con una poblaci\xF3n cercana a
+    1,1 millones."
+  - "En India, dentro de West Bengal, esta ciudad de unos 1,1 millones est\xE1 cerca
+    de 22,6\xB0 norte y 88,3\xB0 este."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tongjin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tongjin
+  category: lugares
+  difficulty: 0
+  answer: Tongjin
+  acceptedAnswers:
+  - Tongjin
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 37,23 grados del ecuador."
+  - Su escala urbana ronda los 1,1 millones de habitantes y se integra en Gyeonggi.
+  - Administrativamente pertenece a Gyeonggi. No es la capital nacional de Corea
+    del Sur.
+  - "Esta ciudad de Corea del Sur est\xE1 en Gyeonggi y se sit\xFAa a 37,2\xB0 norte."
+  - "Es una ciudad de Corea del Sur, en Gyeonggi, situada aproximadamente en 37,2\xB0
+    norte y 127,2\xB0 este."

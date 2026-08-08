@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jimmy_hanley
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jimmy_hanley
+  category: personas
+  difficulty: 1
+  answer: Jimmy Hanley
+  acceptedAnswers:
+  - Jimmy Hanley
+  hints:
+  - "Trabaj\xF3 en producciones de drama, suspenso y ciencia ficci\xF3n a lo largo
+    del per\xEDodo entre 1935 y 1968."
+  - "Form\xF3 parte del elenco de \xABGaslight\xBB, una pel\xEDcula de 1940 dirigida
+    por Thorold Dickinson."
+  - "En \xABThe Blue Lamp\xBB interpret\xF3 a PC Andy Mitchell."
+  - "En \xABThe Way Ahead\xBB interpret\xF3 a Pvt. Geoffrey Stainer."
+  - "Es la persona que encarn\xF3 a Pvt. Geoffrey Stainer en \xABThe Way Ahead\xBB
+    y a Patrick, the bartender en \xABThe Lost Continent\xBB."

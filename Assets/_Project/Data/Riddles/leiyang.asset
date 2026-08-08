@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: leiyang
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: leiyang
+  category: lugares
+  difficulty: 0
+  answer: Leiyang
+  acceptedAnswers:
+  - Leiyang
+  hints:
+  - "El mapa la sit\xFAa en el hemisferio norte, al este de Greenwich. Queda aproximadamente
+    a 2.941 kil\xF3metros del ecuador."
+  - "Con cerca de 1,1 millones de habitantes, pertenece geogr\xE1ficamente a Asia."
+  - "El punto urbano aparece cerca de 26.4\xB0 norte, 112.9\xB0 este."
+  - "La divisi\xF3n administrativa es Hunan y el pa\xEDs es China. Su distancia angular
+    al meridiano de Greenwich equivale a unos 11.251 kil\xF3metros en esa latitud."
+  - Es una capital local de Hunan, en China, con alrededor de 1,1 millones de habitantes.

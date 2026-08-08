@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gian_maria_volonte
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gian_maria_volonte
+  category: personas
+  difficulty: 0
+  answer: "Gian Maria Volont\xE9"
+  acceptedAnswers:
+  - "Gian Maria Volont\xE9"
+  - gian maria volonte
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1960 y 1979, con presencia frecuente
+    en drama, crimen y suspenso."
+  - "Uno de sus trabajos fue \xABLe Cercle Rouge\xBB (1970), bajo la direcci\xF3n
+    de Jean-Pierre Melville."
+  - "Su papel en \xABA Bullet for the General\xBB fue el de Chuncho Munos / 'El Chuncho'."
+  - "En \xABSacco & Vanzetti\xBB interpret\xF3 a Bartolomeo Vanzetti."
+  - "Sus papeles incluyen a Bartolomeo Vanzetti en \xABSacco & Vanzetti\xBB y a Lt.
+    Ottolenghi en \xABMany Wars Ago\xBB."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kibanseke_premiere
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kibanseke_premiere
+  category: lugares
+  difficulty: 0
+  answer: "Kibanseke Premi\xE8re"
+  acceptedAnswers:
+  - "Kibanseke Premi\xE8re"
+  - kibanseke premiere
+  hints:
+  - "Su posici\xF3n est\xE1 al sur del ecuador, a unos 4,44 grados del ecuador."
+  - "Su poblaci\xF3n registrada se aproxima a 946.400 habitantes y pertenece a Kinshasa."
+  - "Administrativamente pertenece a Kinshasa. No es la capital nacional de Rep\xFAblica
+    Democr\xE1tica del Congo."
+  - "Pertenece a Rep\xFAblica Democr\xE1tica del Congo y forma parte de Kinshasa;
+    supera aproximadamente los 946.400 habitantes."
+  - "Sus coordenadas rondan 4,4\xB0 sur y 15,4\xB0 este; pertenece a Kinshasa, en
+    Rep\xFAblica Democr\xE1tica del Congo."

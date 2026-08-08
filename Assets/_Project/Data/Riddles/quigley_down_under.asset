@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: quigley_down_under
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: quigley_down_under
+  category: peliculas
+  difficulty: 1
+  answer: Quigley Down Under
+  acceptedAnswers:
+  - Quigley Down Under
+  hints:
+  - "Pertenece al cine de Australia y se ubica temporalmente en la d\xE9cada de 1990,
+    dentro de acci\xF3n."
+  - "Su duraci\xF3n ronda los 119 minutos; la clasificaci\xF3n registrada es PG-13.
+    La direcci\xF3n est\xE1 acreditada a Simon Wincer."
+  - "La producci\xF3n lleg\xF3 en 1990 bajo la participaci\xF3n de Path\xE9 Entertainment."
+  - "La dirigi\xF3 Simon Wincer y su figura principal es Tom Selleck."
+  - "Producci\xF3n de acci\xF3n estrenada en 1990: direcci\xF3n de Simon Wincer y
+    actuaciones de Tom Selleck, con guion de John Hill."

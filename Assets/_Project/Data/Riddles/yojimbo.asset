@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: yojimbo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: yojimbo
+  category: peliculas
+  difficulty: 0
+  answer: Yojimbo
+  acceptedAnswers:
+  - Yojimbo
+  hints:
+  - "Su metraje se acerca a 110 minutos y corresponde al a\xF1o 1961."
+  - "El relato pertenece a drama y suspenso, con participaci\xF3n productiva de Jap\xF3n."
+  - "Akira Kurosawa la dirigi\xF3 con Toho Company entre las compa\xF1\xEDas productoras."
+  - "Toshir\u014D Mifune interpreta a Sanjuro Kuwabatake / The Samurai, mientras
+    Tatsuya Nakadai encarna a Unosuke, gunfighter."
+  - "En esta cinta de 1961 coinciden Toshir\u014D Mifune como Sanjuro Kuwabatake
+    / The Samurai, Tatsuya Nakadai como Unosuke, gunfighter y Y\xF4ko Tsukasa como
+    Nui."

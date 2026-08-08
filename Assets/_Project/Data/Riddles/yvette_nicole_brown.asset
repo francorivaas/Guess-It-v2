@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: yvette_nicole_brown
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: yvette_nicole_brown
+  category: personas
+  difficulty: 2
+  answer: Yvette Nicole Brown
+  acceptedAnswers:
+  - Yvette Nicole Brown
+  hints:
+  - "En Hotel for Dogs interpret\xF3 a Ms. Camwell, en una pel\xEDcula estrenada
+    en 2009."
+  - Su carrera en cine abarca de 2009 a 2010 y recorre comedia y drama.
+  - "Comparti\xF3 reparto con Jude Law en Repo Men. Otro cr\xE9dito es Repo Men."
+  - "En The Ugly Truth interpret\xF3 a Dori."
+  - Aparece en (500) Days of Summer y Repo Men.

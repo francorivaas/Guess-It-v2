@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: meghan_heffern
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: meghan_heffern
+  category: personas
+  difficulty: 1
+  answer: Meghan Heffern
+  acceptedAnswers:
+  - Meghan Heffern
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2009 y 2016 y recorren g\xE9neros
+    como drama, comedia y romance."
+  - "Uno de sus trabajos fue \xABWhat If\xBB (2013), bajo la direcci\xF3n de Michael
+    Dowse."
+  - "Dio vida a Miranda en \xABChloe\xBB."
+  - "En \xABSpecial Correspondents\xBB interpret\xF3 a Virginia."
+  - "Es la persona que encarn\xF3 a Virginia en \xABSpecial Correspondents\xBB y
+    a Tracy en \xABA Sunday Kind of Love\xBB."

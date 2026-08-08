@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: killing_is_my_business_honey
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: killing_is_my_business_honey
+  category: peliculas
+  difficulty: 1
+  answer: Killing Is My Business, Honey
+  acceptedAnswers:
+  - Killing Is My Business, Honey
+  - "Mord ist mein Gesch\xE4ft, Liebling"
+  - mord ist mein geschaft, liebling
+  hints:
+  - "Su metraje se acerca a 109 minutos y corresponde al a\xF1o 2009."
+  - "Su combinaci\xF3n de g\xE9neros incluye comedia y crimen; la producci\xF3n se
+    vincula con Alemania."
+  - "La direcci\xF3n estuvo a cargo de Sebastian Niemann."
+  - Dos personajes centrales son Toni Ricardelli, interpretado por Rick Kavanian,
+    y Julia Steffens, a cargo de Nora Tschirner.
+  - "Sebastian Niemann dirige a Rick Kavanian como Toni Ricardelli, Nora Tschirner
+    como Julia Steffens y Bud Spencer como Pepe en esta pel\xEDcula de 2009."

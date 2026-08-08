@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cosy_dens
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cosy_dens
+  category: peliculas
+  difficulty: 1
+  answer: Cosy Dens
+  acceptedAnswers:
+  - Cosy Dens
+  - "Pel\xED\u0161ky"
+  - pelisky
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1990 y su duraci\xF3n ronda los 115 minutos."
+  - "\u010Cesk\xE1 televize particip\xF3 en una pel\xEDcula de comedia y drama producida
+    en Rep\xFAblica Checa."
+  - "La direcci\xF3n estuvo a cargo de Jan H\u0159ebejk."
+  - "En el reparto, Miroslav Donutil da vida a Otec \u0160ebek y Ji\u0159\xED Kodet
+    a Otec Kraus."
+  - "Jan H\u0159ebejk dirige a Miroslav Donutil como Otec \u0160ebek, Ji\u0159\xED
+    Kodet como Otec Kraus y Simona Sta\u0161ov\xE1 como Matka \u0160ebkov\xE1 en
+    esta pel\xEDcula de 1999."

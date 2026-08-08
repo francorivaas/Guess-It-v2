@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nymphomaniac_vol_i
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nymphomaniac_vol_i
+  category: peliculas
+  difficulty: 0
+  answer: 'Nymphomaniac: Vol. I'
+  acceptedAnswers:
+  - 'Nymphomaniac: Vol. I'
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Dinamarca; combina drama y una fecha
+    de estreno dentro de los a\xF1os 2010."
+  - "Su duraci\xF3n ronda los 117 minutos; la clasificaci\xF3n registrada es Not
+    Rated."
+  - "La producci\xF3n lleg\xF3 en 2013 bajo la participaci\xF3n de Zentropa Entertainments."
+  - "Lars von Trier estuvo a cargo de la direcci\xF3n, con Charlotte Gainsbourg al
+    frente del elenco."
+  - "Producci\xF3n de drama estrenada en 2013: direcci\xF3n de Lars von Trier y actuaciones
+    de Charlotte Gainsbourg, con guion de Lars von Trier."

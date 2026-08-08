@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: wicker_park
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: wicker_park
+  category: peliculas
+  difficulty: 0
+  answer: Wicker Park
+  acceptedAnswers:
+  - Wicker Park
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 2000 y clasificada como drama. La direcci\xF3n est\xE1 acreditada a Paul
+    McGuigan."
+  - "El montaje final se extiende unos 114 minutos y aparece catalogado con la se\xF1al
+    PG-13. Entre sus int\xE9rpretes figura Josh Hartnett."
+  - "Se estren\xF3 en 2004 y estuvo asociada a la compa\xF1\xEDa Metro-Goldwyn-Mayer
+    (MGM). El guion incluye un cr\xE9dito para Gilles Mimouni."
+  - "Paul McGuigan estuvo a cargo de la direcci\xF3n, con Josh Hartnett al frente
+    del elenco."
+  - "Pel\xEDcula de 2004 dirigida por Paul McGuigan, con Josh Hartnett en el reparto,
+    con guion de Gilles Mimouni."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lee_hoi_sang
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lee_hoi_sang
+  category: personas
+  difficulty: 1
+  answer: Lee Hoi-Sang
+  acceptedAnswers:
+  - Lee Hoi-Sang
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1977 y 1981, con presencia frecuente
+    en acci\xF3n, comedia y cine extranjero."
+  - "Particip\xF3 en \xABThe Young Master\xBB, dirigida por Jackie Chan y estrenada
+    en 1980."
+  - "En \xABExecutioners from Shaolin\xBB interpret\xF3 a Monk Zhi Shan."
+  - "Dio vida a Kungfu teacher en \xABThe Prodigal Son\xBB."
+  - "Interpret\xF3 a Kungfu teacher en \xABThe Prodigal Son\xBB y a Painter en \xABKnockabout\xBB."

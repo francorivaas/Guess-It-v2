@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kinuyo_tanaka
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kinuyo_tanaka
+  category: personas
+  difficulty: 1
+  answer: Kinuyo Tanaka
+  acceptedAnswers:
+  - Kinuyo Tanaka
+  hints:
+  - "Trabaj\xF3 en producciones de drama, romance y fantas\xEDa a lo largo del per\xEDodo
+    entre 1941 y 1954."
+  - "Uno de sus trabajos fue \xABUgetsu\xBB (1953), bajo la direcci\xF3n de Kenji
+    Mizoguchi."
+  - "En \xABSansho the Bailiff\xBB interpret\xF3 a Tamaki."
+  - "En \xABThe Life of Oharu\xBB interpret\xF3 a Oharu."
+  - "Es la persona que encarn\xF3 a Oharu en \xABThe Life of Oharu\xBB y a Oy\xFB
+    Kayukawa en \xABMiss Oyu\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lila_kedrova
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lila_kedrova
+  category: personas
+  difficulty: 0
+  answer: Lila Kedrova
+  acceptedAnswers:
+  - Lila Kedrova
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1955 y 1988 y recorren g\xE9neros
+    como drama, terror y aventura."
+  - "Particip\xF3 en \xABThe Tenant\xBB, dirigida por Roman Polanski y estrenada
+    en 1976."
+  - "Dio vida a Madame Hortense en \xABZorba the Greek\xBB."
+  - "En \xABFootprints\xBB interpret\xF3 a Mrs. Heim."
+  - "Interpret\xF3 a Mrs. Heim en \xABFootprints\xBB y a Granny en \xABSome Girls\xBB."

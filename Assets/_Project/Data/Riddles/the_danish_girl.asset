@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_danish_girl
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_danish_girl
+  category: peliculas
+  difficulty: 0
+  answer: The Danish Girl
+  acceptedAnswers:
+  - The Danish Girl
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2010 y su duraci\xF3n ronda los 120 minutos."
+  - Mezcla drama y fue producida en Alemania y Reino Unido.
+  - "Detr\xE1s de la c\xE1mara estuvo Tom Hooper."
+  - Dos personajes centrales son Einar Wegener / Lili Elbe, interpretado por Eddie
+    Redmayne, y Gerda Wegener, a cargo de Alicia Vikander.
+  - "Tom Hooper dirige a Eddie Redmayne como Einar Wegener / Lili Elbe, Alicia Vikander
+    como Gerda Wegener y Matthias Schoenaerts como Hans Axgil en esta pel\xEDcula
+    de 2015."

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: milla_jovovich
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: milla_jovovich
+  category: personas
+  difficulty: 0
+  answer: Milla Jovovich
+  acceptedAnswers:
+  - Milla Jovovich
+  hints:
+  - "En The Claim interpret\xF3 a Lucia, en una pel\xEDcula estrenada en 2000."
+  - "Su carrera en cine abarca de 1991 a 2016 y recorre aventura y fantas\xEDa."
+  - "Comparti\xF3 reparto con Jason London en Dazed and Confused."
+  - "En Resident Evil interpret\xF3 a Alice."
+  - 'Aparece en The Fifth Element y Resident Evil: Retribution.'

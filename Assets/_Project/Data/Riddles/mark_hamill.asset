@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mark_hamill
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mark_hamill
+  category: personas
+  difficulty: 0
+  answer: Mark Hamill
+  acceptedAnswers:
+  - Mark Hamill
+  hints:
+  - "En Return of the Jedi interpret\xF3 a Luke Skywalker, en una pel\xEDcula estrenada
+    en 1983."
+  - "Su carrera en cine abarca de 1977 a 1983 y recorre aventura y acci\xF3n."
+  - "Comparti\xF3 reparto con Harrison Ford en The Empire Strikes Back."
+  - "En The Empire Strikes Back interpret\xF3 a Luke Skywalker."
+  - "Aparece en Star Wars y Return of the Jedi. Tambi\xE9n form\xF3 parte de Return
+    of the Jedi."

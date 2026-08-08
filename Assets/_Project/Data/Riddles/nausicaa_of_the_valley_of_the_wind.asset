@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nausicaa_of_the_valley_of_the_wind
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nausicaa_of_the_valley_of_the_wind
+  category: peliculas
+  difficulty: 0
+  answer: "Nausica\xE4 of the Valley of the Wind"
+  acceptedAnswers:
+  - "Nausica\xE4 of the Valley of the Wind"
+  - nausicaa of the valley of the wind
+  hints:
+  - "Su metraje se acerca a 117 minutos y corresponde al a\xF1o 1984."
+  - "Entre sus compa\xF1\xEDas figura Topcraft; sus g\xE9neros principales son aventura,
+    animaci\xF3n y fantas\xEDa."
+  - "Hayao Miyazaki la dirigi\xF3 con Topcraft entre las compa\xF1\xEDas productoras."
+  - "En el reparto, Sumi Shimamoto da vida a Nausica\xE4 (voice) y Ichir\u014D Nagai
+    a Mito (voice)."
+  - "Hayao Miyazaki dirige a Sumi Shimamoto como Nausica\xE4 (voice), Ichir\u014D
+    Nagai como Mito (voice) y Gor\u014D Naya como Yupa (voice) en esta pel\xEDcula
+    de 1984."

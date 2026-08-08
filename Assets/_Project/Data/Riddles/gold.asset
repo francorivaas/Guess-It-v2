@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gold
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gold
+  category: peliculas
+  difficulty: 0
+  answer: Gold
+  acceptedAnswers:
+  - Gold
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 2010, vinculada al
+    g\xE9nero de crimen. La direcci\xF3n est\xE1 acreditada a Stephen Gaghan."
+  - "Tiene una duraci\xF3n aproximada de 120 minutos y recibi\xF3 la clasificaci\xF3n
+    R. Entre sus int\xE9rpretes figura Matthew McConaughey."
+  - "El a\xF1o 2016 y el sello Black Bear Pictures forman parte de sus datos de producci\xF3n."
+  - "La dirigi\xF3 Stephen Gaghan y su figura principal es Matthew McConaughey."
+  - "La respuesta es la cinta de 2016 que Stephen Gaghan dirigi\xF3 con Matthew McConaughey
+    como int\xE9rpretes destacados, con guion de Patrick Massett."

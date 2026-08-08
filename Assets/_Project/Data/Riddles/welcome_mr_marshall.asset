@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: welcome_mr_marshall
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: welcome_mr_marshall
+  category: peliculas
+  difficulty: 0
+  answer: Welcome Mr. Marshall!
+  acceptedAnswers:
+  - Welcome Mr. Marshall!
+  - "\xA1Bienvenido, M\xEDster Marshall!"
+  - "\xA1bienvenido, mister marshall!"
+  hints:
+  - "Combina un estreno de 1953 con di\xE1logos originalmente en espa\xF1ol."
+  - "Entre sus compa\xF1\xEDas figura Uni\xF3n Industrial Cinematogr\xE1fica; sus
+    g\xE9neros principales son comedia."
+  - "Detr\xE1s de la c\xE1mara estuvo Luis Garc\xEDa Berlanga."
+  - "Dos personajes centrales son Don Pablo, el alcalde, interpretado por Jos\xE9
+    Isbert, y Carmen Vargas, a cargo de Lolita Sevilla."
+  - "En esta cinta de 1953 coinciden Jos\xE9 Isbert como Don Pablo, el alcalde, Lolita
+    Sevilla como Carmen Vargas y Alberto Romea como Don Luis, el caballero."

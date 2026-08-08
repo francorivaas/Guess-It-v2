@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sunflower
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sunflower
+  category: peliculas
+  difficulty: 1
+  answer: Sunflower
+  acceptedAnswers:
+  - Sunflower
+  - I girasoli
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1970 dura cerca de 109 minutos."
+  - "El relato pertenece a drama y b\xE9lico, con participaci\xF3n productiva de
+    Francia y Italia."
+  - "Detr\xE1s de la c\xE1mara estuvo Vittorio De Sica."
+  - Sophia Loren interpreta a Giovanna, mientras Marcello Mastroianni encarna a Antonio.
+  - En esta cinta de 1970 coinciden Sophia Loren como Giovanna, Marcello Mastroianni
+    como Antonio y Lyudmila Saveleva como Mascia.

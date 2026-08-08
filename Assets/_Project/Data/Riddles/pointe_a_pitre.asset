@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pointe_a_pitre
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pointe_a_pitre
+  category: lugares
+  difficulty: 1
+  answer: "Pointe-\xE0-Pitre"
+  acceptedAnswers:
+  - "Pointe-\xE0-Pitre"
+  - pointe-a-pitre
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 16,24 grados del ecuador."
+  - "Su poblaci\xF3n registrada se aproxima a 251.000 habitantes y pertenece a Guadeloupe."
+  - "No es la capital nacional de Guadeloupe. Se halla aproximadamente a 16,2\xB0
+    norte."
+  - "Se encuentra en Guadeloupe, dentro de su divisi\xF3n principal, con una poblaci\xF3n
+    cercana a 251 mil."
+  - "Es una ciudad de Guadeloupe, en su divisi\xF3n principal, situada aproximadamente
+    en 16,2\xB0 norte y 61,5\xB0 oeste."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jane_asher
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jane_asher
+  category: personas
+  difficulty: 0
+  answer: Jane Asher
+  acceptedAnswers:
+  - Jane Asher
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1964 y 2013, especialmente dentro
+    de drama, comedia y romance."
+  - "Uno de sus trabajos fue \xABDeath at a Funeral\xBB (2007), bajo la direcci\xF3n
+    de Frank Oz."
+  - "Su papel en \xABI Give It a Year\xBB fue el de Diana."
+  - "Dio vida a Annie en \xABAlfie\xBB."
+  - "Sus papeles incluyen a Annie en \xABAlfie\xBB y a Francesca en \xABThe Masque
+    of the Red Death\xBB."

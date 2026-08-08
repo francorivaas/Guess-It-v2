@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_celebration
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_celebration
+  category: peliculas
+  difficulty: 2
+  answer: "La celebraci\xF3n"
+  acceptedAnswers:
+  - "La celebraci\xF3n"
+  - La celebracion
+  - the celebration
+  - festen
+  hints:
+  - "Dentro del cine de Dinamarca, apareci\xF3 en 1998 con una propuesta de drama."
+  - "La realizaci\xF3n fue encabezada por Thomas Vinterberg."
+  - "Sus nombres m\xE1s ligados al relato son Christian, Helge y la familia Klingenfeldt."
+  - "La acci\xF3n avanza mientras un cumplea\xF1os familiar se rompe cuando un hijo
+    revela un abuso durante un brindis."
+  - "Su elemento m\xE1s revelador es una c\xE1mara inquieta registra la cena bajo
+    las reglas del movimiento Dogma."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: geoffrey_keen
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: geoffrey_keen
+  category: personas
+  difficulty: 0
+  answer: Geoffrey Keen
+  acceptedAnswers:
+  - Geoffrey Keen
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1950 y 1971 y recorren g\xE9neros
+    como drama, suspenso y crimen."
+  - "Particip\xF3 en \xABTreasure Island\xBB, dirigida por Byron Haskin y estrenada
+    en 1950."
+  - "Su papel en \xABSink the Bismarck!\xBB fue el de A.C.N.S.."
+  - "En \xABThe Man Who Never Was\xBB interpret\xF3 a Gen. Nye."
+  - "Interpret\xF3 a Gen. Nye en \xABThe Man Who Never Was\xBB y a Giudice Webster
+    Thayer en \xABSacco & Vanzetti\xBB."

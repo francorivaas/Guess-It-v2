@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chiayi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chiayi
+  category: lugares
+  difficulty: 0
+  answer: Chiayi
+  acceptedAnswers:
+  - Chiayi
+  hints:
+  - "Est\xE1 a unos 23,5 grados al norte del ecuador y 120,4 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 269 mil habitantes."
+  - "Se ubica a unos 60 kil\xF3metros en los alrededores de Tainan."
+  - "Est\xE1 en Taiw\xE1n, donde ocupa el puesto 11 por poblaci\xF3n, y es un centro
+    administrativo regional."
+  - "Es una capital administrativa de Taiw\xE1n y ocupa el puesto 11 por poblaci\xF3n
+    nacional."

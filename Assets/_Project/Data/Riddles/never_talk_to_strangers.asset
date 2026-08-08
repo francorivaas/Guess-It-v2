@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: never_talk_to_strangers
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: never_talk_to_strangers
+  category: peliculas
+  difficulty: 1
+  answer: Never Talk to Strangers
+  acceptedAnswers:
+  - Never Talk to Strangers
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1990 y su duraci\xF3n ronda los 86 minutos."
+  - "Se encuadra en suspenso y romance y tiene origen de producci\xF3n en Estados
+    Unidos y Canad\xE1."
+  - "Detr\xE1s de la c\xE1mara estuvo Peter Hall."
+  - Rebecca De Mornay interpreta a Dr. Sarah Taylor, mientras Antonio Banderas encarna
+    a Tony Ramirez.
+  - "El reparto incluye a Rebecca De Mornay como Dr. Sarah Taylor, Antonio Banderas
+    como Tony Ramirez y Dennis Miller como Cliff Raddison bajo la direcci\xF3n de
+    Peter Hall."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gulou
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gulou
+  category: lugares
+  difficulty: 0
+  answer: Gulou
+  acceptedAnswers:
+  - Gulou
+  hints:
+  - "Se ubica al norte del ecuador y al este de Greenwich, cerca de 26,09\xB0 de
+    latitud."
+  - "Re\xFAne cerca de 2.606.000 habitantes en la divisi\xF3n administrativa de Fujian."
+  - "Cumple una funci\xF3n de capital local dentro de Fujian. Se halla aproximadamente
+    a 26,1\xB0 norte."
+  - "Esta ciudad de China est\xE1 en Fujian y se sit\xFAa a 26,1\xB0 norte."
+  - "En China, dentro de Fujian, esta ciudad de unos 2,6 millones est\xE1 cerca de
+    26,1\xB0 norte y 119,3\xB0 este."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: closely_watched_trains
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: closely_watched_trains
+  category: peliculas
+  difficulty: 1
+  answer: Closely Watched Trains
+  acceptedAnswers:
+  - Closely Watched Trains
+  - "Ost\u0159e sledovan\xE9 vlaky"
+  - ostre sledovane vlaky
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1960 y su duraci\xF3n ronda los 89 minutos."
+  - "Mezcla comedia, drama y b\xE9lico y fue producida en Rep\xFAblica Checa."
+  - "El realizador principal fue Ji\u0159\xED Menzel."
+  - "En el reparto, V\xE1clav Neck\xE1\u0159 da vida a Trainee Milos Hrma y Josef
+    Somr a Train dispatcher Hubicka."
+  - "Ji\u0159\xED Menzel dirige a V\xE1clav Neck\xE1\u0159 como Trainee Milos Hrma,
+    Josef Somr como Train dispatcher Hubicka y Vlastimil Brodsk\xFD como Counselor
+    Zednicek en esta pel\xEDcula de 1966."

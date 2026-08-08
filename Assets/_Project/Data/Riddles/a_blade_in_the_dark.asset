@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: a_blade_in_the_dark
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: a_blade_in_the_dark
+  category: peliculas
+  difficulty: 1
+  answer: A Blade in the Dark
+  acceptedAnswers:
+  - A Blade in the Dark
+  - La casa con la scala nel buio
+  hints:
+  - "Su metraje se acerca a 110 minutos y corresponde al a\xF1o 1983."
+  - "Su combinaci\xF3n de g\xE9neros incluye suspenso y terror; la producci\xF3n
+    se vincula con Italia."
+  - "Lamberto Bava firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Andrea Occhipinti interpreta a Bruno, mientras Anny Papa encarna a Sandra.
+  - En esta cinta de 1983 coinciden Andrea Occhipinti como Bruno, Anny Papa como
+    Sandra y Fabiola Toledo como Angela.

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_west_coast_pop_art_experimental_band
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_west_coast_pop_art_experimental_band
+  category: bandas musicales
+  difficulty: 0
+  answer: The West Coast Pop Art Experimental Band
+  acceptedAnswers:
+  - The West Coast Pop Art Experimental Band
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABTransparent Day\xBB, de 1967, y llega
+    hasta 1968."
+  - "\xABSmell of Incense\xBB presenta una energ\xEDa media y un pulso cercano a
+    126 BPM."
+  - "Entre sus grabaciones figuran \xABA Child of a Few Hours Is Burning to Death\xBB
+    y \xABIf You Want This Love\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABShifting Sands\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABI Won't Hurt You\xBB y \xABEighteen
+    Is over the Hill\xBB."

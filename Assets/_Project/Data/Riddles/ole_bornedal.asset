@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ole_bornedal
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ole_bornedal
+  category: personas
+  difficulty: 1
+  answer: Ole Bornedal
+  acceptedAnswers:
+  - Ole Bornedal
+  hints:
+  - "Dirigi\xF3 obras de suspenso, drama y terror a lo largo de una trayectoria que
+    va entre 1994 y 2017."
+  - "Una de sus pel\xEDculas es \xABThe Possession\xBB, estrenada en 2012."
+  - "Tambi\xE9n dirigi\xF3 \xABNightwatch\xBB, del a\xF1o 1994."
+  - "Su nombre aparece en la direcci\xF3n de \xABThe Possession\xBB y \xABNightwatch\xBB."
+  - "Dirigi\xF3 \xABThe Possession\xBB, \xABNightwatch\xBB y \xABThe Substitute\xBB."

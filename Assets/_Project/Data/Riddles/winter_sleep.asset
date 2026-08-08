@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: winter_sleep
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: winter_sleep
+  category: peliculas
+  difficulty: 0
+  answer: Winter Sleep
+  acceptedAnswers:
+  - Winter Sleep
+  - "K\u0131\u015F Uykusu"
+  - "k\u0131s uykusu"
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2010 y su duraci\xF3n ronda los 196 minutos."
+  - "Mezcla drama y fue producida en Turqu\xEDa y Francia."
+  - "Detr\xE1s de la c\xE1mara estuvo Nuri Bilge Ceylan."
+  - "En el reparto, Haluk Bilginer da vida a Aydin y Melisa S\xF6zen a Nihal."
+  - "El reparto incluye a Haluk Bilginer como Aydin, Melisa S\xF6zen como Nihal y
+    Demet Akbag como Necla bajo la direcci\xF3n de Nuri Bilge Ceylan."

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_corporation
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_corporation
+  category: peliculas
+  difficulty: 0
+  answer: The Corporation
+  acceptedAnswers:
+  - The Corporation
+  hints:
+  - "Es una producci\xF3n de 2003 con una duraci\xF3n aproximada de 145 minutos."
+  - "Mezcla documental y fue producida en Canad\xE1 y Estados Unidos."
+  - "La direcci\xF3n estuvo a cargo de Mark Achbar."
+  - Jane Akre y Ray Anderson encabezan el reparto.
+  - "El reparto incluye a Jane Akre, Ray Anderson y Maude Barlow bajo la direcci\xF3n
+    de Mark Achbar."

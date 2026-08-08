@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: a_werewolf_boy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: a_werewolf_boy
+  category: peliculas
+  difficulty: 1
+  answer: A Werewolf Boy
+  acceptedAnswers:
+  - A Werewolf Boy
+  hints:
+  - "Combina un estreno de 2012 con di\xE1logos originalmente en coreano."
+  - "El relato pertenece a fantas\xEDa y romance, con participaci\xF3n productiva
+    de Corea del Sur."
+  - "Jo Sung-hee firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Song Joong-ki da vida a Chul-Soo / Wolf-Boy y Park Bo-young a
+    Younger Sun-yi.
+  - "Jo Sung-hee dirige a Song Joong-ki como Chul-Soo / Wolf-Boy, Park Bo-young como
+    Younger Sun-yi y Yoo Yeon-seok como Ji-tae en esta pel\xEDcula de 2012."

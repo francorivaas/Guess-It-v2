@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: eduard_van_beinum
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: eduard_van_beinum
+  category: bandas musicales
+  difficulty: 1
+  answer: Eduard van Beinum
+  acceptedAnswers:
+  - Eduard van Beinum
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABVariations And Fugue On A Theme By Wolfgang
+    Amadeus Mozart, Op.132: Variation VI\xBB, de 1943, y llega hasta 1956."
+  - "\xABLa Damnation de Faust, Op.24 - Part 1: 3. Marche hongroise\xBB presenta
+    una energ\xEDa suave y un pulso cercano a 106 BPM."
+  - "Entre sus grabaciones figuran \xABPiano Concerto No.1 in D minor, Op.15: 3.
+    Rondo (Allegro non troppo)\xBB y \xABSymphonie fantastique, Op.14: 1. R\xEAveries.
+    Passions (Largo - Allegro agitato ed appassionato assai)\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABConcerto for Clarinet and Orchestra in A Major, K.622:
+    2. Adagio\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABSuite No.3 in D, BWV 1068: 2. Air\xBB
+    y \xABConcerto for Flute, Harp, and Orchestra in C, K.299: 2. Andantino\xBB."

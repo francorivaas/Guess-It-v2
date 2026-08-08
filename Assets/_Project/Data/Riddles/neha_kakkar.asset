@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: neha_kakkar
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: neha_kakkar
+  category: bandas musicales
+  difficulty: 0
+  answer: Neha Kakkar
+  acceptedAnswers:
+  - Neha Kakkar
+  hints:
+  - "En sus grabaciones destaca una energ\xEDa sonora alta, dentro de un repertorio
+    relacionado con pop cinematogr\xE1fico y hip hop."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABKapoor & Sons Mashup (By DJ Chetas)
+    (From \"Kapoor & Sons (Since 1921)\")\xBB."
+  - "Ha compartido cr\xE9ditos de interpretaci\xF3n con Tanishk Bagchi y Badshah."
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABDil Ko Karaar Aaya (From
+    \"Sukoon\")\xBB y \xABTu Hi Yaar Mera (From \"Pati Patni Aur Woh\")\xBB."
+  - "Nombre musical asociado directamente a \xABDil Ko Karaar Aaya (From \"Sukoon\")\xBB,
+    \xABTu Hi Yaar Mera (From \"Pati Patni Aur Woh\")\xBB y \xABKala Chashma\xBB."

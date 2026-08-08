@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_day_of_the_beast
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_day_of_the_beast
+  category: peliculas
+  difficulty: 1
+  answer: The Day of the Beast
+  acceptedAnswers:
+  - The Day of the Beast
+  - Day of the Beast
+  hints:
+  - "Es una producci\xF3n de Espa\xF1a de la d\xE9cada de 1990, vinculada al g\xE9nero
+    de acci\xF3n."
+  - "Su duraci\xF3n ronda los 99 minutos; la clasificaci\xF3n registrada es R. La
+    direcci\xF3n est\xE1 acreditada a \xC1lex de la Iglesia."
+  - "El a\xF1o 1995 y el sello Canal+ Espa\xF1a forman parte de sus datos de producci\xF3n."
+  - "La dirigi\xF3 \xC1lex de la Iglesia y su figura principal es \xC1lex Angulo."
+  - "Producci\xF3n de acci\xF3n estrenada en 1995: direcci\xF3n de \xC1lex de la
+    Iglesia y actuaciones de \xC1lex Angulo, con guion de Jorge Guerricaechevarr\xEDa."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: knoxville
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: knoxville
+  category: lugares
+  difficulty: 0
+  answer: Knoxville
+  acceptedAnswers:
+  - Knoxville
+  hints:
+  - "Se ubica al norte del ecuador y al oeste de Greenwich, cerca de 35,97\xB0 de
+    latitud."
+  - "Re\xFAne cerca de 615.800 habitantes en la divisi\xF3n administrativa de Tennessee."
+  - "No es la capital nacional de Estados Unidos. Se halla aproximadamente a 36,0\xB0
+    norte."
+  - Pertenece a Estados Unidos y forma parte de Tennessee; supera aproximadamente
+    los 615.800 habitantes.
+  - "En Estados Unidos, dentro de Tennessee, esta ciudad de unos 616 mil est\xE1
+    cerca de 36,0\xB0 norte y 83,9\xB0 oeste."

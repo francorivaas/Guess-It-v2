@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: micheline_presle
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: micheline_presle
+  category: personas
+  difficulty: 1
+  answer: Micheline Presle
+  acceptedAnswers:
+  - Micheline Presle
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1942 y 2009, especialmente dentro
+    de drama, comedia y romance."
+  - "Uno de sus trabajos fue \xABChouchou\xBB (2003), bajo la direcci\xF3n de Merzak
+    Allouache."
+  - "En \xABVenus Beauty Institute\xBB interpret\xF3 a Tante Maryse."
+  - "Dio vida a Madame Eglantine en \xABKing of Hearts\xBB."
+  - "Es la persona que encarn\xF3 a Madame Eglantine en \xABKing of Hearts\xBB y
+    a La grand-m\xE8re en \xABGoing South\xBB."

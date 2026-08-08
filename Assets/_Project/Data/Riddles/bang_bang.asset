@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bang_bang
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bang_bang
+  category: peliculas
+  difficulty: 0
+  answer: Bang Bang!
+  acceptedAnswers:
+  - Bang Bang!
+  hints:
+  - "Es una producci\xF3n de 2014 con una duraci\xF3n aproximada de 153 minutos."
+  - "Se encuadra en acci\xF3n, aventura y comedia y tiene origen de producci\xF3n
+    en India."
+  - "Siddharth Anand firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Rajveer Nanda, interpretado por Hrithik Roshan,
+    y Harleen Sahni, a cargo de Katrina Kaif.
+  - En esta cinta de 2014 coinciden Hrithik Roshan como Rajveer Nanda, Katrina Kaif
+    como Harleen Sahni y Danny Denzongpa como Omar.

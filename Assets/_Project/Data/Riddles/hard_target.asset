@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: hard_target
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: hard_target
+  category: peliculas
+  difficulty: 0
+  answer: Hard Target
+  acceptedAnswers:
+  - Hard Target
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 1990, vinculada al
+    g\xE9nero de acci\xF3n. La direcci\xF3n est\xE1 acreditada a John Woo."
+  - "La ficha t\xE9cnica marca 97 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R. El guion incluye un cr\xE9dito para Chuck Pfarrer."
+  - "La producci\xF3n lleg\xF3 en 1993 bajo la participaci\xF3n de Universal Pictures.
+    Entre sus int\xE9rpretes figura Jean-Claude Van Damme."
+  - "John Woo estuvo a cargo de la direcci\xF3n, con Jean-Claude Van Damme al frente
+    del elenco."
+  - Cinta de Estados Unidos lanzada en 1993, dirigida por John Woo y encabezada por
+    Jean-Claude Van Damme, con guion de Chuck Pfarrer.

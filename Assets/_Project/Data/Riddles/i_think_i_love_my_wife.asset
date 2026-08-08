@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: i_think_i_love_my_wife
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: i_think_i_love_my_wife
+  category: peliculas
+  difficulty: 1
+  answer: I Think I Love My Wife
+  acceptedAnswers:
+  - I Think I Love My Wife
+  hints:
+  - "Su metraje se acerca a 90 minutos y corresponde al a\xF1o 2007."
+  - "Entre sus compa\xF1\xEDas figura Fox Searchlight Pictures; sus g\xE9neros principales
+    son comedia y romance."
+  - "Chris Rock la dirigi\xF3 con Fox Searchlight Pictures entre las compa\xF1\xEDas
+    productoras."
+  - Chris Rock interpreta a Richard Cooper, mientras Kerry Washington encarna a Nikki
+    Tru.
+  - "Chris Rock dirige a Chris Rock como Richard Cooper, Kerry Washington como Nikki
+    Tru y Gina Torres como Brenda Cooper en esta pel\xEDcula de 2007."

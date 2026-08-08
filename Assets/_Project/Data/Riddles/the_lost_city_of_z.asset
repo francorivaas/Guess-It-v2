@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_lost_city_of_z
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_lost_city_of_z
+  category: peliculas
+  difficulty: 0
+  answer: The Lost City of Z
+  acceptedAnswers:
+  - The Lost City of Z
+  - Lost City of Z
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2010, dentro de biograf\xEDa. La direcci\xF3n est\xE1 acreditada a James Gray."
+  - "Tiene una duraci\xF3n aproximada de 141 minutos y recibi\xF3 la clasificaci\xF3n
+    PG-13. Entre sus int\xE9rpretes figura Charlie Hunnam."
+  - "El a\xF1o 2016 y el sello Keep Your Head forman parte de sus datos de producci\xF3n."
+  - "James Gray estuvo a cargo de la direcci\xF3n, con Charlie Hunnam al frente del
+    elenco."
+  - "Pel\xEDcula de 2016 dirigida por James Gray, con Charlie Hunnam en el reparto,
+    con guion de James Gray."

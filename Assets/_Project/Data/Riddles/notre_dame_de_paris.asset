@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: notre_dame_de_paris
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: notre_dame_de_paris
+  category: peliculas
+  difficulty: 1
+  answer: Notre Dame de Paris
+  acceptedAnswers:
+  - Notre Dame de Paris
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1990 dura cerca de 150 minutos."
+  - "El relato pertenece a historia, m\xFAsica y drama, con participaci\xF3n productiva
+    de Francia."
+  - El realizador principal fue Gilles Amado.
+  - "En el reparto, H\xE9l\xE8ne S\xE9gara da vida a Esmeralda y Bernard Lavoie a
+    Frollo."
+  - "En esta cinta de 1998 coinciden H\xE9l\xE8ne S\xE9gara como Esmeralda, Bernard
+    Lavoie como Frollo y Bruno Pelletier como Gringoire."

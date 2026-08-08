@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: himeji
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: himeji
+  category: lugares
+  difficulty: 0
+  answer: Himeji
+  acceptedAnswers:
+  - Himeji
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 134,68\xB0 este."
+  - "Su escala urbana ronda los 528 mil de habitantes y se integra en Hy\u014Dgo."
+  - "No es la capital nacional de Jap\xF3n. Se halla aproximadamente a 34,8\xB0 norte."
+  - "Pertenece a Jap\xF3n y forma parte de Hy\u014Dgo; supera aproximadamente los
+    527.600 habitantes."
+  - "Es una ciudad de Jap\xF3n, en Hy\u014Dgo, situada aproximadamente en 34,8\xB0
+    norte y 134,7\xB0 este."

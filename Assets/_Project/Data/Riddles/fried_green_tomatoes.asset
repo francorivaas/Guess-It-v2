@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fried_green_tomatoes
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fried_green_tomatoes
+  category: peliculas
+  difficulty: 0
+  answer: Fried Green Tomatoes
+  acceptedAnswers:
+  - Fried Green Tomatoes
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 1990, vinculada al
+    g\xE9nero de drama. La direcci\xF3n est\xE1 acreditada a Jon Avnet."
+  - "El montaje final se extiende unos 130 minutos y aparece catalogado con la se\xF1al
+    PG-13."
+  - "La producci\xF3n lleg\xF3 en 1991 bajo la participaci\xF3n de Universal Pictures.
+    Entre sus int\xE9rpretes figura Kathy Bates."
+  - "La dirigi\xF3 Jon Avnet y su figura principal es Kathy Bates."
+  - "Pel\xEDcula de 1991 dirigida por Jon Avnet, con Kathy Bates en el reparto, con
+    guion de Fannie Flagg."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_remains_of_the_day
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_remains_of_the_day
+  category: peliculas
+  difficulty: 0
+  answer: The Remains of the Day
+  acceptedAnswers:
+  - The Remains of the Day
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1990 y su duraci\xF3n ronda los 134 minutos."
+  - "Columbia Pictures particip\xF3 en una pel\xEDcula de drama y romance producida
+    en Reino Unido y Estados Unidos."
+  - "James Ivory la dirigi\xF3 con Columbia Pictures entre las compa\xF1\xEDas productoras."
+  - Anthony Hopkins interpreta a James Stevens, mientras Emma Thompson encarna a
+    Miss Kenton.
+  - "El reparto incluye a Anthony Hopkins como James Stevens, Emma Thompson como
+    Miss Kenton y James Fox como Lord Darlington bajo la direcci\xF3n de James Ivory."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: melanie_griffith
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: melanie_griffith
+  category: personas
+  difficulty: 1
+  answer: Melanie Griffith
+  acceptedAnswers:
+  - Melanie Griffith
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1988 y 2012 y recorren g\xE9neros
+    como romance, drama y suspenso."
+  - "Particip\xF3 en \xABLolita\xBB, dirigida por Adrian Lyne y estrenada en 1997."
+  - "Dio vida a Honey Whitlock en \xABCecil B. Demented\xBB."
+  - "Su papel en \xABShining Through\xBB fue el de Linda Voss."
+  - "Sus papeles incluyen a Linda Voss en \xABShining Through\xBB y a Tyra en \xABDino
+    Time\xBB."

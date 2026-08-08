@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: namie_amuro
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: namie_amuro
+  category: bandas musicales
+  difficulty: 1
+  answer: Namie Amuro
+  acceptedAnswers:
+  - Namie Amuro
+  hints:
+  - "La huella musical se mueve por J-pop y mandopop y presenta una energ\xEDa sonora
+    alta."
+  - "Entre sus lanzamientos aparece \xABFinally\xBB."
+  - Entre sus colaboraciones registradas figuran Jolin Tsai.
+  - "Las referencias directas son \xABHope\xBB y \xABFight Together\xBB."
+  - "Proyecto musical responsable de \xABHope\xBB, \xABFight Together\xBB y \xABI'm
+    not yours (feat. \u5B89\u5BA4\u5948\u7F8E\u60E0)\xBB."

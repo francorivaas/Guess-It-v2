@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: vlastimil_brodsky
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: vlastimil_brodsky
+  category: personas
+  difficulty: 2
+  answer: "Vlastimil Brodsk\xFD"
+  acceptedAnswers:
+  - "Vlastimil Brodsk\xFD"
+  - vlastimil brodsky
+  hints:
+  - "Trabaj\xF3 en producciones de comedia, drama y b\xE9lico a lo largo del per\xEDodo
+    entre 1966 y 1990."
+  - "Particip\xF3 en \xABClosely Watched Trains\xBB, dirigida por Ji\u0159\xED Menzel
+    y estrenada en 1966."
+  - "En \xABTomorrow I'll Wake Up and Scald Myself with Tea\xBB interpret\xF3 a Ing.
+    Bauer."
+  - "Su papel en \xABJacob the Liar\xBB fue el de Jakob Heym."
+  - "Sus papeles incluyen a Jakob Heym en \xABJacob the Liar\xBB y a Major Hugo en
+    \xABCapricious Summer\xBB."

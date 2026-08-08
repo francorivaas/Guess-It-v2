@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ken_annakin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ken_annakin
+  category: personas
+  difficulty: 0
+  answer: Ken Annakin
+  acceptedAnswers:
+  - Ken Annakin
+  hints:
+  - "Su filmograf\xEDa como realizador recorre aventura, comedia y drama durante
+    el per\xEDodo entre 1948 y 1988."
+  - "Estuvo al frente de \xABSwiss Family Robinson\xBB (1960)."
+  - "Tambi\xE9n dirigi\xF3 \xABThose Magnificent Men in Their Flying Machines or
+    How I Flew from London to Paris in 25 hours 11 minutes\xBB, del a\xF1o 1965."
+  - "Su nombre aparece en la direcci\xF3n de \xABSwiss Family Robinson\xBB y \xABThose
+    Magnificent Men in Their Flying Machines or How I Flew from London to Paris in
+    25 hours 11 minutes\xBB."
+  - "Su filmograf\xEDa re\xFAne \xABSwiss Family Robinson\xBB, \xABThe New Adventures
+    of Pippi Longstocking\xBB y \xABThe Call of the Wild\xBB."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: i_as_in_icarus
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: i_as_in_icarus
+  category: peliculas
+  difficulty: 0
+  answer: I as in Icarus
+  acceptedAnswers:
+  - I as in Icarus
+  - I... comme Icare
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1970 dura cerca de 120 minutos."
+  - "Su combinaci\xF3n de g\xE9neros incluye suspenso, drama y crimen; la producci\xF3n
+    se vincula con Francia."
+  - El realizador principal fue Henri Verneuil.
+  - "Dos personajes centrales son Henri Volney, interpretado por Yves Montand, y
+    Fr\xE9d\xE9ric Heiniger, a cargo de Michel Etcheverry."
+  - "El reparto incluye a Yves Montand como Henri Volney, Michel Etcheverry como
+    Fr\xE9d\xE9ric Heiniger y Roger Planchon como David Naggara bajo la direcci\xF3n
+    de Henri Verneuil."

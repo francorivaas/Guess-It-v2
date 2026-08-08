@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: machu_picchu
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: machu_picchu
+  category: lugares
+  difficulty: 0
+  answer: Machu Picchu
+  acceptedAnswers:
+  - Machu Picchu
+  - machupicchu
+  hints:
+  - "Permaneci\xF3 fuera del conocimiento internacional durante siglos."
+  - "Sus terrazas se adaptan a una cresta monta\xF1osa."
+  - "Fue construida por una civilizaci\xF3n andina antes de la conquista espa\xF1ola."
+  - "Est\xE1 cerca de Cusco y recibe viajeros por el Camino Inca."
+  - "Ciudadela inca de Per\xFA ubicada entre monta\xF1as cubiertas de niebla."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: two_is_a_family
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: two_is_a_family
+  category: peliculas
+  difficulty: 0
+  answer: Two Is a Family
+  acceptedAnswers:
+  - Two Is a Family
+  - Demain tout commence
+  hints:
+  - "Su metraje se acerca a 118 minutos y corresponde al a\xF1o 2016."
+  - "El relato pertenece a drama y comedia, con participaci\xF3n productiva de Francia."
+  - "Hugo G\xE9lin firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - "En el reparto, Omar Sy da vida a Samuel y Cl\xE9mence Po\xE9sy a Kristin."
+  - "Hugo G\xE9lin dirige a Omar Sy como Samuel, Cl\xE9mence Po\xE9sy como Kristin
+    y Antoine Bertrand como Bernie en esta pel\xEDcula de 2016."

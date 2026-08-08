@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: armand_assante
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: armand_assante
+  category: personas
+  difficulty: 2
+  answer: Armand Assante
+  acceptedAnswers:
+  - Armand Assante
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1992 y 2009 y recorren g\xE9neros
+    como aventura, drama y acci\xF3n."
+  - "Uno de sus trabajos fue \xAB1492: Conquest of Paradise\xBB (1992), bajo la direcci\xF3n
+    de Ridley Scott."
+  - "Su papel en \xABThe Odyssey\xBB fue el de Odysseus."
+  - "En \xABOn the Beach\xBB interpret\xF3 a Cmdr. Dwight Towers."
+  - "Sus papeles incluyen a Cmdr. Dwight Towers en \xABOn the Beach\xBB y a Kevin
+    en \xABThe Lost\xBB."

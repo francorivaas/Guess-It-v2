@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: burnt_offerings
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: burnt_offerings
+  category: peliculas
+  difficulty: 1
+  answer: Burnt Offerings
+  acceptedAnswers:
+  - Burnt Offerings
+  hints:
+  - "Combina un estreno de 1976 con di\xE1logos originalmente en ingl\xE9s."
+  - "El relato pertenece a terror, con participaci\xF3n productiva de Italia y Estados
+    Unidos."
+  - "Detr\xE1s de la c\xE1mara estuvo Dan Curtis."
+  - Karen Black interpreta a Marian Rolf, mientras Oliver Reed encarna a Ben Rolf.
+  - "El reparto incluye a Karen Black como Marian Rolf, Oliver Reed como Ben Rolf
+    y Burgess Meredith como Arnold Allardyce bajo la direcci\xF3n de Dan Curtis."

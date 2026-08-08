@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lyn_lapid
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lyn_lapid
+  category: bandas musicales
+  difficulty: 0
+  answer: Lyn Lapid
+  acceptedAnswers:
+  - Lyn Lapid
+  hints:
+  - "Antes de mirar los t\xEDtulos, conviene pensar en cantautor y songwriter y en
+    un equilibrio entre energ\xEDa, ritmo y melod\xEDa. El repertorio analizado re\xFAne
+    7 canciones distintas."
+  - "El cat\xE1logo incluye el \xE1lbum \xABIn My Mind\xBB."
+  - "En su cat\xE1logo aparecen \xABWhen She Loved Me\xBB y \xABDetached\xBB."
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABIn My Mind\xBB y \xABProducer
+    Man\xBB."
+  - "Nombre musical asociado directamente a \xABIn My Mind\xBB, \xABProducer Man\xBB
+    y \xABWhen She Loved Me\xBB."

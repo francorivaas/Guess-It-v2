@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: james_carabatsos
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: james_carabatsos
+  category: personas
+  difficulty: 1
+  answer: James Carabatsos
+  acceptedAnswers:
+  - James Carabatsos
+  hints:
+  - "Su trabajo se reparte entre drama y acci\xF3n y aventura a lo largo de un per\xEDodo
+    que va entre 1986 y 1987."
+  - "La pel\xEDcula \xABNo Mercy\xBB forma parte de una carrera conectada con Estados
+    Unidos."
+  - "Otros dos t\xEDtulos de su carrera son \xABNo Mercy\xBB y \xABHamburger Hill\xBB."
+  - "Los t\xEDtulos \xABHeartbreak Ridge\xBB y \xABHamburger Hill\xBB ofrecen las
+    pistas m\xE1s directas."
+  - "Profesional del cine relacionado con \xABHeartbreak Ridge\xBB, \xABHamburger
+    Hill\xBB y \xABNo Mercy\xBB en tareas de guion."

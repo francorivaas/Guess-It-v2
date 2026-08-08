@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jj_lin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jj_lin
+  category: bandas musicales
+  difficulty: 0
+  answer: JJ Lin
+  acceptedAnswers:
+  - JJ Lin
+  hints:
+  - "Su perfil sonoro combina mandopop con un equilibrio entre energ\xEDa, ritmo
+    y melod\xEDa."
+  - "Entre sus lanzamientos aparece \xABJJ\u9678\xBB."
+  - En algunas pistas aparece junto a Anne-Marie y Stefanie Sun.
+  - "El repertorio se vuelve claro con \xAB\u90A3\u4E9B\u4F60\u5F88\u5192\u96AA\u7684\u5922\xBB
+    junto a \xAB\u624B\u5FC3\u7684\u8594\u8587\xBB."
+  - "Proyecto musical responsable de \xAB\u90A3\u4E9B\u4F60\u5F88\u5192\u96AA\u7684\u5922\xBB,
+    \xAB\u624B\u5FC3\u7684\u8594\u8587\xBB y \xAB\u53EF\u60DC\u6C92\u5982\u679C\xBB."

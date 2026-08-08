@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: alberto_de_mendoza
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: alberto_de_mendoza
+  category: personas
+  difficulty: 1
+  answer: Alberto de Mendoza
+  acceptedAnswers:
+  - Alberto de Mendoza
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1969 y 1972, con presencia frecuente
+    en terror, misterio y suspenso."
+  - "Uno de sus trabajos fue \xABDelusions of Grandeur\xBB (1971), bajo la direcci\xF3n
+    de G\xE9rard Oury."
+  - "En \xABHorror Express\xBB interpret\xF3 a Father Pujardov."
+  - "Su papel en \xABA Lizard in a Woman's Skin\xBB fue el de Sgt. Brandon."
+  - "Interpret\xF3 a Sgt. Brandon en \xABA Lizard in a Woman's Skin\xBB y a Neil
+    Wardh en \xABBlade of the Ripper\xBB."

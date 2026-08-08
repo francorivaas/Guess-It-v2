@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rise_blood_hunter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rise_blood_hunter
+  category: peliculas
+  difficulty: 1
+  answer: 'Rise: Blood Hunter'
+  acceptedAnswers:
+  - 'Rise: Blood Hunter'
+  hints:
+  - "Es una producci\xF3n de 2007 con una duraci\xF3n aproximada de 97 minutos."
+  - "Ghost House Pictures particip\xF3 en una pel\xEDcula de acci\xF3n, aventura
+    y terror producida en Nueva Zelanda y Estados Unidos."
+  - "La direcci\xF3n estuvo a cargo de Sebastian Gutierrez."
+  - Lucy Liu interpreta a Sadie Blake, mientras Michael Chiklis encarna a Clyde Rawlins.
+  - "Sebastian Gutierrez dirige a Lucy Liu como Sadie Blake, Michael Chiklis como
+    Clyde Rawlins y Carla Gugino como Eve en esta pel\xEDcula de 2007."

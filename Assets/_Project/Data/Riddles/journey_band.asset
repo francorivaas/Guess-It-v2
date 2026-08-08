@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: journey_band
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: journey_band
+  category: bandas musicales
+  difficulty: 1
+  answer: Journey
+  acceptedAnswers:
+  - Journey
+  hints:
+  - "Surgi\xF3 en Estados Unidos y alcanz\xF3 especial relevancia desde finales de
+    la d\xE9cada de 1970."
+  - La propuesta sonora combina arena rock y soft rock.
+  - "La formaci\xF3n m\xE1s recordada incluye a Steve Perry, Neal Schon, Jonathan
+    Cain y Ross Valory."
+  - "Su discograf\xEDa tiene como referencia Escape."
+  - "Resulta dif\xEDcil confundirla al recordar Don't Stop Believin', Separate Ways
+    y una voz tenor muy alta."

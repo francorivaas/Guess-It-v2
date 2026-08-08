@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_100_year_old_man_who_climbed_out_the_window_and_disappeared
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_100_year_old_man_who_climbed_out_the_window_and_disappeared
+  category: peliculas
+  difficulty: 0
+  answer: The 100 Year-Old Man Who Climbed Out the Window and Disappeared
+  acceptedAnswers:
+  - The 100 Year-Old Man Who Climbed Out the Window and Disappeared
+  - "Hundra\xE5ringen som klev ut genom f\xF6nstret och f\xF6rsvann"
+  - hundraaringen som klev ut genom fonstret och forsvann
+  hints:
+  - "Es una producci\xF3n de 2013 con una duraci\xF3n aproximada de 114 minutos."
+  - Mezcla aventura, comedia y drama y fue producida en Suecia.
+  - "Felix Herngren la dirigi\xF3 con FLX Comedy AB entre las compa\xF1\xEDas productoras."
+  - Robert Gustafsson interpreta a Allan Karlsson, mientras Iwar Wiklander encarna
+    a Julius.
+  - En esta cinta de 2013 coinciden Robert Gustafsson como Allan Karlsson, Iwar Wiklander
+    como Julius y David Wiberg como Benny.

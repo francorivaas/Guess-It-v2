@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: charles_bronson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: charles_bronson
+  category: personas
+  difficulty: 0
+  answer: Charles Bronson
+  acceptedAnswers:
+  - Charles Bronson
+  hints:
+  - "Trabaj\xF3 en producciones de acci\xF3n, w\xE9stern y drama a lo largo del per\xEDodo
+    entre 1968 y 1991."
+  - "Form\xF3 parte del elenco de \xABOnce Upon a Time in the West\xBB, una pel\xEDcula
+    de 1968 dirigida por Sergio Leone."
+  - "Dio vida a Link Stuart en \xABRed Sun\xBB."
+  - "En \xABChato's Land\xBB interpret\xF3 a Pardon Chato."
+  - "Sus papeles incluyen a Pardon Chato en \xABChato's Land\xBB y a Mr. Roberts
+    en \xABThe Indian Runner\xBB."

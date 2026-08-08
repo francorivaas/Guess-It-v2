@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mikhail_kalatozov
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mikhail_kalatozov
+  category: personas
+  difficulty: 1
+  answer: Mikhail Kalatozov
+  acceptedAnswers:
+  - Mikhail Kalatozov
+  hints:
+  - "Su filmograf\xEDa como realizador recorre drama, romance y b\xE9lico durante
+    el per\xEDodo entre 1930 y 1969."
+  - "Entre sus trabajos de direcci\xF3n figura \xABThe Cranes Are Flying\xBB."
+  - "Su cat\xE1logo incluye \xABI Am Cuba\xBB adem\xE1s de la obra anterior."
+  - "Dos pel\xEDculas que llevan su firma son \xABI Am Cuba\xBB y \xABLetter Never
+    Sent\xBB."
+  - "Dirigi\xF3 \xABThe Cranes Are Flying\xBB, \xABI Am Cuba\xBB y \xABLetter Never
+    Sent\xBB."

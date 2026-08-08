@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: passion_joan_arc
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: passion_joan_arc
+  category: peliculas
+  difficulty: 2
+  answer: "La pasi\xF3n de Juana de Arco"
+  acceptedAnswers:
+  - "La pasi\xF3n de Juana de Arco"
+  - La pasion de Juana de Arco
+  - the passion of joan of arc
+  hints:
+  - "Se estren\xF3 en 1928 y combina drama hist\xF3rico dentro del cine de Francia."
+  - "La realizaci\xF3n fue encabezada por Carl Theodor Dreyer."
+  - "Entre sus figuras centrales est\xE1n Juana y sus jueces."
+  - "La trama gira alrededor de un proceso religioso se concentra en el rostro de
+    una joven acusada de herej\xEDa."
+  - "La pista casi definitiva es primeros planos extremos muestran interrogatorio,
+    l\xE1grimas y martirio."

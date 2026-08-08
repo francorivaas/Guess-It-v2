@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: 9_songs
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: 9_songs
+  category: peliculas
+  difficulty: 0
+  answer: 9 Songs
+  acceptedAnswers:
+  - 9 Songs
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2000 dura cerca de 66 minutos."
+  - "Entre sus compa\xF1\xEDas figura Revolution Films; sus g\xE9neros principales
+    son drama, m\xFAsica y romance."
+  - "Detr\xE1s de la c\xE1mara estuvo Michael Winterbottom."
+  - En el reparto, Kieran O'Brien da vida a Matt y Margo Stilley a Lisa.
+  - En esta cinta de 2004 coinciden Kieran O'Brien como Matt, Margo Stilley como
+    Lisa y Courtney Taylor-Taylor como Himself - The Dandy Warhols (uncredited).

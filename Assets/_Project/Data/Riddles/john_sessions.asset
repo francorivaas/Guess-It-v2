@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: john_sessions
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: john_sessions
+  category: personas
+  difficulty: 0
+  answer: John Sessions
+  acceptedAnswers:
+  - John Sessions
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1986 y 2016 y recorren g\xE9neros
+    como drama, comedia y romance."
+  - "Form\xF3 parte del elenco de \xABFilth\xBB, una pel\xEDcula de 2013 dirigida
+    por Jon S. Baird."
+  - "Su papel en \xABDenial\xBB fue el de Prof. Richard Evans."
+  - "En \xABThe Merchant of Venice\xBB interpret\xF3 a Salerio."
+  - "Sus papeles incluyen a Salerio en \xABThe Merchant of Venice\xBB y a Dushan
+    en \xABThe Last Station\xBB."

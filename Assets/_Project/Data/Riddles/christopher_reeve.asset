@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: christopher_reeve
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: christopher_reeve
+  category: personas
+  difficulty: 0
+  answer: Christopher Reeve
+  acceptedAnswers:
+  - Christopher Reeve
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1980 y 1995 y se concentra sobre
+    todo en drama y crimen."
+  - "La pel\xEDcula \xABMonsignor\xBB forma parte de una carrera conectada con Estados
+    Unidos y Reino Unido."
+  - "Su nombre figura en los cr\xE9ditos de \xABVillage of the Damned\xBB junto con
+    \xABSuperman IV: The Quest for Peace\xBB."
+  - "Dos referencias fuertes de su carrera son \xABSuperman III\xBB y \xABSuperman
+    IV: The Quest for Peace\xBB."
+  - "Profesional del cine relacionado con \xABSuperman III\xBB, \xABSuperman IV:
+    The Quest for Peace\xBB y \xABVillage of the Damned\xBB en tareas de interpretaci\xF3n."

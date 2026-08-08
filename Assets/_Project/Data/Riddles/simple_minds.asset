@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: simple_minds
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: simple_minds
+  category: bandas musicales
+  difficulty: 1
+  answer: Simple Minds
+  acceptedAnswers:
+  - Simple Minds
+  hints:
+  - "Desde Reino Unido, la banda proyect\xF3 su influencia principalmente desde la
+    d\xE9cada de 1980."
+  - La propuesta sonora combina new wave y rock.
+  - "La formaci\xF3n m\xE1s recordada incluye a Jim Kerr, Charlie Burchill y Mel
+    Gaynor."
+  - "Su discograf\xEDa tiene como referencia Once Upon a Time."
+  - "Resulta dif\xEDcil confundirla al recordar Don't You Forget About Me y una canci\xF3n
+    ligada a cinco estudiantes castigados."

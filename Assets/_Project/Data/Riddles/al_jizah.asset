@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: al_jizah
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: al_jizah
+  category: lugares
+  difficulty: 0
+  answer: "Al J\u012Bzah"
+  acceptedAnswers:
+  - "Al J\u012Bzah"
+  - Al Jizah
+  hints:
+  - "Para encontrarla hay que mirar el hemisferio norte y el lado este del meridiano
+    de Greenwich. Queda aproximadamente a 3.527 kil\xF3metros del ecuador."
+  - "Forma parte de Asia y su poblaci\xF3n ronda los 110.000 habitantes."
+  - "El punto urbano aparece cerca de 31.7\xB0 norte, 36.0\xB0 este."
+  - "Se integra en Al \u2018\u0100\u015Fimah, una regi\xF3n de Jordania."
+  - "Ciudad de Jordania que funciona como capital local en Al \u2018\u0100\u015Fimah
+    y re\xFAne cerca de 110.000 habitantes."

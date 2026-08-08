@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ain_temouchent
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ain_temouchent
+  category: lugares
+  difficulty: 0
+  answer: "A\xEFn Temouchent"
+  acceptedAnswers:
+  - "A\xEFn Temouchent"
+  - Ain Temouchent
+  hints:
+  - "Su posici\xF3n global combina el hemisferio norte con una longitud occidental.
+    Queda aproximadamente a 3.930 kil\xF3metros del ecuador."
+  - "Forma parte de \xC1frica y su poblaci\xF3n ronda los 76.000 habitantes."
+  - "En un mapa se encuentra alrededor de 35.3\xB0 norte por 1.1\xB0 oeste."
+  - "Est\xE1 dentro de Argelia, aproximadamente en 35.3\xB0 norte."
+  - "Localidad urbana de Argelia situada alrededor de 35.3\xB0 norte, 1.1\xB0 oeste,
+    con 76.000 habitantes."

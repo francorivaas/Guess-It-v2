@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: silk_sonic
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: silk_sonic
+  category: bandas musicales
+  difficulty: 0
+  answer: Silk Sonic
+  acceptedAnswers:
+  - Silk Sonic
+  hints:
+  - "Su perfil sonoro combina dance y pop con una sensaci\xF3n musical luminosa."
+  - "El cat\xE1logo incluye el \xE1lbum \xABGood Vibes\xBB."
+  - "Ha compartido cr\xE9ditos de interpretaci\xF3n con Bruno Mars y Anderson .Paak."
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABLeave The Door Open\xBB y
+    \xABSkate\xBB."
+  - "Artista o grupo detr\xE1s de \xABLeave The Door Open\xBB, \xABSkate\xBB y \xABLove's
+    Train\xBB."

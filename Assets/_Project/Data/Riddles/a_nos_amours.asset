@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: a_nos_amours
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: a_nos_amours
+  category: peliculas
+  difficulty: 1
+  answer: "\xC0 nos amours"
+  acceptedAnswers:
+  - "\xC0 nos amours"
+  - a nos amours
+  hints:
+  - "Es una producci\xF3n de 1983 con una duraci\xF3n aproximada de 102 minutos."
+  - "Gaumont particip\xF3 en una pel\xEDcula de drama y romance producida en Francia."
+  - "Maurice Pialat la dirigi\xF3 con Gaumont entre las compa\xF1\xEDas productoras."
+  - "Sandrine Bonnaire interpreta a Suzanne, mientras Evelyne Ker encarna a M\xE8re."
+  - "El reparto incluye a Sandrine Bonnaire como Suzanne, Evelyne Ker como M\xE8re
+    y Maurice Pialat como P\xE8re bajo la direcci\xF3n de Maurice Pialat."

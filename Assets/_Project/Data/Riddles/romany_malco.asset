@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: romany_malco
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: romany_malco
+  category: personas
+  difficulty: 2
+  answer: Romany Malco
+  acceptedAnswers:
+  - Romany Malco
+  hints:
+  - "En Saint John of Las Vegas interpret\xF3 a Virgil, en una pel\xEDcula estrenada
+    en 2009."
+  - "Su carrera en cine abarca de 2002 a 2015 y recorre comedia y romance. Entre
+    sus pel\xEDculas figura Saint John of Las Vegas."
+  - "Comparti\xF3 reparto con Michael Ealy en Think Like a Man."
+  - "En The DUFF interpret\xF3 a Principal Buchanon."
+  - Aparece en The 40 Year Old Virgin y Last Vegas.

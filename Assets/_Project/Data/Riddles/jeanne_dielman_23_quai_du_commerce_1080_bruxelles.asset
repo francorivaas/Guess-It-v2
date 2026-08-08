@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jeanne_dielman_23_quai_du_commerce_1080_bruxelles
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jeanne_dielman_23_quai_du_commerce_1080_bruxelles
+  category: peliculas
+  difficulty: 1
+  answer: Jeanne Dielman, 23, Quai du Commerce 1080 Bruxelles
+  acceptedAnswers:
+  - Jeanne Dielman, 23, Quai du Commerce 1080 Bruxelles
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1970 dura cerca de 201 minutos."
+  - "Entre sus compa\xF1\xEDas figura Paradise Films; sus g\xE9neros principales
+    son drama y cine extranjero."
+  - "Chantal Akerman firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Jeanne Dielman, interpretado por Delphine Seyrig,
+    y Sylvain Dielman, a cargo de Jan Decorte.
+  - En esta cinta de 1975 coinciden Delphine Seyrig como Jeanne Dielman, Jan Decorte
+    como Sylvain Dielman y Henri Storck como 1st Caller.

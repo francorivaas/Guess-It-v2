@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: men_at_work
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: men_at_work
+  category: bandas musicales
+  difficulty: 1
+  answer: Men At Work
+  acceptedAnswers:
+  - Men At Work
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABUnderground\xBB, de 1981, y llega hasta
+    1996."
+  - "\xABBe Good Johnny\xBB presenta una energ\xEDa media y un pulso cercano a 134
+    BPM."
+  - "Entre sus grabaciones figuran \xABIt's A Mistake\xBB y \xABI Can See It in Your
+    Eyes\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABWho Can It Be Now?\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABDown Under\xBB y \xABOverkill\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_golden_compass
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_golden_compass
+  category: peliculas
+  difficulty: 0
+  answer: The Golden Compass
+  acceptedAnswers:
+  - The Golden Compass
+  hints:
+  - "Se estren\xF3 en 2007, dura cerca de 113 minutos y tuvo producci\xF3n de Reino
+    Unido."
+  - "Combina aventura y fantas\xEDa; una de sus productoras fue New Line Cinema."
+  - "La dirigi\xF3 Chris Weitz, con Sam Elliott en un papel del reparto."
+  - En el elenco aparecen Nicole Kidman y Daniel Craig.
+  - "Dakota Blue Richards encabeza esta pel\xEDcula de aventura, dirigida por Chris
+    Weitz y estrenada en 2007."

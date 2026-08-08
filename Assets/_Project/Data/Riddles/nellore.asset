@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nellore
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nellore
+  category: lugares
+  difficulty: 0
+  answer: Nellore
+  acceptedAnswers:
+  - Nellore
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 14,45 grados del ecuador."
+  - "Su poblaci\xF3n registrada se aproxima a 547.600 habitantes y pertenece a Andhra
+    Pradesh."
+  - "No es la capital nacional de India. Su longitud geogr\xE1fica ronda los 79,99\xB0
+    este."
+  - Pertenece a India y forma parte de Andhra Pradesh; supera aproximadamente los
+    547.600 habitantes.
+  - "En India, dentro de Andhra Pradesh, esta ciudad de unos 548 mil est\xE1 cerca
+    de 14,4\xB0 norte y 80,0\xB0 este."

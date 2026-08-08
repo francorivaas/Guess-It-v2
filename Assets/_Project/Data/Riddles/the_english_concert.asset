@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_english_concert
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_english_concert
+  category: bandas musicales
+  difficulty: 0
+  answer: The English Concert
+  acceptedAnswers:
+  - The English Concert
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABBrandenburg Concerto No.5 in D, BWV 1050:
+    1. Allegro (I)\xBB, de 1982, y llega hasta 2003."
+  - "\xABMass In C, K.317 \"Coronation\": 2. Gloria\xBB presenta una energ\xEDa suave
+    y un pulso cercano a 117 BPM."
+  - "Entre sus grabaciones figuran \xABEin Musikalischer Spass (A Musical Joke),
+    K. 522: IV. Presto\xBB y \xABSerenade In G Major: Eine Kleine Nachtmusik, K.
+    525: II. Romance: Andante\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABConcerto For 2 Mandolins, Strings And Continuo In G,
+    RV 532: 3. Allegro\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABSerenade In G Major: Eine Kleine Nachtmusik,
+    K. 525: I. Allegro\xBB y \xABWater Music Suite No. 1 In F, HWV 348: 2. Adagio
+    e staccato\xBB."

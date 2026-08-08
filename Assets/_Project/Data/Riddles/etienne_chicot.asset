@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: etienne_chicot
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: etienne_chicot
+  category: personas
+  difficulty: 0
+  answer: Etienne Chicot
+  acceptedAnswers:
+  - Etienne Chicot
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1976 y 2012 y recorren g\xE9neros
+    como crimen, misterio y comedia."
+  - "Uno de sus trabajos fue \xABTranssiberian\xBB (2008), bajo la direcci\xF3n de
+    Brad Anderson."
+  - "Su papel en \xABFly Me to the Moon\xBB fue el de Edmond."
+  - "En \xABA Gang Story\xBB interpret\xF3 a Nick \"Le Grec\"."
+  - "Sus papeles incluyen a Nick \"Le Grec\" en \xABA Gang Story\xBB y a Le photographe
+    Olah ! en \xABRoyal Palace\xBB."

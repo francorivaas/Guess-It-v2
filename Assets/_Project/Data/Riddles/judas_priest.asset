@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: judas_priest
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: judas_priest
+  category: bandas musicales
+  difficulty: 1
+  answer: Judas Priest
+  acceptedAnswers:
+  - Judas Priest
+  hints:
+  - "El punto de partida estuvo en Reino Unido; la etapa decisiva lleg\xF3 desde
+    la d\xE9cada de 1970."
+  - "Su identidad estil\xEDstica re\xFAne heavy metal."
+  - Entre sus integrantes o figuras centrales estuvieron Rob Halford, Glenn Tipton,
+    K. K. Downing e Ian Hill.
+  - "Una obra decisiva de su cat\xE1logo es British Steel."
+  - La pista casi definitiva es Breaking the Law, Painkiller y cuero con tachas como
+    imagen del metal.

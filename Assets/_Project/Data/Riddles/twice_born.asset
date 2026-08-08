@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: twice_born
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: twice_born
+  category: peliculas
+  difficulty: 0
+  answer: Twice Born
+  acceptedAnswers:
+  - Twice Born
+  - Venuto al mondo
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2010 dura cerca de 127 minutos."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama, romance y b\xE9lico; la producci\xF3n
+    se vincula con Italia y Espa\xF1a."
+  - "Sergio Castellitto la dirigi\xF3 con Medusa Film entre las compa\xF1\xEDas productoras."
+  - "En el reparto, Pen\xE9lope Cruz da vida a Gemma y Emile Hirsch a Diego."
+  - "El reparto incluye a Pen\xE9lope Cruz como Gemma, Emile Hirsch como Diego y
+    Adnan Haskovic como Gojco bajo la direcci\xF3n de Sergio Castellitto."

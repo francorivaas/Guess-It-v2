@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: roger_avary
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: roger_avary
+  category: personas
+  difficulty: 0
+  answer: Roger Avary
+  acceptedAnswers:
+  - Roger Avary
+  hints:
+  - Es una figura del cine cuya actividad registrada se extiende entre 1993 y 2006
+    y toca principalmente crimen y comedia.
+  - "Una pista lateral de su filmograf\xEDa es \xABKilling Zoe\xBB, dentro de Francia
+    y Estados Unidos."
+  - "Tambi\xE9n est\xE1 vinculada a \xABKilling Zoe\xBB y \xABThe Rules of Attraction\xBB."
+  - "La filmograf\xEDa apunta con claridad a \xABSilent Hill\xBB y \xABThe Rules
+    of Attraction\xBB."
+  - "Persona con cr\xE9ditos de direcci\xF3n y guion en \xABSilent Hill\xBB, \xABThe
+    Rules of Attraction\xBB y \xABKilling Zoe\xBB."

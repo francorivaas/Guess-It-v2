@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: georgi_millyar
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: georgi_millyar
+  category: personas
+  difficulty: 1
+  answer: Georgi Millyar
+  acceptedAnswers:
+  - Georgi Millyar
+  hints:
+  - "Trabaj\xF3 en producciones de aventura, familiar y fantas\xEDa a lo largo del
+    per\xEDodo entre 1947 y 1969."
+  - "Form\xF3 parte del elenco de \xABKidnapping, Caucasian Style\xBB, una pel\xEDcula
+    de 1967 dirigida por Leonid Gayday."
+  - "En \xABFather Frost\xBB interpret\xF3 a Baba-Yaga / Bandit in robe."
+  - "En \xABEvenings on a Farm near Dikanka\xBB interpret\xF3 a The Devil."
+  - "Interpret\xF3 a The Devil en \xABEvenings on a Farm near Dikanka\xBB y a \u041F\u0430\u043F\u0430\u0448\u0430
+    \u0414\u043E\u0440\u0441\u0435\u0442 en \xABBusinessmen\xBB."

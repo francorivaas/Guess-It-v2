@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: to_live
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: to_live
+  category: peliculas
+  difficulty: 0
+  answer: To Live
+  acceptedAnswers:
+  - To Live
+  hints:
+  - "Su metraje se acerca a 125 minutos y corresponde al a\xF1o 1994."
+  - "Entre sus compa\xF1\xEDas figura Shanghai Film Studios; sus g\xE9neros principales
+    son drama, romance y b\xE9lico."
+  - "Zhang Yimou la dirigi\xF3 con Shanghai Film Studios entre las compa\xF1\xEDas
+    productoras."
+  - Ge You interpreta a Xu Fugui, mientras Gong Li encarna a Jiazhen.
+  - "El reparto incluye a Ge You como Xu Fugui, Gong Li como Jiazhen y Niu Ben como
+    Town Chief bajo la direcci\xF3n de Zhang Yimou."

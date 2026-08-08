@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tegan_and_sara
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tegan_and_sara
+  category: bandas musicales
+  difficulty: 0
+  answer: Tegan and Sara
+  acceptedAnswers:
+  - Tegan and Sara
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABYou Wouldn't like Me\xBB, de 2004, y llega
+    hasta 2013."
+  - "Se mueve dentro de pop rock; \xABThe Con\xBB refleja una energ\xEDa alta y un
+    pulso cercano a 130 BPM."
+  - "Entre sus grabaciones figuran \xABWalking with a Ghost\xBB y \xABBack in Your
+    Head\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABCloser\xBB. Otro lanzamiento es \xABThe Con\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABWhere Does the Good Go\xBB y \xABEverything
+    Is AWESOME!!! (feat. The Lonely Island)\xBB."

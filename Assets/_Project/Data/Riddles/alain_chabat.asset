@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: alain_chabat
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: alain_chabat
+  category: personas
+  difficulty: 0
+  answer: Alain Chabat
+  acceptedAnswers:
+  - Alain Chabat
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1994 y 2017, con presencia frecuente
+    en comedia, drama y romance."
+  - "Form\xF3 parte del elenco de \xABValerian and the City of a Thousand Planets\xBB,
+    una pel\xEDcula de 2017 dirigida por Luc Besson."
+  - "En \xABThe Science of Sleep\xBB interpret\xF3 a Guy."
+  - "En \xABRRRrrrr!!!\xBB interpret\xF3 a Pierre (le Gu\xE9rissologue)."
+  - "Es la persona que encarn\xF3 a Pierre (le Gu\xE9rissologue) en \xABRRRrrrr!!!\xBB
+    y a Dan Geraldo en \xABHOUBA! On the Trail of the Marsupilami\xBB."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: elizabeth_debicki
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: elizabeth_debicki
+  category: personas
+  difficulty: 1
+  answer: Elizabeth Debicki
+  acceptedAnswers:
+  - Elizabeth Debicki
+  hints:
+  - "En Everest interpret\xF3 a Caroline Mackenzie, en una pel\xEDcula estrenada
+    en 2015."
+  - Su carrera en cine abarca de 2013 a 2015 y recorre drama y romance.
+  - "Comparti\xF3 reparto con Henry Cavill en The Man from U.N.C.L.E. Otro cr\xE9dito
+    es Everest."
+  - "En The Man from U.N.C.L.E. interpret\xF3 a Victoria Vinciguerra."
+  - Aparece en The Great Gatsby y Everest.

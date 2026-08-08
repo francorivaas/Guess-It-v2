@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_blackcoat_s_daughter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_blackcoat_s_daughter
+  category: peliculas
+  difficulty: 1
+  answer: The Blackcoat's Daughter
+  acceptedAnswers:
+  - The Blackcoat's Daughter
+  hints:
+  - "Es una producci\xF3n de 2015 con una duraci\xF3n aproximada de 93 minutos."
+  - "Zed Filmworks particip\xF3 en una pel\xEDcula de terror y suspenso producida
+    en Canad\xE1 y Estados Unidos."
+  - El realizador principal fue Oz Perkins.
+  - En el reparto, Emma Roberts da vida a Joan Marsh y Kiernan Shipka a Kat.
+  - "El reparto incluye a Emma Roberts como Joan Marsh, Kiernan Shipka como Kat y
+    Lucy Boynton como Rose bajo la direcci\xF3n de Oz Perkins."

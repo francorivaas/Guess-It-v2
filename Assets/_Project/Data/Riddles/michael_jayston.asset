@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: michael_jayston
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: michael_jayston
+  category: personas
+  difficulty: 2
+  answer: Michael Jayston
+  acceptedAnswers:
+  - Michael Jayston
+  hints:
+  - "Trabaj\xF3 en producciones de drama, b\xE9lico y terror a lo largo del per\xEDodo
+    entre 1970 y 1979."
+  - "Particip\xF3 en \xABNicholas and Alexandra\xBB, dirigida por Franklin J. Schaffner
+    y estrenada en 1971."
+  - "Su papel en \xABCromwell\xBB fue el de Henry Ireton."
+  - "Su papel en \xABAlice's Adventures in Wonderland\xBB fue el de Lewis Carroll
+    (Charles Dodgson)."
+  - "Interpret\xF3 a Lewis Carroll (Charles Dodgson) en \xABAlice's Adventures in
+    Wonderland\xBB y a Peter Guillam en \xABTinker Tailor Soldier Spy\xBB."

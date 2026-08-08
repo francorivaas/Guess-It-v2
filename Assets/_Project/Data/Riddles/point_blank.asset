@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: point_blank
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: point_blank
+  category: peliculas
+  difficulty: 0
+  answer: Point Blank
+  acceptedAnswers:
+  - Point Blank
+  - "\xC0 bout portant"
+  - a bout portant
+  hints:
+  - "Combina un estreno de 2010 con di\xE1logos originalmente en franc\xE9s."
+  - "Entre sus compa\xF1\xEDas figura Gaumont; sus g\xE9neros principales son acci\xF3n,
+    suspenso y crimen."
+  - "El realizador principal fue Fred Cavay\xE9."
+  - "En el reparto, G\xE9rard Lanvin da vida a Commandant Patrick Werner y Roschdy
+    Zem a Hugo Sartet."
+  - "En esta cinta de 2010 coinciden G\xE9rard Lanvin como Commandant Patrick Werner,
+    Roschdy Zem como Hugo Sartet y Elena Anaya como Nadia Pierret."

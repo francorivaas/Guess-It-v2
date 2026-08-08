@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kausar_munir
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kausar_munir
+  category: bandas musicales
+  difficulty: 0
+  answer: Kausar Munir
+  acceptedAnswers:
+  - Kausar Munir
+  hints:
+  - "Antes de mirar los t\xEDtulos, conviene pensar en m\xFAsica india y indie pop
+    y en un equilibrio entre energ\xEDa, ritmo y melod\xEDa."
+  - "Uno de los \xE1lbumes asociados a este proyecto es \xABGehraiyaan (Original
+    Motion Picture Soundtrack)\xBB."
+  - Entre sus colaboraciones registradas figuran OAFF y Savera.
+  - "El repertorio se vuelve claro con \xABDoobey (From \"Gehraiyaan\")\xBB junto
+    a \xABFalak Tak\xBB."
+  - "Proyecto musical responsable de \xABDoobey (From \"Gehraiyaan\")\xBB, \xABFalak
+    Tak\xBB y \xABSaiyaara\xBB."

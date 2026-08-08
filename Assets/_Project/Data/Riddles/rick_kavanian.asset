@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rick_kavanian
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rick_kavanian
+  category: personas
+  difficulty: 1
+  answer: Rick Kavanian
+  acceptedAnswers:
+  - Rick Kavanian
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2001 y 2009 y recorren g\xE9neros
+    como comedia, animaci\xF3n y w\xE9stern."
+  - "Particip\xF3 en \xABManitou's Shoe\xBB, dirigida por Michael Herbig y estrenada
+    en 2001."
+  - "En \xABLissi and the Wild Emperor\xBB interpret\xF3 a K\xF6nig Bussi von Bayern/Feldmarschall."
+  - "Su papel en \xABHui Buh\xBB fue el de Charles."
+  - "Interpret\xF3 a Charles en \xABHui Buh\xBB y a 1/2 Ritter Erdal en \xAB1\xBD
+    Knights - In Search of the Ravishing Princess Herzelinde\xBB."

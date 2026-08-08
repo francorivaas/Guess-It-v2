@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: yo_yo_ma
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: yo_yo_ma
+  category: bandas musicales
+  difficulty: 1
+  answer: Yo-Yo Ma
+  acceptedAnswers:
+  - Yo-Yo Ma
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABConcerto in D Minor for 2 Mandolins, RV.
+    532: Andante (Arr. For Cello and Voice)\xBB, de 1945, y llega hasta 2015."
+  - "Se mueve dentro de pop; \xABCarnival of the Animals, R. 125: The Swan\xBB refleja
+    una energ\xEDa suave y un pulso cercano a 96 BPM."
+  - "Entre sus grabaciones figuran \xABWiegenlied, Op. 49, No. 4 (Arr. for Cello
+    and Piano)\xBB y \xABApr\xE8s un r\xEAve, Op. 7, No. 1\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABCello Suite No. 1 in G Major, BWV 1007: I. Pr\xE9lude\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABThe Carnival of the Animals, R. 125:
+    XIII. The Swan (Arr. for Cello and Piano)\xBB y \xABAve Maria\xBB."

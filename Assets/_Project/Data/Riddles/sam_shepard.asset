@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sam_shepard
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sam_shepard
+  category: personas
+  difficulty: 1
+  answer: Sam Shepard
+  acceptedAnswers:
+  - Sam Shepard
+  hints:
+  - "En Darling Companion interpret\xF3 a Sheriff Morris, en una pel\xEDcula estrenada
+    en 2012."
+  - Su carrera en cine abarca de 1978 a 2016 y recorre romance y drama.
+  - "Comparti\xF3 reparto con Meryl Streep en August: Osage County."
+  - "En Black Hawk Down interpret\xF3 a Maj. Gen. William F. Garrison."
+  - Aparece en The Notebook y Safe House.

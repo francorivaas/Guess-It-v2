@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: general_della_rovere
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: general_della_rovere
+  category: peliculas
+  difficulty: 0
+  answer: General Della Rovere
+  acceptedAnswers:
+  - General Della Rovere
+  - Il generale Della Rovere
+  hints:
+  - "Su metraje se acerca a 132 minutos y corresponde al a\xF1o 1959."
+  - "Su combinaci\xF3n de g\xE9neros incluye b\xE9lico y drama; la producci\xF3n
+    se vincula con Francia y Italia."
+  - "Detr\xE1s de la c\xE1mara estuvo Roberto Rossellini."
+  - Dos personajes centrales son Victorio Emanuele Bardone / Grimaldi, interpretado
+    por Vittorio De Sica, y S.S. Colonel Mueller, a cargo de Hannes Messemer.
+  - "El reparto incluye a Vittorio De Sica como Victorio Emanuele Bardone / Grimaldi,
+    Hannes Messemer como S.S. Colonel Mueller y Sandra Milo como Valeria bajo la
+    direcci\xF3n de Roberto Rossellini."

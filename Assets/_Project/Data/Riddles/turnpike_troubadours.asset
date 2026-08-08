@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: turnpike_troubadours
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: turnpike_troubadours
+  category: bandas musicales
+  difficulty: 1
+  answer: Turnpike Troubadours
+  acceptedAnswers:
+  - Turnpike Troubadours
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABWhole Damn Town\xBB, de 2010, y llega
+    hasta 2017."
+  - "Se mueve dentro de country; \xABGin, Smoke, Lies\xBB refleja una energ\xEDa
+    media y un pulso cercano a 156 BPM."
+  - "Entre sus grabaciones figuran \xABDiamonds & Gasoline\xBB y \xABEvery Girl\xBB."
+  - "Tambi\xE9n lanz\xF3 \xAB7 & 7\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABLong Hot Summer Day\xBB y \xABGood Lord
+    Lorrie\xBB."

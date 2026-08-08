@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: disco_pigs
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: disco_pigs
+  category: peliculas
+  difficulty: 1
+  answer: Disco Pigs
+  acceptedAnswers:
+  - Disco Pigs
+  hints:
+  - "Su metraje se acerca a 93 minutos y corresponde al a\xF1o 2001."
+  - "El relato pertenece a drama, con participaci\xF3n productiva de Irlanda."
+  - "Kirsten Sheridan firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Elaine Cassidy interpreta a Runt / Sinead, mientras Cillian Murphy encarna a
+    Pig / Darren.
+  - "En esta cinta de 2001 coinciden Elaine Cassidy como Runt / Sinead, Cillian Murphy
+    como Pig / Darren y Br\xEDan F. O'Byrne como Gerry."

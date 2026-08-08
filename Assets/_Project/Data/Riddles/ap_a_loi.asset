@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ap_a_loi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ap_a_loi
+  category: lugares
+  difficulty: 1
+  answer: "\u1EA4p \u0110a L\u1EE3i"
+  acceptedAnswers:
+  - "\u1EA4p \u0110a L\u1EE3i"
+  - "ap \u0111a loi"
+  - Ap Da Loi
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 11,93 grados del ecuador."
+  - "Su poblaci\xF3n registrada se aproxima a 256.000 habitantes y pertenece a L\xE2m
+    \u0110\u1ED3ng."
+  - "Administrativamente pertenece a L\xE2m \u0110\u1ED3ng. No es la capital nacional
+    de Vietnam."
+  - "Pertenece a Vietnam y forma parte de L\xE2m \u0110\u1ED3ng; supera aproximadamente
+    los 256.000 habitantes."
+  - "Es una ciudad de Vietnam, en L\xE2m \u0110\u1ED3ng, situada aproximadamente
+    en 11,9\xB0 norte y 108,5\xB0 este."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: olivia_rodrigo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: olivia_rodrigo
+  category: bandas musicales
+  difficulty: 0
+  answer: Olivia Rodrigo
+  acceptedAnswers:
+  - Olivia Rodrigo
+  hints:
+  - "Su perfil sonoro combina pop con un tono emocional m\xE1s bien sombr\xEDo."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABSOUR\xBB."
+  - "Dos t\xEDtulos menos inmediatos de su repertorio son \xABdrivers license\xBB
+    y \xABdeja vu\xBB."
+  - "El repertorio se vuelve claro con \xABtraitor\xBB junto a \xABgood 4 u\xBB."
+  - "Proyecto musical responsable de \xABtraitor\xBB, \xABgood 4 u\xBB y \xABdrivers
+    license\xBB."

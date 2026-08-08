@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_skin_i_live_in
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_skin_i_live_in
+  category: peliculas
+  difficulty: 0
+  answer: The Skin I Live In
+  acceptedAnswers:
+  - The Skin I Live In
+  - La piel que habito
+  hints:
+  - "Fue filmada originalmente en espa\xF1ol y lleg\xF3 a los cines en 2011."
+  - "Mezcla drama, terror y misterio y fue producida en Espa\xF1a."
+  - "Pedro Almod\xF3var firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Doctor Robert Ledgard, interpretado por Antonio
+    Banderas, y Vera Cruz, a cargo de Elena Anaya.
+  - En esta cinta de 2011 coinciden Antonio Banderas como Doctor Robert Ledgard,
+    Elena Anaya como Vera Cruz y Marisa Paredes como Marilia.

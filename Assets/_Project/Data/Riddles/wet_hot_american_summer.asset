@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: wet_hot_american_summer
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: wet_hot_american_summer
+  category: peliculas
+  difficulty: 0
+  answer: Wet Hot American Summer
+  acceptedAnswers:
+  - Wet Hot American Summer
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2000, dentro de comedia y cine de culto."
+  - "Tiene una duraci\xF3n aproximada de 98 minutos y recibi\xF3 la clasificaci\xF3n
+    R. La direcci\xF3n est\xE1 acreditada a David Wain."
+  - "La producci\xF3n lleg\xF3 en 2001 bajo la participaci\xF3n de Eureka Pictures."
+  - "La dirigi\xF3 David Wain; en el reparto aparecen Janeane Garofalo y David Hyde
+    Pierce."
+  - "La respuesta es la cinta de 2001 que David Wain dirigi\xF3 con Janeane Garofalo,
+    David Hyde Pierce y Michael Showalter como int\xE9rpretes destacados, con guion
+    de Michael Showalter."

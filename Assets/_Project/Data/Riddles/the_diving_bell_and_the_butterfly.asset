@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_diving_bell_and_the_butterfly
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_diving_bell_and_the_butterfly
+  category: peliculas
+  difficulty: 2
+  answer: The Diving Bell and the Butterfly
+  acceptedAnswers:
+  - The Diving Bell and the Butterfly
+  - Le scaphandre et le papillon
+  hints:
+  - "Se estren\xF3 en 2007, dura cerca de 112 minutos y tuvo producci\xF3n de Francia."
+  - "Combina drama; una de sus productoras fue France 3 Cin\xE9ma."
+  - "La dirigi\xF3 Julian Schnabel, con Anne Consigny en un papel del reparto."
+  - "En el elenco aparecen Emmanuelle Seigner y Marie-Jos\xE9e Croze."
+  - "Mathieu Amalric encabeza esta pel\xEDcula de drama, dirigida por Julian Schnabel
+    y estrenada en 2007."

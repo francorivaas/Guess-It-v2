@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_three_burials_of_melquiades_estrada
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_three_burials_of_melquiades_estrada
+  category: peliculas
+  difficulty: 0
+  answer: The Three Burials of Melquiades Estrada
+  acceptedAnswers:
+  - The Three Burials of Melquiades Estrada
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2000 y su duraci\xF3n ronda los 121 minutos."
+  - "The Javelina Film Company particip\xF3 en una pel\xEDcula de aventura, crimen
+    y drama producida en Estados Unidos y Francia."
+  - El realizador principal fue Tommy Lee Jones.
+  - Tommy Lee Jones interpreta a Pete Perkins, mientras Barry Pepper encarna a Mike
+    Norton.
+  - "El reparto incluye a Tommy Lee Jones como Pete Perkins, Barry Pepper como Mike
+    Norton y Dwight Yoakam como Belmont bajo la direcci\xF3n de Tommy Lee Jones."

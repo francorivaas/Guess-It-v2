@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: waiting_for_guffman
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: waiting_for_guffman
+  category: peliculas
+  difficulty: 1
+  answer: Waiting for Guffman
+  acceptedAnswers:
+  - Waiting for Guffman
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 1990, dentro de comedia. La direcci\xF3n est\xE1 acreditada a Christopher
+    Guest."
+  - "Tiene una duraci\xF3n aproximada de 84 minutos y recibi\xF3 la clasificaci\xF3n
+    R."
+  - "La producci\xF3n lleg\xF3 en 1996 bajo la participaci\xF3n de Castle Rock Entertainment."
+  - "Christopher Guest estuvo a cargo de la direcci\xF3n, con Christopher Guest al
+    frente del elenco."
+  - "Pel\xEDcula de 1996 dirigida por Christopher Guest, con Christopher Guest en
+    el reparto, con guion de Christopher Guest."

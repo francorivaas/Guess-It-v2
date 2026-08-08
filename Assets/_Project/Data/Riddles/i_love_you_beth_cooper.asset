@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: i_love_you_beth_cooper
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: i_love_you_beth_cooper
+  category: peliculas
+  difficulty: 1
+  answer: I Love You, Beth Cooper
+  acceptedAnswers:
+  - I Love You, Beth Cooper
+  - Love You, Beth Cooper
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 2000 y clasificada como comedia. La direcci\xF3n est\xE1 acreditada a
+    Chris Columbus."
+  - "El montaje final se extiende unos 102 minutos y aparece catalogado con la se\xF1al
+    PG-13. Entre sus int\xE9rpretes figura Hayden Panettiere."
+  - "El a\xF1o 2009 y el sello Fox Atomic forman parte de sus datos de producci\xF3n."
+  - "Chris Columbus estuvo a cargo de la direcci\xF3n, con Hayden Panettiere al frente
+    del elenco."
+  - "Pel\xEDcula de 2009 dirigida por Chris Columbus, con Hayden Panettiere en el
+    reparto, con guion de Larry Doyle."

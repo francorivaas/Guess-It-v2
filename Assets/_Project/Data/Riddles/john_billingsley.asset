@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: john_billingsley
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: john_billingsley
+  category: personas
+  difficulty: 2
+  answer: John Billingsley
+  acceptedAnswers:
+  - John Billingsley
+  hints:
+  - "En Trade Of Innocents interpret\xF3 a Malcolm Eddery, en una pel\xEDcula estrenada
+    en 2012."
+  - "Su carrera en cine abarca de 2002 a 2012 y recorre acci\xF3n y aventura."
+  - "Comparti\xF3 reparto con Ashley Judd en High Crimes."
+  - "En The Man from Earth interpret\xF3 a Harry."
+  - Aparece en 2012 y Out of Time.

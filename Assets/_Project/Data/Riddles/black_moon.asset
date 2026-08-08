@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: black_moon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: black_moon
+  category: peliculas
+  difficulty: 0
+  answer: Black Moon
+  acceptedAnswers:
+  - Black Moon
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1970 y su duraci\xF3n ronda los 100 minutos."
+  - "Mezcla fantas\xEDa y ciencia ficci\xF3n y fue producida en Alemania y Francia."
+  - "Louis Malle firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Lily, interpretado por Cathryn Harrison, y Old Lady,
+    a cargo de Therese Giehse.
+  - "Louis Malle dirige a Cathryn Harrison como Lily, Therese Giehse como Old Lady
+    y Alexandra Stewart como Sister Lily en esta pel\xEDcula de 1975."

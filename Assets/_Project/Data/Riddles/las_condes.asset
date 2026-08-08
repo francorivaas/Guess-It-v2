@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: las_condes
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: las_condes
+  category: lugares
+  difficulty: 1
+  answer: Las Condes
+  acceptedAnswers:
+  - Las Condes
+  hints:
+  - "Se ubica al sur del ecuador y al oeste de Greenwich, cerca de 33,41\xB0 de latitud."
+  - "Su poblaci\xF3n registrada se aproxima a 249.900 habitantes y pertenece a Regi\xF3n
+    Metropolitana."
+  - "Administrativamente pertenece a Regi\xF3n Metropolitana. No es la capital nacional
+    de Chile."
+  - "Se encuentra en Chile, dentro de Regi\xF3n Metropolitana, con una poblaci\xF3n
+    cercana a 250 mil."
+  - "Es una ciudad de Chile, en Regi\xF3n Metropolitana, situada aproximadamente
+    en 33,4\xB0 sur y 70,5\xB0 oeste."

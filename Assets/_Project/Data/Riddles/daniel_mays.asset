@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: daniel_mays
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: daniel_mays
+  category: personas
+  difficulty: 2
+  answer: Daniel Mays
+  acceptedAnswers:
+  - Daniel Mays
+  hints:
+  - "En All or Nothing interpret\xF3 a Jason, en una pel\xEDcula estrenada en 2002."
+  - "Su carrera en cine abarca de 2002 a 2016 y recorre aventura y animaci\xF3n."
+  - "Comparti\xF3 reparto con Russell Crowe en A Good Year. Otro cr\xE9dito es Victor
+    Frankenstein."
+  - "En The Bank Job interpret\xF3 a Dave Shilling."
+  - Aparece en The Adventures of Tintin y Victor Frankenstein.

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: there_will_be_blood
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: there_will_be_blood
+  category: peliculas
+  difficulty: 1
+  answer: "Petr\xF3leo sangriento"
+  acceptedAnswers:
+  - "Petr\xF3leo sangriento"
+  - Petroleo sangriento
+  - pozos de ambicion
+  - there will be blood
+  hints:
+  - "Se estren\xF3 en 2007 y combina drama dentro del cine de Estados Unidos."
+  - "La realizaci\xF3n fue encabezada por Paul Thomas Anderson."
+  - "Entre sus figuras centrales est\xE1n Daniel Plainview, Eli Sunday y H. W.."
+  - La trama gira alrededor de un empresario petrolero expande su fortuna mientras
+    choca con un predicador.
+  - "La pista casi definitiva es una bolera privada presencia una discusi\xF3n sobre
+    beber un batido."

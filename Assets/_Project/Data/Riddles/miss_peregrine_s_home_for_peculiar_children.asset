@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: miss_peregrine_s_home_for_peculiar_children
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: miss_peregrine_s_home_for_peculiar_children
+  category: peliculas
+  difficulty: 0
+  answer: Miss Peregrine's Home for Peculiar Children
+  acceptedAnswers:
+  - Miss Peregrine's Home for Peculiar Children
+  hints:
+  - "Su metraje se acerca a 127 minutos y corresponde al a\xF1o 2016."
+  - "El relato pertenece a drama, fantas\xEDa y aventura, con participaci\xF3n productiva
+    de B\xE9lgica y Reino Unido."
+  - "Detr\xE1s de la c\xE1mara estuvo Tim Burton."
+  - En el reparto, Eva Green da vida a Miss Peregrine y Asa Butterfield a Jacob Portman.
+  - En esta cinta de 2016 coinciden Eva Green como Miss Peregrine, Asa Butterfield
+    como Jacob Portman y Samuel L. Jackson como Barron.

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: s_epatha_merkerson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: s_epatha_merkerson
+  category: personas
+  difficulty: 2
+  answer: S. Epatha Merkerson
+  acceptedAnswers:
+  - S. Epatha Merkerson
+  hints:
+  - "En She's Gotta Have It interpret\xF3 a Doctor Jamison, en una pel\xEDcula estrenada
+    en 1986."
+  - "Su carrera en cine abarca de 1986 a 2013 y recorre acci\xF3n y suspenso."
+  - "Comparti\xF3 reparto con Naomi Watts en Mother and Child."
+  - "En Black Snake Moan interpret\xF3 a Angela."
+  - 'Aparece en Terminator 2: Judgment Day y Radio.'

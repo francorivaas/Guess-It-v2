@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lucy_cohu
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lucy_cohu
+  category: personas
+  difficulty: 1
+  answer: Lucy Cohu
+  acceptedAnswers:
+  - Lucy Cohu
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 2007 y 2011, con presencia frecuente
+    en drama, terror y suspenso."
+  - "Form\xF3 parte del elenco de \xABThe Awakening\xBB, una pel\xEDcula de 2011
+    dirigida por Nick Murphy."
+  - "En \xABBecoming Jane\xBB interpret\xF3 a Eliza de Feuillide."
+  - "En \xABBallet Shoes\xBB interpret\xF3 a Theo Dane."
+  - "Interpret\xF3 a Theo Dane en \xABBallet Shoes\xBB y a Mileva Einstein en \xABEinstein
+    and Eddington\xBB."

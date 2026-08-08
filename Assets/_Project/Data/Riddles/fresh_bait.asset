@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fresh_bait
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fresh_bait
+  category: peliculas
+  difficulty: 2
+  answer: Fresh Bait
+  acceptedAnswers:
+  - Fresh Bait
+  - "L'app\xE2t"
+  - l'appat
+  hints:
+  - "Fue filmada originalmente en franc\xE9s y lleg\xF3 a los cines en 1995."
+  - Mezcla drama y crimen y fue producida en Francia.
+  - "Bertrand Tavernier firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Nathalie, interpretado por Marie Gillain, y Eric,
+    a cargo de Olivier Sitruk.
+  - "Bertrand Tavernier dirige a Marie Gillain como Nathalie, Olivier Sitruk como
+    Eric y Bruno Putzulu como Bruno en esta pel\xEDcula de 1995."

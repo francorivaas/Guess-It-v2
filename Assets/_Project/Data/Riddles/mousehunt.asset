@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mousehunt
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mousehunt
+  category: peliculas
+  difficulty: 0
+  answer: Mousehunt
+  acceptedAnswers:
+  - Mousehunt
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 1990, vinculada al
+    g\xE9nero de comedia. La direcci\xF3n est\xE1 acreditada a Gore Verbinski."
+  - "Su duraci\xF3n ronda los 98 minutos; la clasificaci\xF3n registrada es PG."
+  - "El a\xF1o 1997 y el sello Dreamworks Pictures forman parte de sus datos de producci\xF3n."
+  - "La dirigi\xF3 Gore Verbinski y su figura principal es Nathan Lane."
+  - "Producci\xF3n de comedia estrenada en 1997: direcci\xF3n de Gore Verbinski y
+    actuaciones de Nathan Lane, con guion de Adam Rifkin."

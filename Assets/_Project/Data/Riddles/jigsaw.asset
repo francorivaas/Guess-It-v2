@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jigsaw
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jigsaw
+  category: peliculas
+  difficulty: 0
+  answer: Jigsaw
+  acceptedAnswers:
+  - Jigsaw
+  hints:
+  - "Pertenece al cine de Canad\xE1 y se ubica temporalmente en la d\xE9cada de 2010,
+    dentro de crimen. La direcci\xF3n est\xE1 acreditada a Michael Spierig."
+  - "La ficha t\xE9cnica marca 92 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R. Entre sus int\xE9rpretes figura Matt Passmore."
+  - "Se estren\xF3 en 2017 y estuvo asociada a la compa\xF1\xEDa Twisted Pictures."
+  - "La dirigi\xF3 Michael Spierig y su figura principal es Matt Passmore."
+  - "Cinta de Canad\xE1 lanzada en 2017, dirigida por Michael Spierig y encabezada
+    por Matt Passmore, con guion de Josh Stolberg."

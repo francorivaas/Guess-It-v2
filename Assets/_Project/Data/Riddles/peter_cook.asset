@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: peter_cook
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: peter_cook
+  category: personas
+  difficulty: 0
+  answer: Peter Cook
+  acceptedAnswers:
+  - Peter Cook
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1967 y 2009, con presencia frecuente
+    en aventura, comedia y fantas\xEDa."
+  - "Uno de sus trabajos fue \xABSupergirl\xBB (1984), bajo la direcci\xF3n de Jeannot
+    Szwarc."
+  - "Su papel en \xABBlack Beauty\xBB fue el de Lord Wexmire."
+  - "Su papel en \xABWithout a Clue\xBB fue el de Greenhough."
+  - "Interpret\xF3 a Greenhough en \xABWithout a Clue\xBB y a Lord Percy Lambourn
+    en \xABYellowbeard\xBB."

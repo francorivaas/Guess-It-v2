@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: double_suicide
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: double_suicide
+  category: peliculas
+  difficulty: 2
+  answer: Double Suicide
+  acceptedAnswers:
+  - Double Suicide
+  - "Shinj\xFB: Ten no amijima"
+  - 'shinju: ten no amijima'
+  hints:
+  - "Es una producci\xF3n de 1969 con una duraci\xF3n aproximada de 104 minutos."
+  - "Art Theatre Guild particip\xF3 en una pel\xEDcula de drama, romance y cine extranjero
+    producida en Jap\xF3n."
+  - "Detr\xE1s de la c\xE1mara estuvo Masahiro Shinoda."
+  - Dos personajes centrales son Jihei, interpretado por Kichiemon Nakamura, y Koharu
+    and Osan, a cargo de Shima Iwashita.
+  - "Masahiro Shinoda dirige a Kichiemon Nakamura como Jihei, Shima Iwashita como
+    Koharu and Osan y H\xF4sei Komatsu como Tahei en esta pel\xEDcula de 1969."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: funchal
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: funchal
+  category: lugares
+  difficulty: 1
+  answer: Funchal
+  acceptedAnswers:
+  - Funchal
+  hints:
+  - "Est\xE1 a unos 32,6 grados al norte del ecuador y 16,9 al oeste de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 112 mil habitantes. Dentro de su pa\xEDs
+    ocupa el puesto 17 por poblaci\xF3n."
+  - "Se ubica a unos 870 kil\xF3metros al suroeste de Casablanca."
+  - "Est\xE1 en Portugal, donde ocupa el puesto 17 por poblaci\xF3n, y es un centro
+    administrativo regional."
+  - Es la capital administrativa de Madeira, dentro de Portugal.

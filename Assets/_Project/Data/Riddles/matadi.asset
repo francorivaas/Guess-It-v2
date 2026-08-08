@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: matadi
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: matadi
+  category: lugares
+  difficulty: 0
+  answer: Matadi
+  acceptedAnswers:
+  - Matadi
+  hints:
+  - "Est\xE1 a unos 5,8 grados al sur del ecuador y 13,5 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 306 mil habitantes. Dentro de su pa\xEDs
+    ocupa el puesto 11 por poblaci\xF3n."
+  - "Se ubica a unos 260 kil\xF3metros al suroeste de Kinshasa."
+  - "Est\xE1 en Rep\xFAblica Democr\xE1tica del Congo, donde ocupa el puesto 11 por
+    poblaci\xF3n, y es un centro administrativo regional."
+  - "Es la capital administrativa de Kongo Central, dentro de Rep\xFAblica Democr\xE1tica
+    del Congo."

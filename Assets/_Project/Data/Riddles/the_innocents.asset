@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_innocents
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_innocents
+  category: peliculas
+  difficulty: 0
+  answer: The Innocents
+  acceptedAnswers:
+  - The Innocents
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1960 y su duraci\xF3n ronda los 100 minutos."
+  - "Se encuadra en terror y tiene origen de producci\xF3n en Reino Unido."
+  - "La direcci\xF3n estuvo a cargo de Jack Clayton."
+  - En el reparto, Deborah Kerr da vida a Miss Giddens y Peter Wyngarde a Peter Quint.
+  - "Jack Clayton dirige a Deborah Kerr como Miss Giddens, Peter Wyngarde como Peter
+    Quint y Megs Jenkins como Mrs. Grose en esta pel\xEDcula de 1961."

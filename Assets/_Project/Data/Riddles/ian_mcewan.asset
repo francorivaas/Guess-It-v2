@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ian_mcewan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ian_mcewan
+  category: personas
+  difficulty: 0
+  answer: Ian McEwan
+  acceptedAnswers:
+  - Ian McEwan
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 1990 y 2017, con presencia
+    frecuente en drama."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABThe Comfort of Strangers\xBB,
+    vinculada a Estados Unidos y Reino Unido."
+  - "Otros dos t\xEDtulos de su carrera son \xABOn Chesil Beach\xBB y \xABThe Good
+    Son\xBB."
+  - "Dos referencias fuertes de su carrera son \xABAtonement\xBB y \xABThe Good Son\xBB."
+  - "Profesional del cine relacionado con \xABAtonement\xBB, \xABThe Good Son\xBB
+    y \xABOn Chesil Beach\xBB en tareas de guion."

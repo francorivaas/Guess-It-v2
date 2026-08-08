@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rashmi_virag
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rashmi_virag
+  category: bandas musicales
+  difficulty: 0
+  answer: Rashmi Virag
+  acceptedAnswers:
+  - Rashmi Virag
+  hints:
+  - "Su perfil sonoro combina pop cinematogr\xE1fico y K-pop con un equilibrio entre
+    energ\xEDa, ritmo y melod\xEDa."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABSanak (Original Motion Picture
+    Soundtrack)\xBB."
+  - Entre sus colaboraciones registradas figuran Jubin Nautiyal y Amaal Mallik.
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABManike (From \"Thank God\")\xBB
+    y \xABMere Yaaraa (From \"Sooryavanshi\")\xBB."
+  - "Proyecto musical responsable de \xABManike (From \"Thank God\")\xBB, \xABMere
+    Yaaraa (From \"Sooryavanshi\")\xBB y \xABMain Rahoon Ya Na Rahoon\xBB."

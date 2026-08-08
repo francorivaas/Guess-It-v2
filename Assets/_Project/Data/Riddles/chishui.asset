@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chishui
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chishui
+  category: lugares
+  difficulty: 1
+  answer: Chishui
+  acceptedAnswers:
+  - Chishui
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 28,59 grados del ecuador."
+  - Su escala urbana ronda los 237 mil de habitantes y se integra en Guizhou.
+  - "No es la capital nacional de China. Se halla aproximadamente a 28,6\xB0 norte."
+  - "Se encuentra en China, dentro de Guizhou, con una poblaci\xF3n cercana a 237
+    mil."
+  - "En China, dentro de Guizhou, esta ciudad de unos 237 mil est\xE1 cerca de 28,6\xB0
+    norte y 105,7\xB0 este."

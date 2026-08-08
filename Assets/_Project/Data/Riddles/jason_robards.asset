@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jason_robards
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jason_robards
+  category: personas
+  difficulty: 1
+  answer: Jason Robards
+  acceptedAnswers:
+  - Jason Robards
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1968 y 1999, con presencia frecuente
+    en drama, documental y w\xE9stern."
+  - "Uno de sus trabajos fue \xABOnce Upon a Time in the West\xBB (1968), bajo la
+    direcci\xF3n de Sergio Leone."
+  - "Su papel en \xABMy Best Fiend\xBB fue el de Fitzcarraldo (archive footage)."
+  - "Su papel en \xABBright Lights, Big City\xBB fue el de Drunken Writer/Mr. Hardy."
+  - "Es la persona que encarn\xF3 a Drunken Writer/Mr. Hardy en \xABBright Lights,
+    Big City\xBB y a Admiral James Sandecker en \xABRaise the Titanic\xBB."

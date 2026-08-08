@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rels_b
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rels_b
+  category: bandas musicales
+  difficulty: 0
+  answer: Rels B
+  acceptedAnswers:
+  - Rels B
+  hints:
+  - "La huella musical se mueve por m\xFAsica en espa\xF1ol y latina y presenta un
+    pulso claramente bailable."
+  - "El cat\xE1logo incluye el \xE1lbum \xABc\xF3mo dormiste?\xBB."
+  - Entre sus colaboraciones registradas figuran Indigo Jams y DELLAFUENTE.
+  - "Las referencias directas son \xABc\xF3mo dormiste?\xBB y \xABA M\xED\xBB."
+  - "Proyecto musical responsable de \xABc\xF3mo dormiste?\xBB, \xABA M\xED\xBB y
+    \xABSHORTY QUE TE VAYA BN <3\xBB."

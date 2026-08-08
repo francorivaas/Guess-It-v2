@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: adventures_in_babysitting
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: adventures_in_babysitting
+  category: peliculas
+  difficulty: 0
+  answer: Adventures in Babysitting
+  acceptedAnswers:
+  - Adventures in Babysitting
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 1980, dentro de aventura. La direcci\xF3n est\xE1 acreditada a Chris Columbus."
+  - "La ficha t\xE9cnica marca 102 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    PG-13. Entre sus int\xE9rpretes figura Elisabeth Shue."
+  - "El a\xF1o 1987 y el sello Touchstone Pictures forman parte de sus datos de producci\xF3n."
+  - "Chris Columbus estuvo a cargo de la direcci\xF3n, con Elisabeth Shue al frente
+    del elenco."
+  - Cinta de Estados Unidos lanzada en 1987, dirigida por Chris Columbus y encabezada
+    por Elisabeth Shue, con guion de David Simkins.

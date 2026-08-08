@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: yellowbeard
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: yellowbeard
+  category: peliculas
+  difficulty: 0
+  answer: Yellowbeard
+  acceptedAnswers:
+  - Yellowbeard
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1980 y su duraci\xF3n ronda los 96 minutos."
+  - "Hemdale Film Corporation particip\xF3 en una pel\xEDcula de comedia y aventura
+    producida en Reino Unido."
+  - El realizador principal fue Mel Damski.
+  - Entre sus protagonistas aparecen Graham Chapman y Martin Hewitt.
+  - "Mel Damski dirige a Graham Chapman, Martin Hewitt como Dan y Eric Idle como
+    Commander Clement en esta pel\xEDcula de 1983."

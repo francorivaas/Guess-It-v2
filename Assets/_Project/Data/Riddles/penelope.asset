@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: penelope
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: penelope
+  category: peliculas
+  difficulty: 0
+  answer: Penelope
+  acceptedAnswers:
+  - Penelope
+  hints:
+  - "Fue filmada originalmente en ingl\xE9s y lleg\xF3 a los cines en 2006."
+  - "Tatira-Hiller Productions particip\xF3 en una pel\xEDcula de fantas\xEDa, comedia
+    y romance producida en Reino Unido y Estados Unidos."
+  - "Detr\xE1s de la c\xE1mara estuvo Mark Palansky."
+  - Entre sus protagonistas aparecen Christina Ricci y James McAvoy.
+  - "El reparto incluye a Christina Ricci, James McAvoy como Johnny/Max y Catherine
+    O'Hara como Jessica Wilhern bajo la direcci\xF3n de Mark Palansky."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dumbo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dumbo
+  category: peliculas
+  difficulty: 0
+  answer: Dumbo
+  acceptedAnswers:
+  - Dumbo
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 2010 y clasificada como aventura. La direcci\xF3n est\xE1 acreditada
+    a Tim Burton."
+  - "Su duraci\xF3n ronda los 112 minutos; la clasificaci\xF3n registrada es PG."
+  - "El a\xF1o 2019 y el sello Walt Disney Pictures forman parte de sus datos de
+    producci\xF3n. Entre sus int\xE9rpretes figura Colin Farrell."
+  - "La dirigi\xF3 Tim Burton y su figura principal es Colin Farrell."
+  - Cinta de Estados Unidos lanzada en 2019, dirigida por Tim Burton y encabezada
+    por Colin Farrell, con guion de Ehren Kruger.

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: from_beyond_the_grave
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: from_beyond_the_grave
+  category: peliculas
+  difficulty: 1
+  answer: From Beyond the Grave
+  acceptedAnswers:
+  - From Beyond the Grave
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1970 dura cerca de 97 minutos."
+  - "Su combinaci\xF3n de g\xE9neros incluye terror; la producci\xF3n se vincula
+    con Estados Unidos y Reino Unido."
+  - "La direcci\xF3n estuvo a cargo de Kevin Connor."
+  - En el reparto, Peter Cushing da vida a The Proprietor y David Warner a Edward
+    Charlton.
+  - "Kevin Connor dirige a Peter Cushing como The Proprietor, David Warner como Edward
+    Charlton y Donald Pleasence como Jim Underwood en esta pel\xEDcula de 1974."

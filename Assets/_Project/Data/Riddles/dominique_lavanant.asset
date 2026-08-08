@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dominique_lavanant
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dominique_lavanant
+  category: personas
+  difficulty: 0
+  answer: Dominique Lavanant
+  acceptedAnswers:
+  - Dominique Lavanant
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1976 y 2008, con presencia frecuente
+    en comedia, drama y romance."
+  - "Particip\xF3 en \xABThe Monster\xBB, dirigida por Roberto Benigni y estrenada
+    en 1994."
+  - "Dio vida a Mimie, la m\xE8re d'Agathe en \xABAgathe Cl\xE9ry\xBB."
+  - "Dio vida a Mlle Goudilleux, la pharmacienne en \xABA Crime in Paradise\xBB."
+  - "Es la persona que encarn\xF3 a Mlle Goudilleux, la pharmacienne en \xABA Crime
+    in Paradise\xBB y a Marie-Anne Prossant en \xABInspector Blunder\xBB."

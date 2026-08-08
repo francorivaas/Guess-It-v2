@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lagaan_once_upon_a_time_in_india
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lagaan_once_upon_a_time_in_india
+  category: peliculas
+  difficulty: 0
+  answer: 'Lagaan: Once Upon a Time in India'
+  acceptedAnswers:
+  - 'Lagaan: Once Upon a Time in India'
+  hints:
+  - "Es una producci\xF3n de 2001 con una duraci\xF3n aproximada de 224 minutos."
+  - "Se encuadra en aventura, drama y m\xFAsica y tiene origen de producci\xF3n en
+    India."
+  - "Ashutosh Gowariker la dirigi\xF3 con Aamir Khan Productions entre las compa\xF1\xEDas
+    productoras."
+  - Dos personajes centrales son Bhuvan, interpretado por Aamir Khan, y Gauri, a
+    cargo de Gracy Singh.
+  - "Ashutosh Gowariker dirige a Aamir Khan como Bhuvan, Gracy Singh como Gauri y
+    Rachel Shelley como Elizabeth Russell en esta pel\xEDcula de 2001."

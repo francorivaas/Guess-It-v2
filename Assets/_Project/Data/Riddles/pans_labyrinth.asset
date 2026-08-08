@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pans_labyrinth
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pans_labyrinth
+  category: peliculas
+  difficulty: 1
+  answer: El laberinto del fauno
+  acceptedAnswers:
+  - El laberinto del fauno
+  - pans labyrinth
+  hints:
+  - "Lleg\xF3 a las salas en 2006 como una obra de fantas\xEDa oscura y drama vinculada
+    a Espa\xF1a."
+  - "La realizaci\xF3n fue encabezada por Guillermo del Toro."
+  - "Ofelia, el fauno y el capit\xE1n Vidal ocupan el centro de la historia."
+  - "Su historia sigue una ni\xF1a enfrenta pruebas fant\xE1sticas junto a la violencia
+    de la posguerra espa\xF1ola."
+  - "Una imagen o situaci\xF3n decisiva es un hombre p\xE1lido con ojos en las manos
+    guarda un banquete prohibido."

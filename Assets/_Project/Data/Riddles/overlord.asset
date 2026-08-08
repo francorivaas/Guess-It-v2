@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: overlord
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: overlord
+  category: peliculas
+  difficulty: 1
+  answer: Overlord
+  acceptedAnswers:
+  - Overlord
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1970 dura cerca de 83 minutos."
+  - "Entre sus compa\xF1\xEDas figura Joswend; sus g\xE9neros principales son b\xE9lico,
+    drama y historia."
+  - "La direcci\xF3n estuvo a cargo de Stuart Cooper."
+  - En el reparto, Brian Stirner da vida a Tom y Davyd Harries a Jack.
+  - En esta cinta de 1975 coinciden Brian Stirner como Tom, Davyd Harries como Jack
+    y Nicholas Ball como Arthur.

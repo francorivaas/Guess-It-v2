@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sodo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sodo
+  category: lugares
+  difficulty: 1
+  answer: Sodo
+  acceptedAnswers:
+  - Sodo
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 6,86 grados del ecuador."
+  - "Su escala urbana ronda los 213 mil de habitantes y se integra en YeDebub Bih\u0113roch
+    Bih\u0113reseboch na Hizboch."
+  - "No es la capital nacional de Etiop\xEDa. Su longitud geogr\xE1fica ronda los
+    37,78\xB0 este."
+  - "Se encuentra en Etiop\xEDa, dentro de YeDebub Bih\u0113roch Bih\u0113reseboch
+    na Hizboch, con una poblaci\xF3n cercana a 213 mil."
+  - "Es una ciudad de Etiop\xEDa, en YeDebub Bih\u0113roch Bih\u0113reseboch na Hizboch,
+    situada aproximadamente en 6,9\xB0 norte y 37,8\xB0 este."

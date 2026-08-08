@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: house_of_1000_corpses
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: house_of_1000_corpses
+  category: peliculas
+  difficulty: 2
+  answer: House of 1000 Corpses
+  acceptedAnswers:
+  - House of 1000 Corpses
+  hints:
+  - "Se estren\xF3 en 2003, dura cerca de 89 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - Combina terror; una de sus productoras fue Universal Pictures. El guion acredita
+    a Rob Zombie.
+  - "La dirigi\xF3 Rob Zombie, con Karen Black en un papel del reparto."
+  - En el elenco aparecen Bill Moseley y Sheri Moon Zombie. Otro integrante del reparto
+    es Chris Hardwick.
+  - "Sid Haig encabeza esta pel\xEDcula de terror, dirigida por Rob Zombie y estrenada
+    en 2003."

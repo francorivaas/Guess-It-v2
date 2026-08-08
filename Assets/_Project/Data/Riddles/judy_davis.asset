@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: judy_davis
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: judy_davis
+  category: personas
+  difficulty: 0
+  answer: Judy Davis
+  acceptedAnswers:
+  - Judy Davis
+  hints:
+  - "Trabaj\xF3 en producciones de drama, comedia y historia a lo largo del per\xEDodo
+    entre 1979 y 2015."
+  - "Particip\xF3 en \xABMarie Antoinette\xBB, dirigida por Sofia Coppola y estrenada
+    en 2006."
+  - "En \xABTo Rome with Love\xBB interpret\xF3 a Phyllis."
+  - "En \xABThe Dressmaker\xBB interpret\xF3 a Molly Dunnage."
+  - "Sus papeles incluyen a Molly Dunnage en \xABThe Dressmaker\xBB y a G.H. Jibsen
+    en \xABThe Young and Prodigious T.S. Spivet\xBB."

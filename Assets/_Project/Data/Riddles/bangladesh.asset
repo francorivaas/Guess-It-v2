@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bangladesh
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bangladesh
+  category: lugares
+  difficulty: 1
+  answer: "Banglad\xE9s"
+  acceptedAnswers:
+  - "Banglad\xE9s"
+  - Banglades
+  - Bangladesh
+  hints:
+  - "La poblaci\xF3n se sit\xFAa en torno a 157 millones de habitantes y su \xE1rea
+    alcanza 148 mil km\xB2."
+  - "Su ubicaci\xF3n geogr\xE1fica se integra en Asia meridional."
+  - "El panorama ling\xFC\xEDstico incluye bengal\xED."
+  - "La moneda nacional es taka banglades\xED."
+  - "El principal centro pol\xEDtico nacional es Daca."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: anita_strindberg
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: anita_strindberg
+  category: personas
+  difficulty: 1
+  answer: Anita Strindberg
+  acceptedAnswers:
+  - Anita Strindberg
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1971 y 1981, especialmente dentro
+    de terror, misterio y suspenso."
+  - "Uno de sus trabajos fue \xABThe Antichrist\xBB (1974), bajo la direcci\xF3n
+    de Alberto De Martino."
+  - "Dio vida a Irina Rouvigny en \xABYour Vice is a Locked Room and Only I Have
+    the Key\xBB."
+  - "Su papel en \xABA Lizard in a Woman's Skin\xBB fue el de Julia Durer."
+  - "Interpret\xF3 a Julia Durer en \xABA Lizard in a Woman's Skin\xBB y a Cl\xE9o
+    Dupont en \xABThe Case of the Scorpion's Tail\xBB."

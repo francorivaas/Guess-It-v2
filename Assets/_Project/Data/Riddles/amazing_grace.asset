@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: amazing_grace
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: amazing_grace
+  category: peliculas
+  difficulty: 0
+  answer: Amazing Grace
+  acceptedAnswers:
+  - Amazing Grace
+  hints:
+  - "Es una producci\xF3n de 2006 con una duraci\xF3n aproximada de 117 minutos."
+  - Mezcla drama y fue producida en Estados Unidos y Reino Unido.
+  - "La direcci\xF3n estuvo a cargo de Michael Apted."
+  - Ioan Gruffudd interpreta a William Wilberforce, mientras Romola Garai encarna
+    a Barbara Spooner.
+  - "Michael Apted dirige a Ioan Gruffudd como William Wilberforce, Romola Garai
+    como Barbara Spooner y Benedict Cumberbatch como William Pitt en esta pel\xEDcula
+    de 2006."

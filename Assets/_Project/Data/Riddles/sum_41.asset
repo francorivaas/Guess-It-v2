@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sum_41
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sum_41
+  category: bandas musicales
+  difficulty: 0
+  answer: Sum 41
+  acceptedAnswers:
+  - Sum 41
+  hints:
+  - "La formaci\xF3n naci\xF3 en Canad\xE1 y su per\xEDodo de mayor impacto fue desde
+    comienzos del siglo XXI."
+  - La propuesta sonora combina pop punk y rock alternativo.
+  - En el centro de la banda aparecen Deryck Whibley, Dave Baksh y Jason McCaslin.
+  - "Su recorrido discogr\xE1fico se asocia con All Killer No Filler."
+  - La respuesta queda casi clara gracias a Fat Lip, In Too Deep y una mezcla de
+    punk con metal.

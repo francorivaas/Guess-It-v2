@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: joan_miro
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: joan_miro
+  category: personas
+  difficulty: 2
+  answer: "Joan Mir\xF3"
+  acceptedAnswers:
+  - "Joan Mir\xF3"
+  - Joan Miro
+  hints:
+  - "La fase m\xE1s recordada de su actividad se desarroll\xF3 en el siglo XX."
+  - "Procedente de Espa\xF1a, destac\xF3 en pintura y escultura."
+  - "Un aspecto decisivo de su legado fue desarrollar un lenguaje de signos, estrellas
+    y formas biom\xF3rficas."
+  - "Su identidad p\xFAblica resulta inseparable de colores primarios, l\xEDneas
+    negras y v\xEDnculos con el surrealismo catal\xE1n."
+  - "Es la figura de Espa\xF1a vinculada a colores primarios, l\xEDneas negras y
+    v\xEDnculos con el surrealismo catal\xE1n."

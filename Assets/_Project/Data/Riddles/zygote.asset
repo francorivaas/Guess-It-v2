@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: zygote
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: zygote
+  category: peliculas
+  difficulty: 1
+  answer: Zygote
+  acceptedAnswers:
+  - Zygote
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2010 y su duraci\xF3n ronda los 23 minutos."
+  - "Oats Studio particip\xF3 en una pel\xEDcula de terror y ciencia ficci\xF3n producida
+    en Canad\xE1."
+  - "Neill Blomkamp firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Dakota Fanning da vida a Barkley y Jose Pablo Cantillo a Quinn.
+  - "Neill Blomkamp dirige a Dakota Fanning y Jose Pablo Cantillo en esta pel\xEDcula
+    estrenada en 2017."

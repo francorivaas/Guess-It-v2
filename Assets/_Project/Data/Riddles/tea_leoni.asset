@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tea_leoni
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tea_leoni
+  category: personas
+  difficulty: 1
+  answer: "T\xE9a Leoni"
+  acceptedAnswers:
+  - "T\xE9a Leoni"
+  - Tea Leoni
+  hints:
+  - "En House of D interpret\xF3 a Mrs. Warshaw, en una pel\xEDcula estrenada en
+    2005."
+  - "Su carrera en cine abarca de 1995 a 2011 y recorre aventura y acci\xF3n. Entre
+    sus pel\xEDculas figura House of D."
+  - "Comparti\xF3 reparto con Adam Sandler en Spanglish."
+  - "En Bad Boys interpret\xF3 a Julie Mott."
+  - Aparece en Jurassic Park III y Tower Heist.

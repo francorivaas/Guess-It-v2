@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chasing_liberty
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chasing_liberty
+  category: peliculas
+  difficulty: 1
+  answer: Chasing Liberty
+  acceptedAnswers:
+  - Chasing Liberty
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 2000, vinculada al
+    g\xE9nero de comedia. La direcci\xF3n est\xE1 acreditada a Andy Cadiff."
+  - "El montaje final se extiende unos 111 minutos y aparece catalogado con la se\xF1al
+    PG-13. Entre sus int\xE9rpretes figura Mandy Moore."
+  - "Se estren\xF3 en 2004 y estuvo asociada a la compa\xF1\xEDa Alcon Entertainment."
+  - "La dirigi\xF3 Andy Cadiff y su figura principal es Mandy Moore."
+  - "Pel\xEDcula de 2004 dirigida por Andy Cadiff, con Mandy Moore en el reparto,
+    con guion de Derek Guiley."

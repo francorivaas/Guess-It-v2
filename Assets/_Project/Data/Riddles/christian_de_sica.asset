@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: christian_de_sica
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: christian_de_sica
+  category: personas
+  difficulty: 2
+  answer: Christian De Sica
+  acceptedAnswers:
+  - Christian De Sica
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1972 y 2010 y recorren g\xE9neros
+    como comedia, acci\xF3n y suspenso."
+  - "Particip\xF3 en \xABThe Tourist\xBB, dirigida por Florian Henckel von Donnersmarck
+    y estrenada en 2010."
+  - "Dio vida a Antonio Borazzi, culturista e vincitore del buono premio di 500.000
+    lire en \xABDepartment Store\xBB."
+  - "Su papel en \xABBorotalco\xBB fue el de Marcello."
+  - "Sus papeles incluyen a Marcello en \xABBorotalco\xBB y a Luogotenente criminale
+    en \xABBlaise Pascal\xBB."

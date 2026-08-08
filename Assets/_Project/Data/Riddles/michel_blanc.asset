@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: michel_blanc
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: michel_blanc
+  category: personas
+  difficulty: 0
+  answer: Michel Blanc
+  acceptedAnswers:
+  - Michel Blanc
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1976 y 2017 y recorren g\xE9neros
+    como comedia, drama y romance."
+  - "Form\xF3 parte del elenco de \xABThe Hundred-Foot Journey\xBB, una pel\xEDcula
+    de 2014 dirigida por Lasse Hallstr\xF6m."
+  - "Su papel en \xABR.A.I.D. Special Unit\xBB fue el de Jacques Pasquali."
+  - "Su papel en \xABSanta Claus Is a Stinker\xBB fue el de L'obs\xE9d\xE9 au t\xE9l\xE9phone."
+  - "Interpret\xF3 a L'obs\xE9d\xE9 au t\xE9l\xE9phone en \xABSanta Claus Is a Stinker\xBB
+    y a Paride Taccone, le psychiatre en \xABThe Monster\xBB."

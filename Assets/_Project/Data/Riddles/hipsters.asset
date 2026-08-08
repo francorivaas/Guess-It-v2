@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: hipsters
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: hipsters
+  category: peliculas
+  difficulty: 1
+  answer: Hipsters
+  acceptedAnswers:
+  - Hipsters
+  hints:
+  - "Combina un estreno de 2008 con di\xE1logos originalmente en ruso."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama y romance; la producci\xF3n se
+    vincula con Rusia."
+  - "Valery Todorovsky firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Mels, interpretado por Anton Shagin, y Polza, a
+    cargo de Oksana Akinshina.
+  - En esta cinta de 2008 coinciden Anton Shagin como Mels, Oksana Akinshina como
+    Polza y Evgeniya Khirivskaya como Katya (as Evgeniya Brik).

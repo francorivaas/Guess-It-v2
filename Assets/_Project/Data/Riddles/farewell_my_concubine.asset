@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: farewell_my_concubine
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: farewell_my_concubine
+  category: peliculas
+  difficulty: 0
+  answer: Farewell My Concubine
+  acceptedAnswers:
+  - Farewell My Concubine
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1990 y su duraci\xF3n ronda los 171 minutos."
+  - Mezcla drama y fue producida en China y Hong Kong.
+  - "La direcci\xF3n estuvo a cargo de Chen Kaige."
+  - En el reparto, Leslie Cheung da vida a Ching Dau Ji (Cheng Dieyi) y Gong Li a
+    Guk Sin (Juxian).
+  - "El reparto incluye a Leslie Cheung como Ching Dau Ji (Cheng Dieyi), Gong Li
+    como Guk Sin (Juxian) y Zhang Fengyi como Duen Siu Lau (Duan Xiaolou) bajo la
+    direcci\xF3n de Chen Kaige."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: justin_zackham
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: justin_zackham
+  category: personas
+  difficulty: 0
+  answer: Justin Zackham
+  acceptedAnswers:
+  - Justin Zackham
+  hints:
+  - "Su trabajo se reparte entre comedia y drama a lo largo de un per\xEDodo que
+    va entre 2007 y 2018."
+  - "La pel\xEDcula \xABOne Chance\xBB forma parte de una carrera conectada con Estados
+    Unidos y Reino Unido."
+  - "Su nombre figura en los cr\xE9ditos de \xABSecond Act\xBB junto con \xABThe
+    Big Wedding\xBB."
+  - "Dos referencias fuertes de su carrera son \xABThe Bucket List\xBB y \xABThe
+    Big Wedding\xBB."
+  - "Profesional del cine relacionado con \xABThe Bucket List\xBB, \xABThe Big Wedding\xBB
+    y \xABSecond Act\xBB en tareas de guion y direcci\xF3n."

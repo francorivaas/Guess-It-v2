@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: school_of_life
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: school_of_life
+  category: peliculas
+  difficulty: 1
+  answer: School Of Life
+  acceptedAnswers:
+  - School Of Life
+  hints:
+  - "Su metraje se acerca a 111 minutos y corresponde al a\xF1o 2005."
+  - "Su combinaci\xF3n de g\xE9neros incluye comedia, drama y familiar; la producci\xF3n
+    se vincula con Estados Unidos y Canad\xE1."
+  - "Detr\xE1s de la c\xE1mara estuvo William Dear."
+  - Dos personajes centrales son Matt Warner, interpretado por David Paymer, y Mr.
+    D, a cargo de Ryan Reynolds.
+  - En esta cinta de 2005 coinciden David Paymer como Matt Warner, Ryan Reynolds
+    como Mr. D y John Astin como Norman Warner.

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: james_arthur
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: james_arthur
+  category: bandas musicales
+  difficulty: 0
+  answer: James Arthur
+  acceptedAnswers:
+  - James Arthur
+  hints:
+  - "En sus grabaciones destaca un equilibrio entre energ\xEDa, ritmo y melod\xEDa,
+    dentro de un repertorio relacionado con EDM y house."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABQuestions\xBB."
+  - Entre sus colaboraciones registradas figuran Lost Frequencies y Sigala.
+  - "Las referencias directas son \xABSay You Won't Let Go\xBB y \xABQuestions\xBB."
+  - "La respuesta es el nombre que firma \xABSay You Won't Let Go\xBB, \xABQuestions\xBB
+    y \xABLasting Lover\xBB."

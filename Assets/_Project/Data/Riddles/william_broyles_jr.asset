@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: william_broyles_jr
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: william_broyles_jr
+  category: personas
+  difficulty: 0
+  answer: William Broyles Jr.
+  acceptedAnswers:
+  - William Broyles Jr.
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 2000 y 2006, con presencia
+    frecuente en acci\xF3n y aventura."
+  - "Una pista lateral de su filmograf\xEDa es \xABFlags of Our Fathers\xBB, dentro
+    de Estados Unidos."
+  - "Otros dos t\xEDtulos de su carrera son \xABFlags of Our Fathers\xBB y \xABJarhead\xBB."
+  - "La filmograf\xEDa apunta con claridad a \xABCast Away\xBB y \xABJarhead\xBB."
+  - "Profesional del cine relacionado con \xABCast Away\xBB, \xABJarhead\xBB y \xABFlags
+    of Our Fathers\xBB en tareas de guion."

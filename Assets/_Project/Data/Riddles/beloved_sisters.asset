@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: beloved_sisters
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: beloved_sisters
+  category: peliculas
+  difficulty: 0
+  answer: Beloved Sisters
+  acceptedAnswers:
+  - Beloved Sisters
+  - Die geliebten Schwestern
+  hints:
+  - "Combina un estreno de 2014 con di\xE1logos originalmente en alem\xE1n."
+  - "El relato pertenece a romance, drama y historia, con participaci\xF3n productiva
+    de Alemania y Austria."
+  - "Detr\xE1s de la c\xE1mara estuvo Dominik Graf."
+  - Florian Stetter interpreta a Friedrich Schiller, mientras Henriette Confurius
+    encarna a Charlotte von Lengefeld.
+  - "El reparto incluye a Florian Stetter como Friedrich Schiller, Henriette Confurius
+    como Charlotte von Lengefeld y Hannah Herzsprung como Caroline von Lengefeld
+    bajo la direcci\xF3n de Dominik Graf."

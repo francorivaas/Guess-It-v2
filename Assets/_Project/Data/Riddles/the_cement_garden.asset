@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_cement_garden
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_cement_garden
+  category: peliculas
+  difficulty: 0
+  answer: The Cement Garden
+  acceptedAnswers:
+  - The Cement Garden
+  hints:
+  - "Fue filmada originalmente en ingl\xE9s y lleg\xF3 a los cines en 1993."
+  - Mezcla drama y fue producida en Francia y Alemania.
+  - "Andrew Birkin firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Jack, interpretado por Andrew Robertson, y Julie,
+    a cargo de Charlotte Gainsbourg.
+  - En esta cinta de 1993 coinciden Andrew Robertson como Jack, Charlotte Gainsbourg
+    como Julie y Alice Coulthard como Sue.

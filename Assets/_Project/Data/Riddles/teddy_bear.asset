@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: teddy_bear
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: teddy_bear
+  category: peliculas
+  difficulty: 1
+  answer: Teddy Bear
+  acceptedAnswers:
+  - Teddy Bear
+  - 10 timer til Paradis
+  hints:
+  - "Combina un estreno de 2012 con di\xE1logos originalmente en dan\xE9s."
+  - "Entre sus compa\xF1\xEDas figura Minerva Film SpA; sus g\xE9neros principales
+    son romance, drama y comedia."
+  - "La direcci\xF3n estuvo a cargo de Mads Matthiesen."
+  - Dos personajes centrales son Dennis, interpretado por Kim Kold, y Ingrid, a cargo
+    de Elsebeth Steentoft.
+  - "Mads Matthiesen dirige a Kim Kold como Dennis, Elsebeth Steentoft como Ingrid
+    y Lamaiporn Hougaard como Toi en esta pel\xEDcula de 2012."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: warsaw_44
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: warsaw_44
+  category: peliculas
+  difficulty: 1
+  answer: Warsaw 44
+  acceptedAnswers:
+  - Warsaw 44
+  - Miasto 44
+  hints:
+  - "Su metraje se acerca a 130 minutos y corresponde al a\xF1o 2014."
+  - "El relato pertenece a drama, romance y historia, con participaci\xF3n productiva
+    de Polonia."
+  - "Jan Komasa la dirigi\xF3 con Akson Studio entre las compa\xF1\xEDas productoras."
+  - "J\xF3zef Paw\u0142owski interpreta a Stefan, mientras Zofia Wich\u0142acz encarna
+    a Alicja \"Biedronka\"."
+  - "Jan Komasa dirige a J\xF3zef Paw\u0142owski como Stefan, Zofia Wich\u0142acz
+    como Alicja \"Biedronka\" y Anna Pr\xF3chniak como Kama en esta pel\xEDcula de
+    2014."

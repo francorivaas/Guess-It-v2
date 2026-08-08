@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nicolas_cage
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nicolas_cage
+  category: personas
+  difficulty: 0
+  answer: Nicolas Cage
+  acceptedAnswers:
+  - Nicolas Cage
+  hints:
+  - "En The Cotton Club interpret\xF3 a Vincent Dwyer, en una pel\xEDcula estrenada
+    en 1984."
+  - "Su carrera en cine abarca de 1984 a 2014 y recorre acci\xF3n y crimen."
+  - "Comparti\xF3 reparto con Vanessa Hudgens en The Frozen Ground."
+  - "En The Croods interpret\xF3 a Grug Crood (voice)."
+  - Aparece en Kick-Ass y National Treasure.

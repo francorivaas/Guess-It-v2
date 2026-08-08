@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: amira_casar
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: amira_casar
+  category: personas
+  difficulty: 0
+  answer: Amira Casar
+  acceptedAnswers:
+  - Amira Casar
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1998 y 2017, con presencia frecuente
+    en drama, romance y comedia."
+  - "Uno de sus trabajos fue \xABSaint Laurent\xBB (2014), bajo la direcci\xF3n de
+    Bertrand Bonello."
+  - "Dio vida a Marie en \xABNot My Type\xBB."
+  - "En \xABPlanetarium\xBB interpret\xF3 a Eva Sa\xEFd."
+  - "Sus papeles incluyen a Eva Sa\xEFd en \xABPlanetarium\xBB y a Assia Wevill en
+    \xABSylvia\xBB."

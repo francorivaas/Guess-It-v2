@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jab_tak_hai_jaan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jab_tak_hai_jaan
+  category: peliculas
+  difficulty: 0
+  answer: Jab Tak Hai Jaan
+  acceptedAnswers:
+  - Jab Tak Hai Jaan
+  hints:
+  - "Su metraje se acerca a 176 minutos y corresponde al a\xF1o 2012."
+  - "El relato pertenece a drama y romance, con participaci\xF3n productiva de India."
+  - "Yash Chopra firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - En el reparto, Shah Rukh Khan da vida a Major Samar Anand y Katrina Kaif a Meera
+    Thapar.
+  - "Yash Chopra dirige a Shah Rukh Khan como Major Samar Anand, Katrina Kaif como
+    Meera Thapar y Anushka Sharma como Akira Rai en esta pel\xEDcula de 2012."

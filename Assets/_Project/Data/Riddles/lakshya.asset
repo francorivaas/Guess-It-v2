@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lakshya
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lakshya
+  category: peliculas
+  difficulty: 1
+  answer: Lakshya
+  acceptedAnswers:
+  - Lakshya
+  hints:
+  - "Su metraje se acerca a 186 minutos y corresponde al a\xF1o 2004."
+  - "Entre sus compa\xF1\xEDas figura Excel Entertainment; sus g\xE9neros principales
+    son acci\xF3n, drama y cine extranjero."
+  - "Detr\xE1s de la c\xE1mara estuvo Farhan Akhtar."
+  - Dos personajes centrales son Karan Shergill, interpretado por Hrithik Roshan,
+    y Romila "Romi" Dutta, a cargo de Preity Zinta.
+  - "Farhan Akhtar dirige a Hrithik Roshan como Karan Shergill, Preity Zinta como
+    Romila \"Romi\" Dutta y Amitabh Bachchan como Col. Sunil Damle en esta pel\xEDcula
+    de 2004."

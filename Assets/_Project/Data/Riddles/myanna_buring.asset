@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: myanna_buring
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: myanna_buring
+  category: personas
+  difficulty: 1
+  answer: MyAnna Buring
+  acceptedAnswers:
+  - MyAnna Buring
+  hints:
+  - "Trabaj\xF3 en producciones de terror, suspenso y acci\xF3n a lo largo del per\xEDodo
+    entre 2008 y 2011."
+  - "Uno de sus trabajos fue \xABDoomsday\xBB (2008), bajo la direcci\xF3n de Neil
+    Marshall."
+  - "Su papel en \xABKill List\xBB fue el de Shel."
+  - "Dio vida a Lotte en \xABLesbian Vampire Killers\xBB."
+  - "Es la persona que encarn\xF3 a Lotte en \xABLesbian Vampire Killers\xBB y a
+    Angela en \xABDevil's Playground\xBB."

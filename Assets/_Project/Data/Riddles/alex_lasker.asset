@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: alex_lasker
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: alex_lasker
+  category: personas
+  difficulty: 1
+  answer: Alex Lasker
+  acceptedAnswers:
+  - Alex Lasker
+  hints:
+  - "Es una figura del cine cuya actividad registrada se extiende entre 1982 y 2003
+    y toca principalmente acci\xF3n y acci\xF3n y aventura."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABBeyond Rangoon\xBB, vinculada
+    a Estados Unidos y Reino Unido."
+  - "La asociaci\xF3n con \xABBeyond Rangoon\xBB se completa con otro cr\xE9dito
+    en \xABFirefox\xBB."
+  - "Los t\xEDtulos \xABTears of the Sun\xBB y \xABFirefox\xBB ofrecen las pistas
+    m\xE1s directas."
+  - "Profesional del cine relacionado con \xABTears of the Sun\xBB, \xABFirefox\xBB
+    y \xABBeyond Rangoon\xBB en tareas de guion."

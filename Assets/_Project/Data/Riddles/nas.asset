@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nas
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nas
+  category: bandas musicales
+  difficulty: 0
+  answer: Nas
+  acceptedAnswers:
+  - Nas
+  hints:
+  - "La huella musical se mueve por hardcore y trip hop y presenta una energ\xEDa
+    sonora alta."
+  - "Entre sus lanzamientos aparece \xABIllmatic\xBB."
+  - En algunas pistas aparece junto a AZ y DIVINE.
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABN.Y. State of Mind\xBB y
+    \xABIf I Ruled the World (Imagine That) (feat. Lauryn Hill)\xBB."
+  - "Nombre musical asociado directamente a \xABN.Y. State of Mind\xBB, \xABIf I
+    Ruled the World (Imagine That) (feat. Lauryn Hill)\xBB y \xABThe World Is Yours\xBB."

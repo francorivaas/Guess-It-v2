@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jodhi_may
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jodhi_may
+  category: personas
+  difficulty: 0
+  answer: Jodhi May
+  acceptedAnswers:
+  - Jodhi May
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1988 y 2016, especialmente dentro
+    de drama, romance y cine extranjero."
+  - "Particip\xF3 en \xABGinger & Rosa\xBB, dirigida por Sally Potter y estrenada
+    en 2012."
+  - "Su papel en \xABA Quiet Passion\xBB fue el de Susan Gilbert."
+  - "En \xABThe House of Mirth\xBB interpret\xF3 a Grace Julia Stepney."
+  - "Sus papeles incluyen a Grace Julia Stepney en \xABThe House of Mirth\xBB y a
+    Blanche en \xABThe Scapegoat\xBB."

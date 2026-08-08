@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: alia_bhatt
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: alia_bhatt
+  category: personas
+  difficulty: 2
+  answer: Alia Bhatt
+  acceptedAnswers:
+  - Alia Bhatt
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2013 y 2016 y recorren g\xE9neros
+    como drama, suspenso y romance."
+  - "Form\xF3 parte del elenco de \xABHighway\xBB, una pel\xEDcula de 2014 dirigida
+    por Imtiaz Ali."
+  - "Dio vida a Bauria en \xABUdta Punjab\xBB."
+  - "En \xABKapoor & Sons (Since 1921)\xBB interpret\xF3 a Tia Malik."
+  - "Su filmograf\xEDa re\xFAne \xABKapoor & Sons (Since 1921)\xBB y \xABUgly\xBB,
+    adem\xE1s de \xABHighway\xBB."

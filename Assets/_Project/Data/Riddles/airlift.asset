@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: airlift
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: airlift
+  category: peliculas
+  difficulty: 1
+  answer: Airlift
+  acceptedAnswers:
+  - Airlift
+  hints:
+  - "Es una producci\xF3n de 2016 con una duraci\xF3n aproximada de 126 minutos."
+  - "T-Series particip\xF3 en una pel\xEDcula de suspenso, acci\xF3n y drama producida
+    en India."
+  - "Detr\xE1s de la c\xE1mara estuvo Raja Menon."
+  - Dos personajes centrales son Ranjit Katyal, interpretado por Akshay Kumar, y
+    Amrita Katyal, a cargo de Nimrat Kaur.
+  - "Raja Menon dirige a Akshay Kumar como Ranjit Katyal, Nimrat Kaur como Amrita
+    Katyal y Feryna Wazheir como Tasneem en esta pel\xEDcula de 2016."

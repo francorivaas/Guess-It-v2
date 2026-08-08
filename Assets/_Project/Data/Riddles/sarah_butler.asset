@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sarah_butler
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sarah_butler
+  category: personas
+  difficulty: 1
+  answer: Sarah Butler
+  acceptedAnswers:
+  - Sarah Butler
+  hints:
+  - "Su trabajo se reparte entre suspenso y terror a lo largo de un per\xEDodo que
+    va entre 2010 y 2018."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABAll Light Will End\xBB, vinculada
+    a Estados Unidos y Canad\xE1."
+  - "Tambi\xE9n est\xE1 vinculada a \xABAll Light Will End\xBB y \xABCounterfeiting
+    in Suburbia\xBB."
+  - "Los t\xEDtulos \xABI Spit on Your Grave\xBB y \xABCounterfeiting in Suburbia\xBB
+    ofrecen las pistas m\xE1s directas."
+  - "Profesional del cine relacionado con \xABI Spit on Your Grave\xBB, \xABCounterfeiting
+    in Suburbia\xBB y \xABAll Light Will End\xBB en tareas de interpretaci\xF3n."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sleepy_hollow
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sleepy_hollow
+  category: peliculas
+  difficulty: 1
+  answer: La leyenda del jinete sin cabeza
+  acceptedAnswers:
+  - La leyenda del jinete sin cabeza
+  - sleepy hollow
+  hints:
+  - "Lleg\xF3 a las salas en 1999 como una obra de terror g\xF3tico vinculada a Estados
+    Unidos."
+  - "La puesta en escena qued\xF3 en manos de Tim Burton."
+  - Ichabod Crane, Katrina y el jinete ocupan el centro de la historia.
+  - Su historia sigue un investigador racional examina decapitaciones en un pueblo
+    aislado.
+  - "Una imagen o situaci\xF3n decisiva es un guerrero sin cabeza cabalga desde un
+    \xE1rbol retorcido."

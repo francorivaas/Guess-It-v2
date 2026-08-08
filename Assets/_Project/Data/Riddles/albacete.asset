@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: albacete
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: albacete
+  category: lugares
+  difficulty: 1
+  answer: Albacete
+  acceptedAnswers:
+  - Albacete
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 39,00 grados del ecuador."
+  - "Es un n\xFAcleo urbano de alrededor de 173 mil de habitantes dentro de Castille-La
+    Mancha."
+  - "Administrativamente pertenece a Castille-La Mancha. Cumple una funci\xF3n de
+    capital local dentro de Castille-La Mancha."
+  - "Pertenece a Espa\xF1a y forma parte de Castille-La Mancha; supera aproximadamente
+    los 173.200 habitantes."
+  - "En Espa\xF1a, dentro de Castille-La Mancha, esta ciudad de unos 173 mil est\xE1
+    cerca de 39,0\xB0 norte y 1,9\xB0 oeste."

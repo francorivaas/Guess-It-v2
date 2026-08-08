@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bilbao
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bilbao
+  category: lugares
+  difficulty: 0
+  answer: Bilbao
+  acceptedAnswers:
+  - Bilbao
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 43,26 grados del ecuador."
+  - Su escala urbana ronda los 775 mil de habitantes y se integra en Basque Country.
+  - "Cumple una funci\xF3n de capital local dentro de Basque Country. Su longitud
+    geogr\xE1fica ronda los 2,92\xB0 oeste."
+  - "Esta ciudad de Espa\xF1a est\xE1 en Basque Country y se sit\xFAa a 43,3\xB0
+    norte."
+  - "En Espa\xF1a, dentro de Basque Country, esta ciudad de unos 775 mil est\xE1
+    cerca de 43,3\xB0 norte y 2,9\xB0 oeste."

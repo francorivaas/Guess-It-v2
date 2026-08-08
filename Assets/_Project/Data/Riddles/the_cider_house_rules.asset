@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_cider_house_rules
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_cider_house_rules
+  category: peliculas
+  difficulty: 0
+  answer: The Cider House Rules
+  acceptedAnswers:
+  - The Cider House Rules
+  - Cider House Rules
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 1990 y clasificada como drama. La direcci\xF3n est\xE1 acreditada a Lasse
+    Hallstr\xF6m."
+  - "Su duraci\xF3n ronda los 126 minutos; la clasificaci\xF3n registrada es PG-13."
+  - "Se estren\xF3 en 1999 y estuvo asociada a la compa\xF1\xEDa FilmColony."
+  - "La dirigi\xF3 Lasse Hallstr\xF6m y su figura principal es Tobey Maguire."
+  - "Pel\xEDcula de 1999 dirigida por Lasse Hallstr\xF6m, con Tobey Maguire en el
+    reparto, con guion de John Irving."

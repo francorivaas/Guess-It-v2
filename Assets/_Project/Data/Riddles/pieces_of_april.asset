@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pieces_of_april
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pieces_of_april
+  category: peliculas
+  difficulty: 1
+  answer: Pieces of April
+  acceptedAnswers:
+  - Pieces of April
+  hints:
+  - "Es una producci\xF3n de Estados Unidos de la d\xE9cada de 2000, vinculada al
+    g\xE9nero de comedia. La direcci\xF3n est\xE1 acreditada a Peter Hedges."
+  - "El montaje final se extiende unos 80 minutos y aparece catalogado con la se\xF1al
+    PG-13."
+  - "La producci\xF3n lleg\xF3 en 2003 bajo la participaci\xF3n de United Artists."
+  - "Peter Hedges estuvo a cargo de la direcci\xF3n, con Katie Holmes al frente del
+    elenco."
+  - "Producci\xF3n de comedia estrenada en 2003: direcci\xF3n de Peter Hedges y actuaciones
+    de Katie Holmes, con guion de Peter Hedges."

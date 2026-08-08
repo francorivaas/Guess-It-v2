@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rishon_leziyyon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rishon_leziyyon
+  category: lugares
+  difficulty: 1
+  answer: "Rishon Le\u1E94iyyon"
+  acceptedAnswers:
+  - "Rishon Le\u1E94iyyon"
+  - rishon leziyyon
+  hints:
+  - "Se ubica al norte del ecuador y al este de Greenwich, cerca de 31,95\xB0 de
+    latitud."
+  - "Es un n\xFAcleo urbano de alrededor de 250 mil de habitantes dentro de Central."
+  - Administrativamente pertenece a Central. No es la capital nacional de Israel.
+  - Pertenece a Israel y forma parte de Central; supera aproximadamente los 249.900
+    habitantes.
+  - "En Israel, dentro de Central, esta ciudad de unos 250 mil est\xE1 cerca de 31,9\xB0
+    norte y 34,8\xB0 este."

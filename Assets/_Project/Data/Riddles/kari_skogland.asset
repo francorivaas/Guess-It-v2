@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: kari_skogland
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: kari_skogland
+  category: personas
+  difficulty: 1
+  answer: Kari Skogland
+  acceptedAnswers:
+  - Kari Skogland
+  hints:
+  - "Su filmograf\xEDa como realizador recorre suspenso, acci\xF3n y drama durante
+    el per\xEDodo entre 2001 y 2008."
+  - "Una de sus pel\xEDculas es \xABLiberty Stands Still\xBB, estrenada en 2002."
+  - "Su cat\xE1logo incluye \xABFifty Dead Men Walking\xBB adem\xE1s de la obra anterior."
+  - "Fue responsable de \xABLiberty Stands Still\xBB y \xABZebra Lounge\xBB."
+  - "Es el realizador detr\xE1s de \xABFifty Dead Men Walking\xBB, \xABZebra Lounge\xBB
+    y \xABRiverworld\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jacques_spiesser
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jacques_spiesser
+  category: personas
+  difficulty: 1
+  answer: Jacques Spiesser
+  acceptedAnswers:
+  - Jacques Spiesser
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1974 y 2010 y recorren g\xE9neros
+    como drama, comedia y romance."
+  - "Particip\xF3 en \xABPriceless\xBB, dirigida por Pierre Salvadori y estrenada
+    en 2006."
+  - "En \xABMy Best Friend\xBB interpret\xF3 a Letellier."
+  - "Su papel en \xABLily Sometimes\xBB fue el de Odile, Pierre's Father."
+  - "Es la persona que encarn\xF3 a Odile, Pierre's Father en \xABLily Sometimes\xBB
+    y a Remi en \xABThe Slap\xBB."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: 11_14
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: 11_14
+  category: peliculas
+  difficulty: 0
+  answer: 11:14
+  acceptedAnswers:
+  - 11:14
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2000 dura cerca de 86 minutos."
+  - "Su combinaci\xF3n de g\xE9neros incluye crimen, drama y suspenso; la producci\xF3n
+    se vincula con Canad\xE1 y Estados Unidos."
+  - "Greg Marcks firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Jack, interpretado por Henry Thomas, y Aaron, a
+    cargo de Blake Heron.
+  - "Greg Marcks dirige a Henry Thomas como Jack, Blake Heron como Aaron y Barbara
+    Hershey como Norma en esta pel\xEDcula de 2003."

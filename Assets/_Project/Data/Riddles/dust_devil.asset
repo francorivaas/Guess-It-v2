@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dust_devil
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dust_devil
+  category: peliculas
+  difficulty: 0
+  answer: Dust Devil
+  acceptedAnswers:
+  - Dust Devil
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1990 y su duraci\xF3n ronda los 103 minutos."
+  - "Channel Four Films particip\xF3 en una pel\xEDcula de terror, misterio y suspenso
+    producida en Reino Unido y Namibia."
+  - "La direcci\xF3n estuvo a cargo de Richard Stanley."
+  - Entre sus protagonistas aparecen Robert John Burke y Chelsea Field.
+  - "El reparto incluye a Robert John Burke, Chelsea Field como Wendy Robertson y
+    Marianne S\xE4gebrecht como Dr. Leidzinger bajo la direcci\xF3n de Richard Stanley."

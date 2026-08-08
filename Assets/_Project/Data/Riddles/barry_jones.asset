@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: barry_jones
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: barry_jones
+  category: personas
+  difficulty: 1
+  answer: Barry Jones
+  acceptedAnswers:
+  - Barry Jones
+  hints:
+  - "Trabaj\xF3 en producciones de drama, crimen y suspenso a lo largo del per\xEDodo
+    entre 1932 y 1965."
+  - "Particip\xF3 en \xABWar and Peace\xBB, dirigida por King Vidor y estrenada en
+    1956."
+  - "Dio vida a Henry Doyle en \xABNumber Seventeen\xBB."
+  - "En \xABAlexander the Great\xBB interpret\xF3 a Aristotle."
+  - "Sus papeles incluyen a Aristotle en \xABAlexander the Great\xBB y a Duke of
+    Shires en \xABA Study in Terror\xBB."

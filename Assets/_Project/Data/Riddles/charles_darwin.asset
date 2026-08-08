@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: charles_darwin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: charles_darwin
+  category: personas
+  difficulty: 0
+  answer: Charles Darwin
+  acceptedAnswers:
+  - Charles Darwin
+  hints:
+  - "Su etapa de mayor influencia se sit\xFAa en el siglo XIX."
+  - "Naci\xF3 en Inglaterra y orient\xF3 su trabajo hacia ciencias naturales."
+  - "Su carrera cambi\xF3 de escala gracias a proponer la evoluci\xF3n mediante selecci\xF3n
+    natural."
+  - "Otra referencia clave para reconocerlo es el viaje del Beagle y las especies
+    de las islas Gal\xE1pagos."
+  - "Su legado combina proponer la evoluci\xF3n mediante selecci\xF3n natural con
+    el viaje del Beagle y las especies de las islas Gal\xE1pagos."

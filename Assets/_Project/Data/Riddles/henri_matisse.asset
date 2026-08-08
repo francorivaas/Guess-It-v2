@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: henri_matisse
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: henri_matisse
+  category: personas
+  difficulty: 1
+  answer: Henri Matisse
+  acceptedAnswers:
+  - Henri Matisse
+  hints:
+  - "El n\xFAcleo de su trayectoria qued\xF3 concentrado en la primera mitad del
+    siglo XX."
+  - "Naci\xF3 en Francia y orient\xF3 su trabajo hacia pintura y collage."
+  - Se lo recuerda especialmente por usar color intenso y simplificar formas con
+    gran libertad.
+  - Su historia suele asociarse directamente con recortes de papel, La danza y una
+    rivalidad amistosa con Picasso.
+  - "Quien encaja en estas pistas destac\xF3 por recortes de papel, La danza y una
+    rivalidad amistosa con Picasso."

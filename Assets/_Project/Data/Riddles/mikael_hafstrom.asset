@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mikael_hafstrom
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mikael_hafstrom
+  category: personas
+  difficulty: 0
+  answer: "Mikael H\xE5fstr\xF6m"
+  acceptedAnswers:
+  - "Mikael H\xE5fstr\xF6m"
+  - Mikael Hafstrom
+  hints:
+  - "Su trabajo se reparte entre drama y crimen a lo largo de un per\xEDodo que va
+    entre 2003 y 2013."
+  - "Una pista lateral de su filmograf\xEDa es \xABEvil\xBB, dentro de Estados Unidos
+    y Suecia."
+  - "Tambi\xE9n est\xE1 vinculada a \xABThe Rite\xBB y \xABEscape Plan\xBB."
+  - "La filmograf\xEDa apunta con claridad a \xAB1408\xBB y \xABEscape Plan\xBB."
+  - "Persona con cr\xE9ditos de direcci\xF3n en \xAB1408\xBB, \xABEscape Plan\xBB
+    y \xABThe Rite\xBB."

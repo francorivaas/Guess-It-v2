@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: pedro_juan_caballero
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: pedro_juan_caballero
+  category: lugares
+  difficulty: 1
+  answer: Pedro Juan Caballero
+  acceptedAnswers:
+  - Pedro Juan Caballero
+  hints:
+  - "Est\xE1 a unos 22,6 grados al sur del ecuador y 55,7 al oeste de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 122 mil habitantes. Dentro de su pa\xEDs
+    ocupa el puesto 5 por poblaci\xF3n."
+  - "Se ubica a unos 360 kil\xF3metros al noreste de Asunci\xF3n."
+  - "Est\xE1 en Paraguay, donde ocupa el puesto 5 por poblaci\xF3n, y es un centro
+    administrativo regional."
+  - Es la capital administrativa de Amambay, dentro de Paraguay.

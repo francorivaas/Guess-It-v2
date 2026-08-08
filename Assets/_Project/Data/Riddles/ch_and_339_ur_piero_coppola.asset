@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ch_and_339_ur_piero_coppola
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ch_and_339_ur_piero_coppola
+  category: bandas musicales
+  difficulty: 0
+  answer: Ch&#339;ur Piero Coppola
+  acceptedAnswers:
+  - Ch&#339;ur Piero Coppola
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABCarmen : Acte II - Vivat! Vivat! Le tor\xE9ro!
+    (Air d'Escamillo) - Votre toast, je peux vous le rendre (Choeur)\xBB, de 1927,
+    y llega hasta 1927."
+  - "\xABCarmen : Acte IV - A dos cuartos (Choeur)\xBB presenta una energ\xEDa suave
+    y un pulso cercano a 100 BPM."
+  - "Entre sus grabaciones figuran \xABCarmen : Acte I - Que se passe-t-il donc l\xE0
+    bas? (Choeur)\xBB y \xABCarmen : Ouverture\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABCarmen : Acte I - La cloche a sonn\xE9 (Choeur des cigari\xE8res)\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABCarmen : Acte I - Avec la garde montante
+    (Choeur des gamins)\xBB y \xABCarmen : Acte IV - Voici le quadrille (Marche et
+    choeur)\xBB."

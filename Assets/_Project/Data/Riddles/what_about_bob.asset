@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: what_about_bob
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: what_about_bob
+  category: peliculas
+  difficulty: 0
+  answer: What About Bob?
+  acceptedAnswers:
+  - What About Bob?
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 1990 y clasificada como comedia. Entre sus int\xE9rpretes figura Bill
+    Murray."
+  - "Tiene una duraci\xF3n aproximada de 99 minutos y recibi\xF3 la clasificaci\xF3n
+    PG. La direcci\xF3n est\xE1 acreditada a Frank Oz."
+  - "Se estren\xF3 en 1991 y estuvo asociada a la compa\xF1\xEDa Touchstone Pictures."
+  - "Frank Oz estuvo a cargo de la direcci\xF3n, con Bill Murray al frente del elenco."
+  - "Producci\xF3n de comedia estrenada en 1991: direcci\xF3n de Frank Oz y actuaciones
+    de Bill Murray, con guion de Alvin Sargent."

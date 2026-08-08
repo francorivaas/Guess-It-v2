@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jason_cope
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jason_cope
+  category: personas
+  difficulty: 1
+  answer: Jason Cope
+  acceptedAnswers:
+  - Jason Cope
+  hints:
+  - "En Dredd interpret\xF3 a Zwirner, en una pel\xEDcula estrenada en 2012."
+  - "Su carrera en cine abarca de 2009 a 2015 y recorre ciencia ficci\xF3n y crimen."
+  - "Comparti\xF3 reparto con Sharlto Copley en Chappie."
+  - "En Chappie interpret\xF3 a Tetravaal Lead Mechanic."
+  - Aparece en District 9 y Dredd.

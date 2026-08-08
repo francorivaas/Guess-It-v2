@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_lion_king
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_lion_king
+  category: peliculas
+  difficulty: 0
+  answer: "El rey le\xF3n"
+  acceptedAnswers:
+  - "El rey le\xF3n"
+  - El rey leon
+  - the lion king
+  hints:
+  - "Esta producci\xF3n de Estados Unidos, lanzada en 1994, pertenece al g\xE9nero
+    animaci\xF3n, aventura y drama musical."
+  - "La realizaci\xF3n fue encabezada por Roger Allers y Rob Minkoff."
+  - El reparto o los personajes clave incluyen a Simba, Mufasa y Scar.
+  - El conflicto principal nace cuando un cachorro heredero huye tras la muerte de
+    su padre y debe recuperar su lugar en el ciclo de la vida.
+  - "Resulta inconfundible por un joven le\xF3n vuelve para enfrentar al t\xEDo que
+    usurp\xF3 el trono."

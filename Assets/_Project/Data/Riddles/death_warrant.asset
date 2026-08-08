@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: death_warrant
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: death_warrant
+  category: peliculas
+  difficulty: 0
+  answer: Death Warrant
+  acceptedAnswers:
+  - Death Warrant
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1990 dura cerca de 93 minutos."
+  - "El relato pertenece a acci\xF3n, crimen y drama, con participaci\xF3n productiva
+    de Canad\xE1 y Estados Unidos."
+  - "Deran Sarafian la dirigi\xF3 con Path\xE9 Pictures International entre las compa\xF1\xEDas
+    productoras."
+  - Dos personajes centrales son Louis Burke, interpretado por Jean-Claude Van Damme,
+    y Hawkins, a cargo de Robert Guillaume.
+  - "El reparto incluye a Jean-Claude Van Damme como Louis Burke, Robert Guillaume
+    como Hawkins y Cynthia Gibb como Amanda Beckett bajo la direcci\xF3n de Deran
+    Sarafian."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: he_s_just_not_that_into_you
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: he_s_just_not_that_into_you
+  category: peliculas
+  difficulty: 1
+  answer: He's Just Not That Into You
+  acceptedAnswers:
+  - He's Just Not That Into You
+  hints:
+  - "Se estren\xF3 en 2009, dura cerca de 129 minutos y tuvo producci\xF3n de Pa\xEDses
+    Bajos."
+  - Combina comedia y romance; una de sus productoras fue New Line Cinema. El guion
+    acredita a Abby Kohn.
+  - "La dirigi\xF3 Ken Kwapis, con Jennifer Connelly en un papel del reparto."
+  - En el elenco aparecen Jennifer Aniston y Drew Barrymore.
+  - "Ben Affleck encabeza esta pel\xEDcula de comedia, dirigida por Ken Kwapis y
+    estrenada en 2009."

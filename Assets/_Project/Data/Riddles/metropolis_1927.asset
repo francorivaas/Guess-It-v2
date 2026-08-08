@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: metropolis_1927
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: metropolis_1927
+  category: peliculas
+  difficulty: 2
+  answer: "Metr\xF3polis"
+  acceptedAnswers:
+  - "Metr\xF3polis"
+  - Metropolis
+  hints:
+  - "Su contexto de estreno fue 1927; es una pel\xEDcula de ciencia ficci\xF3n realizada
+    en Alemania."
+  - "La realizaci\xF3n fue encabezada por Fritz Lang."
+  - "La narraci\xF3n se apoya especialmente en Freder, Mar\xEDa y Rotwang."
+  - "El relato se construye a partir de una ciudad futurista separa a trabajadores
+    subterr\xE1neos de una \xE9lite poderosa."
+  - "Se la reconoce de inmediato por un robot con apariencia humana incita a una
+    rebeli\xF3n entre enormes m\xE1quinas."

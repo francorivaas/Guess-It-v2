@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: good_will_hunting
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: good_will_hunting
+  category: peliculas
+  difficulty: 1
+  answer: En busca del destino
+  acceptedAnswers:
+  - En busca del destino
+  - el indomable will hunting
+  - good will hunting
+  hints:
+  - "Lleg\xF3 a las salas en 1997 como una obra de drama vinculada a Estados Unidos."
+  - "La realizaci\xF3n fue encabezada por Gus Van Sant."
+  - Will Hunting, Sean Maguire y Chuckie ocupan el centro de la historia.
+  - Su historia sigue un joven con talento excepcional trabaja como conserje y enfrenta
+    su pasado.
+  - "Una imagen o situaci\xF3n decisiva es un problema matem\xE1tico an\xF3nimo conduce
+    a sesiones terap\xE9uticas."

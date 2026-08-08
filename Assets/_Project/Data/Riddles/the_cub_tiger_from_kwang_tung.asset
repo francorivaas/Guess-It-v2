@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_cub_tiger_from_kwang_tung
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_cub_tiger_from_kwang_tung
+  category: peliculas
+  difficulty: 1
+  answer: The Cub Tiger from Kwang Tung
+  acceptedAnswers:
+  - The Cub Tiger from Kwang Tung
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 1970 y su duraci\xF3n ronda los 80 minutos."
+  - "Mezcla acci\xF3n, comedia y drama y fue producida en Hong Kong."
+  - "La direcci\xF3n estuvo a cargo de Jackie Chan."
+  - En el reparto, Jackie Chan da vida a Ah Lung (Hsiao Hu) y Yuen Biao a Chow's
+    thug.
+  - "Jackie Chan dirige a Jackie Chan como Ah Lung (Hsiao Hu), Yuen Biao como Chow's
+    thug y Mars como Chow's thug en esta pel\xEDcula de 1973."

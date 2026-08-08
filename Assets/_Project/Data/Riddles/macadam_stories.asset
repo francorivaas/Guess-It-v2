@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: macadam_stories
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: macadam_stories
+  category: peliculas
+  difficulty: 1
+  answer: Macadam Stories
+  acceptedAnswers:
+  - Macadam Stories
+  - Asphalte
+  hints:
+  - "Es una producci\xF3n de 2015 con una duraci\xF3n aproximada de 100 minutos."
+  - "La Cam\xE9ra Deluxe particip\xF3 en una pel\xEDcula de drama y comedia producida
+    en Francia."
+  - "Detr\xE1s de la c\xE1mara estuvo Samuel Benchetrit."
+  - Michael Pitt interpreta a John McKenzie, mientras Isabelle Huppert encarna a
+    Jeanne Meyer.
+  - "El reparto incluye a Michael Pitt como John McKenzie, Isabelle Huppert como
+    Jeanne Meyer y Valeria Bruni Tedeschi como L'infirmi\xE8re bajo la direcci\xF3n
+    de Samuel Benchetrit."

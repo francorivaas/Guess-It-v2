@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: oleg_yankovskiy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: oleg_yankovskiy
+  category: personas
+  difficulty: 1
+  answer: Oleg Yankovskiy
+  acceptedAnswers:
+  - Oleg Yankovskiy
+  hints:
+  - "Trabaj\xF3 en producciones de drama, romance y historia a lo largo del per\xEDodo
+    entre 1975 y 2009."
+  - "Particip\xF3 en \xABMirror\xBB, dirigida por Andrei Tarkovsky y estrenada en
+    1975."
+  - "En \xABNostalgia\xBB interpret\xF3 a Andrei Gorchakov."
+  - "Dio vida a Fred's father en \xABHipsters\xBB."
+  - "Interpret\xF3 a Fred's father en \xABHipsters\xBB y a Metropolitanate Philipp
+    en \xABTsar\xBB."

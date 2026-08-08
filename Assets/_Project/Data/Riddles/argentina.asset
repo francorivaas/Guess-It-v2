@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: argentina
   m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
   id: argentina
-  category: "Pa\xEDses"
+  category: lugares
   difficulty: 0
   answer: Argentina
   acceptedAnswers:
   - Argentina
   hints:
-  - "Es un pa\xEDs de Sudam\xE9rica."
-  - Limita con Chile.
-  - Su capital es Buenos Aires.
-  - "Gan\xF3 el Mundial 2022."
-  - Su bandera es celeste y blanca.
+  - "Su escala demogr\xE1fica ronda 43 millones de habitantes; el territorio ocupa
+    2,8 millones de km\xB2."
+  - "Su ubicaci\xF3n geogr\xE1fica corresponde a Am\xE9rica del Sur."
+  - "El panorama ling\xFC\xEDstico incluye espa\xF1ol, guaran\xED."
+  - La moneda nacional es peso argentino.
+  - La sede de gobierno se encuentra en Buenos Aires.

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ryu_seung_ryong
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ryu_seung_ryong
+  category: personas
+  difficulty: 0
+  answer: Ryu Seung-ryong
+  acceptedAnswers:
+  - Ryu Seung-ryong
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2006 y 2014 y recorren g\xE9neros
+    como drama, acci\xF3n y comedia."
+  - "Uno de sus trabajos fue \xABMiracle in Cell No. 7\xBB (2013), bajo la direcci\xF3n
+    de Lee Hwan-kyung."
+  - "En \xABWar of the Arrows\xBB interpret\xF3 a Jyuushinta."
+  - "En \xABThe Admiral: Roaring Currents\xBB interpret\xF3 a General Kurushima."
+  - "Interpret\xF3 a General Kurushima en \xABThe Admiral: Roaring Currents\xBB y
+    a Chief Secretary Heo Gyun en \xABMasquerade\xBB."

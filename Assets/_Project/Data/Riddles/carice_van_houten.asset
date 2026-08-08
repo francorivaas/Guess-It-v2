@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: carice_van_houten
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: carice_van_houten
+  category: personas
+  difficulty: 0
+  answer: Carice van Houten
+  acceptedAnswers:
+  - Carice van Houten
+  hints:
+  - "Trabaj\xF3 en producciones de drama, suspenso y acci\xF3n a lo largo del per\xEDodo
+    entre 2006 y 2016."
+  - "Form\xF3 parte del elenco de \xABValkyrie\xBB, una pel\xEDcula de 2008 dirigida
+    por Bryan Singer."
+  - "Dio vida a Carol en \xABRepo Men\xBB."
+  - "En \xABRace\xBB interpret\xF3 a Leni Riefenstahl."
+  - "Interpret\xF3 a Leni Riefenstahl en \xABRace\xBB y a Birgitta Jonsdottir en
+    \xABThe Fifth Estate\xBB."

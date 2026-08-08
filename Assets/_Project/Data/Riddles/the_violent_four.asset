@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_violent_four
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_violent_four
+  category: peliculas
+  difficulty: 2
+  answer: The Violent Four
+  acceptedAnswers:
+  - The Violent Four
+  - Banditi a Milano
+  hints:
+  - "Fue filmada originalmente en italiano y lleg\xF3 a los cines en 1968."
+  - "Se encuadra en drama y crimen y tiene origen de producci\xF3n en Italia."
+  - "Carlo Lizzani la dirigi\xF3 con Paramount Pictures entre las compa\xF1\xEDas
+    productoras."
+  - "En el reparto, Gian Maria Volont\xE9 da vida a Piero Cavallero y Don Backy a
+    Sante Notarnicola."
+  - "Carlo Lizzani dirige a Gian Maria Volont\xE9 como Piero Cavallero, Don Backy
+    como Sante Notarnicola y Tom\xE1s Mili\xE1n como Commissioner Basevi en esta
+    pel\xEDcula de 1968."

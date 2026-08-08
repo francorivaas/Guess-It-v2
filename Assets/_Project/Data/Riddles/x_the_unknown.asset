@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: x_the_unknown
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: x_the_unknown
+  category: peliculas
+  difficulty: 1
+  answer: 'X: The Unknown'
+  acceptedAnswers:
+  - 'X: The Unknown'
+  hints:
+  - "Su metraje se acerca a 81 minutos y corresponde al a\xF1o 1956."
+  - "El relato pertenece a terror, ciencia ficci\xF3n y misterio, con participaci\xF3n
+    productiva de Reino Unido."
+  - El realizador principal fue Joseph Losey.
+  - Dos personajes centrales son Dr. Adam Royston, interpretado por Dean Jagger,
+    y Inspector McGill, a cargo de Leo McKern.
+  - "El reparto incluye a Dean Jagger como Dr. Adam Royston, Leo McKern como Inspector
+    McGill y William Lucas como Peter Elliott bajo la direcci\xF3n de Joseph Losey."

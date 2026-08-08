@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lee_kyoung_young
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lee_kyoung_young
+  category: personas
+  difficulty: 0
+  answer: Lee Kyoung-young
+  acceptedAnswers:
+  - Lee Kyoung-young
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 2011 y 2015 y recorren g\xE9neros
+    como drama, acci\xF3n y historia."
+  - "Form\xF3 parte del elenco de \xABWar of the Arrows\xBB, una pel\xEDcula de 2011
+    dirigida por Kim Han-min."
+  - "Dio vida a Kang In-gook en \xABAssassination\xBB."
+  - "En \xABThe Berlin File\xBB interpret\xF3 a Lee Hak-Soo."
+  - "Es la persona que encarn\xF3 a Lee Hak-Soo en \xABThe Berlin File\xBB y a So-ma
+    en \xABThe Pirates\xBB."

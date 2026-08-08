@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bronx
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bronx
+  category: lugares
+  difficulty: 0
+  answer: Bronx
+  acceptedAnswers:
+  - Bronx
+  hints:
+  - "Su posici\xF3n est\xE1 al norte del ecuador, a unos 40,85 grados del ecuador."
+  - "Es un n\xFAcleo urbano de alrededor de 1,5 millones de habitantes dentro de
+    New York."
+  - "No es la capital nacional de Estados Unidos. Se halla aproximadamente a 40,9\xB0
+    norte."
+  - "Esta ciudad de Estados Unidos est\xE1 en New York y se sit\xFAa a 40,9\xB0 norte."
+  - "En Estados Unidos, dentro de New York, esta ciudad de unos 1,5 millones est\xE1
+    cerca de 40,9\xB0 norte y 73,9\xB0 oeste."

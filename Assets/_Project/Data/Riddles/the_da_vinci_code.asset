@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_da_vinci_code
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_da_vinci_code
+  category: peliculas
+  difficulty: 0
+  answer: The Da Vinci Code
+  acceptedAnswers:
+  - The Da Vinci Code
+  hints:
+  - "Se estren\xF3 en 2006, dura cerca de 149 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - Combina suspenso y misterio; una de sus productoras fue Columbia Pictures.
+  - "La dirigi\xF3 Ron Howard, con Paul Bettany en un papel del reparto."
+  - En el elenco aparecen Audrey Tautou y Ian McKellen.
+  - "Tom Hanks encabeza esta pel\xEDcula de suspenso, dirigida por Ron Howard y estrenada
+    en 2006."

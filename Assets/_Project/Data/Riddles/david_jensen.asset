@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: david_jensen
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: david_jensen
+  category: personas
+  difficulty: 2
+  answer: David Jensen
+  acceptedAnswers:
+  - David Jensen
+  hints:
+  - "En Black or White interpret\xF3 a Eldridge, en una pel\xEDcula estrenada en
+    2014."
+  - "Su carrera en cine abarca de 2007 a 2016 y recorre suspenso y acci\xF3n."
+  - "Comparti\xF3 reparto con Matthew McConaughey en Free State of Jones. Otro cr\xE9dito
+    es Midnight Special."
+  - "En The Mist interpret\xF3 a Myron."
+  - Aparece en Battleship y Midnight Special.

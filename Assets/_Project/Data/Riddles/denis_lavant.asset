@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: denis_lavant
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: denis_lavant
+  category: personas
+  difficulty: 0
+  answer: Denis Lavant
+  acceptedAnswers:
+  - Denis Lavant
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1983 y 2015, especialmente dentro
+    de drama, comedia y romance."
+  - "Particip\xF3 en \xABA Very Long Engagement\xBB, dirigida por Jean-Pierre Jeunet
+    y estrenada en 2004."
+  - "Dio vida a Galoup en \xABBeau Travail\xBB."
+  - "Dio vida a Merde' (segment \"Merde\") en \xABTokyo!\xBB."
+  - "Sus papeles incluyen a Merde' (segment \"Merde\") en \xABTokyo!\xBB y a Ernst
+    en \xABMy Little Princess\xBB."

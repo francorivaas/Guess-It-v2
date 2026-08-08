@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: z_z_hill
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: z_z_hill
+  category: bandas musicales
+  difficulty: 1
+  answer: Z.Z. Hill
+  acceptedAnswers:
+  - Z.Z. Hill
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABLove Is So Good When You're Stealing It
+    - Single Version\xBB, de 1978, y llega hasta 1996."
+  - "\xABEverybody Knows About My Good Thing\xBB presenta una energ\xEDa media y
+    un pulso cercano a 126 BPM."
+  - "Entre sus grabaciones figuran \xABSomeone Else Is Steppin' In\xBB y \xABShade
+    Tree Mechanic\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABDown Home Blues\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABThat Ain't The Way You Make Love\xBB
+    y \xABCheating In The Next Room\xBB."

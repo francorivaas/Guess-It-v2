@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: under_suspicion
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: under_suspicion
+  category: peliculas
+  difficulty: 1
+  answer: Under Suspicion
+  acceptedAnswers:
+  - Under Suspicion
+  hints:
+  - "Es una producci\xF3n de Francia de la d\xE9cada de 2000, vinculada al g\xE9nero
+    de crimen."
+  - "Tiene una duraci\xF3n aproximada de 110 minutos y recibi\xF3 la clasificaci\xF3n
+    R. La direcci\xF3n est\xE1 acreditada a Stephen Hopkins."
+  - "Se estren\xF3 en 2000 y estuvo asociada a la compa\xF1\xEDa Revelations Entertainment."
+  - "La dirigi\xF3 Stephen Hopkins y su figura principal es Morgan Freeman."
+  - "Producci\xF3n de crimen estrenada en 2000: direcci\xF3n de Stephen Hopkins y
+    actuaciones de Morgan Freeman, con guion de John Wainwright."

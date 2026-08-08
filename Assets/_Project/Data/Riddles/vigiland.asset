@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: vigiland
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: vigiland
+  category: bandas musicales
+  difficulty: 0
+  answer: Vigiland
+  acceptedAnswers:
+  - Vigiland
+  hints:
+  - "Su perfil sonoro combina electr\xF3nica y deep house con una energ\xEDa sonora
+    alta."
+  - "Una pista discogr\xE1fica es el \xE1lbum \xABUFO\xBB."
+  - Entre sus colaboraciones registradas figuran Lucas Estrada y Wahlstedt.
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABShots & Squats\xBB y \xABFriday
+    Night\u202C\u202C\u202C\xBB."
+  - "Artista o grupo detr\xE1s de \xABShots & Squats\xBB, \xABFriday Night\u202C\u202C\u202C\xBB
+    y \xABUFO - Radio Edit\xBB."

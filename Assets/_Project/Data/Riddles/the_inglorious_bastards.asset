@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_inglorious_bastards
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_inglorious_bastards
+  category: peliculas
+  difficulty: 0
+  answer: The Inglorious Bastards
+  acceptedAnswers:
+  - The Inglorious Bastards
+  - Quel maledetto treno blindato
+  hints:
+  - "Fue filmada originalmente en italiano y lleg\xF3 a los cines en 1978."
+  - "Se encuadra en acci\xF3n, comedia y b\xE9lico y tiene origen de producci\xF3n
+    en Italia."
+  - "La direcci\xF3n estuvo a cargo de Enzo G. Castellari."
+  - Dos personajes centrales son Lt. Robert Yeager, interpretado por Bo Svenson,
+    y Tony, a cargo de Peter Hooten.
+  - "Enzo G. Castellari dirige a Bo Svenson como Lt. Robert Yeager, Peter Hooten
+    como Tony y Fred Williamson como Pvt. Fred Canfield en esta pel\xEDcula de 1978."

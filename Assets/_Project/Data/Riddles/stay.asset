@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: stay
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: stay
+  category: peliculas
+  difficulty: 0
+  answer: Stay
+  acceptedAnswers:
+  - Stay
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2000, dentro de drama. La direcci\xF3n est\xE1 acreditada a Marc Forster."
+  - "Su duraci\xF3n ronda los 99 minutos; la clasificaci\xF3n registrada es R. Entre
+    sus int\xE9rpretes figura Ewan McGregor."
+  - "La producci\xF3n lleg\xF3 en 2005 bajo la participaci\xF3n de New Regency Productions."
+  - "Marc Forster estuvo a cargo de la direcci\xF3n, con Ewan McGregor al frente
+    del elenco."
+  - Cinta de Estados Unidos lanzada en 2005, dirigida por Marc Forster y encabezada
+    por Ewan McGregor, con guion de David Benioff.

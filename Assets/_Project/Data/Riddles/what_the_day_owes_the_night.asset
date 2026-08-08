@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: what_the_day_owes_the_night
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: what_the_day_owes_the_night
+  category: peliculas
+  difficulty: 1
+  answer: What the Day Owes the Night
+  acceptedAnswers:
+  - What the Day Owes the Night
+  - "Ce que le jour doit \xE0 la nuit"
+  - ce que le jour doit a la nuit
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2010 y su duraci\xF3n ronda los 182 minutos."
+  - Mezcla drama, historia y romance y fue producida en Francia.
+  - "Alexandre Arcady la dirigi\xF3 con Wild Bunch entre las compa\xF1\xEDas productoras."
+  - "Nora Arnezeder interpreta a \xC9milie, mientras Fu'ad A\xEFt Aattou encarna
+    a Youn\xE8s / Jonas."
+  - "En esta cinta de 2012 coinciden Nora Arnezeder como \xC9milie, Fu'ad A\xEFt
+    Aattou como Youn\xE8s / Jonas y Anne Parillaud como Madame Cazenave."

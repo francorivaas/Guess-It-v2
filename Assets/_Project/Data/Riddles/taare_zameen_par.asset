@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: taare_zameen_par
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: taare_zameen_par
+  category: peliculas
+  difficulty: 0
+  answer: Taare Zameen Par
+  acceptedAnswers:
+  - Taare Zameen Par
+  hints:
+  - "Combina un estreno de 2007 con di\xE1logos originalmente en hindi."
+  - "Entre sus compa\xF1\xEDas figura Aamir Khan Productions; sus g\xE9neros principales
+    son drama."
+  - El realizador principal fue Aamir Khan.
+  - Darsheel Safary interpreta a Ishaan Nandkishore Awasthi, mientras Aamir Khan
+    encarna a Ram Shankar Nikumbh.
+  - "Aamir Khan dirige a Darsheel Safary como Ishaan Nandkishore Awasthi, Aamir Khan
+    como Ram Shankar Nikumbh y Tisca Chopra como Maya Awasthi en esta pel\xEDcula
+    de 2007."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: archimedes
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: archimedes
+  category: personas
+  difficulty: 1
+  answer: "Arqu\xEDmedes"
+  acceptedAnswers:
+  - "Arqu\xEDmedes"
+  - Arquimedes
+  hints:
+  - "Su etapa de mayor influencia se sit\xFAa en la Antig\xFCedad."
+  - "Naci\xF3 en Siracusa y orient\xF3 su trabajo hacia matem\xE1tica e ingenier\xEDa."
+  - "Entre sus logros sobresale formular principios sobre flotaci\xF3n y palancas."
+  - "Tambi\xE9n qued\xF3 estrechamente relacionado con un ba\xF1o, el grito Eureka
+    y la idea de mover el mundo con un punto de apoyo."
+  - "Su perfil re\xFAne matem\xE1tica e ingenier\xEDa, formular principios sobre
+    flotaci\xF3n y palancas y un ba\xF1o, el grito Eureka y la idea de mover el mundo
+    con un punto de apoyo."

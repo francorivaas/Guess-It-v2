@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nights_in_rodanthe
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nights_in_rodanthe
+  category: peliculas
+  difficulty: 0
+  answer: Nights in Rodanthe
+  acceptedAnswers:
+  - Nights in Rodanthe
+  hints:
+  - "Es una producci\xF3n de Estados Unidos y Australia de la d\xE9cada de 2000,
+    vinculada al g\xE9nero de drama y romance."
+  - "La ficha t\xE9cnica marca 97 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    PG-13. La direcci\xF3n est\xE1 acreditada a George C. Wolfe."
+  - "Se estren\xF3 en 2008 y estuvo asociada a la compa\xF1\xEDa Warner Bros.."
+  - "George C. Wolfe estuvo a cargo de la direcci\xF3n y reuni\xF3 a Richard Gere
+    con Diane Lane."
+  - "La respuesta es la cinta de 2008 que George C. Wolfe dirigi\xF3 con Richard
+    Gere, Diane Lane y Christopher Meloni como int\xE9rpretes destacados, con guion
+    de Ann Peacock."

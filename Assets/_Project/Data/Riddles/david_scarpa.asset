@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: david_scarpa
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: david_scarpa
+  category: personas
+  difficulty: 0
+  answer: David Scarpa
+  acceptedAnswers:
+  - David Scarpa
+  hints:
+  - "Es una figura del cine cuya actividad registrada se extiende entre 2001 y 2017
+    y toca principalmente acci\xF3n y drama."
+  - "Una pista lateral de su filmograf\xEDa es \xABThe Last Castle\xBB, dentro de
+    Estados Unidos."
+  - "La asociaci\xF3n con \xABThe Last Castle\xBB se completa con otro cr\xE9dito
+    en \xABAll the Money in the World\xBB."
+  - "Dos referencias fuertes de su carrera son \xABThe Day the Earth Stood Still\xBB
+    y \xABAll the Money in the World\xBB."
+  - "Profesional del cine relacionado con \xABThe Day the Earth Stood Still\xBB,
+    \xABAll the Money in the World\xBB y \xABThe Last Castle\xBB en tareas de guion."

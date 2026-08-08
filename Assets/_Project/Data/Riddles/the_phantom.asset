@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_phantom
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_phantom
+  category: peliculas
+  difficulty: 1
+  answer: The Phantom
+  acceptedAnswers:
+  - The Phantom
+  - O Fantasma
+  hints:
+  - "Combina un estreno de 2000 con di\xE1logos originalmente en portugu\xE9s."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama; la producci\xF3n se vincula con
+    Portugal."
+  - "Jo\xE3o Pedro Rodrigues la dirigi\xF3 con Rosa Filmes entre las compa\xF1\xEDas
+    productoras."
+  - "Dos personajes centrales son S\xE9rgio, interpretado por Ricardo Meneses, y
+    F\xE1tima, a cargo de Beatriz Torcato."
+  - "En esta cinta de 2000 coinciden Ricardo Meneses como S\xE9rgio, Beatriz Torcato
+    como F\xE1tima y Andr\xE9 Barbosa como Jo\xE3o."

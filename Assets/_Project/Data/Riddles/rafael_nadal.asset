@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rafael_nadal
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rafael_nadal
+  category: personas
+  difficulty: 0
+  answer: Rafael Nadal
+  acceptedAnswers:
+  - Rafael Nadal
+  hints:
+  - "Su etapa de mayor influencia qued\xF3 concentrado desde comienzos del siglo
+    XXI."
+  - "Naci\xF3 en Espa\xF1a y orient\xF3 su trabajo hacia tenis."
+  - "Entre sus logros sobresale dominar durante a\xF1os el torneo m\xE1s importante
+    sobre arcilla."
+  - "Tambi\xE9n qued\xF3 estrechamente relacionado con Roland Garros, una intensidad
+    f\xEDsica notable y golpes con mucho efecto."
+  - "Su perfil re\xFAne tenis, dominar durante a\xF1os el torneo m\xE1s importante
+    sobre arcilla y Roland Garros, una intensidad f\xEDsica notable y golpes con
+    mucho efecto."

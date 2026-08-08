@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: george_tillman_jr
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: george_tillman_jr
+  category: personas
+  difficulty: 0
+  answer: George Tillman Jr.
+  acceptedAnswers:
+  - George Tillman Jr.
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1997 y 2018 y se concentra sobre
+    todo en comedia y biograf\xEDa."
+  - "La pel\xEDcula \xABThe Inevitable Defeat of Mister & Pete\xBB forma parte de
+    una carrera conectada con Estados Unidos."
+  - "Tambi\xE9n est\xE1 vinculada a \xABThe Longest Ride\xBB y \xABFaster\xBB."
+  - "Los t\xEDtulos \xABMen of Honor\xBB y \xABFaster\xBB ofrecen las pistas m\xE1s
+    directas."
+  - "Figura cinematogr\xE1fica asociada mediante direcci\xF3n y guion a \xABMen of
+    Honor\xBB, \xABFaster\xBB y \xABThe Longest Ride\xBB."

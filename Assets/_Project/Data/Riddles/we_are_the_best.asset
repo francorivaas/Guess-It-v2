@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: we_are_the_best
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: we_are_the_best
+  category: peliculas
+  difficulty: 1
+  answer: We Are the Best!
+  acceptedAnswers:
+  - We Are the Best!
+  - "Vi \xE4r b\xE4st!"
+  - vi ar bast!
+  hints:
+  - "Fue filmada originalmente en sueco y lleg\xF3 a los cines en 2013."
+  - "Mezcla drama y m\xFAsica y fue producida en Dinamarca y Suecia."
+  - El realizador principal fue Lukas Moodysson.
+  - Dos personajes centrales son Bobo, interpretado por Mira Barkhammar, y Klara,
+    a cargo de Mira Grosin.
+  - En esta cinta de 2013 coinciden Mira Barkhammar como Bobo, Mira Grosin como Klara
+    y Liv LeMoyne como Hedvig.

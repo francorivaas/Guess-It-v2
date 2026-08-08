@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lionel_richie
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lionel_richie
+  category: bandas musicales
+  difficulty: 0
+  answer: Lionel Richie
+  acceptedAnswers:
+  - Lionel Richie
+  hints:
+  - "Antes de mirar los t\xEDtulos, conviene pensar en disco y rock y en un equilibrio
+    entre energ\xEDa, ritmo y melod\xEDa."
+  - "El cat\xE1logo incluye el \xE1lbum \xABDisco Boogie Mood\xBB."
+  - "Ha compartido cr\xE9ditos de interpretaci\xF3n con Diana Ross y Enrique Iglesias."
+  - "Las referencias directas son \xABAll Night Long (All Night) - Single Version\xBB
+    y \xABStuck On You\xBB."
+  - "Proyecto musical responsable de \xABAll Night Long (All Night) - Single Version\xBB,
+    \xABStuck On You\xBB y \xABEndless Love\xBB."

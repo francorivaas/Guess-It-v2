@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_tobacconist_of_vallecas
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_tobacconist_of_vallecas
+  category: peliculas
+  difficulty: 2
+  answer: The Tobacconist of Vallecas
+  acceptedAnswers:
+  - The Tobacconist of Vallecas
+  - La estanquera de Vallecas
+  hints:
+  - "Combina un estreno de 1987 con di\xE1logos originalmente en espa\xF1ol."
+  - "Entre sus compa\xF1\xEDas figura Compa\xF1\xEDa Iberoamericana de TV; sus g\xE9neros
+    principales son comedia, drama y cine extranjero."
+  - "Eloy de la Iglesia la dirigi\xF3 con Compa\xF1\xEDa Iberoamericana de TV entre
+    las compa\xF1\xEDas productoras."
+  - "En el reparto, Emma Penella da vida a Do\xF1a Justa y Jos\xE9 Luis G\xF3mez
+    a Leandro."
+  - "Eloy de la Iglesia dirige a Emma Penella como Do\xF1a Justa, Jos\xE9 Luis G\xF3mez
+    como Leandro y Maribel Verd\xFA como \xC1ngeles en esta pel\xEDcula de 1987."

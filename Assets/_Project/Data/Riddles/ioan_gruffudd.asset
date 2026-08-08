@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ioan_gruffudd
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ioan_gruffudd
+  category: personas
+  difficulty: 2
+  answer: Ioan Gruffudd
+  acceptedAnswers:
+  - Ioan Gruffudd
+  hints:
+  - "En The Adventurer: The Curse of the Midas Box interpret\xF3 a Charles Mundi,
+    en una pel\xEDcula estrenada en 2013."
+  - "Su carrera en cine abarca de 2000 a 2015 y recorre acci\xF3n y drama."
+  - "Comparti\xF3 reparto con Glenn Close en 102 Dalmatians."
+  - "En Fantastic 4: Rise of the Silver Surfer interpret\xF3 a Reed Richards / Mr.
+    Fantastic."
+  - Aparece en San Andreas y Sanctum.

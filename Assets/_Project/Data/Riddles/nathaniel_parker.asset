@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: nathaniel_parker
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: nathaniel_parker
+  category: personas
+  difficulty: 1
+  answer: Nathaniel Parker
+  acceptedAnswers:
+  - Nathaniel Parker
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1990 y 2007, especialmente dentro
+    de drama, suspenso y crimen."
+  - "Uno de sus trabajos fue \xABFlawless\xBB (2007), bajo la direcci\xF3n de Michael
+    Radford."
+  - "En \xABHamlet\xBB interpret\xF3 a Laertes."
+  - "Dio vida a Cassio en \xABOthello\xBB."
+  - "Es la persona que encarn\xF3 a Cassio en \xABOthello\xBB y a Rob Hall en \xABInto
+    Thin Air: Death on Everest\xBB."

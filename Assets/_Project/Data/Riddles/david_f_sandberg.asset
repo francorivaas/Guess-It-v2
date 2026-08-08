@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: david_f_sandberg
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: david_f_sandberg
+  category: personas
+  difficulty: 0
+  answer: David F. Sandberg
+  acceptedAnswers:
+  - David F. Sandberg
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 2016 y 2019, con presencia
+    frecuente en drama y terror."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABLights Out\xBB, vinculada a Estados
+    Unidos."
+  - "Otros dos t\xEDtulos de su carrera son \xABLights Out\xBB y \xABAnnabelle: Creation\xBB."
+  - "Los t\xEDtulos \xABShazam!\xBB y \xABAnnabelle: Creation\xBB ofrecen las pistas
+    m\xE1s directas."
+  - "Figura cinematogr\xE1fica asociada mediante direcci\xF3n a \xABShazam!\xBB,
+    \xABAnnabelle: Creation\xBB y \xABLights Out\xBB."

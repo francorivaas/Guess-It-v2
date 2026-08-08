@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: gerard_darmon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: gerard_darmon
+  category: personas
+  difficulty: 1
+  answer: "G\xE9rard Darmon"
+  acceptedAnswers:
+  - "G\xE9rard Darmon"
+  - gerard darmon
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1982 y 2013 y recorren g\xE9neros
+    como comedia, drama y romance."
+  - "Particip\xF3 en \xABFear City: A Family-Style Comedy\xBB, dirigida por Alain
+    Berb\xE9rian y estrenada en 1994."
+  - "Dio vida a Eddy en \xABBetty Blue\xBB."
+  - "En \xABDead Weight\xBB interpret\xF3 a Kowalski."
+  - "Interpret\xF3 a Kowalski en \xABDead Weight\xBB y a le m\xE9decin en \xABThe
+    Ultimate Accessory\xBB."

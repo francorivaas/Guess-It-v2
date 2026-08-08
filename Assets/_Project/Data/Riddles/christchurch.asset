@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: christchurch
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: christchurch
+  category: lugares
+  difficulty: 0
+  answer: Christchurch
+  acceptedAnswers:
+  - Christchurch
+  hints:
+  - "Se ubica en el hemisferio sur y queda al este de Greenwich. Queda aproximadamente
+    a 4.846 kil\xF3metros del ecuador."
+  - "El dato de poblaci\xF3n se acerca a 383.000 habitantes dentro de Ocean\xEDa."
+  - "En un mapa se encuentra alrededor de 43.5\xB0 sur por 172.6\xB0 este."
+  - "La divisi\xF3n administrativa es Canterbury y el pa\xEDs es Nueva Zelanda."
+  - Es una capital administrativa de Canterbury, en Nueva Zelanda, con alrededor
+    de 383.000 habitantes.

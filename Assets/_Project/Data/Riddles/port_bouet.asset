@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: port_bouet
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: port_bouet
+  category: lugares
+  difficulty: 0
+  answer: "Port-Bou\xEBt"
+  acceptedAnswers:
+  - "Port-Bou\xEBt"
+  - port-bouet
+  hints:
+  - "Est\xE1 al oeste de Greenwich; su latitud ronda los 5,27\xB0 norte."
+  - "Re\xFAne cerca de 618.800 habitantes en la divisi\xF3n administrativa de Abidjan."
+  - "No es la capital nacional de Costa de Marfil. Su longitud geogr\xE1fica ronda
+    los 3,90\xB0 oeste."
+  - "Esta ciudad de Costa de Marfil est\xE1 en Abidjan y se sit\xFAa a 5,3\xB0 norte."
+  - "En Costa de Marfil, dentro de Abidjan, esta ciudad de unos 619 mil est\xE1 cerca
+    de 5,3\xB0 norte y 3,9\xB0 oeste."

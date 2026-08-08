@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dale_launer
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dale_launer
+  category: personas
+  difficulty: 0
+  answer: Dale Launer
+  acceptedAnswers:
+  - Dale Launer
+  hints:
+  - "Su trabajo se reparte entre comedia a lo largo de un per\xEDodo que va entre
+    1986 y 1992."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABLove Potion No. 9\xBB, vinculada
+    a Estados Unidos."
+  - "Otros dos t\xEDtulos de su carrera son \xABRuthless People\xBB y \xABDirty Rotten
+    Scoundrels\xBB."
+  - "Entre sus trabajos m\xE1s reconocibles se encuentran \xABMy Cousin Vinny\xBB
+    y \xABDirty Rotten Scoundrels\xBB."
+  - "Profesional del cine relacionado con \xABMy Cousin Vinny\xBB, \xABDirty Rotten
+    Scoundrels\xBB y \xABRuthless People\xBB en tareas de guion y direcci\xF3n."

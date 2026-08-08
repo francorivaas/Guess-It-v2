@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_million_dollar_hotel
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_million_dollar_hotel
+  category: peliculas
+  difficulty: 0
+  answer: The Million Dollar Hotel
+  acceptedAnswers:
+  - The Million Dollar Hotel
+  hints:
+  - "Su metraje se acerca a 122 minutos y corresponde al a\xF1o 2000."
+  - "El relato pertenece a drama y suspenso, con participaci\xF3n productiva de Estados
+    Unidos y Alemania."
+  - "Detr\xE1s de la c\xE1mara estuvo Wim Wenders."
+  - En el reparto, Mel Gibson da vida a Detective Skinner y Milla Jovovich a Eloise.
+  - "El reparto incluye a Mel Gibson como Detective Skinner, Milla Jovovich como
+    Eloise y Jeremy Davies como Tom Tom bajo la direcci\xF3n de Wim Wenders."

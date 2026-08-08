@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mary_poppins
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mary_poppins
+  category: peliculas
+  difficulty: 0
+  answer: Mary Poppins
+  acceptedAnswers:
+  - Mary Poppins
+  hints:
+  - "Su contexto de estreno fue 1964; es una pel\xEDcula de musical y fantas\xEDa
+    realizada en Reino Unido."
+  - "La realizaci\xF3n fue encabezada por Robert Stevenson."
+  - "La narraci\xF3n se apoya especialmente en Mary, Bert y la familia Banks."
+  - "El relato se construye a partir de una ni\xF1era extraordinaria transforma la
+    vida de dos hermanos londinenses."
+  - Se la reconoce de inmediato por un paraguas permite volar y una bolsa guarda
+    objetos imposibles.

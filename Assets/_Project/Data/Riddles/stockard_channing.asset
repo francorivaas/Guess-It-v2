@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: stockard_channing
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: stockard_channing
+  category: personas
+  difficulty: 2
+  answer: Stockard Channing
+  acceptedAnswers:
+  - Stockard Channing
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 2002 y 2003, especialmente dentro
+    de comedia, romance y drama."
+  - "Particip\xF3 en \xABAnything Else\xBB, dirigida por Woody Allen y estrenada
+    en 2003."
+  - "En \xABLife or Something Like It\xBB interpret\xF3 a Deborah Connors."
+  - "En \xABBright Young Things\xBB interpret\xF3 a Mrs. Melrose Ape."
+  - "Interpret\xF3 a Mrs. Melrose Ape en \xABBright Young Things\xBB y a Judy Shepard
+    en \xABThe Matthew Shepard Story\xBB."

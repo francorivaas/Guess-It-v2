@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: brian_doyle_murray
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: brian_doyle_murray
+  category: personas
+  difficulty: 2
+  answer: Brian Doyle-Murray
+  acceptedAnswers:
+  - Brian Doyle-Murray
+  hints:
+  - "Particip\xF3 en Modern Problems, una pel\xEDcula estrenada en 1981."
+  - "Su carrera en cine abarca de 1980 a 2012 y recorre romance y fantas\xEDa."
+  - "Comparti\xF3 reparto con Chevy Chase en Caddyshack."
+  - "En Stuart Little interpret\xF3 a Edgar Little."
+  - Aparece en Groundhog Day y Wayne's World.

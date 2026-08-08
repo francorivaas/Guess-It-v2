@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: shaun_parkes
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: shaun_parkes
+  category: personas
+  difficulty: 1
+  answer: Shaun Parkes
+  acceptedAnswers:
+  - Shaun Parkes
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 2005 y 2014, especialmente dentro
+    de drama, romance y aventura."
+  - "Uno de sus trabajos fue \xABNotes on a Scandal\xBB (2006), bajo la direcci\xF3n
+    de Richard Eyre."
+  - "En \xABTreasure Island\xBB interpret\xF3 a George Merry."
+  - "En \xABClubbed\xBB interpret\xF3 a Rob."
+  - "Es la persona que encarn\xF3 a Rob en \xABClubbed\xBB y a Rocco en \xABCasanova\xBB."

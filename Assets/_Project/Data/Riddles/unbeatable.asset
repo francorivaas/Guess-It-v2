@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: unbeatable
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: unbeatable
+  category: peliculas
+  difficulty: 1
+  answer: Unbeatable
+  acceptedAnswers:
+  - Unbeatable
+  hints:
+  - "Su metraje se acerca a 122 minutos y corresponde al a\xF1o 2013."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama y acci\xF3n; la producci\xF3n
+    se vincula con Hong Kong y China."
+  - "Dante Lam la dirigi\xF3 con Bona Entertainment entre las compa\xF1\xEDas productoras."
+  - En el reparto, Nick Cheung da vida a Chin Fai / Scumbag Fai y Eddie Peng a Lin
+    Si Qi.
+  - En esta cinta de 2013 coinciden Nick Cheung como Chin Fai / Scumbag Fai, Eddie
+    Peng como Lin Si Qi y Mei Ting como Wong Ming-Kwun / Gwen.

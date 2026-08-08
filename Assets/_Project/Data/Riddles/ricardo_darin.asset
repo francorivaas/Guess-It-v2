@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ricardo_darin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ricardo_darin
+  category: personas
+  difficulty: 0
+  answer: "Ricardo Dar\xEDn"
+  acceptedAnswers:
+  - "Ricardo Dar\xEDn"
+  - ricardo darin
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1999 y 2017 y recorren g\xE9neros
+    como drama, crimen y suspenso."
+  - "Form\xF3 parte del elenco de \xABThe Secret in Their Eyes\xBB, una pel\xEDcula
+    de 2009 dirigida por Juan Jos\xE9 Campanella."
+  - "En \xABNine Queens\xBB interpret\xF3 a Marcos."
+  - "En \xABChinese Take-Out\xBB interpret\xF3 a Roberto."
+  - "Interpret\xF3 a Roberto en \xABChinese Take-Out\xBB y a Kraken en \xABXXY\xBB."

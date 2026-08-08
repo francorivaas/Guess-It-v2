@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ben_younger
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ben_younger
+  category: personas
+  difficulty: 0
+  answer: Ben Younger
+  acceptedAnswers:
+  - Ben Younger
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 2000 y 2016, con presencia
+    frecuente en crimen y comedia."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABBleed for This\xBB, vinculada
+    a Estados Unidos."
+  - "Su nombre figura en los cr\xE9ditos de \xABBleed for This\xBB junto con \xABPrime\xBB."
+  - "Dos referencias fuertes de su carrera son \xABBoiler Room\xBB y \xABPrime\xBB."
+  - "Profesional del cine relacionado con \xABBoiler Room\xBB, \xABPrime\xBB y \xABBleed
+    for This\xBB en tareas de direcci\xF3n y guion."

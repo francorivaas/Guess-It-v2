@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_sessions
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_sessions
+  category: peliculas
+  difficulty: 0
+  answer: The Sessions
+  acceptedAnswers:
+  - The Sessions
+  - Sessions
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2010, dentro de biograf\xEDa. La direcci\xF3n est\xE1 acreditada a Ben Lewin."
+  - "La ficha t\xE9cnica marca 95 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R. Entre sus int\xE9rpretes figura John Hawkes."
+  - "La producci\xF3n lleg\xF3 en 2012 bajo la participaci\xF3n de Fox Searchlight
+    Pictures."
+  - "La dirigi\xF3 Ben Lewin y su figura principal es John Hawkes."
+  - "Producci\xF3n de biograf\xEDa estrenada en 2012: direcci\xF3n de Ben Lewin y
+    actuaciones de John Hawkes, con guion de Ben Lewin."

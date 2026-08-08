@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lynne_ramsay
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lynne_ramsay
+  category: personas
+  difficulty: 0
+  answer: Lynne Ramsay
+  acceptedAnswers:
+  - Lynne Ramsay
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1999 y 2017 y se concentra sobre
+    todo en drama y crimen."
+  - "La pel\xEDcula \xABRatcatcher\xBB forma parte de una carrera conectada con Reino
+    Unido."
+  - "La asociaci\xF3n con \xABMorvern Callar\xBB se completa con otro cr\xE9dito
+    en \xABYou Were Never Really Here\xBB."
+  - "Los t\xEDtulos \xABWe Need to Talk About Kevin\xBB y \xABYou Were Never Really
+    Here\xBB ofrecen las pistas m\xE1s directas."
+  - "Profesional del cine relacionado con \xABWe Need to Talk About Kevin\xBB, \xABYou
+    Were Never Really Here\xBB y \xABMorvern Callar\xBB en tareas de direcci\xF3n
+    y guion."

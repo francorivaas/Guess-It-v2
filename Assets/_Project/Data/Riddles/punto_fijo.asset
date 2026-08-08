@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: punto_fijo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: punto_fijo
+  category: lugares
+  difficulty: 0
+  answer: Punto Fijo
+  acceptedAnswers:
+  - Punto Fijo
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 70,18\xB0 oeste."
+  - "Su escala urbana ronda los 288 mil de habitantes y se integra en Falc\xF3n."
+  - "Cumple una funci\xF3n de capital local dentro de Falc\xF3n. Se halla aproximadamente
+    a 11,7\xB0 norte."
+  - "Pertenece a Venezuela y forma parte de Falc\xF3n; supera aproximadamente los
+    287.600 habitantes."
+  - "Es una ciudad de Venezuela, en Falc\xF3n, situada aproximadamente en 11,7\xB0
+    norte y 70,2\xB0 oeste."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: teresa_palmer
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: teresa_palmer
+  category: personas
+  difficulty: 1
+  answer: Teresa Palmer
+  acceptedAnswers:
+  - Teresa Palmer
+  hints:
+  - "En Take Me Home Tonight interpret\xF3 a Tori Frederking, en una pel\xEDcula
+    estrenada en 2011."
+  - Su carrera en cine abarca de 2006 a 2016 y recorre terror y comedia.
+  - "Comparti\xF3 reparto con Adam Sandler en Bedtime Stories. Otro cr\xE9dito es
+    The Sorcerer's Apprentice."
+  - "En I Am Number Four interpret\xF3 a Number Six / Maren Elizabeth."
+  - Aparece en Warm Bodies y The Sorcerer's Apprentice.

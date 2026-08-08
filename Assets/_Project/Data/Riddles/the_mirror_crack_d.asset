@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_mirror_crack_d
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_mirror_crack_d
+  category: peliculas
+  difficulty: 1
+  answer: The Mirror Crack'd
+  acceptedAnswers:
+  - The Mirror Crack'd
+  hints:
+  - "Su metraje se acerca a 105 minutos y corresponde al a\xF1o 1980."
+  - "El relato pertenece a crimen, suspenso y misterio, con participaci\xF3n productiva
+    de Reino Unido."
+  - "La direcci\xF3n estuvo a cargo de Guy Hamilton."
+  - Dos personajes centrales son Miss Jane Marple, interpretado por Angela Lansbury,
+    y Ella Zielinsky, a cargo de Geraldine Chaplin.
+  - "El reparto incluye a Angela Lansbury como Miss Jane Marple, Geraldine Chaplin
+    como Ella Zielinsky y Tony Curtis como Martin N. Fenn bajo la direcci\xF3n de
+    Guy Hamilton."

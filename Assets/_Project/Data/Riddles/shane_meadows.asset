@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: shane_meadows
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: shane_meadows
+  category: personas
+  difficulty: 1
+  answer: Shane Meadows
+  acceptedAnswers:
+  - Shane Meadows
+  hints:
+  - "Dirigi\xF3 obras de drama, comedia y cine extranjero a lo largo de una trayectoria
+    que va entre 1997 y 2009."
+  - "Estuvo al frente de \xABDead Man's Shoes\xBB (2004)."
+  - "Tambi\xE9n dirigi\xF3 \xABSomers Town\xBB, del a\xF1o 2008."
+  - "Dos pel\xEDculas que llevan su firma son \xABSomers Town\xBB y \xABA Room for
+    Romeo Brass\xBB."
+  - "Su filmograf\xEDa re\xFAne \xABDead Man's Shoes\xBB, \xABA Room for Romeo Brass\xBB
+    y \xABOnce Upon a Time in the Midlands\xBB."

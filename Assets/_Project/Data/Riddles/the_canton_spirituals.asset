@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_canton_spirituals
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_canton_spirituals
+  category: bandas musicales
+  difficulty: 0
+  answer: The Canton Spirituals
+  acceptedAnswers:
+  - The Canton Spirituals
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABI'm in Your Care\xBB, de 1989, y llega
+    hasta 1997."
+  - "Se mueve dentro de inspirational; \xABSend Me, I'll Go\xBB refleja una energ\xEDa
+    alta y un pulso cercano a 137 BPM."
+  - "Entre sus grabaciones figuran \xABMississippi Poor Boy\xBB y \xABI'm Coming
+    Lord\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABFix It Jesus\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABHeavenly Choir\xBB y \xABClean Up -
+    Live\xBB."

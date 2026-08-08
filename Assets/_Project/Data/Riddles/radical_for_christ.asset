@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: radical_for_christ
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: radical_for_christ
+  category: bandas musicales
+  difficulty: 1
+  answer: Radical For Christ
+  acceptedAnswers:
+  - Radical For Christ
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABBreathe Into Me Oh Lord (Psalm 119:25)\xBB,
+    de 1997, y llega hasta 2000."
+  - "\xABPlease Don't Pass Me By\xBB presenta una energ\xEDa alta y un pulso cercano
+    a 115 BPM."
+  - "Entre sus grabaciones figuran \xABJesus Be a Fence Around Me (Live)\xBB y \xABLet
+    the Praise Begin\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABYou Are The Living Word (Live)\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABNo Weapon\xBB y \xABWhen The Spirit
+    Of The Lord\xBB."

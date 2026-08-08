@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: what_s_up_tiger_lily
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: what_s_up_tiger_lily
+  category: peliculas
+  difficulty: 1
+  answer: What's Up, Tiger Lily?
+  acceptedAnswers:
+  - What's Up, Tiger Lily?
+  hints:
+  - "Su metraje se acerca a 80 minutos y corresponde al a\xF1o 1966."
+  - "Su combinaci\xF3n de g\xE9neros incluye acci\xF3n y comedia; la producci\xF3n
+    se vincula con Estados Unidos y Jap\xF3n."
+  - "Detr\xE1s de la c\xE1mara estuvo Woody Allen."
+  - Dos personajes centrales son Phil Moscowitz, interpretado por Tatsuya Mihashi,
+    y Suki Yaki, a cargo de Akiko Wakabayashi.
+  - "El reparto incluye a Tatsuya Mihashi como Phil Moscowitz, Akiko Wakabayashi
+    como Suki Yaki y Mie Hama como Teri Yaki bajo la direcci\xF3n de Woody Allen."

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: valerie_and_her_week_of_wonders
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: valerie_and_her_week_of_wonders
+  category: peliculas
+  difficulty: 1
+  answer: Valerie and Her Week of Wonders
+  acceptedAnswers:
+  - Valerie and Her Week of Wonders
+  - "Valerie a t\xFDden div\u016F"
+  - valerie a tyden divu
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1970 dura cerca de 73 minutos."
+  - "Su combinaci\xF3n de g\xE9neros incluye fantas\xEDa, aventura y drama; la producci\xF3n
+    se vincula con Rep\xFAblica Checa."
+  - "Jaromil Jire\u0161 firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - "Jaroslava Schallerov\xE1 interpreta a Valerie, mientras Helena An\xFDzov\xE1
+    encarna a Babicka / Elsa / Matka / Rusovl\xE1ska."
+  - "El reparto incluye a Jaroslava Schallerov\xE1 como Valerie, Helena An\xFDzov\xE1
+    como Babicka / Elsa / Matka / Rusovl\xE1ska y Petr Kopriva como Orlik bajo la
+    direcci\xF3n de Jaromil Jire\u0161."

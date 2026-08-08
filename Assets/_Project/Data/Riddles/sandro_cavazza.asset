@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sandro_cavazza
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sandro_cavazza
+  category: bandas musicales
+  difficulty: 1
+  answer: Sandro Cavazza
+  acceptedAnswers:
+  - Sandro Cavazza
+  hints:
+  - "Antes de mirar los t\xEDtulos, conviene pensar en m\xFAsica sueca y dance y
+    en un equilibrio entre energ\xEDa, ritmo y melod\xEDa."
+  - "El cat\xE1logo incluye el \xE1lbum \xABpov: it's 2020\xBB."
+  - Entre sus colaboraciones registradas figuran Avicii y Kygo.
+  - "Dos canciones muy \xFAtiles para reconocerlo son \xABHappy Now\xBB y \xABLean
+    On Me\xBB."
+  - "Proyecto musical responsable de \xABHappy Now\xBB, \xABLean On Me\xBB y \xABLove
+    To Lose\xBB."

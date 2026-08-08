@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: zhang_yimou
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: zhang_yimou
+  category: personas
+  difficulty: 0
+  answer: Zhang Yimou
+  acceptedAnswers:
+  - Zhang Yimou
+  hints:
+  - "Dirigi\xF3 obras de drama, acci\xF3n y romance a lo largo de una trayectoria
+    que va entre 1987 y 2016."
+  - "Estuvo al frente de \xABThe Great Wall\xBB (2016)."
+  - "Tambi\xE9n dirigi\xF3 \xABHero\xBB, del a\xF1o 2002."
+  - "Su nombre aparece en la direcci\xF3n de \xABThe Great Wall\xBB y \xABHero\xBB."
+  - "Es el realizador detr\xE1s de \xABHero\xBB, \xABHouse of Flying Daggers\xBB
+    y \xABCurse of the Golden Flower\xBB."

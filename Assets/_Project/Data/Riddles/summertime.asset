@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: summertime
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: summertime
+  category: peliculas
+  difficulty: 1
+  answer: Summertime
+  acceptedAnswers:
+  - Summertime
+  - La belle saison
+  hints:
+  - "Fue filmada originalmente en franc\xE9s y lleg\xF3 a los cines en 2015."
+  - "Mezcla comedia, drama y romance y fue producida en B\xE9lgica y Francia."
+  - "Detr\xE1s de la c\xE1mara estuvo Catherine Corsini."
+  - "Iz\xEFa Higelin interpreta a Delphine, mientras C\xE9cile de France encarna
+    a Carole."
+  - "El reparto incluye a Iz\xEFa Higelin como Delphine, C\xE9cile de France como
+    Carole y No\xE9mie Lvovsky como Monique bajo la direcci\xF3n de Catherine Corsini."

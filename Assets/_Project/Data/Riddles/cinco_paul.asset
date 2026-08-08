@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cinco_paul
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cinco_paul
+  category: personas
+  difficulty: 0
+  answer: Cinco Paul
+  acceptedAnswers:
+  - Cinco Paul
+  hints:
+  - "Su trabajo se reparte entre animaci\xF3n y cine infantil y familiar a lo largo
+    de un per\xEDodo que va entre 2001 y 2017."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABBubble Boy\xBB, vinculada a Estados
+    Unidos y India."
+  - "Su nombre figura en los cr\xE9ditos de \xABThe Secret Life of Pets\xBB junto
+    con \xABDespicable Me 2\xBB."
+  - "Los t\xEDtulos \xABDespicable Me\xBB y \xABDespicable Me 2\xBB ofrecen las pistas
+    m\xE1s directas."
+  - "Persona con cr\xE9ditos de guion en \xABDespicable Me\xBB, \xABDespicable Me
+    2\xBB y \xABThe Secret Life of Pets\xBB."

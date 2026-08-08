@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cabin_fever
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cabin_fever
+  category: peliculas
+  difficulty: 0
+  answer: Cabin Fever
+  acceptedAnswers:
+  - Cabin Fever
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2000, dentro de terror. La direcci\xF3n est\xE1 acreditada a Eli Roth."
+  - "El montaje final se extiende unos 93 minutos y aparece catalogado con la se\xF1al
+    R. Entre sus int\xE9rpretes figura Jordan Ladd."
+  - "El a\xF1o 2002 y el sello Tonic Films forman parte de sus datos de producci\xF3n."
+  - "La dirigi\xF3 Eli Roth y su figura principal es Jordan Ladd."
+  - "Pel\xEDcula de 2002 dirigida por Eli Roth, con Jordan Ladd en el reparto, con
+    guion de Eli Roth."

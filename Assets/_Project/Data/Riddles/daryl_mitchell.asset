@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: daryl_mitchell
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: daryl_mitchell
+  category: personas
+  difficulty: 2
+  answer: Daryl Mitchell
+  acceptedAnswers:
+  - Daryl Mitchell
+  hints:
+  - "En The Country Bears interpret\xF3 a Officer Hamm, en una pel\xEDcula estrenada
+    en 2002."
+  - Su carrera en cine abarca de 1996 a 2006 y recorre comedia y romance.
+  - "Comparti\xF3 reparto con Steve Martin en Sgt. Bilko."
+  - "En Inside Man interpret\xF3 a Mobile Command Officer Rourke."
+  - Aparece en 10 Things I Hate About You y Galaxy Quest.

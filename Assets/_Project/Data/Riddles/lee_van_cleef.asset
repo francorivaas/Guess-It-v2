@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lee_van_cleef
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lee_van_cleef
+  category: personas
+  difficulty: 2
+  answer: Lee Van Cleef
+  acceptedAnswers:
+  - Lee Van Cleef
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1967 y 1977 y recorren g\xE9neros
+    como w\xE9stern, acci\xF3n y cine extranjero."
+  - "Form\xF3 parte del elenco de \xABDeath Rides a Horse\xBB, una pel\xEDcula de
+    1967 dirigida por Giulio Petroni."
+  - "En \xABDay of Anger\xBB interpret\xF3 a Frank Talby."
+  - "En \xABCaptain Apache\xBB interpret\xF3 a Capt. Apache."
+  - "Sus papeles incluyen a Capt. Apache en \xABCaptain Apache\xBB y a Roy King en
+    \xABBad Man's River\xBB."

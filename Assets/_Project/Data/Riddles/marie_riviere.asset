@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: marie_riviere
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: marie_riviere
+  category: personas
+  difficulty: 1
+  answer: "Marie Rivi\xE8re"
+  acceptedAnswers:
+  - "Marie Rivi\xE8re"
+  - marie riviere
+  hints:
+  - "Trabaj\xF3 en producciones de drama, romance y comedia a lo largo del per\xEDodo
+    entre 1981 y 2013."
+  - "Form\xF3 parte del elenco de \xABTime to Leave\xBB, una pel\xEDcula de 2005
+    dirigida por Fran\xE7ois Ozon."
+  - "En \xABThe Green Ray\xBB interpret\xF3 a Delphine."
+  - "Su papel en \xABHideaway (Le refuge)\xBB fue el de La femme sur la plage."
+  - "Sus papeles incluyen a La femme sur la plage en \xABHideaway (Le refuge)\xBB
+    y a Anne en \xABThe Aviator's Wife\xBB."

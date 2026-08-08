@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: annabelle_comes_home
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: annabelle_comes_home
+  category: peliculas
+  difficulty: 0
+  answer: Annabelle Comes Home
+  acceptedAnswers:
+  - Annabelle Comes Home
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2010, dentro de terror. La direcci\xF3n est\xE1 acreditada a Gary Dauberman."
+  - "Tiene una duraci\xF3n aproximada de 106 minutos y recibi\xF3 la clasificaci\xF3n
+    R. Entre sus int\xE9rpretes figura Vera Farmiga."
+  - "El a\xF1o 2019 y el sello New Line Cinema forman parte de sus datos de producci\xF3n.
+    El guion incluye un cr\xE9dito para Gary Dauberman."
+  - "La dirigi\xF3 Gary Dauberman y su figura principal es Vera Farmiga."
+  - "Pel\xEDcula de 2019 dirigida por Gary Dauberman, con Vera Farmiga en el reparto,
+    con guion de Gary Dauberman."

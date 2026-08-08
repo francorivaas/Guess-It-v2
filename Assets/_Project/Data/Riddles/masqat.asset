@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: masqat
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: masqat
+  category: lugares
+  difficulty: 0
+  answer: "Masqa\u0163"
+  acceptedAnswers:
+  - "Masqa\u0163"
+  - Masqat
+  hints:
+  - "Se ubica en el hemisferio norte y queda al este de Greenwich. Queda aproximadamente
+    a 2.629 kil\xF3metros del ecuador."
+  - "Forma parte de Asia y su poblaci\xF3n ronda los 1,7 millones de habitantes.
+    Su distancia angular al meridiano de Greenwich equivale a unos 5.976 kil\xF3metros
+    en esa latitud."
+  - "El punto urbano aparece cerca de 23.6\xB0 norte, 58.6\xB0 este."
+  - "Est\xE1 dentro de Om\xE1n, aproximadamente en 23.6\xB0 norte."
+  - "Localidad urbana de Om\xE1n situada alrededor de 23.6\xB0 norte, 58.6\xB0 este,
+    con 1,7 millones de habitantes."

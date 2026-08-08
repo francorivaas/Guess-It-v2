@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: anne_alvaro
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: anne_alvaro
+  category: personas
+  difficulty: 1
+  answer: Anne Alvaro
+  acceptedAnswers:
+  - Anne Alvaro
+  hints:
+  - "Trabaj\xF3 en producciones de drama, comedia y romance a lo largo del per\xEDodo
+    entre 1983 y 2013."
+  - "Uno de sus trabajos fue \xABMr. Morgan's Last Love\xBB (2013), bajo la direcci\xF3n
+    de Sandra Nettelbeck."
+  - "Su papel en \xABThe Clink of Ice\xBB fue el de Louisa."
+  - "En \xABThe Taste of Others\xBB interpret\xF3 a Clara Devaux."
+  - "Es la persona que encarn\xF3 a Clara Devaux en \xABThe Taste of Others\xBB y
+    a El\xE9onore en \xABDanton\xBB."

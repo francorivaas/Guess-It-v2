@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: minions_movie
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: minions_movie
+  category: peliculas
+  difficulty: 0
+  answer: Minions
+  acceptedAnswers:
+  - Minions
+  hints:
+  - "Dentro del cine de Estados Unidos, apareci\xF3 en 2015 con una propuesta de
+    animaci\xF3n y comedia."
+  - "La realizaci\xF3n fue encabezada por Pierre Coffin y Kyle Balda."
+  - "Sus nombres m\xE1s ligados al relato son Kevin, Stuart y Bob."
+  - "La acci\xF3n avanza mientras unos ayudantes buscan a un nuevo amo malvado antes
+    de conocer a su futuro jefe."
+  - "Su elemento m\xE1s revelador es tres criaturas amarillas sirven a una villana
+    en el Londres de los a\xF1os sesenta."

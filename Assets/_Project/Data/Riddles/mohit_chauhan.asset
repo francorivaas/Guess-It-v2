@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mohit_chauhan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mohit_chauhan
+  category: bandas musicales
+  difficulty: 0
+  answer: Mohit Chauhan
+  acceptedAnswers:
+  - Mohit Chauhan
+  hints:
+  - "Su perfil sonoro combina m\xFAsica india y pop cinematogr\xE1fico con un equilibrio
+    entre energ\xEDa, ritmo y melod\xEDa."
+  - "Entre sus lanzamientos aparece \xABRockstar\xBB."
+  - "Ha compartido cr\xE9ditos de interpretaci\xF3n con Pritam y A.R. Rahman."
+  - "El repertorio se vuelve claro con \xABTum Se Hi\xBB junto a \xABPee Loon\xBB."
+  - "Nombre musical asociado directamente a \xABTum Se Hi\xBB, \xABPee Loon\xBB y
+    \xABKun Faya Kun\xBB."

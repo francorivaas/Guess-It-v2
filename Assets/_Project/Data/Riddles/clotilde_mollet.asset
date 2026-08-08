@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: clotilde_mollet
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: clotilde_mollet
+  category: personas
+  difficulty: 1
+  answer: Clotilde Mollet
+  acceptedAnswers:
+  - Clotilde Mollet
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1998 y 2015, especialmente dentro
+    de comedia, drama y misterio."
+  - "Particip\xF3 en \xABAm\xE9lie\xBB, dirigida por Jean-Pierre Jeunet y estrenada
+    en 2001."
+  - "Su papel en \xABThe Red Violin\xBB fue el de Antoinette Pussin (Vienna)."
+  - "Su papel en \xABDiary of a Chambermaid\xBB fue el de Madame Lanlaire."
+  - "Interpret\xF3 a Madame Lanlaire en \xABDiary of a Chambermaid\xBB y a Mme Soupir
+    en \xABHellphone\xBB."

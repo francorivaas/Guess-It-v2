@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mimi_leder
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mimi_leder
+  category: personas
+  difficulty: 0
+  answer: Mimi Leder
+  acceptedAnswers:
+  - Mimi Leder
+  hints:
+  - "Los cr\xE9ditos reunidos para esta persona recorren entre 1997 y 2018, con presencia
+    frecuente en acci\xF3n y acci\xF3n y aventura."
+  - "Una pista lateral de su filmograf\xEDa es \xABOn the Basis of Sex\xBB, dentro
+    de Estados Unidos."
+  - "La asociaci\xF3n con \xABThe Peacemaker\xBB se completa con otro cr\xE9dito
+    en \xABPay It Forward\xBB."
+  - "Dos referencias fuertes de su carrera son \xABDeep Impact\xBB y \xABPay It Forward\xBB."
+  - "La identidad buscada re\xFAne cr\xE9ditos de direcci\xF3n en \xABDeep Impact\xBB,
+    \xABPay It Forward\xBB y \xABThe Peacemaker\xBB."

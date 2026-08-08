@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: escape_from_sobibor
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: escape_from_sobibor
+  category: peliculas
+  difficulty: 1
+  answer: Escape from Sobibor
+  acceptedAnswers:
+  - Escape from Sobibor
+  hints:
+  - "Es una producci\xF3n de 1987 con una duraci\xF3n aproximada de 143 minutos."
+  - "Zenith Productions particip\xF3 en una pel\xEDcula de drama, suspenso y telefilme
+    producida en Yugoslavia y Reino Unido."
+  - "Jack Gold la dirigi\xF3 con Zenith Productions entre las compa\xF1\xEDas productoras."
+  - Dos personajes centrales son Leon Feldhendler, interpretado por Alan Arkin, y
+    Luka, a cargo de Joanna Pacula.
+  - "Jack Gold dirige a Alan Arkin como Leon Feldhendler, Joanna Pacula como Luka
+    y Rutger Hauer como Alexander 'Sasha' Pechersky en esta pel\xEDcula de 1987."

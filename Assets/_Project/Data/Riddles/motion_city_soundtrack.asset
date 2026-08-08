@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: motion_city_soundtrack
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: motion_city_soundtrack
+  category: bandas musicales
+  difficulty: 1
+  answer: Motion City Soundtrack
+  acceptedAnswers:
+  - Motion City Soundtrack
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABHold Me Down\xBB, de 2005, y llega hasta
+    2008."
+  - "Se mueve dentro de rock; \xABThis Is For Real\xBB refleja una energ\xEDa alta
+    y un pulso cercano a 136 BPM."
+  - "Entre sus grabaciones figuran \xABMy Favorite Accident\xBB y \xABWhen You're
+    Around\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABThe Future Freaks Me Out\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABEverything Is Alright\xBB y \xABL.G.
+    FUAD\xBB."

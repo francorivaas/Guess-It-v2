@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: young_and_innocent
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: young_and_innocent
+  category: peliculas
+  difficulty: 1
+  answer: Young and Innocent
+  acceptedAnswers:
+  - Young and Innocent
+  hints:
+  - "Su metraje se acerca a 83 minutos y corresponde al a\xF1o 1937."
+  - "Su combinaci\xF3n de g\xE9neros incluye drama y crimen; la producci\xF3n se
+    vincula con Reino Unido."
+  - "Detr\xE1s de la c\xE1mara estuvo Alfred Hitchcock."
+  - En el reparto, Nova Pilbeam da vida a Erica Burgoyne y Derrick De Marney a Robert
+    Tisdall.
+  - "Alfred Hitchcock dirige a Nova Pilbeam como Erica Burgoyne, Derrick De Marney
+    como Robert Tisdall y Percy Marmont como Col. Burgoyne en esta pel\xEDcula de
+    1937."

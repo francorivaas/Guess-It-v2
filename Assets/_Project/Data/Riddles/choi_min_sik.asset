@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: choi_min_sik
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: choi_min_sik
+  category: personas
+  difficulty: 1
+  answer: Choi Min-sik
+  acceptedAnswers:
+  - Choi Min-sik
+  hints:
+  - "En Tae Guk Gi: The Brotherhood of War interpret\xF3 a North Korean commander,
+    en una pel\xEDcula estrenada en 2004."
+  - "Su carrera en cine abarca de 2003 a 2014 y recorre acci\xF3n y ciencia ficci\xF3n."
+  - "Comparti\xF3 reparto con Lee Young-ae en Sympathy for Lady Vengeance."
+  - "En Oldboy interpret\xF3 a Oh Dae-su."
+  - Aparece en Lucy y Sympathy for Lady Vengeance.

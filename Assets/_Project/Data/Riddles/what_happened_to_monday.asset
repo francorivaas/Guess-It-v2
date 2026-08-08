@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: what_happened_to_monday
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: what_happened_to_monday
+  category: peliculas
+  difficulty: 0
+  answer: What Happened to Monday
+  acceptedAnswers:
+  - What Happened to Monday
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2010 y su duraci\xF3n ronda los 123 minutos."
+  - "Se encuadra en ciencia ficci\xF3n y suspenso y tiene origen de producci\xF3n
+    en B\xE9lgica y Francia."
+  - "Tommy Wirkola firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Marwan Kenzari interpreta a Adrian Knowles, mientras Christian Rubeck encarna
+    a Joe.
+  - "El reparto incluye a Marwan Kenzari como Adrian Knowles, Christian Rubeck como
+    Joe y Glenn Close como Nicolette Cayman bajo la direcci\xF3n de Tommy Wirkola."

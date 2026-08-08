@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: antsirabe
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: antsirabe
+  category: lugares
+  difficulty: 0
+  answer: Antsirabe
+  acceptedAnswers:
+  - Antsirabe
+  hints:
+  - "Su posici\xF3n est\xE1 al sur del ecuador, a unos 19,87 grados del ecuador."
+  - Su escala urbana ronda los 265 mil de habitantes y se integra en Antananarivo.
+  - "Administrativamente pertenece a Antananarivo. Cumple una funci\xF3n de capital
+    local dentro de Antananarivo."
+  - "Esta ciudad de Madagascar est\xE1 en Antananarivo y se sit\xFAa a 19,9\xB0 sur."
+  - "En Madagascar, dentro de Antananarivo, esta ciudad de unos 265 mil est\xE1 cerca
+    de 19,9\xB0 sur y 47,0\xB0 este."

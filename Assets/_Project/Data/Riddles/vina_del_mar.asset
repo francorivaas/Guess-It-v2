@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: vina_del_mar
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: vina_del_mar
+  category: lugares
+  difficulty: 1
+  answer: "Vi\xF1a del Mar"
+  acceptedAnswers:
+  - "Vi\xF1a del Mar"
+  - vina del mar
+  hints:
+  - "Ocupa el hemisferio sur y una longitud aproximada de 71,55\xB0 oeste."
+  - "Su poblaci\xF3n registrada se aproxima a 332.900 habitantes y pertenece a Valpara\xEDso."
+  - "Administrativamente pertenece a Valpara\xEDso. No es la capital nacional de
+    Chile."
+  - "Esta ciudad de Chile est\xE1 en Valpara\xEDso y se sit\xFAa a 33,0\xB0 sur."
+  - "Es una ciudad de Chile, en Valpara\xEDso, situada aproximadamente en 33,0\xB0
+    sur y 71,6\xB0 oeste."

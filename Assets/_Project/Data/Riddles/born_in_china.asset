@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: born_in_china
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: born_in_china
+  category: peliculas
+  difficulty: 0
+  answer: Born in China
+  acceptedAnswers:
+  - Born in China
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 2010 dura cerca de 76 minutos."
+  - "El relato pertenece a documental, con participaci\xF3n productiva de Reino Unido
+    y Estados Unidos."
+  - "Lu Chuan firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - 'John Krasinski interpreta a Narrator: American version (voice), mientras Zhou
+    Xun encarna a Narrator (voice).'
+  - "Lu Chuan dirige a John Krasinski y Zhou Xun en esta pel\xEDcula estrenada en
+    2017."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: armie_hammer
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: armie_hammer
+  category: personas
+  difficulty: 1
+  answer: Armie Hammer
+  acceptedAnswers:
+  - Armie Hammer
+  hints:
+  - "En Flicka interpret\xF3 a Male Prefect, en una pel\xEDcula estrenada en 2006."
+  - "Su carrera en cine abarca de 2006 a 2016 y recorre drama y acci\xF3n. Entre
+    sus pel\xEDculas figura Flicka."
+  - "Comparti\xF3 reparto con Julia Roberts en Mirror Mirror. Otro cr\xE9dito es
+    The Man from U.N.C.L.E."
+  - "En The Lone Ranger interpret\xF3 a John Reid / The Lone Ranger."
+  - Aparece en The Social Network y The Man from U.N.C.L.E..

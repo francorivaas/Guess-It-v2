@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: claudio_amendola
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: claudio_amendola
+  category: personas
+  difficulty: 1
+  answer: Claudio Amendola
+  acceptedAnswers:
+  - Claudio Amendola
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1993 y 2015 y recorren g\xE9neros
+    como drama, comedia y historia."
+  - "Form\xF3 parte del elenco de \xABThe Legendary Giulia and Other Miracles\xBB,
+    una pel\xEDcula de 2015 dirigida por Edoardo Leo."
+  - "Dio vida a Coconnas en \xABQueen Margot\xBB."
+  - "En \xABCaterina in the Big City\xBB interpret\xF3 a Manlio Germano."
+  - "Interpret\xF3 a Manlio Germano en \xABCaterina in the Big City\xBB y a Maggionari
+    en \xABThe Horseman on the Roof\xBB."

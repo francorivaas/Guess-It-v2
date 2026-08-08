@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: loft
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: loft
+  category: peliculas
+  difficulty: 0
+  answer: Loft
+  acceptedAnswers:
+  - Loft
+  hints:
+  - "Su metraje se acerca a 118 minutos y corresponde al a\xF1o 2008."
+  - "El relato pertenece a drama, misterio y romance, con participaci\xF3n productiva
+    de B\xE9lgica."
+  - "Detr\xE1s de la c\xE1mara estuvo Erik Van Looy."
+  - Koen De Bouw interpreta a Chris Van Outryve, mientras Filip Peeters encarna a
+    Vincent Stevens.
+  - "Erik Van Looy dirige a Koen De Bouw como Chris Van Outryve, Filip Peeters como
+    Vincent Stevens y Matthias Schoenaerts como Filip Willems en esta pel\xEDcula
+    de 2008."

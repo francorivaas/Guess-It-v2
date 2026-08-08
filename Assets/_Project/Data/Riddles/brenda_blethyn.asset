@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: brenda_blethyn
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: brenda_blethyn
+  category: personas
+  difficulty: 0
+  answer: Brenda Blethyn
+  acceptedAnswers:
+  - Brenda Blethyn
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1990 y 2014 y recorren g\xE9neros
+    como drama, romance y crimen."
+  - "Uno de sus trabajos fue \xABPride & Prejudice\xBB (2005), bajo la direcci\xF3n
+    de Joe Wright."
+  - "Su papel en \xABAtonement\xBB fue el de Grace Turner."
+  - "En \xABThe Witches\xBB interpret\xF3 a Mrs. Jenkins."
+  - "Sus papeles incluyen a Mrs. Jenkins en \xABThe Witches\xBB y a Cynthia Rose
+    Purley en \xABSecrets & Lies\xBB."

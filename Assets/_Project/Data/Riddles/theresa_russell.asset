@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: theresa_russell
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: theresa_russell
+  category: personas
+  difficulty: 1
+  answer: Theresa Russell
+  acceptedAnswers:
+  - Theresa Russell
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1980 y 1991 y recorren g\xE9neros
+    como drama, misterio y comedia."
+  - "Particip\xF3 en \xABBad Timing\xBB, dirigida por Nicolas Roeg y estrenada en
+    1980."
+  - "Dio vida a Gabriela en \xABKafka\xBB."
+  - "En \xABInsignificance\xBB interpret\xF3 a The Actress."
+  - "Es la persona que encarn\xF3 a The Actress en \xABInsignificance\xBB y a Tracy
+    en \xABEureka\xBB."

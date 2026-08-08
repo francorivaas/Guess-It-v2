@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_red_violin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_red_violin
+  category: peliculas
+  difficulty: 0
+  answer: The Red Violin
+  acceptedAnswers:
+  - The Red Violin
+  hints:
+  - "Es una producci\xF3n de 1998 con una duraci\xF3n aproximada de 131 minutos."
+  - "Mezcla drama, suspenso y misterio y fue producida en Canad\xE1 y Italia."
+  - "La direcci\xF3n estuvo a cargo de Fran\xE7ois Girard."
+  - Carlo Cecchi interpreta a Nicolo Bussotti (Cremona), mientras Irene Grazioli
+    encarna a Anna Bussotti (Cremona).
+  - "Fran\xE7ois Girard dirige a Carlo Cecchi como Nicolo Bussotti (Cremona), Irene
+    Grazioli como Anna Bussotti (Cremona) y Anita Laurenzi como Cesca (Cremona) en
+    esta pel\xEDcula de 1998."

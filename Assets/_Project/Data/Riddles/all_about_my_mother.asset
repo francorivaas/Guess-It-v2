@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: all_about_my_mother
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: all_about_my_mother
+  category: peliculas
+  difficulty: 1
+  answer: Todo sobre mi madre
+  acceptedAnswers:
+  - Todo sobre mi madre
+  - all about my mother
+  hints:
+  - "Esta producci\xF3n de Espa\xF1a, lanzada en 1999, pertenece al g\xE9nero drama."
+  - "El trabajo de direcci\xF3n corresponde a Pedro Almod\xF3var."
+  - El reparto o los personajes clave incluyen a Manuela, Huma Rojo y Agrado.
+  - "El conflicto principal nace cuando una mujer viaja a Barcelona despu\xE9s de
+    una p\xE9rdida para buscar al padre de su hijo."
+  - Resulta inconfundible por teatro, maternidad y una actriz admirada conectan varias
+    vidas.

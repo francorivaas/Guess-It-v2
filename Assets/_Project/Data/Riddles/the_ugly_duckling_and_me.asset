@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_ugly_duckling_and_me
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_ugly_duckling_and_me
+  category: peliculas
+  difficulty: 1
+  answer: The Ugly Duckling and Me!
+  acceptedAnswers:
+  - The Ugly Duckling and Me!
+  hints:
+  - "Su metraje se acerca a 90 minutos y corresponde al a\xF1o 2006."
+  - "El relato pertenece a familiar, animaci\xF3n y comedia, con participaci\xF3n
+    productiva de Dinamarca y Francia."
+  - "Michael Hegner la dirigi\xF3 con A. Film entre las compa\xF1\xEDas productoras."
+  - Dos personajes centrales son Ratso / Frank (voice), interpretado por Morgan C.
+    Jones, y Wesley (voice), a cargo de Paul Tylak.
+  - "Michael Hegner dirige a Morgan C. Jones como Ratso / Frank (voice), Paul Tylak
+    como Wesley (voice) y Anna Nugent como Phyllis (voice) (as Anna Olson) en esta
+    pel\xEDcula de 2006."

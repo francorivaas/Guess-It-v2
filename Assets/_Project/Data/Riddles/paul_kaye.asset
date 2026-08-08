@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: paul_kaye
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: paul_kaye
+  category: personas
+  difficulty: 1
+  answer: Paul Kaye
+  acceptedAnswers:
+  - Paul Kaye
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 2003 y 2012, con presencia frecuente
+    en drama, crimen y comedia."
+  - "Particip\xF3 en \xABIt's All Gone Pete Tong\xBB, dirigida por Michael Dowse
+    y estrenada en 2004."
+  - "En \xABW\u0394Z\xBB interpret\xF3 a Gelb."
+  - "Dio vida a Fitz en \xABPusher\xBB."
+  - "Es la persona que encarn\xF3 a Fitz en \xABPusher\xBB y a Caterpillar en \xABMalice
+    in Wonderland\xBB."

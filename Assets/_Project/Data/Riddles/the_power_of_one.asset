@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_power_of_one
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_power_of_one
+  category: peliculas
+  difficulty: 0
+  answer: The Power of One
+  acceptedAnswers:
+  - The Power of One
+  hints:
+  - "Su metraje se acerca a 127 minutos y corresponde al a\xF1o 1992."
+  - "El relato pertenece a drama, con participaci\xF3n productiva de Reino Unido
+    y Estados Unidos."
+  - "John G. Avildsen firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son P.K. Age 18, interpretado por Stephen Dorff, y Doc,
+    a cargo de Armin Mueller-Stahl.
+  - "El reparto incluye a Stephen Dorff como P.K. Age 18, Armin Mueller-Stahl como
+    Doc y Alois Moyo como Gideon Duma bajo la direcci\xF3n de John G. Avildsen."

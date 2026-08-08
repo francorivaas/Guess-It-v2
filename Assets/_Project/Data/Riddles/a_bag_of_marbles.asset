@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: a_bag_of_marbles
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: a_bag_of_marbles
+  category: peliculas
+  difficulty: 0
+  answer: A Bag of Marbles
+  acceptedAnswers:
+  - A Bag of Marbles
+  - Un sac de billes
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2010 y su duraci\xF3n ronda los 110 minutos."
+  - "Mezcla drama y fue producida en Rep\xFAblica Checa y Francia."
+  - "Detr\xE1s de la c\xE1mara estuvo Christian Duguay."
+  - Dos personajes centrales son Joseph, interpretado por Dorian Le Clech, y Maurice,
+    a cargo de Batyste Fleurial.
+  - "Christian Duguay dirige a Dorian Le Clech como Joseph, Batyste Fleurial como
+    Maurice y Patrick Bruel como Roman en esta pel\xEDcula de 2017."

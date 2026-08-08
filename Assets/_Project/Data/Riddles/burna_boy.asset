@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: burna_boy
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: burna_boy
+  category: bandas musicales
+  difficulty: 0
+  answer: Burna Boy
+  acceptedAnswers:
+  - Burna Boy
+  hints:
+  - En sus grabaciones destaca un pulso claramente bailable, dentro de un repertorio
+    relacionado con dancehall y dance.
+  - "El cat\xE1logo incluye el \xE1lbum \xABLove, Damini\xBB."
+  - "Ha compartido cr\xE9ditos de interpretaci\xF3n con Ed Sheeran y Wizkid."
+  - "Las referencias directas son \xABLast Last\xBB y \xABFor My Hand (feat. Ed Sheeran)\xBB."
+  - "Proyecto musical responsable de \xABLast Last\xBB, \xABFor My Hand (feat. Ed
+    Sheeran)\xBB y \xABIt's Plenty\xBB."

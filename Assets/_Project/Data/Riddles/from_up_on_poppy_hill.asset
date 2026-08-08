@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: from_up_on_poppy_hill
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: from_up_on_poppy_hill
+  category: peliculas
+  difficulty: 0
+  answer: From Up on Poppy Hill
+  acceptedAnswers:
+  - From Up on Poppy Hill
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Jap\xF3n; combina animaci\xF3n y una
+    fecha de estreno dentro de los a\xF1os 2010. La direcci\xF3n est\xE1 acreditada
+    a Gor\xF4 Miyazaki."
+  - "Su duraci\xF3n ronda los 91 minutos; la clasificaci\xF3n registrada es PG. Entre
+    sus int\xE9rpretes figura Sarah Bolger."
+  - "La producci\xF3n lleg\xF3 en 2011 bajo la participaci\xF3n de Studio Ghibli."
+  - "La dirigi\xF3 Gor\xF4 Miyazaki y su figura principal es Sarah Bolger."
+  - "Pel\xEDcula de 2011 dirigida por Gor\xF4 Miyazaki, con Sarah Bolger en el reparto,
+    con guion de Tetsur\xF4 Sayama."

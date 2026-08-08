@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: stephen_lang
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: stephen_lang
+  category: personas
+  difficulty: 0
+  answer: Stephen Lang
+  acceptedAnswers:
+  - Stephen Lang
+  hints:
+  - "En Shadow Conspiracy interpret\xF3 a The Agent, en una pel\xEDcula estrenada
+    en 1997."
+  - "Su carrera en cine abarca de 1993 a 2015 y recorre acci\xF3n y aventura. Entre
+    sus pel\xEDculas figura Shadow Conspiracy."
+  - "Comparti\xF3 reparto con Sylvester Stallone en D-Tox."
+  - "En Public Enemies interpret\xF3 a Charles Winstead."
+  - Aparece en Avatar y The Men Who Stare at Goats.

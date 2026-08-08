@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ray_mcanally
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ray_mcanally
+  category: personas
+  difficulty: 1
+  answer: Ray McAnally
+  acceptedAnswers:
+  - Ray McAnally
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1962 y 1989, especialmente dentro
+    de drama, suspenso y acci\xF3n."
+  - "Particip\xF3 en \xABMy Left Foot: The Story of Christy Brown\xBB, dirigida por
+    Jim Sheridan y estrenada en 1989."
+  - "Dio vida a Karpov en \xABThe Fourth Protocol\xBB."
+  - "En \xABWhite Mischief\xBB interpret\xF3 a Morris."
+  - "Sus papeles incluyen a Morris en \xABWhite Mischief\xBB y a William O'Daniel,
+    Maintopman en \xABBilly Budd\xBB."

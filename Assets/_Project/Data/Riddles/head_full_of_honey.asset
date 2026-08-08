@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: head_full_of_honey
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: head_full_of_honey
+  category: peliculas
+  difficulty: 0
+  answer: Head Full of Honey
+  acceptedAnswers:
+  - Head Full of Honey
+  - Honig im Kopf
+  hints:
+  - "Es una producci\xF3n de 2014 con una duraci\xF3n aproximada de 139 minutos."
+  - "barefoot films particip\xF3 en una pel\xEDcula de comedia y drama producida
+    en Alemania."
+  - El realizador principal fue Til Schweiger.
+  - En el reparto, Til Schweiger da vida a Niko y Dieter Hallervorden a Amandus.
+  - En esta cinta de 2014 coinciden Til Schweiger como Niko, Dieter Hallervorden
+    como Amandus y Emma Schweiger como Tilda.

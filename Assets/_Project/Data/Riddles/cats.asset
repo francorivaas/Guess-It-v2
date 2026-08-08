@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: cats
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: cats
+  category: peliculas
+  difficulty: 1
+  answer: Cats
+  acceptedAnswers:
+  - Cats
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1990 dura cerca de 120 minutos."
+  - "Entre sus compa\xF1\xEDas figura Universal Pictures UK; sus g\xE9neros principales
+    son m\xFAsica."
+  - "David Mallet firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Grizabella, interpretado por Elaine Paige, y Gus
+    the Theatrical Cat, a cargo de John Mills.
+  - "El reparto incluye a Elaine Paige como Grizabella, John Mills como Gus the Theatrical
+    Cat y Rosemarie Ford como Bombalurina bajo la direcci\xF3n de David Mallet."

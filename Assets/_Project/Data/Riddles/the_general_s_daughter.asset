@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_general_s_daughter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_general_s_daughter
+  category: peliculas
+  difficulty: 0
+  answer: The General's Daughter
+  acceptedAnswers:
+  - The General's Daughter
+  hints:
+  - "Es una producci\xF3n de 1999 con una duraci\xF3n aproximada de 116 minutos."
+  - "Paramount Pictures particip\xF3 en una pel\xEDcula de crimen, drama y misterio
+    producida en Alemania y Estados Unidos."
+  - "Simon West la dirigi\xF3 con Paramount Pictures entre las compa\xF1\xEDas productoras."
+  - En el reparto, John Travolta da vida a Paul Brenner y Madeleine Stowe a Sara
+    Sunhill.
+  - "El reparto incluye a John Travolta como Paul Brenner, Madeleine Stowe como Sara
+    Sunhill y James Cromwell como Lt. Gen. Joseph Campbell bajo la direcci\xF3n de
+    Simon West."

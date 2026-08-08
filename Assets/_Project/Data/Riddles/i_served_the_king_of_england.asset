@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: i_served_the_king_of_england
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: i_served_the_king_of_england
+  category: peliculas
+  difficulty: 1
+  answer: I Served the King of England
+  acceptedAnswers:
+  - I Served the King of England
+  - "Obsluhoval jsem anglick\xE9ho kr\xE1le"
+  - obsluhoval jsem anglickeho krale
+  hints:
+  - "Fue filmada originalmente en checo y lleg\xF3 a los cines en 2006."
+  - "Mezcla comedia y drama y fue producida en Rep\xFAblica Checa y Eslovaquia."
+  - "Ji\u0159\xED Menzel firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - "Dos personajes centrales son Jan D\xEDte junior, interpretado por Ivan Barnev,
+    y Jan D\xEDte senior, a cargo de Old\u0159ich Kaiser."
+  - "Ji\u0159\xED Menzel dirige a Ivan Barnev como Jan D\xEDte junior, Old\u0159ich
+    Kaiser como Jan D\xEDte senior y Julia Jentsch como L\xEDza en esta pel\xEDcula
+    de 2006."

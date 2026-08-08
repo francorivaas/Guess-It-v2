@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jim_carrey
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jim_carrey
+  category: personas
+  difficulty: 0
+  answer: Jim Carrey
+  acceptedAnswers:
+  - Jim Carrey
+  hints:
+  - "Su etapa de mayor influencia alcanz\xF3 su mayor fuerza desde la d\xE9cada de
+    1990."
+  - "Naci\xF3 en Canad\xE1 y orient\xF3 su trabajo hacia actuaci\xF3n y comedia."
+  - "Entre sus logros sobresale dominar la comedia f\xEDsica y luego asumir papeles
+    dram\xE1ticos."
+  - "Tambi\xE9n qued\xF3 estrechamente relacionado con La m\xE1scara, Ace Ventura
+    y un hombre que vive dentro de un programa."
+  - "Su perfil re\xFAne actuaci\xF3n y comedia, dominar la comedia f\xEDsica y luego
+    asumir papeles dram\xE1ticos y La m\xE1scara, Ace Ventura y un hombre que vive
+    dentro de un programa."

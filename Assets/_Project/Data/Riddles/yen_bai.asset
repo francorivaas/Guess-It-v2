@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: yen_bai
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: yen_bai
+  category: lugares
+  difficulty: 1
+  answer: "Y\xEAn B\xE1i"
+  acceptedAnswers:
+  - "Y\xEAn B\xE1i"
+  - Yen Bai
+  hints:
+  - "Est\xE1 a unos 21,7 grados al norte del ecuador y 104,9 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 97 mil habitantes. Dentro de su pa\xEDs
+    ocupa el puesto 52 por poblaci\xF3n."
+  - "Se ubica a unos 130 kil\xF3metros al oeste de Hanoi."
+  - "Est\xE1 en Vietnam, donde ocupa el puesto 52 por poblaci\xF3n, y es un centro
+    administrativo regional."
+  - "Es una capital administrativa de Vietnam y ocupa el puesto 52 por poblaci\xF3n
+    nacional."

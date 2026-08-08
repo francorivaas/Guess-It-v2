@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_naked_gun_331_3_the_final_insult
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_naked_gun_331_3_the_final_insult
+  category: peliculas
+  difficulty: 1
+  answer: "The Naked Gun 33\u2153: The Final Insult"
+  acceptedAnswers:
+  - "The Naked Gun 33\u2153: The Final Insult"
+  - "The Naked Gun 331\u20443: The Final Insult"
+  hints:
+  - "Se estren\xF3 en 1994, dura cerca de 83 minutos y tuvo producci\xF3n de Estados
+    Unidos."
+  - Combina comedia y crimen; una de sus productoras fue Paramount Pictures.
+  - "La dirigi\xF3 Peter Segal, con O.J. Simpson en un papel del reparto."
+  - En el elenco aparecen Priscilla Presley y George Kennedy.
+  - "Leslie Nielsen encabeza esta pel\xEDcula de comedia, dirigida por Peter Segal
+    y estrenada en 1994."

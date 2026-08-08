@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: eight_diagram_pole_fighter
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: eight_diagram_pole_fighter
+  category: peliculas
+  difficulty: 1
+  answer: Eight Diagram Pole Fighter
+  acceptedAnswers:
+  - Eight Diagram Pole Fighter
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1980 dura cerca de 98 minutos."
+  - "Su combinaci\xF3n de g\xE9neros incluye acci\xF3n, drama y cine extranjero;
+    la producci\xF3n se vincula con Hong Kong."
+  - "Detr\xE1s de la c\xE1mara estuvo Liu Chia-Liang."
+  - Dos personajes centrales son Yang No. 5, interpretado por Gordon Liu Chia-Hui,
+    y Yang No. 8 (as Ying Hung Wai), a cargo de Kara Hui.
+  - "Liu Chia-Liang dirige a Gordon Liu Chia-Hui como Yang No. 5, Kara Hui como Yang
+    No. 8 (as Ying Hung Wai) y Alexander Fu Sheng como Yang No. 6 en esta pel\xEDcula
+    de 1984."

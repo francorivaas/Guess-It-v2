@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: taj_mahal
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: taj_mahal
+  category: lugares
+  difficulty: 0
+  answer: Taj Mahal
+  acceptedAnswers:
+  - Taj Mahal
+  hints:
+  - Fue encargado por un emperador mogol como mausoleo.
+  - "El complejo utiliza m\xE1rmol blanco y jardines sim\xE9tricos."
+  - "Se construy\xF3 en memoria de Mumtaz Mahal."
+  - "Est\xE1 junto al r\xEDo Yamuna en Agra."
+  - "Es el monumento indio de c\xFApula blanca asociado a una historia de amor."

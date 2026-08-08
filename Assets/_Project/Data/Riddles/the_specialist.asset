@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_specialist
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_specialist
+  category: peliculas
+  difficulty: 2
+  answer: The Specialist
+  acceptedAnswers:
+  - The Specialist
+  hints:
+  - "Se estren\xF3 en 1994, dura cerca de 110 minutos y tuvo producci\xF3n de Peru."
+  - "Combina acci\xF3n y suspenso; una de sus productoras fue Jerry Weintraub Productions."
+  - "La dirigi\xF3 Luis Llosa, con Rod Steiger en un papel del reparto."
+  - En el elenco aparecen Sharon Stone y James Woods.
+  - "Sylvester Stallone encabeza esta pel\xEDcula de acci\xF3n, dirigida por Luis
+    Llosa y estrenada en 1994."

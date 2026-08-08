@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fantastic_planet
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fantastic_planet
+  category: peliculas
+  difficulty: 0
+  answer: Fantastic Planet
+  acceptedAnswers:
+  - Fantastic Planet
+  - "La plan\xE8te sauvage"
+  - la planete sauvage
+  hints:
+  - "Su metraje se acerca a 72 minutos y corresponde al a\xF1o 1973."
+  - "Su combinaci\xF3n de g\xE9neros incluye animaci\xF3n, fantas\xEDa y ciencia
+    ficci\xF3n; la producci\xF3n se vincula con Rep\xFAblica Checa y Francia."
+  - "Ren\xE9 Laloux la dirigi\xF3 con Kr\xE1tk\xFD Film Praha entre las compa\xF1\xEDas
+    productoras."
+  - En el reparto, Jennifer Drake da vida a Tiwa (voice) y Eric Baugin a Young Terr
+    (voice).
+  - "El reparto incluye a Jennifer Drake como Tiwa (voice), Eric Baugin como Young
+    Terr (voice) y Jean Topart como Master Sinh (voice) bajo la direcci\xF3n de Ren\xE9
+    Laloux."

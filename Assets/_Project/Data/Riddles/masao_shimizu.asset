@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: masao_shimizu
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: masao_shimizu
+  category: personas
+  difficulty: 0
+  answer: Masao Shimizu
+  acceptedAnswers:
+  - Masao Shimizu
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1946 y 1962 y recorren g\xE9neros
+    como drama, acci\xF3n y comedia."
+  - "Uno de sus trabajos fue \xABSanjuro\xBB (1962), bajo la direcci\xF3n de Akira
+    Kurosawa."
+  - "Su papel en \xABSansho the Bailiff\xBB fue el de Masauji Taira."
+  - "Su papel en \xABDrunken Angel\xBB fue el de Oyabun."
+  - "Interpret\xF3 a Oyabun en \xABDrunken Angel\xBB y a Kikuoji en \xABThe Life
+    of Oharu\xBB."

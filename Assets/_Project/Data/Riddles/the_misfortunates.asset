@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_misfortunates
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_misfortunates
+  category: peliculas
+  difficulty: 1
+  answer: The Misfortunates
+  acceptedAnswers:
+  - The Misfortunates
+  - De helaasheid der dingen
+  hints:
+  - "Es una producci\xF3n de 2009 con una duraci\xF3n aproximada de 108 minutos."
+  - "Se encuadra en drama y comedia y tiene origen de producci\xF3n en B\xE9lgica."
+  - "La direcci\xF3n estuvo a cargo de Felix Van Groeningen."
+  - Kenneth Vanbaeden interpreta a Kleine Gunther Strobbe (13 jaar), mientras Valentijn
+    Dhaenens encarna a Gunther Strobbe.
+  - "El reparto incluye a Kenneth Vanbaeden como Kleine Gunther Strobbe (13 jaar),
+    Valentijn Dhaenens como Gunther Strobbe y Koen De Graeve como Marcel 'Celle'
+    Strobbe bajo la direcci\xF3n de Felix Van Groeningen."

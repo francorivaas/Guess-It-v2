@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: forever_young
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: forever_young
+  category: peliculas
+  difficulty: 0
+  answer: Forever Young
+  acceptedAnswers:
+  - Forever Young
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Estados Unidos; combina drama y una
+    fecha de estreno dentro de los a\xF1os 1990. La direcci\xF3n est\xE1 acreditada
+    a Steve Miner."
+  - "El montaje final se extiende unos 102 minutos y aparece catalogado con la se\xF1al
+    PG. Entre sus int\xE9rpretes figura Mel Gibson."
+  - "El a\xF1o 1992 y el sello Warner Bros. forman parte de sus datos de producci\xF3n.
+    El guion incluye un cr\xE9dito para J.J. Abrams."
+  - "La dirigi\xF3 Steve Miner y su figura principal es Mel Gibson."
+  - "Pel\xEDcula de 1992 dirigida por Steve Miner, con Mel Gibson en el reparto,
+    con guion de J.J. Abrams."

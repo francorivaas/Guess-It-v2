@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_wicked_lady
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_wicked_lady
+  category: peliculas
+  difficulty: 2
+  answer: The Wicked Lady
+  acceptedAnswers:
+  - The Wicked Lady
+  hints:
+  - "Fue filmada originalmente en ingl\xE9s y lleg\xF3 a los cines en 1945."
+  - "Gainsborough Pictures particip\xF3 en una pel\xEDcula de aventura y drama producida
+    en Reino Unido."
+  - "Detr\xE1s de la c\xE1mara estuvo Leslie Arliss."
+  - Dos personajes centrales son Barbara Worth, interpretado por Margaret Lockwood,
+    y Captain Jerry Jackson, a cargo de James Mason.
+  - "Leslie Arliss dirige a Margaret Lockwood como Barbara Worth, James Mason como
+    Captain Jerry Jackson y Patricia Roc como Caroline en esta pel\xEDcula de 1945."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: chino_and_nacho
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: chino_and_nacho
+  category: bandas musicales
+  difficulty: 1
+  answer: Chino & Nacho
+  acceptedAnswers:
+  - Chino & Nacho
+  hints:
+  - "Antes de mirar los t\xEDtulos, conviene pensar en latina y latina y en una energ\xEDa
+    sonora alta."
+  - "Entre sus lanzamientos aparece \xABPerreo Tenebroso Vol. 1\xBB."
+  - Entre sus colaboraciones registradas figuran Daddy Yankee y Baroni.
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABAndas En Mi Cabeza\xBB y
+    \xABVive La Vida\xBB."
+  - "Nombre musical asociado directamente a \xABAndas En Mi Cabeza\xBB, \xABVive
+    La Vida\xBB y \xABYou Make Me Feel (Higha)\xBB."

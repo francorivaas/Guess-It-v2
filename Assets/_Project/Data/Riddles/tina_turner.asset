@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tina_turner
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tina_turner
+  category: personas
+  difficulty: 1
+  answer: Tina Turner
+  acceptedAnswers:
+  - Tina Turner
+  hints:
+  - "El per\xEDodo decisivo de su vida p\xFAblica qued\xF3 concentrado en la segunda
+    mitad del siglo XX."
+  - "Naci\xF3 en Estados Unidos y Suiza y orient\xF3 su trabajo hacia m\xFAsica y
+    espect\xE1culo."
+  - "Una contribuci\xF3n central fue reconstruir una carrera solista despu\xE9s de
+    una relaci\xF3n abusiva."
+  - "El dato que reduce mucho las opciones es What's Love Got to Do with It, energ\xEDa
+    esc\xE9nica y el t\xEDtulo de Reina del Rock."
+  - "La persona buscada es la gran referencia de m\xFAsica y espect\xE1culo asociada
+    a What's Love Got to Do with It, energ\xEDa esc\xE9nica y el t\xEDtulo de Reina
+    del Rock."

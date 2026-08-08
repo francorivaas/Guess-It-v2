@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: rookie_of_the_year
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: rookie_of_the_year
+  category: peliculas
+  difficulty: 1
+  answer: Rookie of the Year
+  acceptedAnswers:
+  - Rookie of the Year
+  hints:
+  - "Su origen cinematogr\xE1fico est\xE1 en Estados Unidos; combina comedia y una
+    fecha de estreno dentro de los a\xF1os 1990. La direcci\xF3n est\xE1 acreditada
+    a Daniel Stern."
+  - "El montaje final se extiende unos 103 minutos y aparece catalogado con la se\xF1al
+    PG. Entre sus int\xE9rpretes figura Thomas Ian Nicholas."
+  - "El a\xF1o 1993 y el sello Twentieth Century Fox forman parte de sus datos de
+    producci\xF3n. El guion incluye un cr\xE9dito para Sam Harper."
+  - "Daniel Stern estuvo a cargo de la direcci\xF3n, con Thomas Ian Nicholas al frente
+    del elenco."
+  - "Pel\xEDcula de 1993 dirigida por Daniel Stern, con Thomas Ian Nicholas en el
+    reparto, con guion de Sam Harper."

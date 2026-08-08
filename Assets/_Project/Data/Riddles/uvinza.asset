@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: uvinza
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: uvinza
+  category: lugares
+  difficulty: 1
+  answer: Uvinza
+  acceptedAnswers:
+  - Uvinza
+  hints:
+  - "Su posici\xF3n est\xE1 al sur del ecuador, a unos 5,11 grados del ecuador."
+  - "Su poblaci\xF3n registrada se aproxima a 387.400 habitantes y pertenece a Kigoma."
+  - Administrativamente pertenece a Kigoma. No es la capital nacional de Tanzania.
+  - Pertenece a Tanzania y forma parte de Kigoma; supera aproximadamente los 387.400
+    habitantes.
+  - "Es una ciudad de Tanzania, en Kigoma, situada aproximadamente en 5,1\xB0 sur
+    y 30,4\xB0 este."

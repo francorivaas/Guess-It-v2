@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: francois_morel
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: francois_morel
+  category: personas
+  difficulty: 1
+  answer: "Fran\xE7ois Morel"
+  acceptedAnswers:
+  - "Fran\xE7ois Morel"
+  - francois morel
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1995 y 2015, con presencia frecuente
+    en comedia, aventura y familiar."
+  - "Particip\xF3 en \xABWar of the Buttons\xBB, dirigida por Christophe Barratier
+    y estrenada en 2011."
+  - "Su papel en \xABFamily For Rent\xBB fue el de L\xE9on."
+  - "En \xABThe Rabbi's Cat\xBB interpret\xF3 a The Cat (voice)."
+  - "Interpret\xF3 a The Cat (voice) en \xABThe Rabbi's Cat\xBB y a C\xE9lestin en
+    \xABParis 36\xBB."

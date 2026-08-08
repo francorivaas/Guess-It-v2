@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: francois_ozon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: francois_ozon
+  category: personas
+  difficulty: 0
+  answer: "Fran\xE7ois Ozon"
+  acceptedAnswers:
+  - "Fran\xE7ois Ozon"
+  - francois ozon
+  hints:
+  - "Dirigi\xF3 obras de drama, suspenso y romance a lo largo de una trayectoria
+    que va entre 1997 y 2016."
+  - "Estuvo al frente de \xABYoung & Beautiful\xBB (2013)."
+  - "Su cat\xE1logo incluye \xABIn the House\xBB adem\xE1s de la obra anterior."
+  - "Fue responsable de \xABYoung & Beautiful\xBB y \xAB8 Women\xBB."
+  - "Es el realizador detr\xE1s de \xABIn the House\xBB, \xAB8 Women\xBB y \xABFrantz\xBB."

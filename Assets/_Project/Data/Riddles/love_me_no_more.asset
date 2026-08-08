@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: love_me_no_more
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: love_me_no_more
+  category: peliculas
+  difficulty: 1
+  answer: Love Me No More
+  acceptedAnswers:
+  - Love Me No More
+  - "Deux jours \xE0 tuer"
+  - deux jours a tuer
+  hints:
+  - "Su estreno pertenece a la d\xE9cada de 2000 y su duraci\xF3n ronda los 85 minutos."
+  - "StudioCanal particip\xF3 en una pel\xEDcula de suspenso producida en Francia."
+  - "Jean Becker firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - "En el reparto, Albert Dupontel da vida a Antoine M\xE9liot y Marie-Jos\xE9e
+    Croze a C\xE9cile."
+  - "Jean Becker dirige a Albert Dupontel como Antoine M\xE9liot, Marie-Jos\xE9e
+    Croze como C\xE9cile y Pierre Vaneck como le p\xE8re d'Antoine en esta pel\xEDcula
+    de 2008."

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: benedict_cumberbatch
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: benedict_cumberbatch
+  category: personas
+  difficulty: 0
+  answer: Benedict Cumberbatch
+  acceptedAnswers:
+  - Benedict Cumberbatch
+  hints:
+  - "En The Fifth Estate interpret\xF3 a Julian Assange, en una pel\xEDcula estrenada
+    en 2013."
+  - "Su carrera en cine abarca de 2007 a 2015 y recorre hist\xF3rica y drama."
+  - "Comparti\xF3 reparto con Keira Knightley en Atonement."
+  - "En The Hobbit: The Desolation of Smaug interpret\xF3 a Smaug / The Necromancer."
+  - Aparece en The Imitation Game y Star Trek Into Darkness.

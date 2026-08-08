@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: survive_said_the_prophet
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: survive_said_the_prophet
+  category: bandas musicales
+  difficulty: 1
+  answer: Survive Said The Prophet
+  acceptedAnswers:
+  - Survive Said The Prophet
+  hints:
+  - "La huella musical se mueve por J-rock y J-pop y presenta una energ\xEDa sonora
+    alta."
+  - "El cat\xE1logo incluye el \xE1lbum \xABMUKANJYO\xBB."
+  - "En su cat\xE1logo aparecen \xABRED\xBB y \xABMUKANJYO (TV size)\xBB."
+  - "Las referencias directas son \xABMUKANJYO\xBB y \xABfound & lost\xBB."
+  - "Artista o grupo detr\xE1s de \xABMUKANJYO\xBB, \xABfound & lost\xBB y \xABRED\xBB."

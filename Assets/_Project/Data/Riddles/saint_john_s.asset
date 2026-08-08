@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: saint_john_s
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: saint_john_s
+  category: lugares
+  difficulty: 0
+  answer: "Saint John\u2019s"
+  acceptedAnswers:
+  - "Saint John\u2019s"
+  hints:
+  - "Est\xE1 a unos 17,1 grados al norte del ecuador y 61,8 al oeste de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 22 mil habitantes."
+  - "Se ubica a unos 870 kil\xF3metros al sureste de Santo Domingo."
+  - "Est\xE1 en Antigua y Barbuda y ocupa el puesto 1 por poblaci\xF3n dentro del
+    pa\xEDs."
+  - Es la capital nacional de Antigua y Barbuda.

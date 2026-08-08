@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: bobby
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: bobby
+  category: peliculas
+  difficulty: 0
+  answer: Bobby
+  acceptedAnswers:
+  - Bobby
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 2000, dentro de biograf\xEDa. La direcci\xF3n est\xE1 acreditada a Emilio
+    Estevez."
+  - "La ficha t\xE9cnica marca 117 minutos de metraje y una calificaci\xF3n de p\xFAblico
+    R. Entre sus int\xE9rpretes figura Anthony Hopkins."
+  - "Se estren\xF3 en 2006 y estuvo asociada a la compa\xF1\xEDa The Weinstein Company."
+  - "La dirigi\xF3 Emilio Estevez y su figura principal es Anthony Hopkins."
+  - Cinta de Estados Unidos lanzada en 2006, dirigida por Emilio Estevez y encabezada
+    por Anthony Hopkins, con guion de Emilio Estevez.

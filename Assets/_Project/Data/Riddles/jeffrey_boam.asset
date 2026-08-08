@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jeffrey_boam
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jeffrey_boam
+  category: personas
+  difficulty: 0
+  answer: Jeffrey Boam
+  acceptedAnswers:
+  - Jeffrey Boam
+  hints:
+  - "Su trabajo se reparte entre acci\xF3n y acci\xF3n y aventura a lo largo de un
+    per\xEDodo que va entre 1983 y 1992."
+  - "La pel\xEDcula \xABThe Dead Zone\xBB forma parte de una carrera conectada con
+    Estados Unidos."
+  - "Otros dos t\xEDtulos de su carrera son \xABLethal Weapon 3\xBB y \xABLethal
+    Weapon 2\xBB."
+  - "Dos referencias fuertes de su carrera son \xABIndiana Jones and the Last Crusade\xBB
+    y \xABLethal Weapon 2\xBB."
+  - "Figura cinematogr\xE1fica asociada mediante guion a \xABIndiana Jones and the
+    Last Crusade\xBB, \xABLethal Weapon 2\xBB y \xABLethal Weapon 3\xBB."

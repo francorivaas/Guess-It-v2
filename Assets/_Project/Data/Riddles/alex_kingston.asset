@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: alex_kingston
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: alex_kingston
+  category: personas
+  difficulty: 2
+  answer: Alex Kingston
+  acceptedAnswers:
+  - Alex Kingston
+  hints:
+  - "Trabaj\xF3 en producciones de drama, ciencia ficci\xF3n y comedia a lo largo
+    del per\xEDodo entre 1995 y 2015."
+  - "Particip\xF3 en \xABDoctor Who: The Husbands of River Song\xBB, dirigida por
+    Douglas Mackinnon y estrenada en 2015."
+  - "Su papel en \xABLost in Austen\xBB fue el de Mrs. Bennett."
+  - "Dio vida a Lisa Locke en \xABEssex Boys\xBB."
+  - "Interpret\xF3 a Lisa Locke en \xABEssex Boys\xBB y a Frances Partridge en \xABCarrington\xBB."

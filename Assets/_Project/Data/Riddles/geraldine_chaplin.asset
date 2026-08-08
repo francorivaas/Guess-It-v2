@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: geraldine_chaplin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: geraldine_chaplin
+  category: personas
+  difficulty: 0
+  answer: Geraldine Chaplin
+  acceptedAnswers:
+  - Geraldine Chaplin
+  hints:
+  - "Sus cr\xE9ditos de cine se extienden entre 1965 y 2016 y recorren g\xE9neros
+    como drama, suspenso y romance."
+  - "Uno de sus trabajos fue \xABThe Impossible\xBB (2012), bajo la direcci\xF3n
+    de Juan Antonio Bayona."
+  - "Dio vida a The Head Teacher en \xABA Monster Calls\xBB."
+  - "En \xABThe Orphanage\xBB interpret\xF3 a Aurora."
+  - "Sus papeles incluyen a Aurora en \xABThe Orphanage\xBB y a Katerina Bilova en
+    \xABTalk to Her\xBB."

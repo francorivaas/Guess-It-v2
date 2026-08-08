@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: motley_crue
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: motley_crue
+  category: bandas musicales
+  difficulty: 0
+  answer: "M\xF6tley Cr\xFCe"
+  acceptedAnswers:
+  - "M\xF6tley Cr\xFCe"
+  - Motley Crue
+  hints:
+  - "La formaci\xF3n naci\xF3 en Estados Unidos y su per\xEDodo de mayor impacto
+    fue en las d\xE9cadas de 1980 y 1990."
+  - La propuesta sonora combina glam metal y hard rock.
+  - "Sus nombres m\xE1s representativos son Vince Neil, Nikki Sixx, Mick Mars y Tommy
+    Lee."
+  - "Entre sus lanzamientos m\xE1s identificables figura Dr. Feelgood."
+  - "Su sello m\xE1s reconocible aparece en Kickstart My Heart, excesos legendarios
+    y una bater\xEDa giratoria en vivo."

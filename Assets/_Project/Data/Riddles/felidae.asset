@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: felidae
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: felidae
+  category: peliculas
+  difficulty: 1
+  answer: Felidae
+  acceptedAnswers:
+  - Felidae
+  hints:
+  - "Combina un estreno de 1994 con di\xE1logos originalmente en alem\xE1n."
+  - "Entre sus compa\xF1\xEDas figura Anchor Bay Films; sus g\xE9neros principales
+    son animaci\xF3n, misterio y suspenso."
+  - "Detr\xE1s de la c\xE1mara estuvo Michael Schaack."
+  - Dos personajes centrales son Francis, interpretado por Ulrich Tukur, y Blaubart,
+    a cargo de Mario Adorf.
+  - "Michael Schaack dirige a Ulrich Tukur como Francis, Mario Adorf como Blaubart
+    y Helge Schneider como Jesaja en esta pel\xEDcula de 1994."

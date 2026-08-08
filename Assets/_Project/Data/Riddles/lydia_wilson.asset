@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: lydia_wilson
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: lydia_wilson
+  category: personas
+  difficulty: 2
+  answer: Lydia Wilson
+  acceptedAnswers:
+  - Lydia Wilson
+  hints:
+  - "En Never Let Me Go interpret\xF3 a Hannah, en una pel\xEDcula estrenada en 2010."
+  - "Su carrera en cine abarca de 2010 a 2016 y recorre acci\xF3n y aventura. Entre
+    sus pel\xEDculas figura Never Let Me Go."
+  - "Comparti\xF3 reparto con Domhnall Gleeson en About Time. Otro cr\xE9dito es
+    Never Let Me Go."
+  - "En About Time interpret\xF3 a Kit Kat."
+  - Aparece en Star Trek Beyond y Never Let Me Go.

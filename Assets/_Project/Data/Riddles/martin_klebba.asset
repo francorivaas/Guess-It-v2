@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: martin_klebba
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: martin_klebba
+  category: personas
+  difficulty: 1
+  answer: Martin Klebba
+  acceptedAnswers:
+  - Martin Klebba
+  hints:
+  - "En Foodfight! interpret\xF3 a General X / Kaptain Krispy, en una pel\xEDcula
+    estrenada en 2012."
+  - "Su carrera en cine abarca de 2006 a 2014 y recorre aventura y fantas\xEDa. Entre
+    sus pel\xEDculas figura Foodfight!."
+  - "Comparti\xF3 reparto con Julia Roberts en Mirror Mirror. Otro cr\xE9dito es
+    Mirror Mirror."
+  - "En Hancock interpret\xF3 a Prisoner."
+  - 'Aparece en Pirates of the Caribbean: Dead Man''s Chest y Mirror Mirror.'

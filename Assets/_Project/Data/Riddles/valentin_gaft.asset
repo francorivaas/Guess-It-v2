@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: valentin_gaft
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: valentin_gaft
+  category: personas
+  difficulty: 1
+  answer: Valentin Gaft
+  acceptedAnswers:
+  - Valentin Gaft
+  hints:
+  - "Trabaj\xF3 en producciones de drama, comedia y romance a lo largo del per\xEDodo
+    entre 1975 y 2007."
+  - "Particip\xF3 en \xAB12\xBB, dirigida por Nikita Mikhalkov y estrenada en 2007."
+  - "Dio vida a Sidorin en \xABThe Garage\xBB."
+  - "Dio vida a Brasset, Lackey en \xABHello, I'm Your Aunt!\xBB."
+  - "Sus papeles incluyen a Brasset, Lackey en \xABHello, I'm Your Aunt!\xBB y a
+    \u041F\u043E\u043B\u043A\u043E\u0432\u043D\u0438\u043A \u041F\u043E\u043A\u0440\u043E\u0432\u0441\u043A\u0438\u0439
+    en \xABSay a Word for the Poor Hussar\xBB."

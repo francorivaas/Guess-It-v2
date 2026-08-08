@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: buurhakaba
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: buurhakaba
+  category: lugares
+  difficulty: 0
+  answer: Buurhakaba
+  acceptedAnswers:
+  - Buurhakaba
+  hints:
+  - "Ocupa el hemisferio norte y una longitud aproximada de 44,08\xB0 este."
+  - "Re\xFAne cerca de 360.800 habitantes en la divisi\xF3n administrativa de Bay."
+  - "Administrativamente pertenece a Bay. Cumple una funci\xF3n de capital local
+    dentro de Bay."
+  - "Se encuentra en Somalia, dentro de Bay, con una poblaci\xF3n cercana a 361 mil."
+  - "En Somalia, dentro de Bay, esta ciudad de unos 361 mil est\xE1 cerca de 2,8\xB0
+    norte y 44,1\xB0 este."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: zuwarah
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: zuwarah
+  category: lugares
+  difficulty: 1
+  answer: "Zuw\u0101rah"
+  acceptedAnswers:
+  - "Zuw\u0101rah"
+  - Zuwarah
+  hints:
+  - "Est\xE1 a unos 32,9 grados al norte del ecuador y 12,1 al este de Greenwich."
+  - "Su poblaci\xF3n registrada ronda los 80 mil habitantes."
+  - "Se ubica a unos 100 kil\xF3metros al oeste de Tripoli."
+  - "Est\xE1 en Libia, donde ocupa el puesto 13 por poblaci\xF3n, y es un centro
+    administrativo regional."
+  - "Es la capital administrativa de An Nuq\u0101\u0163 al Khams, dentro de Libia."

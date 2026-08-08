@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: jean_paul_salome
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: jean_paul_salome
+  category: personas
+  difficulty: 2
+  answer: "Jean-Paul Salom\xE9"
+  acceptedAnswers:
+  - "Jean-Paul Salom\xE9"
+  - jean-paul salome
+  hints:
+  - "Su filmograf\xEDa como realizador recorre romance, acci\xF3n y aventura durante
+    el per\xEDodo entre 2001 y 2013."
+  - "Una de sus pel\xEDculas es \xABAdventures of Arsene Lupin\xBB, estrenada en
+    2004."
+  - "Su cat\xE1logo incluye \xABPlaying Dead\xBB adem\xE1s de la obra anterior."
+  - "Fue responsable de \xABAdventures of Arsene Lupin\xBB y \xABBelphegor, Phantom
+    of the Louvre\xBB."
+  - "Es el realizador detr\xE1s de \xABPlaying Dead\xBB, \xABBelphegor, Phantom of
+    the Louvre\xBB y \xABThe Chameleon\xBB."

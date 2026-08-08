@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: dourados
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: dourados
+  category: lugares
+  difficulty: 1
+  answer: Dourados
+  acceptedAnswers:
+  - Dourados
+  hints:
+  - "Su posici\xF3n est\xE1 al sur del ecuador, a unos 22,22 grados del ecuador."
+  - "Es un n\xFAcleo urbano de alrededor de 243 mil de habitantes dentro de Mato
+    Grosso do Sul."
+  - Administrativamente pertenece a Mato Grosso do Sul. No es la capital nacional
+    de Brasil.
+  - "Esta ciudad de Brasil est\xE1 en Mato Grosso do Sul y se sit\xFAa a 22,2\xB0
+    sur."
+  - "Es una ciudad de Brasil, en Mato Grosso do Sul, situada aproximadamente en 22,2\xB0
+    sur y 54,8\xB0 oeste."

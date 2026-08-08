@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: mohammed_abdel_wahab
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: mohammed_abdel_wahab
+  category: bandas musicales
+  difficulty: 1
+  answer: Mohammed Abdel Wahab
+  acceptedAnswers:
+  - Mohammed Abdel Wahab
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABAl Nabi Habibk\xBB, de 1927, y llega hasta
+    1939."
+  - "\xABYa Naama\xBB presenta una energ\xEDa suave y un pulso cercano a 105 BPM."
+  - "Entre sus grabaciones figuran \xABYadi Al Naaem\xBB y \xABYa Lawaate\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABAl Zolm Dh Can Leah\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABYa Nasia Wade\xBB y \xABAl Hwa Wa Alshabab\xBB."

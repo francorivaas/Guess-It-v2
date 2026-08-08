@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: song_young_chang
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: song_young_chang
+  category: personas
+  difficulty: 1
+  answer: Song Young-chang
+  acceptedAnswers:
+  - Song Young-chang
+  hints:
+  - "Trabaj\xF3 en producciones de drama, acci\xF3n y comedia a lo largo del per\xEDodo
+    entre 2009 y 2015."
+  - "Form\xF3 parte del elenco de \xABThirst\xBB, una pel\xEDcula de 2009 dirigida
+    por Park Chan-wook."
+  - "Su papel en \xABWoochi : The Demon Slayer\xBB fue el de Buddhist monk."
+  - "Su papel en \xABVeteran\xBB fue el de Chairman Jo."
+  - "Es la persona que encarn\xF3 a Chairman Jo en \xABVeteran\xBB y a Nobleman Jo
+    en \xABKundo: Age of the Rampant\xBB."

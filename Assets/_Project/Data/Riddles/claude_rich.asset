@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: claude_rich
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: claude_rich
+  category: personas
+  difficulty: 0
+  answer: Claude Rich
+  acceptedAnswers:
+  - Claude Rich
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1962 y 2006, con presencia frecuente
+    en drama, comedia y b\xE9lico."
+  - "Uno de sus trabajos fue \xABOscar\xBB (1967), bajo la direcci\xF3n de \xC9douard
+    Molinaro."
+  - "Dio vida a General Leclerc en \xABIs Paris Burning?\xBB."
+  - "En \xABThe Mystery of the Yellow Room\xBB interpret\xF3 a Le juge De Marquet."
+  - "Sus papeles incluyen a Le juge De Marquet en \xABThe Mystery of the Yellow Room\xBB
+    y a Stanislas en \xABSeason's Beatings\xBB."

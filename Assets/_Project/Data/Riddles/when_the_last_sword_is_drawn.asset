@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: when_the_last_sword_is_drawn
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: when_the_last_sword_is_drawn
+  category: peliculas
+  difficulty: 1
+  answer: When the Last Sword Is Drawn
+  acceptedAnswers:
+  - When the Last Sword Is Drawn
+  hints:
+  - "Fue filmada originalmente en japon\xE9s y lleg\xF3 a los cines en 2003."
+  - "Se encuadra en acci\xF3n, drama y historia y tiene origen de producci\xF3n en
+    Jap\xF3n."
+  - El realizador principal fue Yojiro Takita.
+  - Kiichi Nakai interpreta a Kanichiro Yoshimura, mientras Koichi Sato encarna a
+    Hajime Saito.
+  - "Yojiro Takita dirige a Kiichi Nakai como Kanichiro Yoshimura, Koichi Sato como
+    Hajime Saito y Yui Natsukawa como Shizu/Mitsu en esta pel\xEDcula de 2003."

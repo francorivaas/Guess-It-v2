@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_blade
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_blade
+  category: peliculas
+  difficulty: 2
+  answer: The Blade
+  acceptedAnswers:
+  - The Blade
+  - Dao
+  hints:
+  - "Es una producci\xF3n de 1995 con una duraci\xF3n aproximada de 101 minutos."
+  - "Mezcla drama y acci\xF3n y fue producida en Hong Kong."
+  - El realizador principal fue Tsui Hark.
+  - Vincent Zhao interpreta a On Man / Ting On, mientras Xiong Xin-Xin encarna a
+    Fei Lung / Flying Dragon (Falcon).
+  - "Tsui Hark dirige a Vincent Zhao como On Man / Ting On, Xiong Xin-Xin como Fei
+    Lung / Flying Dragon (Falcon) y Song Lei como Siu Ling en esta pel\xEDcula de
+    1995."

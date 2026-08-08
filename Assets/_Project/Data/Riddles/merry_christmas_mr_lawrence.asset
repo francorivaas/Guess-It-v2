@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: merry_christmas_mr_lawrence
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: merry_christmas_mr_lawrence
+  category: peliculas
+  difficulty: 0
+  answer: Merry Christmas, Mr. Lawrence
+  acceptedAnswers:
+  - Merry Christmas, Mr. Lawrence
+  hints:
+  - "Esta obra cinematogr\xE1fica de la d\xE9cada de 1980 dura cerca de 123 minutos."
+  - "Entre sus compa\xF1\xEDas figura National Film Trustee Company; sus g\xE9neros
+    principales son drama y historia."
+  - "La direcci\xF3n estuvo a cargo de Nagisa \u014Cshima."
+  - Dos personajes centrales son Maj. Jack 'Strafer' Celliers, interpretado por David
+    Bowie, y Col. John Lawrence, a cargo de Tom Conti.
+  - "El reparto incluye a David Bowie como Maj. Jack 'Strafer' Celliers, Tom Conti
+    como Col. John Lawrence y Ryuichi Sakamoto como Capt. Yonoi bajo la direcci\xF3n
+    de Nagisa \u014Cshima."

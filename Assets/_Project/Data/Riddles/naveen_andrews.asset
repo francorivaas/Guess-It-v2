@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: naveen_andrews
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: naveen_andrews
+  category: personas
+  difficulty: 1
+  answer: Naveen Andrews
+  acceptedAnswers:
+  - Naveen Andrews
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1996 y 2013, especialmente dentro
+    de drama, romance y b\xE9lico."
+  - "Particip\xF3 en \xABThe English Patient\xBB, dirigida por Anthony Minghella
+    y estrenada en 1996."
+  - "Su papel en \xABDiana\xBB fue el de Hasnat Khan."
+  - "Su papel en \xABBride & Prejudice\xBB fue el de Balraj."
+  - "Es la persona que encarn\xF3 a Balraj en \xABBride & Prejudice\xBB y a Sanjay
+    en \xABRollerball\xBB."

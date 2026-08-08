@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_purple_rose_of_cairo
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_purple_rose_of_cairo
+  category: peliculas
+  difficulty: 0
+  answer: The Purple Rose of Cairo
+  acceptedAnswers:
+  - The Purple Rose of Cairo
+  - Purple Rose of Cairo
+  hints:
+  - "Pertenece al cine de Estados Unidos y se ubica temporalmente en la d\xE9cada
+    de 1980, dentro de comedia. El guion incluye un cr\xE9dito para Woody Allen."
+  - "Tiene una duraci\xF3n aproximada de 82 minutos y recibi\xF3 la clasificaci\xF3n
+    PG."
+  - "El a\xF1o 1985 y el sello Jack Rollins & Charles H. Joffe Productions forman
+    parte de sus datos de producci\xF3n."
+  - "Woody Allen estuvo a cargo de la direcci\xF3n, con Mia Farrow al frente del
+    elenco. La direcci\xF3n est\xE1 acreditada a Woody Allen."
+  - Cinta de Estados Unidos lanzada en 1985, dirigida por Woody Allen y encabezada
+    por Mia Farrow, con guion de Woody Allen.

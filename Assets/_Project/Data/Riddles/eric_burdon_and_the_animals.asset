@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: eric_burdon_and_the_animals
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: eric_burdon_and_the_animals
+  category: bandas musicales
+  difficulty: 0
+  answer: Eric Burdon & the Animals
+  acceptedAnswers:
+  - Eric Burdon & the Animals
+  hints:
+  - "Su cat\xE1logo registrado incluye \xABA Girl Named Sandoz\xBB, de 1965, y llega
+    hasta 1991."
+  - "\xABWhen I Was Young\xBB presenta una energ\xEDa media y un pulso cercano a
+    100 BPM."
+  - "Entre sus grabaciones figuran \xABRing Of Fire\xBB y \xABTo Love Somebody\xBB."
+  - "Tambi\xE9n lanz\xF3 \xABSan Franciscan Nights\xBB."
+  - "Es el proyecto musical detr\xE1s de \xABSky Pilot\xBB y \xABGood Times\xBB."

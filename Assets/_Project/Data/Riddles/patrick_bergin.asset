@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: patrick_bergin
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: patrick_bergin
+  category: personas
+  difficulty: 1
+  answer: Patrick Bergin
+  acceptedAnswers:
+  - Patrick Bergin
+  hints:
+  - "Construy\xF3 una carrera en pantalla entre 1988 y 2017, especialmente dentro
+    de acci\xF3n, drama y comedia."
+  - "Form\xF3 parte del elenco de \xABFree Fire\xBB, una pel\xEDcula de 2017 dirigida
+    por Ben Wheatley."
+  - "Su papel en \xABEye of the Beholder\xBB fue el de Alex Leonard."
+  - "En \xABRobin Hood\xBB interpret\xF3 a Sir Robert Hode."
+  - "Sus papeles incluyen a Sir Robert Hode en \xABRobin Hood\xBB y a Mo Taffin en
+    \xABTaffin\xBB."

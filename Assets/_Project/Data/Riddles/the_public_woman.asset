@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_public_woman
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_public_woman
+  category: peliculas
+  difficulty: 1
+  answer: The Public Woman
+  acceptedAnswers:
+  - The Public Woman
+  - La femme publique
+  hints:
+  - "Combina un estreno de 1984 con di\xE1logos originalmente en franc\xE9s."
+  - "Entre sus compa\xF1\xEDas figura Hachette-Fox Productions; sus g\xE9neros principales
+    son drama."
+  - "La direcci\xF3n estuvo a cargo de Andrzej \u017Bu\u0142awski."
+  - "Dos personajes centrales son Ethel, interpretado por Val\xE9rie Kaprisky, y
+    Lucas Kessling, a cargo de Francis Huster."
+  - "En esta cinta de 1984 coinciden Val\xE9rie Kaprisky como Ethel, Francis Huster
+    como Lucas Kessling y Lambert Wilson como Milan Mliska."

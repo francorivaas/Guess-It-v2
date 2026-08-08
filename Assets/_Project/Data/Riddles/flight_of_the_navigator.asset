@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: flight_of_the_navigator
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: flight_of_the_navigator
+  category: peliculas
+  difficulty: 0
+  answer: Flight of the Navigator
+  acceptedAnswers:
+  - Flight of the Navigator
+  hints:
+  - "La b\xFAsqueda comienza en una pel\xEDcula de Estados Unidos, estrenada en los
+    a\xF1os 1980 y clasificada como aventura. La direcci\xF3n est\xE1 acreditada
+    a Randal Kleiser."
+  - "Tiene una duraci\xF3n aproximada de 90 minutos y recibi\xF3 la clasificaci\xF3n
+    PG."
+  - "El a\xF1o 1986 y el sello Walt Disney Pictures forman parte de sus datos de
+    producci\xF3n. Entre sus int\xE9rpretes figura Joey Cramer."
+  - "Randal Kleiser estuvo a cargo de la direcci\xF3n, con Joey Cramer al frente
+    del elenco."
+  - "Producci\xF3n de aventura estrenada en 1986: direcci\xF3n de Randal Kleiser
+    y actuaciones de Joey Cramer, con guion de Mark H. Baker."

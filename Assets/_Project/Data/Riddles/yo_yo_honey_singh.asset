@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: yo_yo_honey_singh
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: yo_yo_honey_singh
+  category: bandas musicales
+  difficulty: 0
+  answer: Yo Yo Honey Singh
+  acceptedAnswers:
+  - Yo Yo Honey Singh
+  hints:
+  - "La huella musical se mueve por hip hop y pop cinematogr\xE1fico y presenta una
+    energ\xEDa sonora alta."
+  - "Entre sus lanzamientos aparece \xABDesi Kalakaar\xBB."
+  - En algunas pistas aparece junto a Pritam y Neha Kakkar.
+  - "Dos canciones muy \xFAtiles para reconocerlo son \xABLove Dose\xBB y \xABDesi
+    Kalakaar\xBB."
+  - "Nombre musical asociado directamente a \xABLove Dose\xBB, \xABDesi Kalakaar\xBB
+    y \xABBlue Eyes\xBB."

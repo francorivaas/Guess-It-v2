@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: san_juan_sacatepequez
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: san_juan_sacatepequez
+  category: lugares
+  difficulty: 0
+  answer: "San Juan Sacatep\xE9quez"
+  acceptedAnswers:
+  - "San Juan Sacatep\xE9quez"
+  - san juan sacatepequez
+  hints:
+  - "Est\xE1 al oeste de Greenwich; su latitud ronda los 14,72\xB0 norte."
+  - "Re\xFAne cerca de 284.800 habitantes en la divisi\xF3n administrativa de Guatemala."
+  - "Cumple una funci\xF3n de capital local dentro de Guatemala. Se halla aproximadamente
+    a 14,7\xB0 norte."
+  - "Se encuentra en Guatemala, dentro de Guatemala, con una poblaci\xF3n cercana
+    a 285 mil."
+  - "En Guatemala, dentro de Guatemala, esta ciudad de unos 285 mil est\xE1 cerca
+    de 14,7\xB0 norte y 90,6\xB0 oeste."

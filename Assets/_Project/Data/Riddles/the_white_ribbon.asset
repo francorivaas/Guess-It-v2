@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: the_white_ribbon
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: the_white_ribbon
+  category: peliculas
+  difficulty: 2
+  answer: La cinta blanca
+  acceptedAnswers:
+  - La cinta blanca
+  - the white ribbon
+  - das weisse band
+  hints:
+  - "Esta producci\xF3n de Alemania, lanzada en 2009, pertenece al g\xE9nero drama
+    y misterio."
+  - "La realizaci\xF3n fue encabezada por Michael Haneke."
+  - "El reparto o los personajes clave incluyen a ni\xF1os, familias y un maestro
+    de aldea."
+  - El conflicto principal nace cuando hechos violentos alteran una comunidad protestante
+    antes de la Primera Guerra Mundial.
+  - Resulta inconfundible por una marca de pureza impuesta a menores contrasta con
+    abusos ocultos.

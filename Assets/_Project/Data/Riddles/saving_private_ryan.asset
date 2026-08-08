@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: saving_private_ryan
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: saving_private_ryan
+  category: peliculas
+  difficulty: 0
+  answer: Rescatando al soldado Ryan
+  acceptedAnswers:
+  - Rescatando al soldado Ryan
+  - salvar al soldado ryan
+  - saving private ryan
+  hints:
+  - "Esta producci\xF3n de Estados Unidos, lanzada en 1998, pertenece al g\xE9nero
+    drama b\xE9lico."
+  - "Steven Spielberg condujo el proyecto cinematogr\xE1fico."
+  - "El reparto o los personajes clave incluyen a John Miller, James Ryan y un pelot\xF3n."
+  - "El conflicto principal nace cuando un grupo atraviesa Francia para encontrar
+    al \xFAltimo hermano superviviente de una familia."
+  - "Resulta inconfundible por un desembarco brutal en Normand\xEDa abre la misi\xF3n
+    de rescate."

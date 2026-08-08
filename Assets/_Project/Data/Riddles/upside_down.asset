@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: upside_down
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: upside_down
+  category: peliculas
+  difficulty: 0
+  answer: Upside Down
+  acceptedAnswers:
+  - Upside Down
+  hints:
+  - "Es una producci\xF3n de Canad\xE1 de la d\xE9cada de 2010, vinculada al g\xE9nero
+    de drama. La direcci\xF3n est\xE1 acreditada a Juan Solanas."
+  - "Su duraci\xF3n ronda los 109 minutos; la clasificaci\xF3n registrada es PG-13."
+  - "Se estren\xF3 en 2012 y cuenta con un guion acreditado a Juan Solanas."
+  - "Juan Solanas estuvo a cargo de la direcci\xF3n, con Jim Sturgess al frente del
+    elenco."
+  - "La respuesta es la cinta de 2012 que Juan Solanas dirigi\xF3 con Jim Sturgess
+    como int\xE9rpretes destacados, con guion de Juan Solanas."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: liliane_rovere
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: liliane_rovere
+  category: personas
+  difficulty: 1
+  answer: "Liliane Rov\xE8re"
+  acceptedAnswers:
+  - "Liliane Rov\xE8re"
+  - liliane rovere
+  hints:
+  - "Su trayectoria cinematogr\xE1fica abarca entre 1976 y 2008, con presencia frecuente
+    en drama, comedia y suspenso."
+  - "Form\xF3 parte del elenco de \xABAnything for Her\xBB, una pel\xEDcula de 2008
+    dirigida por Fred Cavay\xE9."
+  - "Dio vida a Josyane en \xABBuffet Froid\xBB."
+  - "En \xAB\u2019Round Midnight\xBB interpret\xF3 a Madame Queen."
+  - "Es la persona que encarn\xF3 a Madame Queen en \xAB\u2019Round Midnight\xBB
+    y a La barmaid en \xABGet Out Your Handkerchiefs\xBB."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: michael_spierig
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: michael_spierig
+  category: personas
+  difficulty: 0
+  answer: Michael Spierig
+  acceptedAnswers:
+  - Michael Spierig
+  hints:
+  - "Es una figura del cine cuya actividad registrada se extiende entre 2009 y 2018
+    y toca principalmente acci\xF3n y crimen."
+  - "Entre sus cr\xE9ditos menos obvios aparece \xABWinchester\xBB, vinculada a Australia
+    y Canad\xE1."
+  - "La asociaci\xF3n con \xABJigsaw\xBB se completa con otro cr\xE9dito en \xABDaybreakers\xBB."
+  - "Los t\xEDtulos \xABPredestination\xBB y \xABDaybreakers\xBB ofrecen las pistas
+    m\xE1s directas."
+  - "Figura cinematogr\xE1fica asociada mediante direcci\xF3n y guion a \xABPredestination\xBB,
+    \xABDaybreakers\xBB y \xABJigsaw\xBB."

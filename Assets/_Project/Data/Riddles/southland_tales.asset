@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: southland_tales
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: southland_tales
+  category: peliculas
+  difficulty: 0
+  answer: Southland Tales
+  acceptedAnswers:
+  - Southland Tales
+  hints:
+  - "Es una producci\xF3n de 2006 con una duraci\xF3n aproximada de 144 minutos."
+  - "Se encuadra en comedia, ciencia ficci\xF3n y suspenso y tiene origen de producci\xF3n
+    en Francia y Alemania."
+  - "Richard Kelly firm\xF3 la direcci\xF3n de esta pel\xEDcula."
+  - Dos personajes centrales son Boxer Santaros, interpretado por Dwayne Johnson,
+    y Roland Taverner, a cargo de Seann William Scott.
+  - "El reparto incluye a Dwayne Johnson como Boxer Santaros, Seann William Scott
+    como Roland Taverner y Sarah Michelle Gellar como Krysta Now bajo la direcci\xF3n
+    de Richard Kelly."

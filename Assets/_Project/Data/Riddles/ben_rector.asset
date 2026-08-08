@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: ben_rector
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: ben_rector
+  category: bandas musicales
+  difficulty: 0
+  answer: Ben Rector
+  acceptedAnswers:
+  - Ben Rector
+  hints:
+  - "Su perfil sonoro combina ac\xFAstico y piano con un equilibrio entre energ\xEDa,
+    ritmo y melod\xEDa."
+  - "Uno de los \xE1lbumes asociados a este proyecto es \xABMagic\xBB."
+  - "Las pistas intermedias pasan por \xABLiving My Best Life\xBB y \xAB30,000 Feet\xBB."
+  - "Entre sus temas m\xE1s identificables est\xE1n \xABBrand New\xBB y \xABLove
+    Like This\xBB."
+  - "Nombre musical asociado directamente a \xABBrand New\xBB, \xABLove Like This\xBB
+    y \xABLiving My Best Life\xBB."

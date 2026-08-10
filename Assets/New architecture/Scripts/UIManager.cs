@@ -269,6 +269,21 @@ public class UIManager : MonoBehaviour
         }
 
         feverBackground?.SetStreak(0, true);
+        ConfigureAnswerInput();
+    }
+
+    private void ConfigureAnswerInput()
+    {
+        if (answerInput == null)
+        {
+            return;
+        }
+
+        answerInput.contentType = TMP_InputField.ContentType.Standard;
+        answerInput.inputType = TMP_InputField.InputType.Standard;
+        answerInput.keyboardType = TouchScreenKeyboardType.Default;
+        answerInput.lineType = TMP_InputField.LineType.SingleLine;
+        answerInput.characterValidation = TMP_InputField.CharacterValidation.None;
     }
 
     private void Start()

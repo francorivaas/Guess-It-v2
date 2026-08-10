@@ -1,36 +1,29 @@
 using System.Collections.Generic;
-using System.Linq;
+using System.Globalization;
+using System.Text;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    [Header("Riddles")]
+    [Header("Configuration")]
     [SerializeField] private RiddleDatabaseSO database;
-
-    [Header("Run Settings")]
-    [SerializeField] private int startingLives = 3;
-    [SerializeField] private int initialHintCount = 3;
-
-    [Tooltip("Si está desactivado, un acertijo nunca se repite dentro de la misma run.")]
-    [SerializeField] private bool allowRepeatsAfterAllRiddlesHaveAppeared = false;
+    [SerializeField, Min(1)] private int startingLives = 3;
+    [SerializeField, Min(1)] private int initialHintCount = 3;
 
     public int Score { get; private set; }
     public int Lives { get; private set; }
     public int CurrentStreak { get; private set; }
 
-    private readonly List<RiddleSO> availableRiddles = new List<RiddleSO>();
-    private readonly HashSet<RiddleSO> usedRiddlesThisRun = new HashSet<RiddleSO>();
-
     private RiddleSO currentRiddle;
+    private readonly List<RiddleSO> availableRiddles = new List<RiddleSO>();
     private int currentHintCount;
 
+    // Recompensa que permanece pendiente mientras el panel de victoria está abierto.
     private bool hasPendingCorrectReward;
     private int pendingCorrectPoints;
-    private bool runFinished;
 
     private void Awake()
     {
@@ -45,32 +38,9 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        StartNewRun();
-    }
-
-    private void OnDestroy()
-    {
-        if (Instance == this)
-        {
-            Instance = null;
-        }
-    }
-
-    private void StartNewRun()
-    {
         Score = 0;
         Lives = startingLives;
         CurrentStreak = 0;
-
-        currentRiddle = null;
-        currentHintCount = 0;
-
-        hasPendingCorrectReward = false;
-        pendingCorrectPoints = 0;
-        runFinished = false;
-
-        usedRiddlesThisRun.Clear();
-        availableRiddles.Clear();
 
         if (!TryInitializeRiddles())
         {
@@ -82,265 +52,12 @@ public class GameManager : MonoBehaviour
         NextRound();
     }
 
-    private bool TryInitializeRiddles()
+    private void OnDestroy()
     {
-        if (database == null)
+        if (Instance == this)
         {
-            Debug.LogError("GameManager: no hay RiddleDatabaseSO asignada.");
-            return false;
+            Instance = null;
         }
-
-        if (database.riddles == null || database.riddles.Count == 0)
-        {
-            Debug.LogError("GameManager: la base de acertijos está vacía.");
-            return false;
-        }
-
-        RefillAvailableRiddlesForCurrentRun();
-
-        if (availableRiddles.Count == 0)
-        {
-            Debug.LogError("GameManager: no hay acertijos válidos disponibles.");
-            return false;
-        }
-
-        return true;
-    }
-
-    private void RefillAvailableRiddlesForCurrentRun()
-    {
-        availableRiddles.Clear();
-
-        if (database == null || database.riddles == null)
-        {
-            return;
-        }
-
-        foreach (RiddleSO riddle in database.riddles)
-        {
-            if (riddle == null)
-            {
-                continue;
-            }
-
-            if (usedRiddlesThisRun.Contains(riddle))
-            {
-                continue;
-            }
-
-            availableRiddles.Add(riddle);
-        }
-    }
-
-    public void NextRound()
-    {
-        if (runFinished)
-        {
-            return;
-        }
-
-        if (availableRiddles.Count == 0)
-        {
-            RefillAvailableRiddlesForCurrentRun();
-        }
-
-        if (availableRiddles.Count == 0)
-        {
-            HandleAllRiddlesUsed();
-            return;
-        }
-
-        UIManager.Instance?.ClearCards();
-        UIManager.Instance?.ClearAnswerInput();
-
-        int randomIndex = Random.Range(0, availableRiddles.Count);
-
-        currentRiddle = availableRiddles[randomIndex];
-
-        // Punto clave:
-        // el acertijo se remueve de la pool disponible y se guarda como usado
-        // para que no pueda volver a aparecer durante esta run.
-        availableRiddles.RemoveAt(randomIndex);
-        usedRiddlesThisRun.Add(currentRiddle);
-
-        currentHintCount = Mathf.Min(initialHintCount, GetTotalHintCount());
-
-        UIManager.Instance?.RefreshUI();
-    }
-
-    private void HandleAllRiddlesUsed()
-    {
-        if (allowRepeatsAfterAllRiddlesHaveAppeared)
-        {
-            usedRiddlesThisRun.Clear();
-            RefillAvailableRiddlesForCurrentRun();
-
-            if (availableRiddles.Count > 0)
-            {
-                NextRound();
-                return;
-            }
-        }
-
-        runFinished = true;
-
-        Debug.LogWarning(
-            "GameManager: no quedan acertijos sin usar en esta run."
-        );
-
-        UIManager.Instance?.ClearCards();
-        UIManager.Instance?.ClearAnswerInput();
-        UIManager.Instance?.ShowMessage(
-            "¡Completaste todos los acertijos disponibles!"
-        );
-    }
-
-    public void RequestHint()
-    {
-        if (runFinished || currentRiddle == null)
-        {
-            return;
-        }
-
-        if (!HasMoreHints())
-        {
-            return;
-        }
-
-        currentHintCount++;
-        HapticManager.HeavyVibration();
-        UIManager.Instance?.RefreshUI();
-    }
-
-    public void SubmitAnswer(string submittedAnswer)
-    {
-        if (
-            runFinished ||
-            currentRiddle == null ||
-            string.IsNullOrWhiteSpace(submittedAnswer)
-        )
-        {
-            return;
-        }
-
-        string normalizedSubmittedAnswer =
-            NormalizeAnswer(submittedAnswer);
-
-        string normalizedCorrectAnswer =
-            NormalizeAnswer(currentRiddle.answer);
-
-        if (normalizedSubmittedAnswer == normalizedCorrectAnswer)
-        {
-            HandleCorrectAnswer();
-        }
-        else
-        {
-            HandleIncorrectAnswer();
-        }
-    }
-
-    private void HandleCorrectAnswer()
-    {
-        pendingCorrectPoints = CalculateScore();
-        hasPendingCorrectReward = true;
-
-        bool victoryPanelShown =
-            UIManager.Instance != null &&
-            UIManager.Instance.ShowVictoryPanel(currentRiddle.answer);
-
-        if (!victoryPanelShown)
-        {
-            ContinueFromVictory();
-        }
-    }
-
-    public void ContinueFromVictory()
-    {
-        if (!hasPendingCorrectReward)
-        {
-            BeginNextRoundAfterCorrectAnswer();
-            return;
-        }
-
-        int gainedPoints = pendingCorrectPoints;
-
-        Score += gainedPoints;
-        CurrentStreak++;
-
-        hasPendingCorrectReward = false;
-        pendingCorrectPoints = 0;
-
-        UIManager.Instance?.UpdateStreakUI(CurrentStreak);
-
-        if (UIManager.Instance != null)
-        {
-            UIManager.Instance.ShowCorrectFeedback(
-                Score,
-                gainedPoints,
-                BeginNextRoundAfterCorrectAnswer
-            );
-        }
-        else
-        {
-            BeginNextRoundAfterCorrectAnswer();
-        }
-    }
-
-    private void BeginNextRoundAfterCorrectAnswer()
-    {
-        if (runFinished)
-        {
-            return;
-        }
-
-        UIManager.Instance?.RequestCategoryAttention();
-        NextRound();
-    }
-
-    private void HandleIncorrectAnswer()
-    {
-        Lives--;
-        CurrentStreak = 0;
-
-        HapticManager.HeavyVibration();
-
-        UIManager.Instance?.UpdateStreakUI(CurrentStreak);
-        UIManager.Instance?.TriggerFailureFeedback();
-
-        bool noLivesLeft = Lives <= 0;
-        bool noMoreHints = !HasMoreHints();
-
-        if (noLivesLeft || noMoreHints)
-        {
-            UIManager.Instance?.RefreshStatusUI();
-            UIManager.Instance?.ShowRevealPanel(currentRiddle.answer);
-            return;
-        }
-
-        currentHintCount++;
-
-        UIManager.Instance?.RefreshUI();
-        UIManager.Instance?.TriggerErrorShake();
-    }
-
-    public void ContinueFromReveal()
-    {
-        if (Lives <= 0)
-        {
-            EndRun();
-            return;
-        }
-
-        NextRound();
-    }
-
-    private void EndRun()
-    {
-        runFinished = true;
-
-        // Por ahora conserva tu comportamiento actual:
-        // al terminar la run vuelve al menú principal.
-        SceneManager.LoadScene(0);
     }
 
     public RiddleSO GetCurrentRiddle()
@@ -353,57 +70,319 @@ public class GameManager : MonoBehaviour
         return currentHintCount;
     }
 
+    public void NextRound()
+    {
+        if (availableRiddles.Count == 0)
+        {
+            RefillAvailableRiddles();
+        }
+
+        if (availableRiddles.Count == 0)
+        {
+            Debug.LogError("No hay acertijos válidos disponibles.");
+            return;
+        }
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.ClearCards();
+            UIManager.Instance.ClearAnswerInput();
+        }
+
+        int randomIndex = Random.Range(0, availableRiddles.Count);
+        currentRiddle = availableRiddles[randomIndex];
+        availableRiddles.RemoveAt(randomIndex);
+
+        currentHintCount = Mathf.Min(initialHintCount, GetTotalHintCount());
+
+        UIManager.Instance?.RefreshUI();
+    }
+
+    public void RequestHint()
+    {
+        if (currentRiddle == null || currentHintCount >= GetTotalHintCount())
+        {
+            return;
+        }
+
+        currentHintCount++;
+        HapticManager.HeavyVibration();
+        UIManager.Instance?.RefreshUI();
+    }
+
+    public void SubmitAnswer(string playerAnswer)
+    {
+        if (currentRiddle == null || string.IsNullOrWhiteSpace(playerAnswer))
+        {
+            return;
+        }
+
+        if (IsCorrectAnswer(playerAnswer))
+        {
+            HandleCorrectAnswer();
+        }
+        else
+        {
+            HandleIncorrectAnswer();
+        }
+    }
+
+    private void HandleCorrectAnswer()
+    {
+        if (hasPendingCorrectReward)
+        {
+            return;
+        }
+
+        // Opción B:
+        // todavía no se modifica Score ni CurrentStreak.
+        // La recompensa queda pendiente hasta pulsar Continuar.
+        pendingCorrectPoints = CalculateScore();
+        hasPendingCorrectReward = true;
+
+        if (
+            UIManager.Instance != null &&
+            UIManager.Instance.ShowVictoryPanel(currentRiddle.answer)
+        )
+        {
+            return;
+        }
+
+        // Respaldo para escenas o pruebas sin panel de victoria.
+        ContinueFromVictory();
+    }
+
+    private void HandleIncorrectAnswer()
+    {
+        Lives--;
+        CurrentStreak = 0;
+
+        HapticManager.HeavyVibration();
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.UpdateStreakUI(CurrentStreak);
+            UIManager.Instance.TriggerFailureFeedback();
+        }
+
+        bool noMoreHints = currentHintCount >= GetTotalHintCount();
+
+        if (Lives <= 0 || noMoreHints)
+        {
+            UIManager.Instance?.RefreshStatusUI();
+            UIManager.Instance?.ShowRevealPanel(currentRiddle.answer);
+            return;
+        }
+
+        currentHintCount++;
+
+        if (UIManager.Instance != null)
+        {
+            //UIManager.Instance.ShowMessage(
+            //    "Incorrecto. Pierdes 1 vida.\n¡Aquí tienes una pista extra!"
+            //);
+            UIManager.Instance.RefreshUI();
+            UIManager.Instance.TriggerErrorShake();
+        }
+    }
+
+    private bool IsCorrectAnswer(string playerAnswer)
+    {
+        string normalizedPlayerAnswer = NormalizeText(playerAnswer);
+
+        if (normalizedPlayerAnswer == NormalizeText(currentRiddle.answer))
+        {
+            return true;
+        }
+
+        if (currentRiddle.acceptedAnswers == null)
+        {
+            return false;
+        }
+
+        foreach (string acceptedAnswer in currentRiddle.acceptedAnswers)
+        {
+            if (normalizedPlayerAnswer == NormalizeText(acceptedAnswer))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private int CalculateScore()
+    {
+        float maximumRoundScore = 100f + CurrentStreak * 50f;
+        float multiplier = 1f;
+
+        if (currentHintCount == initialHintCount + 1)
+        {
+            multiplier = 0.75f;
+        }
+        else if (currentHintCount >= initialHintCount + 2)
+        {
+            multiplier = 0.50f;
+        }
+
+        return Mathf.RoundToInt(maximumRoundScore * multiplier);
+    }
+
+    private int GetTotalHintCount()
+    {
+        return currentRiddle?.hints?.Length ?? 0;
+    }
+
+    private bool TryInitializeRiddles()
+    {
+        if (database == null)
+        {
+            Debug.LogError("RiddleDatabaseSO no está asignada en GameManager.");
+            return false;
+        }
+
+        if (database.riddles == null || database.riddles.Count == 0)
+        {
+            Debug.LogError("RiddleDatabaseSO no contiene acertijos.");
+            return false;
+        }
+
+        RefillAvailableRiddles();
+
+        if (availableRiddles.Count == 0)
+        {
+            Debug.LogError("La base de datos solo contiene referencias vacías.");
+            return false;
+        }
+
+        return true;
+    }
+
+    private void RefillAvailableRiddles()
+    {
+        availableRiddles.Clear();
+
+        foreach (RiddleSO riddle in database.riddles)
+        {
+            if (riddle != null)
+            {
+                availableRiddles.Add(riddle);
+            }
+        }
+    }
+
+    private static string NormalizeText(string text)
+    {
+        if (string.IsNullOrWhiteSpace(text))
+        {
+            return string.Empty;
+        }
+
+        string decomposedText = text
+            .Trim()
+            .ToLowerInvariant()
+            .Normalize(NormalizationForm.FormD);
+
+        StringBuilder result = new StringBuilder();
+
+        foreach (char character in decomposedText)
+        {
+            UnicodeCategory category = CharUnicodeInfo.GetUnicodeCategory(character);
+
+            if (category != UnicodeCategory.NonSpacingMark)
+            {
+                result.Append(character);
+            }
+        }
+
+        return result.ToString().Normalize(NormalizationForm.FormC);
+    }
+
+    /// <summary>
+    /// Confirma el panel de victoria, aplica la recompensa pendiente
+    /// y comienza la secuencia visual de puntos y racha.
+    /// </summary>
+    public void ContinueFromVictory()
+    {
+        if (!hasPendingCorrectReward)
+        {
+            return;
+        }
+
+        int gainedPoints = pendingCorrectPoints;
+
+        hasPendingCorrectReward = false;
+        pendingCorrectPoints = 0;
+
+        // El UIManager ya terminó la animación de salida del panel.
+        // Recién en este momento se aplica la recompensa real.
+        Score += gainedPoints;
+        CurrentStreak++;
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.UpdateStreakUI(CurrentStreak);
+
+            // Al terminar la transferencia de puntos comienza la próxima ronda.
+            UIManager.Instance.ShowCorrectFeedback(
+                Score,
+                gainedPoints,
+                BeginNextRoundAfterCorrectAnswer
+            );
+
+            return;
+        }
+
+        // Respaldo para escenas sin UIManager.
+        NextRound();
+    }
+
+    private void BeginNextRoundAfterCorrectAnswer()
+    {
+        UIManager.Instance?.RequestCategoryAttention();
+        NextRound();
+    }
+
+    public void ContinueFromReveal()
+    {
+        // El UIManager ya terminó la animación de salida del panel.
+        if (Lives <= 0)
+        {
+            GoToMainMenu();
+            return;
+        }
+
+        NextRound();
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void GoToMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
+    }
+
     public int GetRemainingHintCount()
     {
-        return Mathf.Max(0, GetTotalHintCount() - currentHintCount);
+        if (currentRiddle == null)
+        {
+            return 0;
+        }
+
+        return Mathf.Max(
+            0,
+            GetTotalHintCount() - currentHintCount
+        );
     }
 
     public bool HasMoreHints()
     {
         return currentRiddle != null &&
-               currentRiddle.hints != null &&
-               currentHintCount < currentRiddle.hints.Count();
-    }
-
-    private int GetTotalHintCount()
-    {
-        if (currentRiddle == null || currentRiddle.hints == null)
-        {
-            return 0;
-        }
-
-        return currentRiddle.hints.Count();
-    }
-
-    private int CalculateScore()
-    {
-        int baseScore = 100 + CurrentStreak * 50;
-
-        int extraHintsUsed =
-            Mathf.Max(0, currentHintCount - initialHintCount);
-
-        if (extraHintsUsed == 1)
-        {
-            return Mathf.RoundToInt(baseScore * 0.75f);
-        }
-
-        if (extraHintsUsed >= 2)
-        {
-            return Mathf.RoundToInt(baseScore * 0.5f);
-        }
-
-        return baseScore;
-    }
-
-    private static string NormalizeAnswer(string value)
-    {
-        if (string.IsNullOrWhiteSpace(value))
-        {
-            return string.Empty;
-        }
-
-        return value
-            .Trim()
-            .ToLowerInvariant();
+               currentHintCount < GetTotalHintCount();
     }
 }

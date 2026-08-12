@@ -1117,6 +1117,12 @@ public class UIManager : MonoBehaviour
 
     public void ExitToMainMenuFromPause()
     {
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.GoToMainMenu();
+            return;
+        }
+
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }

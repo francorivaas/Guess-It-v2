@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
@@ -6,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public const string HighScorePlayerPrefsKey = "HighScore";
+
     public static GameManager Instance { get; private set; }
 
     [Header("Configuration")]
@@ -13,17 +16,20 @@ public class GameManager : MonoBehaviour
     [SerializeField, Min(1)] private int startingLives = 3;
     [SerializeField, Min(1)] private int initialHintCount = 3;
 
+    [Header("Scenes")]
+    [Tooltip("Nombre exacto de la escena del menú principal. Debe estar agregada en Build Settings.")]
+    [SerializeField] private string mainMenuSceneName = "MainMenu";
+
+    [Tooltip("Se usa como respaldo si mainMenuSceneName está vacío o falla.")]
+    [SerializeField, Min(0)] private int fallbackMainMenuBuildIndex = 0;
+
     public int Score { get; private set; }
     public int Lives { get; private set; }
     public int CurrentStreak { get; private set; }
+    public int HighScore { get; private set; }
 
     private RiddleSO currentRiddle;
-
-    // Bolsa de acertijos que todavía pueden aparecer en la run actual.
     private readonly List<RiddleSO> availableRiddles = new List<RiddleSO>();
-
-    // Registro de acertijos que ya aparecieron en esta run.
-    // Se limpia únicamente cuando empieza una run nueva.
     private readonly HashSet<RiddleSO> usedRiddlesThisRun = new HashSet<RiddleSO>();
 
     private int currentHintCount;
@@ -31,8 +37,7 @@ public class GameManager : MonoBehaviour
     // Recompensa que permanece pendiente mientras el panel de victoria está abierto.
     private bool hasPendingCorrectReward;
     private int pendingCorrectPoints;
-
-    private bool allRiddlesUsedThisRun;
+    private bool runFinished;
 
     private void Awake()
     {
@@ -47,17 +52,43 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        StartNewRun();
+    }
+
+    private void OnDestroy()
+    {
+        if (Instance == this)
+        {
+            Instance = null;
+        }
+    }
+
+    private void OnApplicationPause(bool pauseStatus)
+    {
+        if (pauseStatus)
+        {
+            TrySaveHighScore();
+        }
+    }
+
+    private void OnApplicationQuit()
+    {
+        TrySaveHighScore();
+    }
+
+    private void StartNewRun()
+    {
         Score = 0;
         Lives = startingLives;
         CurrentStreak = 0;
+        HighScore = PlayerPrefs.GetInt(HighScorePlayerPrefsKey, 0);
 
         currentRiddle = null;
         currentHintCount = 0;
-
         hasPendingCorrectReward = false;
         pendingCorrectPoints = 0;
+        runFinished = false;
 
-        allRiddlesUsedThisRun = false;
         usedRiddlesThisRun.Clear();
         availableRiddles.Clear();
 
@@ -69,14 +100,6 @@ public class GameManager : MonoBehaviour
 
         UIManager.Instance?.RequestCategoryAttention();
         NextRound();
-    }
-
-    private void OnDestroy()
-    {
-        if (Instance == this)
-        {
-            Instance = null;
-        }
     }
 
     public RiddleSO GetCurrentRiddle()
@@ -91,7 +114,7 @@ public class GameManager : MonoBehaviour
 
     public void NextRound()
     {
-        if (allRiddlesUsedThisRun)
+        if (runFinished)
         {
             return;
         }
@@ -103,7 +126,7 @@ public class GameManager : MonoBehaviour
 
         if (availableRiddles.Count == 0)
         {
-            HandleAllRiddlesUsedThisRun();
+            HandleAllRiddlesUsed();
             return;
         }
 
@@ -113,13 +136,10 @@ public class GameManager : MonoBehaviour
             UIManager.Instance.ClearAnswerInput();
         }
 
-        int randomIndex = Random.Range(0, availableRiddles.Count);
-
+        int randomIndex = UnityEngine.Random.Range(0, availableRiddles.Count);
         currentRiddle = availableRiddles[randomIndex];
 
-        // Punto clave:
-        // quitamos el acertijo de la bolsa disponible y lo registramos como usado.
-        // RefillAvailableRiddles() ya no puede volver a agregarlo durante esta run.
+        // Evita que este acertijo vuelva a aparecer durante esta run.
         availableRiddles.RemoveAt(randomIndex);
         usedRiddlesThisRun.Add(currentRiddle);
 
@@ -130,11 +150,7 @@ public class GameManager : MonoBehaviour
 
     public void RequestHint()
     {
-        if (
-            allRiddlesUsedThisRun ||
-            currentRiddle == null ||
-            currentHintCount >= GetTotalHintCount()
-        )
+        if (runFinished || currentRiddle == null || currentHintCount >= GetTotalHintCount())
         {
             return;
         }
@@ -146,11 +162,7 @@ public class GameManager : MonoBehaviour
 
     public void SubmitAnswer(string playerAnswer)
     {
-        if (
-            allRiddlesUsedThisRun ||
-            currentRiddle == null ||
-            string.IsNullOrWhiteSpace(playerAnswer)
-        )
+        if (runFinished || currentRiddle == null || string.IsNullOrWhiteSpace(playerAnswer))
         {
             return;
         }
@@ -301,11 +313,6 @@ public class GameManager : MonoBehaviour
     {
         availableRiddles.Clear();
 
-        if (database == null || database.riddles == null)
-        {
-            return;
-        }
-
         foreach (RiddleSO riddle in database.riddles)
         {
             if (riddle == null)
@@ -322,21 +329,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void HandleAllRiddlesUsedThisRun()
+    private void HandleAllRiddlesUsed()
     {
-        allRiddlesUsedThisRun = true;
-        currentRiddle = null;
-        currentHintCount = 0;
+        runFinished = true;
+        TrySaveHighScore();
 
         Debug.LogWarning("No quedan acertijos sin usar en esta run.");
 
-        if (UIManager.Instance != null)
-        {
-            UIManager.Instance.ClearCards();
-            UIManager.Instance.ClearAnswerInput();
-            UIManager.Instance.RefreshStatusUI();
-            UIManager.Instance.ShowMessage("¡Completaste todos los acertijos disponibles!");
-        }
+        UIManager.Instance?.ClearCards();
+        UIManager.Instance?.ClearAnswerInput();
+        UIManager.Instance?.ShowMessage("¡Completaste todos los acertijos disponibles!");
     }
 
     private static string NormalizeText(string text)
@@ -386,6 +388,7 @@ public class GameManager : MonoBehaviour
         // Recién en este momento se aplica la recompensa real.
         Score += gainedPoints;
         CurrentStreak++;
+        TrySaveHighScore();
 
         if (UIManager.Instance != null)
         {
@@ -407,6 +410,11 @@ public class GameManager : MonoBehaviour
 
     private void BeginNextRoundAfterCorrectAnswer()
     {
+        if (runFinished)
+        {
+            return;
+        }
+
         UIManager.Instance?.RequestCategoryAttention();
         NextRound();
     }
@@ -426,13 +434,49 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         Time.timeScale = 1f;
+        TrySaveHighScore();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void GoToMainMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
+        TrySaveHighScore();
+        LoadMainMenuScene();
+    }
+
+    private bool TrySaveHighScore()
+    {
+        if (Score <= HighScore)
+        {
+            return false;
+        }
+
+        HighScore = Score;
+        PlayerPrefs.SetInt(HighScorePlayerPrefsKey, HighScore);
+        PlayerPrefs.Save();
+        return true;
+    }
+
+    private void LoadMainMenuScene()
+    {
+        if (!string.IsNullOrWhiteSpace(mainMenuSceneName))
+        {
+            try
+            {
+                SceneManager.LoadScene(mainMenuSceneName);
+                return;
+            }
+            catch (Exception exception)
+            {
+                Debug.LogWarning(
+                    $"No se pudo cargar la escena '{mainMenuSceneName}'. " +
+                    $"Se usará el Build Index {fallbackMainMenuBuildIndex}.\n{exception.Message}"
+                );
+            }
+        }
+
+        SceneManager.LoadScene(fallbackMainMenuBuildIndex);
     }
 
     public int GetRemainingHintCount()

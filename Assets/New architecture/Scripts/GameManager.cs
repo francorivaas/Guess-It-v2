@@ -18,12 +18,21 @@ public class GameManager : MonoBehaviour
     public int CurrentStreak { get; private set; }
 
     private RiddleSO currentRiddle;
+
+    // Bolsa de acertijos que todavía pueden aparecer en la run actual.
     private readonly List<RiddleSO> availableRiddles = new List<RiddleSO>();
+
+    // Registro de acertijos que ya aparecieron en esta run.
+    // Se limpia únicamente cuando empieza una run nueva.
+    private readonly HashSet<RiddleSO> usedRiddlesThisRun = new HashSet<RiddleSO>();
+
     private int currentHintCount;
 
     // Recompensa que permanece pendiente mientras el panel de victoria está abierto.
     private bool hasPendingCorrectReward;
     private int pendingCorrectPoints;
+
+    private bool allRiddlesUsedThisRun;
 
     private void Awake()
     {
@@ -41,6 +50,16 @@ public class GameManager : MonoBehaviour
         Score = 0;
         Lives = startingLives;
         CurrentStreak = 0;
+
+        currentRiddle = null;
+        currentHintCount = 0;
+
+        hasPendingCorrectReward = false;
+        pendingCorrectPoints = 0;
+
+        allRiddlesUsedThisRun = false;
+        usedRiddlesThisRun.Clear();
+        availableRiddles.Clear();
 
         if (!TryInitializeRiddles())
         {
@@ -72,6 +91,11 @@ public class GameManager : MonoBehaviour
 
     public void NextRound()
     {
+        if (allRiddlesUsedThisRun)
+        {
+            return;
+        }
+
         if (availableRiddles.Count == 0)
         {
             RefillAvailableRiddles();
@@ -79,7 +103,7 @@ public class GameManager : MonoBehaviour
 
         if (availableRiddles.Count == 0)
         {
-            Debug.LogError("No hay acertijos válidos disponibles.");
+            HandleAllRiddlesUsedThisRun();
             return;
         }
 
@@ -90,8 +114,14 @@ public class GameManager : MonoBehaviour
         }
 
         int randomIndex = Random.Range(0, availableRiddles.Count);
+
         currentRiddle = availableRiddles[randomIndex];
+
+        // Punto clave:
+        // quitamos el acertijo de la bolsa disponible y lo registramos como usado.
+        // RefillAvailableRiddles() ya no puede volver a agregarlo durante esta run.
         availableRiddles.RemoveAt(randomIndex);
+        usedRiddlesThisRun.Add(currentRiddle);
 
         currentHintCount = Mathf.Min(initialHintCount, GetTotalHintCount());
 
@@ -100,7 +130,11 @@ public class GameManager : MonoBehaviour
 
     public void RequestHint()
     {
-        if (currentRiddle == null || currentHintCount >= GetTotalHintCount())
+        if (
+            allRiddlesUsedThisRun ||
+            currentRiddle == null ||
+            currentHintCount >= GetTotalHintCount()
+        )
         {
             return;
         }
@@ -112,7 +146,11 @@ public class GameManager : MonoBehaviour
 
     public void SubmitAnswer(string playerAnswer)
     {
-        if (currentRiddle == null || string.IsNullOrWhiteSpace(playerAnswer))
+        if (
+            allRiddlesUsedThisRun ||
+            currentRiddle == null ||
+            string.IsNullOrWhiteSpace(playerAnswer)
+        )
         {
             return;
         }
@@ -134,8 +172,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        // Opción B:
-        // todavía no se modifica Score ni CurrentStreak.
+        // Todavía no se modifica Score ni CurrentStreak.
         // La recompensa queda pendiente hasta pulsar Continuar.
         pendingCorrectPoints = CalculateScore();
         hasPendingCorrectReward = true;
@@ -178,9 +215,6 @@ public class GameManager : MonoBehaviour
 
         if (UIManager.Instance != null)
         {
-            //UIManager.Instance.ShowMessage(
-            //    "Incorrecto. Pierdes 1 vida.\n¡Aquí tienes una pista extra!"
-            //);
             UIManager.Instance.RefreshUI();
             UIManager.Instance.TriggerErrorShake();
         }
@@ -202,6 +236,11 @@ public class GameManager : MonoBehaviour
 
         foreach (string acceptedAnswer in currentRiddle.acceptedAnswers)
         {
+            if (string.IsNullOrWhiteSpace(acceptedAnswer))
+            {
+                continue;
+            }
+
             if (normalizedPlayerAnswer == NormalizeText(acceptedAnswer))
             {
                 return true;
@@ -262,12 +301,41 @@ public class GameManager : MonoBehaviour
     {
         availableRiddles.Clear();
 
+        if (database == null || database.riddles == null)
+        {
+            return;
+        }
+
         foreach (RiddleSO riddle in database.riddles)
         {
-            if (riddle != null)
+            if (riddle == null)
             {
-                availableRiddles.Add(riddle);
+                continue;
             }
+
+            if (usedRiddlesThisRun.Contains(riddle))
+            {
+                continue;
+            }
+
+            availableRiddles.Add(riddle);
+        }
+    }
+
+    private void HandleAllRiddlesUsedThisRun()
+    {
+        allRiddlesUsedThisRun = true;
+        currentRiddle = null;
+        currentHintCount = 0;
+
+        Debug.LogWarning("No quedan acertijos sin usar en esta run.");
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.ClearCards();
+            UIManager.Instance.ClearAnswerInput();
+            UIManager.Instance.RefreshStatusUI();
+            UIManager.Instance.ShowMessage("¡Completaste todos los acertijos disponibles!");
         }
     }
 

@@ -1,14 +1,26 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
 using Unity.Services.Core.Environments;
 using Unity.Services.Leaderboards;
+using Unity.Services.Leaderboards.Models;
 using UnityEngine;
 
 public class UGSLeaderboardManager : MonoBehaviour
 {
     public static UGSLeaderboardManager Instance { get; private set; }
+
+    [Serializable]
+    public sealed class LeaderboardDisplayEntry
+    {
+        public int rank;
+        public string playerId;
+        public string playerName;
+        public int score;
+        public bool isCurrentPlayer;
+    }
 
     [Header("Leaderboard")]
     [SerializeField] private string leaderboardId = "guessit_high_score";
@@ -130,8 +142,6 @@ public class UGSLeaderboardManager : MonoBehaviour
 
         try
         {
-            // Pequeña espera para evitar problemas de timing en Unity 6
-            // justo después del login anónimo.
             await Task.Yield();
 
             var playerEntry =
@@ -152,16 +162,117 @@ public class UGSLeaderboardManager : MonoBehaviour
         }
     }
 
-    //[ContextMenu("Test Submit 1000")]
-    //private async void TestSubmit1000()
-    //{
-    //    await SubmitScoreAsync(1000);
-    //}
+    public async Task<List<LeaderboardDisplayEntry>> GetTopScoresAsync(
+        int limit = 10
+    )
+    {
+        List<LeaderboardDisplayEntry> entries =
+            new List<LeaderboardDisplayEntry>();
 
-    //[ContextMenu("Test Submit Random Score")]
-    //private async void TestSubmitRandomScore()
-    //{
-    //    int randomScore = UnityEngine.Random.Range(100, 10000);
-    //    await SubmitScoreAsync(randomScore);
-    //}
+        await InitializeAsync();
+
+        if (!IsReady)
+        {
+            Debug.LogWarning(
+                "No se pudo cargar el ranking porque UGS no está listo."
+            );
+
+            return entries;
+        }
+
+        try
+        {
+            await Task.Yield();
+
+            var scoresResponse =
+                await LeaderboardsService.Instance.GetScoresAsync(
+                    leaderboardId,
+                    new GetScoresOptions
+                    {
+                        Offset = 0,
+                        Limit = Mathf.Max(1, limit)
+                    }
+                );
+
+            if (scoresResponse == null || scoresResponse.Results == null)
+            {
+                return entries;
+            }
+
+            foreach (LeaderboardEntry entry in scoresResponse.Results)
+            {
+                entries.Add(ConvertEntry(entry));
+            }
+        }
+        catch (Exception exception)
+        {
+            Debug.LogError(
+                $"Error cargando Top Scores del leaderboard '{leaderboardId}': {exception}"
+            );
+        }
+
+        return entries;
+    }
+
+    public async Task<LeaderboardDisplayEntry> GetCurrentPlayerScoreAsync()
+    {
+        await InitializeAsync();
+
+        if (!IsReady)
+        {
+            Debug.LogWarning(
+                "No se pudo cargar el score personal porque UGS no está listo."
+            );
+
+            return null;
+        }
+
+        try
+        {
+            await Task.Yield();
+
+            LeaderboardEntry playerEntry =
+                await LeaderboardsService.Instance.GetPlayerScoreAsync(
+                    leaderboardId
+                );
+
+            return ConvertEntry(playerEntry);
+        }
+        catch (Exception exception)
+        {
+            Debug.Log(
+                $"El jugador todavía no tiene score en '{leaderboardId}' o no se pudo leer: {exception.Message}"
+            );
+
+            return null;
+        }
+    }
+
+    private LeaderboardDisplayEntry ConvertEntry(LeaderboardEntry entry)
+    {
+        if (entry == null)
+        {
+            return null;
+        }
+
+        string currentPlayerId = PlayerId;
+        string safeName = entry.PlayerName;
+
+        if (string.IsNullOrWhiteSpace(safeName))
+        {
+            safeName = "Jugador";
+        }
+
+        return new LeaderboardDisplayEntry
+        {
+            // UGS usa rank base 0. Para el jugador mostramos base 1.
+            rank = entry.Rank + 1,
+            playerId = entry.PlayerId,
+            playerName = safeName,
+            score = Mathf.RoundToInt((float)entry.Score),
+            isCurrentPlayer =
+                !string.IsNullOrWhiteSpace(currentPlayerId) &&
+                entry.PlayerId == currentPlayerId
+        };
+    }
 }

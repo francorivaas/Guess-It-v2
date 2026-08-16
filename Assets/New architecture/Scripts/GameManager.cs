@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using UnityEngine;
+using System.Threading.Tasks;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -39,6 +40,9 @@ public class GameManager : MonoBehaviour
     private int pendingCorrectPoints;
     private bool runFinished;
 
+    private int highScoreAtRunStart;
+    private bool leaderboardSubmittedThisRun;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -52,7 +56,21 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        StartNewRun();
+        Score = 0;
+        Lives = startingLives;
+        CurrentStreak = 0;
+
+        highScoreAtRunStart = PlayerPrefs.GetInt(HighScorePlayerPrefsKey, 0);
+        leaderboardSubmittedThisRun = false;
+
+        if (!TryInitializeRiddles())
+        {
+            enabled = false;
+            return;
+        }
+
+        UIManager.Instance?.RequestCategoryAttention();
+        NextRound();
     }
 
     private void OnDestroy()
@@ -431,20 +449,74 @@ public class GameManager : MonoBehaviour
         NextRound();
     }
 
-    public void RestartGame()
+    public async void RestartGame()
     {
         Time.timeScale = 1f;
-        TrySaveHighScore();
+
+        await SubmitRunScoreToLeaderboardIfNeededAsync();
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void GoToMainMenu()
+    public async void GoToMainMenu()
     {
         Time.timeScale = 1f;
-        TrySaveHighScore();
-        LoadMainMenuScene();
+
+        await SubmitRunScoreToLeaderboardIfNeededAsync();
+
+        SceneManager.LoadScene(0);
     }
 
+    private bool SaveHighScoreIfNeeded()
+    {
+        int savedHighScore = PlayerPrefs.GetInt(HighScorePlayerPrefsKey, 0);
+
+        if (Score > savedHighScore)
+        {
+            PlayerPrefs.SetInt(HighScorePlayerPrefsKey, Score);
+            PlayerPrefs.Save();
+
+            Debug.Log($"Nuevo High Score local guardado: {Score}");
+        }
+
+        bool isNewHighScoreForThisRun = Score > highScoreAtRunStart;
+
+        if (!isNewHighScoreForThisRun)
+        {
+            Debug.Log(
+                $"Score no enviado al ranking. Run score: {Score} | High Score al iniciar run: {highScoreAtRunStart}"
+            );
+        }
+
+        return isNewHighScoreForThisRun;
+    }
+    private async Task SubmitRunScoreToLeaderboardIfNeededAsync()
+    {
+        if (leaderboardSubmittedThisRun)
+        {
+            return;
+        }
+
+        bool shouldSubmit = SaveHighScoreIfNeeded();
+
+        if (!shouldSubmit)
+        {
+            return;
+        }
+
+        leaderboardSubmittedThisRun = true;
+
+        if (UGSLeaderboardManager.Instance == null)
+        {
+            Debug.LogWarning(
+                "No se pudo enviar el score porque no existe UGSLeaderboardManager."
+            );
+
+            return;
+        }
+
+        await UGSLeaderboardManager.Instance.SubmitScoreAsync(Score);
+    }
     private bool TrySaveHighScore()
     {
         if (Score <= HighScore)

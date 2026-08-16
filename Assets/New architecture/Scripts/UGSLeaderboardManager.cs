@@ -141,7 +141,7 @@ public class UGSLeaderboardManager : MonoBehaviour
                 );
 
             Debug.Log(
-                $"Score enviado. Leaderboard: {leaderboardId} | Score: {playerEntry.Score} | Rank: {playerEntry.Rank}"
+                $"Score de run enviado: {score} | Score guardado en leaderboard: {playerEntry.Score} | Rank: {playerEntry.Rank}"
             );
         }
         catch (Exception exception)
@@ -152,16 +152,16 @@ public class UGSLeaderboardManager : MonoBehaviour
         }
     }
 
-    [ContextMenu("Test Submit 1000")]
-    private async void TestSubmit1000()
-    {
-        await SubmitScoreAsync(1000);
-    }
+    //[ContextMenu("Test Submit 1000")]
+    //private async void TestSubmit1000()
+    //{
+    //    await SubmitScoreAsync(1000);
+    //}
 
-    [ContextMenu("Test Submit Random Score")]
-    private async void TestSubmitRandomScore()
-    {
-        int randomScore = UnityEngine.Random.Range(100, 10000);
-        await SubmitScoreAsync(randomScore);
-    }
+    //[ContextMenu("Test Submit Random Score")]
+    //private async void TestSubmitRandomScore()
+    //{
+    //    int randomScore = UnityEngine.Random.Range(100, 10000);
+    //    await SubmitScoreAsync(randomScore);
+    //}
 }

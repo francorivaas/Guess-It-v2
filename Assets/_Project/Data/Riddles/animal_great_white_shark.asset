@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: animal_great_white_shark
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: animal_great_white_shark
+  category: animales
+  difficulty: 1
+  answer: "Tibur\xF3n blanco"
+  acceptedAnswers:
+  - "Tibur\xF3n blanco"
+  - Tiburon blanco
+  - "Gran tibur\xF3n blanco"
+  - Gran tiburon blanco
+  - Great white shark
+  hints:
+  - "Es un gran depredador marino que detecta movimientos y se\xF1ales el\xE9ctricas
+    de sus presas."
+  - "Pertenece a un grupo de peces con esqueleto de cart\xEDlago."
+  - Sus dientes son triangulares, aserrados y se reemplazan continuamente.
+  - Se alimenta de peces, focas y otros animales marinos.
+  - Presenta dorso gris y vientre blanco.

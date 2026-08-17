@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: country_india_02
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: country_india_02
+  category: paises
+  difficulty: 1
+  answer: India
+  acceptedAnswers:
+  - India
+  hints:
+  - "Ocupa gran parte de una gran pen\xEDnsula del sur de Asia."
+  - "El hindi y el ingl\xE9s cumplen funciones oficiales a nivel nacional junto a
+    numerosas lenguas regionales."
+  - "El cine de Bollywood produce pel\xEDculas para enormes audiencias."
+  - Nueva Delhi es su capital.
+  - El Taj Mahal se encuentra en Agra.

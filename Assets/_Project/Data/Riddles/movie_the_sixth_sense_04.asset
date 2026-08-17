@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: movie_the_sixth_sense_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: movie_the_sixth_sense_04
+  category: peliculas
+  difficulty: 0
+  answer: El sexto sentido
+  acceptedAnswers:
+  - El sexto sentido
+  - The Sixth Sense
+  - Sexto sentido
+  hints:
+  - "Un drama psicol\xF3gico gira alrededor de un ni\xF1o con un problema que los
+    adultos no comprenden."
+  - El protagonista adulto carga con la culpa de un caso anterior.
+  - El color rojo aparece asociado a momentos donde los mundos parecen tocarse.
+  - "El terapeuta descubre al final una verdad que cambia la interpretaci\xF3n de
+    toda la historia."
+  - "Malcolm comprende que \xE9l mismo ha estado muerto durante gran parte de la
+    pel\xEDcula."

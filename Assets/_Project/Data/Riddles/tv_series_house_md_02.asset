@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tv_series_house_md_02
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tv_series_house_md_02
+  category: series de tv
+  difficulty: 1
+  answer: House
+  acceptedAnswers:
+  - House
+  - House M.D.
+  - Dr. House
+  - Doctor House
+  hints:
+  - "El protagonista conf\xEDa m\xE1s en el razonamiento que en la cortes\xEDa."
+  - "Su personalidad sarc\xE1stica crea conflictos con pacientes y colegas."
+  - "Es adicto a un analg\xE9sico llamado Vicodin."
+  - "Su mejor amigo es el onc\xF3logo James Wilson."
+  - "El protagonista se llama Gregory y dirige el equipo de diagn\xF3stico."

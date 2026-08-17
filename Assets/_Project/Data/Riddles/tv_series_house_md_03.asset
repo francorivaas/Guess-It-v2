@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tv_series_house_md_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tv_series_house_md_03
+  category: series de tv
+  difficulty: 1
+  answer: House
+  acceptedAnswers:
+  - House
+  - House M.D.
+  - Dr. House
+  - Doctor House
+  hints:
+  - "El protagonista conf\xEDa m\xE1s en el razonamiento que en la cortes\xEDa."
+  - "Un m\xE9dico brillante dirige un equipo especializado en diagn\xF3sticos complejos."
+  - "Camina con bast\xF3n por una lesi\xF3n cr\xF3nica en la pierna."
+  - Repite la idea de que los pacientes suelen mentir.
+  - Trabaja en el hospital ficticio Princeton-Plainsboro.

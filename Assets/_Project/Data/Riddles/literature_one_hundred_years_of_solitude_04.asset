@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: literature_one_hundred_years_of_solitude_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: literature_one_hundred_years_of_solitude_04
+  category: libros y obras literarias
+  difficulty: 1
+  answer: "Cien a\xF1os de soledad"
+  acceptedAnswers:
+  - "Cien a\xF1os de soledad"
+  - One Hundred Years of Solitude
+  hints:
+  - Relata varias generaciones de una familia mientras realidad y elementos extraordinarios
+    conviven con naturalidad.
+  - "Gran parte de la acci\xF3n transcurre en un pueblo ficticio."
+  - "El realismo m\xE1gico es una etiqueta muy asociada a la novela."
+  - "El coronel Aureliano Buend\xEDa es uno de sus personajes m\xE1s recordados."
+  - "La saga familiar de los Buend\xEDa en Macondo define la obra."

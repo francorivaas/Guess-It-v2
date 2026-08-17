@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: city_buenos_aires
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: city_buenos_aires
+  category: ciudades
+  difficulty: 1
+  answer: Buenos Aires
+  acceptedAnswers:
+  - Buenos Aires
+  - Ciudad de Buenos Aires
+  - CABA
+  hints:
+  - "Es una gran ciudad sudamericana marcada por inmigraci\xF3n, caf\xE9s y vida
+    cultural."
+  - Es la capital de Argentina.
+  - El tango forma parte esencial de su identidad cultural.
+  - El Obelisco se levanta sobre una avenida extremadamente ancha.
+  - "El Teatro Col\xF3n es uno de sus edificios culturales m\xE1s prestigiosos."

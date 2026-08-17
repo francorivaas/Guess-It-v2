@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: city_paris_02
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: city_paris_02
+  category: ciudades
+  difficulty: 0
+  answer: "Par\xEDs"
+  acceptedAnswers:
+  - "Par\xEDs"
+  - Paris
+  hints:
+  - "Sus barrios mezclan amplias avenidas, caf\xE9s y edificios hist\xF3ricos."
+  - Un gran museo ocupa un antiguo palacio real.
+  - "Montmartre est\xE1 ligado a artistas y a una bas\xEDlica blanca."
+  - El Louvre alberga la Mona Lisa.
+  - "Los Campos El\xEDseos son una de sus avenidas m\xE1s conocidas."

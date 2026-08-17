@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fictional_character_elsa_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fictional_character_elsa_03
+  category: personajes ficticios
+  difficulty: 1
+  answer: Elsa
+  acceptedAnswers:
+  - Elsa
+  - Elsa de Arendelle
+  hints:
+  - "Durante a\xF1os oculta una capacidad que no sabe controlar por completo."
+  - Es una reina capaz de crear hielo y nieve.
+  - "Su relaci\xF3n m\xE1s importante es con su hermana menor."
+  - "Su canci\xF3n m\xE1s conocida ocurre cuando decide dejar de ocultarse."
+  - Su magia congela accidentalmente el reino en pleno verano.

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: music_band_bee_gees
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: music_band_bee_gees
+  category: bandas musicales
+  difficulty: 2
+  answer: Bee Gees
+  acceptedAnswers:
+  - Bee Gees
+  hints:
+  - "Su carrera atraves\xF3 varias etapas antes de quedar fuertemente asociada a
+    la m\xFAsica de baile."
+  - Fue un grupo formado principalmente por tres hermanos.
+  - Durante la era disco popularizaron un canto agudo en falsete.
+  - "Stayin' Alive es uno de sus mayores cl\xE1sicos."
+  - "Night Fever tambi\xE9n forma parte de su etapa m\xE1s famosa."

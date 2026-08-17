@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: music_band_guns_n_roses
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: music_band_guns_n_roses
+  category: bandas musicales
+  difficulty: 2
+  answer: Guns N' Roses
+  acceptedAnswers:
+  - Guns N' Roses
+  - Guns and Roses
+  - GNR
+  hints:
+  - "Combin\xF3 hard rock con una imagen callejera y excesiva."
+  - "Es una banda estadounidense surgida en Los \xC1ngeles."
+  - Slash se reconoce por sombrero alto, cabello rizado y guitarra.
+  - Welcome to the Jungle fue uno de sus primeros grandes himnos.
+  - "El d\xFAo visual m\xE1s asociado al grupo es Axl Rose y Slash."

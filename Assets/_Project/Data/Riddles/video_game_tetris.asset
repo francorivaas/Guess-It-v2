@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: video_game_tetris
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: video_game_tetris
+  category: videojuegos
+  difficulty: 1
+  answer: Tetris
+  acceptedAnswers:
+  - Tetris
+  hints:
+  - "Su dise\xF1o demuestra c\xF3mo reglas extremadamente simples pueden generar
+    enorme profundidad."
+  - "Figuras geom\xE9tricas caen desde la parte superior de la pantalla."
+  - "Completar una l\xEDnea horizontal hace que desaparezca."
+  - "Una pieza larga puede limpiar cuatro l\xEDneas de una sola vez."
+  - "Sus figuras se conocen como tetromin\xF3s."

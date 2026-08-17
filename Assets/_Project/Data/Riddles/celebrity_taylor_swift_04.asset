@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: celebrity_taylor_swift_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: celebrity_taylor_swift_04
+  category: celebridades
+  difficulty: 0
+  answer: Taylor Swift
+  acceptedAnswers:
+  - Taylor Swift
+  hints:
+  - "Transform\xF3 experiencias personales en una parte central de su identidad art\xEDstica."
+  - Es conocida por dejar pistas y referencias internas para sus seguidores.
+  - Su gira Eras Tour repasa distintas etapas de su carrera.
+  - "Blank Space y Shake It Off est\xE1n entre sus canciones m\xE1s reconocidas."
+  - "Es una cantautora estadounidense cuyo apellido significa 'veloz' en ingl\xE9s."

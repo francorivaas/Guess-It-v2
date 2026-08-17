@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fictional_character_shrek_character
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fictional_character_shrek_character
+  category: personajes ficticios
+  difficulty: 1
+  answer: Shrek
+  acceptedAnswers:
+  - Shrek
+  hints:
+  - Prefiere la tranquilidad y la privacidad antes que las aventuras heroicas.
+  - Es un ogro verde que vive solo en un pantano.
+  - Su mejor amigo es extremadamente hablador.
+  - "Su amigo m\xE1s cercano es Burro."
+  - "Termina formando una familia sin abandonar su car\xE1cter gru\xF1\xF3n."

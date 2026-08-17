@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: literature_the_hobbit_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: literature_the_hobbit_03
+  category: libros y obras literarias
+  difficulty: 1
+  answer: El hobbit
+  acceptedAnswers:
+  - El hobbit
+  - The Hobbit
+  hints:
+  - "El protagonista abandona una vida c\xF3moda para un viaje que nunca hab\xEDa
+    planeado."
+  - "Un hobbit acompa\xF1a a un grupo de enanos en una misi\xF3n."
+  - "Un mago gris organiza inicialmente la expedici\xF3n."
+  - "El drag\xF3n Smaug custodia el tesoro bajo la Monta\xF1a Solitaria."
+  - "Fue escrita por J. R. R. Tolkien como historia anterior a El Se\xF1or de los
+    Anillos."

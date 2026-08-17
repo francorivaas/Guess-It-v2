@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tv_series_game_of_thrones_02
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tv_series_game_of_thrones_02
+  category: series de tv
+  difficulty: 0
+  answer: Game of Thrones
+  acceptedAnswers:
+  - Game of Thrones
+  - Juego de tronos
+  hints:
+  - Los personajes deben sobrevivir en un mundo donde las alianzas cambian constantemente.
+  - "Varias casas nobles poseen lemas y s\xEDmbolos animales."
+  - Los dragones regresan al mundo gracias a una joven exiliada.
+  - Los Stark, Lannister y Targaryen son familias centrales.
+  - Daenerys es conocida como Madre de Dragones.

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: movie_star_wars_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: movie_star_wars_03
+  category: peliculas
+  difficulty: 1
+  answer: Star Wars
+  acceptedAnswers:
+  - Star Wars
+  - La guerra de las galaxias
+  - Guerra de las galaxias
+  hints:
+  - Una familia queda en el centro de una guerra que atraviesa numerosos mundos.
+  - "Los h\xE9roes viajan entre planetas y estaciones espaciales."
+  - "Un contrabandista y su copiloto peludo se unen a la rebeli\xF3n."
+  - "Un peque\xF1o droide azul y blanco lleva informaci\xF3n crucial al comienzo
+    de la saga."
+  - "Los sables de luz y la Fuerza son dos de sus s\xEDmbolos m\xE1s conocidos."

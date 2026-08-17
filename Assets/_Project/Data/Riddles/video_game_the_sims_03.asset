@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: video_game_the_sims_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: video_game_the_sims_03
+  category: videojuegos
+  difficulty: 1
+  answer: The Sims
+  acceptedAnswers:
+  - The Sims
+  - Los Sims
+  hints:
+  - "El jugador controla vidas completas m\xE1s que una aventura tradicional."
+  - Los personajes necesitan comer, dormir, socializar y trabajar.
+  - "Las relaciones cambian seg\xFAn las interacciones elegidas."
+  - "El fuego en la cocina puede convertirse r\xE1pidamente en una crisis dom\xE9stica."
+  - Permite crear personas virtuales y dirigir su vida diaria.

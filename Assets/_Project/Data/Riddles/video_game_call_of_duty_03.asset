@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: video_game_call_of_duty_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: video_game_call_of_duty_03
+  category: videojuegos
+  difficulty: 1
+  answer: Call of Duty
+  acceptedAnswers:
+  - Call of Duty
+  - COD
+  hints:
+  - "Ha recorrido conflictos hist\xF3ricos y escenarios modernos o futuristas."
+  - Es una franquicia de disparos en primera persona.
+  - El multijugador recompensa reflejos, mapas y equipamientos personalizados.
+  - Los killstreaks recompensan encadenar bajas en varias entregas.
+  - "Es una de las sagas anuales de shooters militares m\xE1s conocidas."

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: celebrity_pablo_picasso
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: celebrity_pablo_picasso
+  category: celebridades
+  difficulty: 2
+  answer: Pablo Picasso
+  acceptedAnswers:
+  - Pablo Picasso
+  - Picasso
+  hints:
+  - "Su carrera atraves\xF3 estilos muy diferentes y cambi\xF3 repetidamente de lenguaje
+    visual."
+  - "Fue un pintor y escultor espa\xF1ol que desarroll\xF3 gran parte de su carrera
+    en Francia."
+  - "Una de sus obras m\xE1s famosas denuncia el horror de un bombardeo durante la
+    Guerra Civil Espa\xF1ola."
+  - "Las formas fragmentadas y m\xFAltiples puntos de vista aparecen en muchas de
+    sus obras."
+  - "Guernica es su pintura pol\xEDtica m\xE1s reconocida."

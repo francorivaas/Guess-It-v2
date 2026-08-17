@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: movie_the_lion_king_02
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: movie_the_lion_king_02
+  category: peliculas
+  difficulty: 0
+  answer: "El rey le\xF3n"
+  acceptedAnswers:
+  - "El rey le\xF3n"
+  - The Lion King
+  - "Rey Le\xF3n"
+  hints:
+  - "Su mundo est\xE1 habitado principalmente por animales de la sabana africana."
+  - Un joven heredero huye tras una tragedia familiar.
+  - "Un suricato y un jabal\xED acompa\xF1an al protagonista durante su exilio."
+  - El villano es el hermano celoso del gobernante.
+  - El protagonista vuelve para reclamar su lugar en la Roca del Rey.

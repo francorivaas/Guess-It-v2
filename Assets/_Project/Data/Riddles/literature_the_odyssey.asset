@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: literature_the_odyssey
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: literature_the_odyssey
+  category: libros y obras literarias
+  difficulty: 2
+  answer: La Odisea
+  acceptedAnswers:
+  - La Odisea
+  - Odisea
+  - The Odyssey
+  hints:
+  - "Es una historia de regreso que tarda muchos a\xF1os en completarse."
+  - "Un h\xE9roe griego intenta volver a casa despu\xE9s de una guerra."
+  - "Un c\xEDclope queda atrapado mediante un enga\xF1o relacionado con un nombre."
+  - "Pen\xE9lope teje y desteje para retrasar una decisi\xF3n."
+  - "Su hogar es la isla de \xCDtaca."

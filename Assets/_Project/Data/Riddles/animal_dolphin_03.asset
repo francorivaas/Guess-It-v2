@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: animal_dolphin_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: animal_dolphin_03
+  category: animales
+  difficulty: 1
+  answer: "Delf\xEDn"
+  acceptedAnswers:
+  - "Delf\xEDn"
+  - Delfin
+  - Dolphin
+  hints:
+  - "Respira aire aunque pasa pr\xE1cticamente toda su vida en el agua."
+  - Vive en grupos y se comunica mediante numerosos sonidos.
+  - Debe subir a la superficie para respirar.
+  - Posee una inteligencia destacada entre los animales.
+  - "Es el cet\xE1ceo peque\xF1o m\xE1s asociado a espect\xE1culos de saltos y gran
+    sociabilidad."

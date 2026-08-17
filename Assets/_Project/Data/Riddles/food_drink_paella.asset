@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: food_drink_paella
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: food_drink_paella
+  category: comidas y bebidas
+  difficulty: 2
+  answer: Paella
+  acceptedAnswers:
+  - Paella
+  hints:
+  - Es un plato pensado tradicionalmente para cocinarse y compartirse en un recipiente
+    amplio.
+  - "Se origin\xF3 en la regi\xF3n espa\xF1ola de Valencia."
+  - "Se cocina en una sart\xE9n ancha y poco profunda."
+  - La variante valenciana tradicional puede incluir conejo y pollo.
+  - "Es el famoso plato valenciano de arroz cocinado y servido en una sart\xE9n ancha."

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: country_united_states_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: country_united_states_04
+  category: paises
+  difficulty: 0
+  answer: Estados Unidos
+  acceptedAnswers:
+  - Estados Unidos
+  - "Estados Unidos de Am\xE9rica"
+  - Estados Unidos de America
+  - USA
+  - EEUU
+  - EE.UU.
+  - United States
+  hints:
+  - "Su territorio continental se extiende entre dos grandes oc\xE9anos."
+  - "Su idioma m\xE1s utilizado es el ingl\xE9s, aunque no tiene idioma oficial a
+    nivel federal."
+  - "El jazz, el blues y el hip hop surgieron all\xED."
+  - "Nueva York es su ciudad m\xE1s poblada y uno de sus grandes centros culturales."
+  - Su bandera muestra estrellas por los estados y franjas rojas y blancas.

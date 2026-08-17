@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fictional_character_harry_potter_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fictional_character_harry_potter_03
+  category: personajes ficticios
+  difficulty: 1
+  answer: Harry Potter
+  acceptedAnswers:
+  - Harry Potter
+  hints:
+  - "Un descubrimiento en su infancia cambia por completo el mundo que cre\xEDa conocer."
+  - Es un joven mago criado por familiares que intentan ocultarle su origen.
+  - Destaca volando en escoba y juega como buscador.
+  - "Su varita contiene una conexi\xF3n especial con la de su principal enemigo."
+  - "Sobrevive de beb\xE9 al ataque de Voldemort y queda marcado en la frente."

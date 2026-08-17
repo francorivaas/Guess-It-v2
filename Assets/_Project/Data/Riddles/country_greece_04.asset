@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: country_greece_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: country_greece_04
+  category: paises
+  difficulty: 0
+  answer: Grecia
+  acceptedAnswers:
+  - Grecia
+  - Greece
+  hints:
+  - "Su territorio combina una parte continental monta\xF1osa con numerosas islas."
+  - El griego es su idioma oficial.
+  - "La mitolog\xEDa de Zeus, Atenea y Poseid\xF3n naci\xF3 en su cultura."
+  - "El Parten\xF3n domina la Acr\xF3polis de la capital."
+  - La palabra democracia tiene origen en su lengua y su historia.

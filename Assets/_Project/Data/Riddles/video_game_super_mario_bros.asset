@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: video_game_super_mario_bros
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: video_game_super_mario_bros
+  category: videojuegos
+  difficulty: 1
+  answer: Super Mario Bros.
+  acceptedAnswers:
+  - Super Mario Bros.
+  - Super Mario Bros
+  - Super Mario
+  hints:
+  - "Su estructura convirti\xF3 correr y saltar hacia la derecha en una experiencia
+    universal."
+  - "Un plomero viaja por un reino fant\xE1stico para rescatar a una princesa."
+  - "Los hongos pueden aumentar el tama\xF1o del protagonista."
+  - Los Goombas y Koopas son enemigos comunes.
+  - "La princesa Peach es el objetivo cl\xE1sico del rescate."

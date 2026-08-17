@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: food_drink_croissant
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: food_drink_croissant
+  category: comidas y bebidas
+  difficulty: 2
+  answer: Croissant
+  acceptedAnswers:
+  - Croissant
+  - "Cruas\xE1n"
+  - Cruasan
+  hints:
+  - Su textura ideal combina capas crujientes por fuera con un interior ligero.
+  - "Es una pieza de boller\xEDa fuertemente asociada a Francia."
+  - Durante el horneado se separan numerosas capas.
+  - "Su nombre en franc\xE9s significa creciente."
+  - "Es la medialuna francesa de masa laminada y mantequilla m\xE1s famosa."

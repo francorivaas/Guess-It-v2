@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: technology_printing_press_02
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: technology_printing_press_02
+  category: inventos y tecnologia
+  difficulty: 1
+  answer: Imprenta
+  acceptedAnswers:
+  - Imprenta
+  - Printing press
+  hints:
+  - "Su impacto ayud\xF3 a expandir alfabetizaci\xF3n, ciencia y circulaci\xF3n de
+    ideas."
+  - "Reemplaz\xF3 gran parte del trabajo manual de copiar libros."
+  - "Johannes Gutenberg est\xE1 fuertemente asociado a su desarrollo europeo."
+  - "La Biblia de Gutenberg es una de sus primeras obras c\xE9lebres."
+  - Fue clave para difundir ideas durante la Reforma y la ciencia moderna.

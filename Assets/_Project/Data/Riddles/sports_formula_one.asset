@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sports_formula_one
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sports_formula_one
+  category: deportes
+  difficulty: 2
+  answer: "F\xF3rmula 1"
+  acceptedAnswers:
+  - "F\xF3rmula 1"
+  - Formula 1
+  - F1
+  hints:
+  - "Combina habilidad humana con desarrollo tecnol\xF3gico extremo."
+  - "Es la categor\xEDa m\xE1s famosa de automovilismo de monoplazas."
+  - "Las paradas en boxes pueden cambiar neum\xE1ticos en pocos segundos."
+  - "El safety car puede agrupar a los competidores despu\xE9s de incidentes."
+  - "Ferrari es el equipo hist\xF3rico m\xE1s asociado a la competici\xF3n."

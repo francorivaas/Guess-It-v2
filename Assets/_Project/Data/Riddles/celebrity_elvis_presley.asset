@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: celebrity_elvis_presley
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: celebrity_elvis_presley
+  category: celebridades
+  difficulty: 1
+  answer: Elvis Presley
+  acceptedAnswers:
+  - Elvis Presley
+  - Elvis
+  hints:
+  - "Su imagen mezcl\xF3 m\xFAsica, cine y una nueva forma de presencia esc\xE9nica."
+  - "Populariz\xF3 mundialmente una versi\xF3n muy en\xE9rgica del rock and roll."
+  - "Tambi\xE9n protagoniz\xF3 numerosas pel\xEDculas."
+  - "Jailhouse Rock es una de sus canciones y escenas m\xE1s famosas."
+  - Fue conocido como el Rey del Rock and Roll.

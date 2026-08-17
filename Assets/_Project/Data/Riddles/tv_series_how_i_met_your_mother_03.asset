@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tv_series_how_i_met_your_mother_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tv_series_how_i_met_your_mother_03
+  category: series de tv
+  difficulty: 1
+  answer: "C\xF3mo conoc\xED a tu madre"
+  acceptedAnswers:
+  - "C\xF3mo conoc\xED a tu madre"
+  - Como conoci a tu madre
+  - How I Met Your Mother
+  - HIMYM
+  hints:
+  - El narrador explica a sus hijos una larga serie de recuerdos de juventud.
+  - Un arquitecto busca pareja mientras vive en Nueva York.
+  - Un personaje mujeriego utiliza trajes y reglas propias para conquistar.
+  - "Barney suele decir que sus planes ser\xE1n legendarios."
+  - "El t\xEDtulo se refiere a la extensa historia de c\xF3mo Ted conoci\xF3 a la
+    madre de sus hijos."

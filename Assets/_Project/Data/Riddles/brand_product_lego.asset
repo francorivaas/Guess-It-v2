@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: brand_product_lego
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: brand_product_lego
+  category: marcas y productos iconicos
+  difficulty: 1
+  answer: LEGO
+  acceptedAnswers:
+  - LEGO
+  hints:
+  - "Su producto principal permite crear objetos mucho m\xE1s complejos a partir
+    de piezas simples."
+  - "Es una marca danesa de juguetes de construcci\xF3n."
+  - Los sets representan desde casas hasta naves espaciales y monumentos.
+  - "Las piezas rectangulares con peque\xF1os puntos superiores son su imagen m\xE1s
+    cl\xE1sica."
+  - "Su nombre est\xE1 asociado a bloques pl\xE1sticos encajables."

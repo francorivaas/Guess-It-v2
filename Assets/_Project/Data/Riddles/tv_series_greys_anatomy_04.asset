@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tv_series_greys_anatomy_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tv_series_greys_anatomy_04
+  category: series de tv
+  difficulty: 0
+  answer: Grey's Anatomy
+  acceptedAnswers:
+  - Grey's Anatomy
+  - Greys Anatomy
+  - "Anatom\xEDa de Grey"
+  - Anatomia de Grey
+  hints:
+  - "Combina casos m\xE9dicos con relaciones personales de larga duraci\xF3n."
+  - "Comienza siguiendo a un grupo de internos de cirug\xEDa."
+  - El hospital cambia de nombre varias veces dentro de la historia.
+  - Meredith es hija de una cirujana famosa.
+  - "Seattle Grace es uno de los nombres m\xE1s recordados de su hospital."

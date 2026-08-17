@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: city_cairo_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: city_cairo_04
+  category: ciudades
+  difficulty: 0
+  answer: El Cairo
+  acceptedAnswers:
+  - El Cairo
+  - Cairo
+  hints:
+  - "Es una gran capital africana marcada por miles de a\xF1os de historia cercana."
+  - "El Nilo atraviesa su \xE1rea urbana."
+  - "Las pir\xE1mides m\xE1s famosas se encuentran en la vecina Giza."
+  - La Ciudadela de Saladino domina parte del horizonte.
+  - "El r\xEDo Nilo y la cercan\xEDa de las pir\xE1mides son sus asociaciones geogr\xE1ficas
+    m\xE1s fuertes."

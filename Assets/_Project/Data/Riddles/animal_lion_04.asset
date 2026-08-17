@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: animal_lion_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: animal_lion_04
+  category: animales
+  difficulty: 0
+  answer: "Le\xF3n"
+  acceptedAnswers:
+  - "Le\xF3n"
+  - Leon
+  - Lion
+  hints:
+  - "Es un gran depredador cuya organizaci\xF3n social es poco com\xFAn entre los
+    felinos."
+  - Las hembras realizan gran parte de la caza en grupo.
+  - "Su rugido puede escucharse a varios kil\xF3metros."
+  - "Comparte h\xE1bitat con cebras, \xF1us y ant\xEDlopes."
+  - "La melena del macho es uno de los rasgos animales m\xE1s reconocibles."

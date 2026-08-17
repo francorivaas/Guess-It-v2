@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: number_seven
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: number_seven
+  category: numeros
+  difficulty: 1
+  answer: 7
+  acceptedAnswers:
+  - 7
+  - siete
+  - seven
+  hints:
+  - "Es un n\xFAmero peque\xF1o con una presencia cultural sorprendentemente grande."
+  - "Es un n\xFAmero primo."
+  - "El arco\xEDris suele describirse con esta cantidad de colores."
+  - Las maravillas del mundo suelen enumerarse con esta cantidad.
+  - "En numerosos juegos de azar se considera un n\xFAmero de buena suerte."

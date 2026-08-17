@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tv_series_the_big_bang_theory
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tv_series_the_big_bang_theory
+  category: series de tv
+  difficulty: 2
+  answer: The Big Bang Theory
+  acceptedAnswers:
+  - The Big Bang Theory
+  - Big Bang Theory
+  hints:
+  - Su comedia mezcla vida social con referencias a ciencia y cultura geek.
+  - "Dos f\xEDsicos comparten departamento y se relacionan con una nueva vecina."
+  - "Los c\xF3mics, videojuegos y ciencia ficci\xF3n aparecen constantemente."
+  - "Sheldon tiene un lugar espec\xEDfico en el sof\xE1 que considera suyo."
+  - "Leonard y Sheldon son compa\xF1eros de departamento al inicio."

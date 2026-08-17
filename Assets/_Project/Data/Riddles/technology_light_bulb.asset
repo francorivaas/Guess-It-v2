@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: technology_light_bulb
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: technology_light_bulb
+  category: inventos y tecnologia
+  difficulty: 2
+  answer: "Bombilla el\xE9ctrica"
+  acceptedAnswers:
+  - "Bombilla el\xE9ctrica"
+  - Bombilla electrica
+  - Bombilla
+  - Foco
+  - Lamparita
+  - Light bulb
+  hints:
+  - "Permiti\xF3 iluminar espacios interiores de forma pr\xE1ctica sin una llama
+    abierta."
+  - "Es un dispositivo de iluminaci\xF3n."
+  - "Thomas Edison est\xE1 muy asociado a su desarrollo comercial."
+  - Las versiones modernas utilizan con frecuencia LED.
+  - "Se enrosca o conecta a un portal\xE1mparas para producir luz."

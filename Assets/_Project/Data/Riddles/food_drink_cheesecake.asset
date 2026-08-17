@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: food_drink_cheesecake
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: food_drink_cheesecake
+  category: comidas y bebidas
+  difficulty: 2
+  answer: Cheesecake
+  acceptedAnswers:
+  - Cheesecake
+  - Tarta de queso
+  - Pastel de queso
+  hints:
+  - Es un postre denso y cremoso que suele contrastar con una base crujiente.
+  - "El queso crema es uno de sus ingredientes m\xE1s comunes."
+  - "Az\xFAcar, huevos y crema aparecen en muchas recetas."
+  - "La versi\xF3n de Nueva York es especialmente famosa."
+  - Al cortarlo se distingue una capa cremosa sobre una base fina.

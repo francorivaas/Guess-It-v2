@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: technology_television_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: technology_television_03
+  category: inventos y tecnologia
+  difficulty: 1
+  answer: "Televisi\xF3n"
+  acceptedAnswers:
+  - "Televisi\xF3n"
+  - Television
+  - TV
+  hints:
+  - "Durante d\xE9cadas organiz\xF3 horarios familiares alrededor de una programaci\xF3n
+    fija."
+  - Transmite contenido audiovisual a distancia.
+  - "Canales y emisoras env\xEDan programaci\xF3n a grandes audiencias."
+  - Las pantallas pasaron de grandes tubos a paneles planos.
+  - "Es el medio dom\xE9stico cl\xE1sico para ver programas y emisiones en una pantalla."

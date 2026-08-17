@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tv_series_squid_game_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tv_series_squid_game_04
+  category: series de tv
+  difficulty: 0
+  answer: El juego del calamar
+  acceptedAnswers:
+  - El juego del calamar
+  - Squid Game
+  hints:
+  - Convierte juegos infantiles en una competencia de consecuencias extremas.
+  - "Cada ronda adapta un juego sencillo conocido por ni\xF1os."
+  - "El primer desaf\xEDo exige quedarse inm\xF3vil cuando una figura deja de mirar."
+  - "Una mu\xF1eca gigante controla el juego de 'luz roja, luz verde'."
+  - El concursante 456 es el protagonista principal.

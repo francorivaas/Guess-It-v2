@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: celebrity_leonardo_da_vinci
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: celebrity_leonardo_da_vinci
+  category: celebridades
+  difficulty: 2
+  answer: Leonardo da Vinci
+  acceptedAnswers:
+  - Leonardo da Vinci
+  - Leonardo
+  hints:
+  - "Combin\xF3 arte, ciencia, anatom\xEDa e ingenier\xEDa con una curiosidad extraordinaria."
+  - Fue un artista e inventor del Renacimiento italiano.
+  - "Imagin\xF3 m\xE1quinas voladoras y mecanismos que no pod\xEDan construirse f\xE1cilmente
+    en su tiempo."
+  - "El Hombre de Vitruvio relaciona proporciones humanas y geometr\xEDa."
+  - "Pint\xF3 el retrato de una mujer con una sonrisa enigm\xE1tica."

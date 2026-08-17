@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: video_game_league_of_legends_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: video_game_league_of_legends_03
+  category: videojuegos
+  difficulty: 1
+  answer: League of Legends
+  acceptedAnswers:
+  - League of Legends
+  - LoL
+  hints:
+  - "Una partida t\xEDpica exige coordinaci\xF3n, estrategia y control de objetivos."
+  - "Dos equipos de cinco jugadores se enfrentan en un mapa sim\xE9trico."
+  - Destruir estructuras abre el camino hacia la base rival.
+  - El mapa principal se llama Summoner's Rift.
+  - "Es uno de los MOBA y deportes electr\xF3nicos m\xE1s conocidos del mundo."

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: historical_place_colosseum_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: historical_place_colosseum_04
+  category: lugares historicos y monumentos
+  difficulty: 0
+  answer: Coliseo
+  acceptedAnswers:
+  - Coliseo
+  - Coliseo Romano
+  - Colosseum
+  hints:
+  - "Fue dise\xF1ado para espect\xE1culos p\xFAblicos de enorme escala en la Antig\xFCedad."
+  - Es un gran anfiteatro del Imperio romano.
+  - Su estructura utiliza arcos repetidos en varios niveles.
+  - "El subsuelo conten\xEDa pasadizos y mecanismos para los espect\xE1culos."
+  - "Es el anfiteatro ovalado m\xE1s famoso de la antigua Roma."

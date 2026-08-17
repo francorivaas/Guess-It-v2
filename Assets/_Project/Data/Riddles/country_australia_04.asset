@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: country_australia_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: country_australia_04
+  category: paises
+  difficulty: 0
+  answer: Australia
+  acceptedAnswers:
+  - Australia
+  hints:
+  - "Es simult\xE1neamente un pa\xEDs y la principal masa continental de su regi\xF3n."
+  - "El ingl\xE9s es su idioma predominante."
+  - La Gran Barrera de Coral se extiende frente a su costa noreste.
+  - "S\xEDdney alberga una \xF3pera con forma muy caracter\xEDstica."
+  - "Es conocida por tener fauna \xFAnica debido a su aislamiento geogr\xE1fico."

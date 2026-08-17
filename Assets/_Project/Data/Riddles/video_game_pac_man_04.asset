@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: video_game_pac_man_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: video_game_pac_man_04
+  category: videojuegos
+  difficulty: 0
+  answer: Pac-Man
+  acceptedAnswers:
+  - Pac-Man
+  - Pacman
+  hints:
+  - "Su mec\xE1nica principal ocurre dentro de un laberinto visto desde arriba."
+  - Cuatro enemigos de colores intentan atraparla.
+  - Las frutas aparecen como premios adicionales.
+  - El personaje abre y cierra una boca triangular mientras se mueve.
+  - "Es uno de los grandes iconos de las m\xE1quinas arcade."

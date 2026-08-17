@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: food_drink_ramen_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: food_drink_ramen_03
+  category: comidas y bebidas
+  difficulty: 1
+  answer: Ramen
+  acceptedAnswers:
+  - Ramen
+  hints:
+  - "Cada regi\xF3n y local puede modificar mucho el caldo y los acompa\xF1amientos."
+  - "Es un plato de fideos muy asociado a Jap\xF3n."
+  - Puede utilizar caldos de cerdo, pollo, pescado o miso.
+  - El caldo tonkotsu se elabora a partir de huesos de cerdo.
+  - "Es la sopa japonesa de fideos que se volvi\xF3 un fen\xF3meno gastron\xF3mico
+    mundial."

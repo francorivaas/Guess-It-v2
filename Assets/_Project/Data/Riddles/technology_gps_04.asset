@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: technology_gps_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: technology_gps_04
+  category: inventos y tecnologia
+  difficulty: 0
+  answer: GPS
+  acceptedAnswers:
+  - GPS
+  - Sistema de Posicionamiento Global
+  - Global Positioning System
+  hints:
+  - "Permite conocer una ubicaci\xF3n sin depender de se\xF1ales visibles en el terreno."
+  - "Un receptor calcula su posici\xF3n comparando tiempos de llegada de distintas
+    se\xF1ales."
+  - "No necesita conexi\xF3n a internet para recibir las se\xF1ales b\xE1sicas de
+    posicionamiento."
+  - "Fue desarrollado originalmente con fuerte participaci\xF3n militar estadounidense."
+  - "Es el sistema satelital que permite que una aplicaci\xF3n de mapas sepa d\xF3nde
+    est\xE1s."

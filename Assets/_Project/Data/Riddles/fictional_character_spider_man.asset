@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: fictional_character_spider_man
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: fictional_character_spider_man
+  category: personajes ficticios
+  difficulty: 1
+  answer: Spider-Man
+  acceptedAnswers:
+  - Spider-Man
+  - Spiderman
+  - "Hombre Ara\xF1a"
+  - Peter Parker
+  hints:
+  - Intenta equilibrar una vida cotidiana complicada con responsabilidades extraordinarias.
+  - "Un joven adquiere habilidades despu\xE9s de un encuentro con un ar\xE1cnido
+    alterado."
+  - Puede adherirse a superficies y percibir peligros antes de que ocurran.
+  - Se desplaza entre edificios usando redes.
+  - "Peter Parker fue criado por su t\xEDa May y su t\xEDo Ben."

@@ -1,37 +1,37 @@
 fileFormatVersion: 2
-guid: 92a0ee2ab816f764ca3dad9260133b65
+guid: b5b75cb79981a7d4db0bb8ef5f995900
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -541824981360658873
-    second: ChatGPT Image 17 ago 2026, 08_45_31_0
+      213: -6415189719663078234
+    second: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_0
   - first:
-      213: 3530357766909266515
-    second: ChatGPT Image 17 ago 2026, 08_45_31_1
+      213: 1604068730333364837
+    second: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_1
   - first:
-      213: 3786741783501071696
-    second: ChatGPT Image 17 ago 2026, 08_45_31_2
+      213: -1165771781199684415
+    second: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_2
   - first:
-      213: 4660319110045181112
-    second: ChatGPT Image 17 ago 2026, 08_45_31_3
+      213: 2706767142719886458
+    second: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_3
   - first:
-      213: -4933016383503288776
-    second: ChatGPT Image 17 ago 2026, 08_45_31_4
+      213: -9027201768320997993
+    second: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_4
   - first:
-      213: 865241136917850566
-    second: ChatGPT Image 17 ago 2026, 08_45_31_5
+      213: -748337705438889921
+    second: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_5
   - first:
-      213: 7912668253902337897
-    second: ChatGPT Image 17 ago 2026, 08_45_31_6
+      213: 2891544774803526098
+    second: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_6
   - first:
-      213: -7868388118992586106
-    second: ChatGPT Image 17 ago 2026, 08_45_31_7
+      213: 3190907899410250468
+    second: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_7
   - first:
-      213: 3418831138453365266
-    second: ChatGPT Image 17 ago 2026, 08_45_31_8
+      213: -7502101286034900711
+    second: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_8
   - first:
-      213: -343402494338650561
-    second: ChatGPT Image 17 ago 2026, 08_45_31_9
+      213: -6571079124147588079
+    second: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -140,7 +140,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image 17 ago 2026, 08_45_31_0
+      name: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_0
       rect:
         serializedVersion: 2
         x: 18
@@ -155,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 746b097dc0d0b78f0800000000000000
-      internalID: -541824981360658873
+      spriteID: 6a49eb860faa8f6a0800000000000000
+      internalID: -6415189719663078234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17 ago 2026, 08_45_31_1
+      name: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_1
       rect:
         serializedVersion: 2
         x: 384
@@ -177,14 +177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35a0ba23fa95ef030800000000000000
-      internalID: 3530357766909266515
+      spriteID: 56205d2f20cc24610800000000000000
+      internalID: 1604068730333364837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17 ago 2026, 08_45_31_2
+      name: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_2
       rect:
         serializedVersion: 2
         x: 706
@@ -199,14 +199,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 055e5bdc6953d8430800000000000000
-      internalID: 3786741783501071696
+      spriteID: 1cc1b64ddb852dfe0800000000000000
+      internalID: -1165771781199684415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17 ago 2026, 08_45_31_3
+      name: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_3
       rect:
         serializedVersion: 2
         x: 1094
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b425360a87cca040800000000000000
-      internalID: 4660319110045181112
+      spriteID: a74948f006e509520800000000000000
+      internalID: 2706767142719886458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17 ago 2026, 08_45_31_4
+      name: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_4
       rect:
         serializedVersion: 2
         x: 12
@@ -243,14 +243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 836ba164cb76a8bb0800000000000000
-      internalID: -4933016383503288776
+      spriteID: 795e273e1dfe8b280800000000000000
+      internalID: -9027201768320997993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17 ago 2026, 08_45_31_5
+      name: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_5
       rect:
         serializedVersion: 2
         x: 328
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c92b03da34f10c00800000000000000
-      internalID: 865241136917850566
+      spriteID: f38b84f52de5d95f0800000000000000
+      internalID: -748337705438889921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17 ago 2026, 08_45_31_6
+      name: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_6
       rect:
         serializedVersion: 2
         x: 716
@@ -287,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 967fb539ad17fcd60800000000000000
-      internalID: 7912668253902337897
+      spriteID: 2d11d4217a4d02820800000000000000
+      internalID: 2891544774803526098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17 ago 2026, 08_45_31_7
+      name: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_7
       rect:
         serializedVersion: 2
         x: 847
@@ -309,14 +309,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68afa8cb1beddc290800000000000000
-      internalID: -7868388118992586106
+      spriteID: 4eaf55f04d1684c20800000000000000
+      internalID: 3190907899410250468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17 ago 2026, 08_45_31_8
+      name: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_8
       rect:
         serializedVersion: 2
         x: 1074
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 212ae828ec0227f20800000000000000
-      internalID: 3418831138453365266
+      spriteID: 91973e0d0ae23e790800000000000000
+      internalID: -7502101286034900711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ChatGPT Image 17 ago 2026, 08_45_31_9
+      name: 3c705c33-26a3-41dc-bef4-a7080b1c97eb_9
       rect:
         serializedVersion: 2
         x: 0
@@ -353,8 +353,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3e26f5304dfb3bf0800000000000000
-      internalID: -343402494338650561
+      spriteID: 114b2360a56dec4a0800000000000000
+      internalID: -6571079124147588079
       vertices: []
       indices: 
       edges: []
@@ -373,16 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatGPT Image 17 ago 2026, 08_45_31_0: -541824981360658873
-      ChatGPT Image 17 ago 2026, 08_45_31_1: 3530357766909266515
-      ChatGPT Image 17 ago 2026, 08_45_31_2: 3786741783501071696
-      ChatGPT Image 17 ago 2026, 08_45_31_3: 4660319110045181112
-      ChatGPT Image 17 ago 2026, 08_45_31_4: -4933016383503288776
-      ChatGPT Image 17 ago 2026, 08_45_31_5: 865241136917850566
-      ChatGPT Image 17 ago 2026, 08_45_31_6: 7912668253902337897
-      ChatGPT Image 17 ago 2026, 08_45_31_7: -7868388118992586106
-      ChatGPT Image 17 ago 2026, 08_45_31_8: 3418831138453365266
-      ChatGPT Image 17 ago 2026, 08_45_31_9: -343402494338650561
+      3c705c33-26a3-41dc-bef4-a7080b1c97eb_0: -6415189719663078234
+      3c705c33-26a3-41dc-bef4-a7080b1c97eb_1: 1604068730333364837
+      3c705c33-26a3-41dc-bef4-a7080b1c97eb_2: -1165771781199684415
+      3c705c33-26a3-41dc-bef4-a7080b1c97eb_3: 2706767142719886458
+      3c705c33-26a3-41dc-bef4-a7080b1c97eb_4: -9027201768320997993
+      3c705c33-26a3-41dc-bef4-a7080b1c97eb_5: -748337705438889921
+      3c705c33-26a3-41dc-bef4-a7080b1c97eb_6: 2891544774803526098
+      3c705c33-26a3-41dc-bef4-a7080b1c97eb_7: 3190907899410250468
+      3c705c33-26a3-41dc-bef4-a7080b1c97eb_8: -7502101286034900711
+      3c705c33-26a3-41dc-bef4-a7080b1c97eb_9: -6571079124147588079
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

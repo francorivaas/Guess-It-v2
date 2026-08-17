@@ -1018,14 +1018,36 @@ MonoBehaviour:
   categoryVisuals:
   - categoryName: "Pel\xEDculas"
     icon: {fileID: -3839571670250445058, guid: 689e8314efe92744b9e51c5f1bb1a863, type: 3}
-  - categoryName: Personas
+  - categoryName: celebridades
     icon: {fileID: -1825517128367985383, guid: d99296cc33d567442961138907b72744, type: 3}
-  - categoryName: Lugares
+  - categoryName: paises
     icon: {fileID: -8842501679789640812, guid: 2adfc3410926a76449517a14b4cbc4d0, type: 3}
   - categoryName: "N\xFAmeros"
     icon: {fileID: -7542371115539988336, guid: cdf570f1b2104484396b6887bbeae53c, type: 3}
   - categoryName: Bandas musicales
     icon: {fileID: 2984180245666200233, guid: 771e2d7ade2a6484f88251cda168b7f8, type: 3}
+  - categoryName: series de tv
+    icon: {fileID: -1165771781199684415, guid: b5b75cb79981a7d4db0bb8ef5f995900, type: 3}
+  - categoryName: videojuegos
+    icon: {fileID: 2891544774803526098, guid: b5b75cb79981a7d4db0bb8ef5f995900, type: 3}
+  - categoryName: comidas y bebidas
+    icon: {fileID: 5369295462670295218, guid: 1961b929120580d439ef3be7f24a1e61, type: 3}
+  - categoryName: animales
+    icon: {fileID: 5861079316744949861, guid: 2f6a692f6b4b6654594cb56abad67398, type: 3}
+  - categoryName: obras literarias
+    icon: {fileID: -3312654882098191832, guid: b3abe13089807cc46a022d631b059178, type: 3}
+  - categoryName: lugares historicos y monumentos
+    icon: {fileID: 3410101378530636140, guid: d7e54c6cb1aa6bc4e995234b875c7f17, type: 3}
+  - categoryName: marcas y productos iconicos
+    icon: {fileID: 875893411037246206, guid: 164881b9468b32741a7b368ecfba8702, type: 3}
+  - categoryName: inventos y tecnologia
+    icon: {fileID: 3227173007999952086, guid: b1058734459b8324f9c0385c725ab1b7, type: 3}
+  - categoryName: personajes ficticios
+    icon: {fileID: -7049103514410413297, guid: 9f95e55c8b0e92c42ac05e8b901fe3c7, type: 3}
+  - categoryName: ciudades
+    icon: {fileID: -9100857953394058437, guid: 2cf1c9c8dba44ce43a1ccb8164f9a683, type: 3}
+  - categoryName: deportes
+    icon: {fileID: -900410867862088138, guid: 2c69f060818f3db4ca7ab6e6f71d7473, type: 3}
   categoryCanvasGroup: {fileID: 598060431}
   categoryChipRoot: {fileID: 598060428}
   categoryChipAnimationDuration: 0.25

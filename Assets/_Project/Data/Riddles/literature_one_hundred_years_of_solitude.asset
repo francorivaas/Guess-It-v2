@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: literature_one_hundred_years_of_solitude
   m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
   id: literature_one_hundred_years_of_solitude
-  category: libros y obras literarias
+  category: obras literarias
   difficulty: 2
   answer: "Cien a\xF1os de soledad"
   acceptedAnswers:

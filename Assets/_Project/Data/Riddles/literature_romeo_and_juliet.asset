@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: literature_romeo_and_juliet
   m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
   id: literature_romeo_and_juliet
-  category: libros y obras literarias
+  category: obras literarias
   difficulty: 1
   answer: Romeo y Julieta
   acceptedAnswers:

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: literature_the_little_prince_03
   m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
   id: literature_the_little_prince_03
-  category: libros y obras literarias
+  category: obras literarias
   difficulty: 1
   answer: El principito
   acceptedAnswers:

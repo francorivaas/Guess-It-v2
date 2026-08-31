@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: technology_refrigerator
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: technology_refrigerator
+  category: inventos y tecnologia
+  difficulty: 2
+  answer: Refrigerador
+  acceptedAnswers:
+  - Refrigerador
+  - Heladera
+  - Nevera
+  - "Frigor\xEDfico"
+  - Frigorifico
+  - Refrigerator
+  hints:
+  - "Transform\xF3 la conservaci\xF3n cotidiana de alimentos dentro del hogar."
+  - "Es un electrodom\xE9stico de cocina."
+  - "Mantiene bebidas, l\xE1cteos y otros alimentos fr\xEDos durante d\xEDas."
+  - Muchos modelos incluyen un congelador separado.
+  - "Es el gran aparato de cocina donde se guardan alimentos y bebidas fr\xEDos."

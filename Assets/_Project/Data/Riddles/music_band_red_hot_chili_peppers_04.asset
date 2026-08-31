@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: music_band_red_hot_chili_peppers_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: music_band_red_hot_chili_peppers_04
+  category: bandas musicales
+  difficulty: 0
+  answer: Red Hot Chili Peppers
+  acceptedAnswers:
+  - Red Hot Chili Peppers
+  - RHCP
+  - Chili Peppers
+  hints:
+  - "Su estilo mezcla rock con funk y una energ\xEDa muy f\xEDsica."
+  - Anthony Kiedis es su vocalista.
+  - Muchas letras hacen referencia a California.
+  - "Californication es tanto una canci\xF3n como un \xE1lbum muy asociado al grupo."
+  - "Give It Away, Californication y Can't Stop est\xE1n entre sus canciones m\xE1s
+    conocidas."

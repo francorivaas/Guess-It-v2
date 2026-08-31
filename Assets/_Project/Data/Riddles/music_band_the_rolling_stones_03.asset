@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: music_band_the_rolling_stones_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: music_band_the_rolling_stones_03
+  category: bandas musicales
+  difficulty: 1
+  answer: The Rolling Stones
+  acceptedAnswers:
+  - The Rolling Stones
+  - Rolling Stones
+  - Los Rolling Stones
+  hints:
+  - "Su imagen hist\xF3rica fue m\xE1s rebelde y \xE1spera que la de muchos contempor\xE1neos."
+  - "Es una banda brit\xE1nica formada en Londres."
+  - "El blues influy\xF3 fuertemente en sus primeros a\xF1os."
+  - "Jumpin' Jack Flash forma parte de su repertorio cl\xE1sico."
+  - "Su s\xEDmbolo de labios y lengua es uno de los logos m\xE1s famosos de la m\xFAsica."

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: brand_product_barbie_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: brand_product_barbie_03
+  category: marcas y productos iconicos
+  difficulty: 1
+  answer: Barbie
+  acceptedAnswers:
+  - Barbie
+  hints:
+  - "Ha reflejado y tambi\xE9n influido en ideales culturales de distintas \xE9pocas."
+  - "Es una mu\xF1eca creada por Mattel."
+  - Ha tenido cientos de profesiones y estilos.
+  - "El rosa est\xE1 fuertemente asociado a su imagen contempor\xE1nea."
+  - "Es la mu\xF1eca rubia m\xE1s famosa de la historia del juguete."

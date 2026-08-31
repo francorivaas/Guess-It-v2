@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: tv_series_the_walking_dead_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: tv_series_the_walking_dead_04
+  category: series de tv
+  difficulty: 0
+  answer: The Walking Dead
+  acceptedAnswers:
+  - The Walking Dead
+  hints:
+  - El mayor peligro no siempre proviene de las criaturas que dominan el mundo.
+  - Los supervivientes viajan buscando refugios relativamente seguros.
+  - El protagonista inicial utiliza un sombrero de sheriff.
+  - Negan lidera a un grupo llamado los Salvadores.
+  - Los zombis son llamados habitualmente 'walkers' dentro de la serie.

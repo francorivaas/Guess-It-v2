@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: city_london
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: city_london
+  category: ciudades
+  difficulty: 1
+  answer: Londres
+  acceptedAnswers:
+  - Londres
+  - London
+  hints:
+  - "Es una capital europea donde conviven monarqu\xEDa, finanzas y cultura popular."
+  - "El r\xEDo T\xE1mesis atraviesa la ciudad."
+  - "Un palacio sirve como residencia oficial de la monarqu\xEDa."
+  - "El London Eye se levanta junto al r\xEDo."
+  - "Buckingham Palace es uno de sus puntos m\xE1s visitados."

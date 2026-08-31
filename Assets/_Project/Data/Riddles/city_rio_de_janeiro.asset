@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: city_rio_de_janeiro
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: city_rio_de_janeiro
+  category: ciudades
+  difficulty: 1
+  answer: "R\xEDo de Janeiro"
+  acceptedAnswers:
+  - "R\xEDo de Janeiro"
+  - Rio de Janeiro
+  - "R\xEDo"
+  - Rio
+  hints:
+  - "Es una ciudad costera donde monta\xF1as, playas y zonas urbanas se mezclan de
+    forma espectacular."
+  - Se encuentra en Brasil.
+  - Copacabana e Ipanema son playas mundialmente conocidas.
+  - "El Pan de Az\xFAcar es uno de sus miradores emblem\xE1ticos."
+  - El samba domina muchas celebraciones de la ciudad.

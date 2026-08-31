@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: sports_olympic_games
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: sports_olympic_games
+  category: deportes
+  difficulty: 1
+  answer: "Juegos Ol\xEDmpicos"
+  acceptedAnswers:
+  - "Juegos Ol\xEDmpicos"
+  - Juegos Olimpicos
+  - Olympic Games
+  - Olimpiadas
+  hints:
+  - "Re\xFAnen disciplinas muy diferentes bajo un mismo evento internacional."
+  - "Atletas de numerosos pa\xEDses compiten durante varias semanas."
+  - "El evento moderno se inspira en una competici\xF3n de la antigua Grecia."
+  - Una llama viaja mediante relevos antes de la ceremonia inaugural.
+  - "Se celebran normalmente cada cuatro a\xF1os para cada edici\xF3n de verano o
+    invierno."

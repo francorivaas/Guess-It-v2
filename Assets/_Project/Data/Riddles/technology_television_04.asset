@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: technology_television_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: technology_television_04
+  category: inventos y tecnologia
+  difficulty: 0
+  answer: "Televisi\xF3n"
+  acceptedAnswers:
+  - "Televisi\xF3n"
+  - Television
+  - TV
+  hints:
+  - "Convirti\xF3 im\xE1genes en movimiento y sonido en una experiencia dom\xE9stica
+    masiva."
+  - "Los primeros aparatos mostraban im\xE1genes en blanco y negro."
+  - "El control remoto cambi\xF3 la forma de usar el aparato desde el sof\xE1."
+  - Las pantallas pasaron de grandes tubos a paneles planos.
+  - "Es el medio dom\xE9stico cl\xE1sico para ver programas y emisiones en una pantalla."

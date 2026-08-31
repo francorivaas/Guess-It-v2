@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: movie_the_lion_king
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: movie_the_lion_king
+  category: peliculas
+  difficulty: 1
+  answer: "El rey le\xF3n"
+  acceptedAnswers:
+  - "El rey le\xF3n"
+  - The Lion King
+  - "Rey Le\xF3n"
+  hints:
+  - "Cuenta una historia de crecimiento, p\xE9rdida y regreso al hogar."
+  - "El protagonista debe asumir una responsabilidad que evita durante a\xF1os."
+  - "Dos amigos muy distintos le ense\xF1an una filosof\xEDa despreocupada."
+  - El villano es el hermano celoso del gobernante.
+  - El protagonista vuelve para reclamar su lugar en la Roca del Rey.

@@ -132,6 +132,16 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Sprite musicOnSprite;
     [SerializeField] private Sprite musicOffSprite;
 
+    [Header("Sound Effects")]
+    [Tooltip("Imagen del botón que activa/desactiva los efectos de sonido.")]
+    [SerializeField] private Image soundEffectsButtonImage;
+
+    [Tooltip("Sprite del botón cuando los efectos de sonido están activados.")]
+    [SerializeField] private Sprite soundEffectsOnSprite;
+
+    [Tooltip("Sprite del botón cuando los efectos de sonido están desactivados.")]
+    [SerializeField] private Sprite soundEffectsOffSprite;
+
     [Header("Reveal")]
     [SerializeField] private GameObject revealPanel;
     [SerializeField] private RectTransform revealPanelRoot;
@@ -239,8 +249,13 @@ public class UIManager : MonoBehaviour
     private bool inputLocked;
     private bool paused;
     private bool resultPanelTransitioning;
+    private bool musicMuted;
+    private bool soundEffectsMuted;
     private int displayedScore;
     private int lastDisplayedRemainingHints = -1;
+
+    private const string MusicMutedPlayerPrefsKey = "MusicMuted";
+    private const string SoundEffectsMutedPlayerPrefsKey = "SoundEffectsMuted";
 
 
     private void Awake()
@@ -270,6 +285,7 @@ public class UIManager : MonoBehaviour
 
         feverBackground?.SetStreak(0, true);
         ConfigureAnswerInput();
+        InitializeAudioPreferences();
     }
 
     private void ConfigureAnswerInput()
@@ -302,6 +318,7 @@ public class UIManager : MonoBehaviour
             scoreText.text = displayedScore.ToString();
         }
 
+        ApplyAudioPreferences();
     }
 
     private void InitializeCategoryChip()
@@ -1101,22 +1118,35 @@ public class UIManager : MonoBehaviour
 
     public void ToggleMusic()
     {
-        if (backgroundMusic == null)
-        {
-            return;
-        }
+        musicMuted = !musicMuted;
+        PlayerPrefs.SetInt(MusicMutedPlayerPrefsKey, musicMuted ? 1 : 0);
+        PlayerPrefs.Save();
 
-        backgroundMusic.mute = !backgroundMusic.mute;
+        ApplyMusicMuteState();
+        RefreshMusicButtonVisual();
+    }
 
-        if (musicButtonImage != null && musicOnSprite != null && musicOffSprite != null)
-        {
-            musicButtonImage.sprite =
-                backgroundMusic.mute ? musicOffSprite : musicOnSprite;
-        }
+    public void ToggleSoundEffects()
+    {
+        soundEffectsMuted = !soundEffectsMuted;
+        PlayerPrefs.SetInt(
+            SoundEffectsMutedPlayerPrefsKey,
+            soundEffectsMuted ? 1 : 0
+        );
+        PlayerPrefs.Save();
+
+        ApplySoundEffectsMuteState();
+        RefreshSoundEffectsButtonVisual();
     }
 
     public void ExitToMainMenuFromPause()
     {
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.GoToMainMenu();
+            return;
+        }
+
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
@@ -2199,7 +2229,7 @@ public class UIManager : MonoBehaviour
 
     private void PlayStreakSound(int streak)
     {
-        if (effectsAudioSource == null || streakSFX == null)
+        if (soundEffectsMuted || effectsAudioSource == null || streakSFX == null)
         {
             return;
         }
@@ -2221,10 +2251,72 @@ public class UIManager : MonoBehaviour
 
     private void PlayEffect(AudioClip clip)
     {
-        if (effectsAudioSource != null && clip != null)
+        if (soundEffectsMuted || effectsAudioSource == null || clip == null)
         {
-            effectsAudioSource.PlayOneShot(clip);
+            return;
         }
+
+        effectsAudioSource.PlayOneShot(clip);
+    }
+
+
+    private void InitializeAudioPreferences()
+    {
+        musicMuted = PlayerPrefs.GetInt(MusicMutedPlayerPrefsKey, 0) == 1;
+        soundEffectsMuted =
+            PlayerPrefs.GetInt(SoundEffectsMutedPlayerPrefsKey, 0) == 1;
+
+        ApplyAudioPreferences();
+    }
+
+    private void ApplyAudioPreferences()
+    {
+        ApplyMusicMuteState();
+        ApplySoundEffectsMuteState();
+        RefreshMusicButtonVisual();
+        RefreshSoundEffectsButtonVisual();
+    }
+
+    private void ApplyMusicMuteState()
+    {
+        if (backgroundMusic != null)
+        {
+            backgroundMusic.mute = musicMuted;
+        }
+    }
+
+    private void ApplySoundEffectsMuteState()
+    {
+        if (effectsAudioSource != null)
+        {
+            effectsAudioSource.mute = soundEffectsMuted;
+            effectsAudioSource.pitch = 1f;
+        }
+    }
+
+    private void RefreshMusicButtonVisual()
+    {
+        if (musicButtonImage == null || musicOnSprite == null || musicOffSprite == null)
+        {
+            return;
+        }
+
+        musicButtonImage.sprite = musicMuted ? musicOffSprite : musicOnSprite;
+    }
+
+    private void RefreshSoundEffectsButtonVisual()
+    {
+        if (
+            soundEffectsButtonImage == null ||
+            soundEffectsOnSprite == null ||
+            soundEffectsOffSprite == null
+        )
+        {
+            return;
+        }
+
+        soundEffectsButtonImage.sprite =
+            soundEffectsMuted ? soundEffectsOffSprite : soundEffectsOnSprite;
     }
 
     private void SetPauseState(bool shouldPause)

@@ -1,11 +1,15 @@
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using UnityEngine;
+using System.Threading.Tasks;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public const string HighScorePlayerPrefsKey = "HighScore";
+
     public static GameManager Instance { get; private set; }
 
     [Header("Configuration")]
@@ -13,17 +17,31 @@ public class GameManager : MonoBehaviour
     [SerializeField, Min(1)] private int startingLives = 3;
     [SerializeField, Min(1)] private int initialHintCount = 3;
 
+    [Header("Scenes")]
+    [Tooltip("Nombre exacto de la escena del menú principal. Debe estar agregada en Build Settings.")]
+    [SerializeField] private string mainMenuSceneName = "MainMenu";
+
+    [Tooltip("Se usa como respaldo si mainMenuSceneName está vacío o falla.")]
+    [SerializeField, Min(0)] private int fallbackMainMenuBuildIndex = 0;
+
     public int Score { get; private set; }
     public int Lives { get; private set; }
     public int CurrentStreak { get; private set; }
+    public int HighScore { get; private set; }
 
     private RiddleSO currentRiddle;
     private readonly List<RiddleSO> availableRiddles = new List<RiddleSO>();
+    private readonly HashSet<RiddleSO> usedRiddlesThisRun = new HashSet<RiddleSO>();
+
     private int currentHintCount;
 
     // Recompensa que permanece pendiente mientras el panel de victoria está abierto.
     private bool hasPendingCorrectReward;
     private int pendingCorrectPoints;
+    private bool runFinished;
+
+    private int highScoreAtRunStart;
+    private bool leaderboardSubmittedThisRun;
 
     private void Awake()
     {
@@ -41,6 +59,9 @@ public class GameManager : MonoBehaviour
         Score = 0;
         Lives = startingLives;
         CurrentStreak = 0;
+
+        highScoreAtRunStart = PlayerPrefs.GetInt(HighScorePlayerPrefsKey, 0);
+        leaderboardSubmittedThisRun = false;
 
         if (!TryInitializeRiddles())
         {
@@ -60,6 +81,45 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void OnApplicationPause(bool pauseStatus)
+    {
+        if (pauseStatus)
+        {
+            TrySaveHighScore();
+        }
+    }
+
+    private void OnApplicationQuit()
+    {
+        TrySaveHighScore();
+    }
+
+    private void StartNewRun()
+    {
+        Score = 0;
+        Lives = startingLives;
+        CurrentStreak = 0;
+        HighScore = PlayerPrefs.GetInt(HighScorePlayerPrefsKey, 0);
+
+        currentRiddle = null;
+        currentHintCount = 0;
+        hasPendingCorrectReward = false;
+        pendingCorrectPoints = 0;
+        runFinished = false;
+
+        usedRiddlesThisRun.Clear();
+        availableRiddles.Clear();
+
+        if (!TryInitializeRiddles())
+        {
+            enabled = false;
+            return;
+        }
+
+        UIManager.Instance?.RequestCategoryAttention();
+        NextRound();
+    }
+
     public RiddleSO GetCurrentRiddle()
     {
         return currentRiddle;
@@ -72,6 +132,11 @@ public class GameManager : MonoBehaviour
 
     public void NextRound()
     {
+        if (runFinished)
+        {
+            return;
+        }
+
         if (availableRiddles.Count == 0)
         {
             RefillAvailableRiddles();
@@ -79,7 +144,7 @@ public class GameManager : MonoBehaviour
 
         if (availableRiddles.Count == 0)
         {
-            Debug.LogError("No hay acertijos válidos disponibles.");
+            HandleAllRiddlesUsed();
             return;
         }
 
@@ -89,9 +154,12 @@ public class GameManager : MonoBehaviour
             UIManager.Instance.ClearAnswerInput();
         }
 
-        int randomIndex = Random.Range(0, availableRiddles.Count);
+        int randomIndex = UnityEngine.Random.Range(0, availableRiddles.Count);
         currentRiddle = availableRiddles[randomIndex];
+
+        // Evita que este acertijo vuelva a aparecer durante esta run.
         availableRiddles.RemoveAt(randomIndex);
+        usedRiddlesThisRun.Add(currentRiddle);
 
         currentHintCount = Mathf.Min(initialHintCount, GetTotalHintCount());
 
@@ -100,7 +168,7 @@ public class GameManager : MonoBehaviour
 
     public void RequestHint()
     {
-        if (currentRiddle == null || currentHintCount >= GetTotalHintCount())
+        if (runFinished || currentRiddle == null || currentHintCount >= GetTotalHintCount())
         {
             return;
         }
@@ -112,7 +180,7 @@ public class GameManager : MonoBehaviour
 
     public void SubmitAnswer(string playerAnswer)
     {
-        if (currentRiddle == null || string.IsNullOrWhiteSpace(playerAnswer))
+        if (runFinished || currentRiddle == null || string.IsNullOrWhiteSpace(playerAnswer))
         {
             return;
         }
@@ -134,8 +202,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        // Opción B:
-        // todavía no se modifica Score ni CurrentStreak.
+        // Todavía no se modifica Score ni CurrentStreak.
         // La recompensa queda pendiente hasta pulsar Continuar.
         pendingCorrectPoints = CalculateScore();
         hasPendingCorrectReward = true;
@@ -178,9 +245,6 @@ public class GameManager : MonoBehaviour
 
         if (UIManager.Instance != null)
         {
-            //UIManager.Instance.ShowMessage(
-            //    "Incorrecto. Pierdes 1 vida.\n¡Aquí tienes una pista extra!"
-            //);
             UIManager.Instance.RefreshUI();
             UIManager.Instance.TriggerErrorShake();
         }
@@ -202,6 +266,11 @@ public class GameManager : MonoBehaviour
 
         foreach (string acceptedAnswer in currentRiddle.acceptedAnswers)
         {
+            if (string.IsNullOrWhiteSpace(acceptedAnswer))
+            {
+                continue;
+            }
+
             if (normalizedPlayerAnswer == NormalizeText(acceptedAnswer))
             {
                 return true;
@@ -264,11 +333,30 @@ public class GameManager : MonoBehaviour
 
         foreach (RiddleSO riddle in database.riddles)
         {
-            if (riddle != null)
+            if (riddle == null)
             {
-                availableRiddles.Add(riddle);
+                continue;
             }
+
+            if (usedRiddlesThisRun.Contains(riddle))
+            {
+                continue;
+            }
+
+            availableRiddles.Add(riddle);
         }
+    }
+
+    private void HandleAllRiddlesUsed()
+    {
+        runFinished = true;
+        TrySaveHighScore();
+
+        Debug.LogWarning("No quedan acertijos sin usar en esta run.");
+
+        UIManager.Instance?.ClearCards();
+        UIManager.Instance?.ClearAnswerInput();
+        UIManager.Instance?.ShowMessage("¡Completaste todos los acertijos disponibles!");
     }
 
     private static string NormalizeText(string text)
@@ -318,6 +406,7 @@ public class GameManager : MonoBehaviour
         // Recién en este momento se aplica la recompensa real.
         Score += gainedPoints;
         CurrentStreak++;
+        TrySaveHighScore();
 
         if (UIManager.Instance != null)
         {
@@ -339,6 +428,11 @@ public class GameManager : MonoBehaviour
 
     private void BeginNextRoundAfterCorrectAnswer()
     {
+        if (runFinished)
+        {
+            return;
+        }
+
         UIManager.Instance?.RequestCategoryAttention();
         NextRound();
     }
@@ -355,16 +449,106 @@ public class GameManager : MonoBehaviour
         NextRound();
     }
 
-    public void RestartGame()
+    public async void RestartGame()
     {
         Time.timeScale = 1f;
+
+        await SubmitRunScoreToLeaderboardIfNeededAsync();
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void GoToMainMenu()
+    public async void GoToMainMenu()
     {
         Time.timeScale = 1f;
+
+        await SubmitRunScoreToLeaderboardIfNeededAsync();
+
         SceneManager.LoadScene(0);
+    }
+
+    private bool SaveHighScoreIfNeeded()
+    {
+        int savedHighScore = PlayerPrefs.GetInt(HighScorePlayerPrefsKey, 0);
+
+        if (Score > savedHighScore)
+        {
+            PlayerPrefs.SetInt(HighScorePlayerPrefsKey, Score);
+            PlayerPrefs.Save();
+
+            Debug.Log($"Nuevo High Score local guardado: {Score}");
+        }
+
+        bool isNewHighScoreForThisRun = Score > highScoreAtRunStart;
+
+        if (!isNewHighScoreForThisRun)
+        {
+            Debug.Log(
+                $"Score no enviado al ranking. Run score: {Score} | High Score al iniciar run: {highScoreAtRunStart}"
+            );
+        }
+
+        return isNewHighScoreForThisRun;
+    }
+    private async Task SubmitRunScoreToLeaderboardIfNeededAsync()
+    {
+        if (leaderboardSubmittedThisRun)
+        {
+            return;
+        }
+
+        bool shouldSubmit = SaveHighScoreIfNeeded();
+
+        if (!shouldSubmit)
+        {
+            return;
+        }
+
+        leaderboardSubmittedThisRun = true;
+
+        if (UGSLeaderboardManager.Instance == null)
+        {
+            Debug.LogWarning(
+                "No se pudo enviar el score porque no existe UGSLeaderboardManager."
+            );
+
+            return;
+        }
+
+        await UGSLeaderboardManager.Instance.SubmitScoreAsync(Score);
+    }
+    private bool TrySaveHighScore()
+    {
+        if (Score <= HighScore)
+        {
+            return false;
+        }
+
+        HighScore = Score;
+        PlayerPrefs.SetInt(HighScorePlayerPrefsKey, HighScore);
+        PlayerPrefs.Save();
+        return true;
+    }
+
+    private void LoadMainMenuScene()
+    {
+        if (!string.IsNullOrWhiteSpace(mainMenuSceneName))
+        {
+            try
+            {
+                SceneManager.LoadScene(mainMenuSceneName);
+                return;
+            }
+            catch (Exception exception)
+            {
+                Debug.LogWarning(
+                    $"No se pudo cargar la escena '{mainMenuSceneName}'. " +
+                    $"Se usará el Build Index {fallbackMainMenuBuildIndex}.\n{exception.Message}"
+                );
+            }
+        }
+
+        SceneManager.LoadScene(fallbackMainMenuBuildIndex);
     }
 
     public int GetRemainingHintCount()

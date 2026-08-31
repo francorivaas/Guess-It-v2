@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: city_venice_03
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: city_venice_03
+  category: ciudades
+  difficulty: 1
+  answer: Venecia
+  acceptedAnswers:
+  - Venecia
+  - Venice
+  hints:
+  - "Est\xE1 construida sobre numerosas peque\xF1as islas conectadas entre s\xED."
+  - Se encuentra en el noreste de Italia.
+  - "Las g\xF3ndolas forman parte de su imagen m\xE1s famosa."
+  - "El Puente de Rialto cruza una de sus v\xEDas acu\xE1ticas principales."
+  - "Es la ciudad italiana mundialmente asociada a g\xF3ndolas y canales."

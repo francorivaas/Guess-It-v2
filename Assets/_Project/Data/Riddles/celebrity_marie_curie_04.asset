@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: celebrity_marie_curie_04
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: celebrity_marie_curie_04
+  category: celebridades
+  difficulty: 0
+  answer: Marie Curie
+  acceptedAnswers:
+  - Marie Curie
+  - "Maria Sk\u0142odowska-Curie"
+  - Maria Sklodowska Curie
+  hints:
+  - "Su trabajo cient\xEDfico abri\xF3 caminos en el estudio de fen\xF3menos invisibles
+    de la materia."
+  - "Investig\xF3 intensamente la radiactividad."
+  - "Uno de esos elementos recibi\xF3 un nombre relacionado con su pa\xEDs natal."
+  - "Obtuvo premios Nobel en dos disciplinas cient\xEDficas distintas."
+  - "Su apellido qued\xF3 unido a una familia de cient\xEDficos premiados."

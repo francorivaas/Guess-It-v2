@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ce16fdf9d317c4b90c7f654e71f315, type: 3}
+  m_Name: city_los_angeles
+  m_EditorClassIdentifier: Assembly-CSharp::RiddleSO
+  id: city_los_angeles
+  category: ciudades
+  difficulty: 2
+  answer: "Los \xC1ngeles"
+  acceptedAnswers:
+  - "Los \xC1ngeles"
+  - Los Angeles
+  - LA
+  hints:
+  - "Es una metr\xF3polis extensa donde el autom\xF3vil tiene un papel enorme en
+    la vida diaria."
+  - Se encuentra en California.
+  - Un famoso cartel blanco se levanta en las colinas.
+  - El Paseo de la Fama cubre aceras con estrellas dedicadas a celebridades.
+  - "El cartel de Hollywood en sus colinas es uno de sus s\xEDmbolos visuales m\xE1s
+    famosos."

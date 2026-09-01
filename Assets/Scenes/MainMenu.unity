@@ -410,8 +410,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -140}
-  m_SizeDelta: {x: -70, y: 760}
+  m_AnchoredPosition: {x: 0, y: -290}
+  m_SizeDelta: {x: -220, y: 620}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &159090424
 MonoBehaviour:
@@ -431,7 +431,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 1
-  m_Spacing: 12
+  m_Spacing: 6
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
@@ -829,8 +829,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 260}
+  m_AnchoredPosition: {x: 0, y: 180}
+  m_SizeDelta: {x: -180, y: 45}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &388203101
 MonoBehaviour:
@@ -854,15 +854,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Tu puesto: #1 | Tu score: 1000'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 06f212fa16d26144eb2e1069c8d9732d, type: 2}
+  m_sharedMaterial: {fileID: -2574739469799082455, guid: 06f212fa16d26144eb2e1069c8d9732d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -885,7 +885,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -898,7 +898,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 0
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 1
+  m_overflowMode: 3
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
@@ -1339,8 +1339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -35}
-  m_SizeDelta: {x: -70, y: 80}
+  m_AnchoredPosition: {x: 0, y: -105}
+  m_SizeDelta: {x: -230, y: 80}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &789543031
 MonoBehaviour:
@@ -1364,8 +1364,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ranking global
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 891fef2ea96a582498d972b8e18a7c96, type: 2}
+  m_sharedMaterial: {fileID: -867538453070701224, guid: 891fef2ea96a582498d972b8e18a7c96, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1389,8 +1389,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 46
-  m_fontSizeBase: 46
+  m_fontSize: 38
+  m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2426,6 +2426,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeaderboardPanelUI
   panelRoot: {fileID: 2072657413}
+  animatedRoot: {fileID: 2072657414}
+  panelCanvasGroup: {fileID: 2072657417}
+  popStartScale: 0.72
+  popOvershootScale: 1.08
+  popInDuration: 0.28
+  closeDuration: 0.16
   rowsContainer: {fileID: 159090422}
   rowPrefab: {fileID: 436362594303375372, guid: 114366ff41bbf034abcbcb975cfac9f5, type: 3}
   topLimit: 10
@@ -2604,11 +2610,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2072657414}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
-  m_Pivot: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: -63}
+  m_SizeDelta: {x: 780, y: 50}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1666284847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2656,8 +2662,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3219,6 +3225,7 @@ GameObject:
   - component: {fileID: 2072657414}
   - component: {fileID: 2072657416}
   - component: {fileID: 2072657415}
+  - component: {fileID: 2072657417}
   m_Layer: 5
   m_Name: RankingPanel
   m_TagString: Untagged
@@ -3250,8 +3257,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 860, y: 1700}
+  m_AnchoredPosition: {x: 0, y: -20}
+  m_SizeDelta: {x: 780, y: 1450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2072657415
 MonoBehaviour:
@@ -3291,6 +3298,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072657413}
   m_CullTransparentMesh: 1
+--- !u!225 &2072657417
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072657413}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

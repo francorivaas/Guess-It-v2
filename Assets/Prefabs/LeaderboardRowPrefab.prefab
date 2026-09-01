@@ -155,10 +155,10 @@ MonoBehaviour:
   rankText: {fileID: 15788498195465960}
   playerNameText: {fileID: 1187167802316344331}
   scoreText: {fileID: 2269343272531114049}
-  backgroundGraphic: {fileID: 0}
+  backgroundGraphic: {fileID: 4353940664939281378}
   normalBackgroundColor: {r: 1, g: 1, b: 1, a: 0.08}
   currentPlayerBackgroundColor: {r: 1, g: 0.85, b: 0.15, a: 0.35}
-  canvasGroup: {fileID: 0}
+  canvasGroup: {fileID: 121120297225063365}
   normalAlpha: 0.9
   currentPlayerAlpha: 1
 --- !u!1 &2388750778998552816

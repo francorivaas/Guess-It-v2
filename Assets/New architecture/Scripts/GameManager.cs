@@ -497,10 +497,29 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        bool shouldSubmit = SaveHighScoreIfNeeded();
+        SaveHighScoreIfNeeded();
 
-        if (!shouldSubmit)
+        int bestKnownScore = Mathf.Max(
+            Score,
+            PlayerPrefs.GetInt(HighScorePlayerPrefsKey, 0)
+        );
+
+        if (bestKnownScore <= 0)
         {
+            return;
+        }
+
+        int lastSubmittedScore = PlayerPrefs.GetInt(
+            "LeaderboardSubmittedHighScore",
+            0
+        );
+
+        if (bestKnownScore <= lastSubmittedScore)
+        {
+            Debug.Log(
+                $"Score no enviado al ranking. Mejor local: {bestKnownScore} | Último enviado: {lastSubmittedScore}"
+            );
+
             return;
         }
 
@@ -515,8 +534,12 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        await UGSLeaderboardManager.Instance.SubmitScoreAsync(Score);
+        await UGSLeaderboardManager.Instance.SubmitScoreAsync(bestKnownScore);
+
+        PlayerPrefs.SetInt("LeaderboardSubmittedHighScore", bestKnownScore);
+        PlayerPrefs.Save();
     }
+
     private bool TrySaveHighScore()
     {
         if (Score <= HighScore)

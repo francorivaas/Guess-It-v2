@@ -174,7 +174,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.TinyGrooveGames.GuessIt.dev
+    Android: com.TinyGrooveGames.GuessIt
     Standalone: com.DefaultCompany.2D-URP
   buildNumber:
     Standalone: 0

@@ -97,15 +97,6 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI messageText;
     [SerializeField] private RectTransform uiToShake;
 
-    // Se obtiene automáticamente desde TMP_InputField.placeholder.
-    // Guardamos el texto original para ocultarlo al seleccionar el campo
-    // y restaurarlo al comenzar una ronda nueva.
-    private Graphic answerPlaceholderGraphic;
-    private TMP_Text answerPlaceholderText;
-    private string answerPlaceholderOriginalText = string.Empty;
-    private bool answerPlaceholderInitialized;
-    private bool answerPlaceholderDismissed;
-
     [Header("Audio")]
     [SerializeField] private AudioSource effectsAudioSource;
     [SerializeField] private AudioClip correctSFX;
@@ -131,16 +122,6 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image musicButtonImage;
     [SerializeField] private Sprite musicOnSprite;
     [SerializeField] private Sprite musicOffSprite;
-
-    [Header("Sound Effects")]
-    [Tooltip("Imagen del botón que activa/desactiva los efectos de sonido.")]
-    [SerializeField] private Image soundEffectsButtonImage;
-
-    [Tooltip("Sprite del botón cuando los efectos de sonido están activados.")]
-    [SerializeField] private Sprite soundEffectsOnSprite;
-
-    [Tooltip("Sprite del botón cuando los efectos de sonido están desactivados.")]
-    [SerializeField] private Sprite soundEffectsOffSprite;
 
     [Header("Reveal")]
     [SerializeField] private GameObject revealPanel;
@@ -249,13 +230,8 @@ public class UIManager : MonoBehaviour
     private bool inputLocked;
     private bool paused;
     private bool resultPanelTransitioning;
-    private bool musicMuted;
-    private bool soundEffectsMuted;
     private int displayedScore;
     private int lastDisplayedRemainingHints = -1;
-
-    private const string MusicMutedPlayerPrefsKey = "MusicMuted";
-    private const string SoundEffectsMutedPlayerPrefsKey = "SoundEffectsMuted";
 
 
     private void Awake()
@@ -276,7 +252,6 @@ public class UIManager : MonoBehaviour
         InitializeCategoryChip();
         InitializeResultPanels();
         InitializeHintCounter();
-        InitializeAnswerInputPlaceholder();
 
         if (feverBackground == null)
         {
@@ -284,22 +259,6 @@ public class UIManager : MonoBehaviour
         }
 
         feverBackground?.SetStreak(0, true);
-        ConfigureAnswerInput();
-        InitializeAudioPreferences();
-    }
-
-    private void ConfigureAnswerInput()
-    {
-        if (answerInput == null)
-        {
-            return;
-        }
-
-        answerInput.contentType = TMP_InputField.ContentType.Standard;
-        answerInput.inputType = TMP_InputField.InputType.Standard;
-        answerInput.keyboardType = TouchScreenKeyboardType.Default;
-        answerInput.lineType = TMP_InputField.LineType.SingleLine;
-        answerInput.characterValidation = TMP_InputField.CharacterValidation.None;
     }
 
     private void Start()
@@ -318,7 +277,6 @@ public class UIManager : MonoBehaviour
             scoreText.text = displayedScore.ToString();
         }
 
-        ApplyAudioPreferences();
     }
 
     private void InitializeCategoryChip()
@@ -772,101 +730,8 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Registra el evento de selección del TMP_InputField y conserva el
-    /// placeholder original. No requiere asignar una referencia extra
-    /// en el Inspector: utiliza answerInput.placeholder.
-    /// </summary>
-    private void InitializeAnswerInputPlaceholder()
-    {
-        if (answerInput == null)
-        {
-            return;
-        }
-
-        // Evita listeners duplicados si el método se ejecuta nuevamente.
-        answerInput.onSelect.RemoveListener(HandleAnswerInputSelected);
-        answerInput.onSelect.AddListener(HandleAnswerInputSelected);
-
-        answerPlaceholderGraphic = answerInput.placeholder;
-        answerPlaceholderText = answerPlaceholderGraphic as TMP_Text;
-
-        if (answerPlaceholderText != null)
-        {
-            answerPlaceholderOriginalText = answerPlaceholderText.text;
-        }
-
-        answerPlaceholderInitialized = answerPlaceholderGraphic != null;
-        answerPlaceholderDismissed = false;
-
-        RestoreAnswerPlaceholder();
-    }
-
-    /// <summary>
-    /// Se ejecuta inmediatamente al pulsar o seleccionar el InputField.
-    /// El placeholder desaparece antes de que el jugador escriba.
-    /// </summary>
-    private void HandleAnswerInputSelected(string _)
-    {
-        if (
-            !answerPlaceholderInitialized ||
-            answerPlaceholderDismissed
-        )
-        {
-            return;
-        }
-
-        answerPlaceholderDismissed = true;
-
-        if (answerPlaceholderText != null)
-        {
-            // Vaciar el texto es más estable que desactivar el GameObject:
-            // TMP_InputField puede seguir actualizando su etiqueta normalmente.
-            answerPlaceholderText.text = string.Empty;
-        }
-        else if (answerPlaceholderGraphic != null)
-        {
-            answerPlaceholderGraphic.enabled = false;
-        }
-
-        answerInput?.ForceLabelUpdate();
-    }
-
-    /// <summary>
-    /// Restaura el placeholder para la siguiente ronda. Durante una misma
-    /// ronda permanece oculto después de la primera selección, aunque el
-    /// jugador quite el foco sin haber escrito.
-    /// </summary>
-    private void RestoreAnswerPlaceholder()
-    {
-        if (!answerPlaceholderInitialized)
-        {
-            return;
-        }
-
-        answerPlaceholderDismissed = false;
-
-        if (answerPlaceholderGraphic != null)
-        {
-            answerPlaceholderGraphic.gameObject.SetActive(true);
-            answerPlaceholderGraphic.enabled = true;
-        }
-
-        if (answerPlaceholderText != null)
-        {
-            answerPlaceholderText.text = answerPlaceholderOriginalText;
-        }
-
-        answerInput?.ForceLabelUpdate();
-    }
-
     private void OnDestroy()
     {
-        if (answerInput != null)
-        {
-            answerInput.onSelect.RemoveListener(HandleAnswerInputSelected);
-        }
-
         if (Instance == this)
         {
             Instance = null;
@@ -1000,10 +865,6 @@ public class UIManager : MonoBehaviour
         answerInput.caretPosition = 0;
         answerInput.selectionAnchorPosition = 0;
         answerInput.selectionFocusPosition = 0;
-
-        // Cada ronda comienza mostrando nuevamente la indicación.
-        // Al primer toque, HandleAnswerInputSelected la oculta de inmediato.
-        RestoreAnswerPlaceholder();
     }
 
     public void RequestHint()
@@ -1118,35 +979,22 @@ public class UIManager : MonoBehaviour
 
     public void ToggleMusic()
     {
-        musicMuted = !musicMuted;
-        PlayerPrefs.SetInt(MusicMutedPlayerPrefsKey, musicMuted ? 1 : 0);
-        PlayerPrefs.Save();
+        if (backgroundMusic == null)
+        {
+            return;
+        }
 
-        ApplyMusicMuteState();
-        RefreshMusicButtonVisual();
-    }
+        backgroundMusic.mute = !backgroundMusic.mute;
 
-    public void ToggleSoundEffects()
-    {
-        soundEffectsMuted = !soundEffectsMuted;
-        PlayerPrefs.SetInt(
-            SoundEffectsMutedPlayerPrefsKey,
-            soundEffectsMuted ? 1 : 0
-        );
-        PlayerPrefs.Save();
-
-        ApplySoundEffectsMuteState();
-        RefreshSoundEffectsButtonVisual();
+        if (musicButtonImage != null && musicOnSprite != null && musicOffSprite != null)
+        {
+            musicButtonImage.sprite =
+                backgroundMusic.mute ? musicOffSprite : musicOnSprite;
+        }
     }
 
     public void ExitToMainMenuFromPause()
     {
-        if (GameManager.Instance != null)
-        {
-            GameManager.Instance.GoToMainMenu();
-            return;
-        }
-
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
@@ -2229,7 +2077,7 @@ public class UIManager : MonoBehaviour
 
     private void PlayStreakSound(int streak)
     {
-        if (soundEffectsMuted || effectsAudioSource == null || streakSFX == null)
+        if (effectsAudioSource == null || streakSFX == null)
         {
             return;
         }
@@ -2251,72 +2099,10 @@ public class UIManager : MonoBehaviour
 
     private void PlayEffect(AudioClip clip)
     {
-        if (soundEffectsMuted || effectsAudioSource == null || clip == null)
+        if (effectsAudioSource != null && clip != null)
         {
-            return;
+            effectsAudioSource.PlayOneShot(clip);
         }
-
-        effectsAudioSource.PlayOneShot(clip);
-    }
-
-
-    private void InitializeAudioPreferences()
-    {
-        musicMuted = PlayerPrefs.GetInt(MusicMutedPlayerPrefsKey, 0) == 1;
-        soundEffectsMuted =
-            PlayerPrefs.GetInt(SoundEffectsMutedPlayerPrefsKey, 0) == 1;
-
-        ApplyAudioPreferences();
-    }
-
-    private void ApplyAudioPreferences()
-    {
-        ApplyMusicMuteState();
-        ApplySoundEffectsMuteState();
-        RefreshMusicButtonVisual();
-        RefreshSoundEffectsButtonVisual();
-    }
-
-    private void ApplyMusicMuteState()
-    {
-        if (backgroundMusic != null)
-        {
-            backgroundMusic.mute = musicMuted;
-        }
-    }
-
-    private void ApplySoundEffectsMuteState()
-    {
-        if (effectsAudioSource != null)
-        {
-            effectsAudioSource.mute = soundEffectsMuted;
-            effectsAudioSource.pitch = 1f;
-        }
-    }
-
-    private void RefreshMusicButtonVisual()
-    {
-        if (musicButtonImage == null || musicOnSprite == null || musicOffSprite == null)
-        {
-            return;
-        }
-
-        musicButtonImage.sprite = musicMuted ? musicOffSprite : musicOnSprite;
-    }
-
-    private void RefreshSoundEffectsButtonVisual()
-    {
-        if (
-            soundEffectsButtonImage == null ||
-            soundEffectsOnSprite == null ||
-            soundEffectsOffSprite == null
-        )
-        {
-            return;
-        }
-
-        soundEffectsButtonImage.sprite =
-            soundEffectsMuted ? soundEffectsOffSprite : soundEffectsOnSprite;
     }
 
     private void SetPauseState(bool shouldPause)

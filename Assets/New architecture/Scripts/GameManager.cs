@@ -2,13 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-using UnityEngine;
 using System.Threading.Tasks;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public const string HighScorePlayerPrefsKey = "HighScore";
+    private const string LeaderboardSubmittedHighScoreKey = "LeaderboardSubmittedHighScore";
 
     public static GameManager Instance { get; private set; }
 
@@ -28,6 +29,10 @@ public class GameManager : MonoBehaviour
     public int Lives { get; private set; }
     public int CurrentStreak { get; private set; }
     public int HighScore { get; private set; }
+
+    // UIManager usará este dato para saber si el panel de respuesta revelada
+    // debe mostrar "Volver a intentar" + "Volver al menú" o solo "Continuar".
+    public bool LastRevealWasGameOver { get; private set; }
 
     private RiddleSO currentRiddle;
     private readonly List<RiddleSO> availableRiddles = new List<RiddleSO>();
@@ -56,21 +61,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        Score = 0;
-        Lives = startingLives;
-        CurrentStreak = 0;
-
-        highScoreAtRunStart = PlayerPrefs.GetInt(HighScorePlayerPrefsKey, 0);
-        leaderboardSubmittedThisRun = false;
-
-        if (!TryInitializeRiddles())
-        {
-            enabled = false;
-            return;
-        }
-
-        UIManager.Instance?.RequestCategoryAttention();
-        NextRound();
+        StartNewRun();
     }
 
     private void OnDestroy()
@@ -96,16 +87,20 @@ public class GameManager : MonoBehaviour
 
     private void StartNewRun()
     {
+        HighScore = PlayerPrefs.GetInt(HighScorePlayerPrefsKey, 0);
+        highScoreAtRunStart = HighScore;
+
         Score = 0;
         Lives = startingLives;
         CurrentStreak = 0;
-        HighScore = PlayerPrefs.GetInt(HighScorePlayerPrefsKey, 0);
 
         currentRiddle = null;
         currentHintCount = 0;
         hasPendingCorrectReward = false;
         pendingCorrectPoints = 0;
         runFinished = false;
+        leaderboardSubmittedThisRun = false;
+        LastRevealWasGameOver = false;
 
         usedRiddlesThisRun.Clear();
         availableRiddles.Clear();
@@ -136,6 +131,8 @@ public class GameManager : MonoBehaviour
         {
             return;
         }
+
+        LastRevealWasGameOver = false;
 
         if (availableRiddles.Count == 0)
         {
@@ -232,10 +229,13 @@ public class GameManager : MonoBehaviour
             UIManager.Instance.TriggerFailureFeedback();
         }
 
+        bool noLivesLeft = Lives <= 0;
         bool noMoreHints = currentHintCount >= GetTotalHintCount();
 
-        if (Lives <= 0 || noMoreHints)
+        if (noLivesLeft || noMoreHints)
         {
+            LastRevealWasGameOver = noLivesLeft;
+
             UIManager.Instance?.RefreshStatusUI();
             UIManager.Instance?.ShowRevealPanel(currentRiddle.answer);
             return;
@@ -440,9 +440,11 @@ public class GameManager : MonoBehaviour
     public void ContinueFromReveal()
     {
         // El UIManager ya terminó la animación de salida del panel.
+        // Cuando se terminan las vidas, el único botón del panel
+        // reinicia la partida en vez de volver al menú principal.
         if (Lives <= 0)
         {
-            GoToMainMenu();
+            RestartGame();
             return;
         }
 
@@ -464,7 +466,7 @@ public class GameManager : MonoBehaviour
 
         await SubmitRunScoreToLeaderboardIfNeededAsync();
 
-        SceneManager.LoadScene(0);
+        LoadMainMenuScene();
     }
 
     private bool SaveHighScoreIfNeeded()
@@ -473,10 +475,15 @@ public class GameManager : MonoBehaviour
 
         if (Score > savedHighScore)
         {
+            HighScore = Score;
             PlayerPrefs.SetInt(HighScorePlayerPrefsKey, Score);
             PlayerPrefs.Save();
 
             Debug.Log($"Nuevo High Score local guardado: {Score}");
+        }
+        else
+        {
+            HighScore = savedHighScore;
         }
 
         bool isNewHighScoreForThisRun = Score > highScoreAtRunStart;
@@ -490,6 +497,7 @@ public class GameManager : MonoBehaviour
 
         return isNewHighScoreForThisRun;
     }
+
     private async Task SubmitRunScoreToLeaderboardIfNeededAsync()
     {
         if (leaderboardSubmittedThisRun)
@@ -510,7 +518,7 @@ public class GameManager : MonoBehaviour
         }
 
         int lastSubmittedScore = PlayerPrefs.GetInt(
-            "LeaderboardSubmittedHighScore",
+            LeaderboardSubmittedHighScoreKey,
             0
         );
 
@@ -536,14 +544,17 @@ public class GameManager : MonoBehaviour
 
         await UGSLeaderboardManager.Instance.SubmitScoreAsync(bestKnownScore);
 
-        PlayerPrefs.SetInt("LeaderboardSubmittedHighScore", bestKnownScore);
+        PlayerPrefs.SetInt(LeaderboardSubmittedHighScoreKey, bestKnownScore);
         PlayerPrefs.Save();
     }
 
     private bool TrySaveHighScore()
     {
-        if (Score <= HighScore)
+        int savedHighScore = PlayerPrefs.GetInt(HighScorePlayerPrefsKey, 0);
+
+        if (Score <= savedHighScore)
         {
+            HighScore = savedHighScore;
             return false;
         }
 

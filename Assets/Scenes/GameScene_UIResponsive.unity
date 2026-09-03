@@ -991,9 +991,6 @@ MonoBehaviour:
   musicButtonImage: {fileID: 0}
   musicOnSprite: {fileID: 0}
   musicOffSprite: {fileID: 0}
-  soundEffectsButtonImage: {fileID: 1537885755}
-  soundEffectsOnSprite: {fileID: 0}
-  soundEffectsOffSprite: {fileID: 0}
   revealPanel: {fileID: 702886450}
   revealPanelRoot: {fileID: 203720704}
   revealPanelCanvasGroup: {fileID: 203720703}
@@ -7114,7 +7111,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Volver al menu
+  m_text: Reintentar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06f212fa16d26144eb2e1069c8d9732d, type: 2}
   m_sharedMaterial: {fileID: -2574739469799082455, guid: 06f212fa16d26144eb2e1069c8d9732d, type: 2}
@@ -27374,7 +27371,7 @@ GameObject:
   - component: {fileID: 1926213202}
   - component: {fileID: 1926213201}
   m_Layer: 5
-  m_Name: GoBackMenuButton
+  m_Name: RetryButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27446,7 +27443,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 288829174}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: GoToMainMenu
+        m_MethodName: ContinueFromReveal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

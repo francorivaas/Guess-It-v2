@@ -13541,7 +13541,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.0822963, y: 0.29829168}
   m_AnchorMax: {x: 0.90740746, y: 0.8772917}
-  m_AnchoredPosition: {x: 5.7210693, y: -321.99994}
+  m_AnchoredPosition: {x: 5.7210693, y: -321.99997}
   m_SizeDelta: {x: -6.17, y: -202.0096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &709729902
@@ -27441,8 +27441,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288829174}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 172796979}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: ContinueFromReveal
         m_Mode: 1
         m_Arguments:

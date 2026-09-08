@@ -55,6 +55,11 @@ public class LeaderboardPanelUI : MonoBehaviour
     private Coroutine panelAnimation;
     private Vector3 animatedRootBaseScale = Vector3.one;
 
+    public Image backdrop;
+    
+    [Header("Menu Visibility")]
+    [SerializeField] private GameObject mainMenuContentRoot;
+
     private void Awake()
     {
         CacheAnimationReferences();
@@ -123,7 +128,10 @@ public class LeaderboardPanelUI : MonoBehaviour
 
     public void OpenPanel()
     {
-        CacheAnimationReferences();
+        if (mainMenuContentRoot != null)
+        {
+            mainMenuContentRoot.SetActive(false);
+        }
 
         if (panelRoot != null)
         {
@@ -131,18 +139,12 @@ public class LeaderboardPanelUI : MonoBehaviour
             panelRoot.transform.SetAsLastSibling();
         }
 
-        if (panelAnimation != null)
-        {
-            StopCoroutine(panelAnimation);
-            panelAnimation = null;
-        }
-
-        panelAnimation = StartCoroutine(AnimatePanelOpen());
         RefreshPanel();
     }
 
     public void ClosePanel()
     {
+        backdrop.gameObject.SetActive(false);
         if (panelAnimation != null)
         {
             StopCoroutine(panelAnimation);
@@ -156,6 +158,10 @@ public class LeaderboardPanelUI : MonoBehaviour
         }
 
         panelAnimation = StartCoroutine(AnimatePanelClose());
+        if (mainMenuContentRoot != null)
+        {
+            mainMenuContentRoot.SetActive(true);
+        }
     }
 
     private IEnumerator AnimatePanelOpen()

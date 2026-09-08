@@ -837,8 +837,14 @@ public class UIManager : MonoBehaviour
 
     public void SubmitAnswer()
     {
-        if (inputLocked || answerInput == null || string.IsNullOrWhiteSpace(answerInput.text))
+        if (inputLocked || answerInput == null)
         {
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(answerInput.text))
+        {
+            FocusAnswerInput();
             return;
         }
 
@@ -2239,7 +2245,16 @@ public class UIManager : MonoBehaviour
         hintCounterRoot.localScale = hintCounterBaseScale;
         hintCounterPulseAnimation = null;
     }
+    private void FocusAnswerInput()
+    {
+        if (answerInput == null || !answerInput.interactable)
+        {
+            return;
+        }
 
+        answerInput.Select();
+        answerInput.ActivateInputField();
+    }
     private void RefreshHintButtonState()
     {
         bool hasMoreHints =

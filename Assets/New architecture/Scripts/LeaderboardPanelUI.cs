@@ -32,6 +32,17 @@ public class LeaderboardPanelUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI errorText;
     [SerializeField] private TextMeshProUGUI playerSummaryText;
 
+    [Header("Player Alias")]
+    [Tooltip("Texto opcional para mostrar el alias actual, por ejemplo: Tu nombre: DulceZorro#1234.")]
+    [SerializeField] private TextMeshProUGUI playerAliasText;
+
+    [Tooltip("Botón opcional para generar otro alias aleatorio sin pedir datos personales.")]
+    [SerializeField] private Button changeAliasButton;
+
+    [SerializeField] private string playerAliasPrefix = "Tu nombre: ";
+    [SerializeField] private string loadingAliasText = "Cargando nombre...";
+    [SerializeField] private string changingAliasText = "Generando nombre...";
+
     [Header("Buttons")]
     [SerializeField] private Button refreshButton;
     [SerializeField] private Button closeButton;
@@ -40,6 +51,7 @@ public class LeaderboardPanelUI : MonoBehaviour
         new List<LeaderboardRowUI>();
 
     private bool isLoading;
+    private bool isChangingAlias;
     private Coroutine panelAnimation;
     private Vector3 animatedRootBaseScale = Vector3.one;
 
@@ -64,10 +76,17 @@ public class LeaderboardPanelUI : MonoBehaviour
             closeButton.onClick.AddListener(ClosePanel);
         }
 
+        if (changeAliasButton != null)
+        {
+            changeAliasButton.onClick.RemoveListener(GenerateNewPlayerAlias);
+            changeAliasButton.onClick.AddListener(GenerateNewPlayerAlias);
+        }
+
         SetLoadingState(false);
         SetEmptyState(false);
         SetErrorMessage(string.Empty);
         SetPlayerSummary(string.Empty);
+        SetPlayerAlias(string.Empty);
     }
 
     private void CacheAnimationReferences()
@@ -299,28 +318,28 @@ public class LeaderboardPanelUI : MonoBehaviour
         }
 
         isLoading = true;
-
         ClearRows();
         SetLoadingState(true);
         SetEmptyState(false);
         SetErrorMessage(string.Empty);
         SetPlayerSummary(string.Empty);
+        SetPlayerAlias(loadingAliasText);
+        SetButtonsInteractable(false);
 
-        if (refreshButton != null)
-        {
-            refreshButton.interactable = false;
-        }
+        string playerAlias = string.Empty;
 
         try
         {
             if (UGSLeaderboardManager.Instance == null)
             {
-                SetErrorMessage(
-                    "No se encontró el servicio de ranking."
-                );
-
+                SetErrorMessage("No se encontró el servicio de ranking.");
                 return;
             }
+
+            playerAlias = await UGSLeaderboardManager.Instance
+                .EnsurePlayerAliasAsync();
+
+            SetPlayerAlias(playerAlias);
 
             List<UGSLeaderboardManager.LeaderboardDisplayEntry> topEntries =
                 await UGSLeaderboardManager.Instance.GetTopScoresAsync(
@@ -328,11 +347,10 @@ public class LeaderboardPanelUI : MonoBehaviour
                 );
 
             UGSLeaderboardManager.LeaderboardDisplayEntry playerEntry =
-                await UGSLeaderboardManager.Instance
-                    .GetCurrentPlayerScoreAsync();
+                await UGSLeaderboardManager.Instance.GetCurrentPlayerScoreAsync();
 
             RenderTopEntries(topEntries);
-            RenderPlayerSummary(playerEntry);
+            RenderPlayerSummary(playerEntry, playerAlias);
 
             bool hasEntries = topEntries != null && topEntries.Count > 0;
             SetEmptyState(!hasEntries);
@@ -346,13 +364,51 @@ public class LeaderboardPanelUI : MonoBehaviour
         finally
         {
             SetLoadingState(false);
+            isLoading = false;
+            SetButtonsInteractable(true);
+        }
+    }
 
-            if (refreshButton != null)
+    public async void GenerateNewPlayerAlias()
+    {
+        if (isChangingAlias)
+        {
+            return;
+        }
+
+        isChangingAlias = true;
+        SetErrorMessage(string.Empty);
+        SetPlayerAlias(changingAliasText);
+        SetButtonsInteractable(false);
+
+        string playerAlias = string.Empty;
+
+        try
+        {
+            if (UGSLeaderboardManager.Instance == null)
             {
-                refreshButton.interactable = true;
+                SetErrorMessage("No se encontró el servicio de ranking.");
+                return;
             }
 
-            isLoading = false;
+            playerAlias = await UGSLeaderboardManager.Instance
+                .GenerateNewRandomPlayerAliasAsync();
+
+            SetPlayerAlias(playerAlias);
+
+            // Recargamos para que el resumen y la fila del jugador usen el alias nuevo.
+            RefreshPanel();
+        }
+        catch (System.Exception exception)
+        {
+            SetErrorMessage(
+                $"No se pudo cambiar el nombre.\n{exception.Message}"
+            );
+        }
+        finally
+        {
+            isChangingAlias = false;
+            SetButtonsInteractable(true);
         }
     }
 
@@ -372,29 +428,39 @@ public class LeaderboardPanelUI : MonoBehaviour
 
         foreach (UGSLeaderboardManager.LeaderboardDisplayEntry entry in entries)
         {
-            LeaderboardRowUI row =
-                Instantiate(rowPrefab, rowsContainer);
-
+            LeaderboardRowUI row = Instantiate(rowPrefab, rowsContainer);
             row.Setup(entry);
             spawnedRows.Add(row);
         }
     }
 
     private void RenderPlayerSummary(
-        UGSLeaderboardManager.LeaderboardDisplayEntry playerEntry
+        UGSLeaderboardManager.LeaderboardDisplayEntry playerEntry,
+        string playerAlias
     )
     {
+        string aliasPrefix = string.Empty;
+
+        // Si no asignás Player Alias Text en el Inspector, el alias aparece en el resumen
+        // para que la feature funcione sin crear UI nueva obligatoriamente.
+        if (
+            playerAliasText == null &&
+            !string.IsNullOrWhiteSpace(playerAlias)
+        )
+        {
+            aliasPrefix = $"Tu nombre: {playerAlias} | ";
+        }
+
         if (playerEntry == null)
         {
             SetPlayerSummary(
-                "Jugá una partida para aparecer en el ranking."
+                $"{aliasPrefix}Jugá una partida para aparecer en el ranking."
             );
-
             return;
         }
 
         SetPlayerSummary(
-            $"Tu puesto: #{playerEntry.rank} | Tu score: {playerEntry.score}"
+            $"{aliasPrefix}Tu puesto: #{playerEntry.rank} | Tu score: {playerEntry.score}"
         );
     }
 
@@ -439,7 +505,6 @@ public class LeaderboardPanelUI : MonoBehaviour
         }
 
         bool hasMessage = !string.IsNullOrWhiteSpace(message);
-
         errorText.gameObject.SetActive(hasMessage);
         errorText.text = message;
     }
@@ -452,6 +517,49 @@ public class LeaderboardPanelUI : MonoBehaviour
         }
 
         playerSummaryText.text = message;
+    }
+
+    private void SetPlayerAlias(string playerAlias)
+    {
+        if (playerAliasText == null)
+        {
+            return;
+        }
+
+        bool hasAlias = !string.IsNullOrWhiteSpace(playerAlias);
+        playerAliasText.gameObject.SetActive(hasAlias);
+
+        if (!hasAlias)
+        {
+            playerAliasText.text = string.Empty;
+            return;
+        }
+
+        if (
+            playerAlias == loadingAliasText ||
+            playerAlias == changingAliasText
+        )
+        {
+            playerAliasText.text = playerAlias;
+            return;
+        }
+
+        playerAliasText.text = $"{playerAliasPrefix}{playerAlias}";
+    }
+
+    private void SetButtonsInteractable(bool interactable)
+    {
+        bool canInteract = interactable && !isLoading && !isChangingAlias;
+
+        if (refreshButton != null)
+        {
+            refreshButton.interactable = canInteract;
+        }
+
+        if (changeAliasButton != null)
+        {
+            changeAliasButton.interactable = canInteract;
+        }
     }
 
     private static float EaseOutBack(float value)

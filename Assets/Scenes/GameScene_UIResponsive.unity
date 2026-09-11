@@ -1035,7 +1035,7 @@ MonoBehaviour:
     icon: {fileID: -3312654882098191832, guid: b3abe13089807cc46a022d631b059178, type: 3}
   - categoryName: lugares historicos y monumentos
     icon: {fileID: 3410101378530636140, guid: d7e54c6cb1aa6bc4e995234b875c7f17, type: 3}
-  - categoryName: marcas y productos iconicos
+  - categoryName: marcas y productos
     icon: {fileID: 875893411037246206, guid: 164881b9468b32741a7b368ecfba8702, type: 3}
   - categoryName: inventos y tecnologia
     icon: {fileID: 3227173007999952086, guid: b1058734459b8324f9c0385c725ab1b7, type: 3}
@@ -14048,8 +14048,8 @@ MonoBehaviour:
   m_fontSizeMin: 72
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1

@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI; // <-- Necesario
@@ -8,6 +8,9 @@ public class MainMenuManager : MonoBehaviour
 {
     [Header("UI Elements")]
     public TextMeshProUGUI menuHighScoreText;
+
+    [Header("Feedback")]
+    [SerializeField] private string feedbackFormUrl;
 
     [System.Obsolete]
     void Start()
@@ -19,7 +22,7 @@ public class MainMenuManager : MonoBehaviour
             menuHighScoreText.text = "Mejor Puntaje: " + currentHighScore;
         }
 
-        // Buscamos los botones del menú y les inyectamos el Juice
+        // Buscamos los botones del menï¿½ y les inyectamos el Juice
         Button[] allButtons = FindObjectsByType<Button>(FindObjectsInactive.Include, FindObjectsSortMode.None);
         foreach (Button btn in allButtons)
         {
@@ -30,13 +33,24 @@ public class MainMenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        // En lugar de cargar abruptamente, llamamos a la animación
+        // En lugar de cargar abruptamente, llamamos a la animaciï¿½n
         SceneFader.Instance.FadeToScene("GameScene_UIResponsive");
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void OpenFeedbackForm()
+    {
+        if (string.IsNullOrWhiteSpace(feedbackFormUrl))
+        {
+            Debug.LogWarning("No se configurï¿½ la URL del formulario de feedback.");
+            return;
+        }
+
+        Application.OpenURL(feedbackFormUrl);
     }
 
     // La misma corrutina de elasticidad

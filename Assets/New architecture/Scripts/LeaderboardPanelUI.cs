@@ -128,10 +128,9 @@ public class LeaderboardPanelUI : MonoBehaviour
 
     public void OpenPanel()
     {
-        if (mainMenuContentRoot != null)
-        {
-            mainMenuContentRoot.SetActive(false);
-        }
+        Debug.Log("OPEN PANEL RANKING");
+
+        CacheAnimationReferences();
 
         if (panelRoot != null)
         {
@@ -139,7 +138,7 @@ public class LeaderboardPanelUI : MonoBehaviour
             panelRoot.transform.SetAsLastSibling();
         }
 
-        RefreshPanel();
+        // resto del método...
     }
 
     public void ClosePanel()

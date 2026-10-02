@@ -1274,6 +1274,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 405252608}
+  - component: {fileID: 405252609}
   m_Layer: 5
   m_Name: Ranking
   m_TagString: Untagged
@@ -1301,6 +1302,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &405252609
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405252607}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &707921940
 GameObject:
   m_ObjectHideFlags: 0
@@ -2743,9 +2756,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8d3e096e7a3fe14296b364858ba837a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeaderboardPanelUI
-  panelRoot: {fileID: 2072657413}
-  animatedRoot: {fileID: 2072657414}
-  panelCanvasGroup: {fileID: 2072657417}
+  panelRoot: {fileID: 405252607}
+  animatedRoot: {fileID: 405252608}
+  panelCanvasGroup: {fileID: 405252609}
   popStartScale: 0.72
   popOvershootScale: 1.08
   popInDuration: 0.28

@@ -531,8 +531,6 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        leaderboardSubmittedThisRun = true;
-
         if (UGSLeaderboardManager.Instance == null)
         {
             Debug.LogWarning(
@@ -542,9 +540,26 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        await UGSLeaderboardManager.Instance.SubmitScoreAsync(bestKnownScore);
+        bool submitted =
+            await UGSLeaderboardManager.Instance.SubmitScoreAsync(bestKnownScore);
 
-        PlayerPrefs.SetInt(LeaderboardSubmittedHighScoreKey, bestKnownScore);
+        if (!submitted)
+        {
+            Debug.LogWarning(
+                $"No se pudo enviar el score {bestKnownScore} al ranking. " +
+                "Se conservará como pendiente para un próximo intento."
+            );
+
+            return;
+        }
+
+        leaderboardSubmittedThisRun = true;
+
+        PlayerPrefs.SetInt(
+            LeaderboardSubmittedHighScoreKey,
+            bestKnownScore
+        );
+
         PlayerPrefs.Save();
     }
 

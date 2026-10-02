@@ -415,53 +415,39 @@ public class UGSLeaderboardManager : MonoBehaviour
         return "Jugador";
     }
 
-    public async Task SubmitScoreAsync(int score)
+    public async Task<bool> SubmitScoreAsync(int score)
     {
         if (score <= 0)
         {
-            Debug.Log("No se envía score porque es 0 o negativo.");
-            return;
+            return false;
         }
 
         await InitializeAsync();
 
         if (!IsReady)
         {
-            Debug.LogWarning(
-                "No se pudo enviar el score porque UGS no está listo."
-            );
-            return;
-        }
-
-        if (createGuessItAliasAutomatically)
-        {
-            await EnsurePlayerAliasInternalAsync(false);
+            return false;
         }
 
         try
         {
-            await Task.Yield();
-
-            LeaderboardEntry playerEntry =
-                await LeaderboardsService.Instance.AddPlayerScoreAsync(
-                    leaderboardId,
-                    score
-                );
-
-            Debug.Log(
-                $"Score de run enviado: {score} | " +
-                $"Score guardado en leaderboard: {playerEntry.Score} | " +
-                $"Rank: {playerEntry.Rank} | " +
-                $"Nombre: {CurrentPlayerName}"
+            await LeaderboardsService.Instance.AddPlayerScoreAsync(
+                leaderboardId,
+                score
             );
+
+            return true;
         }
         catch (Exception exception)
         {
             Debug.LogError(
-                $"Error enviando score al leaderboard '{leaderboardId}': {exception}"
+                $"Error enviando score al ranking: {exception.Message}"
             );
+
+            return false;
         }
-    }
+    
+}
 
     public async Task<List<LeaderboardDisplayEntry>> GetTopScoresAsync(
         int limit = 10

@@ -1,4 +1,4 @@
-
+using System.Collections.Generic;
 using UnityEngine;
 using GoogleMobileAds.Ump.Api;
 
@@ -35,6 +35,23 @@ public class PrivacyManager : MonoBehaviour
         Debug.Log("[PRIVACY] Actualizando consentimiento...");
 
         var request = new ConsentRequestParameters();
+
+#if UNITY_ANDROID && !UNITY_EDITOR && DEVELOPMENT_BUILD
+
+request.ConsentDebugSettings = new ConsentDebugSettings
+{
+    DebugGeography = DebugGeography.EEA,
+    TestDeviceHashedIds = new List<string>
+    {
+        SystemInfo.deviceUniqueIdentifier.ToUpperInvariant()
+    }
+};
+
+// Reiniciar consentimiento únicamente durante pruebas.
+
+Debug.Log("[PRIVACY] Modo de prueba europeo activado.");
+
+#endif
 
         ConsentInformation.Update(request, updateError =>
         {

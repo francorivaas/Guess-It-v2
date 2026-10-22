@@ -7,7 +7,6 @@ public class PrivacyOptionsButtonUI : MonoBehaviour
 {
     private Button button;
     private CanvasGroup canvasGroup;
-    private bool isVisible;
 
     private void Awake()
     {
@@ -19,22 +18,21 @@ public class PrivacyOptionsButtonUI : MonoBehaviour
         SetVisible(false);
     }
 
-    private void Update()
+    private void Start()
     {
-        bool shouldBeVisible =
-            PrivacyManager.Instance != null &&
-            PrivacyManager.Instance.PrivacyOptionsRequired;
-
-        if (shouldBeVisible != isVisible)
+        if (PrivacyManager.Instance != null)
         {
-            SetVisible(shouldBeVisible);
+            PrivacyManager.Instance.PrivacyOptionsStateChanged
+                += SetVisible;
+
+            SetVisible(
+                PrivacyManager.Instance.PrivacyOptionsRequired
+            );
         }
     }
 
     private void SetVisible(bool visible)
     {
-        isVisible = visible;
-
         canvasGroup.alpha = visible ? 1f : 0f;
         canvasGroup.interactable = visible;
         canvasGroup.blocksRaycasts = visible;
@@ -43,17 +41,10 @@ public class PrivacyOptionsButtonUI : MonoBehaviour
     private void OpenPrivacyOptions()
     {
         if (PrivacyManager.Instance == null)
-        {
-            Debug.LogWarning(
-                "[PRIVACY] PrivacyManager no disponible."
-            );
             return;
-        }
 
         if (!PrivacyManager.Instance.PrivacyOptionsRequired)
-        {
             return;
-        }
 
         Debug.Log("[PRIVACY] Abriendo opciones de privacidad.");
 
@@ -62,6 +53,12 @@ public class PrivacyOptionsButtonUI : MonoBehaviour
 
     private void OnDestroy()
     {
+        if (PrivacyManager.Instance != null)
+        {
+            PrivacyManager.Instance.PrivacyOptionsStateChanged
+                -= SetVisible;
+        }
+
         if (button != null)
         {
             button.onClick.RemoveListener(OpenPrivacyOptions);

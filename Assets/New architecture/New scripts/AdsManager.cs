@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using GoogleMobileAds.Api;
 using GoogleMobileAds.Common;
@@ -13,20 +14,23 @@ public class AdsManager : MonoBehaviour
         Initialized
     }
 
-    // ID OFICIAL DE PRUEBA de Google para interstitial en Android.
-    // Se usa SOLO en compilaciones Development Build.
+    // ID oficial de prueba de Google para intersticiales Android.
+    // Solo se utiliza en compilaciones Android Development Build.
     private const string AndroidTestInterstitialId =
         "ca-app-pub-3940256099942544/1033173712";
 
     private AdsState state = AdsState.Uninitialized;
     private InterstitialAd interstitialAd;
     private bool isInterstitialLoading;
+    private bool isInterstitialShowing;
 
     public bool IsInitialized => state == AdsState.Initialized;
 
     public bool IsInterstitialReady()
     {
-        return interstitialAd != null && interstitialAd.CanShowAd();
+        return !isInterstitialShowing &&
+               interstitialAd != null &&
+               interstitialAd.CanShowAd();
     }
 
     private void Awake()
@@ -66,18 +70,12 @@ public class AdsManager : MonoBehaviour
                 if (initStatus == null)
                 {
                     state = AdsState.Uninitialized;
-                    Debug.LogWarning(
-                        "[ADS] No se pudo inicializar el SDK."
-                    );
+                    Debug.LogWarning("[ADS] No se pudo inicializar el SDK.");
                     return;
                 }
 
                 state = AdsState.Initialized;
-                Debug.Log(
-                    "[ADS] Google Mobile Ads inicializado correctamente."
-                );
-
-                // Solo precarga un anuncio. Aun no se muestra publicidad.
+                Debug.Log("[ADS] Google Mobile Ads inicializado correctamente.");
                 LoadTestInterstitial();
             });
         });
@@ -86,7 +84,8 @@ public class AdsManager : MonoBehaviour
     private void LoadTestInterstitial()
     {
 #if UNITY_ANDROID && DEVELOPMENT_BUILD && !UNITY_EDITOR
-        if (!IsInitialized || isInterstitialLoading || interstitialAd != null)
+        if (!IsInitialized || isInterstitialLoading ||
+            isInterstitialShowing || interstitialAd != null)
             return;
 
         if (PrivacyManager.Instance == null ||
@@ -104,7 +103,7 @@ public class AdsManager : MonoBehaviour
             new AdRequest(),
             (InterstitialAd ad, LoadAdError error) =>
             {
-                // Los callbacks del SDK pueden llegar desde otro hilo.
+                // Los callbacks de AdMob pueden llegar desde otro hilo.
                 MobileAdsEventExecutor.ExecuteInUpdate(() =>
                 {
                     if (this == null || Instance != this)
@@ -126,6 +125,8 @@ public class AdsManager : MonoBehaviour
                     }
 
                     interstitialAd = ad;
+                    RegisterInterstitialEvents(ad);
+
                     Debug.Log(
                         "[ADS] Interstitial de prueba cargado. Listo: " +
                         IsInterstitialReady()
@@ -140,17 +141,99 @@ public class AdsManager : MonoBehaviour
 #endif
     }
 
+    private void RegisterInterstitialEvents(InterstitialAd ad)
+    {
+        ad.OnAdFullScreenContentOpened += () =>
+        {
+            MobileAdsEventExecutor.ExecuteInUpdate(() =>
+            {
+                if (this != null && Instance == this)
+                    Debug.Log("[ADS] Interstitial abierto.");
+            });
+        };
+
+        ad.OnAdFullScreenContentClosed += () =>
+        {
+            MobileAdsEventExecutor.ExecuteInUpdate(() =>
+                FinishInterstitial(ad, null));
+        };
+
+        ad.OnAdFullScreenContentFailed += error =>
+        {
+            MobileAdsEventExecutor.ExecuteInUpdate(() =>
+                FinishInterstitial(ad, error));
+        };
+    }
+
+    // Solo para conectar un boton temporal de pruebas.
+    public void ShowTestInterstitial()
+    {
+#if UNITY_ANDROID && DEVELOPMENT_BUILD && !UNITY_EDITOR
+        if (PrivacyManager.Instance == null ||
+            !PrivacyManager.Instance.CanRequestAds)
+        {
+            Debug.LogWarning("[ADS] UMP no permite mostrar anuncios.");
+            return;
+        }
+
+        if (!IsInterstitialReady())
+        {
+            Debug.Log("[ADS] Interstitial aun no disponible.");
+            return;
+        }
+
+        isInterstitialShowing = true;
+        Debug.Log("[ADS] Mostrando interstitial de prueba...");
+
+        try
+        {
+            interstitialAd.Show();
+        }
+        catch (Exception exception)
+        {
+            Debug.LogError(
+                "[ADS] Error al mostrar interstitial: " + exception.Message
+            );
+            FinishInterstitial(interstitialAd, null);
+        }
+#else
+        Debug.Log(
+            "[ADS] Solo se puede mostrar el test en una Development Build Android."
+        );
+#endif
+    }
+
+    private void FinishInterstitial(InterstitialAd ad, AdError error)
+    {
+        if (this == null || Instance != this)
+        {
+            ad?.Destroy();
+            return;
+        }
+
+        if (ad == null || interstitialAd != ad || !isInterstitialShowing)
+            return;
+
+        if (error != null)
+            Debug.LogWarning("[ADS] Error al abrir interstitial: " + error);
+        else
+            Debug.Log("[ADS] Interstitial cerrado.");
+
+        isInterstitialShowing = false;
+        interstitialAd = null;
+        ad.Destroy();
+
+        // Cada interstitial solo puede mostrarse una vez.
+        LoadTestInterstitial();
+    }
+
     private void OnDestroy()
     {
         if (Instance != this)
             return;
 
-        if (interstitialAd != null)
-        {
-            interstitialAd.Destroy();
-            interstitialAd = null;
-        }
-
+        interstitialAd?.Destroy();
+        interstitialAd = null;
         Instance = null;
     }
 }

@@ -47,6 +47,8 @@ public class GameManager : MonoBehaviour
 
     private int highScoreAtRunStart;
     private bool leaderboardSubmittedThisRun;
+    private bool gameOverRecordedThisRun;
+    private bool isSceneTransitionInProgress;
 
     private void Awake()
     {
@@ -100,6 +102,8 @@ public class GameManager : MonoBehaviour
         pendingCorrectPoints = 0;
         runFinished = false;
         leaderboardSubmittedThisRun = false;
+        gameOverRecordedThisRun = false;
+        isSceneTransitionInProgress = false;
         LastRevealWasGameOver = false;
 
         usedRiddlesThisRun.Clear();
@@ -231,6 +235,14 @@ public class GameManager : MonoBehaviour
 
         bool noLivesLeft = Lives <= 0;
         bool noMoreHints = currentHintCount >= GetTotalHintCount();
+
+        // Contamos una partida terminada exactamente una vez, al agotar las vidas.
+        // No mostramos publicidad aquí: el jugador todavía debe ver el resultado.
+        if (noLivesLeft && !gameOverRecordedThisRun)
+        {
+            gameOverRecordedThisRun = true;
+            AdsManager.Instance?.RegisterFinishedGame();
+        }
 
         if (noLivesLeft || noMoreHints)
         {
@@ -453,19 +465,56 @@ public class GameManager : MonoBehaviour
 
     public async void RestartGame()
     {
+        // Evita dobles pulsaciones mientras se guarda el ranking o se muestra un anuncio.
+        if (isSceneTransitionInProgress)
+            return;
+
+        isSceneTransitionInProgress = true;
         Time.timeScale = 1f;
+        int sceneBuildIndex = SceneManager.GetActiveScene().buildIndex;
 
-        await SubmitRunScoreToLeaderboardIfNeededAsync();
+        try
+        {
+            await SubmitRunScoreToLeaderboardIfNeededAsync();
+        }
+        catch (Exception exception)
+        {
+            // Un fallo del ranking nunca debe bloquear la posibilidad de reintentar.
+            Debug.LogWarning("No se pudo completar el envío al ranking: " + exception);
+        }
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Action reloadScene = () => SceneManager.LoadScene(sceneBuildIndex);
+
+        // Únicamente luego de Game Over: nunca al reiniciar una partida activa.
+        // Si no corresponde un anuncio, la transición ocurre inmediatamente.
+        if (gameOverRecordedThisRun &&
+            AdsManager.Instance != null &&
+            AdsManager.Instance.TryShowGameOverInterstitial(reloadScene))
+        {
+            return; // Se recargará al cerrar el interstitial (o si falla al abrir).
+        }
+
+        reloadScene();
     }
 
     public async void GoToMainMenu()
     {
+        if (isSceneTransitionInProgress)
+            return;
+
+        isSceneTransitionInProgress = true;
         Time.timeScale = 1f;
 
-        await SubmitRunScoreToLeaderboardIfNeededAsync();
+        try
+        {
+            await SubmitRunScoreToLeaderboardIfNeededAsync();
+        }
+        catch (Exception exception)
+        {
+            Debug.LogWarning("No se pudo completar el envío al ranking: " + exception);
+        }
 
+        // No mostramos interstitial al salir voluntariamente al menú.
         LoadMainMenuScene();
     }
 

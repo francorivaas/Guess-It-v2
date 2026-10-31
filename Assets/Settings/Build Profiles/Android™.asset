@@ -56,6 +56,6 @@ MonoBehaviour:
         m_CurrentDeploymentTargetId: R92Y50YJSMT
         m_BuildType: 1
         m_LinkTimeOptimization: 0
-        m_BuildAppBundle: 1
+        m_BuildAppBundle: 0
         m_IPAddressToConnect: 
         m_SymlinkSources: 0

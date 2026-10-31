@@ -7,22 +7,25 @@ public class AdsManager : MonoBehaviour
 {
     public static AdsManager Instance { get; private set; }
 
-    private enum AdsState
-    {
-        Uninitialized,
-        Initializing,
-        Initialized
-    }
+    private enum AdsState { Uninitialized, Initializing, Initialized }
 
-    // ID oficial de prueba de Google para intersticiales Android.
-    // Solo se utiliza en compilaciones Android Development Build.
-    private const string AndroidTestInterstitialId =
+    // IDs de AdMob para Android. Nunca usar IDs reales en Development Build.
+    private const string TestInterstitialId =
         "ca-app-pub-3940256099942544/1033173712";
+    private const string ProductionInterstitialId =
+        "ca-app-pub-4382732485118871/5361235288";
 
-    private AdsState state = AdsState.Uninitialized;
-    private InterstitialAd interstitialAd;
-    private bool isInterstitialLoading;
-    private bool isInterstitialShowing;
+    private static string InterstitialUnitId
+    {
+        get
+        {
+#if DEVELOPMENT_BUILD
+            return TestInterstitialId;
+#else
+            return ProductionInterstitialId;
+#endif
+        }
+    }
 
     [Header("Frecuencia de interstitials")]
     [SerializeField, Min(1)] private int gamesPerInterstitial = 3;
@@ -31,6 +34,14 @@ public class AdsManager : MonoBehaviour
 
     private const string FinishedGamesKey = "GuessIt_FinishedGamesSinceInterstitial";
     private const string LastInterstitialUtcKey = "GuessIt_LastInterstitialUtc";
+    private const float MaxCachedAdAgeSeconds = 50f * 60f;
+
+    private AdsState state = AdsState.Uninitialized;
+    private InterstitialAd interstitialAd;
+    private bool isInterstitialLoading;
+    private bool isInterstitialShowing;
+    private int loadGeneration;
+    private float loadedAtRealtime;
 
     private int finishedGamesSinceInterstitial;
     private long lastInterstitialUtc;
@@ -42,61 +53,9 @@ public class AdsManager : MonoBehaviour
 
     public bool IsInterstitialReady()
     {
-        return !isInterstitialShowing &&
-               interstitialAd != null &&
-               interstitialAd.CanShowAd();
-    }
-
-    // Se invoca UNA vez al quedarse sin vidas. Persiste entre escenas y sesiones.
-    public void RegisterFinishedGame()
-    {
-        finishedGamesSinceInterstitial = Mathf.Min(
-            finishedGamesSinceInterstitial + 1, 1000000);
-
-        PlayerPrefs.SetInt(FinishedGamesKey, finishedGamesSinceInterstitial);
-        PlayerPrefs.Save();
-
-        Debug.Log($"[ADS] Partidas terminadas desde el último anuncio: " +
-                  $"{finishedGamesSinceInterstitial}/{gamesPerInterstitial}");
-    }
-
-    // Devuelve true solo cuando AdsManager se hace cargo de la transición.
-    // Si devuelve false, GameManager debe continuar inmediatamente.
-    public bool TryShowGameOverInterstitial(Action onFinished)
-    {
-#if UNITY_ANDROID && DEVELOPMENT_BUILD && !UNITY_EDITOR
-        if (onFinished == null)
-            return false;
-
-        if (finishedGamesSinceInterstitial < gamesPerInterstitial)
-        {
-            Debug.Log("[ADS] Frecuencia no alcanzada. Continuando sin anuncio.");
-            return false;
-        }
-
-        double elapsedSeconds = DateTimeOffset.UtcNow.ToUnixTimeSeconds() - lastInterstitialUtc;
-        if (lastInterstitialUtc > 0 && elapsedSeconds < minimumSecondsBetweenAds)
-        {
-            Debug.Log("[ADS] Cooldown activo. Continuando sin anuncio.");
-            return false;
-        }
-
-        if (Time.realtimeSinceStartup - lastResumeRealtime < minimumSecondsAfterResume)
-        {
-            Debug.Log("[ADS] Juego recién abierto o reanudado. Sin anuncio.");
-            return false;
-        }
-
-        return TryShowLoadedInterstitial(onFinished, true);
-#else
-        return false; // Nunca usamos el ID de prueba en una build de producción.
-#endif
-    }
-
-    private void OnApplicationPause(bool paused)
-    {
-        if (!paused)
-            lastResumeRealtime = Time.realtimeSinceStartup;
+        return !isInterstitialShowing && interstitialAd != null &&
+               interstitialAd.CanShowAd() &&
+               Time.realtimeSinceStartup - loadedAtRealtime < MaxCachedAdAgeSeconds;
     }
 
     private void Awake()
@@ -115,6 +74,15 @@ public class AdsManager : MonoBehaviour
         long.TryParse(PlayerPrefs.GetString(LastInterstitialUtcKey, "0"),
             out lastInterstitialUtc);
         lastResumeRealtime = Time.realtimeSinceStartup;
+    }
+
+    private void OnApplicationPause(bool paused)
+    {
+        if (!paused)
+        {
+            lastResumeRealtime = Time.realtimeSinceStartup;
+            RefreshExpiredInterstitial();
+        }
     }
 
     public void InitializeOnce()
@@ -148,14 +116,27 @@ public class AdsManager : MonoBehaviour
 
                 state = AdsState.Initialized;
                 Debug.Log("[ADS] Google Mobile Ads inicializado correctamente.");
-                LoadTestInterstitial();
+                LoadInterstitial();
             });
         });
     }
 
-    private void LoadTestInterstitial()
+    // Llamado al cerrar el formulario de privacidad o actualizar UMP.
+    // Descarta el anuncio preparado bajo las preferencias anteriores.
+    public void OnPrivacyStatusUpdated()
     {
-#if UNITY_ANDROID && DEVELOPMENT_BUILD && !UNITY_EDITOR
+        if (!IsInitialized || isInterstitialShowing)
+            return;
+
+        loadGeneration++; // Invalida callbacks de cargas anteriores.
+        isInterstitialLoading = false;
+        DestroyLoadedInterstitial();
+        LoadInterstitial();
+    }
+
+    private void LoadInterstitial()
+    {
+#if UNITY_ANDROID && !UNITY_EDITOR
         if (!IsInitialized || isInterstitialLoading ||
             isInterstitialShowing || interstitialAd != null)
             return;
@@ -168,17 +149,21 @@ public class AdsManager : MonoBehaviour
         }
 
         isInterstitialLoading = true;
-        Debug.Log("[ADS] Iniciando carga de interstitial de prueba...");
+        int generation = ++loadGeneration;
+        Debug.Log("[ADS] Cargando interstitial " +
+#if DEVELOPMENT_BUILD
+                  "DE PRUEBA...");
+#else
+                  "DE PRODUCCION...");
+#endif
 
-        InterstitialAd.Load(
-            AndroidTestInterstitialId,
-            new AdRequest(),
+        InterstitialAd.Load(InterstitialUnitId, new AdRequest(),
             (InterstitialAd ad, LoadAdError error) =>
             {
-                // Los callbacks de AdMob pueden llegar desde otro hilo.
                 MobileAdsEventExecutor.ExecuteInUpdate(() =>
                 {
-                    if (this == null || Instance != this)
+                    if (this == null || Instance != this ||
+                        generation != loadGeneration)
                     {
                         ad?.Destroy();
                         return;
@@ -189,28 +174,54 @@ public class AdsManager : MonoBehaviour
                     if (error != null || ad == null)
                     {
                         ad?.Destroy();
-                        Debug.LogWarning(
-                            "[ADS] No se pudo cargar interstitial de prueba: " +
-                            (error != null ? error.ToString() : "Anuncio nulo")
-                        );
+                        Debug.LogWarning("[ADS] Fallo al cargar interstitial: " +
+                            (error != null ? error.ToString() : "Anuncio nulo"));
+                        return; // Reintentar en una siguiente oportunidad, sin bucles.
+                    }
+
+                    // Si UMP cambió mientras se procesaba la carga, no conservarla.
+                    if (PrivacyManager.Instance == null ||
+                        !PrivacyManager.Instance.CanRequestAds)
+                    {
+                        ad.Destroy();
                         return;
                     }
 
                     interstitialAd = ad;
+                    loadedAtRealtime = Time.realtimeSinceStartup;
                     RegisterInterstitialEvents(ad);
-
-                    Debug.Log(
-                        "[ADS] Interstitial de prueba cargado. Listo: " +
-                        IsInterstitialReady()
-                    );
+                    Debug.Log("[ADS] Interstitial cargado. Listo: " +
+                              IsInterstitialReady());
                 });
-            }
-        );
+            });
 #else
-        Debug.Log(
-            "[ADS] Carga de prueba omitida: requiere Android Development Build."
-        );
+        Debug.Log("[ADS] Interstitial disponible solo en Android.");
 #endif
+    }
+
+    private void RefreshExpiredInterstitial()
+    {
+#if UNITY_ANDROID && !UNITY_EDITOR
+        if (!IsInitialized || isInterstitialShowing)
+            return;
+
+        if (interstitialAd != null && !IsInterstitialReady())
+        {
+            DestroyLoadedInterstitial();
+        }
+
+        if (interstitialAd == null && !isInterstitialLoading)
+            LoadInterstitial();
+#endif
+    }
+
+    private void DestroyLoadedInterstitial()
+    {
+        if (interstitialAd != null)
+        {
+            interstitialAd.Destroy();
+            interstitialAd = null;
+        }
     }
 
     private void RegisterInterstitialEvents(InterstitialAd ad)
@@ -219,8 +230,8 @@ public class AdsManager : MonoBehaviour
         {
             MobileAdsEventExecutor.ExecuteInUpdate(() =>
             {
-                if (this == null || Instance != this || interstitialAd != ad ||
-                    !isInterstitialShowing)
+                if (this == null || Instance != this ||
+                    interstitialAd != ad || !isInterstitialShowing)
                     return;
 
                 Debug.Log("[ADS] Interstitial abierto.");
@@ -251,19 +262,66 @@ public class AdsManager : MonoBehaviour
         };
     }
 
-    // Permite conservar el botón de pruebas del menú durante el desarrollo.
-    // El botón de pruebas ignora la frecuencia; el gameplay NO la ignora.
+    // Se llama UNA vez al terminar una partida por quedarse sin vidas.
+    public void RegisterFinishedGame()
+    {
+        finishedGamesSinceInterstitial = Mathf.Min(
+            finishedGamesSinceInterstitial + 1, 1000000);
+        PlayerPrefs.SetInt(FinishedGamesKey, finishedGamesSinceInterstitial);
+        PlayerPrefs.Save();
+
+        Debug.Log("[ADS] Partidas terminadas desde el ultimo anuncio: " +
+                  finishedGamesSinceInterstitial + "/" + gamesPerInterstitial);
+    }
+
+    // Si devuelve false, GameManager sigue inmediatamente con la transicion.
+    public bool TryShowGameOverInterstitial(Action onFinished)
+    {
+#if UNITY_ANDROID && !UNITY_EDITOR
+        if (onFinished == null)
+            return false;
+
+        if (finishedGamesSinceInterstitial < gamesPerInterstitial)
+        {
+            Debug.Log("[ADS] Frecuencia no alcanzada.");
+            return false;
+        }
+
+        double elapsedSeconds = DateTimeOffset.UtcNow.ToUnixTimeSeconds() -
+                                lastInterstitialUtc;
+        if (lastInterstitialUtc > 0 && elapsedSeconds < minimumSecondsBetweenAds)
+        {
+            Debug.Log("[ADS] Cooldown activo. Sin anuncio.");
+            return false;
+        }
+
+        if (Time.realtimeSinceStartup - lastResumeRealtime < minimumSecondsAfterResume)
+        {
+            Debug.Log("[ADS] Se reanudo la app recientemente. Sin anuncio.");
+            return false;
+        }
+
+        RefreshExpiredInterstitial();
+        return TryShowLoadedInterstitial(onFinished, true);
+#else
+        return false;
+#endif
+    }
+
+    // Exclusivamente para el boton temporal de pruebas. Inerte en produccion.
     public void ShowTestInterstitial()
     {
+#if UNITY_ANDROID && DEVELOPMENT_BUILD && !UNITY_EDITOR
         if (!TryShowLoadedInterstitial(null, false))
-        {
-            Debug.Log("[ADS] Interstitial aún no disponible para prueba.");
-        }
+            Debug.Log("[ADS] Interstitial no disponible para prueba.");
+#else
+        Debug.Log("[ADS] Boton de prueba deshabilitado fuera de Development Build Android.");
+#endif
     }
 
     private bool TryShowLoadedInterstitial(Action onFinished, bool fromGameOver)
     {
-#if UNITY_ANDROID && DEVELOPMENT_BUILD && !UNITY_EDITOR
+#if UNITY_ANDROID && !UNITY_EDITOR
         if (!IsInitialized || PrivacyManager.Instance == null ||
             !PrivacyManager.Instance.CanRequestAds || !IsInterstitialReady())
             return false;
@@ -271,7 +329,7 @@ public class AdsManager : MonoBehaviour
         pendingAfterInterstitial = onFinished;
         currentInterstitialIsFromGameOver = fromGameOver;
         isInterstitialShowing = true;
-        Debug.Log("[ADS] Mostrando interstitial de prueba...");
+        Debug.Log("[ADS] Mostrando interstitial...");
 
         try
         {
@@ -279,14 +337,13 @@ public class AdsManager : MonoBehaviour
         }
         catch (Exception exception)
         {
-            Debug.LogWarning("[ADS] Show() falló: " + exception.Message);
-            // Si Show lanza una excepción, igualmente continuamos la transición.
+            Debug.LogWarning("[ADS] Show() fallo: " + exception.Message);
             FinishInterstitial(interstitialAd, null);
         }
 
+        // En caso de fallo de Show(), el callback ya continuo la transicion.
         return true;
 #else
-        Debug.Log("[ADS] Mostrar anuncio de prueba requiere Android Development Build.");
         return false;
 #endif
     }
@@ -314,12 +371,8 @@ public class AdsManager : MonoBehaviour
         pendingAfterInterstitial = null;
         ad.Destroy();
 
-        // Cada interstitial solo puede mostrarse una vez.
-        LoadTestInterstitial();
-
-        // Siempre regresar al juego, tanto al cerrar como si el anuncio falla.
-        // El callback ya se ha vaciado, evitando duplicar reinicios.
-        onFinished?.Invoke();
+        LoadInterstitial(); // Cada anuncio puede mostrarse una sola vez.
+        onFinished?.Invoke(); // No bloquear una partida si hubo un error.
     }
 
     private void OnDestroy()
@@ -327,8 +380,8 @@ public class AdsManager : MonoBehaviour
         if (Instance != this)
             return;
 
-        interstitialAd?.Destroy();
-        interstitialAd = null;
+        loadGeneration++;
+        DestroyLoadedInterstitial();
         Instance = null;
     }
 }

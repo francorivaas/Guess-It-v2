@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using GoogleMobileAds.Ump.Api;
@@ -8,12 +7,16 @@ public class PrivacyManager : MonoBehaviour
 {
     public static PrivacyManager Instance { get; private set; }
 
+    // Se conserva para que PrivacyOptionsButtonUI siga funcionando sin cambios.
     public event Action<bool> PrivacyOptionsStateChanged;
+    // Permite renovar el banner cuando cambia el estado de consentimiento.
+    public event Action ConsentStatusUpdated;
 
     private SynchronizationContext unityContext;
 
-    public bool CanRequestAds =>
-        ConsentInformation.CanRequestAds();
+    public bool ConsentFlowFinished { get; private set; }
+
+    public bool CanRequestAds => ConsentInformation.CanRequestAds();
 
     public bool PrivacyOptionsRequired =>
         ConsentInformation.PrivacyOptionsRequirementStatus ==
@@ -28,16 +31,10 @@ public class PrivacyManager : MonoBehaviour
         }
 
         Instance = this;
-
-        // Se captura desde Awake, que se ejecuta en el hilo principal de Unity.
         unityContext = SynchronizationContext.Current;
 
         if (unityContext == null)
-        {
-            Debug.LogError(
-                "[PRIVACY] No se pudo obtener el contexto principal de Unity."
-            );
-        }
+            Debug.LogError("[PRIVACY] Falta el contexto principal de Unity.");
 
         DontDestroyOnLoad(gameObject);
     }
@@ -49,35 +46,20 @@ public class PrivacyManager : MonoBehaviour
 
     public void InitializePrivacy()
     {
+        ConsentFlowFinished = false;
         Debug.Log("[PRIVACY] Actualizando consentimiento...");
 
+        // Sin DebugGeography, ni TestDeviceHashedIds, ni Reset().
+        // Google determinara el mensaje segun la region real del usuario.
         var request = new ConsentRequestParameters();
-
-#if UNITY_ANDROID && !UNITY_EDITOR && DEVELOPMENT_BUILD
-        // Solo para las pruebas actuales: simula una ubicacion europea.
-        // No se incluye en las builds de produccion.
-        request.ConsentDebugSettings = new ConsentDebugSettings
-        {
-            DebugGeography = DebugGeography.EEA,
-            TestDeviceHashedIds = new List<string>
-            {
-                SystemInfo.deviceUniqueIdentifier.ToUpperInvariant()
-            }
-        };
-
-        Debug.Log("[PRIVACY] Modo de prueba europeo activado.");
-#endif
 
         ConsentInformation.Update(request, updateError =>
         {
             if (updateError != null)
             {
-                Debug.LogWarning(
-                    "[PRIVACY] Error al actualizar: " +
-                    updateError.Message
-                );
-
-                // UMP puede mantener un estado valido de la sesion anterior.
+                Debug.LogWarning("[PRIVACY] Error al actualizar: " +
+                                 updateError.Message);
+                // UMP puede conservar un estado valido de la sesion anterior.
                 CheckConsentStatus();
                 return;
             }
@@ -85,12 +67,8 @@ public class PrivacyManager : MonoBehaviour
             ConsentForm.LoadAndShowConsentFormIfRequired(formError =>
             {
                 if (formError != null)
-                {
-                    Debug.LogWarning(
-                        "[PRIVACY] Error del formulario: " +
-                        formError.Message
-                    );
-                }
+                    Debug.LogWarning("[PRIVACY] Error del formulario: " +
+                                     formError.Message);
 
                 CheckConsentStatus();
             });
@@ -101,10 +79,7 @@ public class PrivacyManager : MonoBehaviour
     {
         if (unityContext == null)
         {
-            Debug.LogError(
-                "[PRIVACY] No se puede actualizar el estado: " +
-                "falta el contexto principal de Unity."
-            );
+            Debug.LogError("[PRIVACY] No se puede evaluar consentimiento sin UnityContext.");
             return;
         }
 
@@ -113,29 +88,24 @@ public class PrivacyManager : MonoBehaviour
             if (this == null || Instance != this)
                 return;
 
-            Debug.Log("[PRIVACY] Finalizo el flujo UMP.");
-
+            ConsentFlowFinished = true;
             bool canRequest = CanRequestAds;
             bool optionsRequired = PrivacyOptionsRequired;
 
-            Debug.Log(
-                "[PRIVACY] Puede solicitar anuncios: " +
-                canRequest
-            );
+            Debug.Log("[PRIVACY] Puede solicitar anuncios: " + canRequest);
+            Debug.Log("[PRIVACY] Opciones de privacidad requeridas: " +
+                      optionsRequired);
 
-            Debug.Log(
-                "[PRIVACY] Opciones de privacidad requeridas: " +
-                optionsRequired
-            );
-
-            // Actualiza la visibilidad del boton sin consultar UMP en Update().
             PrivacyOptionsStateChanged?.Invoke(optionsRequired);
 
-            // AdsManager protege contra inicializaciones duplicadas.
+            // Descarta anuncios preparados con preferencias anteriores.
+            AdsManager.Instance?.OnPrivacyStatusUpdated();
+
+            // InitializeOnce protege contra inicializaciones duplicadas.
             if (canRequest)
-            {
                 AdsManager.Instance?.InitializeOnce();
-            }
+
+            ConsentStatusUpdated?.Invoke();
         }, null);
     }
 
@@ -147,14 +117,9 @@ public class PrivacyManager : MonoBehaviour
         ConsentForm.ShowPrivacyOptionsForm(formError =>
         {
             if (formError != null)
-            {
-                Debug.LogWarning(
-                    "[PRIVACY] Error en opciones: " +
-                    formError.Message
-                );
-            }
+                Debug.LogWarning("[PRIVACY] Error en opciones: " +
+                                 formError.Message);
 
-            // Reevalua el estado despues de cerrar el formulario.
             CheckConsentStatus();
         });
     }
@@ -162,8 +127,6 @@ public class PrivacyManager : MonoBehaviour
     private void OnDestroy()
     {
         if (Instance == this)
-        {
             Instance = null;
-        }
     }
 }
